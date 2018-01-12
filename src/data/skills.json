@@ -1,0 +1,162 @@
+[
+  {
+    "id": "S1",
+    "name": "Alchemy",
+    "description": "Alchemy is the practice of binding magic to items or creating magical substances. This includes enchanting objects with special properties. Alchemy is the replacement of industry in this setting."
+  },
+  {
+    "id": "S2",
+    "name": "Arcana",
+    "description": "There is an invisible but tangible natural force that swims around in the space-between-space that individuals can tap into. \nIt is best described as a flickering flame on a candle. It helps you see what’s not there. It casts dancing shadows. It can destroy by dancing off the candle, catching parchment on fire. Yet – one needs it if they are to learn and understand. \nAnything is possible with Arcana magic. It is the practice of interacting with the mysterious and wondrous magical winding streams of Arcana energy. \n"
+  },
+  {
+    "id": "S3",
+    "name": "Athletics",
+    "description": "Your group’s characters lead dramatic lives filled with constant physical feats. Sometimes they’ll be fighting an opponent with a gun, but just as often they’ll be climbing mountains, swimming across raging rivers, and leaping across chasms. The Athletics skill determines how well characters perform these actions. It  serves as a measure of your character’s overall fitness and physical conditioning. Those who actively engage in a regimen of physical training, such as field infantry or scouts, are the most likely to have a high rank in Athletics. "
+  },
+  {
+    "id": "S4",
+    "name": "Brawl",
+    "description": "The Brawl skill is what your character uses to fight anyone who’s right in front of them, rather than beyond arm’s reach, when your character is fighting without any weapons. Martial arts, wrestling, and unarmed combat are all covered by this skill."
+  },
+  {
+    "id": "S5",
+    "name": "Charm",
+    "description": "The ability to compliment, flatter, woo, and generally make other people like you is something that’s pretty important to a lot of player characters. For characters who want to be likable, popular, and good at persuading other people to do what they want them to do, Charm is the skill they rely on. A character with a lot of ranks in Charm may be unctuous and insincerely flattering, or maybe they’re just a genuinely nice person. "
+  },
+  {
+    "id": "S6",
+    "name": "Coercion",
+    "description": "Some people believe that the only way to maintain respect is to be feared. Others have learned that the best way to get what they want is through screaming and the threat of violence. When your character attempts to instill obedience in a target through the use of threats or acts of physical intimidation, they use the  Coercion skill. Characters with multiple ranks in Coercion are often intimidating, scary, or even evil individuals. However, even goodhearted people may use Coercion to intimidate opponents so they can win a fight without bloodshed."
+  },
+  {
+    "id": "S7",
+    "name": "Cool",
+    "description": "Staying calm and maintaining composure, outwaiting an opponent, generally being cool: these exemplify things your character does with the Cool skill. Cool is something of a defensive skill in nature, since it most often comes up as the skill your character uses to resist attempts to sway or affect them. Cool also represents how your character appears to other people. If your character doesn’t want to show that something affected them, they would use the Cool skill to keep their emotions invisible."
+  },
+  {
+    "id": "S8",
+    "name": "Coordination",
+    "description": "In the course of adventures, characters sometimes find themselves needing to stay stable on unsteady surfaces, crawl through narrow openings, or even land safely after a fall. Overcoming these types of challenges requires a sense of balance and a heightened degree of flexibility, both of which are represented by the Coordination skill. Coordination serves as a measure of your character’s flexibility, sure-footedness, and hand-eye coordination."
+  },
+  {
+    "id": "S9",
+    "name": "Deception",
+    "description": "When your character needs to lie to someone, they use Deception. In fact, the Deception skill covers most attempts to fool or deceive someone, which makes the skill one of the more straightforward skills to use. One thing you should keep in mind, though, is that although lying is one of the most common ways to deceive someone, it’s not the only way. Your character may attempt to trick someone by only telling them certain facts and omitting others, or by using a misleading phrase. But even if you argue that your character technically told the truth, their actions still fall into the category of Deception."
+  },
+  {
+    "id": "S10",
+    "name": "Discipline",
+    "description": "Discipline is your character’s ability to focus their mind and quiet their thoughts. Discipline represents your character’s maintaining self-mastery and focus, specifically. Your character also uses Discipline to overcome fear or terror and stay calm in the face of the horrifying. In addition, Discipline represents your character’s mental fortitude to resist threats or coercion, or to disobey orders. Finally, in settings with psychic powers, characters may use Discipline to control those mental arts."
+  },
+  {
+    "id": "S11",
+    "name": "Divine",
+    "description": "Divine magic is rather superstitious and least understood branches of magic in the world. Divine magic is not learned through books. It is experienced and earned, as they say. However, some would say it is luck and chance. \nDivine magic roots from supernatural beings who are ultra-powerful named Avatars. These creatures entrust slivers of power to worthy beings who worship or serve them. They are not Gods, but it is very easy to mistake them as such. \nThey do not communicate with mortals often. When an Avatar does, it is in form of riddles and cryptic messages that are widely open to many interpretations. No same mortal will exactly hear the same message from an Avatar.\nDivine casters pray, meditate and focus solely on their service to an avatar. Prior to casting a spell, divine spell casters reach out to their Avatars. Should the Avatar answer their prayer, it will be in terms of a successful casting of that spell. \nIt is unpredictable as to forecast a spell casting being successful. When a spell caster has enough successes casting a spell, it turns into a tradition. After repeated celebrations and traditions of this particular set of spells, it leads to cults having strange and vibrant superstitions for each cult. \n\nDivine magic spell casters cannot tap into Arcana or Primal sources, they must abandon their beliefs and practices of the other schools.\n\nDivine magic is different yet similar to Arcana magic. It has a more synthetic feeling to the spell than a Primal spell. Yet, it has a more mysterious and organic feel than an Arcana spell. \n"
+  },
+  {
+    "id": "S12",
+    "name": "Gunnery",
+    "description": "Your character uses Gunnery, the third of the Ranged sub-skills, to fire machine guns, plasma cannons, heavy railguns, missile launchers, grenade launchers, and pretty much any other weapon large enough that you need a tripod or team of people to use it. Your character also uses it to fire weapons mounted on vehicles."
+  },
+  {
+    "id": "S13",
+    "name": "Knowledge: Mortality",
+    "description": "Geography, History, Languages, Literature, Political Science, Philosophy and Theology. All knowledges and things regarding mortals and their society. "
+  },
+  {
+    "id": "S14",
+    "name": "Knowledge: Natural",
+    "description": "Sciences, such as Agricultural, Biology, Ecology, Chemistry, Geology, Meteorology, and Physics. "
+  },
+  {
+    "id": "S15",
+    "name": "Knowledge: Paranormal",
+    "description": "This centers around the super natural forces of the world, such as the Arcana, Divine and Primal forces. Every mention in the rulebook to Knowledge in relation to Magic, this is the skill that rulebook should be referring to. "
+  },
+  {
+    "id": "S16",
+    "name": "Knowledge: Systems",
+    "description": "Knowledge which stems from predictable and repeatable patterns and various man-made applications. Examples include, but not limited to, Construction, Law, Engineering, Mathematics, War, Logistics, and Administrative affairs. "
+  },
+  {
+    "id": "S17",
+    "name": "Leadership",
+    "description": "While some may follow out of a sense of duty or fear, good leaders inspire their followers through a combination of charisma, bravery, and forceful personality. We represent this quality through the Leadership skill. Basically, Leadership is a combination of making smart decisions, being firm and decisive when doing so, and instilling a sense of loyalty and respect in your subordinates. Leadership also represents your character knowing the right decisions to make when authority is called for. Obviously, military commanders rely on Leadership, as do politicians, business owners, and even crime bosses."
+  },
+  {
+    "id": "S18",
+    "name": "Mechanics",
+    "description": "The Mechanics skill allows your character to build, disassemble, repair, or modify just about anything mechanical, from a broken radio to a wrecked gyrocopter. In addition, the Mechanics skill is used when salvaging technology, building fortifications, or troubleshooting a malfunctioning water pump, or any time your  character needs to swing a hammer or turn a wrench. Depending on the setting, this skill may focus on different elements. In a fantasy or other lowtechnology setting, this skill may cover smithing and crafting (and could potentially be called something more appropriate). "
+  },
+  {
+    "id": "S19",
+    "name": "Medicine",
+    "description": "In the course of their adventures, we expect your character to suffer injuries: everything from cuts and bruises to broken bones and bullet wounds. Medicine gets your character and their friends back on their feet. Any attempt to heal an organic character requires Medicine, as do other medical procedures such as selective surgery and installing cybernetics, and working with poisons, diseases, parasites, and drugs."
+  },
+  {
+    "id": "S20",
+    "name": "Melee",
+    "description": "The Melee skill is what your character uses to fight anyone who’s right in front of them, rather than beyond arm’s reach, when using a weapon. This skill, in its broadest interpretation, covers any sort of hand or melee weapon."
+  },
+  {
+    "id": "S21",
+    "name": "Negotiation",
+    "description": "When your character wants to make a deal, they’re going to use Negotiation. If Coercion is threatening someone, Deception is lying to someone, Charm is sweet-talking someone, and Leadership is telling someone what to do, Negotiation is convincing someone to do what you want by giving them something they want in return. The skill in Negotiation comes from getting as much as you can out of a deal while offering as little as possible to the person you negotiate with."
+  },
+  {
+    "id": "S22",
+    "name": "Operating",
+    "description": "Sometimes, a vehicle is so big that quick reflexes and a steady hand aren’t enough to operate it. When using these sorts of vehicles, for which your character needs training, a sharp mind, and the ability to keep track of a lot of information, your character employs the Operating skill. Operating represents your character’s ability to drive, pilot, fly, or sail anything big. Ships, dirigibles, and spaceships (really, anything with a crew) all require the Operating skill. In low-tech settings, your character may use this skill to steer and sail a sailing ship. In steampunk settings, Operating could be used to pilot a war zeppelin. In  modern day or weird war settings, your character needs this skill to sail a merchant steamer or pilot a submarine. In the science fiction or space opera settings, your character uses Operating to pilot large spaceships."
+  },
+  {
+    "id": "S23",
+    "name": "Perception",
+    "description": "When your character wants to make an active attempt to study their surroundings, notice clues in a crime scene, or search for hidden foes, they use the Perception skill to do so. Perception represents your character’s conscious use of all five senses to observe their environment (or, if you’re playing some sort of alien species, your character may have more than five). In any case, the most important point is that Perception represents your character’s active use of these senses. "
+  },
+  {
+    "id": "S24",
+    "name": "Primal",
+    "description": "There is the natural world which everything is tangible and is considered real. Then there is the nebulous and not well understood spirit world. This is where ghosts, elements, souls and spirits of objects walk. \nPrimal magic is about the link between the natural world and the spirit world. Primal spell casters are able to understand, interject their will, and intercept the linkage between the natural world and spirit world. \nThese spell casters can speak to elementals, see spirits and commune with those who already permanently wonder the afterlife. This in turn can give them a wide range of capabilities. They can convince air elementals to appear as a tornado, they can talk to trees, they can create terrible plagues or restore health to living creatures. The strongest casters have great control over life and death. \nLet is not be understood though, that Primal magic may see a soul, it can not outright own it or control it. Primal magic is about the linkage between the natural world and the spirit world. \nPrimal magic can only be used if a mortal was born with the ability. It cannot be taught. Those that do have Primal magic are not accepted by those who would grant Divine magic. In addition, the Arcana stream proves too difficult to control, making them not able to cast Arcana spells. "
+  },
+  {
+    "id": "S25",
+    "name": "Ranged (Heavy)",
+    "description": "In those same firearm-focused settings, your character uses Ranged (Heavy) to shoot rifles, shotguns, assault rifles, laser rifles, and similar weapons. This skill covers pretty much every heavy ranged weapon designed to be fired while carried in two hands, but not large enough that it requires multiple people or a tripod to use."
+  },
+  {
+    "id": "S26",
+    "name": "Ranged (Light)",
+    "description": "In settings where your characters do most of their fighting with firearms, your character uses Ranged (Light) to shoot pistols, throw knives, and toss grenades at their opponents. This skill covers pretty much every light ranged weapon designed to be fired (or thrown) from one hand."
+  },
+  {
+    "id": "S27",
+    "name": "Resilience",
+    "description": "When the going gets tough, the tough rely on their Resilience skill to keep going. Resilience represents your character’s ability to overcome pain and fight through fatigue. Characters with ranks in Resilience are also better at resisting poisons and diseases, and surviving hostile environments. When your character stumbles into a small Alaskan town after surviving two weeks on the frozen tundra, they have their Resilience skill to thank."
+  },
+  {
+    "id": "S28",
+    "name": "Skulduggery",
+    "description": "Most roleplaying games have a long and storied tradition of characters disarming traps, picking locks, and (if those tasks fail) breaking out of prison. In our game, characters perform those activities with the Skulduggery skill. Skulduggery covers a combination of skills your character would use to engage in covert or  criminal activity. If you’re building a character you’d consider a “thief ” or “rogue,” this is one skill you should pick up."
+  },
+  {
+    "id": "S29",
+    "name": "Stealth",
+    "description": "When your character wants to act unnoticed by anyone else, they use the Stealth skill. In many ways, Stealth is one of the simpler skills, and it covers a pretty specific set of activities. However, being stealthy is something that comes up in many roleplaying games, so it tends to be a very useful skill to invest in."
+  },
+  {
+    "id": "S30",
+    "name": "Streetwise",
+    "description": "Some call it the “school of hard knocks,” while others refer to it as “street smarts” or “gut instincts,” but in all cases, the Streetwise skill is your character’s ability to survive and thrive in rough and dangerous urban areas. If your character has ranks in Streetwise, they instinctively know how criminals tend to operate, which locations to avoid after dark, where to go to obtain illicit drugs and services, and other information crucial for making their way in the seedy underbelly of a major city. In many ways, Streetwise can be thought of as the urban counterpart to Survival. They both represent many of the same activities, but Streetwise applies to urban areas, while Survival applies to the wilderness."
+  },
+  {
+    "id": "S31",
+    "name": "Survival",
+    "description": "There are a thousand tricks your character needs to master in order to survive in the wilderness, and the more ranks in Survival they have, the more likely they are to know them. The Survival skill covers your character’s ability to find food and water, cope with dangerous conditions, hunt and skin animals, and, well, survive in any location that doesn’t have a supermarket on the corner. In many ways, you can think of Survival as the rural counterpart to Streetwise. They both represent many of the same activities, but Survival applies to the wilderness, while Streetwise applies to the big city. "
+  },
+  {
+    "id": "S32",
+    "name": "Vigilance",
+    "description": "Vigilance represents the ability to be constantly aware of your surroundings, often without consciously making the effort. Characters with ranks in Vigilance are more likely to spot threats in their environment, notice important clues out of the corner of their eye, and catch lies as they’re being told. You probably noticed from the description that Vigilance, more than most other skills, is a bit of a passive skill. In fact, Vigilance is supposed to be used when your character doesn’t expect a threat, isn’t looking for a clue, or is otherwise unaware of something important. This is why we use it to determine Initiative in combat when a character is surprised, to see how much that character was paying attention. It also means that when your GM asks you to make a Vigilance check, you may \nsuspect that something is up. Your character, however, shouldn’t be suspicious (unless they pass the check!) Vigilance is also one of skills that you use to oppose certain social skill checks (primarily Deception) when those checks target your character."
+  }
+]

@@ -1,0 +1,291 @@
+[
+  {
+    "id": "R1",
+    "name": "Arisen",
+    "description": "The Arisen have been around for generations, but are dwindling in numbers. The Arisen are mammals, but are very alien looking. An Arisen has a have long, thin whip-like tails with an arrow head at its tip - much like a devil. From their feet to the neck, they are very similar to humans. However, bone-like clamps cover an exposed spine, which glows in shades of bright blues displaying stress or emotions. The neck craddles a wedged perplexinly thin pyramid-shaped skull. The side of the pyramid that faces outwards is wide and slopped downward. A singular glowing eye sits at the top, under small holes for air and smell with a human like mouth at the bottom of the slope. A substance that is a rough bark-like skin wraps around their skull. They do not produce breast milk and their childhood is much shorter than Humans. They can live up to 150 years. Their pigment is varying colors of green, dark yellow, white and browns. Arisen are typically not well liked. They are arrogant. They are cavalier. Their intelligence gets the best of them. They are also rumored to be birthed from Avatars.",
+    "characteristics": [
+      {
+        "name": "Agility",
+        "value": 2
+      },
+      {
+        "name": "Brawn",
+        "value": 2
+      },
+      {
+        "name": "Cunning",
+        "value": 2
+      },
+      {
+        "name": "Intellect",
+        "value": 3
+      },
+      {
+        "name": "Presence",
+        "value": 1
+      },
+      {
+        "name": "Willpower",
+        "value": 2
+      }
+    ],
+    "derivedCharacteristics": [
+      {
+        "name": "Current Encumbrance",
+        "value": 0
+      },
+      {
+        "name": "Encumbrance Capacity",
+        "value": 5
+      },
+      {
+        "name": "Melee Defense",
+        "value": 0
+      },
+      {
+        "name": "Ranged Defense",
+        "value": 0
+      },
+      {
+        "name": "Soak",
+        "value": 0
+      },
+      {
+        "name": "Strain Threshold",
+        "value": 12
+      },
+      {
+        "name": "Wounds Threshold",
+        "value": 9
+      }
+    ],
+    "startingXP": 90,
+    "racialSkills": [
+      "I Know Things: Pick any one Knowledge (Mortality, Natural, Paranormal, or Systems) and gain one rank of it. They start off with this knowledge prior to spending any points in Character Creation. It can not be increased above Rank 2 during character creation."
+    ],
+    "racialAbilities": [
+      "(Passive): Unprovoked Mage Rage: When targeting an ally with a spell, add one setback die. An uncanceled threat  causes the ally to become disoriented until the end of his next turn. This can be canceled by taking two additional strain",
+      "(Active): Natural Mage: Once per encounter, you may remove one setback die to any spell made as an incidental."
+    ],
+    "genres": [
+      "\"After Seven\""
+    ],
+    "headerBGVariant": "dark"
+  },
+  {
+    "id": "R2",
+    "name": "Elf",
+    "description": "Tall and long pointed ears, the Elf-kind all originate from the second apocalypse. They are very close in terms of human anatomy, except the Elf-kind minds have a brilliant capacity for reflexes and timing. They are either very pale or a coal black. Their natural senses are very much heightened as well. The Elf-kind also can outlive humans, with a lifespan of 225 years. If not in the Confederacy of Kingdom, Elf-kind is generally tolerated.",
+    "characteristics": [
+      {
+        "name": "Agility",
+        "value": 3
+      },
+      {
+        "name": "Brawn",
+        "value": 1
+      },
+      {
+        "name": "Cunning",
+        "value": 2
+      },
+      {
+        "name": "Intellect",
+        "value": 2
+      },
+      {
+        "name": "Presence",
+        "value": 2
+      },
+      {
+        "name": "Willpower",
+        "value": 2
+      }
+    ],
+    "derivedCharacteristics": [
+      {
+        "name": "Current Encumbrance",
+        "value": 0
+      },
+      {
+        "name": "Encumbrance Capacity",
+        "value": 5
+      },
+      {
+        "name": "Melee Defense",
+        "value": 1
+      },
+      {
+        "name": "Ranged Defense",
+        "value": 1
+      },
+      {
+        "name": "Soak",
+        "value": 0
+      },
+      {
+        "name": "Strain Threshold",
+        "value": 10
+      },
+      {
+        "name": "Wounds Threshold",
+        "value": 10
+      }
+    ],
+    "startingXP": 90,
+    "racialSkills": [
+      "I See Things: An elf begins with one rank in Perception. You still cannot train their Perception above rank 2 during character creation."
+    ],
+    "racialAbilities": [
+      "(Passive): Nimble: Elfs get +1 ranged and melee defense."
+    ],
+    "genres": [
+      "\"After Seven\""
+    ],
+    "headerBGVariant": "success"
+  },
+  {
+    "id": "R3",
+    "name": "Human",
+    "description": "Humans are plentiful and adaptive. They are capable of surviving and have proven this capability throughout the seven apocalypses. They are able to make quick choices, adapt to hostile environments and persist. They are mostly slaves or nobles, it just depends on the circumstance.",
+    "characteristics": [
+      {
+        "name": "Agility",
+        "value": 2
+      },
+      {
+        "name": "Brawn",
+        "value": 2
+      },
+      {
+        "name": "Cunning",
+        "value": 3
+      },
+      {
+        "name": "Intellect",
+        "value": 2
+      },
+      {
+        "name": "Presence",
+        "value": 2
+      },
+      {
+        "name": "Willpower",
+        "value": 1
+      }
+    ],
+    "derivedCharacteristics": [
+      {
+        "name": "Current Encumbrance",
+        "value": 0
+      },
+      {
+        "name": "Encumbrance Capacity",
+        "value": 5
+      },
+      {
+        "name": "Melee Defense",
+        "value": 0
+      },
+      {
+        "name": "Ranged Defense",
+        "value": 0
+      },
+      {
+        "name": "Soak",
+        "value": 0
+      },
+      {
+        "name": "Strain Threshold",
+        "value": 10
+      },
+      {
+        "name": "Wounds Threshold",
+        "value": 10
+      }
+    ],
+    "startingXP": 100,
+    "racialSkills": [
+      "I Use Things: Pick one of the following skills Gunnery, Mechanics, Operating, Skulduggery, Streetwise, or Survival. Place one rank in that skill. They obtain this rank before spending experience points, and these skills may not be increased higher than rank 2 during character creation."
+    ],
+    "racialAbilities": [
+      "(Passive): Flexible: A human can ignore a setback die when repairing a device, operating a machine, making a makeshift shelter, or using an improvised weapon."
+    ],
+    "genres": [
+      "\"After Seven\""
+    ],
+    "headerBGVariant": "primary"
+  },
+  {
+    "id": "R4",
+    "name": "Protohuman",
+    "description": "When the Elf-kind emerged from the scene, the Protohumans also were there. Named as such as they are very similar to humans in terms of physical traits and appearances there are no pointy ears, tails or unusal markings on this race. However, they are much larger and physically capable than a human. A typical protohuman has a wide brow ridge, deep set eyes, and an impressive thickness of body mass. They are seen as crude, violent and not mentally capable. \nThey are very emotional creatures, often expressing thoughts and feelings with violence.",
+    "characteristics": [
+      {
+        "name": "Agility",
+        "value": 2
+      },
+      {
+        "name": "Brawn",
+        "value": 3
+      },
+      {
+        "name": "Cunning",
+        "value": 2
+      },
+      {
+        "name": "Intellect",
+        "value": 1
+      },
+      {
+        "name": "Presence",
+        "value": 2
+      },
+      {
+        "name": "Willpower",
+        "value": 2
+      }
+    ],
+    "derivedCharacteristics": [
+      {
+        "name": "Current Encumbrance",
+        "value": 0
+      },
+      {
+        "name": "Encumbrance Capacity",
+        "value": 5
+      },
+      {
+        "name": "Melee Defense",
+        "value": 0
+      },
+      {
+        "name": "Ranged Defense",
+        "value": 0
+      },
+      {
+        "name": "Soak",
+        "value": 0
+      },
+      {
+        "name": "Strain Threshold",
+        "value": 9
+      },
+      {
+        "name": "Wounds Threshold",
+        "value": 11
+      }
+    ],
+    "startingXP": 90,
+    "racialSkills": [
+      "I Hit Things: Gain one rank of Brawl. They start off with this knowledge prior to spending any points in Character Creation. It can not be increased above Rank 2 during character creation."
+    ],
+    "racialAbilities": [
+      "(Passive): Brick Wall: Protohumans are hard to socialize with, as they do not understand the simplest of communications at time. They are stubborn, reacting normally only to physical threats or coercion. All non-Protohuman creatures get a setback die for Charm, Deception, Leadership, and Negotiation checks they make on a Protohuman."
+    ],
+    "genres": [
+      "\"After Seven\""
+    ],
+    "headerBGVariant": "danger"
+  }
+]

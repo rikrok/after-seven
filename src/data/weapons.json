@@ -1,0 +1,6208 @@
+[
+  {
+    "id": "W1",
+    "category": "Weapon",
+    "subCategory": "Brawl Weapons",
+    "name": "Double Knuckles",
+    "encumbrance": 1,
+    "hardPoints": 1,
+    "value": 600,
+    "rarity": 4,
+    "description": "Similar to brass knuckles, but have a tightly wound up system of springs that serve as an immediate second punch to the target of similar force. ",
+    "skill": "Brawl",
+    "damage": 2,
+    "critical": 4,
+    "range": "Engaged",
+    "specialAbilities": [
+      "(Passive): To wield a Cumbersome weapon properly, the character needs a Brawn characteristic equal to or greater than the weapon’s Cumbersome rating. For each point of Brawn by which the character is deficient, they must increase the difficulty of all checks made while using the weapon by one. ",
+      "(Passive): A weapon’s Slow-Firing rating dictates the number of rounds that must pass before the weapon can be fired again after attacking. (x1)",
+      "(Passive): A weapon with this quality can only deal strain damage (damage applied to the target’s strain threshold, and thus soaked)"
+    ],
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 0
+      },
+      {
+        "name": "auto-fire",
+        "value": 0
+      },
+      {
+        "name": "blast",
+        "value": 0
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 0
+      },
+      {
+        "name": "concussive",
+        "value": 1
+      },
+      {
+        "name": "cumbersome",
+        "value": 0
+      },
+      {
+        "name": "defensive",
+        "value": 0
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 0
+      },
+      {
+        "name": "ensnare",
+        "value": 0
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 0
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 0
+      },
+      {
+        "name": "limited ammo",
+        "value": 0
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 0
+      },
+      {
+        "name": "prepare",
+        "value": 0
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 1
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 1
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 0
+      },
+      {
+        "name": "vicious",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "W2",
+    "category": "Weapon",
+    "subCategory": "Brawl Weapons",
+    "name": "Large Improvised",
+    "encumbrance": 4,
+    "hardPoints": 2,
+    "value": 0,
+    "rarity": 0,
+    "description": "Object used as a weapon such as a shovel, large tree branch, table, crate. ",
+    "skill": "Brawl",
+    "damage": 3,
+    "critical": 5,
+    "range": "Engaged",
+    "specialAbilities": [
+      "(Passive) Generate one automatic threat on any check.",
+      "Two hands to use if the user is silhouette 1 or smaller."
+    ],
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 0
+      },
+      {
+        "name": "auto-fire",
+        "value": 0
+      },
+      {
+        "name": "blast",
+        "value": 0
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 0
+      },
+      {
+        "name": "concussive",
+        "value": 0
+      },
+      {
+        "name": "cumbersome",
+        "value": 0
+      },
+      {
+        "name": "defensive",
+        "value": 0
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 0
+      },
+      {
+        "name": "ensnare",
+        "value": 0
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 0
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 0
+      },
+      {
+        "name": "limited ammo",
+        "value": 0
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 0
+      },
+      {
+        "name": "prepare",
+        "value": 0
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 0
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 0
+      },
+      {
+        "name": "vicious",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "W3",
+    "category": "Weapon",
+    "subCategory": "Brawl Weapons",
+    "name": "Medium Improvised",
+    "encumbrance": 3,
+    "hardPoints": 2,
+    "value": 0,
+    "rarity": 0,
+    "description": "Object used as a weapon such as a two-handed rock or chair. ",
+    "skill": "Brawl",
+    "damage": 2,
+    "critical": 5,
+    "range": "Engaged",
+    "specialAbilities": [
+      "(Passive) Generate one automatic threat on any check."
+    ],
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 0
+      },
+      {
+        "name": "auto-fire",
+        "value": 0
+      },
+      {
+        "name": "blast",
+        "value": 0
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 0
+      },
+      {
+        "name": "concussive",
+        "value": 0
+      },
+      {
+        "name": "cumbersome",
+        "value": 0
+      },
+      {
+        "name": "defensive",
+        "value": 0
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 0
+      },
+      {
+        "name": "ensnare",
+        "value": 0
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 0
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 0
+      },
+      {
+        "name": "limited ammo",
+        "value": 0
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 0
+      },
+      {
+        "name": "prepare",
+        "value": 0
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 0
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 0
+      },
+      {
+        "name": "vicious",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "W4",
+    "category": "Weapon",
+    "subCategory": "Brawl Weapons",
+    "name": "Small Improvised",
+    "encumbrance": 1,
+    "hardPoints": 1,
+    "value": 0,
+    "rarity": 0,
+    "description": "Object used as a weapon such as a bottle or fist-sized rock.",
+    "skill": "Brawl",
+    "damage": 1,
+    "critical": 5,
+    "range": "Engaged",
+    "specialAbilities": [
+      "(Passive) Generate one automatic threat on any check."
+    ],
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 0
+      },
+      {
+        "name": "auto-fire",
+        "value": 0
+      },
+      {
+        "name": "blast",
+        "value": 0
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 0
+      },
+      {
+        "name": "concussive",
+        "value": 0
+      },
+      {
+        "name": "cumbersome",
+        "value": 0
+      },
+      {
+        "name": "defensive",
+        "value": 0
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 0
+      },
+      {
+        "name": "ensnare",
+        "value": 0
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 0
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 0
+      },
+      {
+        "name": "limited ammo",
+        "value": 0
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 0
+      },
+      {
+        "name": "prepare",
+        "value": 0
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 0
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 0
+      },
+      {
+        "name": "vicious",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "W5",
+    "category": "Weapon",
+    "subCategory": "Brawl Weapons",
+    "name": "Unarmed",
+    "encumbrance": 0,
+    "hardPoints": 0,
+    "value": 0,
+    "rarity": 0,
+    "description": "Fists, Kicks, Etc.",
+    "skill": "Brawl",
+    "damage": 0,
+    "critical": 5,
+    "range": "Engaged",
+    "specialAbilities": [
+      "(Active): When Knockdown is triggered, one target hit by the attack is knocked prone. Knockdown requires two advantages to trigger, plus one additional advantage per silhouette of the target beyond 1."
+    ],
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 0
+      },
+      {
+        "name": "auto-fire",
+        "value": 0
+      },
+      {
+        "name": "blast",
+        "value": 0
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 0
+      },
+      {
+        "name": "concussive",
+        "value": 0
+      },
+      {
+        "name": "cumbersome",
+        "value": 0
+      },
+      {
+        "name": "defensive",
+        "value": 0
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 0
+      },
+      {
+        "name": "ensnare",
+        "value": 0
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 0
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 1
+      },
+      {
+        "name": "limited ammo",
+        "value": 0
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 0
+      },
+      {
+        "name": "prepare",
+        "value": 0
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 0
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 0
+      },
+      {
+        "name": "vicious",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "W6",
+    "category": "Weapon",
+    "subCategory": "Gunnery Weapons",
+    "name": "Deathrifle",
+    "encumbrance": 7,
+    "hardPoints": 4,
+    "value": 2000,
+    "rarity": 8,
+    "description": "This rifle uses special grease from Bloodoil to fling its bullets long distances with deadly force. Plumes of smoke whirl out of the chambers during automatic fire, blinding the area with light while also deafening the area with screaming souls. It is very unruly to use and requires both agility and brawn to use to make sure the gun does not point anywhere else than the enemy, as the alchemy seems to have given these rifles quite a mind of their own in terms of aiming.",
+    "skill": "Gunnery",
+    "damage": 11,
+    "critical": 2,
+    "range": "Extreme",
+    "specialAbilities": [
+      "(Active): Increase difficulty by one level, spend two advantages if the attack hits. Each hit adds base damage plus the number of successes on the check. See page 86 in the rule book for more detail.",
+      "(Passive): To wield a Cumbersome weapon properly, the character needs a Brawn characteristic equal to or greater than the weapon’s Cumbersome rating. For each point of Brawn by which the character is deficient, they must increase the difficulty of all checks made while using the weapon by one. ",
+      "(Passive): To wield an Unwieldy weapon properly, the character needs an Agility characteristic equal to or greater than the weapon’s Unwieldy rating. For each point of Agility by which the character is deficient, they must increase the difficulty of all checks made while using the weapon by one.",
+      "(Passive): When an attack with this weapon results in a Critical Injury or Hit, the character adds ten times the Vicious rating to the Critical roll."
+    ],
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 0
+      },
+      {
+        "name": "auto-fire",
+        "value": 1
+      },
+      {
+        "name": "blast",
+        "value": 0
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 0
+      },
+      {
+        "name": "concussive",
+        "value": 0
+      },
+      {
+        "name": "cumbersome",
+        "value": 3
+      },
+      {
+        "name": "defensive",
+        "value": 0
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 0
+      },
+      {
+        "name": "ensnare",
+        "value": 0
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 0
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 0
+      },
+      {
+        "name": "limited ammo",
+        "value": 0
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 0
+      },
+      {
+        "name": "prepare",
+        "value": 0
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 0
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 3
+      },
+      {
+        "name": "vicious",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "id": "W7",
+    "category": "Weapon",
+    "subCategory": "Gunnery Weapons",
+    "name": "Repeating Dreadrifle",
+    "encumbrance": 7,
+    "hardPoints": 4,
+    "value": 1700,
+    "rarity": 8,
+    "description": "It is a rifle operated by a hand crank that winds gears and springs to project bullets at high velocity and distances. The cranks require strength to operate to get the best use out of the heavy and thick rifle. A tripod is recommended to use with the Repeating Dreadrifle.",
+    "skill": "Gunnery",
+    "damage": 10,
+    "critical": 3,
+    "range": "Long",
+    "specialAbilities": [
+      "(Active): Increase difficulty by one level, spend two advantages if the attack hits. Each hit adds base damage plus the number of successes on the check. See page 86 in the rule book for more detail.",
+      "(Passive): To wield a Cumbersome weapon properly, the character needs a Brawn characteristic equal to or greater than the weapon’s Cumbersome rating. For each point of Brawn by which the character is deficient, they must increase the difficulty of all checks made while using the weapon by one. ",
+      "(Passive): Any hits from this weapon ignore a number of points point of soak equal to the weapon’s Pierce rating. If the weapon has more ranks of Pierce than the target’s total soak, it completely ignores the target’s soak.(x2)"
+    ],
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 0
+      },
+      {
+        "name": "auto-fire",
+        "value": 1
+      },
+      {
+        "name": "blast",
+        "value": 0
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 0
+      },
+      {
+        "name": "concussive",
+        "value": 0
+      },
+      {
+        "name": "cumbersome",
+        "value": 2
+      },
+      {
+        "name": "defensive",
+        "value": 0
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 0
+      },
+      {
+        "name": "ensnare",
+        "value": 0
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 0
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 0
+      },
+      {
+        "name": "limited ammo",
+        "value": 0
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 2
+      },
+      {
+        "name": "prepare",
+        "value": 0
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 0
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 0
+      },
+      {
+        "name": "vicious",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "W8",
+    "category": "Weapon",
+    "subCategory": "Gunnery Weapons",
+    "name": "Hand Drake",
+    "encumbrance": 8,
+    "hardPoints": 4,
+    "value": 2100,
+    "rarity": 8,
+    "description": "A large, awkward and heavy firearm that can spit fire from a moderate distant. It is created by Alchemy and runs on Arcanite salts and acids. The flames produced are a chemical burn, which water can not put out. If there was still a Christmas, this would on the top of the list for every infantry man.",
+    "skill": "Gunnery",
+    "damage": 12,
+    "critical": 2,
+    "range": "Medium",
+    "specialAbilities": [
+      "(Active): See page 86 in the rule book for more detail.",
+      "(Active): See page 87 in the rule book for more detail.",
+      "(Passive): To wield a Cumbersome weapon properly, the character needs a Brawn characteristic equal to or greater than the weapon’s Cumbersome rating. For each point of Brawn by which the character is deficient, they must increase the difficulty of all checks made while using the weapon by one. "
+    ],
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 0
+      },
+      {
+        "name": "auto-fire",
+        "value": 0
+      },
+      {
+        "name": "blast",
+        "value": 6
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 2
+      },
+      {
+        "name": "concussive",
+        "value": 0
+      },
+      {
+        "name": "cumbersome",
+        "value": 3
+      },
+      {
+        "name": "defensive",
+        "value": 0
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 0
+      },
+      {
+        "name": "ensnare",
+        "value": 0
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 0
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 0
+      },
+      {
+        "name": "limited ammo",
+        "value": 0
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 0
+      },
+      {
+        "name": "prepare",
+        "value": 1
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 0
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 0
+      },
+      {
+        "name": "vicious",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "W9",
+    "category": "Weapon",
+    "subCategory": "Melee Weapons",
+    "name": "Axe",
+    "encumbrance": 2,
+    "hardPoints": 1,
+    "value": 125,
+    "rarity": 3,
+    "skill": "Melee",
+    "damage": 3,
+    "critical": 3,
+    "range": "Engaged",
+    "specialAbilities": [
+      "(Passive): When an attack with this weapon results in a Critical Injury or Hit, the character adds ten times the Vicious rating to the Critical roll."
+    ],
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 0
+      },
+      {
+        "name": "auto-fire",
+        "value": 0
+      },
+      {
+        "name": "blast",
+        "value": 0
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 0
+      },
+      {
+        "name": "concussive",
+        "value": 0
+      },
+      {
+        "name": "cumbersome",
+        "value": 0
+      },
+      {
+        "name": "defensive",
+        "value": 0
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 0
+      },
+      {
+        "name": "ensnare",
+        "value": 0
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 0
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 0
+      },
+      {
+        "name": "limited ammo",
+        "value": 0
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 0
+      },
+      {
+        "name": "prepare",
+        "value": 0
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 0
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 0
+      },
+      {
+        "name": "vicious",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "id": "W10",
+    "category": "Weapon",
+    "subCategory": "Melee Weapons",
+    "name": "Claymore",
+    "encumbrance": 3,
+    "hardPoints": 2,
+    "value": 400,
+    "rarity": 3,
+    "skill": "Melee",
+    "damage": 4,
+    "critical": 2,
+    "range": "Engaged",
+    "specialAbilities": [
+      "(Passive): To wield a Cumbersome weapon properly, the character needs a Brawn characteristic equal to or greater than the weapon’s Cumbersome rating. For each point of Brawn by which the character is deficient, they must increase the difficulty of all checks made while using the weapon by one. ",
+      "(Passive): An item with the Defensive quality increases the user’s melee defense by its Defensive rating.",
+      "(Passive): Any hits from this weapon ignore a number of points point of soak equal to the weapon’s Pierce rating. If the weapon has more ranks of Pierce than the target’s total soak, it completely ignores the target’s soak.(x1)"
+    ],
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 0
+      },
+      {
+        "name": "auto-fire",
+        "value": 0
+      },
+      {
+        "name": "blast",
+        "value": 0
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 0
+      },
+      {
+        "name": "concussive",
+        "value": 0
+      },
+      {
+        "name": "cumbersome",
+        "value": 2
+      },
+      {
+        "name": "defensive",
+        "value": 2
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 0
+      },
+      {
+        "name": "ensnare",
+        "value": 0
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 0
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 0
+      },
+      {
+        "name": "limited ammo",
+        "value": 0
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 1
+      },
+      {
+        "name": "prepare",
+        "value": 0
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 0
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 0
+      },
+      {
+        "name": "vicious",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "W11",
+    "category": "Weapon",
+    "subCategory": "Melee Weapons",
+    "name": "Dagger",
+    "encumbrance": 1,
+    "hardPoints": 1,
+    "value": 200,
+    "rarity": 2,
+    "skill": "Melee",
+    "damage": 2,
+    "critical": 2,
+    "range": "Engaged",
+    "specialAbilities": [
+      "(Passive): When an attack with this weapon results in a Critical Injury or Hit, the character adds ten times the Vicious rating to the Critical roll."
+    ],
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 0
+      },
+      {
+        "name": "auto-fire",
+        "value": 0
+      },
+      {
+        "name": "blast",
+        "value": 0
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 0
+      },
+      {
+        "name": "concussive",
+        "value": 0
+      },
+      {
+        "name": "cumbersome",
+        "value": 0
+      },
+      {
+        "name": "defensive",
+        "value": 0
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 0
+      },
+      {
+        "name": "ensnare",
+        "value": 0
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 0
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 0
+      },
+      {
+        "name": "limited ammo",
+        "value": 0
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 0
+      },
+      {
+        "name": "prepare",
+        "value": 0
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 0
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 0
+      },
+      {
+        "name": "vicious",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "id": "W12",
+    "category": "Weapon",
+    "subCategory": "Melee Weapons",
+    "name": "Double Shiv",
+    "encumbrance": 2,
+    "hardPoints": 1,
+    "value": 500,
+    "rarity": 5,
+    "description": "Similar to that of the Double Knuckle, the double shiv stabs twice into the target through a very tightly wound up system of springs.",
+    "skill": "Melee",
+    "damage": 4,
+    "critical": 2,
+    "range": "Engaged",
+    "specialAbilities": [
+      "(Passive): Any hits from this weapon ignore a number of points point of soak equal to the weapon’s Pierce rating. If the weapon has more ranks of Pierce than the target’s total soak, it completely ignores the target’s soak.(x4)",
+      "(Passive): A weapon’s Slow-Firing rating dictates the number of rounds that must pass before the weapon can be fired again after attacking. (x3)",
+      "(Passive): When an attack with this weapon results in a Critical Injury or Hit, the character adds ten times the Vicious rating to the Critical roll."
+    ],
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 0
+      },
+      {
+        "name": "auto-fire",
+        "value": 0
+      },
+      {
+        "name": "blast",
+        "value": 0
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 0
+      },
+      {
+        "name": "concussive",
+        "value": 0
+      },
+      {
+        "name": "cumbersome",
+        "value": 0
+      },
+      {
+        "name": "defensive",
+        "value": 0
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 0
+      },
+      {
+        "name": "ensnare",
+        "value": 0
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 0
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 0
+      },
+      {
+        "name": "limited ammo",
+        "value": 0
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 4
+      },
+      {
+        "name": "prepare",
+        "value": 0
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 3
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 0
+      },
+      {
+        "name": "vicious",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "id": "W13",
+    "category": "Weapon",
+    "subCategory": "Melee Weapons",
+    "name": "Greataxe",
+    "encumbrance": 4,
+    "hardPoints": 2,
+    "value": 350,
+    "rarity": 4,
+    "skill": "Melee",
+    "damage": 4,
+    "critical": 3,
+    "range": "Engaged",
+    "specialAbilities": [
+      "(Passive): To wield a Cumbersome weapon properly, the character needs a Brawn characteristic equal to or greater than the weapon’s Cumbersome rating. For each point of Brawn by which the character is deficient, they must increase the difficulty of all checks made while using the weapon by one. ",
+      "(Passive): Any hits from this weapon ignore a number of points point of soak equal to the weapon’s Pierce rating. If the weapon has more ranks of Pierce than the target’s total soak, it completely ignores the target’s soak.(x2)",
+      "(Passive): When an attack with this weapon results in a Critical Injury or Hit, the character adds ten times the Vicious rating to the Critical roll."
+    ],
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 0
+      },
+      {
+        "name": "auto-fire",
+        "value": 0
+      },
+      {
+        "name": "blast",
+        "value": 0
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 0
+      },
+      {
+        "name": "concussive",
+        "value": 0
+      },
+      {
+        "name": "cumbersome",
+        "value": 3
+      },
+      {
+        "name": "defensive",
+        "value": 0
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 0
+      },
+      {
+        "name": "ensnare",
+        "value": 0
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 0
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 0
+      },
+      {
+        "name": "limited ammo",
+        "value": 0
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 2
+      },
+      {
+        "name": "prepare",
+        "value": 0
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 0
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 0
+      },
+      {
+        "name": "vicious",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "id": "W14",
+    "category": "Weapon",
+    "subCategory": "Melee Weapons",
+    "name": "Halberd",
+    "encumbrance": 3,
+    "hardPoints": 2,
+    "value": 250,
+    "rarity": 4,
+    "skill": "Melee",
+    "damage": 3,
+    "critical": 3,
+    "range": "Engaged",
+    "specialAbilities": [
+      "(Passive): An item with the Defensive quality increases the user’s melee defense by its Defensive rating.",
+      "(Passive): Any hits from this weapon ignore a number of points point of soak equal to the weapon’s Pierce rating. If the weapon has more ranks of Pierce than the target’s total soak, it completely ignores the target’s soak.(x1)"
+    ],
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 0
+      },
+      {
+        "name": "auto-fire",
+        "value": 0
+      },
+      {
+        "name": "blast",
+        "value": 0
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 0
+      },
+      {
+        "name": "concussive",
+        "value": 0
+      },
+      {
+        "name": "cumbersome",
+        "value": 0
+      },
+      {
+        "name": "defensive",
+        "value": 3
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 0
+      },
+      {
+        "name": "ensnare",
+        "value": 0
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 0
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 0
+      },
+      {
+        "name": "limited ammo",
+        "value": 0
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 1
+      },
+      {
+        "name": "prepare",
+        "value": 0
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 0
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 0
+      },
+      {
+        "name": "vicious",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "W15",
+    "category": "Weapon",
+    "subCategory": "Melee Weapons",
+    "name": "J'Tunns Sword",
+    "encumbrance": 6,
+    "hardPoints": 3,
+    "value": 1200,
+    "rarity": 9,
+    "description": "A gigantic Claymore imitation of the Avatar's titan like sword, where only the physically fit can wield it. It is often nicknamed the \"three handed sword\".",
+    "skill": "Melee",
+    "damage": 6,
+    "critical": 2,
+    "range": "Engaged",
+    "specialAbilities": [
+      "(Passive): To wield a Cumbersome weapon properly, the character needs a Brawn characteristic equal to or greater than the weapon’s Cumbersome rating. For each point of Brawn by which the character is deficient, they must increase the difficulty of all checks made while using the weapon by one.",
+      "(Passive): An item with the Defensive quality increases the user’s melee defense by its Defensive rating. ",
+      "(Passive): Any hits from this weapon ignore a number of points point of soak equal to the weapon’s Pierce rating. If the weapon has more ranks of Pierce than the target’s total soak, it completely ignores the target’s soak.(x1)",
+      "(Passive): When an attack with this weapon results in a Critical Injury or Hit, the character adds ten times the Vicious rating to the Critical roll."
+    ],
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 0
+      },
+      {
+        "name": "auto-fire",
+        "value": 0
+      },
+      {
+        "name": "blast",
+        "value": 0
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 0
+      },
+      {
+        "name": "concussive",
+        "value": 0
+      },
+      {
+        "name": "cumbersome",
+        "value": 3
+      },
+      {
+        "name": "defensive",
+        "value": 2
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 0
+      },
+      {
+        "name": "ensnare",
+        "value": 0
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 0
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 0
+      },
+      {
+        "name": "limited ammo",
+        "value": 0
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 1
+      },
+      {
+        "name": "prepare",
+        "value": 0
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 0
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 0
+      },
+      {
+        "name": "vicious",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "id": "W16",
+    "category": "Weapon",
+    "subCategory": "Melee Weapons",
+    "name": "Knife",
+    "encumbrance": 1,
+    "hardPoints": 1,
+    "value": 150,
+    "rarity": 2,
+    "skill": "Melee",
+    "damage": 2,
+    "critical": 3,
+    "range": "Engaged",
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 0
+      },
+      {
+        "name": "auto-fire",
+        "value": 0
+      },
+      {
+        "name": "blast",
+        "value": 0
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 0
+      },
+      {
+        "name": "concussive",
+        "value": 0
+      },
+      {
+        "name": "cumbersome",
+        "value": 0
+      },
+      {
+        "name": "defensive",
+        "value": 0
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 0
+      },
+      {
+        "name": "ensnare",
+        "value": 0
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 0
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 0
+      },
+      {
+        "name": "limited ammo",
+        "value": 0
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 0
+      },
+      {
+        "name": "prepare",
+        "value": 0
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 0
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 0
+      },
+      {
+        "name": "vicious",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "W17",
+    "category": "Weapon",
+    "subCategory": "Melee Weapons",
+    "name": "Light Spear",
+    "encumbrance": 3,
+    "hardPoints": 2,
+    "value": 150,
+    "rarity": 2,
+    "skill": "Melee",
+    "damage": 2,
+    "critical": 4,
+    "range": "Engaged",
+    "specialAbilities": [
+      "(Passive): For each level of the accurate quality, the attacker adds one boost die to their combat checks while using this weapon. (x1)"
+    ],
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 1
+      },
+      {
+        "name": "auto-fire",
+        "value": 0
+      },
+      {
+        "name": "blast",
+        "value": 0
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 0
+      },
+      {
+        "name": "concussive",
+        "value": 0
+      },
+      {
+        "name": "cumbersome",
+        "value": 0
+      },
+      {
+        "name": "defensive",
+        "value": 0
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 0
+      },
+      {
+        "name": "ensnare",
+        "value": 0
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 0
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 0
+      },
+      {
+        "name": "limited ammo",
+        "value": 0
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 0
+      },
+      {
+        "name": "prepare",
+        "value": 0
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 0
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 0
+      },
+      {
+        "name": "vicious",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "W18",
+    "category": "Weapon",
+    "subCategory": "Melee Weapons",
+    "name": "Long Knife",
+    "encumbrance": 2,
+    "hardPoints": 1,
+    "value": 100,
+    "rarity": 2,
+    "description": "It is just a long-pointed piece of steel, very much like swords seen in the Iron Age.",
+    "skill": "Melee",
+    "damage": 3,
+    "critical": 3,
+    "range": "Engaged",
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 0
+      },
+      {
+        "name": "auto-fire",
+        "value": 0
+      },
+      {
+        "name": "blast",
+        "value": 0
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 0
+      },
+      {
+        "name": "concussive",
+        "value": 0
+      },
+      {
+        "name": "cumbersome",
+        "value": 0
+      },
+      {
+        "name": "defensive",
+        "value": 0
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 0
+      },
+      {
+        "name": "ensnare",
+        "value": 0
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 0
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 0
+      },
+      {
+        "name": "limited ammo",
+        "value": 0
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 0
+      },
+      {
+        "name": "prepare",
+        "value": 0
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 0
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 0
+      },
+      {
+        "name": "vicious",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "W19",
+    "category": "Weapon",
+    "subCategory": "Melee Weapons",
+    "name": "Longsword",
+    "encumbrance": 2,
+    "hardPoints": 1,
+    "value": 175,
+    "rarity": 2,
+    "description": "This can be used either by one hand or two hands.",
+    "skill": "Melee",
+    "damage": 3,
+    "critical": 3,
+    "range": "Engaged",
+    "specialAbilities": [
+      "(Passive): For each level of the accurate quality, the attacker adds one boost die to their combat checks while using this weapon. (x1)"
+    ],
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 1
+      },
+      {
+        "name": "auto-fire",
+        "value": 0
+      },
+      {
+        "name": "blast",
+        "value": 0
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 0
+      },
+      {
+        "name": "concussive",
+        "value": 0
+      },
+      {
+        "name": "cumbersome",
+        "value": 0
+      },
+      {
+        "name": "defensive",
+        "value": 1
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 0
+      },
+      {
+        "name": "ensnare",
+        "value": 0
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 0
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 0
+      },
+      {
+        "name": "limited ammo",
+        "value": 0
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 0
+      },
+      {
+        "name": "prepare",
+        "value": 0
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 0
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 0
+      },
+      {
+        "name": "vicious",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "W20",
+    "category": "Weapon",
+    "subCategory": "Melee Weapons",
+    "name": "Mace",
+    "encumbrance": 2,
+    "hardPoints": 1,
+    "value": 75,
+    "rarity": 2,
+    "skill": "Melee",
+    "damage": 3,
+    "critical": 4,
+    "range": "Engaged",
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 0
+      },
+      {
+        "name": "auto-fire",
+        "value": 0
+      },
+      {
+        "name": "blast",
+        "value": 0
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 0
+      },
+      {
+        "name": "concussive",
+        "value": 0
+      },
+      {
+        "name": "cumbersome",
+        "value": 0
+      },
+      {
+        "name": "defensive",
+        "value": 0
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 0
+      },
+      {
+        "name": "ensnare",
+        "value": 0
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 0
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 0
+      },
+      {
+        "name": "limited ammo",
+        "value": 0
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 0
+      },
+      {
+        "name": "prepare",
+        "value": 0
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 0
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 0
+      },
+      {
+        "name": "vicious",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "W21",
+    "category": "Weapon",
+    "subCategory": "Melee Weapons",
+    "name": "Magus Mace",
+    "encumbrance": 4,
+    "hardPoints": 2,
+    "value": 975,
+    "rarity": 9,
+    "description": "A rounded spiked ball of metal that is very impressive and forged with care. It is primarily used in the Holy American Empire by its zealots.",
+    "skill": "Melee",
+    "damage": 8,
+    "critical": 3,
+    "range": "Engaged",
+    "specialAbilities": [
+      "(Passive): To wield a Cumbersome weapon properly, the character needs a Brawn characteristic equal to or greater than the weapon’s Cumbersome rating. For each point of Brawn by which the character is deficient, they must increase the difficulty of all checks made while using the weapon by one. ",
+      "(Active): One target hit by the attack is disoriented (see page 114) for a number of rounds equal to the weapon’s Disorient rating. A disoriented target adds one setback die to all skill checks they perform. If multiple targets suffer hits from a weapon with Disorient, the quality may be triggered multiple times, affecting a different target each time. ",
+      "(Passive): When an attack with this weapon results in a Critical Injury or Hit, the character adds ten times the Vicious rating to the Critical roll."
+    ],
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 0
+      },
+      {
+        "name": "auto-fire",
+        "value": 0
+      },
+      {
+        "name": "blast",
+        "value": 0
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 0
+      },
+      {
+        "name": "concussive",
+        "value": 0
+      },
+      {
+        "name": "cumbersome",
+        "value": 2
+      },
+      {
+        "name": "defensive",
+        "value": 0
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 2
+      },
+      {
+        "name": "ensnare",
+        "value": 0
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 0
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 0
+      },
+      {
+        "name": "limited ammo",
+        "value": 0
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 0
+      },
+      {
+        "name": "prepare",
+        "value": 0
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 0
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 0
+      },
+      {
+        "name": "vicious",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "id": "W22",
+    "category": "Weapon",
+    "subCategory": "Melee Weapons",
+    "name": "Pistoned Swordedge",
+    "encumbrance": 9,
+    "hardPoints": 5,
+    "value": 1150,
+    "rarity": 6,
+    "description": "Teeth are placed on rails that move up and down at a hurried and ungraceful  pace. The numerous pistons, fueled by oils, vibrate the hilt and the blade to move the teeth along the tiny rails, like a sawblade. This sword is a very lethal sword, but a sword that runs on ammo. It must be primed prior to its use. It is not held like a traditional sword, but has compartments to hold it as Pistons vibrate and jostle the sword. It is like a chain-saw, but terribly engineered and bizarre – but it gets the job done.",
+    "skill": "Melee",
+    "damage": 5,
+    "critical": 2,
+    "range": "Engaged",
+    "specialAbilities": [
+      "(Passive): To wield a Cumbersome weapon properly, the character needs a Brawn characteristic equal to or greater than the weapon’s Cumbersome rating. For each point of Brawn by which the character is deficient, they must increase the difficulty of all checks made while using the weapon by one.",
+      "(Passive): An item with the Defensive quality increases the user’s melee defense by its Defensive rating. ",
+      "(Passive): A weapon with the Limited Ammo quality may be used to make a number of attacks equal to its Limited Ammo rating before it must be reloaded with a maneuver. In addition, each shot expends one of a limited number of rounds of ammo",
+      " more ammo must be purchased or obtained before anyone fires the weapon again. ",
+      "(Passive): Items with this quality require time to set up before being used. The user must perform a number of preparation maneuvers equal to the item’s Prepare rating before using the item.",
+      "(Passive): When an attack with this weapon results in a Critical Injury or Hit, the character adds ten times the Vicious rating to the Critical roll."
+    ],
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 0
+      },
+      {
+        "name": "auto-fire",
+        "value": 0
+      },
+      {
+        "name": "blast",
+        "value": 0
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 0
+      },
+      {
+        "name": "concussive",
+        "value": 0
+      },
+      {
+        "name": "cumbersome",
+        "value": 3
+      },
+      {
+        "name": "defensive",
+        "value": 2
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 0
+      },
+      {
+        "name": "ensnare",
+        "value": 0
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 0
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 0
+      },
+      {
+        "name": "limited ammo",
+        "value": 4
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 0
+      },
+      {
+        "name": "prepare",
+        "value": 1
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 0
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 0
+      },
+      {
+        "name": "vicious",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "id": "W23",
+    "category": "Weapon",
+    "subCategory": "Melee Weapons",
+    "name": "Rapier",
+    "encumbrance": 3,
+    "hardPoints": 2,
+    "value": 450,
+    "rarity": 4,
+    "skill": "Melee",
+    "damage": 2,
+    "critical": 2,
+    "range": "Engaged",
+    "specialAbilities": [
+      "(Passive): Accurate weapons are easier to aim or wield, whether through design or technology. For each level of this quality, the attacker adds one boost die to their combat checks while using this weapon.",
+      "(Passive): When an attack with this weapon results in a Critical Injury or Hit, the character adds ten times the Vicious rating to the Critical roll."
+    ],
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 1
+      },
+      {
+        "name": "auto-fire",
+        "value": 0
+      },
+      {
+        "name": "blast",
+        "value": 0
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 0
+      },
+      {
+        "name": "concussive",
+        "value": 0
+      },
+      {
+        "name": "cumbersome",
+        "value": 0
+      },
+      {
+        "name": "defensive",
+        "value": 0
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 0
+      },
+      {
+        "name": "ensnare",
+        "value": 0
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 0
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 0
+      },
+      {
+        "name": "limited ammo",
+        "value": 0
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 0
+      },
+      {
+        "name": "prepare",
+        "value": 0
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 0
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 0
+      },
+      {
+        "name": "vicious",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "id": "W24",
+    "category": "Weapon",
+    "subCategory": "Melee Weapons",
+    "name": "Royal Rapier",
+    "encumbrance": 3,
+    "hardPoints": 2,
+    "value": 450,
+    "rarity": 4,
+    "description": "A very beautiful and ornate sword used by the Kingdom of Quebec. ",
+    "skill": "Melee",
+    "damage": 2,
+    "critical": 2,
+    "range": "Engaged",
+    "itemAttachment": [
+      "Duelist Cross Guard"
+    ],
+    "specialAbilities": [
+      "(Active) When an opponent resolves a melee combat check against the wielder, if the check generated at least one uncanceled threat, the wielder may suffer 1 strain as an out-of-turn incidental to add two threat to the results.",
+      "(Passive): Accurate weapons are easier to aim or wield, whether through design or technology. For each level of this quality, the attacker adds one boost die to their combat checks while using this weapon.",
+      "(Passive): When an attack with this weapon results in a Critical Injury or Hit, the character adds ten times the Vicious rating to the Critical roll."
+    ],
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 1
+      },
+      {
+        "name": "auto-fire",
+        "value": 0
+      },
+      {
+        "name": "blast",
+        "value": 0
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 0
+      },
+      {
+        "name": "concussive",
+        "value": 0
+      },
+      {
+        "name": "cumbersome",
+        "value": 0
+      },
+      {
+        "name": "defensive",
+        "value": 0
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 0
+      },
+      {
+        "name": "ensnare",
+        "value": 0
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 0
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 0
+      },
+      {
+        "name": "limited ammo",
+        "value": 0
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 0
+      },
+      {
+        "name": "prepare",
+        "value": 0
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 0
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 0
+      },
+      {
+        "name": "vicious",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "id": "W25",
+    "category": "Weapon",
+    "subCategory": "Melee Weapons",
+    "name": "Sabre",
+    "encumbrance": 3,
+    "hardPoints": 2,
+    "value": 650,
+    "rarity": 6,
+    "skill": "Melee",
+    "damage": 3,
+    "critical": 3,
+    "range": "Engaged",
+    "specialAbilities": [
+      "(Passive) Generate one automatic advantagea on all checks related to its use."
+    ],
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 0
+      },
+      {
+        "name": "auto-fire",
+        "value": 0
+      },
+      {
+        "name": "blast",
+        "value": 0
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 0
+      },
+      {
+        "name": "concussive",
+        "value": 0
+      },
+      {
+        "name": "cumbersome",
+        "value": 0
+      },
+      {
+        "name": "defensive",
+        "value": 0
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 0
+      },
+      {
+        "name": "ensnare",
+        "value": 0
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 0
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 0
+      },
+      {
+        "name": "limited ammo",
+        "value": 0
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 0
+      },
+      {
+        "name": "prepare",
+        "value": 0
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 0
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "superior",
+        "value": 1
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 0
+      },
+      {
+        "name": "vicious",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "W26",
+    "category": "Weapon",
+    "subCategory": "Melee Weapons",
+    "name": "Shield",
+    "encumbrance": 2,
+    "hardPoints": 1,
+    "value": 300,
+    "rarity": 2,
+    "skill": "Ranged (Light)",
+    "damage": 0,
+    "critical": 6,
+    "range": "Engaged",
+    "specialAbilities": [
+      "(Passive): An item with the Defensive quality increases the user’s melee defense by its Defensive rating.",
+      "(Passive): An item with the Defensive quality increases the user’s melee defense by its Defensive rating.",
+      "(Passive): An item with the Deflection quality increases the user’s ranged defense by its Deflection rating."
+    ],
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 0
+      },
+      {
+        "name": "auto-fire",
+        "value": 0
+      },
+      {
+        "name": "blast",
+        "value": 0
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 0
+      },
+      {
+        "name": "concussive",
+        "value": 0
+      },
+      {
+        "name": "cumbersome",
+        "value": 0
+      },
+      {
+        "name": "defensive",
+        "value": 1
+      },
+      {
+        "name": "deflection",
+        "value": 1
+      },
+      {
+        "name": "disorient",
+        "value": 0
+      },
+      {
+        "name": "ensnare",
+        "value": 0
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 0
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 0
+      },
+      {
+        "name": "limited ammo",
+        "value": 0
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 0
+      },
+      {
+        "name": "prepare",
+        "value": 0
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 0
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 0
+      },
+      {
+        "name": "vicious",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "W27",
+    "category": "Weapon",
+    "subCategory": "Melee Weapons",
+    "name": "Thunderknife (Blade)",
+    "encumbrance": 4,
+    "hardPoints": 2,
+    "value": 1100,
+    "rarity": 6,
+    "description": "An unbalanced and awkward cleaver of sorts that has a barrel for a hilt. It can chop fast and is very heavy.",
+    "skill": "Ranged (Light)",
+    "damage": 5,
+    "critical": 2,
+    "range": "Engaged",
+    "specialAbilities": [
+      "Can be used as a pistol.",
+      "(Passive): To wield a Cumbersome weapon properly, the character needs a Brawn characteristic equal to or greater than the weapon’s Cumbersome rating. For each point of Brawn by which the character is deficient, they must increase the difficulty of all checks made while using the weapon by one. ",
+      "(Passive): Any hits from this weapon ignore a number of points point of soak equal to the weapon’s Pierce rating. If the weapon has more ranks of Pierce than the target’s total soak, it completely ignores the target’s soak.(x2)",
+      "(Passive): To wield an Unwieldy weapon properly, the character needs an Agility characteristic equal to or greater than the weapon’s Unwieldy rating. For each point of Agility by which the character is deficient, they must increase the difficulty of all checks made while using the weapon by one."
+    ],
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 0
+      },
+      {
+        "name": "auto-fire",
+        "value": 0
+      },
+      {
+        "name": "blast",
+        "value": 0
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 0
+      },
+      {
+        "name": "concussive",
+        "value": 0
+      },
+      {
+        "name": "cumbersome",
+        "value": 2
+      },
+      {
+        "name": "defensive",
+        "value": 0
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 0
+      },
+      {
+        "name": "ensnare",
+        "value": 0
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 0
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 0
+      },
+      {
+        "name": "limited ammo",
+        "value": 0
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 2
+      },
+      {
+        "name": "prepare",
+        "value": 0
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 0
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 2
+      },
+      {
+        "name": "vicious",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "W28",
+    "category": "Weapon",
+    "subCategory": "Melee Weapons",
+    "name": "Thundersword (Blade)",
+    "encumbrance": 7,
+    "hardPoints": 4,
+    "value": 1200,
+    "rarity": 6,
+    "description": "An unbalanced and awkward longsword of sorts that has a barrel for a hilt. It can chop fast and is very heavy.",
+    "skill": "Ranged (Light)",
+    "damage": 4,
+    "critical": 3,
+    "range": "Engaged",
+    "specialAbilities": [
+      "Can be used as a rifle.",
+      "(Passive): To wield a Cumbersome weapon properly, the character needs a Brawn characteristic equal to or greater than the weapon’s Cumbersome rating. For each point of Brawn by which the character is deficient, they must increase the difficulty of all checks made while using the weapon by one.",
+      "(Passive): An item with the Defensive quality increases the user’s melee defense by its Defensive rating. ",
+      "(Passive): To wield an Unwieldy weapon properly, the character needs an Agility characteristic equal to or greater than the weapon’s Unwieldy rating. For each point of Agility by which the character is deficient, they must increase the difficulty of all checks made while using the weapon by one.",
+      "(Passive): When an attack with this weapon results in a Critical Injury or Hit, the character adds ten times the Vicious rating to the Critical roll."
+    ],
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 0
+      },
+      {
+        "name": "auto-fire",
+        "value": 0
+      },
+      {
+        "name": "blast",
+        "value": 0
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 0
+      },
+      {
+        "name": "concussive",
+        "value": 0
+      },
+      {
+        "name": "cumbersome",
+        "value": 2
+      },
+      {
+        "name": "defensive",
+        "value": 1
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 0
+      },
+      {
+        "name": "ensnare",
+        "value": 0
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 0
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 0
+      },
+      {
+        "name": "limited ammo",
+        "value": 0
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 0
+      },
+      {
+        "name": "prepare",
+        "value": 0
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 0
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 2
+      },
+      {
+        "name": "vicious",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "id": "W29",
+    "category": "Weapon",
+    "subCategory": "Ranged (Light) Weapons",
+    "name": "Confederate Hand Cannon",
+    "encumbrance": 3,
+    "hardPoints": 2,
+    "value": 2850,
+    "rarity": 9,
+    "description": "A dual barrel thick shotgun that fires out a wide blast of shrapnel with thick pluming smoke after the blast.",
+    "skill": "Ranged (Light)",
+    "damage": 9,
+    "critical": 3,
+    "range": "Short",
+    "itemAttachment": [
+      "Hair Trigger"
+    ],
+    "specialAbilities": [
+      "Add one boost die when using this weapon.",
+      "(Active): See page 86 in the rule book for more detail.",
+      "(Passive): A weapon with the Limited Ammo quality may be used to make a number of attacks equal to its Limited Ammo rating before it must be reloaded with a maneuver. In addition, each shot expends one of a limited number of rounds of ammo",
+      " more ammo must be purchased or obtained before anyone fires the weapon again. ",
+      "(Passive): Any hits from this weapon ignore a number of points point of soak equal to the weapon’s Pierce rating. If the weapon has more ranks of Pierce than the target’s total soak, it completely ignores the target’s soak.(x1)",
+      "(Passive): To wield an Unwieldy weapon properly, the character needs an Agility characteristic equal to or greater than the weapon’s Unwieldy rating. For each point of Agility by which the character is deficient, they must increase the difficulty of all checks made while using the weapon by one.",
+      "(Passive): When an attack with this weapon results in a Critical Injury or Hit, the character adds ten times the Vicious rating to the Critical roll."
+    ],
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 0
+      },
+      {
+        "name": "auto-fire",
+        "value": 0
+      },
+      {
+        "name": "blast",
+        "value": 3
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 0
+      },
+      {
+        "name": "concussive",
+        "value": 0
+      },
+      {
+        "name": "cumbersome",
+        "value": 0
+      },
+      {
+        "name": "defensive",
+        "value": 0
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 0
+      },
+      {
+        "name": "ensnare",
+        "value": 0
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 0
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 0
+      },
+      {
+        "name": "limited ammo",
+        "value": 2
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 1
+      },
+      {
+        "name": "prepare",
+        "value": 0
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 0
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 2
+      },
+      {
+        "name": "vicious",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "id": "W30",
+    "category": "Weapon",
+    "subCategory": "Ranged (Light) Weapons",
+    "name": "Flintlock Pistol",
+    "encumbrance": 3,
+    "hardPoints": 2,
+    "value": 250,
+    "rarity": 3,
+    "skill": "Ranged (Light)",
+    "damage": 6,
+    "critical": 2,
+    "range": "Medium",
+    "specialAbilities": [
+      "(Passive): A weapon with the Limited Ammo quality may be used to make a number of attacks equal to its Limited Ammo rating before it must be reloaded with a maneuver. In addition, each shot expends one of a limited number of rounds of ammo",
+      " more ammo must be purchased or obtained before anyone fires the weapon again. "
+    ],
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 0
+      },
+      {
+        "name": "auto-fire",
+        "value": 0
+      },
+      {
+        "name": "blast",
+        "value": 0
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 0
+      },
+      {
+        "name": "concussive",
+        "value": 0
+      },
+      {
+        "name": "cumbersome",
+        "value": 0
+      },
+      {
+        "name": "defensive",
+        "value": 0
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 0
+      },
+      {
+        "name": "ensnare",
+        "value": 0
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 0
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 0
+      },
+      {
+        "name": "limited ammo",
+        "value": 4
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 0
+      },
+      {
+        "name": "prepare",
+        "value": 0
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 0
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 0
+      },
+      {
+        "name": "vicious",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "W31",
+    "category": "Weapon",
+    "subCategory": "Ranged (Light) Weapons",
+    "name": "Hand cannon",
+    "encumbrance": 3,
+    "hardPoints": 2,
+    "value": 950,
+    "rarity": 2,
+    "skill": "Ranged (Light)",
+    "damage": 9,
+    "critical": 3,
+    "range": "Short",
+    "specialAbilities": [
+      "(Active): See page 86 in the rule book for more detail.",
+      "(Passive): A weapon with the Limited Ammo quality may be used to make a number of attacks equal to its Limited Ammo rating before it must be reloaded with a maneuver. In addition, each shot expends one of a limited number of rounds of ammo",
+      " more ammo must be purchased or obtained before anyone fires the weapon again. ",
+      "(Passive): Any hits from this weapon ignore a number of points point of soak equal to the weapon’s Pierce rating. If the weapon has more ranks of Pierce than the target’s total soak, it completely ignores the target’s soak.(x1)",
+      "(Passive): To wield an Unwieldy weapon properly, the character needs an Agility characteristic equal to or greater than the weapon’s Unwieldy rating. For each point of Agility by which the character is deficient, they must increase the difficulty of all checks made while using the weapon by one.",
+      "(Passive): When an attack with this weapon results in a Critical Injury or Hit, the character adds ten times the Vicious rating to the Critical roll."
+    ],
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 0
+      },
+      {
+        "name": "auto-fire",
+        "value": 0
+      },
+      {
+        "name": "blast",
+        "value": 3
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 0
+      },
+      {
+        "name": "concussive",
+        "value": 0
+      },
+      {
+        "name": "cumbersome",
+        "value": 0
+      },
+      {
+        "name": "defensive",
+        "value": 0
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 0
+      },
+      {
+        "name": "ensnare",
+        "value": 0
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 0
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 0
+      },
+      {
+        "name": "limited ammo",
+        "value": 2
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 1
+      },
+      {
+        "name": "prepare",
+        "value": 0
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 0
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 2
+      },
+      {
+        "name": "vicious",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "id": "W32",
+    "category": "Weapon",
+    "subCategory": "Ranged (Light) Weapons",
+    "name": "Hand Spring Crossbow",
+    "encumbrance": 2,
+    "hardPoints": 1,
+    "value": 350,
+    "rarity": 2,
+    "description": "A lightweight cross bow that is spring and rubber band operated. It is very easy to break, but easy to manufacture. This is a staple of criminals and thugs alike.",
+    "skill": "Ranged (Light)",
+    "damage": 5,
+    "critical": 3,
+    "range": "Short",
+    "specialAbilities": [
+      "(Active): Increase difficulty by one level, spend two advantages if the attack hits. Each hit adds base damage plus the number of successes on the check. See page 86 in the rule book for more detail.",
+      "(Passive): A weapon with the Limited Ammo quality may be used to make a number of attacks equal to its Limited Ammo rating before it must be reloaded with a maneuver. In addition, each shot expends one of a limited number of rounds of ammo",
+      " more ammo must be purchased or obtained before anyone fires the weapon again. "
+    ],
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 0
+      },
+      {
+        "name": "auto-fire",
+        "value": 1
+      },
+      {
+        "name": "blast",
+        "value": 0
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 0
+      },
+      {
+        "name": "concussive",
+        "value": 0
+      },
+      {
+        "name": "cumbersome",
+        "value": 0
+      },
+      {
+        "name": "defensive",
+        "value": 0
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 0
+      },
+      {
+        "name": "ensnare",
+        "value": 0
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 0
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 0
+      },
+      {
+        "name": "limited ammo",
+        "value": 5
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 0
+      },
+      {
+        "name": "prepare",
+        "value": 0
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 0
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 0
+      },
+      {
+        "name": "vicious",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "W33",
+    "category": "Weapon",
+    "subCategory": "Ranged (Light) Weapons",
+    "name": "Manarok Grenade",
+    "encumbrance": 1,
+    "hardPoints": 1,
+    "value": 1680,
+    "rarity": 8,
+    "description": "A device containing angry and imprisoned elemental spirits. In order to use this, attackers must prime the device by pushing a series of buttons that shock and irritate the spirits. When struck, the device will shatter with the spirit's anger releasing in a deadly explosion.",
+    "skill": "Ranged (Light)",
+    "damage": 7,
+    "critical": 2,
+    "range": "Short",
+    "specialAbilities": [
+      "(Active): See page 86 in the rule book for more detail.",
+      "(Active): See page 87 in the rule book for more detail.",
+      "(Passive): To wield a Cumbersome weapon properly, the character needs a Brawn characteristic equal to or greater than the weapon’s Cumbersome rating. For each point of Brawn by which the character is deficient, they must increase the difficulty of all checks made while using the weapon by one. ",
+      "(Passive): When making an attack with an Inaccurate weapon, add setback dice to the check equal to the Inaccurate rating. (x2)",
+      "(Active): When Knockdown is triggered, one target hit by the attack is knocked prone. Knockdown requires two advantages to trigger, plus one additional advantage per silhouette of the target beyond 1.",
+      "(Passive): A weapon with the Limited Ammo quality may be used to make a number of attacks equal to its Limited Ammo rating before it must be reloaded with a maneuver. In addition, each shot expends one of a limited number of rounds of ammo",
+      " more ammo must be purchased or obtained before anyone fires the weapon again. ",
+      "(Passive): Items with this quality require time to set up before being used. The user must perform a number of preparation maneuvers equal to the item’s Prepare rating before using the item."
+    ],
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 0
+      },
+      {
+        "name": "auto-fire",
+        "value": 0
+      },
+      {
+        "name": "blast",
+        "value": 4
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 1
+      },
+      {
+        "name": "concussive",
+        "value": 2
+      },
+      {
+        "name": "cumbersome",
+        "value": 0
+      },
+      {
+        "name": "defensive",
+        "value": 0
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 0
+      },
+      {
+        "name": "ensnare",
+        "value": 0
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 2
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 1
+      },
+      {
+        "name": "limited ammo",
+        "value": 1
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 0
+      },
+      {
+        "name": "prepare",
+        "value": 1
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 0
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 0
+      },
+      {
+        "name": "vicious",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "W34",
+    "category": "Weapon",
+    "subCategory": "Ranged (Light) Weapons",
+    "name": "Mini Springslugger",
+    "encumbrance": 3,
+    "hardPoints": 2,
+    "value": 300,
+    "rarity": 3,
+    "description": "The widely popular cousin of the Springslug, it is easier to aim but has shorter range and damage.",
+    "skill": "Ranged (Light)",
+    "damage": 4,
+    "critical": 3,
+    "range": "Short",
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 0
+      },
+      {
+        "name": "auto-fire",
+        "value": 0
+      },
+      {
+        "name": "blast",
+        "value": 0
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 0
+      },
+      {
+        "name": "concussive",
+        "value": 0
+      },
+      {
+        "name": "cumbersome",
+        "value": 0
+      },
+      {
+        "name": "defensive",
+        "value": 0
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 0
+      },
+      {
+        "name": "ensnare",
+        "value": 0
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 0
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 0
+      },
+      {
+        "name": "limited ammo",
+        "value": 0
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 0
+      },
+      {
+        "name": "prepare",
+        "value": 0
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 0
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 0
+      },
+      {
+        "name": "vicious",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "W35",
+    "category": "Weapon",
+    "subCategory": "Ranged (Light) Weapons",
+    "name": "Springslug",
+    "encumbrance": 2,
+    "hardPoints": 1,
+    "value": 700,
+    "rarity": 4,
+    "description": "A lightweight pistol with a good range that is common on the battlefield, used  by officers. The thing is hard to aim and is largely unreliable due to the inner  mechanisms of gears, bolt actions and springs.",
+    "skill": "Ranged (Light)",
+    "damage": 6,
+    "critical": 4,
+    "range": "Long",
+    "specialAbilities": [
+      "(Passive): When making an attack with an Inaccurate weapon, add setback dice to the check equal to the Inaccurate rating. (x2)"
+    ],
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 0
+      },
+      {
+        "name": "auto-fire",
+        "value": 0
+      },
+      {
+        "name": "blast",
+        "value": 0
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 0
+      },
+      {
+        "name": "concussive",
+        "value": 0
+      },
+      {
+        "name": "cumbersome",
+        "value": 0
+      },
+      {
+        "name": "defensive",
+        "value": 0
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 0
+      },
+      {
+        "name": "ensnare",
+        "value": 0
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 2
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 0
+      },
+      {
+        "name": "limited ammo",
+        "value": 0
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 0
+      },
+      {
+        "name": "prepare",
+        "value": 0
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 0
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 0
+      },
+      {
+        "name": "vicious",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "W36",
+    "category": "Weapon",
+    "subCategory": "Ranged (Light) Weapons",
+    "name": "Thunderknife (Gun)",
+    "encumbrance": 4,
+    "hardPoints": 2,
+    "value": 1100,
+    "rarity": 6,
+    "description": "A thunderous pistol that produces smoke and death when fired.",
+    "skill": "Ranged (Light)",
+    "damage": 5,
+    "critical": 2,
+    "range": "Short",
+    "specialAbilities": [
+      "(Active): See page 86 in the rule book for more detail.",
+      "(Passive): When making an attack with an Inaccurate weapon, add setback dice to the check equal to the Inaccurate rating. (x1)",
+      "(Passive): Any hits from this weapon ignore a number of points point of soak equal to the weapon’s Pierce rating. If the weapon has more ranks of Pierce than the target’s total soak, it completely ignores the target’s soak.(x2)",
+      "(Passive): To wield an Unwieldy weapon properly, the character needs an Agility characteristic equal to or greater than the weapon’s Unwieldy rating. For each point of Agility by which the character is deficient, they must increase the difficulty of all checks made while using the weapon by one.",
+      "(Passive): When an attack with this weapon results in a Critical Injury or Hit, the character adds ten times the Vicious rating to the Critical roll."
+    ],
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 0
+      },
+      {
+        "name": "auto-fire",
+        "value": 0
+      },
+      {
+        "name": "blast",
+        "value": 2
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 0
+      },
+      {
+        "name": "concussive",
+        "value": 0
+      },
+      {
+        "name": "cumbersome",
+        "value": 0
+      },
+      {
+        "name": "defensive",
+        "value": 0
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 0
+      },
+      {
+        "name": "ensnare",
+        "value": 0
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 1
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 0
+      },
+      {
+        "name": "limited ammo",
+        "value": 0
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 2
+      },
+      {
+        "name": "prepare",
+        "value": 0
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 0
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 2
+      },
+      {
+        "name": "vicious",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "id": "W37",
+    "category": "Weapon",
+    "subCategory": "Ranged (Heavy) Weapons",
+    "name": "Blunderbuss",
+    "encumbrance": 3,
+    "hardPoints": 2,
+    "value": 725,
+    "rarity": 4,
+    "description": "A very capable and common weapon that will shoot anything, granted if it is small enough, out of its barrel. It is a very crude, and loud, shotgun. Discharges create thick puffs of smoke that leaves a greasy residue.",
+    "skill": "Ranged (Heavy)",
+    "damage": 7,
+    "critical": 4,
+    "range": "Medium",
+    "specialAbilities": [
+      "(Active): See page 86 in the rule book for more detail.",
+      "(Passive): When making an attack with an Inaccurate weapon, add setback dice to the check equal to the Inaccurate rating. (x1)",
+      "(Passive): Any hits from this weapon ignore a number of points point of soak equal to the weapon’s Pierce rating. If the weapon has more ranks of Pierce than the target’s total soak, it completely ignores the target’s soak.(x1)"
+    ],
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 0
+      },
+      {
+        "name": "auto-fire",
+        "value": 0
+      },
+      {
+        "name": "blast",
+        "value": 3
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 0
+      },
+      {
+        "name": "concussive",
+        "value": 0
+      },
+      {
+        "name": "cumbersome",
+        "value": 0
+      },
+      {
+        "name": "defensive",
+        "value": 0
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 0
+      },
+      {
+        "name": "ensnare",
+        "value": 0
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 1
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 0
+      },
+      {
+        "name": "limited ammo",
+        "value": 0
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 1
+      },
+      {
+        "name": "prepare",
+        "value": 0
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 0
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 0
+      },
+      {
+        "name": "vicious",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "W38",
+    "category": "Weapon",
+    "subCategory": "Ranged (Heavy) Weapons",
+    "name": "Bow",
+    "encumbrance": 2,
+    "hardPoints": 1,
+    "value": 275,
+    "rarity": 2,
+    "skill": "Ranged (Heavy)",
+    "damage": 7,
+    "critical": 3,
+    "range": "Medium",
+    "specialAbilities": [
+      "(Passive): To wield an Unwieldy weapon properly, the character needs an Agility characteristic equal to or greater than the weapon’s Unwieldy rating. For each point of Agility by which the character is deficient, they must increase the difficulty of all checks made while using the weapon by one."
+    ],
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 0
+      },
+      {
+        "name": "auto-fire",
+        "value": 0
+      },
+      {
+        "name": "blast",
+        "value": 0
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 0
+      },
+      {
+        "name": "concussive",
+        "value": 0
+      },
+      {
+        "name": "cumbersome",
+        "value": 0
+      },
+      {
+        "name": "defensive",
+        "value": 0
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 0
+      },
+      {
+        "name": "ensnare",
+        "value": 0
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 0
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 0
+      },
+      {
+        "name": "limited ammo",
+        "value": 0
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 0
+      },
+      {
+        "name": "prepare",
+        "value": 0
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 0
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 2
+      },
+      {
+        "name": "vicious",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "W39",
+    "category": "Weapon",
+    "subCategory": "Ranged (Heavy) Weapons",
+    "name": "Crossbow",
+    "encumbrance": 3,
+    "hardPoints": 2,
+    "value": 600,
+    "rarity": 3,
+    "skill": "Ranged (Heavy)",
+    "damage": 7,
+    "critical": 2,
+    "range": "Medium",
+    "specialAbilities": [
+      "(Passive): Any hits from this weapon ignore a number of points point of soak equal to the weapon’s Pierce rating. If the weapon has more ranks of Pierce than the target’s total soak, it completely ignores the target’s soak.(x2)",
+      "(Passive): Items with this quality require time to set up before being used. The user must perform a number of preparation maneuvers equal to the item’s Prepare rating before using the item."
+    ],
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 0
+      },
+      {
+        "name": "auto-fire",
+        "value": 0
+      },
+      {
+        "name": "blast",
+        "value": 0
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 0
+      },
+      {
+        "name": "concussive",
+        "value": 0
+      },
+      {
+        "name": "cumbersome",
+        "value": 0
+      },
+      {
+        "name": "defensive",
+        "value": 0
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 0
+      },
+      {
+        "name": "ensnare",
+        "value": 0
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 0
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 0
+      },
+      {
+        "name": "limited ammo",
+        "value": 0
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 2
+      },
+      {
+        "name": "prepare",
+        "value": 1
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 0
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 0
+      },
+      {
+        "name": "vicious",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "W40",
+    "category": "Weapon",
+    "subCategory": "Ranged (Heavy) Weapons",
+    "name": "Light Dreadrifle",
+    "encumbrance": 4,
+    "hardPoints": 2,
+    "value": 1400,
+    "rarity": 3,
+    "description": "A well-made rifle that is deadly accurate. It made to shoot out modern-style ammunition at a high caliber. It is a single bolt-action rifle that uses modern style ammunition, but can be outfitted to use Bloodoil based ammunition.",
+    "skill": "Ranged (Heavy)",
+    "damage": 8,
+    "critical": 3,
+    "range": "Long",
+    "specialAbilities": [
+      "(Passive): Accurate weapons are easier to aim or wield, whether through design or technology. For each level of this quality, the attacker adds one boost die to their combat checks while using this weapon.",
+      "(Passive): When an attack with this weapon results in a Critical Injury or Hit, the character adds ten times the Vicious rating to the Critical roll."
+    ],
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 1
+      },
+      {
+        "name": "auto-fire",
+        "value": 0
+      },
+      {
+        "name": "blast",
+        "value": 0
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 0
+      },
+      {
+        "name": "concussive",
+        "value": 0
+      },
+      {
+        "name": "cumbersome",
+        "value": 0
+      },
+      {
+        "name": "defensive",
+        "value": 0
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 0
+      },
+      {
+        "name": "ensnare",
+        "value": 0
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 0
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 0
+      },
+      {
+        "name": "limited ammo",
+        "value": 0
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 0
+      },
+      {
+        "name": "prepare",
+        "value": 0
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 0
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 0
+      },
+      {
+        "name": "vicious",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "id": "W41",
+    "category": "Weapon",
+    "subCategory": "Ranged (Heavy) Weapons",
+    "name": "Longbow",
+    "encumbrance": 3,
+    "hardPoints": 2,
+    "value": 450,
+    "rarity": 3,
+    "skill": "Ranged (Heavy)",
+    "damage": 8,
+    "critical": 3,
+    "range": "Long",
+    "specialAbilities": [
+      "(Passive): To wield an Unwieldy weapon properly, the character needs an Agility characteristic equal to or greater than the weapon’s Unwieldy rating. For each point of Agility by which the character is deficient, they must increase the difficulty of all checks made while using the weapon by one."
+    ],
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 0
+      },
+      {
+        "name": "auto-fire",
+        "value": 0
+      },
+      {
+        "name": "blast",
+        "value": 0
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 0
+      },
+      {
+        "name": "concussive",
+        "value": 0
+      },
+      {
+        "name": "cumbersome",
+        "value": 0
+      },
+      {
+        "name": "defensive",
+        "value": 0
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 0
+      },
+      {
+        "name": "ensnare",
+        "value": 0
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 0
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 0
+      },
+      {
+        "name": "limited ammo",
+        "value": 0
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 0
+      },
+      {
+        "name": "prepare",
+        "value": 0
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 0
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 3
+      },
+      {
+        "name": "vicious",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "W42",
+    "category": "Weapon",
+    "subCategory": "Ranged (Heavy) Weapons",
+    "name": "Repeating Springrifle",
+    "encumbrance": 4,
+    "hardPoints": 2,
+    "value": 1300,
+    "rarity": 4,
+    "description": "A crude, yet effective rifle, makes this a very common rifle in the setting. It is operated by a crankshaft that winds up the various springs and gears inside of it. While it fires its ordinance, it has a high recoil - making those that seek to use this rifle having to be fit enough to wield it.",
+    "skill": "Ranged (Heavy)",
+    "damage": 11,
+    "critical": 4,
+    "range": "Medium",
+    "specialAbilities": [
+      "(Active): Increase difficulty by one level, spend two advantages if the attack hits. Each hit adds base damage plus the number of successes on the check. See page 86 in the rule book for more detail.",
+      "(Passive): To wield a Cumbersome weapon properly, the character needs a Brawn characteristic equal to or greater than the weapon’s Cumbersome rating. For each point of Brawn by which the character is deficient, they must increase the difficulty of all checks made while using the weapon by one. ",
+      "(Passive): A weapon with the Limited Ammo quality may be used to make a number of attacks equal to its Limited Ammo rating before it must be reloaded with a maneuver. In addition, each shot expends one of a limited number of rounds of ammo",
+      " more ammo must be purchased or obtained before anyone fires the weapon again. ",
+      "(Passive): Items with this quality require time to set up before being used. The user must perform a number of preparation maneuvers equal to the item’s Prepare rating before using the item.",
+      "(Passive): To wield an Unwieldy weapon properly, the character needs an Agility characteristic equal to or greater than the weapon’s Unwieldy rating. For each point of Agility by which the character is deficient, they must increase the difficulty of all checks made while using the weapon by one."
+    ],
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 0
+      },
+      {
+        "name": "auto-fire",
+        "value": 1
+      },
+      {
+        "name": "blast",
+        "value": 0
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 0
+      },
+      {
+        "name": "concussive",
+        "value": 0
+      },
+      {
+        "name": "cumbersome",
+        "value": 2
+      },
+      {
+        "name": "defensive",
+        "value": 0
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 0
+      },
+      {
+        "name": "ensnare",
+        "value": 0
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 0
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 0
+      },
+      {
+        "name": "limited ammo",
+        "value": 2
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 0
+      },
+      {
+        "name": "prepare",
+        "value": 1
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 0
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 3
+      },
+      {
+        "name": "vicious",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "W43",
+    "category": "Weapon",
+    "subCategory": "Ranged (Heavy) Weapons",
+    "name": "Royal Sparkle Rifle",
+    "encumbrance": 5,
+    "hardPoints": 3,
+    "value": 2100,
+    "rarity": 9,
+    "description": "Used by the Kingdom of Quebec officers. It is made for easy access to dispense the Crown’s will. ",
+    "skill": "Ranged (Heavy)",
+    "damage": 6,
+    "critical": 4,
+    "range": "Medium",
+    "itemAttachment": [
+      "Hair Trigger",
+      " Weapon Sling"
+    ],
+    "specialAbilities": [
+      "Add one success and one threat when user first uses this weapon in the encounter.",
+      "(Active): One target hit by the attack is disoriented (see page 114) for a number of rounds equal to the weapon’s Disorient rating. A disoriented target adds one setback die to all skill checks they perform. If multiple targets suffer hits from a weapon with Disorient, the quality may be triggered multiple times, affecting a different target each time. ",
+      "(Passive): A weapon with this quality can only deal strain damage (damage applied to the target’s strain threshold, and thus soaked)"
+    ],
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 0
+      },
+      {
+        "name": "auto-fire",
+        "value": 0
+      },
+      {
+        "name": "blast",
+        "value": 0
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 0
+      },
+      {
+        "name": "concussive",
+        "value": 0
+      },
+      {
+        "name": "cumbersome",
+        "value": 0
+      },
+      {
+        "name": "defensive",
+        "value": 0
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 2
+      },
+      {
+        "name": "ensnare",
+        "value": 0
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 0
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 0
+      },
+      {
+        "name": "limited ammo",
+        "value": 0
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 0
+      },
+      {
+        "name": "prepare",
+        "value": 0
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 0
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 2
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 0
+      },
+      {
+        "name": "vicious",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "W44",
+    "category": "Weapon",
+    "subCategory": "Ranged (Heavy) Weapons",
+    "name": "Slaver's Rifle",
+    "encumbrance": 6,
+    "hardPoints": 3,
+    "value": 600,
+    "description": "A rifle that shoots out a net to ensnare and trap targets. A small coating of a liquid charged form of Sparklebit is on the net itself, giving a small bolt of electric shock that disorientates the target as well.",
+    "skill": "Ranged (Heavy)",
+    "damage": 1,
+    "critical": 6,
+    "range": "Short",
+    "specialAbilities": [
+      "(Active): One target hit by the attack is disoriented (see page 114) for a number of rounds equal to the weapon’s Disorient rating. A disoriented target adds one setback die to all skill checks they perform. If multiple targets suffer hits from a weapon with Disorient, the quality may be triggered multiple times, affecting a different target each time. ",
+      "(Active): See page 87 in the rule book for more detail.",
+      "(Passive): A weapon with the Limited Ammo quality may be used to make a number of attacks equal to its Limited Ammo rating before it must be reloaded with a maneuver. In addition, each shot expends one of a limited number of rounds of ammo",
+      " more ammo must be purchased or obtained before anyone fires the weapon again. ",
+      "(Passive): A weapon with this quality can only deal strain damage (damage applied to the target’s strain threshold, and thus soaked)"
+    ],
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 0
+      },
+      {
+        "name": "auto-fire",
+        "value": 0
+      },
+      {
+        "name": "blast",
+        "value": 0
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 0
+      },
+      {
+        "name": "concussive",
+        "value": 0
+      },
+      {
+        "name": "cumbersome",
+        "value": 0
+      },
+      {
+        "name": "defensive",
+        "value": 0
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 4
+      },
+      {
+        "name": "ensnare",
+        "value": 2
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 0
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 0
+      },
+      {
+        "name": "limited ammo",
+        "value": 1
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 0
+      },
+      {
+        "name": "prepare",
+        "value": 0
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 0
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 2
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 0
+      },
+      {
+        "name": "vicious",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "W45",
+    "category": "Weapon",
+    "subCategory": "Ranged (Heavy) Weapons",
+    "name": "Sniper Rifle",
+    "encumbrance": 2,
+    "hardPoints": 1,
+    "value": 1000,
+    "rarity": 5,
+    "skill": "Ranged (Heavy)",
+    "damage": 8,
+    "critical": 2,
+    "range": "Extreme",
+    "specialAbilities": [
+      "(Passive): Accurate weapons are easier to aim or wield, whether through design or technology. For each level of this quality, the attacker adds one boost die to their combat checks while using this weapon. (x2)",
+      "(Passive): A weapon with the Limited Ammo quality may be used to make a number of attacks equal to its Limited Ammo rating before it must be reloaded with a maneuver. In addition, each shot expends one of a limited number of rounds of ammo",
+      " more ammo must be purchased or obtained before anyone fires the weapon again. "
+    ],
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 2
+      },
+      {
+        "name": "auto-fire",
+        "value": 0
+      },
+      {
+        "name": "blast",
+        "value": 0
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 0
+      },
+      {
+        "name": "concussive",
+        "value": 0
+      },
+      {
+        "name": "cumbersome",
+        "value": 0
+      },
+      {
+        "name": "defensive",
+        "value": 0
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 0
+      },
+      {
+        "name": "ensnare",
+        "value": 0
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 0
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 0
+      },
+      {
+        "name": "limited ammo",
+        "value": 4
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 0
+      },
+      {
+        "name": "prepare",
+        "value": 0
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 0
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 0
+      },
+      {
+        "name": "vicious",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "W46",
+    "category": "Weapon",
+    "subCategory": "Ranged (Heavy) Weapons",
+    "name": "Sparklebit Rifle",
+    "encumbrance": 7,
+    "hardPoints": 4,
+    "value": 700,
+    "rarity": 7,
+    "description": "Designed by alchemists of the Kingdom of Quebec, they use a special kind of ammunition and gunpowder known as Sparklebit. Upon being struck by a sparklebit bullet, small amounts of electricity will jump out of the bullet and into the target.",
+    "skill": "Ranged (Heavy)",
+    "damage": 6,
+    "critical": 4,
+    "range": "Medium",
+    "specialAbilities": [
+      "(Active): One target hit by the attack is disoriented (see page 114) for a number of rounds equal to the weapon’s Disorient rating. A disoriented target adds one setback die to all skill checks they perform. If multiple targets suffer hits from a weapon with Disorient, the quality may be triggered multiple times, affecting a different target each time. ",
+      "(Passive): A weapon with this quality can only deal strain damage (damage applied to the target’s strain threshold, and thus soaked)"
+    ],
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 0
+      },
+      {
+        "name": "auto-fire",
+        "value": 0
+      },
+      {
+        "name": "blast",
+        "value": 0
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 0
+      },
+      {
+        "name": "concussive",
+        "value": 0
+      },
+      {
+        "name": "cumbersome",
+        "value": 0
+      },
+      {
+        "name": "defensive",
+        "value": 0
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 2
+      },
+      {
+        "name": "ensnare",
+        "value": 0
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 0
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 0
+      },
+      {
+        "name": "limited ammo",
+        "value": 0
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 0
+      },
+      {
+        "name": "prepare",
+        "value": 0
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 0
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 2
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 0
+      },
+      {
+        "name": "vicious",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "W47",
+    "category": "Weapon",
+    "subCategory": "Ranged (Heavy) Weapons",
+    "name": "Standard Rifle",
+    "encumbrance": 3,
+    "hardPoints": 2,
+    "value": 500,
+    "rarity": 4,
+    "skill": "Ranged (Heavy)",
+    "damage": 7,
+    "critical": 3,
+    "range": "Long",
+    "specialAbilities": [
+      "(Passive): Accurate weapons are easier to aim or wield, whether through design or technology. For each level of this quality, the attacker adds one boost die to their combat checks while using this weapon."
+    ],
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 1
+      },
+      {
+        "name": "auto-fire",
+        "value": 0
+      },
+      {
+        "name": "blast",
+        "value": 0
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 0
+      },
+      {
+        "name": "concussive",
+        "value": 0
+      },
+      {
+        "name": "cumbersome",
+        "value": 0
+      },
+      {
+        "name": "defensive",
+        "value": 0
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 0
+      },
+      {
+        "name": "ensnare",
+        "value": 0
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 0
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 0
+      },
+      {
+        "name": "limited ammo",
+        "value": 0
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 0
+      },
+      {
+        "name": "prepare",
+        "value": 0
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 0
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 0
+      },
+      {
+        "name": "vicious",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "W48",
+    "category": "Weapon",
+    "subCategory": "Ranged (Heavy) Weapons",
+    "name": "Thundersword (Gun)",
+    "encumbrance": 7,
+    "hardPoints": 4,
+    "value": 1200,
+    "rarity": 6,
+    "skill": "Ranged (Heavy)",
+    "damage": 9,
+    "critical": 2,
+    "range": "Short",
+    "specialAbilities": [
+      "(Active): One target hit by the attack is disoriented (see page 114) for a number of rounds equal to the weapon’s Disorient rating. A disoriented target adds one setback die to all skill checks they perform. If multiple targets suffer hits from a weapon with Disorient, the quality may be triggered multiple times, affecting a different target each time. ",
+      "(Passive): When making an attack with an Inaccurate weapon, add setback dice to the check equal to the Inaccurate rating. (x1)",
+      "(Passive): To wield an Unwieldy weapon properly, the character needs an Agility characteristic equal to or greater than the weapon’s Unwieldy rating. For each point of Agility by which the character is deficient, they must increase the difficulty of all checks made while using the weapon by one."
+    ],
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 0
+      },
+      {
+        "name": "auto-fire",
+        "value": 0
+      },
+      {
+        "name": "blast",
+        "value": 0
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 0
+      },
+      {
+        "name": "concussive",
+        "value": 0
+      },
+      {
+        "name": "cumbersome",
+        "value": 0
+      },
+      {
+        "name": "defensive",
+        "value": 0
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 4
+      },
+      {
+        "name": "ensnare",
+        "value": 0
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 1
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 0
+      },
+      {
+        "name": "limited ammo",
+        "value": 0
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 0
+      },
+      {
+        "name": "prepare",
+        "value": 0
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 0
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 2
+      },
+      {
+        "name": "vicious",
+        "value": 0
+      }
+    ]
+  }
+]

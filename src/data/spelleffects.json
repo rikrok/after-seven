@@ -1,0 +1,482 @@
+[
+  {
+    "spell": "Attack",
+    "effect": "Blast",
+    "allowedSchools": "Arcana, Divine",
+    "knowledgeUsed": "Paranormal",
+    "difficultyDiceMod": "+1 Difficulty Die"
+  },
+  {
+    "spell": "Attack",
+    "effect": "Close Combat",
+    "allowedSchools": "Arcana, Divine, Primal",
+    "difficultyDiceMod": "+1 Difficulty Die"
+  },
+  {
+    "spell": "Attack",
+    "effect": "Deadly",
+    "allowedSchools": "Arcana, Divine, Primal",
+    "knowledgeUsed": "Paranormal",
+    "difficultyDiceMod": "+1 Difficulty Die"
+  },
+  {
+    "spell": "Attack",
+    "effect": "Fire",
+    "allowedSchools": "Divine, Primal",
+    "knowledgeUsed": "Nature",
+    "difficultyDiceMod": "+1 Difficulty Die"
+  },
+  {
+    "spell": "Attack",
+    "effect": "Holy / Unholy",
+    "allowedSchools": "Divine",
+    "difficultyDiceMod": "+1 Difficulty Die"
+  },
+  {
+    "spell": "Attack",
+    "effect": "Ice",
+    "allowedSchools": "Divine, Primal",
+    "knowledgeUsed": "Nature",
+    "difficultyDiceMod": "+1 Difficulty Die"
+  },
+  {
+    "spell": "Attack",
+    "effect": "Impact",
+    "allowedSchools": "Arcana, Divine",
+    "knowledgeUsed": "Paranormal",
+    "difficultyDiceMod": "+1 Difficulty Die"
+  },
+  {
+    "spell": "Attack",
+    "effect": "Lightning",
+    "allowedSchools": "Divine, Primal",
+    "knowledgeUsed": "Nature",
+    "difficultyDiceMod": "+1 Difficulty Die"
+  },
+  {
+    "spell": "Attack",
+    "effect": "Manipulative",
+    "allowedSchools": "Arcana",
+    "difficultyDiceMod": "+1 Difficulty Die"
+  },
+  {
+    "spell": "Attack",
+    "effect": "Non-Lethal",
+    "allowedSchools": "Divine",
+    "difficultyDiceMod": "+1 Difficulty Die"
+  },
+  {
+    "spell": "Attack",
+    "effect": "Range",
+    "allowedSchools": "Arcana, Divine, Primal",
+    "difficultyDiceMod": "+1 Difficulty Die"
+  },
+  {
+    "spell": "Attack",
+    "effect": "Destructive",
+    "allowedSchools": "Arcana, Divine",
+    "knowledgeUsed": "Paranormal",
+    "difficultyDiceMod": "+2 Difficulty Dice"
+  },
+  {
+    "spell": "Attack",
+    "effect": "Empowered",
+    "allowedSchools": "Arcana, Divine, Primal",
+    "difficultyDiceMod": "+2 Difficulty Dice"
+  },
+  {
+    "spell": "Attack",
+    "effect": "Poisonous",
+    "allowedSchools": "Arcana, Divine, Primal",
+    "knowledgeUsed": "Nature",
+    "difficultyDiceMod": "+2 Difficulty Dice"
+  },
+  {
+    "spell": "Augment",
+    "effect": "Divine Health",
+    "allowedSchools": "Divine",
+    "knowledgeUsed": "Paranormal",
+    "difficultyDiceMod": "+1 Difficulty Die"
+  },
+  {
+    "spell": "Augment",
+    "effect": "Haste",
+    "allowedSchools": "Divine, Primal",
+    "difficultyDiceMod": "+1 Difficulty Die"
+  },
+  {
+    "spell": "Augment",
+    "effect": "Primal Fury",
+    "allowedSchools": "Primal",
+    "knowledgeUsed": "Paranormal",
+    "difficultyDiceMod": "+1 Difficulty Die"
+  },
+  {
+    "spell": "Augment",
+    "effect": "Range",
+    "allowedSchools": "Divine, Primal",
+    "difficultyDiceMod": "+1 Difficulty Die"
+  },
+  {
+    "spell": "Augment",
+    "effect": "Swift",
+    "allowedSchools": "Divine, Primal",
+    "difficultyDiceMod": "+1 Difficulty Die"
+  },
+  {
+    "spell": "Augment",
+    "effect": "Additional Target",
+    "allowedSchools": "Divine, Primal",
+    "difficultyDiceMod": "+2 Difficulty Dice"
+  },
+  {
+    "spell": "Barrier",
+    "effect": "Additional Target",
+    "allowedSchools": "Arcana, Divine",
+    "difficultyDiceMod": "+1 Difficulty Die"
+  },
+  {
+    "spell": "Barrier",
+    "effect": "Range",
+    "allowedSchools": "Arcana, Divine",
+    "difficultyDiceMod": "+1 Difficulty Die"
+  },
+  {
+    "spell": "Barrier",
+    "effect": "Add Defense",
+    "allowedSchools": "Arcana, Divine",
+    "knowledgeUsed": "Paranormal",
+    "difficultyDiceMod": "+2 Difficulty Dice"
+  },
+  {
+    "spell": "Barrier",
+    "effect": "Empowered",
+    "allowedSchools": "Arcana, Divine",
+    "difficultyDiceMod": "+2 Difficulty Dice"
+  },
+  {
+    "spell": "Barrier",
+    "effect": "Reflection",
+    "allowedSchools": "Arcana",
+    "difficultyDiceMod": "+2 Difficulty Dice"
+  },
+  {
+    "spell": "Barrier",
+    "effect": "Sanctuary",
+    "allowedSchools": "Divine",
+    "difficultyDiceMod": "+2 Difficulty Dice"
+  },
+  {
+    "spell": "Conjure",
+    "effect": "Additional Summon",
+    "allowedSchools": "Arcana, Primal",
+    "difficultyDiceMod": "+1 Difficulty Die"
+  },
+  {
+    "spell": "Conjure",
+    "effect": "Medium Summon",
+    "allowedSchools": "Arcana, Primal",
+    "difficultyDiceMod": "+1 Difficulty Die"
+  },
+  {
+    "spell": "Conjure",
+    "effect": "Range",
+    "allowedSchools": "Arcana, Primal",
+    "difficultyDiceMod": "+1 Difficulty Die"
+  },
+  {
+    "spell": "Conjure",
+    "effect": "Summon Ally",
+    "allowedSchools": "Arcana, Primal",
+    "difficultyDiceMod": "+1 Difficulty Die"
+  },
+  {
+    "spell": "Conjure",
+    "effect": "Grand Summon",
+    "allowedSchools": "Arcana, Primal",
+    "difficultyDiceMod": "+2 Difficulty Dice"
+  },
+  {
+    "spell": "Curse",
+    "effect": "Enervate",
+    "allowedSchools": "Divine, Primal",
+    "difficultyDiceMod": "+1 Difficulty Die"
+  },
+  {
+    "spell": "Curse",
+    "effect": "Misfortune",
+    "allowedSchools": "Divine, Primal",
+    "difficultyDiceMod": "+1 Difficulty Die"
+  },
+  {
+    "spell": "Curse",
+    "effect": "Additional Target",
+    "allowedSchools": "Divine, Primal",
+    "difficultyDiceMod": "+2 Difficulty Dice"
+  },
+  {
+    "spell": "Curse",
+    "effect": "Range",
+    "allowedSchools": "Divine, Primal",
+    "difficultyDiceMod": "+2 Difficulty Dice"
+  },
+  {
+    "spell": "Curse",
+    "effect": "Despair",
+    "allowedSchools": "Divine",
+    "knowledgeUsed": "Paranormal",
+    "difficultyDiceMod": "+2 Difficulty Dice"
+  },
+  {
+    "spell": "Curse",
+    "effect": "Doom",
+    "allowedSchools": "Primal",
+    "difficultyDiceMod": "+2 Difficulty Dice"
+  },
+  {
+    "spell": "Curse",
+    "effect": "Paralyzed",
+    "allowedSchools": "Divine, Primal",
+    "difficultyDiceMod": "+3 Difficulty Dice"
+  },
+  {
+    "spell": "Dispel",
+    "effect": "Range",
+    "allowedSchools": "Arcana",
+    "difficultyDiceMod": "+1 Difficulty Die"
+  },
+  {
+    "spell": "Dispel",
+    "effect": "Additional Target",
+    "allowedSchools": "Arcana",
+    "difficultyDiceMod": "+2 Difficulty Dice"
+  },
+  {
+    "spell": "Heal Spell",
+    "effect": "Additional Target",
+    "allowedSchools": "Arcana, Primal",
+    "difficultyDiceMod": "+1 Difficulty Die"
+  },
+  {
+    "spell": "Heal Spell",
+    "effect": "Range",
+    "allowedSchools": "Arcana, Primal",
+    "difficultyDiceMod": "+1 Difficulty Die"
+  },
+  {
+    "spell": "Heal Spell",
+    "effect": "Restoration",
+    "allowedSchools": "Primal",
+    "difficultyDiceMod": "+1 Difficulty Die"
+  },
+  {
+    "spell": "Heal Spell",
+    "effect": "Heal Critical",
+    "allowedSchools": "Primal",
+    "difficultyDiceMod": "+2 Difficulty Dice"
+  },
+  {
+    "spell": "Heal Spell",
+    "effect": "Revive Incapacitated",
+    "allowedSchools": "Primal",
+    "difficultyDiceMod": "+2 Difficulty Dice"
+  },
+  {
+    "spell": "Heal Spell",
+    "effect": "Resurrection",
+    "allowedSchools": "Primal",
+    "difficultyDiceMod": "+4 Difficulty Dice"
+  },
+  {
+    "spell": "Augur",
+    "effect": "Afterlife Sonar",
+    "allowedSchools": "Primal",
+    "knowledgeUsed": "Paranormal",
+    "difficultyDiceMod": "+2 Difficulty Dice"
+  },
+  {
+    "spell": "Augur",
+    "effect": "Astral Projection",
+    "allowedSchools": "Arcana",
+    "knowledgeUsed": "Paranormal",
+    "difficultyDiceMod": "+2 Difficulty Dice"
+  },
+  {
+    "spell": "Augur",
+    "effect": "Geographical Precision",
+    "allowedSchools": "Arcana, Divine, Primal",
+    "difficultyDiceMod": "+1 Difficulty Die"
+  },
+  {
+    "spell": "Augur",
+    "effect": "Chronological Precision",
+    "allowedSchools": "Arcana, Divine, Primal",
+    "knowledgeUsed": "Mortality",
+    "difficultyDiceMod": "+1 Difficulty Die"
+  },
+  {
+    "spell": "Augur",
+    "effect": "Group Precision",
+    "allowedSchools": "Arcana, Divine, Primal",
+    "knowledgeUsed": "Mortality",
+    "difficultyDiceMod": "+3 Difficulty Dice"
+  },
+  {
+    "spell": "Augur",
+    "effect": "Social Auguring",
+    "allowedSchools": "Arcana, Divine, Primal",
+    "knowledgeUsed": "Mortality",
+    "difficultyDiceMod": "+1 Difficulty Die"
+  },
+  {
+    "spell": "Augur",
+    "effect": "True Sight",
+    "allowedSchools": "Divine",
+    "knowledgeUsed": "Paranormal",
+    "difficultyDiceMod": "+2 Difficulty Dice"
+  },
+  {
+    "spell": "Enchanting",
+    "effect": "Item Attachment",
+    "allowedSchools": "Divine",
+    "difficultyDiceMod": "+1 Difficulty Die"
+  },
+  {
+    "spell": "Enchanting",
+    "effect": "Blast",
+    "allowedSchools": "Primal",
+    "difficultyDiceMod": "+2 Difficulty Dice"
+  },
+  {
+    "spell": "Enchanting",
+    "effect": "Burn",
+    "allowedSchools": "Primal",
+    "difficultyDiceMod": "+2 Difficulty Dice"
+  },
+  {
+    "spell": "Enchanting",
+    "effect": "Ensnare",
+    "allowedSchools": "Primal",
+    "difficultyDiceMod": "+2 Difficulty Dice"
+  },
+  {
+    "spell": "Enchanting",
+    "effect": "Cumbersome",
+    "allowedSchools": "Arcana",
+    "difficultyDiceMod": "+2 Difficulty Dice"
+  },
+  {
+    "spell": "Enchanting",
+    "effect": "Unwieldy",
+    "allowedSchools": "Arcana",
+    "difficultyDiceMod": "+2 Difficulty Dice"
+  },
+  {
+    "spell": "Enchanting",
+    "effect": "Modify Range Band",
+    "allowedSchools": "Arcana",
+    "difficultyDiceMod": "+3 Difficulty Dice"
+  },
+  {
+    "spell": "Enchanting",
+    "effect": "Item Damage",
+    "allowedSchools": "Divine",
+    "difficultyDiceMod": "+3 Difficulty Dice"
+  },
+  {
+    "spell": "Enchanting",
+    "effect": "Limited Ammo",
+    "allowedSchools": "Arcana",
+    "difficultyDiceMod": "+3 Difficulty Dice"
+  },
+  {
+    "spell": "Enchanting",
+    "effect": "Concussive",
+    "allowedSchools": "Divine",
+    "difficultyDiceMod": "+4 Difficulty Dice"
+  },
+  {
+    "spell": "Enchanting",
+    "effect": "Item Critical",
+    "allowedSchools": "Divine",
+    "difficultyDiceMod": "+4 Difficulty Dice"
+  },
+  {
+    "spell": "Enchanting",
+    "effect": "Defense",
+    "allowedSchools": "Arcana, Divine, Primal",
+    "difficultyDiceMod": "+5 Difficulty Dice"
+  },
+  {
+    "spell": "Enchanting",
+    "effect": "Soak",
+    "allowedSchools": "Arcana, Divine, Primal",
+    "difficultyDiceMod": "+5 Difficulty Dice"
+  },
+  {
+    "spell": "Enchanting",
+    "effect": "Vicious",
+    "allowedSchools": "Primal",
+    "difficultyDiceMod": "+4 Difficulty Dice"
+  },
+  {
+    "spell": "Enchanting",
+    "effect": "Prepared",
+    "allowedSchools": "Arcana",
+    "difficultyDiceMod": "+4 Difficulty Dice"
+  },
+  {
+    "spell": "Transmogrify",
+    "effect": "Mundane Object to Item",
+    "allowedSchools": "Arcana",
+    "difficultyDiceMod": "+2 Difficulty Dice"
+  },
+  {
+    "spell": "Transmogrify",
+    "effect": "Morph Item",
+    "allowedSchools": "Arcana, Primal",
+    "difficultyDiceMod": "+2 Difficulty Dice"
+  },
+  {
+    "spell": "Transmogrify",
+    "effect": "Change Item Type",
+    "allowedSchools": "Arcana",
+    "difficultyDiceMod": "+4 Difficulty Dice"
+  },
+  {
+    "spell": "Transmogrify",
+    "effect": "Item Binding",
+    "allowedSchools": "Arcana, Primal",
+    "difficultyDiceMod": "+4 Difficulty Dice"
+  },
+  {
+    "spell": "Transmogrify",
+    "effect": "Change Encumbrance Rating",
+    "allowedSchools": "Arcana, Primal",
+    "difficultyDiceMod": "+1 Difficulty Die"
+  },
+  {
+    "spell": "Transmogrify",
+    "effect": "Persistent Specialty",
+    "allowedSchools": "Arcana, Primal",
+    "difficultyDiceMod": "+1 Difficulty Die"
+  },
+  {
+    "spell": "Spell Jam",
+    "effect": "Range",
+    "allowedSchools": "Divine",
+    "difficultyDiceMod": "+1 Difficulty Die"
+  },
+  {
+    "spell": "Spell Jam",
+    "effect": "Feedback",
+    "allowedSchools": "Divine",
+    "difficultyDiceMod": "+1 Difficulty Die"
+  },
+  {
+    "spell": "Spell Jam",
+    "effect": "Break Link",
+    "allowedSchools": "Divine",
+    "difficultyDiceMod": "+2 Difficulty Dice"
+  }
+]

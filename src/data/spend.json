@@ -1,0 +1,307 @@
+[
+  {
+    "activity": "Alchemy: Bloodoil Tonic",
+    "dieResult": "1 Advantage / 1 Triumph",
+    "outcomePossibility": "Heal 1 Strain"
+  },
+  {
+    "activity": "Alchemy: Bloodoil Tonic",
+    "dieResult": "2 Advantage / 1 Triumph",
+    "outcomePossibility": "Increase Rarity by 1."
+  },
+  {
+    "activity": "Alchemy: Bloodoil Tonic",
+    "dieResult": "3 Advantage / 1 Triumph",
+    "outcomePossibility": "Add one to the quantity produced. "
+  },
+  {
+    "activity": "Alchemy: Bloodoil Tonic",
+    "dieResult": "1 Triumph",
+    "outcomePossibility": "One of the Bloodoil Tonic becomes Sweet Bloodoil Tonic."
+  },
+  {
+    "activity": "Alchemy: Bloodoil Tonic",
+    "dieResult": "2 Triumph",
+    "outcomePossibility": "Add one boost die to the drinker’s next action. "
+  },
+  {
+    "activity": "Alchemy: Bloodoil Tonic",
+    "dieResult": "1 Threat / 1  Despair",
+    "outcomePossibility": "Suffer one strain."
+  },
+  {
+    "activity": "Alchemy: Bloodoil Tonic",
+    "dieResult": "2  Threat / 1  Despair",
+    "outcomePossibility": "Decrease the Rarity by 1."
+  },
+  {
+    "activity": "Alchemy: Bloodoil Tonic",
+    "dieResult": "3  Threat / 1 Despair",
+    "outcomePossibility": "Remove one ability die to the Medicine check roll. "
+  },
+  {
+    "activity": "Alchemy: Bloodoil Tonic",
+    "dieResult": "1 Despair",
+    "outcomePossibility": "Add one setback die to the drinker’s next action. "
+  },
+  {
+    "activity": "Alchemy: Bloodoil Tonic",
+    "dieResult": "2 Despair",
+    "outcomePossibility": "Roll on Critical Injury chart."
+  },
+  {
+    "activity": "Alchemy: General",
+    "dieResult": "Dice Pool Result",
+    "outcomePossibility": "Other Product Outcome"
+  },
+  {
+    "activity": "Alchemy: General",
+    "dieResult": "1 Advantage / 1 Triumph",
+    "outcomePossibility": "Decrease the Arcanite spent by 10% or Heal 1 Strain"
+  },
+  {
+    "activity": "Alchemy: General",
+    "dieResult": "2 Advantage / 1 Triumph",
+    "outcomePossibility": "Increase Rarity by 1"
+  },
+  {
+    "activity": "Alchemy: General",
+    "dieResult": "3 Advantage / 1 Triumph",
+    "outcomePossibility": "Refund Arcanite used"
+  },
+  {
+    "activity": "Alchemy: General",
+    "dieResult": "1 Triumph",
+    "outcomePossibility": "Add 25% (rounded up) to the quantity produced"
+  },
+  {
+    "activity": "Alchemy: General",
+    "dieResult": "2 Triumph",
+    "outcomePossibility": "Product is treated as Superior "
+  },
+  {
+    "activity": "Alchemy: General",
+    "dieResult": "1 Threat / 1  Despair",
+    "outcomePossibility": "Increase the Arcanite spent by 10% or Suffer 1 Strain"
+  },
+  {
+    "activity": "Alchemy: General",
+    "dieResult": "2  Threat / 1  Despair",
+    "outcomePossibility": "Decrease Rarity by 1 or remove 25% to quantity produced "
+  },
+  {
+    "activity": "Alchemy: General",
+    "dieResult": "3  Threat / 1 Despair",
+    "outcomePossibility": "Break tools used to create product."
+  },
+  {
+    "activity": "Alchemy: General",
+    "dieResult": "1 Despair",
+    "outcomePossibility": "Product is treated as Inferior"
+  },
+  {
+    "activity": "Alchemy: General",
+    "dieResult": "2 Despair",
+    "outcomePossibility": "Roll on Critical Injury chart"
+  },
+  {
+    "activity": "Enchanting",
+    "dieResult": "1 Advantage / 1 Triumph",
+    "outcomePossibility": "+1 Rarity Value"
+  },
+  {
+    "activity": "Enchanting",
+    "dieResult": "2 Advantage / 1 Triumph",
+    "outcomePossibility": "Reinforced (Harder to break)"
+  },
+  {
+    "activity": "Enchanting",
+    "dieResult": "3 Advantage / 1 Triumph",
+    "outcomePossibility": "Product is treated as Superior"
+  },
+  {
+    "activity": "Enchanting",
+    "dieResult": "1 Triumph",
+    "outcomePossibility": "Item gains free Breach or Accurate or Deflect (Armor only) or Defense (Armor Only)"
+  },
+  {
+    "activity": "Enchanting",
+    "dieResult": "2 Triumph",
+    "outcomePossibility": "Gain a free item attachment or equal item quality (per GM approval)"
+  },
+  {
+    "activity": "Enchanting",
+    "dieResult": "1 Threat / 1 Despair",
+    "outcomePossibility": "Break the tools used for the enchantment, needing average repair."
+  },
+  {
+    "activity": "Enchanting",
+    "dieResult": "2 Threat / 1 Despair",
+    "outcomePossibility": "Break the item, needing hard repair. "
+  },
+  {
+    "activity": "Enchanting",
+    "dieResult": "3 Threat / 1 Despair",
+    "outcomePossibility": "Product is treated as Inferior"
+  },
+  {
+    "activity": "Enchanting",
+    "dieResult": "1 Despair",
+    "outcomePossibility": "The product is inferior, gains +1 cumbersome and +1 unwieldly"
+  },
+  {
+    "activity": "Enchanting",
+    "dieResult": "2 Despair",
+    "outcomePossibility": "Roll on Critical Injury chart"
+  },
+  {
+    "activity": "Transmogrify: General",
+    "dieResult": "1 Advantage / 1 Triumph",
+    "outcomePossibility": "Reduce encumbrance by 1, item is now 20% reduced market value."
+  },
+  {
+    "activity": "Transmogrify: General",
+    "dieResult": "2 Advantage / 1 Triumph",
+    "outcomePossibility": "Increase rarity by 1, item is now 10% reduced market value."
+  },
+  {
+    "activity": "Transmogrify: General",
+    "dieResult": "3 Advantage / 1 Triumph",
+    "outcomePossibility": "Remove the inferior quality item, is now 0% reduced market value."
+  },
+  {
+    "activity": "Transmogrify: General",
+    "dieResult": "1 Triumph",
+    "outcomePossibility": "Despairs cannot break the item, remove the inferior rating"
+  },
+  {
+    "activity": "Transmogrify: General",
+    "dieResult": "2 Triumph",
+    "outcomePossibility": "Item gains a free item attachment (1 points)"
+  },
+  {
+    "activity": "Transmogrify: General",
+    "dieResult": "1 Threat / 1 Despair",
+    "outcomePossibility": "Reduce the rarity by 1, reduced 50% market value."
+  },
+  {
+    "activity": "Transmogrify: General",
+    "dieResult": "2 Threat / 1 Despair",
+    "outcomePossibility": "The item needs to be repaired (Moderate)"
+  },
+  {
+    "activity": "Transmogrify: General",
+    "dieResult": "3 Threat / 1 Despair",
+    "outcomePossibility": "The item needs to be repaired (Hard)"
+  },
+  {
+    "activity": "Transmogrify: General",
+    "dieResult": "1 Despair",
+    "outcomePossibility": "Apply one rank of either Cumbersome, Inaccurate, Unwieldly "
+  },
+  {
+    "activity": "Transmogrify: General",
+    "dieResult": "2 Despair",
+    "outcomePossibility": "Transmogrified object is lost, destroyed or killed in the process. "
+  },
+  {
+    "activity": "Transmogrify: Item Binding",
+    "dieResult": "3 Advantage / 1 Triumph",
+    "outcomePossibility": "Immune to Sunder."
+  },
+  {
+    "activity": "Transmogrify: Item Binding",
+    "dieResult": "1 Triumph",
+    "outcomePossibility": "Remove the inferior rating"
+  },
+  {
+    "activity": "Transmogrify: Item Binding",
+    "dieResult": "1 Triumph",
+    "outcomePossibility": "The object may speak to its user."
+  },
+  {
+    "activity": "Transmogrify: Item Binding",
+    "dieResult": "1 Triumph",
+    "outcomePossibility": "Despairs cannot break the item"
+  },
+  {
+    "activity": "Transmogrify: Item Binding",
+    "dieResult": "2 Triumph",
+    "outcomePossibility": "Item gains a free item attachment (1 points)"
+  },
+  {
+    "activity": "Transmogrify: Item Binding",
+    "dieResult": "1 Threat / 1 Despair",
+    "outcomePossibility": "Reduce the rarity by 1, reduced 50% market value."
+  },
+  {
+    "activity": "Transmogrify: Item Binding",
+    "dieResult": "2 Threat / 1 Despair",
+    "outcomePossibility": "The item needs to be repaired (Moderate)"
+  },
+  {
+    "activity": "Transmogrify: Item Binding",
+    "dieResult": "3 Threat / 1 Despair",
+    "outcomePossibility": "Apply one rank of either Cumbersome, Inaccurate, Unwieldly"
+  },
+  {
+    "activity": "Transmogrify: Item Binding",
+    "dieResult": "1 Despair",
+    "outcomePossibility": "Transmogrified object is lost, Spell caster rolls Critical Injury"
+  },
+  {
+    "activity": "Transmogrify: Item Binding",
+    "dieResult": "2 Despair",
+    "outcomePossibility": "Transmogrified object is lost, Spell caster rolls Critical Injury +30"
+  },
+  {
+    "activity": "Spell Jam",
+    "dieResult": "1 Advantage / 1 Triumph",
+    "outcomePossibility": "Item’s wielder is disoriented until the end of next turn."
+  },
+  {
+    "activity": "Spell Jam",
+    "dieResult": "2 Advantage / 1 Triumph",
+    "outcomePossibility": "Item’s wielder takes two strain damage"
+  },
+  {
+    "activity": "Spell Jam",
+    "dieResult": "3 Advantage / 1 Triumph",
+    "outcomePossibility": "Item’s wielder is immobilized until the end of next turn."
+  },
+  {
+    "activity": "Spell Jam",
+    "dieResult": "1 Triumph",
+    "outcomePossibility": "Item gains inferior quality until end of encounter."
+  },
+  {
+    "activity": "Spell Jam",
+    "dieResult": "2 Triumph",
+    "outcomePossibility": "Item is broken by two steps."
+  },
+  {
+    "activity": "Spell Jam",
+    "dieResult": "1 Threat / 1 Despair",
+    "outcomePossibility": "Spell caster is disoriented until the end of next turn."
+  },
+  {
+    "activity": "Spell Jam",
+    "dieResult": "2 Threat / 1 Despair",
+    "outcomePossibility": "Spell caster takes two strain damage"
+  },
+  {
+    "activity": "Spell Jam",
+    "dieResult": "3 Threat / 1 Despair",
+    "outcomePossibility": "Spell caster is immobilized until the end of next turn."
+  },
+  {
+    "activity": "Spell Jam",
+    "dieResult": "1 Despair",
+    "outcomePossibility": "Spell caster adds one setback die until the end of his next turn"
+  },
+  {
+    "activity": "Spell Jam",
+    "dieResult": "2 Despair",
+    "outcomePossibility": "Spell caster cannot cast spells until the end of next two turns."
+  }
+]

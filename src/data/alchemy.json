@@ -1,0 +1,50 @@
+[
+  {
+    "product": "Arcanite Salt",
+    "arcaniteNeeded": 1,
+    "averageOutcome": 3,
+    "startingDifficultyDicePool": "1 Difficulty Die"
+  },
+  {
+    "product": "Arcanite Acid",
+    "arcaniteNeeded": 3,
+    "averageOutcome": 1,
+    "startingDifficultyDicePool": "1 Difficulty Die"
+  },
+  {
+    "product": "Arcanite Putty",
+    "arcaniteNeeded": 7,
+    "averageOutcome": 1,
+    "startingDifficultyDicePool": "1 Difficulty Die"
+  },
+  {
+    "product": "Bloodoil",
+    "arcaniteNeeded": 12,
+    "averageOutcome": 6,
+    "startingDifficultyDicePool": "2 Difficulty Dice"
+  },
+  {
+    "product": "Bloodoil Tonic",
+    "arcaniteNeeded": 8,
+    "averageOutcome": 4,
+    "startingDifficultyDicePool": "2 Difficulty Dice"
+  },
+  {
+    "product": "Bonedusting",
+    "arcaniteNeeded": 20,
+    "averageOutcome": 1,
+    "startingDifficultyDicePool": "3 Difficulty Dice"
+  },
+  {
+    "product": "Sparklebit",
+    "arcaniteNeeded": 33,
+    "averageOutcome": 2,
+    "startingDifficultyDicePool": "4 Difficulty Dice"
+  },
+  {
+    "product": "Manarok",
+    "arcaniteNeeded": 120,
+    "averageOutcome": 1,
+    "startingDifficultyDicePool": "5 Difficulty Dice"
+  }
+]

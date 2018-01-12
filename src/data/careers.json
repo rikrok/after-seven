@@ -1,0 +1,226 @@
+[
+  {
+    "name": "Arcanist",
+    "Description": "One who studies or has studied magic. They are alchemists, scholars, thinkers and philosophers. Some turn mad, others become hermits, while all seek to make the impossible possible. ",
+    "careerSkills": [
+      "Alchemy",
+      "Arcana",
+      "Discipline",
+      "Knowledge: Mortality",
+      "Knowledge: Natural",
+      "Knowledge: Paranormal",
+      "Knowledge: Systems",
+      "Negotiation"
+    ]
+  },
+  {
+    "name": "Aristocrat",
+    "Description": "Usually born into a comfortable life at the sacrifice of some peasant or lesser class. They have climbed the social ladder by arranging terrible “misfortunes” for their social rivals, giving them more power and control. ",
+    "careerSkills": [
+      "Charm",
+      "Coercion",
+      "Deception",
+      "Leadership",
+      "Knowledge: Mortality",
+      "Negotiation",
+      "Streetwise",
+      "Vigilance"
+    ]
+  },
+  {
+    "name": "Druid",
+    "Description": "Druids have a special connection with the primal powers of the natural world. They may be individuals who live in the wilderness, or regular people who have a particular affinity for life and nature. Druids can tap into the primal power of life to summon magic and perform fantastical feats. ",
+    "careerSkills": [
+      "Discipline",
+      "Knowledge: Natural",
+      "Knowledge: Paranormal",
+      "Medicine",
+      "Primal",
+      "Resilience",
+      "Survival",
+      "Vigilance"
+    ]
+  },
+  {
+    "name": "Emissary",
+    "Description": "Emissaries are divine spell casters. They preach the words of their masters, the Avatars. Through deeds and actions, they are charged by the Avatar’s power. Mostly protagonists that were Emissaries have either started to worship a new Avatar or have a great disbelief in their former government - seeing it as corrupt. ",
+    "careerSkills": [
+      "Alchemy",
+      "Charm",
+      "Cool",
+      "Discipline",
+      "Divine",
+      "Knowledge: Mortality",
+      "Knowledge: Paranormal",
+      "Leadership"
+    ]
+  },
+  {
+    "name": "Infantry",
+    "Description": "They are trained murder machines. Usually, they are conscripted by birth or through a slave trade - but are provided JUST enough substance to be a murdering machine. Due to the limited supplies, Infantry mostly are trained for Melee and hand-to-hand fighting.",
+    "careerSkills": [
+      "Athletics",
+      "Brawl",
+      "Gunnery",
+      "Knowledge: Systems",
+      "Melee",
+      "Operating",
+      "Ranged (Heavy)",
+      "Ranged (Light)"
+    ]
+  },
+  {
+    "name": "Knight",
+    "Description": "The Knight is a warrior of the nobility. A Knight’s title comes with privilege, lands, and wealth, but also a responsibility to defend their liege lord and the common people who rely on the Knight for protection. Knights often train for war from childhood, and they equip themselves with the best arms and armor available.",
+    "careerSkills": [
+      "Athletics",
+      "Coordination",
+      "Coercion",
+      "Knowledge: Mortality",
+      "Leadership",
+      "Melee",
+      "Negotiation",
+      "Ranged (Heavy)"
+    ]
+  },
+  {
+    "name": "Lost One",
+    "Description": "Those that are conscripted by their government to wonder the wilds. They are secret police. They are hunters. They are infiltrators. They are scouts. They are wild, lethal and plunderers",
+    "careerSkills": [
+      "Coordination",
+      "Deception",
+      "Knowledge: Mortality",
+      "Medicine",
+      "Preception",
+      "Ranged (Light)",
+      "Stealth",
+      "Survival"
+    ]
+  },
+  {
+    "name": "Magus",
+    "Description": "A \"holy\" warrior devoted to the avatar they worship and serve. They are pragmatical and inquisitive by nature - always seeking ration rather than action. ",
+    "careerSkills": [
+      "Cool",
+      "Discipline",
+      "Divine",
+      "Leadership",
+      "Knowledge: Paranormal",
+      "Melee",
+      "Perception",
+      "Vigilance"
+    ]
+  },
+  {
+    "name": "Medic",
+    "Description": "Medics are military trained personal. A medic is trained to also fight while going into battle to revive or retrieve the fallen soldiers.",
+    "careerSkills": [
+      "Cool",
+      "Discipline",
+      "Gunnery",
+      "Knowledge: Natural",
+      "Medicine",
+      "Melee",
+      "Resilience",
+      "Survival"
+    ]
+  },
+  {
+    "name": "Operator",
+    "Description": "They execute missions that need more discretion They break into a place, steal something and maybe murder everyone in it. They are smugglers, assassins, and saboteurs.",
+    "careerSkills": [
+      "Cool",
+      "Coordination",
+      "Deception",
+      "Operating",
+      "Ranged (Light)",
+      "Skulduggery",
+      "Stealth",
+      "Vigilance"
+    ]
+  },
+  {
+    "name": "Raider",
+    "Description": "Violent people who take from the weak. They wander around the wilds, looking for settlements to pillage or convoys to ambush. They are tough and often trouble.",
+    "careerSkills": [
+      "Athletics",
+      "Brawl",
+      "Gunnery",
+      "Medicine",
+      "Melee",
+      "Perception",
+      "Resilience",
+      "Survival"
+    ]
+  },
+  {
+    "name": "Refugee",
+    "Description": "The brave few who escape their oppressive governments are known as refugees. They have no allegiances. They cling on to hope of a better life, somehow and someway. They live nomadically, hunting what they can and surviving however they can. ",
+    "careerSkills": [
+      "Coordination",
+      "Perception",
+      "Ranged (Light)",
+      "Resilience",
+      "Skulduggery",
+      "Stealth",
+      "Streetwise",
+      "Survival"
+    ]
+  },
+  {
+    "name": "Shaman",
+    "Description": "Natural born leaders, they seek guidance of the spirits, be it souls of the former living or elemental spirits. It is not uncommon for shaman to practice Transmogrification and Alchemy by binding spirits to items. Shamans are haunted and hounded by spirits, as they are always whispering in their ears.",
+    "careerSkills": [
+      "Charm",
+      "Cool",
+      "Deception",
+      "Leadership",
+      "Knowledge: Paranormal",
+      "Knowledge: Natural",
+      "Medicine",
+      "Primal"
+    ]
+  },
+  {
+    "name": "Storm Trooper",
+    "Description": "Specialist who are trained to enter a combat zone, rush towards targets, and win by any means necessary. They fight deadly and unmercifully and often have the reputation for extreme aggression.",
+    "careerSkills": [
+      "Brawl",
+      "Coordination",
+      "Discipline",
+      "Melee",
+      "Ranged (Light)",
+      "Ranged (Heavy)",
+      "Resilience",
+      "Stealth"
+    ]
+  },
+  {
+    "name": "Warlock",
+    "Description": "A detached individual who is obsessed with magic, alchemy and machines. They have little regard for humanity and is more interested in how to extract souls and infuse them with terrible technology. ",
+    "careerSkills": [
+      "Alchemy",
+      "Arcana",
+      "Coercion",
+      "Knowledge: Paranormal",
+      "Leadership",
+      "Mechanics",
+      "Medicine",
+      "Operating"
+    ]
+  },
+  {
+    "name": "Worker",
+    "Description": "A mechanic, blacksmith, merchant, farmer, rancher or miner the Worker is the backbone of the empires. They are an industrial bunch with a mind for success and getting the job done as efficiently as possible.",
+    "careerSkills": [
+      "Alchemy",
+      "Knowledge: Systems",
+      "Leadership",
+      "Mechanics",
+      "Negoitation",
+      "Operating",
+      "Skulduggery",
+      "Streetwise"
+    ]
+  }
+]

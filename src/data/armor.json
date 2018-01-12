@@ -1,0 +1,1006 @@
+[
+  {
+    "id": "A1",
+    "category": "Armor",
+    "name": "Chainmmail",
+    "encumbrance": 3,
+    "wornEncumbrance": 0,
+    "hardPoints": 2,
+    "value": 550,
+    "rarity": 2,
+    "description": "Able to absorb a hit, but loud.",
+    "soak": 2,
+    "defense": 0,
+    "specialAbilities": [
+      "(Passive): Add one setback die to your dice pool while using the Stealth checks."
+    ],
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 0
+      },
+      {
+        "name": "auto-fire",
+        "value": 0
+      },
+      {
+        "name": "blast",
+        "value": 0
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 0
+      },
+      {
+        "name": "concussive",
+        "value": 0
+      },
+      {
+        "name": "cumbersome",
+        "value": 0
+      },
+      {
+        "name": "defensive",
+        "value": 0
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 0
+      },
+      {
+        "name": "ensnare",
+        "value": 0
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 0
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 0
+      },
+      {},
+      {
+        "name": "limited ammo ",
+        "value": 0
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 0
+      },
+      {
+        "name": "prepare",
+        "value": 0
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 0
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 0
+      },
+      {
+        "name": "vicious",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "A2",
+    "category": "Armor",
+    "name": "Light Armor / Robes",
+    "encumbrance": 1,
+    "wornEncumbrance": 0,
+    "hardPoints": 1,
+    "value": 75,
+    "rarity": 1,
+    "description": "Plain and thick robes that drape off of the body or leather armor that hugs the body.",
+    "soak": 0,
+    "defense": 1,
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 0
+      },
+      {
+        "name": "auto-fire",
+        "value": 0
+      },
+      {
+        "name": "blast",
+        "value": 0
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 0
+      },
+      {
+        "name": "concussive",
+        "value": 0
+      },
+      {
+        "name": "cumbersome",
+        "value": 0
+      },
+      {
+        "name": "defensive",
+        "value": 0
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 0
+      },
+      {
+        "name": "ensnare",
+        "value": 0
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 0
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 0
+      },
+      {},
+      {
+        "name": "limited ammo ",
+        "value": 0
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 0
+      },
+      {
+        "name": "prepare",
+        "value": 0
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 0
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 0
+      },
+      {
+        "name": "vicious",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "A3",
+    "category": "Armor",
+    "name": "Medium Armor",
+    "encumbrance": 2,
+    "wornEncumbrance": 0,
+    "hardPoints": 1,
+    "value": 150,
+    "rarity": 3,
+    "description": "Thick woven leather or similar material.",
+    "soak": 1,
+    "defense": 0,
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 0
+      },
+      {
+        "name": "auto-fire",
+        "value": 0
+      },
+      {
+        "name": "blast",
+        "value": 0
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 0
+      },
+      {
+        "name": "concussive",
+        "value": 0
+      },
+      {
+        "name": "cumbersome",
+        "value": 0
+      },
+      {
+        "name": "defensive",
+        "value": 0
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 0
+      },
+      {
+        "name": "ensnare",
+        "value": 0
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 0
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 0
+      },
+      {},
+      {
+        "name": "limited ammo ",
+        "value": 0
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 0
+      },
+      {
+        "name": "prepare",
+        "value": 0
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 0
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 0
+      },
+      {
+        "name": "vicious",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "A4",
+    "category": "Armor",
+    "name": "Bonedust Plate",
+    "encumbrance": 3,
+    "wornEncumbrance": 0,
+    "hardPoints": 2,
+    "value": 400,
+    "rarity": 8,
+    "description": "Bonedust Plate is forged  through a tedious process of drying out Bonedustings to not be flammable. Then through a process of ritualistic like alchemy, the Bonedust plates are molded into large flakes of scale-like metal that are woven together with countless thread  into a suit. As a result, it is able to absorb vicious blows with given a good defense against lethal attacks - but is cumbersome to wear.",
+    "soak": 2,
+    "defense": 1,
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 0
+      },
+      {
+        "name": "auto-fire",
+        "value": 0
+      },
+      {
+        "name": "blast",
+        "value": 0
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 0
+      },
+      {
+        "name": "concussive",
+        "value": 0
+      },
+      {
+        "name": "cumbersome",
+        "value": 0
+      },
+      {
+        "name": "defensive",
+        "value": 0
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 0
+      },
+      {
+        "name": "ensnare",
+        "value": 0
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 0
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 0
+      },
+      {},
+      {
+        "name": "limited ammo ",
+        "value": 0
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 0
+      },
+      {
+        "name": "prepare",
+        "value": 0
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 0
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 0
+      },
+      {
+        "name": "vicious",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "A5",
+    "category": "Armor",
+    "name": "Bloodoil Treated Robes",
+    "encumbrance": 1,
+    "wornEncumbrance": 0,
+    "hardPoints": 1,
+    "value": 250,
+    "rarity": 4,
+    "description": "A very thick, black leathery like cloth hangs off the wearer to provide some cushioning from blows as well as having benefits for alchemy. However, it has an easily noticeable odor permitting from it.",
+    "soak": 1,
+    "defense": 0,
+    "specialAbilities": [
+      "(Passive): When being tracked or spotted, the tracker adds one boost die to either vigilance or perception check"
+    ],
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 0
+      },
+      {
+        "name": "auto-fire",
+        "value": 0
+      },
+      {
+        "name": "blast",
+        "value": 0
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 0
+      },
+      {
+        "name": "concussive",
+        "value": 0
+      },
+      {
+        "name": "cumbersome",
+        "value": 0
+      },
+      {
+        "name": "defensive",
+        "value": 0
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 0
+      },
+      {
+        "name": "ensnare",
+        "value": 0
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 0
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 0
+      },
+      {},
+      {
+        "name": "limited ammo ",
+        "value": 0
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 0
+      },
+      {
+        "name": "prepare",
+        "value": 0
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 0
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 0
+      },
+      {
+        "name": "vicious",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "A6",
+    "category": "Armor",
+    "name": "Sparklebit Plate",
+    "encumbrance": 3,
+    "wornEncumbrance": 0,
+    "hardPoints": 2,
+    "value": 375,
+    "rarity": 6,
+    "description": "When struck, the infused Sparklebit sparks and lessens the blow of the force, giving good defense and soak. Engaged opponents suffer a one setback die, as melee attacks can cause complications against the plated armor.",
+    "soak": 1,
+    "defense": 0,
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 0
+      },
+      {
+        "name": "auto-fire",
+        "value": 0
+      },
+      {
+        "name": "blast",
+        "value": 0
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 0
+      },
+      {
+        "name": "concussive",
+        "value": 0
+      },
+      {
+        "name": "cumbersome",
+        "value": 0
+      },
+      {
+        "name": "defensive",
+        "value": 0
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 0
+      },
+      {
+        "name": "ensnare",
+        "value": 0
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 0
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 0
+      },
+      {},
+      {
+        "name": "limited ammo ",
+        "value": 0
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 0
+      },
+      {
+        "name": "prepare",
+        "value": 0
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 0
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 0
+      },
+      {
+        "name": "vicious",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "A7",
+    "category": "Armor",
+    "name": "Living Bark Hide",
+    "encumbrance": 2,
+    "wornEncumbrance": 0,
+    "hardPoints": 1,
+    "value": 3150,
+    "rarity": 9,
+    "description": "Crated by Druids in the Commonwealth, the armor set is a breastplate made of Bonedusting and a moving set of brush that twists around the wearer much like a snake at all times. This gives the armor the ability to slap away incoming attacks.",
+    "soak": 0,
+    "defense": 2,
+    "specialAbilities": [
+      "(Passive): When wearing this armor, the user adds one success to Coercion checks they make, and automatic one failure to Charm checks they make."
+    ],
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 0
+      },
+      {
+        "name": "auto-fire",
+        "value": 0
+      },
+      {
+        "name": "blast",
+        "value": 0
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 0
+      },
+      {
+        "name": "concussive",
+        "value": 0
+      },
+      {
+        "name": "cumbersome",
+        "value": 0
+      },
+      {
+        "name": "defensive",
+        "value": 0
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 0
+      },
+      {
+        "name": "ensnare",
+        "value": 0
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 0
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 0
+      },
+      {},
+      {
+        "name": "limited ammo ",
+        "value": 0
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 0
+      },
+      {
+        "name": "prepare",
+        "value": 0
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 0
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 0
+      },
+      {
+        "name": "vicious",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "A8",
+    "category": "Armor",
+    "name": "Screaming Red Robes",
+    "encumbrance": 3,
+    "wornEncumbrance": 0,
+    "hardPoints": 2,
+    "value": 3575,
+    "rarity": 9,
+    "description": "Adorned by the sinister and disquieting Warlocks of the Republic, the robe are made of mortal flesh that is treated with Bloodoil and Bonedustings.",
+    "soak": 1,
+    "defense": 1,
+    "specialAbilities": [
+      "(Passive): Once per encounter, the wearer is granted + 2 defense to both melee and range until the end of their next turn as an incidental."
+    ],
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 0
+      },
+      {
+        "name": "auto-fire",
+        "value": 0
+      },
+      {
+        "name": "blast",
+        "value": 0
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 0
+      },
+      {
+        "name": "concussive",
+        "value": 0
+      },
+      {
+        "name": "cumbersome",
+        "value": 0
+      },
+      {
+        "name": "defensive",
+        "value": 0
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 0
+      },
+      {
+        "name": "ensnare",
+        "value": 0
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 0
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 0
+      },
+      {},
+      {
+        "name": "limited ammo ",
+        "value": 0
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 0
+      },
+      {
+        "name": "prepare",
+        "value": 0
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 0
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 0
+      },
+      {
+        "name": "vicious",
+        "value": 0
+      }
+    ]
+  }
+]

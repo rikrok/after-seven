@@ -1,0 +1,299 @@
+[
+  {
+    "id": "G1",
+    "category": "Gear",
+    "subCategory": "Alchemy Products",
+    "name": "Arcanite Salt",
+    "encumbrance": 0,
+    "hardPoints": 0,
+    "value": 10,
+    "rarity": 1,
+    "description": "Used for industrial purposes, salt for melting ice, crude gunpowder mix, preserving meat."
+  },
+  {
+    "id": "G2",
+    "category": "Gear",
+    "subCategory": "Alchemy Products",
+    "name": "Arcanite Acid",
+    "encumbrance": 0,
+    "hardPoints": 0,
+    "value": 25,
+    "rarity": 1,
+    "description": "Dissolves almost everything, very special and highly toxic. It can also be frozen and turned into a glue."
+  },
+  {
+    "id": "G3",
+    "category": "Gear",
+    "subCategory": "Alchemy Products",
+    "name": "Arcanite Putty",
+    "encumbrance": 0,
+    "hardPoints": 0,
+    "value": 33,
+    "rarity": 1,
+    "description": "A gum that can be as dense as rubber, but as lightweight as paper."
+  },
+  {
+    "id": "G4",
+    "category": "Gear",
+    "subCategory": "Alchemy Products",
+    "name": "Bloodoil",
+    "encumbrance": 0,
+    "hardPoints": 0,
+    "value": 31,
+    "rarity": 1,
+    "description": "Bloodoil is the cornerstone of the economy. It powers factories, augments item and heals people. It can be incredibly addicting as well. It is mostly created by capturing the moment of death of a living mortal. "
+  },
+  {
+    "id": "G5",
+    "category": "Gear",
+    "subCategory": "Alchemy Products",
+    "name": "Bloodoil Tonic",
+    "encumbrance": 0,
+    "hardPoints": 0,
+    "value": 62,
+    "rarity": 1,
+    "description": "Bloodoil can help numb and cure pain, one man’s life is another man’s extension to his life. ",
+    "specialAbilities": [
+      "(Passive) Bloodoil Tonic has the same effect as the core rulebook’s Painkillers. "
+    ]
+  },
+  {
+    "id": "G6",
+    "category": "Gear",
+    "subCategory": "Alchemy Products",
+    "name": "Sweet Bloodoil Tonic",
+    "encumbrance": 0,
+    "hardPoints": 0,
+    "value": 97,
+    "rarity": 4,
+    "description": "Tastes a bit sweeter than the regular tonic. ",
+    "specialAbilities": [
+      "(Passive) You may treat this as a painkiller taken for the third time of the day – regardless if reached maximum number of painkillers for the day (healing three wounds). "
+    ]
+  },
+  {
+    "id": "G7",
+    "category": "Gear",
+    "subCategory": "Alchemy Products",
+    "name": "Bonedusting",
+    "encumbrance": 0,
+    "hardPoints": 0,
+    "value": 112,
+    "rarity": 5,
+    "description": "Bonedusting is a mixture of Arcanite and remains from a magical monster. It is used mostly as fuel, as it is more lightweight, less pollutant and more efficient than coal. However, it can be shaped into lightweight plates and made flame retardant as a wondrous alternative to metal. "
+  },
+  {
+    "id": "G8",
+    "category": "Gear",
+    "subCategory": "Alchemy Products",
+    "name": "Sparklebit",
+    "encumbrance": 0,
+    "hardPoints": 0,
+    "value": 250,
+    "rarity": 5,
+    "description": "Sparklebit is a highly energetic form of Arcanite. A power-based substance can be used as jolts of electricity and can be coated to cover objects as well to give it a protective coating."
+  },
+  {
+    "id": "G9",
+    "category": "Gear",
+    "subCategory": "Alchemy Products",
+    "name": "Manarok",
+    "encumbrance": 5,
+    "hardPoints": 3,
+    "value": 3780,
+    "rarity": 8,
+    "description": "Manarok is the most sought-after source in this setting. It can power the thirstiest of combustion engines. It is highly explosive and highly efficient. It is the result of capturing the natural elements and Arcanite into a crystal."
+  },
+  {
+    "id": "G10",
+    "category": "Gear",
+    "subCategory": "Adventuring Gear",
+    "name": "Alchemist Pack",
+    "encumbrance": 2,
+    "hardPoints": 1,
+    "value": 175,
+    "rarity": 3,
+    "description": "A set of beakers, tubing and hot plates to aid and assist in Alchemy.",
+    "specialAbilities": [
+      "(Passive) Remove one setback from the die pool when using Alchemy, Enchanting or Transmogrify. "
+    ]
+  },
+  {
+    "id": "G11",
+    "category": "Gear",
+    "subCategory": "Adventuring Gear",
+    "name": "Thieves Tools",
+    "encumbrance": 1,
+    "hardPoints": 1,
+    "value": 75,
+    "rarity": 5,
+    "description": "Allows the users to open locks, latches that are locked.",
+    "specialAbilities": [
+      "(Passive) When making a Skulduggery check to open a lock or latch, your character adds an automatic advantage to the results. "
+    ]
+  },
+  {
+    "id": "G12",
+    "category": "Gear",
+    "subCategory": "Adventuring Gear",
+    "name": "Fine Clothing",
+    "encumbrance": 1,
+    "hardPoints": 1,
+    "value": 120,
+    "rarity": 3,
+    "description": "Highly fashionable and well made. It can be an impressive suit, dress or set of clothing.",
+    "specialAbilities": [
+      "(Passive) When worn, the fine clothing because an encumbrance of 0.",
+      "Remove one setback die when Charm, Deception, Leadership are made while wearing this item."
+    ]
+  },
+  {
+    "id": "G13",
+    "category": "Gear",
+    "subCategory": "Adventuring Gear",
+    "name": "Spirit Compass",
+    "encumbrance": 0,
+    "hardPoints": 0,
+    "value": 100,
+    "rarity": 6,
+    "description": "This can be a rock, or some mundane item that a spirit guide speaks to you through. When using this, you can orientate your way through the wilderness by focusing inner thoughts and meditations.",
+    "specialAbilities": [
+      "(Passive) Remove one setback die from the dice pool while navigating through wildlife or streets"
+    ]
+  },
+  {
+    "id": "G14",
+    "category": "Gear",
+    "subCategory": "Adventuring Gear",
+    "name": "Legal Paper (Forged)",
+    "encumbrance": 1,
+    "hardPoints": 1,
+    "value": 350,
+    "rarity": 4,
+    "description": "Ideally used when questioned or stopped for inspection.",
+    "specialAbilities": [
+      "(Passive) Add one boost die for social engagements with government personal. "
+    ]
+  },
+  {
+    "id": "G15",
+    "category": "Gear",
+    "subCategory": "Adventuring Gear",
+    "name": "Pack of Holding",
+    "encumbrance": 2,
+    "hardPoints": 1,
+    "value": 600,
+    "rarity": 8,
+    "description": "A backpack of holding is a deceptively normal looking pack whose interior is substantially larger than its exterior. How this is possible is a secret known only to the most learned spell casters. It is, obviously, magical. ",
+    "specialAbilities": [
+      "(Passive) A backpack of holding can carry items of up to 12 encumbrance total. (Passive) The backpack is always encumbrance 2, regardless of how much it’s holding."
+    ]
+  },
+  {
+    "id": "G16",
+    "category": "Gear",
+    "subCategory": "Implementations",
+    "name": "Shaman Collar",
+    "encumbrance": 0,
+    "hardPoints": 0,
+    "value": 750,
+    "rarity": 5,
+    "description": "A collar made up of the four natural elements, woven together by Arcanite Putty that rests against a Primal caster's neck.",
+    "specialAbilities": [
+      "(Passive) Used only by Primal Spell Casters",
+      "(Passive)  When the user casts the Conjure spell to summon a creature (living, undead, spirit or magical), adding the Summon Ally effect does not increase its difficulty. The creature remains summoned until the end of the encounter without your character having to use the concentrate maneuver."
+    ]
+  },
+  {
+    "id": "G17",
+    "category": "Gear",
+    "subCategory": "Implementations",
+    "name": "Divine Icons",
+    "encumbrance": 0,
+    "hardPoints": 0,
+    "value": 150,
+    "rarity": 4,
+    "description": "Works as Holy Icons, but uses the word “Divine” because there is nothing righteous worshiping a powerful being that wants everyone dead, after their long slumber.",
+    "specialAbilities": [
+      "(Passive) Used only by Divine Spell Casters",
+      "(Passive) All damage done by Divine spells are increased by 1."
+    ]
+  },
+  {
+    "id": "G18",
+    "category": "Gear",
+    "subCategory": "Implementations",
+    "name": "Magic Amulets",
+    "encumbrance": 1,
+    "hardPoints": 1,
+    "value": 1000,
+    "rarity": 6,
+    "description": "Magic amulets help augment the user’s ability to affect more targets with their spells.",
+    "specialAbilities": [
+      "(Passive) Used by Any Spell Caster",
+      "(Passive) Attack spells cast by the user increase their base damage by three."
+    ]
+  },
+  {
+    "id": "G19",
+    "category": "Gear",
+    "subCategory": "Implementations",
+    "name": "Magic Orbs",
+    "encumbrance": 1,
+    "hardPoints": 1,
+    "value": 8500,
+    "rarity": 8,
+    "description": "Orbs help spell casters Augur with greater ease",
+    "specialAbilities": [
+      "(Passive) Used by Any Spell Caster",
+      "(Passive) When attempting Astral Projection or Real Time do not increase difficulties. "
+    ]
+  },
+  {
+    "id": "G20",
+    "category": "Gear",
+    "subCategory": "Implementations",
+    "name": "Magic Rings",
+    "encumbrance": 0,
+    "hardPoints": 0,
+    "value": 10000,
+    "rarity": 9,
+    "description": "Magic rings are items of great power and danger.",
+    "specialAbilities": [
+      "(Passive) Used by Any Spell Caster",
+      "(Passive) Always upgrade the difficulty of any spells you cast once when using a ring.",
+      "(Passive) Two despairs can't destroy a ring.",
+      "(Passive) Attack spells cast by the user increase their base damage by two."
+    ]
+  },
+  {
+    "id": "G21",
+    "category": "Gear",
+    "subCategory": "Implementations",
+    "name": "Magic Staffs",
+    "encumbrance": 2,
+    "hardPoints": 1,
+    "value": 400,
+    "rarity": 4,
+    "description": "Magical staffs have long been a staple of magic in a variety of settings. Used by wizards, druids, and shamans, these can look like ornate, rune-encrusted rods of brass and obsidian, simple wooden staffs, or pretty much anything else. Magical staffs almost universally augment the user’s ability to cast spells at range. ",
+    "specialAbilities": [
+      "(Passive) Used by Any Spell Caster",
+      "(Passive) Attack spells cast by the user increase their base damage by four."
+    ]
+  },
+  {
+    "id": "G22",
+    "category": "Gear",
+    "subCategory": "Implementations",
+    "name": "Magic Wands",
+    "encumbrance": 1,
+    "hardPoints": 1,
+    "value": 400,
+    "rarity": 6,
+    "description": "Usually small sticks about the size and shape of a conductor’s baton, they can be constructed from just about anything and worked with any number of designs. Magic wands help augment the user’s ability to cast spells in a very specific way. ",
+    "specialAbilities": [
+      "(Passive) Used only by Arcana",
+      "(Passive) Arcana attack spells cast by the user increase their base damage by three."
+    ]
+  }
+]
