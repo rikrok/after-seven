@@ -1,491 +1,472 @@
 <template>    
-    <div class="col-xs-1 p-3">
-        <b-btn v-b-toggle.settingChoices variant="primary" class="mt-4"> + Character and Setting Choices </b-btn>
-        <b-collapse id="settingChoices" visible>                              
-            <b-card>  
-                <b-container class="p-3">
+    <div class="col-sm-12 p-3">
+        <h1> Character Generator </h1>
+        <b-container class="p-3">
+            <b-row> 
+                <b-col> 
+                    <b-form-checkbox id="checkbox1"
+                                        v-model="isFreedomMode"
+                                        value="on"
+                                        unchecked-value="off">
+                            Freedom Mode
+                    </b-form-checkbox>
+                </b-col>
+                <b-col>
+                    <b-btn variant="success">
+                        Export as JSON
+                    </b-btn>
+                </b-col>
+            </b-row>
+            <b-row v-if="isFreedomMode === 'on'">
+                <b-col> <p class="text-center text-warning pt-3"> Freedom Mode is on. Equipment, skills and talents are free. </p>
+                        <p class="text-center text-warning"> Be free my friends. </p> </b-col>
+            </b-row>
+            <b-row> 
+                <hr>
+            </b-row>
+            <b-row>                        
+                <b-col> <strong>Name</strong> </b-col>
+                <b-col> <strong>Setting</strong> </b-col>
+                <b-col> <strong>Alternative Rules</strong> </b-col>
+            </b-row>
 
-                    <b-row>                        
-                        <b-col> <strong>Name</strong> </b-col>
-                        <b-col> <strong>Setting</strong> </b-col>
-                        <b-col> <strong>Alternative Rules</strong> </b-col>
-                    </b-row>
+            <b-row>
+                <b-col>
+                    <b-form-input id="characterName" v-model="this.character.name" placeholder="enter name" type="text"/> 
+                </b-col>
+                <b-col> 
+                    <b-form-select v-model="selectedGenre" :options="this.settingGenres" class="mb-3"/>
+                </b-col>
+                <b-col> 
+                    <b-container>
+                        <b-row>
+                            <b-col> 
+                                <b-form-group>
+                                    <b-form-checkbox-group v-model="selectedAlternativeRules" :options="this.sheet.alternativeRules" />                    
+                                </b-form-group>
+                            </b-col>
 
-                    <b-row>
-                        <b-col>
-                            <b-form-input id="characterName" v-model="this.character.name" placeholder="enter name" type="text"/> 
-                        </b-col>
-                        <b-col> 
-                            <b-form-select v-model="selectedGenre" :options="this.sheet.settingGenres" class="mb-3"/>
-                        </b-col>
-                        <b-col> 
-                            <b-form-group>
-                                <b-form-checkbox-group v-model="selectedAlternativeRules" :options="this.sheet.alternativeRules" />                    
-                            </b-form-group>
-                        </b-col>
-                    </b-row>
+                            <b-col>
+                                <b-button v-on:click="this.castActiveSkills" variant="info" size="sm"> Redo Skills </b-button>
+                            </b-col>
+                        </b-row>
+                    </b-container>
+                </b-col>
+            </b-row>
 
-                    <b-row>
-                        <b-col> <strong>Race</strong> </b-col>
-                        <b-col> <strong>Career</strong> </b-col>
-                        <b-col v-if="selectedGenre === 'After Seven'"> <strong>Former Faction</strong> </b-col>
-                    </b-row>
+            <b-row>
+                <b-col> <strong>Race</strong> </b-col>
+                <b-col> <strong>Career</strong> </b-col>
+                <b-col v-if="selectedGenre === 'After Seven'"> <strong>Former Faction</strong> </b-col>
+            </b-row>
 
-                    <b-row>
-                        <b-col>                    
-                            <b-form-select v-model="selectedRace" :options="this.sheet.selectableRaces" class="mb-3"/>                    
-                        </b-col>
-                        <b-col>
-                            <b-form-select v-model="selectedCareer" :options="this.sheet.selectableCareers" class="mb-3"/>
-                        </b-col>
-                        <b-col v-if="selectedGenre === 'After Seven'">
-                            <b-form-select v-model="selectedFaction" :options="this.sheet.possibleFactions" class="mb-3"/>
-                        </b-col>
-                    </b-row>
+            <b-row>
+                <b-col>                    
+                    <b-form-select v-model="selectedRace" :options="this.sheet.selectableRaces" class="mb-3"/>                    
+                </b-col>
+                <b-col>
+                    <b-form-select v-model="selectedCareer" :options="this.sheet.selectableCareers" class="mb-3"/>
+                </b-col>
+                <b-col v-if="selectedGenre === 'After Seven'">
+                    <b-form-select v-model="selectedFaction" :options="this.sheet.possibleFactions" class="mb-3"/>
+                </b-col>
+            </b-row>
 
-                    <b-row>                
-                        <b-col> <strong>Desire</strong> </b-col>
-                        <b-col> <strong>Fear</strong> </b-col>
-                        <b-col> <strong>Flaw</strong> </b-col>
-                        <b-col> <strong>Strength</strong> </b-col>
-                    </b-row>
+            <b-row>                
+                <b-col> <strong>Desire</strong> </b-col>
+                <b-col> <strong>Fear</strong> </b-col>
+                <b-col> <strong>Flaw</strong> </b-col>
+                <b-col> <strong>Strength</strong> </b-col>
+            </b-row>
 
-                    <b-row>
-                        <b-col>
-                            <b-form-select v-model="selectedDesire" :options="this.sheet.selectableDesires" class="mb-3"/>
-                        </b-col>
-                        <b-col>
-                            <b-form-select v-model="selectedFear" :options="this.sheet.selectableFears" class="mb-3"/>
-                        </b-col>
-                        <b-col>
-                            <b-form-select v-model="selectedFlaw" :options="this.sheet.selectableFlaws" class="mb-3"/>
-                        </b-col>
-                        <b-col>
-                            <b-form-select v-model="selectedStrength" :options="this.sheet.selectableStrengths" class="mb-3"/>
-                        </b-col>
-                    </b-row>
-                        
-                    <b-row>                
-                        <b-col> <strong>Total XP</strong> </b-col>
-                        <b-col> <strong>Bonus XP</strong> </b-col>
-                        <b-col> <strong>Spent XP</strong> </b-col>
-                        <b-col> <strong>Starting XP</strong> </b-col>
-                    </b-row>
+            <b-row>
+                <b-col>
+                    <b-form-select v-model="selectedDesire" :options="this.sheet.selectableDesires" class="mb-3"/>
+                </b-col>
+                <b-col>
+                    <b-form-select v-model="selectedFear" :options="this.sheet.selectableFears" class="mb-3"/>
+                </b-col>
+                <b-col>
+                    <b-form-select v-model="selectedFlaw" :options="this.sheet.selectableFlaws" class="mb-3"/>
+                </b-col>
+                <b-col>
+                    <b-form-select v-model="selectedStrength" :options="this.sheet.selectableStrengths" class="mb-3"/>
+                </b-col>
+            </b-row>
+                
+            <b-row>                
+                <b-col> <strong>Total XP</strong> </b-col>
+                <b-col> <strong>Bonus XP</strong> </b-col>
+                <b-col> <strong>Spent XP</strong> </b-col>
+                <b-col> <strong>Starting XP</strong> </b-col>
+            </b-row>
 
-                    <b-row>
-                        <b-col> {{ this.character.xp.total }} </b-col>
-                        <b-col> <b-form-input v-model="this.character.xp.bonus" type="number"/> </b-col>
-                        <b-col> {{ this.character.xp.totalSpent }} </b-col>
-                        <b-col> {{ this.character.xp.starting }} </b-col>                               
-                    </b-row>
+            <b-row>
+                <b-col> {{ this.character.xp.total }} </b-col>
+                <b-col> <b-form-input v-model="this.character.xp.bonus" type="number"/> </b-col>
+                <b-col> {{ this.character.xp.totalSpent }} </b-col>
+                <b-col> {{ this.character.xp.starting }} </b-col>                               
+            </b-row>
 
-                </b-container>        
-            </b-card>
-        </b-collapse>
+        </b-container>        
+
+        <h2> <strong> Characteristics </strong> </h2>
         <p> </p>
+  
+        <b-container class="p-3">
+            <b-row>
+                <b-col>
+                    <b-alert :show="characteristicAlert"
+                        dismissible
+                        @dismissed="characteristicAlert=false"
+                        variant="danger">
+                        <p> {{ this.illegalLogic }} </p>
+                    </b-alert>                        
+                </b-col>                        
+            </b-row>
 
-        <b-btn v-b-toggle.chararacteristicCard variant="primary"> + Characteristics </b-btn>
-        <b-collapse id="chararacteristicCard" visible>                              
-            <b-card>  
-                <b-container class="p-3 w=50">
+            <b-row>                
+                <b-col>
+                    <b-container> 
+                        <b-row>
+                            <b-col>
+                                <b-table 
+                                        responsive 
+                                        small 
+                                        striped 
+                                        class="text-left" 
+                                        :items="this.character.stats.characteristics" 
+                                        :fields="this.sheet.characteristicFields">
 
-                    <b-row>
-                        <b-col>
-                            <b-alert :show="characteristicAlert"
-                                dismissible
-                                @dismissed="characteristicAlert=false"
-                                variant="danger">
-                                <p> {{ this.illegalLogic }} </p>
-                            </b-alert>                        
-                        </b-col>                        
-                    </b-row>
+                                    <template slot="actions" slot-scope="row">                                                                              
+                                        <b-btn size="sm" variant="danger" v-on:click.stop="adjustCharacteristic(row.item, -1)"> - </b-btn>
+                                        <b-btn size="sm" variant="success" v-on:click.stop="adjustCharacteristic(row.item, 1)"> + </b-btn>                                
+                                    </template>    
 
-                    <b-row>                
-                        <b-col>
-                            <b-container> 
-                                <b-row align-h="center" align-v="center">
-                                    <b-col>
-                                        <b-table 
+                                </b-table>
+                            </b-col>
+                        </b-row>          
+                    </b-container>                            
+                </b-col>
+
+                <b-col>
+                    <b-container>  
+                        <b-row>
+                            <b-col>  
+                                <b-table 
+                                    responsive 
+                                    small 
+                                    striped 
+                                    class="text-left" 
+                                    :items="this.character.stats.derivedCharacteristics" 
+                                    :fields="this.sheet.derivedCharacteristicFields"/>                              
+                            </b-col>
+                        </b-row>         
+                    </b-container>                   
+                </b-col>
+
+                <b-col>
+                    <b-container>   
+                        <b-row class="text-left text-secondary" >
+                            <b-col class="text-primary text-left"> <strong> Armor Worn </strong> </b-col>
+                        </b-row>
+
+                        <b-row>
+                            <b-col class="text-left"> <strong> {{ this.character.equipment.armor.armorWorn.name }} </strong> </b-col>
+                        </b-row>
+                        
+                        <b-row class="text-left text-secondary" >
+                            <b-col> <strong> Defense </strong> </b-col>
+                            <b-col> {{ this.character.equipment.armor.armorWorn.defense }} </b-col>                                
+                        </b-row>
+
+                        <b-row  class="text-left text-secondary">
+                            <b-col> <strong> Soak </strong> </b-col>
+                            <b-col> {{ this.character.equipment.armor.armorWorn.soak }} </b-col>                                
+                        </b-row>
+
+                        <b-row  class="text-left text-secondary">
+                            <b-col> <strong> Encumbrance </strong> </b-col>
+                            <b-col> {{ this.character.equipment.armor.armorWorn.encumbrance }} </b-col>
+                        </b-row>   
+                        
+                        <b-row> <hr> </b-row>
+
+                        <b-row class="text-left text-secondary" >
+                            <b-col class="text-primary text-left"> <strong> Misc. Item Stats </strong> </b-col>
+                        </b-row>
+                                                        
+                        <b-row class="text-left text-secondary" >
+                            <b-col > <strong> Armor </strong> </b-col>
+                            <b-col> {{ this.character.equipment.inventory.armorItems }} <small class="text-muted"> (not worn) </small> </b-col>                             
+                        </b-row>
+
+                        <b-row class="text-left text-secondary" >
+                            <b-col> <strong> Weapons </strong> </b-col>
+                            <b-col> {{ this.character.equipment.inventory.weaponItems }} </b-col>                                
+                        </b-row>
+
+                        <b-row class="text-left text-secondary" >
+                            <b-col> <strong> Gear </strong> </b-col>
+                            <b-col> {{ this.character.equipment.inventory.gearItems }} </b-col>
+                        </b-row>     
+                        
+                        <b-row class="text-left text-secondary" >
+                            <b-col> <strong> Item Total </strong> </b-col>
+                            <b-col> {{ this.character.equipment.inventory.items.length - 1 }} </b-col>
+                        </b-row>     
+
+                        
+                    </b-container>                   
+                </b-col>
+
+            </b-row>
+        </b-container>
+            
+        <p> </p>
+        <h2> <strong> Skills and Talents </strong> </h2>
+        <b-container class="p-0 col-md-12">
+            <b-row>
+                <b-col>
+                    <b-container>
+                        <b-row>
+                            <b-col>
+                                <b-form-checkbox id="skillCheckBox"
+                                        v-model="skillTableMode"
+                                        value="on"
+                                        unchecked-value="off">
+                                    Show Skills
+                                </b-form-checkbox>
+                            </b-col> 
+                            <b-col> Remaining XP: {{ this.character.xp.total }} </b-col>
+                            <b-col>
+                                <b-form-checkbox id="talentCheckBox"
+                                        v-model="talentTableMode"
+                                        value="on"
+                                        unchecked-value="off">
+                                    Show Talents
+                                </b-form-checkbox>
+                            </b-col>
+                        </b-row>
+            
+                        <b-row>
+                            <b-col>                                            
+                                <b-btn v-b-toggle.skillLegend variant="secondary" size="sm"> + Skill Legend </b-btn>
+                                <b-btn variant="warning" size="sm" v-on:click.stop="this.resetSkills"> Reset Skills </b-btn>
+                                <b-btn v-b-toggle.talentLimits variant="secondary" size="sm"> + Talent Limits </b-btn>
+                                <b-collapse id ="skillLegend" >
+                                    <b-card>
+                                        <b-table responsive small striped class="text-left" :items="this.sheet.skillLegend" :fields="this.sheet.skillLegendFields"/>
+                                    </b-card>
+                                </b-collapse>                                       
+                                <b-collapse id="talentLimits">
+                                    <b-card>
+                                        <b-table class="text-left" small striped :items="this.character.talents.limitations"/>
+                                    </b-card>
+                                </b-collapse>  
+                            </b-col>                    
+                        </b-row>    
+                        <b-row>
+                            <b-col>
+                                <b-alert 
+                                    :show="skillAlert"
+                                    dismissible
+                                    @dismissed="skillAlert=false"
+                                    variant="danger">
+                                        <p> {{ this.illegalLogic }} </p>
+                                </b-alert>                        
+                            </b-col> 
+                        </b-row>
+                        <b-row> <hr> </b-row>
+                        
+                        <b-row id="skillAndTalentGrids" >
+                            <b-col v-if="skillTableMode === 'on'" id="skillGrid">
+                                <b-container>
+                                    <b-row v-if="skillTableMode === 'on'"> <b-col> </br> </b-col> </b-row>
+                                    <b-row v-if="skillTableMode === 'on'">
+                                        <b-col>
+                                            <p> </p>
+                                            <b-table                                
                                                 responsive 
                                                 small 
                                                 striped 
-                                                class="text-left" 
-                                                :items="this.character.stats.characteristics" 
-                                                :fields="this.sheet.characteristicFields">
+                                                class="text-left"
+                                                :items="this.character.skills.items"
+                                                :fields="this.sheet.skillFields">
 
-                                            <template slot="actions" slot-scope="row">                                                                              
-                                                <b-btn size="sm" variant="danger" v-on:click.stop="adjustCharacteristic(row.item, -1)"> - </b-btn>
-                                                <b-btn size="sm" variant="success" v-on:click.stop="adjustCharacteristic(row.item, 1)"> + </b-btn>                                
-                                            </template>    
+                                                <template slot="actions" slot-scope="row">                                                   
+                                                    <b-btn size="sm" variant="danger" v-on:click.stop="adjustSkillRank(row.item, -1)"> - </b-btn>
+                                                    <b-btn size="sm" variant="success" v-on:click.stop="adjustSkillRank(row.item, 1)"> + </b-btn>                                
+                                                </template>    
 
-                                        </b-table>
-                                    </b-col>
-                                </b-row>          
-                            </b-container>                            
-                        </b-col>
+                                            </b-table>
+                                        </b-col>
+                                    </b-row>
+                                </b-container>
+                            </b-col>
 
-                        <b-col>
-                            <b-container>  
-                                <b-row align-h="center" align-v="center">
-                                    <b-col>  
-                                        <b-table 
-                                            responsive 
-                                            small 
-                                            striped 
-                                            class="text-left" 
-                                            :items="this.character.stats.derivedCharacteristics" 
-                                            :fields="this.sheet.derivedCharacteristicFields"/>                              
-                                    </b-col>
-                                </b-row>         
-                            </b-container>                   
-                        </b-col>
+                            <b-col v-if="talentTableMode === 'on'">
+                                <b-container >
+                                    <b-row v-if="talentTableMode === 'on'">
+                                        <b-col>
+                                            <b-form-input v-model="talentFilter" placeholder="Type to Search" />
+                                        </b-col>
 
-                        <b-col>
-                            <b-container>   
-                                <b-row class="text-left text-secondary" >
-                                    <b-col class="text-primary text-left"> <strong> Armor Worn </strong> </b-col>
-                                </b-row>
+                                        <b-col>
+                                            <b-input-group-button> 
+                                                <b-btn :disabled="!talentFilter" @click="talentFilter = ''" size="sm"> X </b-btn>
+                                            </b-input-group-button>
+                                        </b-col>
+                                    </b-row>                              
+                                    
+                                    <b-row v-if="talentTableMode === 'on'">
+                                        <b-col>
+                                            <b-table 
+                                                    responsive 
+                                                    class="text-left" 
+                                                    small 
+                                                    striped                                                     
+                                                    :filter="talentFilter"
+                                                    @filtered="onTalentFilter"
+                                                    :items="this.character.talents.items" 
+                                                    :fields="this.sheet.talentFields" 
+                                                    :per-page="talentsPerPage" 
+                                                    :current-page="talentsPage">   
 
-                                <b-row>
-                                    <b-col class="text-left"> <strong> {{ this.character.equipment.armor.armorWorn.name }} </strong> </b-col>
-                                </b-row>
-                                
-                                <b-row class="text-left text-secondary" >
-                                    <b-col> <strong> Defense </strong> </b-col>
-                                    <b-col> {{ this.character.equipment.armor.armorWorn.defense }} </b-col>                                
-                                </b-row>
+                                                    <template slot="actions" slot-scope="row">
+                                                        <b-btn size="sm" @click.stop="showSomeModal(row.item, 'talent')" variant="secondary"> info </b-btn>                                
+                                                        <b-btn size="sm" variant="danger" v-on:click.stop="adjustTalentTiering(row.item, -1)"> - </b-btn>
+                                                        <b-btn size="sm" variant="success" v-on:click.stop="adjustTalentTiering(row.item, 1)"> + </b-btn>                                
+                                                    </template>    
 
-                                <b-row  class="text-left text-secondary">
-                                    <b-col> <strong> Soak </strong> </b-col>
-                                    <b-col> {{ this.character.equipment.armor.armorWorn.soak }} </b-col>                                
-                                </b-row>
-
-                                <b-row  class="text-left text-secondary">
-                                    <b-col> <strong> Encumbrance </strong> </b-col>
-                                    <b-col> {{ this.character.equipment.armor.armorWorn.encumbrance }} </b-col>
-                                </b-row>   
-                                
-                                <b-row> <hr> </b-row>
-
-                                <b-row class="text-left text-secondary" >
-                                    <b-col class="text-primary text-left"> <strong> Misc. Item Stats </strong> </b-col>
-                                </b-row>
-                                                                
-                                <b-row class="text-left text-secondary" >
-                                    <b-col > <strong> Unequipped Armor </strong> </b-col>
-                                    <b-col> {{ this.character.equipment.inventory.armorItems }} </b-col>                                
-                                </b-row>
-
-                                <b-row class="text-left text-secondary" >
-                                    <b-col> <strong> Weapons </strong> </b-col>
-                                    <b-col> {{ this.character.equipment.inventory.weaponItems }} </b-col>                                
-                                </b-row>
-
-                                <b-row class="text-left text-secondary" >
-                                    <b-col> <strong> Gear </strong> </b-col>
-                                    <b-col> {{ this.character.equipment.inventory.gearItems }} </b-col>
-                                </b-row>     
-                                
-                                <b-row class="text-left text-secondary" >
-                                    <b-col> <strong> Item Total </strong> </b-col>
-                                    <b-col> {{ this.character.equipment.inventory.items.length - 1 }} </b-col>
-                                </b-row>     
-
-                                
-                            </b-container>                   
-                        </b-col>
-
-                    </b-row>
-                </b-container>
-            </b-card>
-        </b-collapse>
+                                            </b-table>
+                                        </b-col>
+                                    </b-row>
+                                    <b-row v-if="talentTableMode === 'on'">
+                                        <b-col>
+                                            <b-pagination size="sm" :total-rows="this.talentTableRows" :per-page="talentsPerPage" v-model="talentsPage" />
+                                        </b-col>
+                                    </b-row>
+                                </b-container>
+                            </b-col>
+                        </b-row>
+                    </b-container>
+                </b-col>
+            </b-row>
+        </b-container>
+    
         <p> </p>
+        <h2> <strong> Shop Inventory </strong> </h2>
+        <b-container>
+            <b-row> 
+                <b-col>
+                    <b-form-checkbox id="armorShopModeCheckBox"
+                            v-model="armorShopMode"
+                            value="on"
+                            unchecked-value="off">
+                        Show Armor Shop
+                    </b-form-checkbox>
+                </b-col> 
+                <b-col>
+                    <b-form-checkbox id="weaponShopModeCheckBox"
+                            v-model="weaponShopMode"
+                            value="on"
+                            unchecked-value="off">
+                        Show Weapon Shop
+                    </b-form-checkbox>
+                </b-col> 
+                <b-col>
+                    <b-form-checkbox id="gearhopModeheckBox"
+                            v-model="gearShopMode"
+                            value="on"
+                            unchecked-value="off">
+                        Show Gear Shop
+                    </b-form-checkbox>
+                </b-col> 
+            </b-row>
+            <b-row>
+                <b-col> Current Encumbrance: {{ this.character.stats.derivedCharacteristics[0].value }}  </b-col>
+                <b-col> Encumbrance Capacity: {{ this.character.stats.derivedCharacteristics[1].value }}  </b-col>
+                <b-col> Money: {{ this.character.equipment.money }}  </b-col>
+            </b-row>
+   
+            <b-row>
+                <b-col>
+                    <b-alert :show="inventoryAlert"
+                                        dismissible
+                                        @dismissed="inventoryAlert=false"
+                                        variant="danger">
+                                        <p> {{ this.illegalLogic }} </p>
+                    </b-alert>     
+                </b-col>
+            </b-row>
+            <hr>
+            <b-row id="inventoryGrid">
+                <b-col>
+                    <b-container>
+                        <b-row v-if="armorShopMode === 'on'"> <b-col> <h4 class="text-left"><strong> Armor </strong> </h4> </b-col> </b-row>
+                        <b-row id ="armorGrid" v-if="armorShopMode === 'on'">
+                            <b-col>
+                                <b-table      
+                                        responsive
+                                        small                         
+                                        striped                                                                     
+                                        :items="this.character.equipment.armor.items" 
+                                        :fields="this.sheet.armorFields" >                                
+                                    
+                                    <template slot="actions" slot-scope="row">
+                                        <b-btn size="sm" @click.stop="showSomeModal(row.item, 'armor')" variant="secondary"> info </b-btn>                                
+                                        <b-btn size="sm" variant="danger" v-on:click.stop="adjustArmorInventory(row.item, -1)"> - </b-btn>
+                                        <b-btn size="sm" variant="success" v-on:click.stop="adjustArmorInventory(row.item, 1)"> + </b-btn>                                
+                                    </template>    
+                                </b-table>
+                            </b-col>
+                        </b-row>
+                        <hr v-if="weaponShopMode === 'on'"> 
+                        <b-row v-if="weaponShopMode === 'on'"> <b-col> <h4 class="text-left"><strong> Weapons </strong> </h4> </b-col> </b-row>
+                        <b-row id ="weaponGrid"  v-if="weaponShopMode === 'on'">
+                            <b-col>
+                                <b-table      
+                                        responsive
+                                        small                         
+                                        striped                                                                              
+                                        :items="this.character.equipment.weapons.items" 
+                                        :fields="this.sheet.weaponFields">                                
+                                    
+                                    <template slot="actions" slot-scope="row">
+                                        <b-btn size="sm" @click.stop="showSomeModal(row.item, 'weapon')" variant="secondary"> info </b-btn>                                
+                                        <b-btn size="sm" variant="danger" v-on:click.stop="adjustWeaponInventory(row.item, -1)"> - </b-btn>
+                                        <b-btn size="sm" variant="success" v-on:click.stop="adjustWeaponInventory(row.item, 1)"> + </b-btn>                                
+                                    </template>    
+                                </b-table>
+                            </b-col>
+                        </b-row>
+                        <hr v-if="gearShopMode === 'on'"> 
+                        <b-row v-if="gearShopMode === 'on'"> <b-col> <h4 class="text-left"><strong> Gear </strong> </h4> </b-col> </b-row>
 
-        <b-btn v-b-toggle.skillsCard variant="primary"> + Skills </b-btn>
-        <b-collapse id="skillsCard">  
-            <b-card>
-                <b-container class="w-50">
+                        <b-row id ="gearGrid"  v-if="gearShopMode === 'on'">
+                            <b-col>
+                                <b-table      
+                                        responsive
+                                        small                         
+                                        striped                                                                    
+                                        :items="this.character.equipment.gear.items" 
+                                        :fields="this.sheet.gearFields">                                
+                                    
+                                    <template slot="actions" slot-scope="row">
+                                        <b-btn size="sm" @click.stop="showSomeModal(row.item, 'gear')" variant="secondary"> info </b-btn>                                
+                                        <b-btn size="sm" variant="danger" v-on:click.stop="adjustGearInventory(row.item, -1)"> - </b-btn>
+                                        <b-btn size="sm" variant="success" v-on:click.stop="adjustGearInventory(row.item, 1)"> + </b-btn>                                
+                                    </template>    
+                                </b-table>
+                            </b-col>
+                        </b-row>
 
-                    <b-row>
-                        <b-col>
-                            <b-alert :show="skillAlert"
-                                dismissible
-                                @dismissed="skillAlert=false"
-                                variant="danger">
-                                <p> {{ this.illegalLogic }} </p>
-                            </b-alert>                        
-                        </b-col> 
-                    </b-row>
+                    </b-container>
+                </b-col>
+            </b-row>
 
-                    <b-row align-h="center">
-                        <b-col>
-                            <b-btn v-b-toggle.skillLegend variant="secondary" size="sm"> + Skill Legend </b-btn>
-                            <b-collapse id ="skillLegend" >
-                                <b-card>
-                                    <b-table responsive small striped class="text-left" :items="this.sheet.skillLegend" :fields="this.sheet.skillLegendFields"/>
-                                </b-card>
-                            </b-collapse>     
-                        </b-col>
-
-                        <b-col>
-                            <b-col> <strong> Remaining XP: {{ this.character.xp.total }} </strong> </b-col>
-                        </b-col>
-
-                        <b-col>
-                            <b-btn variant="warning" size="sm" v-on:click.stop="this.resetSkills"> Reset Skills </b-btn>
-                        </b-col>
-                    </b-row>                  
-                </b-container>
-                <p> </p>
-                <b-container class="w-50">                    
-                    <b-row align-content="center" align-h="center" align-v="center">
-                        <b-col>
-                            <b-table
-                                    responsive 
-                                    small 
-                                    striped 
-                                    class="text-left mr-3 ml-3" 
-                                    :items="this.character.skills.items" 
-                                    :fields="this.sheet.skillFields">
-
-                                <template slot="actions" slot-scope="row">
-                                    <b-btn size="sm" @click.stop="showSomeModal(row.item, 'skill')" variant="secondary"> See More Details </b-btn>                                
-                                    <b-btn size="sm" variant="danger" v-on:click.stop="adjustSkillRank(row.item, -1)"> - </b-btn>
-                                    <b-btn size="sm" variant="success" v-on:click.stop="adjustSkillRank(row.item, 1)"> + </b-btn>                                
-                                </template>    
-
-                            </b-table>
-                        </b-col>
-                    </b-row>
-                </b-container> 
-            </b-card>  
-        </b-collapse>  
-
-        <b-btn v-b-toggle.talentsCard variant="primary"> + Talents </b-btn>
-        <b-collapse id="talentsCard">
-            <b-card>
-                <b-container class="w-50">
-                    <b-row>
-                        <b-col>
-                            <b-alert :show="talentAlert"
-                                dismissible
-                                @dismissed="talentAlert=false"
-                                variant="danger">
-                                <p> {{ this.illegalLogic }} </p>
-                            </b-alert>                        
-                        </b-col> 
-                    </b-row>
-
-                    <b-row class="p-3">
-                        <b-col>
-                            <b-btn v-b-toggle.talentLimits variant="secondary" size="sm"> + Talent Limits </b-btn>
-                            <b-collapse id="talentLimits">
-                                <b-card>
-                                    <b-table class="text-left" small striped :items="this.character.talents.limitations"/>
-                                </b-card>
-                            </b-collapse>
-                        </b-col>                       
-                    </b-row>
-                    
-                    <b-row>
-                        <b-col> Remaining XP: {{ this.character.xp.total }} </b-col>
-                    </b-row>
-
-                    <b-row>
-                        <b-col>
-                           <b-form-input v-model="talentFilter" placeholder="Type to Search" />
-                        </b-col>
-
-                        <b-col>
-                           <b-input-group-button> 
-                               <b-btn :disabled="!talentFilter" @click="talentFilter = ''"> Clear </b-btn>
-                           </b-input-group-button>
-                        </b-col>
-
-                        <b-col>
-                            <b-pagination size="sm" :total-rows="this.talentTableRows" :per-page="talentsPerPage" v-model="talentsPage" />
-                        </b-col>
-
-                    </b-row>
-                    
-                    <b-row align-content="center" align-h="center" align-v="center">
-                        <b-col align-h="center" align-v="center">
-                            <b-table 
-                                    responsive 
-                                    class="text-left ml-3 mr-3" 
-                                    small 
-                                    striped 
-                                    :filter="talentFilter"
-                                    @filtered="onTalentFilter"
-                                    :items="this.character.talents.items" 
-                                    :fields="this.sheet.talentFields" 
-                                    :per-page="talentsPerPage" 
-                                    :current-page="talentsPage">   
-
-                                <template slot="actions" slot-scope="row">
-                                    <b-btn size="sm" @click.stop="showSomeModal(row.item, 'talent')" variant="secondary"> See More Details </b-btn>                                
-                                    <b-btn size="sm" variant="danger" v-on:click.stop="adjustTalentTiering(row.item, -1)"> - </b-btn>
-                                    <b-btn size="sm" variant="success" v-on:click.stop="adjustTalentTiering(row.item, 1)"> + </b-btn>                                
-                                </template>    
-
-                            </b-table>
-                        </b-col>
-                    </b-row>
-                </b-container>
-            </b-card>
-        </b-collapse>
-
-        <p> </p>
-        <b-btn v-b-toggle.armorShopCard variant="info" size="sm"> + Armor Shop </b-btn>
-        <b-collapse id="armorShopCard" align-h="center">           
-            <b-card >
-                <b-container class="w-75">
-                    <b-row>
-                        <b-col>
-                            <b-alert :show="armorShopAlert"
-                                dismissible
-                                @dismissed="armorShopAlert=false"
-                                variant="danger">
-                                <p> {{ this.illegalLogic }} </p>
-                            </b-alert>                        
-                        </b-col> 
-                    </b-row>
-                    
-                    <p> </p>
-                    <b-row align-h="center">
-                            <b-col> Current Encumbrance: {{ this.character.stats.derivedCharacteristics[0].value }}  </b-col>
-                            <b-col> Encumbrance Capacity: {{ this.character.stats.derivedCharacteristics[1].value }}  </b-col>
-                            <b-col> Money: {{ this.character.equipment.money }}  </b-col>
-                    </b-row>  
-                    <p> </p>
-                    <b-row>
-                        <b-col>
-                            <b-table      
-                                    small                         
-                                    striped                                                                     
-                                    :items="this.character.equipment.armor.items" 
-                                    :fields="this.sheet.armorFields" >                                
-                                
-                                <template slot="actions" slot-scope="row">
-                                    <b-btn size="sm" @click.stop="showSomeModal(row.item, 'armor')" variant="secondary"> See More Details </b-btn>                                
-                                    <b-btn size="sm" variant="danger" v-on:click.stop="adjustArmorInventory(row.item, -1)"> - </b-btn>
-                                    <b-btn size="sm" variant="success" v-on:click.stop="adjustArmorInventory(row.item, 1)"> + </b-btn>                                
-                                </template>    
-
-                            </b-table>
-                        </b-col>
-                    </b-row>
-                </b-container>
-            </b-card>
-        </b-collapse>    
-        
-        <b-btn v-b-toggle.weaponShopCard variant="info" size="sm"> + Weapon Shop </b-btn>
-        <b-collapse id="weaponShopCard" align-h="center">           
-            <b-card >
-                <b-container class="w-75">
-                    <b-row align-content="center">
-                        <b-col>
-                            <b-alert :show="weaponShopAlert"
-                                dismissible
-                                @dismissed="weaponShopAlert=false"
-                                variant="danger">
-                                <p> {{ this.illegalLogic }} </p>
-                            </b-alert>                        
-                        </b-col> 
-                    </b-row>                    
-                    <b-row align-h="center">
-                            <b-col> Current Encumberance: {{ this.character.stats.derivedCharacteristics[0].value }}  </b-col>
-                            <b-col> Encumberance Capacity: {{ this.character.stats.derivedCharacteristics[1].value }}  </b-col>
-                            <b-col> Money: {{ this.character.equipment.money }}  </b-col>
-                    </b-row>              
-                    <b-row align-content="center">
-                        <b-col>
-                           <b-form-input v-model="weaponShopFilter" placeholder="Type to Search" />
-                        </b-col>
-
-                        <b-col>
-                           <b-input-group-button> 
-                               <b-btn :disabled="!weaponShopFilter" @click="weaponShopFilter = ''"> Clear </b-btn>
-                           </b-input-group-button>
-                        </b-col>
-
-                        <b-col>
-                            <b-pagination size="sm" :total-rows="this.weaponShopTableRows" :per-page="weaponShopPerPage" v-model="weaponShopPage" />
-                        </b-col>
-
-                    </b-row>
-
-                    <b-row align-content="center">
-                        <b-col>
-                            <b-table         
-                                    class="ml-5 mr-5"
-                                    responsive  
-                                    small                         
-                                    striped           
-                                    :filter="weaponShopFilter"
-                                    @filtered="onWeaponShopFilter"
-                                    :per-page="weaponShopPerPage" 
-                                    :current-page="weaponShopPage"                                                       
-                                    :items="this.character.equipment.weapons.items" 
-                                    :fields="this.sheet.weaponFields" >                                
-                                
-                                <template slot="actions" slot-scope="row">
-                                    <b-btn size="sm" @click.stop="showSomeModal(row.item, 'weapon')" variant="secondary"> See More Details </b-btn>                                
-                                    <b-btn size="sm" variant="danger" v-on:click.stop="adjustWeaponInventory(row.item, -1)"> - </b-btn>
-                                    <b-btn size="sm" variant="success" v-on:click.stop="adjustWeaponInventory(row.item, 1)"> + </b-btn>                                
-                                </template>    
-
-                            </b-table>
-                        </b-col>
-                    </b-row>
-                </b-container>
-            </b-card>
-        </b-collapse>    
-
-        <b-btn v-b-toggle.gearShopCard variant="info" size="sm"> + Gear Shop </b-btn>
-        <b-collapse id="gearShopCard">           
-            <b-card >
-                <b-container class="w-50">
-                    <b-row>
-                        <b-col>
-                            <b-alert :show="gearShopAlert"
-                                dismissible
-                                @dismissed="gearShopAlert=false"
-                                variant="danger">
-                                <p> {{ this.illegalLogic }} </p>
-                            </b-alert>                        
-                        </b-col> 
-                    </b-row>
-
-                    <b-row align-h="center">
-                            <b-col> Current Encumberance: {{ this.character.stats.derivedCharacteristics[0].value }}  </b-col>
-                            <b-col> Encumberance Capacity: {{ this.character.stats.derivedCharacteristics[1].value }}  </b-col>
-                            <b-col> Money: {{ this.character.equipment.money }}  </b-col>
-                    </b-row>  
-                    <p> </p>
-
-                    <b-row align-content="center" align-h="center" align-v="center">
-                        <b-col>
-                            <b-table
-                                    responsive        
-                                    class="ml-5 mr-5"
-                                    small                         
-                                    striped                                                                 
-                                    :items="this.character.equipment.gear.items" 
-                                    :fields="this.sheet.gearFields" >                                
-                                
-                                <template slot="actions" slot-scope="row">
-                                    <b-btn size="sm" @click.stop="showSomeModal(row.item, 'gear')" variant="secondary"> See More Details </b-btn>                                
-                                    <b-btn size="sm" variant="danger" v-on:click.stop="adjustGearInventory(row.item, -1)"> - </b-btn>
-                                    <b-btn size="sm" variant="success" v-on:click.stop="adjustGearInventory(row.item, 1)"> + </b-btn>                                
-                                </template>    
-
-                            </b-table>
-                        </b-col>
-                    </b-row>
-                </b-container>
-            </b-card>
-        </b-collapse>    
+        </b-container>
 
         <b-modal 
             centered
@@ -520,6 +501,19 @@ export default {
             dismissSecs: 3,
             dismissCountDown: 0,
 
+            altMagicRule : true,
+            altAfterSevenRule: true,
+            altCustomRule: false,
+            altHackingRule: false,
+            altVehicleRule: false,
+
+            isFreedomMode: "off",
+            skillTableMode: "off",
+            talentTableMode: "off",
+            armorShopMode: "off",
+            weaponShopMode: "off",
+            gearShopMode: "off",
+
             illegalLogic: '',
 
             selectedRace: '',
@@ -531,7 +525,7 @@ export default {
             selectedFlaw: '',
             selectedStrength: '',
             selectedRace: '',
-            selectedAlternativeRules: ["After Seven", "Magic"],
+            selectedAlternativeRules: ["After Seven"],
 
             skillData: [],       
             raceData: [],
@@ -543,14 +537,9 @@ export default {
             gearData: [],
 
             talentFilter: '',
-            talentsPerPage: 15,
+            talentsPerPage: 25,
             talentsPage: 1,
             talentTableRows: 0,
-
-            weaponShopFilter: '', 
-            weaponShopPerPage: 15,
-            weaponShopPage: 1,
-            weaponShopTableRows: 0,
 
             showModal: false,   
             modalData: [],
@@ -562,9 +551,18 @@ export default {
             weaponShopAlert: false,
             gearShopAlert: false,
             
+
+            settingGenres: ["After Seven", "Custom", "Fantasy", "Steampunk", "Weird War", "Modern", "Sci-fi", "Space Opera"],
+
             sheet: {       
+                altRuleButtons: [
+                    { variant: "info", size: "sm", caption: "After Seven", state: true},
+                    { variant: "info", size: "sm", caption: "Custom", state: false},
+                    { variant: "info", size: "sm", caption: "Hacking", state: false},
+                    { variant: "info", size: "sm", caption: "Magic", state: true},
+                    { variant: "info", size: "sm", caption: "Vechicle", state: true}
+                ],
                 alternativeRules: ["After Seven", "Custom", "Hacking", "Magic", "Vehicle"],         
-                settingGenres: ["After Seven", "Custom", "Fantasy", "Steampunk", "Weird War", "Modern", "Sci-fi", "Space Opera"],
                 possibleFactions: ["Confederacy of Canada", "Holy American Empire", "Imperium of the North", "Kingdom of Quebec", "New American Republic", "Western Commonwealth"],
                 selectableDesires: ["Ambition", "Belonging", "Expertise", "Fame", "Justice", "Knowledge", "Love", "Safety", "Vengeance", "Wealth"],
                 selectableFears: ["Change", "Commitment", "Death", "Expression", "Failure", "Humiliation", "Isolation", "Nemesis", "Obscurity", "Poverty"],                
@@ -581,22 +579,21 @@ export default {
                 ],
                 talentFields: [                             
                     { key: "name", label: "Name", class: "text-left"},                             
-                    { key: "tier", label: "Tier Level", class: "text-left" },                 
-                    { key: "ranked", label: "Ranked", class: "text-left" },        
-                    { key: "tiering", label: "Tier Purchase Price", class: "text-left" },                            
+                    { key: "tierDisplay", label: "Tier", class: "text-left" },                 
+                    { key: "rankDisplay", label: "Ranked", class: "text-left" },                            
                     { key: "ranks", label: "Ranks", class: "text-center"},       
-                    { key: "actions", label: "Actions", class: "text-left"},  
+                    { key: "actions", label: " ", class: "text-left"},  
                     
                 ],
                 skillFields : [
                     { key: "name", label: "Name"},                   
                     { key: "rank", label: "Rank", class: "text-center" },    
-                    { key: "actions", label: "Actions", class: "text-center"},   
+                    { key: "actions", label: " ", class: "text-center"},   
                 ],
                 characteristicFields : [
                     { key: "name", label: "Name", class: "text-left" },                    
                     { key: "value", label: "Value", class: "text-center" },   
-                    { key: "actions", label: ".", class: "text-center"}
+                    { key: "actions", label: " ", class: "text-center"}
                 ],
                 derivedCharacteristicFields : [
                     { key: "name", label: "Name", class: "text-left" },                    
@@ -621,7 +618,7 @@ export default {
                     { key: "actions", label: "Actions", class: "text-left"},   
                 ],
                 gearFields : [
-                    { key: "category", label: "Skill Used", class: "text-left"},   
+                    { key: "subCategory", label: "Type", class: "text-left"},   
                     { key: "name", label: "Name", class: "text-left"},                 
                     { key: "value", label: "Value", class: "text-center"},                    
                     { key: "quantity", label: "Amount", class: "text-center"},
@@ -839,9 +836,29 @@ export default {
         selectedCareer : function(newCareer){
             this.assignCareerSkills();
 
-            if(this.selectedRace == "Human" || this.selectedRace == "Arisen") {
+            if(this.selectedRace != "" ) {
                 this.assignRacialSkills();
             }            
+
+            this.castActiveSkills();
+        },
+        selectedGenre : function() {
+
+            if(this.selectedGenre != "After Seven") {
+                
+                if(this.selectedGenre === "Custom") {
+                    this.selectedAlternativeRules = [];
+                    this.selectedAlternativeRules.push("Custom");
+                }
+                else {
+                    this.selectedAlternativeRules = [];
+                }
+
+            }
+
+            this.castSelectableRaces();
+            this.castSelectableCareers();
+            this.castActiveSkills();
         }
     },   
     methods : {    
@@ -1238,10 +1255,6 @@ export default {
         onTalentFilter (filteredItems) {
             this.talentTableRows = filteredItems.length;
             this.talentsPage = 1;            
-        },
-        onWeaponShopFilter (filteredItems) {
-            this.weaponShopTableRows = filteredItems.length;
-            this.weaponShopPage = 1;            
         },
         adjustTalentTiering (talent, amount) {
             
@@ -1745,44 +1758,148 @@ export default {
                     this.character.skills.items[i].sourceName = this.selectedCareer;   
                 }
             }                       
-        }  
+        },
+        castSelectableRaces() {           
+
+            this.sheet.selectableRaces = [];              
+
+            this.sheet.selectableRaces.push('');
+
+            for (var i = 0; i < this.raceData.length; i ++){
+                
+                var n = this.raceData[i].genre.search(this.selectedGenre);
+                
+                if (n >= 0) {
+                    this.sheet.selectableRaces.push(this.raceData[i].name);
+                }            
+            };
+
+            this.sheet.selectableRaces = this.sheet.selectableRaces.sort();
+        },
+        castSelectableCareers() {           
+
+            this.sheet.selectableCareers = [];              
+
+            this.sheet.selectableCareers.push('');
+
+            //add default
+            var altRules = this.selectedAlternativeRules;
+            altRules.push("Default");               
+
+            for (var i = 0; i < this.careerData.length; i ++){
+                
+                var n = this.careerData[i].genre.search(this.selectedGenre);       
+                
+                var a = altRules.indexOf(this.careerData[i].alternativeRules);
+
+                if (n >= 0 && a >= 0) {
+                    this.sheet.selectableCareers.push(this.careerData[i].name);
+                }       
+                
+            };
+
+            this.sheet.selectableCareers = this.sheet.selectableCareers.sort();
+        },
+        castActiveSkills () {
+            //add default
+            console.log("LOL RUNNING");
+            var altRules = this.selectedAlternativeRules;
+            altRules.push("Default");
+            
+            const skillList = [];
+
+            for (var i = 0; i < this.skillData.length; i ++) {
+                
+                var n = this.skillData[i].genres.search(this.selectedGenre);                      
+                var a = altRules.indexOf(this.skillData[i].alternativeRules);
+
+                if (n >= 0 && a >=0) {
+                    var s = {
+                        name: this.skillData[i].skill,
+                        rank: 0,    
+                        description: this.skillData[i].description,
+                        isCareer: false,
+                        isFreebee: false,               
+                        canBeFreebee: false,        //choice of skills from source
+                        sourceType: '',             //racial, talent, XP, freebee, starting
+                        sourceName : '',             //ability name, starting  or "spent"
+                        _rowVariant: null           
+                    };          
+                                    
+                    skillList.push(s);
+                }
+                
+            }
+            
+            this.character.skills.items = skillList;
+
+        },
+        sortAlternativeRules () {
+            this.alternativeRules = [];
+
+
+        }
     },
     created() {
+        this.selectedGenre === "After Seven";
         this.raceData = require('../data/race.json');
-
-        for (var i = 0; i < this.raceData.length; i ++){
-            this.sheet.selectableRaces.push(this.raceData[i].name);
-        }
-
         this.careerData = require('../data/careers.json');
+        this.skillData = require('../data/skills.json');
+        this.talentData = require('../data/talents.json');
+        this.armorData = require('../data/armor.json');
+        this.weaponData = require('../data/weapons.json');
+        this.gearData = require('../data/gear.json');                       
 
-        for (var i = 0; i < this.careerData.length; i ++){
-            this.sheet.selectableCareers.push(this.careerData[i].name);
-        }
+        //after seven races only.
+        for (var i = 0; i < this.raceData.length; i ++) {
+            
+            var n = this.raceData[i].genre.search(this.selectedGenre);
+            
+            if (n >= 0) {
+                this.sheet.selectableRaces.push(this.raceData[i].name);
+            }            
+        };
 
-        this.skillData = require('../data/skills.json');;
+        //after seven careers only.
+        for (var i = 0; i < this.careerData.length; i ++) {
+
+            var n = this.careerData[i].genre.search(this.selectedGenre);
+
+            if (n >= 0) {
+                this.sheet.selectableCareers.push(this.careerData[i].name);
+            }         
+        };
+
+        //add default
+        var altRules = this.selectedAlternativeRules;
+        altRules.push("Default"); 
 
         const skillList = [];
 
-        for (var i = 0; i < this.skillData.length; i ++){
-            var s = {
-                name: this.skillData[i].skillName,
-                rank: 0,    
-                description: this.skillData[i].Description,
-                _rowVariant: null,           
-                isCareer: false,
-                isFreebee: false,               
-                canBeFreebee: false,        //choice of skills from source
-                sourceType: '',             //racial, talent, XP, freebee, starting
-                sourceName : ''             //ability name, starting  or "spent"
-            };            
+        for (var i = 0; i < this.skillData.length; i ++) {
+            
+            var n = this.skillData[i].genres.search(this.selectedGenre);                      
+            var a = altRules.indexOf(this.skillData[i].alternativeRules);
 
-            skillList.push(s);
+            if (n >= 0 && a >=0) {
+                var s = {
+                    name: this.skillData[i].skill,
+                    rank: 0,    
+                    description: this.skillData[i].description,
+                    isCareer: false,
+                    isFreebee: false,               
+                    canBeFreebee: false,        //choice of skills from source
+                    sourceType: '',             //racial, talent, XP, freebee, starting
+                    sourceName : '',             //ability name, starting  or "spent"
+                    _rowVariant: null           
+                };          
+                                
+                skillList.push(s);
+            }
+            
         }
 
         this.character.skills.items = skillList;
-
-        this.talentData = require('../data/talents.json');
 
         const talentList = [];
 
@@ -1790,12 +1907,14 @@ export default {
             var t = {
                 name: this.talentData[i].talentName,
                 ranks: 0,
-                tiering: this.talentData[i].Tier,
-                tier: this.talentData[i].Tier,
-                activation: this.talentData[i].Activation,
-                ranked: this.talentData[i].Ranked,
-                description: this.talentData[i].Text,
-                sourcing: this.talentData[i].Sourcing,
+                tiering: this.talentData[i].tier,
+                tier: this.talentData[i].tier,
+                tierDisplay: this.talentData[i].tierDisplay,
+                rankDisplay: this.talentData[i].rankDisplay,
+                activation: this.talentData[i].activation,
+                ranked: this.talentData[i].ranked,
+                description: this.talentData[i].text,
+                sourcing: this.talentData[i].sourcing,
                 tags: this.talentData[i].tags
             };
 
@@ -1809,8 +1928,6 @@ export default {
         this.setTalentTieringLimits();
         //clear out raw data.
         this.talentData = [];
-
-        this.armorData = require('../data/armor.json');
         
         const armorList = [];
 
@@ -1854,8 +1971,6 @@ export default {
         }
 
         this.character.equipment.armor.items = armorList;    
-
-        this.weaponData = require('../data/weapons.json');
                 
         const weaponsList = [];
 
@@ -1898,7 +2013,6 @@ export default {
 
         this.weaponShopTableRows = this.character.equipment.weapons.items.length;
 
-        this.gearData = require('../data/gear.json');
                 
         const gearList = [];
 
@@ -1918,6 +2032,7 @@ export default {
         }
 
         this.character.equipment.gear.items = gearList;   
+
     }    
 }
 </script>

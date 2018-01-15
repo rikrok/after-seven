@@ -58,6 +58,7 @@ export default {
         this.raceData = require('../data/race.json');    
 
         for(var x = 0; x < this.raceData.length; x++) {
+            console.log(this.raceData[x]);
             this.raceData[x].derivedCharacteristics[1].value = this.raceData[x].derivedCharacteristics[1].value +  this.raceData[x].characteristics[1].value;            
         }        
     }    

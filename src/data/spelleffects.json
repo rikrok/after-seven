@@ -252,37 +252,37 @@
     "difficultyDiceMod": "+2 Difficulty Dice"
   },
   {
-    "spell": "Heal Spell",
+    "spell": "Heal",
     "effect": "Additional Target",
     "allowedSchools": "Arcana, Primal",
     "difficultyDiceMod": "+1 Difficulty Die"
   },
   {
-    "spell": "Heal Spell",
+    "spell": "Heal",
     "effect": "Range",
     "allowedSchools": "Arcana, Primal",
     "difficultyDiceMod": "+1 Difficulty Die"
   },
   {
-    "spell": "Heal Spell",
+    "spell": "Heal",
     "effect": "Restoration",
     "allowedSchools": "Primal",
     "difficultyDiceMod": "+1 Difficulty Die"
   },
   {
-    "spell": "Heal Spell",
+    "spell": "Heal",
     "effect": "Heal Critical",
     "allowedSchools": "Primal",
     "difficultyDiceMod": "+2 Difficulty Dice"
   },
   {
-    "spell": "Heal Spell",
+    "spell": "Heal",
     "effect": "Revive Incapacitated",
     "allowedSchools": "Primal",
     "difficultyDiceMod": "+2 Difficulty Dice"
   },
   {
-    "spell": "Heal Spell",
+    "spell": "Heal",
     "effect": "Resurrection",
     "allowedSchools": "Primal",
     "difficultyDiceMod": "+4 Difficulty Dice"
@@ -292,191 +292,252 @@
     "effect": "Afterlife Sonar",
     "allowedSchools": "Primal",
     "knowledgeUsed": "Paranormal",
-    "difficultyDiceMod": "+2 Difficulty Dice"
+    "difficultyDiceMod": "+2 Difficulty Dice",
+    "description": "The Primal spell caster can view the last few days or moments of the target’s death, understanding anywhere from the emotional feeling to the physical location. The amount of days where the “sonar” is effective is up to the rank of the spell caster’s Knowledge: Paranormal skill."
   },
   {
     "spell": "Augur",
     "effect": "Astral Projection",
     "allowedSchools": "Arcana",
     "knowledgeUsed": "Paranormal",
-    "difficultyDiceMod": "+2 Difficulty Dice"
+    "difficultyDiceMod": "+2 Difficulty Dice",
+    "description": "The spell caster may send a representation of themselves to the creature target to verbally communicate with the creature for minutes equal to rank in Knowledge: Paranormal. "
   },
   {
     "spell": "Augur",
     "effect": "Geographical Precision",
     "allowedSchools": "Arcana, Divine, Primal",
-    "difficultyDiceMod": "+1 Difficulty Die"
+    "difficultyDiceMod": "+1 Difficulty Die",
+    "description": "You are able to extract the location, at the current time of auguring, where the target is. "
   },
   {
     "spell": "Augur",
     "effect": "Chronological Precision",
     "allowedSchools": "Arcana, Divine, Primal",
     "knowledgeUsed": "Mortality",
-    "difficultyDiceMod": "+1 Difficulty Die"
+    "difficultyDiceMod": "+1 Difficulty Die",
+    "description": "You are able to extract the whereabouts of your target the number of days equal to ranks in Knowledge: Mortality "
   },
   {
     "spell": "Augur",
     "effect": "Group Precision",
     "allowedSchools": "Arcana, Divine, Primal",
     "knowledgeUsed": "Mortality",
-    "difficultyDiceMod": "+3 Difficulty Dice"
+    "difficultyDiceMod": "+3 Difficulty Dice",
+    "description": "The spell caster can track multiple targets equal to his Knowledge: Mortality"
   },
   {
     "spell": "Augur",
     "effect": "Social Auguring",
     "allowedSchools": "Arcana, Divine, Primal",
     "knowledgeUsed": "Mortality",
-    "difficultyDiceMod": "+1 Difficulty Die"
+    "difficultyDiceMod": "+1 Difficulty Die",
+    "description": "Through serious meditation, pontification and thought the spell caster is able to understand their exact locations for the last days equal to their Knowledge: Mortality. "
   },
   {
     "spell": "Augur",
     "effect": "True Sight",
     "allowedSchools": "Divine",
     "knowledgeUsed": "Paranormal",
-    "difficultyDiceMod": "+2 Difficulty Dice"
+    "difficultyDiceMod": "+2 Difficulty Dice",
+    "description": "You are able to travel to the target’s location, seeing them interact with the environment with absolute clarity and are aware of the target’s motivations. Nothing is hidden to you. However, are unable to communicate with the target. The target is unaware of your presence. You may stay at the location for the spell casters Knowledge: Paranormal hours. "
   },
   {
     "spell": "Enchanting",
     "effect": "Item Attachment",
     "allowedSchools": "Divine",
-    "difficultyDiceMod": "+1 Difficulty Die"
+    "difficultyDiceMod": "+1 Difficulty Die",
+    "description": "Gain effect of item qualitiy."
   },
   {
     "spell": "Enchanting",
     "effect": "Blast",
     "allowedSchools": "Primal",
-    "difficultyDiceMod": "+2 Difficulty Dice"
+    "difficultyDiceMod": "+2 Difficulty Dice",
+    "description": "Gain effect of item qualitiy."
   },
   {
     "spell": "Enchanting",
     "effect": "Burn",
     "allowedSchools": "Primal",
-    "difficultyDiceMod": "+2 Difficulty Dice"
+    "difficultyDiceMod": "+2 Difficulty Dice",
+    "description": "Gain effect of item qualitiy."
   },
   {
     "spell": "Enchanting",
     "effect": "Ensnare",
     "allowedSchools": "Primal",
-    "difficultyDiceMod": "+2 Difficulty Dice"
+    "difficultyDiceMod": "+2 Difficulty Dice",
+    "description": "Gain effect of item qualitiy."
   },
   {
     "spell": "Enchanting",
     "effect": "Cumbersome",
     "allowedSchools": "Arcana",
-    "difficultyDiceMod": "+2 Difficulty Dice"
+    "difficultyDiceMod": "+2 Difficulty Dice",
+    "description": "Gain effect of item qualitiy."
   },
   {
     "spell": "Enchanting",
     "effect": "Unwieldy",
     "allowedSchools": "Arcana",
-    "difficultyDiceMod": "+2 Difficulty Dice"
+    "difficultyDiceMod": "+2 Difficulty Dice",
+    "description": "Gain effect of item qualitiy."
   },
   {
     "spell": "Enchanting",
     "effect": "Modify Range Band",
     "allowedSchools": "Arcana",
-    "difficultyDiceMod": "+3 Difficulty Dice"
+    "difficultyDiceMod": "+3 Difficulty Dice",
+    "description": "Gain effect of item qualitiy."
   },
   {
     "spell": "Enchanting",
     "effect": "Item Damage",
     "allowedSchools": "Divine",
-    "difficultyDiceMod": "+3 Difficulty Dice"
+    "difficultyDiceMod": "+3 Difficulty Dice",
+    "description": "Gain effect of item qualitiy."
   },
   {
     "spell": "Enchanting",
     "effect": "Limited Ammo",
     "allowedSchools": "Arcana",
-    "difficultyDiceMod": "+3 Difficulty Dice"
+    "difficultyDiceMod": "+3 Difficulty Dice",
+    "description": "Gain effect of item qualitiy."
   },
   {
     "spell": "Enchanting",
     "effect": "Concussive",
     "allowedSchools": "Divine",
-    "difficultyDiceMod": "+4 Difficulty Dice"
+    "difficultyDiceMod": "+4 Difficulty Dice",
+    "description": "Gain effect of item qualitiy."
   },
   {
     "spell": "Enchanting",
     "effect": "Item Critical",
     "allowedSchools": "Divine",
-    "difficultyDiceMod": "+4 Difficulty Dice"
+    "difficultyDiceMod": "+4 Difficulty Dice",
+    "description": "Gain effect of item qualitiy."
   },
   {
     "spell": "Enchanting",
     "effect": "Defense",
     "allowedSchools": "Arcana, Divine, Primal",
-    "difficultyDiceMod": "+5 Difficulty Dice"
+    "difficultyDiceMod": "+5 Difficulty Dice",
+    "description": "Gain effect of item qualitiy."
   },
   {
     "spell": "Enchanting",
     "effect": "Soak",
     "allowedSchools": "Arcana, Divine, Primal",
-    "difficultyDiceMod": "+5 Difficulty Dice"
+    "difficultyDiceMod": "+5 Difficulty Dice",
+    "description": "Gain effect of item qualitiy."
   },
   {
     "spell": "Enchanting",
     "effect": "Vicious",
     "allowedSchools": "Primal",
-    "difficultyDiceMod": "+4 Difficulty Dice"
+    "difficultyDiceMod": "+4 Difficulty Dice",
+    "description": "Gain effect of item qualitiy."
   },
   {
     "spell": "Enchanting",
     "effect": "Prepared",
     "allowedSchools": "Arcana",
-    "difficultyDiceMod": "+4 Difficulty Dice"
+    "difficultyDiceMod": "+4 Difficulty Dice",
+    "description": "Gain effect of item qualitiy."
   },
   {
     "spell": "Transmogrify",
     "effect": "Mundane Object to Item",
     "allowedSchools": "Arcana",
-    "difficultyDiceMod": "+2 Difficulty Dice"
+    "difficultyDiceMod": "+2 Difficulty Dice",
+    "description": "Changing objects into something more than what it once was is strictly for the Arcana school.",
+    "additionalRules": [
+      "Add two difficult dice",
+      "If successful, the object becomes Inferior",
+      "Items cannot change into items that have “item qualities” or “item attachments” to them. \n"
+    ]
   },
   {
     "spell": "Transmogrify",
     "effect": "Morph Item",
     "allowedSchools": "Arcana, Primal",
-    "difficultyDiceMod": "+2 Difficulty Dice"
+    "difficultyDiceMod": "+2 Difficulty Dice",
+    "description": "If the spell caster is turning armor to another kind of armor, this is doable and easier than changing Fine Clothing to a Claymore. It follows these rules:",
+    "additionalRules": [
+      "Add two difficult dice",
+      "Transformed items do not add previous stats or carry over special item qualities. If a Medium Armor changes into a Chainmail, it does not add its soak together. It is now what it is, and does not have a trace of what it was.",
+      "If successful, the object becomes Inferior. \n"
+    ]
   },
   {
     "spell": "Transmogrify",
     "effect": "Change Item Type",
     "allowedSchools": "Arcana",
-    "difficultyDiceMod": "+4 Difficulty Dice"
+    "difficultyDiceMod": "+4 Difficulty Dice",
+    "description": "If the item is being changed from armor to a weapon, it is more difficult. This is only doable through the Arcana school. ",
+    "additionalRules": [
+      "Add four difficult dice",
+      "Transformed items do not add previous stats or carry over special item qualities.",
+      "If successful, the object becomes Inferior."
+    ]
   },
   {
     "spell": "Transmogrify",
     "effect": "Item Binding",
     "allowedSchools": "Arcana, Primal",
-    "difficultyDiceMod": "+4 Difficulty Dice"
+    "difficultyDiceMod": "+4 Difficulty Dice",
+    "description": "The spell caster rips out the magical essence of a creature and traps it into a material item. This is very difficult to do and has strange effects on the item. ",
+    "additionalRules": [
+      "Add four difficult dice.",
+      "Creature must be willing or a few minutes dead during the start of the spell.",
+      "Takes several hours to accomplish.",
+      "Upon success, the item has the Superior quality as well as one rank in any chosen positive item quality.",
+      "Any qualities prior to the transmogrification are lost upon a successful spell cast.",
+      "The item is destroyed upon failure.",
+      "The Spend Table is different when using this effect.\n"
+    ]
   },
   {
     "spell": "Transmogrify",
     "effect": "Change Encumbrance Rating",
     "allowedSchools": "Arcana, Primal",
-    "difficultyDiceMod": "+1 Difficulty Die"
+    "difficultyDiceMod": "+1 Difficulty Die",
+    "description": "Sometimes, the transmogrification requires the result to shrink or enlarge and object.",
+    "additionalRules": [
+      "Add one difficult die per rating it increases / decreases"
+    ]
   },
   {
     "spell": "Transmogrify",
     "effect": "Persistent Specialty",
     "allowedSchools": "Arcana, Primal",
-    "difficultyDiceMod": "+1 Difficulty Die"
+    "difficultyDiceMod": "+1 Difficulty Die",
+    "description": "If the spell casters wants to carry over an item attachment or quality this is the effect for him!",
+    "additionalRules": [
+      "Add one difficult die per rank in the special quality. "
+    ]
   },
   {
     "spell": "Spell Jam",
     "effect": "Range",
     "allowedSchools": "Divine",
-    "difficultyDiceMod": "+1 Difficulty Die"
+    "difficultyDiceMod": "+1 Difficulty Die",
+    "description": "Increases the range by one range band per difficulty die. "
   },
   {
     "spell": "Spell Jam",
     "effect": "Feedback",
     "allowedSchools": "Divine",
-    "difficultyDiceMod": "+1 Difficulty Die"
+    "difficultyDiceMod": "+1 Difficulty Die",
+    "description": "Add one strain damage to target per success. Damage can be soaked, must be activated by an advantage."
   },
   {
     "spell": "Spell Jam",
     "effect": "Break Link",
     "allowedSchools": "Divine",
-    "difficultyDiceMod": "+2 Difficulty Dice"
+    "difficultyDiceMod": "+2 Difficulty Dice",
+    "description": "The target spell caster cannot cast spells for amount of rounds equal to the amount of successes gained."
   }
 ]

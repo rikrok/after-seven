@@ -3,7 +3,7 @@
     "itemQualityId": "Q1",
     "itemQuality": "Accurate",
     "isPassive": 1,
-    "text": "(Passive): Accurate weapons are easier to aim or wield, whether through design or technology. For each level of this quality, the attacker adds one boost die to their combat checks while using this weapon."
+    "text": "(Passive): For each level of this quality, the attacker using this weapon adds one boost die to their combat checks."
   },
   {
     "itemQualityId": "Q2",

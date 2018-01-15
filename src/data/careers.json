@@ -1,7 +1,8 @@
 [
   {
     "name": "Arcanist",
-    "Description": "One who studies or has studied magic. They are alchemists, scholars, thinkers and philosophers. Some turn mad, others become hermits, while all seek to make the impossible possible. ",
+    "alternativeRules": "After Seven",
+    "genre": "After Seven",
     "careerSkills": [
       "Alchemy",
       "Arcana",
@@ -11,11 +12,14 @@
       "Knowledge: Paranormal",
       "Knowledge: Systems",
       "Negotiation"
-    ]
+    ],
+    "description": "One who studies or has studied magic. They are alchemists, scholars, thinkers and philosophers. Some turn mad, others become hermits, while all seek to make the impossible possible. ",
+    "tags": "Wizard, Scholar"
   },
   {
     "name": "Aristocrat",
-    "Description": "Usually born into a comfortable life at the sacrifice of some peasant or lesser class. They have climbed the social ladder by arranging terrible “misfortunes” for their social rivals, giving them more power and control. ",
+    "alternativeRules": "After Seven",
+    "genre": "After Seven",
     "careerSkills": [
       "Charm",
       "Coercion",
@@ -25,11 +29,14 @@
       "Negotiation",
       "Streetwise",
       "Vigilance"
-    ]
+    ],
+    "description": "Usually born into a comfortable life at the sacrifice of some peasant or lesser class. They have climbed the social ladder by arranging terrible “misfortunes” for their social rivals, giving them more power and control. ",
+    "tags": "Face, Manipulator"
   },
   {
     "name": "Druid",
-    "Description": "Druids have a special connection with the primal powers of the natural world. They may be individuals who live in the wilderness, or regular people who have a particular affinity for life and nature. Druids can tap into the primal power of life to summon magic and perform fantastical feats. ",
+    "alternativeRules": "After Seven",
+    "genre": "After Seven",
     "careerSkills": [
       "Discipline",
       "Knowledge: Natural",
@@ -39,11 +46,14 @@
       "Resilience",
       "Survival",
       "Vigilance"
-    ]
+    ],
+    "description": "Druids have a special connection with primal powers. They may be individuals who live in the wilderness, or regular people who have a particular affinity for life and nature. Druids can tap into the primal power of life to summon magic and perform fantastical feats. Each Druid has their own personal code, but most do not care for the realm of mortals.",
+    "tags": "Elementalist, Druid"
   },
   {
     "name": "Emissary",
-    "Description": "Emissaries are divine spell casters. They preach the words of their masters, the Avatars. Through deeds and actions, they are charged by the Avatar’s power. Mostly protagonists that were Emissaries have either started to worship a new Avatar or have a great disbelief in their former government - seeing it as corrupt. ",
+    "alternativeRules": "After Seven",
+    "genre": "After Seven",
     "careerSkills": [
       "Alchemy",
       "Charm",
@@ -53,11 +63,14 @@
       "Knowledge: Mortality",
       "Knowledge: Paranormal",
       "Leadership"
-    ]
+    ],
+    "description": "Emissaries are divine spell casters. They preach the words of their masters, the Avatars. Through deeds and actions, they are charged by the Avatar’s power. Mostly protagonists that were Emissaries have either started to worship a new Avatar or have a great disbelief in their former government - seeing it as corrupt. ",
+    "tags": "Cleric, Seer"
   },
   {
     "name": "Infantry",
-    "Description": "They are trained murder machines. Usually, they are conscripted by birth or through a slave trade - but are provided JUST enough substance to be a murdering machine. Due to the limited supplies, Infantry mostly are trained for Melee and hand-to-hand fighting.",
+    "alternativeRules": "After Seven",
+    "genre": "After Seven",
     "careerSkills": [
       "Athletics",
       "Brawl",
@@ -67,11 +80,14 @@
       "Operating",
       "Ranged (Heavy)",
       "Ranged (Light)"
-    ]
+    ],
+    "description": "They are trained murder machines. Usually, they are conscripted by birth or through a slave trade - but are provided JUST enough substance to be a murdering machine. Due to the limited supplies, Infantry mostly are trained for Melee and hand-to-hand fighting.",
+    "tags": "Fighter, Warrior"
   },
   {
     "name": "Knight",
-    "Description": "The Knight is a warrior of the nobility. A Knight’s title comes with privilege, lands, and wealth, but also a responsibility to defend their liege lord and the common people who rely on the Knight for protection. Knights often train for war from childhood, and they equip themselves with the best arms and armor available.",
+    "alternativeRules": "After Seven",
+    "genre": "After Seven",
     "careerSkills": [
       "Athletics",
       "Coordination",
@@ -81,11 +97,14 @@
       "Melee",
       "Negotiation",
       "Ranged (Heavy)"
-    ]
+    ],
+    "description": "The Knight is a warrior of the corrupt nobility. Knights have their own privledges, but are still subservents of their masters. They are to upkeep the realm and provide solutions to the various troubles of the realm.",
+    "tags": "Warlord, Commander"
   },
   {
     "name": "Lost One",
-    "Description": "Those that are conscripted by their government to wonder the wilds. They are secret police. They are hunters. They are infiltrators. They are scouts. They are wild, lethal and plunderers",
+    "alternativeRules": "After Seven",
+    "genre": "After Seven",
     "careerSkills": [
       "Coordination",
       "Deception",
@@ -95,11 +114,14 @@
       "Ranged (Light)",
       "Stealth",
       "Survival"
-    ]
+    ],
+    "description": "Those that are conscripted by their government to wonder the wilds. They are secret police. They are hunters. They are infiltrators. They are scouts. They are wild, lethal and plunderers",
+    "tags": "Ranger, Scrapper"
   },
   {
     "name": "Magus",
-    "Description": "A \"holy\" warrior devoted to the avatar they worship and serve. They are pragmatical and inquisitive by nature - always seeking ration rather than action. ",
+    "alternativeRules": "After Seven",
+    "genre": "After Seven",
     "careerSkills": [
       "Cool",
       "Discipline",
@@ -109,11 +131,14 @@
       "Melee",
       "Perception",
       "Vigilance"
-    ]
+    ],
+    "description": "A \"holy\" warrior devoted to the avatar they worship and serve. They are pragmatical and inquisitive by nature - always seeking ration rather than action. ",
+    "tags": "Paladin, Templar"
   },
   {
     "name": "Medic",
-    "Description": "Medics are military trained personal. A medic is trained to also fight while going into battle to revive or retrieve the fallen soldiers.",
+    "alternativeRules": "After Seven",
+    "genre": "After Seven",
     "careerSkills": [
       "Cool",
       "Discipline",
@@ -123,11 +148,14 @@
       "Melee",
       "Resilience",
       "Survival"
-    ]
+    ],
+    "description": "Medics are military trained personal. A medic is trained to also fight while going into battle to revive or retrieve the fallen soldiers.",
+    "tags": "Healer, Support"
   },
   {
     "name": "Operator",
-    "Description": "They execute missions that need more discretion They break into a place, steal something and maybe murder everyone in it. They are smugglers, assassins, and saboteurs.",
+    "alternativeRules": "After Seven",
+    "genre": "After Seven",
     "careerSkills": [
       "Cool",
       "Coordination",
@@ -137,11 +165,14 @@
       "Skulduggery",
       "Stealth",
       "Vigilance"
-    ]
+    ],
+    "description": "They execute missions that need more discretion They break into a place, steal something and maybe murder everyone in it. They are smugglers, assassins, and saboteurs.",
+    "tags": "Rogue, Bandit"
   },
   {
     "name": "Raider",
-    "Description": "Violent people who take from the weak. They wander around the wilds, looking for settlements to pillage or convoys to ambush. They are tough and often trouble.",
+    "alternativeRules": "After Seven",
+    "genre": "After Seven",
     "careerSkills": [
       "Athletics",
       "Brawl",
@@ -151,11 +182,14 @@
       "Perception",
       "Resilience",
       "Survival"
-    ]
+    ],
+    "description": "Violent people who take from the weak. They wander around the wilds, looking for settlements to pillage or convoys to ambush. They are tough and often trouble.",
+    "tags": "Brute, Monk"
   },
   {
     "name": "Refugee",
-    "Description": "The brave few who escape their oppressive governments are known as refugees. They have no allegiances. They cling on to hope of a better life, somehow and someway. They live nomadically, hunting what they can and surviving however they can. ",
+    "alternativeRules": "After Seven",
+    "genre": "After Seven",
     "careerSkills": [
       "Coordination",
       "Perception",
@@ -165,11 +199,14 @@
       "Stealth",
       "Streetwise",
       "Survival"
-    ]
+    ],
+    "description": "The brave few who escape their oppressive governments are known as refugees. They have no allegiances. They cling on to hope of a better life, somehow and someway. They live nomadically, hunting what they can and surviving however they can. ",
+    "tags": "Assassian, Duelist"
   },
   {
     "name": "Shaman",
-    "Description": "Natural born leaders, they seek guidance of the spirits, be it souls of the former living or elemental spirits. It is not uncommon for shaman to practice Transmogrification and Alchemy by binding spirits to items. Shamans are haunted and hounded by spirits, as they are always whispering in their ears.",
+    "alternativeRules": "After Seven",
+    "genre": "After Seven",
     "careerSkills": [
       "Charm",
       "Cool",
@@ -179,11 +216,14 @@
       "Knowledge: Natural",
       "Medicine",
       "Primal"
-    ]
+    ],
+    "description": "Natural born leaders, they seek guidance of the spirits, be it souls of the former living or elemental spirits. It is not uncommon for shaman to practice Transmogrification and Alchemy by binding spirits to items. Shamans are haunted and hounded by spirits, as they are always whispering in their ears.",
+    "tags": "Necromancer, Enchanter"
   },
   {
     "name": "Storm Trooper",
-    "Description": "Specialist who are trained to enter a combat zone, rush towards targets, and win by any means necessary. They fight deadly and unmercifully and often have the reputation for extreme aggression.",
+    "alternativeRules": "After Seven",
+    "genre": "After Seven",
     "careerSkills": [
       "Brawl",
       "Coordination",
@@ -193,11 +233,14 @@
       "Ranged (Heavy)",
       "Resilience",
       "Stealth"
-    ]
+    ],
+    "description": "Specialist who are trained to enter a combat zone, rush towards targets, and win by any means necessary. They fight deadly and unmercifully and often have the reputation for extreme aggression.",
+    "tags": "Inquisitor, Sniper"
   },
   {
     "name": "Warlock",
-    "Description": "A detached individual who is obsessed with magic, alchemy and machines. They have little regard for humanity and is more interested in how to extract souls and infuse them with terrible technology. ",
+    "alternativeRules": "After Seven",
+    "genre": "After Seven",
     "careerSkills": [
       "Alchemy",
       "Arcana",
@@ -207,11 +250,14 @@
       "Mechanics",
       "Medicine",
       "Operating"
-    ]
+    ],
+    "description": "A detached individual who is obsessed with magic, alchemy and machines. They have little regard for humanity and is more interested in how to extract souls and infuse them with terrible technology. ",
+    "tags": "Mad Scientist, Alchemist"
   },
   {
     "name": "Worker",
-    "Description": "A mechanic, blacksmith, merchant, farmer, rancher or miner the Worker is the backbone of the empires. They are an industrial bunch with a mind for success and getting the job done as efficiently as possible.",
+    "alternativeRules": "After Seven",
+    "genre": "After Seven",
     "careerSkills": [
       "Alchemy",
       "Knowledge: Systems",
@@ -221,6 +267,1028 @@
       "Operating",
       "Skulduggery",
       "Streetwise"
-    ]
+    ],
+    "description": "A mechanic, blacksmith, merchant, farmer, rancher or miner the Worker is the backbone of the empires. They are an industrial bunch with a mind for success and getting the job done as efficiently as possible.",
+    "tags": "Inventor, Tradesman"
+  },
+  {
+    "name": "Entertainer",
+    "alternativeRules": "Custom",
+    "genre": "Steampunk, Weird War, Modern, Sci-fi, Space Opera, Custom",
+    "careerSkills": [
+      "Charm",
+      " Coordination",
+      " Deception",
+      " Discipline",
+      "Leadership",
+      " Melee",
+      " Skulduggery",
+      " Stealth"
+    ],
+    "description": "See Genesys Core Rulebook",
+    "tags": "Rulebook Career"
+  },
+  {
+    "name": "Entertainer (Fantasy)",
+    "alternativeRules": "Custom",
+    "genre": "Fantasy, Custom",
+    "careerSkills": [
+      "Charm",
+      " Coordination",
+      " Deception",
+      " Discipline",
+      " Leadership",
+      " Melee (Light)",
+      " Skulduggery",
+      " Stealth"
+    ],
+    "description": "See page 40 in the Genesys Core Rulebook.",
+    "tags": "Rulebook Career"
+  },
+  {
+    "name": "Explorer (Fantasy)",
+    "alternativeRules": "Custom",
+    "genre": "Fantasy, Custom",
+    "careerSkills": [
+      "Athletics",
+      " Brawl",
+      " Coordination",
+      " Deception",
+      " Perception",
+      " Ranged",
+      " Stealth",
+      " Survival"
+    ],
+    "description": "See page 40 in the Genesys Core Rulebook.",
+    "tags": "Rulebook Career"
+  },
+  {
+    "name": "Explorer",
+    "alternativeRules": "Custom",
+    "genre": "Steampunk, Weird War, Modern, Sci-fi, Space Opera, Custom",
+    "careerSkills": [
+      "Athletics",
+      " Brawl",
+      " Coordination",
+      " Deception",
+      " Perception",
+      " Ranged (Heavy)",
+      " Stealth",
+      " Survival"
+    ],
+    "description": "See page 41 in the Genesys Core Rulebook.",
+    "tags": "Rulebook Career"
+  },
+  {
+    "name": "Healer",
+    "alternativeRules": "Custom",
+    "genre": "Steampunk, Weird War, Modern, Sci-fi, Space Opera, Custom",
+    "careerSkills": [
+      "Cool",
+      " Discipline",
+      " Knowledge",
+      " Medicine",
+      " Melee",
+      " Resilience",
+      " Survival",
+      " Vigilance"
+    ],
+    "description": "See page 41 in the Genesys Core Rulebook.",
+    "tags": "Rulebook Career"
+  },
+  {
+    "name": "Healer (Fantasy)",
+    "alternativeRules": "Custom",
+    "genre": "Fantasy, Custom",
+    "careerSkills": [
+      "Cool",
+      " Discipline",
+      " Knowledge",
+      " Medicine",
+      " Melee (Light)",
+      " Resilience",
+      " Survival",
+      " Vigilance"
+    ],
+    "description": "See page 41 in the Genesys Core Rulebook.",
+    "tags": "Rulebook Career"
+  },
+  {
+    "name": "Leader",
+    "alternativeRules": "Custom",
+    "genre": "Steampunk, Weird War, Modern, Sci-fi, Space Opera, Custom",
+    "careerSkills": [
+      "Charm",
+      " Coercion",
+      " Cool",
+      " Discipline",
+      " Leadership",
+      " Melee",
+      " Negotiation",
+      " Perception"
+    ],
+    "description": "See page 41 in the Genesys Core Rulebook.",
+    "tags": "Rulebook Career"
+  },
+  {
+    "name": "Leader (Fantasy)",
+    "alternativeRules": "Custom",
+    "genre": "Fantasy, Custom",
+    "careerSkills": [
+      "Charm",
+      " Coercion",
+      " Cool",
+      " Discipline",
+      " Leadership",
+      " Melee (Light)",
+      " Negotiation",
+      " Perception"
+    ],
+    "description": "See page 41 in the Genesys Core Rulebook.",
+    "tags": "Rulebook Career"
+  },
+  {
+    "name": "Scoundrel (Fantasy)",
+    "alternativeRules": "Custom",
+    "genre": "Fantasy, Custom",
+    "careerSkills": [
+      "Charm",
+      " Cool",
+      " Coordination",
+      " Deception",
+      " Ranged",
+      " Skulduggery",
+      " Stealth",
+      " Streetwise"
+    ],
+    "description": "See page 41 in the Genesys Core Rulebook.",
+    "tags": "Rulebook Career"
+  },
+  {
+    "name": "Scoundrel",
+    "alternativeRules": "Custom",
+    "genre": "Steampunk, Weird War, Modern, Sci-fi, Space Opera, Custom",
+    "careerSkills": [
+      "Charm",
+      " Cool",
+      " Coordination",
+      " Deception",
+      " Ranged (Light)",
+      " Skulduggery",
+      " Stealth",
+      " Streetwise"
+    ],
+    "description": "See page 41 in the Genesys Core Rulebook.",
+    "tags": "Rulebook Career"
+  },
+  {
+    "name": "Socialite",
+    "alternativeRules": "Custom",
+    "genre": "Fantasy, Steampunk, Weird War, Modern, Sci-fi, Space Opera, Custom",
+    "careerSkills": [
+      "Charm",
+      " Cool",
+      " Deception",
+      " Knowledge",
+      " Negotiation",
+      " Perception",
+      " Streetwise",
+      " Vigilance"
+    ],
+    "description": "See page 41 in the Genesys Core Rulebook.",
+    "tags": "Rulebook Career"
+  },
+  {
+    "name": "Soldier (Fantasy)",
+    "alternativeRules": "Custom",
+    "genre": "Fantasy, Custom",
+    "careerSkills": [
+      "Athletics",
+      " Brawl",
+      " Coercion",
+      " Melee (Heavy)",
+      " Perception",
+      "Ranged",
+      " Survival",
+      " Vigilance"
+    ],
+    "description": "See page 41 in the Genesys Core Rulebook.",
+    "tags": "Rulebook Career"
+  },
+  {
+    "name": "Soldier",
+    "alternativeRules": "Custom",
+    "genre": "Steampunk, Weird War, Modern, Sci-fi, Space Opera, Custom",
+    "careerSkills": [
+      "Athletics",
+      " Gunnery",
+      " Coercion",
+      " Melee",
+      " Perception",
+      "Ranged (Heavy)",
+      " Survival",
+      " Vigilance"
+    ],
+    "description": "See page 41 in the Genesys Core Rulebook.",
+    "tags": "Rulebook Career"
+  },
+  {
+    "name": "Tradesperson",
+    "alternativeRules": "Custom",
+    "genre": "Fantasy, Steampunk, Weird War, Modern, Sci-fi, Space Opera, Custom",
+    "careerSkills": [
+      "Athletics",
+      " Brawl",
+      " Discipline",
+      " Mechanics",
+      " Negotiation",
+      " Perception",
+      " Resilience",
+      " Streetwise"
+    ],
+    "description": "See page 42 in the Genesys Core Rulebook.",
+    "tags": "Rulebook Career"
+  },
+  {
+    "name": "Hacker (Future)",
+    "alternativeRules": "Custom",
+    "genre": "Sci-fi, Space Opera, Custom",
+    "careerSkills": [
+      "Computers",
+      " Discipline",
+      " Knowledge",
+      " Mechanics",
+      " Perception",
+      " Piloting",
+      " Streetwise",
+      " Vigilance"
+    ],
+    "description": "See page 42 in the Genesys Core Rulebook.",
+    "tags": "Rulebook Career"
+  },
+  {
+    "name": "Fighter Pilot",
+    "alternativeRules": "Custom",
+    "genre": "Steampunk, Weird War, Modern, Science Fiction, Space Opera, Custom",
+    "careerSkills": [
+      "Cool",
+      " Driving",
+      " Gunnery",
+      " Mechanics",
+      " Perception",
+      " Piloting",
+      " Ranged (Light)",
+      " Vigilance"
+    ],
+    "description": "See page 42 in the Genesys Core Rulebook.",
+    "tags": "Rulebook Career"
+  },
+  {
+    "name": "Knight (Fantasy)",
+    "alternativeRules": "Custom",
+    "genre": "Fantasy, Custom",
+    "careerSkills": [
+      "Athletics",
+      " Discipline",
+      " Leadership",
+      " Melee (Heavy)",
+      " Melee (Light)",
+      " Resilience",
+      " Riding",
+      " Vigilance"
+    ],
+    "description": "See page 42 in the Genesys Core Rulebook.",
+    "tags": "Rulebook Career"
+  },
+  {
+    "name": "Knight (Steampunk)",
+    "alternativeRules": "Custom",
+    "genre": "Steampunk, Custom",
+    "careerSkills": [
+      "Athletics",
+      " Discipline",
+      " Leadership",
+      " Gunnery",
+      " Melee",
+      " Resilience",
+      " Operating",
+      " Vigilance"
+    ],
+    "description": "See page 42 in the Genesys Core Rulebook.",
+    "tags": "Rulebook Career"
+  },
+  {
+    "name": "Knight (Modern)",
+    "alternativeRules": "Custom",
+    "genre": "Weird War, Modern, Science Fiction, Space Opera, Custom",
+    "careerSkills": [
+      "Athletics",
+      " Discipline",
+      " Leadership",
+      " Gunnery",
+      " Melee",
+      " Resilience",
+      " Driving",
+      " Vigilance"
+    ],
+    "description": "See page 42 in the Genesys Core Rulebook.",
+    "tags": "Rulebook Career"
+  },
+  {
+    "name": "Mad Scientist",
+    "alternativeRules": "Custom",
+    "genre": "Steampunk, Weird War, Custom",
+    "careerSkills": [
+      "Alchemy",
+      " Coercion",
+      " Knowledge",
+      " Mechanics",
+      " Medicine",
+      " Operating",
+      " Skulduggery",
+      " Ranged (Heavy)"
+    ],
+    "description": "See page 43 in the Genesys Core Rulebook.",
+    "tags": "Rulebook Career"
+  },
+  {
+    "name": "Mad Scientist (Magical)",
+    "alternativeRules": "Custom",
+    "genre": "Steampunk, Weird War, Custom",
+    "careerSkills": [
+      "Alchemy",
+      " Coercion",
+      " Knowledge",
+      " Mechanics",
+      " Medicine",
+      " Operating",
+      " Skulduggery",
+      " Arcana"
+    ],
+    "description": "See page 43 in the Genesys Core Rulebook.",
+    "tags": "Rulebook Career"
+  },
+  {
+    "name": "Priest",
+    "alternativeRules": "Custom",
+    "genre": "Steampunk, Weird War, Modern, Sci-fi, Space Opera, Custom",
+    "careerSkills": [
+      "Charm",
+      " Coercion",
+      " Cool",
+      " Discipline",
+      " Divine",
+      " Medicine",
+      " Melee",
+      " Negotiation"
+    ],
+    "description": "See page 43 in the Genesys Core Rulebook.",
+    "tags": "Rulebook Career"
+  },
+  {
+    "name": "Priest (Fantasy)",
+    "alternativeRules": "Custom",
+    "genre": "Fantasy, Custom",
+    "careerSkills": [
+      "Charm",
+      " Coercion",
+      " Cool",
+      " Discipline",
+      " Divine",
+      " Medicine",
+      " Melee (Light)",
+      " Negotiation"
+    ],
+    "description": "See page 43 in the Genesys Core Rulebook.",
+    "tags": "Rulebook Career"
+  },
+  {
+    "name": "Druid",
+    "alternativeRules": "Custom",
+    "genre": "Steampunk, Weird War, Modern, Sci-fi, Space Opera, Custom",
+    "careerSkills": [
+      "Athletics",
+      " Brawl",
+      " Coordination",
+      " Melee",
+      " Primal",
+      " Resilience",
+      " Survival",
+      " Vigilance"
+    ],
+    "description": "See page 43 in the Genesys Core Rulebook.",
+    "tags": "Rulebook Career"
+  },
+  {
+    "name": "Druid (Fantasy)",
+    "alternativeRules": "Custom",
+    "genre": "Fantasy, Custom",
+    "careerSkills": [
+      "Athletics",
+      " Brawl",
+      " Coordination",
+      " Melee (Heavy)",
+      " Primal",
+      " Resilience",
+      " Survival",
+      " Vigilance"
+    ],
+    "description": "See page 43 in the Genesys Core Rulebook.",
+    "tags": "Rulebook Career"
+  },
+  {
+    "name": "Starship Captain",
+    "alternativeRules": "Custom",
+    "genre": "Space Opera, Custom",
+    "careerSkills": [
+      "Astrocartography",
+      " Computers",
+      " Discipline",
+      " Gunnery",
+      "  Leadership",
+      " Mechanics",
+      " Operating",
+      " Perception"
+    ],
+    "description": "See page 43 in the Genesys Core Rulebook.",
+    "tags": "Rulebook Career"
+  },
+  {
+    "name": "Starship Captain (Computerized) ",
+    "alternativeRules": "Custom",
+    "genre": "Modern, Sci-fi, Custom",
+    "careerSkills": [
+      "Computers",
+      " Discipline",
+      " Gunnery",
+      " Knowledge",
+      " Leadership",
+      " Mechanics",
+      " Operating",
+      " Perception"
+    ],
+    "description": "See page 43 in the Genesys Core Rulebook.",
+    "tags": "Rulebook Career"
+  },
+  {
+    "name": "Starship Captain (Pre-Computer)",
+    "alternativeRules": "Custom",
+    "genre": "Fantasy, Steampunk, Weird War, Custom",
+    "careerSkills": [
+      "Cool",
+      " Discipline",
+      " Gunnery",
+      " Knowledge",
+      " Leadership",
+      " Mechanics",
+      " Operating",
+      " Perception"
+    ],
+    "description": "See page 43 in the Genesys Core Rulebook.",
+    "tags": "Rulebook Career"
+  },
+  {
+    "name": "Wizard",
+    "alternativeRules": "Custom",
+    "genre": "Weird War, Modern, Science Fiction, Space Opera, Custom",
+    "careerSkills": [
+      "Arcana",
+      " Coercion",
+      " Discipline",
+      " Knowledge",
+      " Leadership",
+      " Skulduggery",
+      " Stealth",
+      " Vigilance"
+    ],
+    "description": "See page 43 in the Genesys Core Rulebook.",
+    "tags": "Rulebook Career"
+  },
+  {
+    "name": "Wizard (Fantasy)",
+    "alternativeRules": "Custom",
+    "genre": "Fantasy, Custom",
+    "careerSkills": [
+      "Alchemy",
+      " Arcana",
+      " Coercion",
+      " Discipline",
+      " Knowledge",
+      " Leadership",
+      " Skulduggery",
+      " Vigilance"
+    ],
+    "description": "See page 43 in the Genesys Core Rulebook.",
+    "tags": "Rulebook Career"
+  },
+  {
+    "name": "Entertainer",
+    "alternativeRules": "Default",
+    "genre": "Steampunk, Weird War, Modern, Sci-fi, Space Opera, Custom",
+    "careerSkills": [
+      "Charm",
+      " Coordination",
+      " Deception",
+      " Discipline",
+      "Leadership",
+      " Melee",
+      " Skulduggery",
+      " Stealth"
+    ],
+    "description": "See Genesys Core Rulebook",
+    "tags": "Rulebook Career"
+  },
+  {
+    "name": "Entertainer (Fantasy)",
+    "alternativeRules": "Default",
+    "genre": "Fantasy, Custom",
+    "careerSkills": [
+      "Charm",
+      " Coordination",
+      " Deception",
+      " Discipline",
+      " Leadership",
+      " Melee (Light)",
+      " Skulduggery",
+      " Stealth"
+    ],
+    "description": "See page 40 in the Genesys Core Rulebook.",
+    "tags": "Rulebook Career"
+  },
+  {
+    "name": "Explorer (Fantasy)",
+    "alternativeRules": "Default",
+    "genre": "Fantasy, Custom",
+    "careerSkills": [
+      "Athletics",
+      " Brawl",
+      " Coordination",
+      " Deception",
+      " Perception",
+      " Ranged",
+      " Stealth",
+      " Survival"
+    ],
+    "description": "See page 40 in the Genesys Core Rulebook.",
+    "tags": "Rulebook Career"
+  },
+  {
+    "name": "Explorer",
+    "alternativeRules": "Default",
+    "genre": "Steampunk, Weird War, Modern, Sci-fi, Space Opera, Custom",
+    "careerSkills": [
+      "Athletics",
+      " Brawl",
+      " Coordination",
+      " Deception",
+      " Perception",
+      " Ranged (Heavy)",
+      " Stealth",
+      " Survival"
+    ],
+    "description": "See page 41 in the Genesys Core Rulebook.",
+    "tags": "Rulebook Career"
+  },
+  {
+    "name": "Healer",
+    "alternativeRules": "Default",
+    "genre": "Steampunk, Weird War, Modern, Sci-fi, Space Opera, Custom",
+    "careerSkills": [
+      "Cool",
+      " Discipline",
+      " Knowledge",
+      " Medicine",
+      " Melee",
+      " Resilience",
+      " Survival",
+      " Vigilance"
+    ],
+    "description": "See page 41 in the Genesys Core Rulebook.",
+    "tags": "Rulebook Career"
+  },
+  {
+    "name": "Healer (Fantasy)",
+    "alternativeRules": "Default",
+    "genre": "Fantasy, Custom",
+    "careerSkills": [
+      "Cool",
+      " Discipline",
+      " Knowledge",
+      " Medicine",
+      " Melee (Light)",
+      " Resilience",
+      " Survival",
+      " Vigilance"
+    ],
+    "description": "See page 41 in the Genesys Core Rulebook.",
+    "tags": "Rulebook Career"
+  },
+  {
+    "name": "Leader",
+    "alternativeRules": "Default",
+    "genre": "Steampunk, Weird War, Modern, Sci-fi, Space Opera, Custom",
+    "careerSkills": [
+      "Charm",
+      " Coercion",
+      " Cool",
+      " Discipline",
+      " Leadership",
+      " Melee",
+      " Negotiation",
+      " Perception"
+    ],
+    "description": "See page 41 in the Genesys Core Rulebook.",
+    "tags": "Rulebook Career"
+  },
+  {
+    "name": "Leader (Fantasy)",
+    "alternativeRules": "Default",
+    "genre": "Fantasy, Custom",
+    "careerSkills": [
+      "Charm",
+      " Coercion",
+      " Cool",
+      " Discipline",
+      " Leadership",
+      " Melee (Light)",
+      " Negotiation",
+      " Perception"
+    ],
+    "description": "See page 41 in the Genesys Core Rulebook.",
+    "tags": "Rulebook Career"
+  },
+  {
+    "name": "Scoundrel (Fantasy)",
+    "alternativeRules": "Default",
+    "genre": "Fantasy, Custom",
+    "careerSkills": [
+      "Charm",
+      " Cool",
+      " Coordination",
+      " Deception",
+      " Ranged",
+      " Skulduggery",
+      " Stealth",
+      " Streetwise"
+    ],
+    "description": "See page 41 in the Genesys Core Rulebook.",
+    "tags": "Rulebook Career"
+  },
+  {
+    "name": "Scoundrel",
+    "alternativeRules": "Default",
+    "genre": "Steampunk, Weird War, Modern, Sci-fi, Space Opera, Custom",
+    "careerSkills": [
+      "Charm",
+      " Cool",
+      " Coordination",
+      " Deception",
+      " Ranged (Light)",
+      " Skulduggery",
+      " Stealth",
+      " Streetwise"
+    ],
+    "description": "See page 41 in the Genesys Core Rulebook.",
+    "tags": "Rulebook Career"
+  },
+  {
+    "name": "Socialite",
+    "alternativeRules": "Default",
+    "genre": "Fantasy, Steampunk, Weird War, Modern, Sci-fi, Space Opera, Custom",
+    "careerSkills": [
+      "Charm",
+      " Cool",
+      " Deception",
+      " Knowledge",
+      " Negotiation",
+      " Perception",
+      " Streetwise",
+      " Vigilance"
+    ],
+    "description": "See page 41 in the Genesys Core Rulebook.",
+    "tags": "Rulebook Career"
+  },
+  {
+    "name": "Soldier (Fantasy)",
+    "alternativeRules": "Default",
+    "genre": "Fantasy, Custom",
+    "careerSkills": [
+      "Athletics",
+      " Brawl",
+      " Coercion",
+      " Melee (Heavy)",
+      " Perception",
+      "Ranged",
+      " Survival",
+      " Vigilance"
+    ],
+    "description": "See page 41 in the Genesys Core Rulebook.",
+    "tags": "Rulebook Career"
+  },
+  {
+    "name": "Soldier",
+    "alternativeRules": "Default",
+    "genre": "Steampunk, Weird War, Modern, Sci-fi, Space Opera, Custom",
+    "careerSkills": [
+      "Athletics",
+      " Gunnery",
+      " Coercion",
+      " Melee",
+      " Perception",
+      "Ranged (Heavy)",
+      " Survival",
+      " Vigilance"
+    ],
+    "description": "See page 41 in the Genesys Core Rulebook.",
+    "tags": "Rulebook Career"
+  },
+  {
+    "name": "Tradesperson",
+    "alternativeRules": "Default",
+    "genre": "Fantasy, Steampunk, Weird War, Modern, Sci-fi, Space Opera, Custom",
+    "careerSkills": [
+      "Athletics",
+      " Brawl",
+      " Discipline",
+      " Mechanics",
+      " Negotiation",
+      " Perception",
+      " Resilience",
+      " Streetwise"
+    ],
+    "description": "See page 42 in the Genesys Core Rulebook.",
+    "tags": "Rulebook Career"
+  },
+  {
+    "name": "Knight (Fantasy)",
+    "alternativeRules": "Default",
+    "genre": "Fantasy, Custom",
+    "careerSkills": [
+      "Athletics",
+      " Discipline",
+      " Leadership",
+      " Melee (Heavy)",
+      " Melee (Light)",
+      " Resilience",
+      " Riding",
+      " Vigilance"
+    ],
+    "description": "See page 42 in the Genesys Core Rulebook.",
+    "tags": "Rulebook Career"
+  },
+  {
+    "name": "Knight (Steampunk)",
+    "alternativeRules": "Default",
+    "genre": "Steampunk, Custom",
+    "careerSkills": [
+      "Athletics",
+      " Discipline",
+      " Leadership",
+      " Gunnery",
+      " Melee",
+      " Resilience",
+      " Operating",
+      " Vigilance"
+    ],
+    "description": "See page 42 in the Genesys Core Rulebook.",
+    "tags": "Rulebook Career"
+  },
+  {
+    "name": "Knight (Modern)",
+    "alternativeRules": "Default",
+    "genre": "Weird War, Modern, Science Fiction, Space Opera, Custom",
+    "careerSkills": [
+      "Athletics",
+      " Discipline",
+      " Leadership",
+      " Gunnery",
+      " Melee",
+      " Resilience",
+      " Driving",
+      " Vigilance"
+    ],
+    "description": "See page 42 in the Genesys Core Rulebook.",
+    "tags": "Rulebook Career"
+  },
+  {
+    "name": "Mad Scientist",
+    "alternativeRules": "Default",
+    "genre": "Steampunk, Weird War, Custom",
+    "careerSkills": [
+      "Alchemy",
+      " Coercion",
+      " Knowledge",
+      " Mechanics",
+      " Medicine",
+      " Operating",
+      " Skulduggery",
+      " Ranged (Heavy)"
+    ],
+    "description": "See page 43 in the Genesys Core Rulebook.",
+    "tags": "Rulebook Career"
+  },
+  {
+    "name": "Hacker (Future)",
+    "alternativeRules": "Hacking",
+    "genre": "Sci-fi, Space Opera, Custom",
+    "careerSkills": [
+      "Computers",
+      " Discipline",
+      " Knowledge",
+      " Mechanics",
+      " Perception",
+      " Piloting",
+      " Streetwise",
+      " Vigilance"
+    ],
+    "description": "See page 42 in the Genesys Core Rulebook.",
+    "tags": "Rulebook Career"
+  },
+  {
+    "name": "Mad Scientist (Magical)",
+    "alternativeRules": "Magic",
+    "genre": "Steampunk, Weird War, Custom",
+    "careerSkills": [
+      "Alchemy",
+      " Coercion",
+      " Knowledge",
+      " Mechanics",
+      " Medicine",
+      " Operating",
+      " Skulduggery",
+      " Arcana"
+    ],
+    "description": "See page 43 in the Genesys Core Rulebook.",
+    "tags": "Rulebook Career"
+  },
+  {
+    "name": "Priest",
+    "alternativeRules": "Magic",
+    "genre": "Steampunk, Weird War, Modern, Sci-fi, Space Opera, Custom",
+    "careerSkills": [
+      "Charm",
+      " Coercion",
+      " Cool",
+      " Discipline",
+      " Divine",
+      " Medicine",
+      " Melee",
+      " Negotiation"
+    ],
+    "description": "See page 43 in the Genesys Core Rulebook.",
+    "tags": "Rulebook Career"
+  },
+  {
+    "name": "Priest (Fantasy)",
+    "alternativeRules": "Magic",
+    "genre": "Fantasy, Custom",
+    "careerSkills": [
+      "Charm",
+      " Coercion",
+      " Cool",
+      " Discipline",
+      " Divine",
+      " Medicine",
+      " Melee (Light)",
+      " Negotiation"
+    ],
+    "description": "See page 43 in the Genesys Core Rulebook.",
+    "tags": "Rulebook Career"
+  },
+  {
+    "name": "Druid",
+    "alternativeRules": "Magic",
+    "genre": "Steampunk, Weird War, Modern, Sci-fi, Space Opera, Custom",
+    "careerSkills": [
+      "Athletics",
+      " Brawl",
+      " Coordination",
+      " Melee",
+      " Primal",
+      " Resilience",
+      " Survival",
+      " Vigilance"
+    ],
+    "description": "See page 43 in the Genesys Core Rulebook.",
+    "tags": "Rulebook Career"
+  },
+  {
+    "name": "Druid (Fantasy)",
+    "alternativeRules": "Magic",
+    "genre": "Fantasy, Custom",
+    "careerSkills": [
+      "Athletics",
+      " Brawl",
+      " Coordination",
+      " Melee (Heavy)",
+      " Primal",
+      " Resilience",
+      " Survival",
+      " Vigilance"
+    ],
+    "description": "See page 43 in the Genesys Core Rulebook.",
+    "tags": "Rulebook Career"
+  },
+  {
+    "name": "Wizard",
+    "alternativeRules": "Magic",
+    "genre": "Weird War, Modern, Science Fiction, Space Opera, Custom",
+    "careerSkills": [
+      "Arcana",
+      " Coercion",
+      " Discipline",
+      " Knowledge",
+      " Leadership",
+      " Skulduggery",
+      " Stealth",
+      " Vigilance"
+    ],
+    "description": "See page 43 in the Genesys Core Rulebook.",
+    "tags": "Rulebook Career"
+  },
+  {
+    "name": "Wizard (Fantasy)",
+    "alternativeRules": "Magic",
+    "genre": "Fantasy, Custom",
+    "careerSkills": [
+      "Alchemy",
+      " Arcana",
+      " Coercion",
+      " Discipline",
+      " Knowledge",
+      " Leadership",
+      " Skulduggery",
+      " Vigilance"
+    ],
+    "description": "See page 43 in the Genesys Core Rulebook.",
+    "tags": "Rulebook Career"
+  },
+  {
+    "name": "Fighter Pilot",
+    "alternativeRules": "Custom",
+    "genre": "Steampunk, Weird War, Modern, Science Fiction, Space Opera, Custom",
+    "careerSkills": [
+      "Cool",
+      " Driving",
+      " Gunnery",
+      " Mechanics",
+      " Perception",
+      " Piloting",
+      " Ranged (Light)",
+      " Vigilance"
+    ],
+    "description": "See page 42 in the Genesys Core Rulebook.",
+    "tags": "Rulebook Career"
+  },
+  {
+    "name": "Starship Captain",
+    "alternativeRules": "Vehicle",
+    "genre": "Space Opera, Custom",
+    "careerSkills": [
+      "Astrocartography",
+      " Computers",
+      " Discipline",
+      " Gunnery",
+      "  Leadership",
+      " Mechanics",
+      " Operating",
+      " Perception"
+    ],
+    "description": "See page 43 in the Genesys Core Rulebook.",
+    "tags": "Rulebook Career"
+  },
+  {
+    "name": "Starship Captain (Computerized) ",
+    "alternativeRules": "Vehicle",
+    "genre": "Modern, Sci-fi, Custom",
+    "careerSkills": [
+      "Computers",
+      " Discipline",
+      " Gunnery",
+      " Knowledge",
+      " Leadership",
+      " Mechanics",
+      " Operating",
+      " Perception"
+    ],
+    "description": "See page 43 in the Genesys Core Rulebook.",
+    "tags": "Rulebook Career"
+  },
+  {
+    "name": "Starship Captain (Pre-Computer)",
+    "alternativeRules": "Vehicle",
+    "genre": "Fantasy, Steampunk, Weird War, Custom",
+    "careerSkills": [
+      "Cool",
+      " Discipline",
+      " Gunnery",
+      " Knowledge",
+      " Leadership",
+      " Mechanics",
+      " Operating",
+      " Perception"
+    ],
+    "description": "See page 43 in the Genesys Core Rulebook.",
+    "tags": "Rulebook Career"
   }
 ]

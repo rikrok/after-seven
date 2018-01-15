@@ -1,6 +1,7 @@
 [
   {
     "id": "R1",
+    "genre": "After Seven",
     "name": "Arisen",
     "description": "The Arisen have been around for generations, but are dwindling in numbers. The Arisen are mammals, but are very alien looking. An Arisen has a have long, thin whip-like tails with an arrow head at its tip - much like a devil. From their feet to the neck, they are very similar to humans. However, bone-like clamps cover an exposed spine, which glows in shades of bright blues displaying stress or emotions. The neck craddles a wedged perplexinly thin pyramid-shaped skull. The side of the pyramid that faces outwards is wide and slopped downward. A singular glowing eye sits at the top, under small holes for air and smell with a human like mouth at the bottom of the slope. A substance that is a rough bark-like skin wraps around their skull. They do not produce breast milk and their childhood is much shorter than Humans. They can live up to 150 years. Their pigment is varying colors of green, dark yellow, white and browns. Arisen are typically not well liked. They are arrogant. They are cavalier. Their intelligence gets the best of them. They are also rumored to be birthed from Avatars.",
     "characteristics": [
@@ -74,11 +75,13 @@
       {
         "name": "Natural Mage",
         "description": "(Active): Once per encounter, you may remove one setback die to any spell made as an incidental."
-      }
+      },
+      {}
     ]
   },
   {
     "id": "R2",
+    "genre": "After Seven",
     "name": "Elf",
     "description": "Tall and long pointed ears, the Elf-kind all originate from the second apocalypse. They are very close in terms of human anatomy, except the Elf-kind minds have a brilliant capacity for reflexes and timing. They are either very pale or a coal black. Their natural senses are very much heightened as well. The Elf-kind also can outlive humans, with a lifespan of 225 years. If not in the Confederacy of Kingdom, Elf-kind is generally tolerated.",
     "characteristics": [
@@ -148,11 +151,14 @@
       {
         "name": "Nimble",
         "description": "(Passive): Elf-kind get +1 ranged and melee defense."
-      }      
+      },
+      {},
+      {}
     ]
   },
   {
     "id": "R3",
+    "genre": "After Seven",
     "name": "Human",
     "description": "Humans are plentiful and adaptive. They are capable of surviving and have proven this capability throughout the seven apocalypses. They are able to make quick choices, adapt to hostile environments and persist. They are mostly slaves or nobles, it just depends on the circumstance.",
     "characteristics": [
@@ -222,11 +228,14 @@
       {
         "name": "Flexible",
         "description": "(Passive): A human can ignore a setback die when repairing a device, operating a machine, making a makeshift shelter, or using an improvised weapon."
-      }
+      },
+      {},
+      {}
     ]
   },
   {
     "id": "R4",
+    "genre": "After Seven",
     "name": "Protohuman",
     "description": "When the Elf-kind emerged from the scene, the Protohumans also were there. Named as such as they are very similar to humans in terms of physical traits and appearances there are no pointy ears, tails or unusal markings on this race. However, they are much larger and physically capable than a human. A typical protohuman has a wide brow ridge, deep set eyes, and an impressive thickness of body mass. They are seen as crude, violent and not mentally capable. \nThey are very emotional creatures, often expressing thoughts and feelings with violence.",
     "characteristics": [
@@ -296,7 +305,1185 @@
       {
         "name": "Brick Wall",
         "description": "(Passive):  Protohumans are hard to socialize with, as they do not understand the simplest of communications at time. They are stubborn, reacting normally only to physical threats or coercion. All non-Protohuman creatures get a setback die for Charm, Deception, Leadership, and Negotiation checks they make on a Protohuman."
+      },
+      {},
+      {}
+    ]
+  },
+  {
+    "id": "R5",
+    "genre": "Fantasy, Custom",
+    "name": "Elf",
+    "description": "See page 142 in the Genesys Core Rulebook",
+    "characteristics": [
+      {
+        "name": "Agility",
+        "value": 3
+      },
+      {
+        "name": "Brawn",
+        "value": 1
+      },
+      {
+        "name": "Cunning",
+        "value": 2
+      },
+      {
+        "name": "Intellect",
+        "value": 2
+      },
+      {
+        "name": "Presence",
+        "value": 2
+      },
+      {
+        "name": "Willpower",
+        "value": 2
       }
+    ],
+    "derivedCharacteristics": [
+      {
+        "name": "Current Encumbrance",
+        "value": 0
+      },
+      {
+        "name": "Encumbrance Capacity",
+        "value": 5
+      },
+      {
+        "name": "Melee Defense",
+        "value": 1
+      },
+      {
+        "name": "Ranged Defense",
+        "value": 1
+      },
+      {
+        "name": "Soak",
+        "value": 0
+      },
+      {
+        "name": "Strain Threshold",
+        "value": 10
+      },
+      {
+        "name": "Wounds Threshold",
+        "value": 10
+      }
+    ],
+    "startingXP": 90,
+    "racialSkills": [
+      {
+        "name": "Special Ability",
+        "flavor": "See page 142 in the Genesys Core Rulebook"
+      }
+    ],
+    "racialAbilities": [
+      {
+        "name": "Nimble",
+        "description": "See page 142 in the Genesys Core Rulebook"
+      },
+      {},
+      {}
+    ]
+  },
+  {
+    "id": "R6",
+    "genre": "Fantasy, Custom",
+    "name": "Dwarf",
+    "description": "See page 142 in the Genesys Core Rulebook",
+    "characteristics": [
+      {
+        "name": "Agility",
+        "value": 1
+      },
+      {
+        "name": "Brawn",
+        "value": 2
+      },
+      {
+        "name": "Cunning",
+        "value": 2
+      },
+      {
+        "name": "Intellect",
+        "value": 2
+      },
+      {
+        "name": "Presence",
+        "value": 2
+      },
+      {
+        "name": "Willpower",
+        "value": 3
+      }
+    ],
+    "derivedCharacteristics": [
+      {
+        "name": "Current Encumbrance",
+        "value": 0
+      },
+      {
+        "name": "Encumbrance Capacity",
+        "value": 5
+      },
+      {
+        "name": "Melee Defense",
+        "value": 0
+      },
+      {
+        "name": "Ranged Defense",
+        "value": 0
+      },
+      {
+        "name": "Soak",
+        "value": 0
+      },
+      {
+        "name": "Strain Threshold",
+        "value": 10
+      },
+      {
+        "name": "Wounds Threshold",
+        "value": 11
+      }
+    ],
+    "startingXP": 90,
+    "racialSkills": [
+      {
+        "name": "Special Ability",
+        "flavor": "See page 142 in the Genesys Core Rulebook"
+      }
+    ],
+    "racialAbilities": [
+      {
+        "name": "Dark Vision",
+        "description": "See page 142 in the Genesys Core Rulebook"
+      },
+      {
+        "name": "Tough as Nails",
+        "description": "See page 142 in the Genesys Core Rulebook"
+      },
+      {}
+    ]
+  },
+  {
+    "id": "R7",
+    "genre": "Fantasy, Custom",
+    "name": "Orc",
+    "description": "See page 143 in the Genesys Core Rulebook",
+    "characteristics": [
+      {
+        "name": "Agility",
+        "value": 2
+      },
+      {
+        "name": "Brawn",
+        "value": 3
+      },
+      {
+        "name": "Cunning",
+        "value": 2
+      },
+      {
+        "name": "Intellect",
+        "value": 2
+      },
+      {
+        "name": "Presence",
+        "value": 1
+      },
+      {
+        "name": "Willpower",
+        "value": 2
+      }
+    ],
+    "derivedCharacteristics": [
+      {
+        "name": "Current Encumbrance",
+        "value": 0
+      },
+      {
+        "name": "Encumbrance Capacity",
+        "value": 5
+      },
+      {
+        "name": "Melee Defense",
+        "value": 0
+      },
+      {
+        "name": "Ranged Defense",
+        "value": 0
+      },
+      {
+        "name": "Soak",
+        "value": 0
+      },
+      {
+        "name": "Strain Threshold",
+        "value": 8
+      },
+      {
+        "name": "Wounds Threshold",
+        "value": 12
+      }
+    ],
+    "startingXP": 100,
+    "racialSkills": [
+      {
+        "name": "Special Ability",
+        "flavor": "See page 142 in the Genesys Core Rulebook"
+      }
+    ],
+    "racialAbilities": [
+      {
+        "name": "Battle Rage",
+        "description": "See page 142 in the Genesys Core Rulebook"
+      },
+      {},
+      {}
+    ]
+  },
+  {
+    "id": "R8",
+    "genre": "Steampunk, Custom",
+    "name": "Mongrel",
+    "description": "See page 152 in the Genesys Core Rulebook",
+    "characteristics": [
+      {
+        "name": "Agility",
+        "value": 2
+      },
+      {
+        "name": "Brawn",
+        "value": 2
+      },
+      {
+        "name": "Cunning",
+        "value": 2
+      },
+      {
+        "name": "Intellect",
+        "value": 2
+      },
+      {
+        "name": "Presence",
+        "value": 2
+      },
+      {
+        "name": "Willpower",
+        "value": 2
+      }
+    ],
+    "derivedCharacteristics": [
+      {
+        "name": "Current Encumbrance",
+        "value": 0
+      },
+      {
+        "name": "Encumbrance Capacity",
+        "value": 5
+      },
+      {
+        "name": "Melee Defense",
+        "value": 0
+      },
+      {
+        "name": "Ranged Defense",
+        "value": 0
+      },
+      {
+        "name": "Soak",
+        "value": 0
+      },
+      {
+        "name": "Strain Threshold",
+        "value": 8
+      },
+      {
+        "name": "Wounds Threshold",
+        "value": 10
+      }
+    ],
+    "startingXP": 100,
+    "racialSkills": [
+      {
+        "name": "Special Ability",
+        "flavor": "See page 152 in the Genesys Core Rulebook"
+      }
+    ],
+    "racialAbilities": [
+      {
+        "name": "The Beast Within",
+        "description": "See page 152 in the Genesys Core Rulebook"
+      },
+      {
+        "name": "Human Spirit",
+        "description": "See page 152 in the Genesys Core Rulebook"
+      },
+      {}
+    ]
+  },
+  {
+    "id": "R9",
+    "genre": "Steampunk, Custom",
+    "name": "Revenant",
+    "description": "See page 152 in the Genesys Core Rulebook",
+    "characteristics": [
+      {
+        "name": "Agility",
+        "value": 2
+      },
+      {
+        "name": "Brawn",
+        "value": 3
+      },
+      {
+        "name": "Cunning",
+        "value": 2
+      },
+      {
+        "name": "Intellect",
+        "value": 2
+      },
+      {
+        "name": "Presence",
+        "value": 1
+      },
+      {
+        "name": "Willpower",
+        "value": 2
+      }
+    ],
+    "derivedCharacteristics": [
+      {
+        "name": "Current Encumbrance",
+        "value": 0
+      },
+      {
+        "name": "Encumbrance Capacity",
+        "value": 5
+      },
+      {
+        "name": "Melee Defense",
+        "value": 0
+      },
+      {
+        "name": "Ranged Defense",
+        "value": 0
+      },
+      {
+        "name": "Soak",
+        "value": 0
+      },
+      {
+        "name": "Strain Threshold",
+        "value": 9
+      },
+      {
+        "name": "Wounds Threshold",
+        "value": 11
+      }
+    ],
+    "startingXP": 100,
+    "racialSkills": [
+      {
+        "name": "Special Ability",
+        "flavor": "See page 152 in the Genesys Core Rulebook"
+      }
+    ],
+    "racialAbilities": [
+      {
+        "name": "Reanimated",
+        "description": "See page 153 in the Genesys Core Rulebook"
+      },
+      {
+        "name": "Dead Nerves",
+        "description": "See page 153 in the Genesys Core Rulebook"
+      },
+      {}
+    ]
+  },
+  {
+    "id": "R10",
+    "genre": "Sci-Fi, Custom",
+    "name": "Android",
+    "description": "See page 174 in the Genesys Core Rulebook",
+    "characteristics": [
+      {
+        "name": "Agility",
+        "value": 1
+      },
+      {
+        "name": "Brawn",
+        "value": 3
+      },
+      {
+        "name": "Cunning",
+        "value": 1
+      },
+      {
+        "name": "Intellect",
+        "value": 1
+      },
+      {
+        "name": "Presence",
+        "value": 1
+      },
+      {
+        "name": "Willpower",
+        "value": 1
+      }
+    ],
+    "derivedCharacteristics": [
+      {
+        "name": "Current Encumbrance",
+        "value": 0
+      },
+      {
+        "name": "Encumbrance Capacity",
+        "value": 5
+      },
+      {
+        "name": "Melee Defense",
+        "value": 0
+      },
+      {
+        "name": "Ranged Defense",
+        "value": 0
+      },
+      {
+        "name": "Soak",
+        "value": 0
+      },
+      {
+        "name": "Strain Threshold",
+        "value": 8
+      },
+      {
+        "name": "Wounds Threshold",
+        "value": 11
+      }
+    ],
+    "startingXP": 155,
+    "racialSkills": [
+      {
+        "name": "Special Ability",
+        "flavor": "See page 174 in the Genesys Core Rulebook"
+      }
+    ],
+    "racialAbilities": [
+      {
+        "name": "Inorganic",
+        "description": "See page 174 in the Genesys Core Rulebook"
+      },
+      {},
+      {}
+    ]
+  },
+  {
+    "id": "R11",
+    "genre": "Sci-Fi, Custom",
+    "name": "Clone",
+    "description": "See page 174 in the Genesys Core Rulebook",
+    "characteristics": [
+      {
+        "name": "Agility",
+        "value": 2
+      },
+      {
+        "name": "Brawn",
+        "value": 2
+      },
+      {
+        "name": "Cunning",
+        "value": 2
+      },
+      {
+        "name": "Intellect",
+        "value": 2
+      },
+      {
+        "name": "Presence",
+        "value": 2
+      },
+      {
+        "name": "Willpower",
+        "value": 2
+      }
+    ],
+    "derivedCharacteristics": [
+      {
+        "name": "Current Encumbrance",
+        "value": 0
+      },
+      {
+        "name": "Encumbrance Capacity",
+        "value": 5
+      },
+      {
+        "name": "Melee Defense",
+        "value": 0
+      },
+      {
+        "name": "Ranged Defense",
+        "value": 0
+      },
+      {
+        "name": "Soak",
+        "value": 0
+      },
+      {
+        "name": "Strain Threshold",
+        "value": 10
+      },
+      {
+        "name": "Wounds Threshold",
+        "value": 11
+      }
+    ],
+    "startingXP": 80,
+    "racialSkills": [
+      {
+        "name": "Special Ability",
+        "flavor": "See page 174 in the Genesys Core Rulebook"
+      }
+    ],
+    "racialAbilities": [
+      {
+        "name": "A Face in a Crowd",
+        "description": "See page 174 in the Genesys Core Rulebook"
+      },
+      {},
+      {}
+    ]
+  },
+  {
+    "id": "R12",
+    "genre": "Space Opera, Custom",
+    "name": "Animalistic Alien",
+    "description": "See page 182 in the Genesys Core Rulebook",
+    "characteristics": [
+      {
+        "name": "Agility",
+        "value": 3
+      },
+      {
+        "name": "Brawn",
+        "value": 3
+      },
+      {
+        "name": "Cunning",
+        "value": 2
+      },
+      {
+        "name": "Intellect",
+        "value": 2
+      },
+      {
+        "name": "Presence",
+        "value": 2
+      },
+      {
+        "name": "Willpower",
+        "value": 1
+      }
+    ],
+    "derivedCharacteristics": [
+      {
+        "name": "Current Encumbrance",
+        "value": 0
+      },
+      {
+        "name": "Encumbrance Capacity",
+        "value": 5
+      },
+      {
+        "name": "Melee Defense",
+        "value": 0
+      },
+      {
+        "name": "Ranged Defense",
+        "value": 0
+      },
+      {
+        "name": "Soak",
+        "value": 0
+      },
+      {
+        "name": "Strain Threshold",
+        "value": 8
+      },
+      {
+        "name": "Wounds Threshold",
+        "value": 10
+      }
+    ],
+    "startingXP": 70,
+    "racialSkills": [
+      {
+        "name": "Special Ability",
+        "flavor": "See page 174 in the Genesys Core Rulebook"
+      }
+    ],
+    "racialAbilities": [
+      {
+        "name": "Natural Weapons",
+        "description": "See page 182 in the Genesys Core Rulebook"
+      },
+      {},
+      {}
+    ]
+  },
+  {
+    "id": "R13",
+    "genre": "Space Opera, Custom",
+    "name": "Psionic",
+    "description": "See page 183 in the Genesys Core Rulebook",
+    "characteristics": [
+      {
+        "name": "Agility",
+        "value": 2
+      },
+      {
+        "name": "Brawn",
+        "value": 2
+      },
+      {
+        "name": "Cunning",
+        "value": 2
+      },
+      {
+        "name": "Intellect",
+        "value": 2
+      },
+      {
+        "name": "Presence",
+        "value": 1
+      },
+      {
+        "name": "Willpower",
+        "value": 3
+      }
+    ],
+    "derivedCharacteristics": [
+      {
+        "name": "Current Encumbrance",
+        "value": 0
+      },
+      {
+        "name": "Encumbrance Capacity",
+        "value": 5
+      },
+      {
+        "name": "Melee Defense",
+        "value": 0
+      },
+      {
+        "name": "Ranged Defense",
+        "value": 0
+      },
+      {
+        "name": "Soak",
+        "value": 0
+      },
+      {
+        "name": "Strain Threshold",
+        "value": 11
+      },
+      {
+        "name": "Wounds Threshold",
+        "value": 7
+      }
+    ],
+    "startingXP": 70,
+    "racialSkills": [
+      {}
+    ],
+    "racialAbilities": [
+      {
+        "name": "Mind Reader",
+        "description": "See page 183 in the Genesys Core Rulebook"
+      },
+      {
+        "name": "Mind Shaper",
+        "description": "See page 183 in the Genesys Core Rulebook"
+      },
+      {
+        "name": "Mind Breaker",
+        "description": "See page 183 in the Genesys Core Rulebook"
+      }
+    ]
+  },
+  {
+    "id": "R14",
+    "genre": "Space Opera, Custom",
+    "name": "Robot",
+    "description": "See page 183 in the Genesys Core Rulebook",
+    "characteristics": [
+      {
+        "name": "Agility",
+        "value": 1
+      },
+      {
+        "name": "Brawn",
+        "value": 1
+      },
+      {
+        "name": "Cunning",
+        "value": 1
+      },
+      {
+        "name": "Intellect",
+        "value": 2
+      },
+      {
+        "name": "Presence",
+        "value": 1
+      },
+      {
+        "name": "Willpower",
+        "value": 1
+      }
+    ],
+    "derivedCharacteristics": [
+      {
+        "name": "Current Encumbrance",
+        "value": 0
+      },
+      {
+        "name": "Encumbrance Capacity",
+        "value": 5
+      },
+      {
+        "name": "Melee Defense",
+        "value": 0
+      },
+      {
+        "name": "Ranged Defense",
+        "value": 0
+      },
+      {
+        "name": "Soak",
+        "value": 0
+      },
+      {
+        "name": "Strain Threshold",
+        "value": 10
+      },
+      {
+        "name": "Wounds Threshold",
+        "value": 10
+      }
+    ],
+    "startingXP": 175,
+    "racialSkills": [
+      {
+        "name": "Special Ability",
+        "flavor": "See page 183 in the Genesys Core Rulebook"
+      }
+    ],
+    "racialAbilities": [
+      {
+        "name": "Special Ability",
+        "description": "See page 183 in the Genesys Core Rulebook"
+      },
+      {
+        "name": "Networked Intelligence",
+        "description": "See page 183 in the Genesys Core Rulebook"
+      },
+      {
+        "name": "Inorganic",
+        "description": "See page 183 in the Genesys Core Rulebook"
+      }
+    ]
+  },
+  {
+    "id": "R15",
+    "genre": "Space Opera, Custom",
+    "name": "Vanguard",
+    "description": "See page 183 in the Genesys Core Rulebook",
+    "characteristics": [
+      {
+        "name": "Agility",
+        "value": 2
+      },
+      {
+        "name": "Brawn",
+        "value": 2
+      },
+      {
+        "name": "Cunning",
+        "value": 1
+      },
+      {
+        "name": "Intellect",
+        "value": 2
+      },
+      {
+        "name": "Presence",
+        "value": 3
+      },
+      {
+        "name": "Willpower",
+        "value": 2
+      }
+    ],
+    "derivedCharacteristics": [
+      {
+        "name": "Current Encumbrance",
+        "value": 0
+      },
+      {
+        "name": "Encumbrance Capacity",
+        "value": 5
+      },
+      {
+        "name": "Melee Defense",
+        "value": 0
+      },
+      {
+        "name": "Ranged Defense",
+        "value": 0
+      },
+      {
+        "name": "Soak",
+        "value": 0
+      },
+      {
+        "name": "Strain Threshold",
+        "value": 9
+      },
+      {
+        "name": "Wounds Threshold",
+        "value": 9
+      }
+    ],
+    "startingXP": 100,
+    "racialSkills": [
+      {
+        "name": "Special Ability",
+        "flavor": "See page 183 in the Genesys Core Rulebook"
+      }
+    ],
+    "racialAbilities": [
+      {
+        "name": "Space Is our Birthright",
+        "description": "See page 183 in the Genesys Core Rulebook"
+      },
+      {
+        "name": "High Tech Baubles",
+        "description": "See page 183 in the Genesys Core Rulebook"
+      },
+      {}
+    ]
+  },
+  {
+    "id": "R16",
+    "genre": "Fantasy, Steampunk, Weird War, Modern, Sci-fi, Space Opera, Custom",
+    "name": "Average Human",
+    "description": "See page 36 in the Genesys Core Rulebook",
+    "characteristics": [
+      {
+        "name": "Agility",
+        "value": 2
+      },
+      {
+        "name": "Brawn",
+        "value": 2
+      },
+      {
+        "name": "Cunning",
+        "value": 2
+      },
+      {
+        "name": "Intellect",
+        "value": 2
+      },
+      {
+        "name": "Presence",
+        "value": 2
+      },
+      {
+        "name": "Willpower",
+        "value": 2
+      }
+    ],
+    "derivedCharacteristics": [
+      {
+        "name": "Current Encumbrance",
+        "value": 0
+      },
+      {
+        "name": "Encumbrance Capacity",
+        "value": 5
+      },
+      {
+        "name": "Melee Defense",
+        "value": 0
+      },
+      {
+        "name": "Ranged Defense",
+        "value": 0
+      },
+      {
+        "name": "Soak",
+        "value": 0
+      },
+      {
+        "name": "Strain Threshold",
+        "value": 10
+      },
+      {
+        "name": "Wounds Threshold",
+        "value": 10
+      }
+    ],
+    "startingXP": 110,
+    "racialSkills": [
+      {
+        "name": "Starting Skills",
+        "flavor": "See page 36 in the Genesys Core Rulebook"
+      }
+    ],
+    "racialAbilities": [
+      {
+        "name": "Ready for Anything",
+        "description": "See page 36 in the Genesys Core Rulebook"
+      },
+      {},
+      {}
+    ]
+  },
+  {
+    "id": "R17",
+    "genre": "Fantasy, Steampunk, Weird War, Modern, Sci-fi, Space Opera, Custom",
+    "name": "The Laborer",
+    "description": "See page 37 in the Genesys Core Rulebook",
+    "characteristics": [
+      {
+        "name": "Agility",
+        "value": 2
+      },
+      {
+        "name": "Brawn",
+        "value": 3
+      },
+      {
+        "name": "Cunning",
+        "value": 2
+      },
+      {
+        "name": "Intellect",
+        "value": 2
+      },
+      {
+        "name": "Presence",
+        "value": 2
+      },
+      {
+        "name": "Willpower",
+        "value": 1
+      }
+    ],
+    "derivedCharacteristics": [
+      {
+        "name": "Current Encumbrance",
+        "value": 0
+      },
+      {
+        "name": "Encumbrance Capacity",
+        "value": 5
+      },
+      {
+        "name": "Melee Defense",
+        "value": 0
+      },
+      {
+        "name": "Ranged Defense",
+        "value": 0
+      },
+      {
+        "name": "Soak",
+        "value": 0
+      },
+      {
+        "name": "Strain Threshold",
+        "value": 8
+      },
+      {
+        "name": "Wounds Threshold",
+        "value": 12
+      }
+    ],
+    "startingXP": 100,
+    "racialSkills": [
+      {
+        "name": "Starting Skills",
+        "flavor": "See page 37 in the Genesys Core Rulebook"
+      }
+    ],
+    "racialAbilities": [
+      {
+        "name": "Tough as Nails",
+        "description": "See page 37 in the Genesys Core Rulebook"
+      },
+      {},
+      {}
+    ]
+  },
+  {
+    "id": "R18",
+    "genre": "Fantasy, Steampunk, Weird War, Modern, Sci-fi, Space Opera, Custom",
+    "name": "The Intellectual",
+    "description": "See page 38 in the Genesys Core Rulebook",
+    "characteristics": [
+      {
+        "name": "Agility",
+        "value": 1
+      },
+      {
+        "name": "Brawn",
+        "value": 2
+      },
+      {
+        "name": "Cunning",
+        "value": 2
+      },
+      {
+        "name": "Intellect",
+        "value": 3
+      },
+      {
+        "name": "Presence",
+        "value": 2
+      },
+      {
+        "name": "Willpower",
+        "value": 2
+      }
+    ],
+    "derivedCharacteristics": [
+      {
+        "name": "Current Encumbrance",
+        "value": 0
+      },
+      {
+        "name": "Encumbrance Capacity",
+        "value": 5
+      },
+      {
+        "name": "Melee Defense",
+        "value": 0
+      },
+      {
+        "name": "Ranged Defense",
+        "value": 0
+      },
+      {
+        "name": "Soak",
+        "value": 0
+      },
+      {
+        "name": "Strain Threshold",
+        "value": 12
+      },
+      {
+        "name": "Wounds Threshold",
+        "value": 8
+      }
+    ],
+    "startingXP": 100,
+    "racialSkills": [
+      {
+        "name": "Starting Skills",
+        "flavor": "See page 38 in the Genesys Core Rulebook"
+      }
+    ],
+    "racialAbilities": [
+      {
+        "name": "Brilliant!",
+        "description": "See page 38 in the Genesys Core Rulebook"
+      },
+      {},
+      {}
+    ]
+  },
+  {
+    "id": "R19",
+    "genre": "Fantasy, Steampunk, Weird War, Modern, Sci-fi, Space Opera, Custom",
+    "name": "The Artistocrat",
+    "description": "See page 39 in the Genesys Core Rulebook",
+    "characteristics": [
+      {
+        "name": "Agility",
+        "value": 2
+      },
+      {
+        "name": "Brawn",
+        "value": 1
+      },
+      {
+        "name": "Cunning",
+        "value": 2
+      },
+      {
+        "name": "Intellect",
+        "value": 2
+      },
+      {
+        "name": "Presence",
+        "value": 3
+      },
+      {
+        "name": "Willpower",
+        "value": 2
+      }
+    ],
+    "derivedCharacteristics": [
+      {
+        "name": "Current Encumbrance",
+        "value": 0
+      },
+      {
+        "name": "Encumbrance Capacity",
+        "value": 5
+      },
+      {
+        "name": "Melee Defense",
+        "value": 0
+      },
+      {
+        "name": "Ranged Defense",
+        "value": 0
+      },
+      {
+        "name": "Soak",
+        "value": 0
+      },
+      {
+        "name": "Strain Threshold",
+        "value": 10
+      },
+      {
+        "name": "Wounds Threshold",
+        "value": 10
+      }
+    ],
+    "startingXP": 100,
+    "racialSkills": [
+      {
+        "name": "Starting Skills",
+        "flavor": "See page 39 in the Genesys Core Rulebook"
+      }
+    ],
+    "racialAbilities": [
+      {
+        "name": "Forceful Personality",
+        "description": "See page 39 in the Genesys Core Rulebook"
+      },
+      {},
+      {}
     ]
   }
 ]

@@ -95,7 +95,8 @@ export default {
             enchantingData: [],
             transmogrifyData: [],
             spellJamData: [],
-            fields: [                
+            fields: [
+                //{ key: "spell", label: "Spell Used", class: "text-left"},
                 { key: "effect", label: "Effect Name", class: "text-left"},
                 { key: "allowedSchools", label: "Allowed Schools", class: "text-left"},
                 { key: "knowledgeUsed", label: "Knowledge Used", class: "text-left"},
@@ -134,7 +135,7 @@ export default {
                 case "Enchanting":                    
                     this.enchantingData.push(s);
                     break;
-                case "Heal":                    
+                case "Heal Spell":                    
                     this.healData.push(s);
                     break;
                 case "Augur":                    

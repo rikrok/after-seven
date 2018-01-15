@@ -132,519 +132,6 @@
   {
     "id": "W2",
     "category": "Weapon",
-    "subCategory": "Brawl Weapons",
-    "name": "Large Improvised",
-    "encumbrance": 4,
-    "hardPoints": 2,
-    "value": 0,
-    "rarity": 0,
-    "description": "Object used as a weapon such as a shovel, large tree branch, table, crate. ",
-    "skill": "Brawl",
-    "damage": 3,
-    "critical": 5,
-    "range": "Engaged",
-    "specialAbilities": [
-      "(Passive) Generate one automatic threat on any check.",
-      "Two hands to use if the user is silhouette 1 or smaller."
-    ],
-    "qualities": [
-      {
-        "name": "accurate",
-        "value": 0
-      },
-      {
-        "name": "auto-fire",
-        "value": 0
-      },
-      {
-        "name": "blast",
-        "value": 0
-      },
-      {
-        "name": "breach",
-        "value": 0
-      },
-      {
-        "name": "burn",
-        "value": 0
-      },
-      {
-        "name": "concussive",
-        "value": 0
-      },
-      {
-        "name": "cumbersome",
-        "value": 0
-      },
-      {
-        "name": "defensive",
-        "value": 0
-      },
-      {
-        "name": "deflection",
-        "value": 0
-      },
-      {
-        "name": "disorient",
-        "value": 0
-      },
-      {
-        "name": "ensnare",
-        "value": 0
-      },
-      {
-        "name": "guided",
-        "value": 0
-      },
-      {
-        "name": "inaccurate",
-        "value": 0
-      },
-      {
-        "name": "inferior",
-        "value": 0
-      },
-      {
-        "name": "knockdown",
-        "value": 0
-      },
-      {
-        "name": "limited ammo",
-        "value": 0
-      },
-      {
-        "name": "linked",
-        "value": 0
-      },
-      {
-        "name": "pierce",
-        "value": 0
-      },
-      {
-        "name": "prepare",
-        "value": 0
-      },
-      {
-        "name": "reinforced",
-        "value": 0
-      },
-      {
-        "name": "slow-firing",
-        "value": 0
-      },
-      {
-        "name": "stun",
-        "value": 0
-      },
-      {
-        "name": "stun damage",
-        "value": 0
-      },
-      {
-        "name": "superior",
-        "value": 0
-      },
-      {
-        "name": "tractor",
-        "value": 0
-      },
-      {
-        "name": "unwieldy",
-        "value": 0
-      },
-      {
-        "name": "vicious",
-        "value": 0
-      }
-    ]
-  },
-  {
-    "id": "W3",
-    "category": "Weapon",
-    "subCategory": "Brawl Weapons",
-    "name": "Medium Improvised",
-    "encumbrance": 3,
-    "hardPoints": 2,
-    "value": 0,
-    "rarity": 0,
-    "description": "Object used as a weapon such as a two-handed rock or chair. ",
-    "skill": "Brawl",
-    "damage": 2,
-    "critical": 5,
-    "range": "Engaged",
-    "specialAbilities": [
-      "(Passive) Generate one automatic threat on any check."
-    ],
-    "qualities": [
-      {
-        "name": "accurate",
-        "value": 0
-      },
-      {
-        "name": "auto-fire",
-        "value": 0
-      },
-      {
-        "name": "blast",
-        "value": 0
-      },
-      {
-        "name": "breach",
-        "value": 0
-      },
-      {
-        "name": "burn",
-        "value": 0
-      },
-      {
-        "name": "concussive",
-        "value": 0
-      },
-      {
-        "name": "cumbersome",
-        "value": 0
-      },
-      {
-        "name": "defensive",
-        "value": 0
-      },
-      {
-        "name": "deflection",
-        "value": 0
-      },
-      {
-        "name": "disorient",
-        "value": 0
-      },
-      {
-        "name": "ensnare",
-        "value": 0
-      },
-      {
-        "name": "guided",
-        "value": 0
-      },
-      {
-        "name": "inaccurate",
-        "value": 0
-      },
-      {
-        "name": "inferior",
-        "value": 0
-      },
-      {
-        "name": "knockdown",
-        "value": 0
-      },
-      {
-        "name": "limited ammo",
-        "value": 0
-      },
-      {
-        "name": "linked",
-        "value": 0
-      },
-      {
-        "name": "pierce",
-        "value": 0
-      },
-      {
-        "name": "prepare",
-        "value": 0
-      },
-      {
-        "name": "reinforced",
-        "value": 0
-      },
-      {
-        "name": "slow-firing",
-        "value": 0
-      },
-      {
-        "name": "stun",
-        "value": 0
-      },
-      {
-        "name": "stun damage",
-        "value": 0
-      },
-      {
-        "name": "superior",
-        "value": 0
-      },
-      {
-        "name": "tractor",
-        "value": 0
-      },
-      {
-        "name": "unwieldy",
-        "value": 0
-      },
-      {
-        "name": "vicious",
-        "value": 0
-      }
-    ]
-  },
-  {
-    "id": "W4",
-    "category": "Weapon",
-    "subCategory": "Brawl Weapons",
-    "name": "Small Improvised",
-    "encumbrance": 1,
-    "hardPoints": 1,
-    "value": 0,
-    "rarity": 0,
-    "description": "Object used as a weapon such as a bottle or fist-sized rock.",
-    "skill": "Brawl",
-    "damage": 1,
-    "critical": 5,
-    "range": "Engaged",
-    "specialAbilities": [
-      "(Passive) Generate one automatic threat on any check."
-    ],
-    "qualities": [
-      {
-        "name": "accurate",
-        "value": 0
-      },
-      {
-        "name": "auto-fire",
-        "value": 0
-      },
-      {
-        "name": "blast",
-        "value": 0
-      },
-      {
-        "name": "breach",
-        "value": 0
-      },
-      {
-        "name": "burn",
-        "value": 0
-      },
-      {
-        "name": "concussive",
-        "value": 0
-      },
-      {
-        "name": "cumbersome",
-        "value": 0
-      },
-      {
-        "name": "defensive",
-        "value": 0
-      },
-      {
-        "name": "deflection",
-        "value": 0
-      },
-      {
-        "name": "disorient",
-        "value": 0
-      },
-      {
-        "name": "ensnare",
-        "value": 0
-      },
-      {
-        "name": "guided",
-        "value": 0
-      },
-      {
-        "name": "inaccurate",
-        "value": 0
-      },
-      {
-        "name": "inferior",
-        "value": 0
-      },
-      {
-        "name": "knockdown",
-        "value": 0
-      },
-      {
-        "name": "limited ammo",
-        "value": 0
-      },
-      {
-        "name": "linked",
-        "value": 0
-      },
-      {
-        "name": "pierce",
-        "value": 0
-      },
-      {
-        "name": "prepare",
-        "value": 0
-      },
-      {
-        "name": "reinforced",
-        "value": 0
-      },
-      {
-        "name": "slow-firing",
-        "value": 0
-      },
-      {
-        "name": "stun",
-        "value": 0
-      },
-      {
-        "name": "stun damage",
-        "value": 0
-      },
-      {
-        "name": "superior",
-        "value": 0
-      },
-      {
-        "name": "tractor",
-        "value": 0
-      },
-      {
-        "name": "unwieldy",
-        "value": 0
-      },
-      {
-        "name": "vicious",
-        "value": 0
-      }
-    ]
-  },
-  {
-    "id": "W5",
-    "category": "Weapon",
-    "subCategory": "Brawl Weapons",
-    "name": "Unarmed",
-    "encumbrance": 0,
-    "hardPoints": 0,
-    "value": 0,
-    "rarity": 0,
-    "description": "Fists, Kicks, Etc.",
-    "skill": "Brawl",
-    "damage": 0,
-    "critical": 5,
-    "range": "Engaged",
-    "specialAbilities": [
-      "(Active): When Knockdown is triggered, one target hit by the attack is knocked prone. Knockdown requires two advantages to trigger, plus one additional advantage per silhouette of the target beyond 1."
-    ],
-    "qualities": [
-      {
-        "name": "accurate",
-        "value": 0
-      },
-      {
-        "name": "auto-fire",
-        "value": 0
-      },
-      {
-        "name": "blast",
-        "value": 0
-      },
-      {
-        "name": "breach",
-        "value": 0
-      },
-      {
-        "name": "burn",
-        "value": 0
-      },
-      {
-        "name": "concussive",
-        "value": 0
-      },
-      {
-        "name": "cumbersome",
-        "value": 0
-      },
-      {
-        "name": "defensive",
-        "value": 0
-      },
-      {
-        "name": "deflection",
-        "value": 0
-      },
-      {
-        "name": "disorient",
-        "value": 0
-      },
-      {
-        "name": "ensnare",
-        "value": 0
-      },
-      {
-        "name": "guided",
-        "value": 0
-      },
-      {
-        "name": "inaccurate",
-        "value": 0
-      },
-      {
-        "name": "inferior",
-        "value": 0
-      },
-      {
-        "name": "knockdown",
-        "value": 1
-      },
-      {
-        "name": "limited ammo",
-        "value": 0
-      },
-      {
-        "name": "linked",
-        "value": 0
-      },
-      {
-        "name": "pierce",
-        "value": 0
-      },
-      {
-        "name": "prepare",
-        "value": 0
-      },
-      {
-        "name": "reinforced",
-        "value": 0
-      },
-      {
-        "name": "slow-firing",
-        "value": 0
-      },
-      {
-        "name": "stun",
-        "value": 0
-      },
-      {
-        "name": "stun damage",
-        "value": 0
-      },
-      {
-        "name": "superior",
-        "value": 0
-      },
-      {
-        "name": "tractor",
-        "value": 0
-      },
-      {
-        "name": "unwieldy",
-        "value": 0
-      },
-      {
-        "name": "vicious",
-        "value": 0
-      }
-    ]
-  },
-  {
-    "id": "W6",
-    "category": "Weapon",
     "subCategory": "Gunnery Weapons",
     "name": "Deathrifle",
     "encumbrance": 7,
@@ -774,7 +261,7 @@
     ]
   },
   {
-    "id": "W7",
+    "id": "W3",
     "category": "Weapon",
     "subCategory": "Gunnery Weapons",
     "name": "Repeating Dreadrifle",
@@ -904,7 +391,7 @@
     ]
   },
   {
-    "id": "W8",
+    "id": "W4",
     "category": "Weapon",
     "subCategory": "Gunnery Weapons",
     "name": "Hand Drake",
@@ -1034,7 +521,7 @@
     ]
   },
   {
-    "id": "W9",
+    "id": "W5",
     "category": "Weapon",
     "subCategory": "Melee Weapons",
     "name": "Axe",
@@ -1042,6 +529,7 @@
     "hardPoints": 1,
     "value": 125,
     "rarity": 3,
+    "description": "The axe has many forms and specialised uses but generally consists of an axe head with a handle, or helve.",
     "skill": "Melee",
     "damage": 3,
     "critical": 3,
@@ -1161,7 +649,7 @@
     ]
   },
   {
-    "id": "W10",
+    "id": "W6",
     "category": "Weapon",
     "subCategory": "Melee Weapons",
     "name": "Claymore",
@@ -1169,6 +657,7 @@
     "hardPoints": 2,
     "value": 400,
     "rarity": 3,
+    "description": "Having a cross hilt of forward-sloping quillons with quatrefoil terminations ",
     "skill": "Melee",
     "damage": 4,
     "critical": 2,
@@ -1290,7 +779,7 @@
     ]
   },
   {
-    "id": "W11",
+    "id": "W7",
     "category": "Weapon",
     "subCategory": "Melee Weapons",
     "name": "Dagger",
@@ -1298,6 +787,7 @@
     "hardPoints": 1,
     "value": 200,
     "rarity": 2,
+    "description": "With a very sharp point and two or more sharp edges, typically designed or capable of being used as a thrusting or stabbing weapon.",
     "skill": "Melee",
     "damage": 2,
     "critical": 2,
@@ -1417,7 +907,7 @@
     ]
   },
   {
-    "id": "W12",
+    "id": "W8",
     "category": "Weapon",
     "subCategory": "Melee Weapons",
     "name": "Double Shiv",
@@ -1547,7 +1037,7 @@
     ]
   },
   {
-    "id": "W13",
+    "id": "W9",
     "category": "Weapon",
     "subCategory": "Melee Weapons",
     "name": "Greataxe",
@@ -1555,6 +1045,7 @@
     "hardPoints": 2,
     "value": 350,
     "rarity": 4,
+    "description": "Long headed and long shafted murder stick.",
     "skill": "Melee",
     "damage": 4,
     "critical": 3,
@@ -1676,7 +1167,7 @@
     ]
   },
   {
-    "id": "W14",
+    "id": "W10",
     "category": "Weapon",
     "subCategory": "Melee Weapons",
     "name": "Halberd",
@@ -1684,6 +1175,7 @@
     "hardPoints": 2,
     "value": 250,
     "rarity": 4,
+    "description": "An axe blade topped with a spike mounted on a long shaft. It always has a hook or thorn on the back side of the axe blade for grappling mounted combatants",
     "skill": "Melee",
     "damage": 3,
     "critical": 3,
@@ -1804,7 +1296,7 @@
     ]
   },
   {
-    "id": "W15",
+    "id": "W11",
     "category": "Weapon",
     "subCategory": "Melee Weapons",
     "name": "J'Tunns Sword",
@@ -1935,7 +1427,7 @@
     ]
   },
   {
-    "id": "W16",
+    "id": "W12",
     "category": "Weapon",
     "subCategory": "Melee Weapons",
     "name": "Knife",
@@ -1943,6 +1435,7 @@
     "hardPoints": 1,
     "value": 150,
     "rarity": 2,
+    "description": "A knife with a blade designed to inflict a lethal injury in a physical confrontation between two or more individuals at very short range (grappling distance).",
     "skill": "Melee",
     "damage": 2,
     "critical": 3,
@@ -2059,7 +1552,7 @@
     ]
   },
   {
-    "id": "W17",
+    "id": "W13",
     "category": "Weapon",
     "subCategory": "Melee Weapons",
     "name": "Light Spear",
@@ -2067,6 +1560,7 @@
     "hardPoints": 2,
     "value": 150,
     "rarity": 2,
+    "description": "A spear is a pole weapon consisting of a shaft, usually of wood, with a pointed head.",
     "skill": "Melee",
     "damage": 2,
     "critical": 4,
@@ -2186,7 +1680,7 @@
     ]
   },
   {
-    "id": "W18",
+    "id": "W14",
     "category": "Weapon",
     "subCategory": "Melee Weapons",
     "name": "Long Knife",
@@ -2311,7 +1805,7 @@
     ]
   },
   {
-    "id": "W19",
+    "id": "W15",
     "category": "Weapon",
     "subCategory": "Melee Weapons",
     "name": "Longsword",
@@ -2439,7 +1933,7 @@
     ]
   },
   {
-    "id": "W20",
+    "id": "W16",
     "category": "Weapon",
     "subCategory": "Melee Weapons",
     "name": "Mace",
@@ -2447,6 +1941,7 @@
     "hardPoints": 1,
     "value": 75,
     "rarity": 2,
+    "description": "A blunt weapon, a type of club or virge that uses a heavy head on the end of a handle to deliver powerful blows.",
     "skill": "Melee",
     "damage": 3,
     "critical": 4,
@@ -2563,7 +2058,7 @@
     ]
   },
   {
-    "id": "W21",
+    "id": "W17",
     "category": "Weapon",
     "subCategory": "Melee Weapons",
     "name": "Magus Mace",
@@ -2693,7 +2188,7 @@
     ]
   },
   {
-    "id": "W22",
+    "id": "W18",
     "category": "Weapon",
     "subCategory": "Melee Weapons",
     "name": "Pistoned Swordedge",
@@ -2826,7 +2321,7 @@
     ]
   },
   {
-    "id": "W23",
+    "id": "W19",
     "category": "Weapon",
     "subCategory": "Melee Weapons",
     "name": "Rapier",
@@ -2834,6 +2329,7 @@
     "hardPoints": 2,
     "value": 450,
     "rarity": 4,
+    "description": "With such design features, the rapier is optimized to be a thrusting weapon.",
     "skill": "Melee",
     "damage": 2,
     "critical": 2,
@@ -2954,7 +2450,7 @@
     ]
   },
   {
-    "id": "W24",
+    "id": "W20",
     "category": "Weapon",
     "subCategory": "Melee Weapons",
     "name": "Royal Rapier",
@@ -3087,7 +2583,7 @@
     ]
   },
   {
-    "id": "W25",
+    "id": "W21",
     "category": "Weapon",
     "subCategory": "Melee Weapons",
     "name": "Sabre",
@@ -3095,6 +2591,7 @@
     "hardPoints": 2,
     "value": 650,
     "rarity": 6,
+    "description": "a straight single-edged blade and a hilt with a single-handed grip.",
     "skill": "Melee",
     "damage": 3,
     "critical": 3,
@@ -3214,7 +2711,7 @@
     ]
   },
   {
-    "id": "W26",
+    "id": "W22",
     "category": "Weapon",
     "subCategory": "Melee Weapons",
     "name": "Shield",
@@ -3222,7 +2719,8 @@
     "hardPoints": 1,
     "value": 300,
     "rarity": 2,
-    "skill": "Ranged (Light)",
+    "description": "Held in the hand or mounted on the wrist or forearm",
+    "skill": "Melee",
     "damage": 0,
     "critical": 6,
     "range": "Engaged",
@@ -3343,7 +2841,7 @@
     ]
   },
   {
-    "id": "W27",
+    "id": "W23",
     "category": "Weapon",
     "subCategory": "Melee Weapons",
     "name": "Thunderknife (Blade)",
@@ -3352,7 +2850,7 @@
     "value": 1100,
     "rarity": 6,
     "description": "An unbalanced and awkward cleaver of sorts that has a barrel for a hilt. It can chop fast and is very heavy.",
-    "skill": "Ranged (Light)",
+    "skill": "Melee",
     "damage": 5,
     "critical": 2,
     "range": "Engaged",
@@ -3474,7 +2972,7 @@
     ]
   },
   {
-    "id": "W28",
+    "id": "W24",
     "category": "Weapon",
     "subCategory": "Melee Weapons",
     "name": "Thundersword (Blade)",
@@ -3483,7 +2981,7 @@
     "value": 1200,
     "rarity": 6,
     "description": "An unbalanced and awkward longsword of sorts that has a barrel for a hilt. It can chop fast and is very heavy.",
-    "skill": "Ranged (Light)",
+    "skill": "Melee",
     "damage": 4,
     "critical": 3,
     "range": "Engaged",
@@ -3606,7 +3104,7 @@
     ]
   },
   {
-    "id": "W29",
+    "id": "W25",
     "category": "Weapon",
     "subCategory": "Ranged (Light) Weapons",
     "name": "Confederate Hand Cannon",
@@ -3743,7 +3241,7 @@
     ]
   },
   {
-    "id": "W30",
+    "id": "W26",
     "category": "Weapon",
     "subCategory": "Ranged (Light) Weapons",
     "name": "Flintlock Pistol",
@@ -3751,6 +3249,7 @@
     "hardPoints": 2,
     "value": 250,
     "rarity": 3,
+    "description": "Uses a flint striking ignition mechanism.",
     "skill": "Ranged (Light)",
     "damage": 6,
     "critical": 2,
@@ -3871,7 +3370,7 @@
     ]
   },
   {
-    "id": "W31",
+    "id": "W27",
     "category": "Weapon",
     "subCategory": "Ranged (Light) Weapons",
     "name": "Hand cannon",
@@ -3879,6 +3378,7 @@
     "hardPoints": 2,
     "value": 950,
     "rarity": 2,
+    "description": "The most mechanically simplistic form of metal barrel firearms. ",
     "skill": "Ranged (Light)",
     "damage": 9,
     "critical": 3,
@@ -4003,7 +3503,7 @@
     ]
   },
   {
-    "id": "W32",
+    "id": "W28",
     "category": "Weapon",
     "subCategory": "Ranged (Light) Weapons",
     "name": "Hand Spring Crossbow",
@@ -4133,7 +3633,7 @@
     ]
   },
   {
-    "id": "W33",
+    "id": "W29",
     "category": "Weapon",
     "subCategory": "Ranged (Light) Weapons",
     "name": "Manarok Grenade",
@@ -4268,7 +3768,7 @@
     ]
   },
   {
-    "id": "W34",
+    "id": "W30",
     "category": "Weapon",
     "subCategory": "Ranged (Light) Weapons",
     "name": "Mini Springslugger",
@@ -4393,7 +3893,7 @@
     ]
   },
   {
-    "id": "W35",
+    "id": "W31",
     "category": "Weapon",
     "subCategory": "Ranged (Light) Weapons",
     "name": "Springslug",
@@ -4521,7 +4021,7 @@
     ]
   },
   {
-    "id": "W36",
+    "id": "W32",
     "category": "Weapon",
     "subCategory": "Ranged (Light) Weapons",
     "name": "Thunderknife (Gun)",
@@ -4653,7 +4153,7 @@
     ]
   },
   {
-    "id": "W37",
+    "id": "W33",
     "category": "Weapon",
     "subCategory": "Ranged (Heavy) Weapons",
     "name": "Blunderbuss",
@@ -4783,7 +4283,7 @@
     ]
   },
   {
-    "id": "W38",
+    "id": "W34",
     "category": "Weapon",
     "subCategory": "Ranged (Heavy) Weapons",
     "name": "Bow",
@@ -4791,6 +4291,7 @@
     "hardPoints": 1,
     "value": 275,
     "rarity": 2,
+    "description": "Ranged weapon system consisting of an elastic launching device (bow) and long-shafted projectiles (arrows).",
     "skill": "Ranged (Heavy)",
     "damage": 7,
     "critical": 3,
@@ -4910,7 +4411,7 @@
     ]
   },
   {
-    "id": "W39",
+    "id": "W35",
     "category": "Weapon",
     "subCategory": "Ranged (Heavy) Weapons",
     "name": "Crossbow",
@@ -4918,6 +4419,7 @@
     "hardPoints": 2,
     "value": 600,
     "rarity": 3,
+    "description": "A crossbow is a type of ranged weapon based on the bow and consisting of a horizontal bow-like assembly mounted on a frame which is handheld in a similar fashion to the stock of a gun.",
     "skill": "Ranged (Heavy)",
     "damage": 7,
     "critical": 2,
@@ -5038,7 +4540,7 @@
     ]
   },
   {
-    "id": "W40",
+    "id": "W36",
     "category": "Weapon",
     "subCategory": "Ranged (Heavy) Weapons",
     "name": "Light Dreadrifle",
@@ -5167,7 +4669,7 @@
     ]
   },
   {
-    "id": "W41",
+    "id": "W37",
     "category": "Weapon",
     "subCategory": "Ranged (Heavy) Weapons",
     "name": "Longbow",
@@ -5175,6 +4677,7 @@
     "hardPoints": 2,
     "value": 450,
     "rarity": 3,
+    "description": "A longbow is a type of bow that is tall – roughly equal to the height of the user – allowing the archer a fairly long draw, at least to the jaw.",
     "skill": "Ranged (Heavy)",
     "damage": 8,
     "critical": 3,
@@ -5294,7 +4797,7 @@
     ]
   },
   {
-    "id": "W42",
+    "id": "W38",
     "category": "Weapon",
     "subCategory": "Ranged (Heavy) Weapons",
     "name": "Repeating Springrifle",
@@ -5427,7 +4930,7 @@
     ]
   },
   {
-    "id": "W43",
+    "id": "W39",
     "category": "Weapon",
     "subCategory": "Ranged (Heavy) Weapons",
     "name": "Royal Sparkle Rifle",
@@ -5561,7 +5064,7 @@
     ]
   },
   {
-    "id": "W44",
+    "id": "W40",
     "category": "Weapon",
     "subCategory": "Ranged (Heavy) Weapons",
     "name": "Slaver's Rifle",
@@ -5692,7 +5195,7 @@
     ]
   },
   {
-    "id": "W45",
+    "id": "W41",
     "category": "Weapon",
     "subCategory": "Ranged (Heavy) Weapons",
     "name": "Sniper Rifle",
@@ -5700,6 +5203,7 @@
     "hardPoints": 1,
     "value": 1000,
     "rarity": 5,
+    "description": "Serves to fulfil the tactical need for long range surveillance, antipersonnel and anti-material operations.",
     "skill": "Ranged (Heavy)",
     "damage": 8,
     "critical": 2,
@@ -5821,7 +5325,7 @@
     ]
   },
   {
-    "id": "W46",
+    "id": "W42",
     "category": "Weapon",
     "subCategory": "Ranged (Heavy) Weapons",
     "name": "Sparklebit Rifle",
@@ -5950,7 +5454,7 @@
     ]
   },
   {
-    "id": "W47",
+    "id": "W43",
     "category": "Weapon",
     "subCategory": "Ranged (Heavy) Weapons",
     "name": "Standard Rifle",
@@ -5958,6 +5462,7 @@
     "hardPoints": 2,
     "value": 500,
     "rarity": 4,
+    "description": "Type of repeater firearm action where the handling of cartridges into and out of the weapon's barrel chamber are operated by manually manipulating the bolt handle",
     "skill": "Ranged (Heavy)",
     "damage": 7,
     "critical": 3,
@@ -6077,7 +5582,7 @@
     ]
   },
   {
-    "id": "W48",
+    "id": "W44",
     "category": "Weapon",
     "subCategory": "Ranged (Heavy) Weapons",
     "name": "Thundersword (Gun)",
@@ -6085,6 +5590,7 @@
     "hardPoints": 4,
     "value": 1200,
     "rarity": 6,
+    "description": "A thunderous pistol that produces smoke and death when fired.",
     "skill": "Ranged (Heavy)",
     "damage": 9,
     "critical": 2,

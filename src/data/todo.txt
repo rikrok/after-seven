@@ -1,31 +1,33 @@
- + first four career skills
-
-Do Talents:	
+ Do Talents:	
 	Grit
 	Toughened
-
 	Burly
-
 	Basic Military Training
-
 	Well Read
 	Well Rounded
-
 	Armor Master
 	Armor Master (Improved)
+	Armor Master (Supreme)
+	Improved Improvised Weapons
+	* Alchemy shit *
 	
-Armor Shop:
-	Promote new armor 
-	
-
-Abilities
+Abilities when purchasing talents and weapons.
 
 AS: Random Roll Race / Career / Faction.
 
 AS: Bonus Loot 
 
-Plugins for other Genres / Rules
++ Skill -> Career.
++ Other race data
 
++ Weapon Builder
+ 
++ Talent / Skill Show Alert
++ Weapon / Armor / Gear Show Alert
 
- 
- 
++ Warning progress bars...
++ make a function to reset stats, skills, talents, inventory, race, etc.
++ alt rules carry career and race
++ skill page limit
++ alternative rules -> talents
++ genres -> talents 

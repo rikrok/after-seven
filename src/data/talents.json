@@ -9,7 +9,9 @@
     "description": "Remove one setback die while using non-attack Arcana spells. ",
     "sourcing": "Source: After Seven",
     "sourceBook": "Source: After Seven",
-    "sourceBookTalentName": "Acrane Adept"
+    "sourceBookTalentName": "Acrane Adept",
+    "rankDisplay": "No",
+    "tierDisplay": 1
   },
   {
     "id": "T2",
@@ -21,7 +23,9 @@
     "description": "Increase the base damage of your Attack spell by one per rank of this talent, to a maximum of five. This increase to damage does not stack with other effects that increase the base damage of the Attack spell, such as magical implements.",
     "sourcing": "Source: OgreBane99",
     "sourceBook": "Source: OgreBane99",
-    "sourceBookTalentName": "Aggressive Caster"
+    "sourceBookTalentName": "Aggressive Caster",
+    "rankDisplay": "Yes",
+    "tierDisplay": 1
   },
   {
     "id": "T3",
@@ -33,7 +37,9 @@
     "description": "When using the alchemy skill with anything relating to Bloodoil, remove one setback die.",
     "sourcing": "Source: After Seven",
     "sourceBook": "Source: After Seven",
-    "sourceBookTalentName": "Bloodoil Specialist"
+    "sourceBookTalentName": "Bloodoil Specialist",
+    "rankDisplay": "No",
+    "tierDisplay": 1
   },
   {
     "id": "T4",
@@ -45,7 +51,9 @@
     "description": "When using the alchemy skill with anything relating to Bonedustings, remove one setback die.",
     "sourcing": "Source: After Seven",
     "sourceBook": "Source: After Seven",
-    "sourceBookTalentName": "Boneduster"
+    "sourceBookTalentName": "Boneduster",
+    "rankDisplay": "No",
+    "tierDisplay": 1
   },
   {
     "id": "T5",
@@ -57,7 +65,9 @@
     "description": "Do not add setback dice to combat checks due to the use of the Aim maneuver.",
     "sourcing": "Source: FC",
     "sourceBook": "Source: FC",
-    "sourceBookTalentName": "Call 'Em"
+    "sourceBookTalentName": "Call 'Em",
+    "rankDisplay": "No",
+    "tierDisplay": 1
   },
   {
     "id": "T6",
@@ -66,10 +76,12 @@
     "activation": "Activation: Active (Incidental, Out of Turn)",
     "ranked": "Ranked: No",
     "tags": "Social",
-    "description": "Once per encounter, your character may use this talent to add automatic two threat to another character’s social skill check.",
+    "description": "See talent pages in the core rule book.",
     "sourcing": "Source: GCRB",
     "sourceBook": "Source: GCRB",
-    "sourceBookTalentName": "Clever Retort"
+    "sourceBookTalentName": "Clever Retort",
+    "rankDisplay": "No",
+    "tierDisplay": 1
   },
   {
     "id": "T7",
@@ -78,10 +90,12 @@
     "activation": "Activation: Passive",
     "ranked": "Ranked: No",
     "tags": "Heal, Strain, Combat",
-    "description": "Before your character heals strain at the end of an encounter, if their strain is more than half of their strain threshold, they heal two additional strain.",
+    "description": "See talent pages in the core rule book.",
     "sourcing": "Source: GCRB",
     "sourceBook": "Source: GCRB",
-    "sourceBookTalentName": "Desperate Recovery"
+    "sourceBookTalentName": "Desperate Recovery",
+    "rankDisplay": "No",
+    "tierDisplay": 1
   },
   {
     "id": "T8",
@@ -93,7 +107,9 @@
     "description": "Make a Hard (3 Difficulty Dice) Divine check; upon success remove the immobilization status from your character. ",
     "sourcing": "Source: After Seven",
     "sourceBook": "Source: After Seven",
-    "sourceBookTalentName": "Devoted Servant"
+    "sourceBookTalentName": "Devoted Servant",
+    "rankDisplay": "No",
+    "tierDisplay": 1
   },
   {
     "id": "T9",
@@ -102,10 +118,12 @@
     "activation": "Activation: Passive",
     "ranked": "Ranked: No",
     "tags": "Combat, Melee",
-    "description": "Your character adds one boost die to their melee combat checks while engaged with a single opponent. Your character adds setback die to their melee combat checks while engaged with three or more opponents.",
+    "description": "See talent pages in the core rule book.",
     "sourcing": "Source: GCRB",
     "sourceBook": "Source: GCRB",
-    "sourceBookTalentName": "Duelist"
+    "sourceBookTalentName": "Duelist",
+    "rankDisplay": "No",
+    "tierDisplay": 1
   },
   {
     "id": "T10",
@@ -114,10 +132,12 @@
     "activation": "Activation: Passive",
     "ranked": "Ranked: Yes",
     "tags": "Combat, Critical Injury, Heal",
-    "description": "Your character reduces any Critical Injury result they suffer by 10 per rank of Durable, to a minimum of 01.",
+    "description": "See talent pages in the core rule book.",
     "sourcing": "Source: GCRB",
     "sourceBook": "Source: GCRB",
-    "sourceBookTalentName": "Durable"
+    "sourceBookTalentName": "Durable",
+    "rankDisplay": "Yes",
+    "tierDisplay": 1
   },
   {
     "id": "T11",
@@ -129,7 +149,9 @@
     "description": "Select a specific type of enemy, such as a spell caster from a government or an entire species. When encountering them in combat, remove one setback die once per encounter. Each rank selects another specific type of enemy. ",
     "sourcing": "Source: After Seven",
     "sourceBook": "Source: After Seven",
-    "sourceBookTalentName": "Familiar Enemy"
+    "sourceBookTalentName": "Familiar Enemy",
+    "rankDisplay": "Yes",
+    "tierDisplay": 1
   },
   {
     "id": "T12",
@@ -141,7 +163,9 @@
     "description": "Once per session, may perform a Familiar Sky maneuver; make a Hard (3 Difficulty Dice) a Knowledge check to reveal the current type of environment and other useful information.",
     "sourcing": "Sources: ACRB, ECRB (Familiar Suns)",
     "sourceBook": "Sources: ACRB, ECRB",
-    "sourceBookTalentName": "Familiar Suns"
+    "sourceBookTalentName": "Familiar Suns",
+    "rankDisplay": "No",
+    "tierDisplay": 1
   },
   {
     "id": "T13",
@@ -153,7 +177,9 @@
     "description": "Add one boost die to a spell casting skill check when your character is the first PC to act in the current encounter.",
     "sourcing": "Source: CCC (Intuitive Casting)",
     "sourceBook": "Source: CCC",
-    "sourceBookTalentName": "Intuitive Casting"
+    "sourceBookTalentName": "Intuitive Casting",
+    "rankDisplay": "Yes",
+    "tierDisplay": 1
   },
   {
     "id": "T14",
@@ -162,10 +188,12 @@
     "activation": "Activation: Passive",
     "ranked": "Ranked: No",
     "tags": "Resources",
-    "description": "Your character removes up to two setback dice from any skill checks they make to find food, water, or shelter. Checks to forage or search the area that your character makes take half the time they would normally.",
+    "description": "See talent pages in the core rule book.",
     "sourcing": "Source: GCRB",
     "sourceBook": "Source: GCRB",
-    "sourceBookTalentName": "Forager"
+    "sourceBookTalentName": "Forager",
+    "rankDisplay": "No",
+    "tierDisplay": 1
   },
   {
     "id": "T15",
@@ -174,10 +202,12 @@
     "activation": "Activation: Passive",
     "ranked": "Ranked: Yes",
     "tags": "Strain",
-    "description": "Each rank of Grit increases your character’s strain threshold by one.",
+    "description": "See talent pages in the core rule book.",
     "sourcing": "Source: GCRB",
     "sourceBook": "Source: GCRB",
-    "sourceBookTalentName": "Grit"
+    "sourceBookTalentName": "Grit",
+    "rankDisplay": "Yes",
+    "tierDisplay": 1
   },
   {
     "id": "T16",
@@ -186,22 +216,26 @@
     "activation": "Activation: Active (Action)",
     "ranked": "Ranked: No",
     "tags": "Combat, Range",
-    "description": "Once per round, your character may use this talent to perform a ranged combat check against one non-vehicle target within range of the weapon used. If the check is successful, halve the damage inflicted by the attack (before reducing damage by the target’s soak). The target is immobilized until the end of its next turn.",
+    "description": "See talent pages in the core rule book.",
     "sourcing": "Source: GCRB",
     "sourceBook": "Source: GCRB",
-    "sourceBookTalentName": "Hamstring Shot"
+    "sourceBookTalentName": "Hamstring Shot",
+    "rankDisplay": "No",
+    "tierDisplay": 1
   },
   {
     "id": "T17",
-    "talentName": "Improved Improvised Weapons",
+    "talentName": "Natural Weapon",
     "tier": "Tier: 1",
     "activation": "Activation: Passive",
     "ranked": "Ranked: No",
     "tags": "Unarmed, Brawl, Combat",
     "description": "Reduce critical by while using improvised weapons, while removing the automatic threat generated while using improvised weapons.",
-    "sourcing": "Source: After Seven",
+    "sourcing": "Source: After Seven (Improved Improvised Weapons)",
     "sourceBook": "Source: After Seven",
-    "sourceBookTalentName": "Improved Improvised Weapons"
+    "sourceBookTalentName": "Improved Improvised Weapons",
+    "rankDisplay": "No",
+    "tierDisplay": 1
   },
   {
     "id": "T18",
@@ -210,10 +244,12 @@
     "activation": "Activation: Active (Incidental)",
     "ranked": "Ranked: No",
     "tags": "Prone, Movement",
-    "description": "Once per round during your character’s turn, your character may use this talent to stand from a prone or seated position as an incidental.",
+    "description": "See talent pages in the core rule book.",
     "sourcing": "Source: GCRB",
     "sourceBook": "Source: GCRB",
-    "sourceBookTalentName": "Jump Up"
+    "sourceBookTalentName": "Jump Up",
+    "rankDisplay": "No",
+    "tierDisplay": 1
   },
   {
     "id": "T19",
@@ -222,10 +258,12 @@
     "activation": "Activation: Passive",
     "ranked": "Ranked: Yes",
     "tags": "Skill",
-    "description": "When you purchase this talent for your character, select one skill. Your character removes two setback dice from any checks they make using this skill. Each additional time you purchase this talent for your character, select two additional skills. Your character also removes two setback dice from any checks they make using these skills. You cannot select combat or magic skills when choosing skills for this talent.",
+    "description": "See talent pages in the core rule book.",
     "sourcing": "Source: GCRB",
     "sourceBook": "Source: GCRB",
-    "sourceBookTalentName": "Knack for It"
+    "sourceBookTalentName": "Knack for It",
+    "rankDisplay": "Yes",
+    "tierDisplay": 1
   },
   {
     "id": "T20",
@@ -237,7 +275,9 @@
     "description": "When acquired, choose 1 Knowledge skill. When making that skill check, may spend one triumph result to gain additional successes equal to ranks in Knowledge Specialization.",
     "sourcing": "Sources: ACRB, ECRB, FCRB (Knowledge Specialization)",
     "sourceBook": "Sources: ACRB, ECRB, FCRB",
-    "sourceBookTalentName": "Knowledge Specialization"
+    "sourceBookTalentName": "Knowledge Specialization",
+    "rankDisplay": "Yes",
+    "tierDisplay": 1
   },
   {
     "id": "T21",
@@ -249,7 +289,9 @@
     "description": "This replaces the Enchanting portion of the setting with being an adept machinist. Able to modify weapons and items through engineering. Swap out Alchemy with Mechanics when trying to enchant items.",
     "sourcing": "Source: After Seven",
     "sourceBook": "Source: After Seven",
-    "sourceBookTalentName": "Machinist"
+    "sourceBookTalentName": "Machinist",
+    "rankDisplay": "Yes",
+    "tierDisplay": 1
   },
   {
     "id": "T22",
@@ -261,7 +303,9 @@
     "description": "While in disguise, ignore one setback die while making Deception checks.",
     "sourcing": "Source: After Seven",
     "sourceBook": "Source: After Seven",
-    "sourceBookTalentName": "Many Faced"
+    "sourceBookTalentName": "Many Faced",
+    "rankDisplay": "No",
+    "tierDisplay": 1
   },
   {
     "id": "T23",
@@ -273,7 +317,9 @@
     "description": "Remove one setback die while interacting with a crowd while using Leadership. Each rank corrosponds to the group size table found on page 120. At rank 5, the difficulty is reduced by one. ",
     "sourcing": "Source: After Seven",
     "sourceBook": "Source: After Seven",
-    "sourceBookTalentName": "Master of a Crowd"
+    "sourceBookTalentName": "Master of a Crowd",
+    "rankDisplay": "Yes",
+    "tierDisplay": 1
   },
   {
     "id": "T24",
@@ -285,19 +331,23 @@
     "description": "Patients recover 1 additional wound per rank of Medical Specialist when they recover wounds from long term care.",
     "sourcing": "Sources: ACRB, ECRB (Bacta Specialist)",
     "sourceBook": "Sources: ACRB, ECRB",
-    "sourceBookTalentName": "Bacta Specialist"
+    "sourceBookTalentName": "Bacta Specialist",
+    "rankDisplay": "Yes",
+    "tierDisplay": 1
   },
   {
     "id": "T25",
-    "talentName": "Medium Telepathic Communication",
+    "talentName": "Medium",
     "tier": "Tier: 1",
     "activation": "Activation: Passive",
     "ranked": "Ranked: Yes",
     "tags": "Arcana, Primal, Magic, Communication",
     "description": "Select a mundane trinket. An ally in a short range can be telepathically communicated to by the Divine or Arcana spellcaster as an incidental, so long as both characters are in possession of the trinket and the spell caster knows the character is present. Each additional rank “enchants” another mundane item.",
-    "sourcing": "Source: After Seven",
+    "sourcing": "Source: After Seven (Medium Telepathic Communication)",
     "sourceBook": "Source: After Seven",
-    "sourceBookTalentName": "Medium Telepathic Communication"
+    "sourceBookTalentName": "Medium Telepathic Communication",
+    "rankDisplay": "Yes",
+    "tierDisplay": 1
   },
   {
     "id": "T26",
@@ -309,7 +359,9 @@
     "description": "While making Leadership or Coercion checks, characters making opposing skill checks add one setback die to their dice pool.",
     "sourcing": "Source: After Seven",
     "sourceBook": "Source: After Seven",
-    "sourceBookTalentName": "Menacing"
+    "sourceBookTalentName": "Menacing",
+    "rankDisplay": "No",
+    "tierDisplay": 1
   },
   {
     "id": "T27",
@@ -321,7 +373,9 @@
     "description": "Your character is in harmony with magic. The character ignores the penalty for casting a spell while gagged, silenced or otherwise unable to speak.",
     "sourcing": "Source: Greatfrito's Genesys Magic Talents (Silent Casting)",
     "sourceBook": "Source: Greatfrito's Genesys Magic Talents",
-    "sourceBookTalentName": "Silent Casting"
+    "sourceBookTalentName": "Silent Casting",
+    "rankDisplay": "No",
+    "tierDisplay": 1
   },
   {
     "id": "T28",
@@ -333,7 +387,9 @@
     "description": "Remove one setback die while disoriented until the start of your next turn",
     "sourcing": "Source: After Seven",
     "sourceBook": "Source: After Seven",
-    "sourceBookTalentName": "Natural Orientation"
+    "sourceBookTalentName": "Natural Orientation",
+    "rankDisplay": "No",
+    "tierDisplay": 1
   },
   {
     "id": "T29",
@@ -342,10 +398,12 @@
     "activation": "Activation: Active (Incidental)",
     "ranked": "Ranked: No",
     "tags": "Survival, Discipline, Cool, Strain",
-    "description": "When in the wilderness, your character may make a Simple (–) Survival check, instead of Discipline or Cool, to recover strain at the end of an encounter (see page 117).",
+    "description": "See talent pages in the core rule book.",
     "sourcing": "Source: GCRB",
     "sourceBook": "Source: GCRB",
-    "sourceBookTalentName": "One with Nature"
+    "sourceBookTalentName": "One with Nature",
+    "rankDisplay": "No",
+    "tierDisplay": 1
   },
   {
     "id": "T30",
@@ -354,10 +412,12 @@
     "activation": "Activation: Active (Incidental, Out of Turn)",
     "ranked": "Ranked: Yes",
     "tags": "Combat, Melee",
-    "description": "When your character suffers a hit from a melee combat check, after damage is calculated but before soak is applied (so immediately after Step 3 of Perform a Combat check, page 102), your character may suffer 3 strain to use this talent to reduce the damage of the hit by two plus their ranks in Parry. This talent can only be used once per hit, and your character needs to be wielding a Melee weapon.",
+    "description": "See talent pages in the core rule book.",
     "sourcing": "Source: GCRB",
     "sourceBook": "Source: GCRB",
-    "sourceBookTalentName": "Parry"
+    "sourceBookTalentName": "Parry",
+    "rankDisplay": "Yes",
+    "tierDisplay": 1
   },
   {
     "id": "T31",
@@ -369,7 +429,9 @@
     "description": "When making a Medicine check to help a character heal wounds, the target heals 1 additional strain per rank of Physician.",
     "sourcing": "Source: FCRB",
     "sourceBook": "Source: FCRB",
-    "sourceBookTalentName": "Physician"
+    "sourceBookTalentName": "Physician",
+    "rankDisplay": "Yes",
+    "tierDisplay": 1
   },
   {
     "id": "T32",
@@ -378,10 +440,12 @@
     "activation": "Activation: Active (Incidental)",
     "ranked": "Ranked: Yes",
     "tags": "Social",
-    "description": "When your character makes a social skill check in polite company (as determined by your GM), they may suffer a number of strain to use this talent to add an equal number of advantages to the check. The number may not exceed your character’s ranks in Proper Upbringing.",
+    "description": "See talent pages in the core rule book.",
     "sourcing": "Source: GCRB",
     "sourceBook": "Source: GCRB",
-    "sourceBookTalentName": "Proper Upbringing"
+    "sourceBookTalentName": "Proper Upbringing",
+    "rankDisplay": "Yes",
+    "tierDisplay": 1
   },
   {
     "id": "T33",
@@ -390,10 +454,12 @@
     "activation": "Activation: Active (Incidental)",
     "ranked": "Ranked: No",
     "tags": "Item, Combat, Movement",
-    "description": "Once per round on your character’s turn, they may use this talent to draw or holster an easily accessible weapon or item as an incidental. Quick Draw also reduces a weapon’s Prepare rating by one, to a minimum of one.",
+    "description": "See talent pages in the core rule book.",
     "sourcing": "Source: GCRB",
     "sourceBook": "Source: GCRB",
-    "sourceBookTalentName": "Quick Draw"
+    "sourceBookTalentName": "Quick Draw",
+    "rankDisplay": "No",
+    "tierDisplay": 1
   },
   {
     "id": "T34",
@@ -402,10 +468,12 @@
     "activation": "Activation: Passive",
     "ranked": "Ranked: Yes",
     "tags": "Combat, Initiative",
-    "description": "Your character adds one boost die for each rank of Quick Strike to any combat checks they make against any targets that have not yet taken their turn in the current encounter.",
+    "description": "See talent pages in the core rule book.",
     "sourcing": "Source: GCRB",
     "sourceBook": "Source: GCRB",
-    "sourceBookTalentName": "Quick Strike"
+    "sourceBookTalentName": "Quick Strike",
+    "rankDisplay": "Yes",
+    "tierDisplay": 1
   },
   {
     "id": "T35",
@@ -414,10 +482,12 @@
     "activation": "Activation: Active (Incidental, Out of Turn)",
     "ranked": "Ranked: Yes",
     "tags": "Vigilance, Cool, Initiative",
-    "description": "Your character may suffer a number of strain to use this talent to add an equal number of successes to a Vigilance or Cool check they make to determine Initiative order. The number may not exceed your character’s ranks in Rapid Reaction.",
+    "description": "See talent pages in the core rule book.",
     "sourcing": "Source: GCRB",
     "sourceBook": "Source: GCRB",
-    "sourceBookTalentName": "Rapid Reaction"
+    "sourceBookTalentName": "Rapid Reaction",
+    "rankDisplay": "Yes",
+    "tierDisplay": 1
   },
   {
     "id": "T36",
@@ -429,7 +499,9 @@
     "description": "When healing strain after an encounter, heal 1 additional strain per rank of Rapid Recovery.",
     "sourcing": "Sources: ABGR, ACRB, ECRB, FBGR, FCRB",
     "sourceBook": "Sources: ABGR, ACRB, ECRB, FBGR, FCRB",
-    "sourceBookTalentName": "Rapid Recovery"
+    "sourceBookTalentName": "Rapid Recovery",
+    "rankDisplay": "Yes",
+    "tierDisplay": 1
   },
   {
     "id": "T37",
@@ -441,7 +513,9 @@
     "description": "When your character suffers a hit from a Ranged combat check, after damage is calculated but before soak is applied, your character may suffer 3 strain to use this talent to reduce the damage of the hit by two plus their ranks in Reflect. This talent can only be used once per hit, and your character needs to be wielding a Shield deemed appropriate by the GM.",
     "sourcing": "Sources: FBGR, FCRB",
     "sourceBook": "Sources: FBGR, FCRB",
-    "sourceBookTalentName": "Reflect"
+    "sourceBookTalentName": "Reflect",
+    "rankDisplay": "Yes",
+    "tierDisplay": 1
   },
   {
     "id": "T38",
@@ -450,10 +524,12 @@
     "activation": "Activation: Active (Incidental)",
     "ranked": "Ranked: Yes",
     "tags": "Heal, Strain",
-    "description": "Once per encounter, your character may use this talent to heal an amount of strain equal to their ranks in Second Wind.",
+    "description": "See talent pages in the core rule book.",
     "sourcing": "Source: GCRB",
     "sourceBook": "Source: GCRB",
-    "sourceBookTalentName": "Second Wind"
+    "sourceBookTalentName": "Second Wind",
+    "rankDisplay": "Yes",
+    "tierDisplay": 1
   },
   {
     "id": "T39",
@@ -465,7 +541,9 @@
     "description": "Once per session, when your character buys items they have a reduce cost of 10%. When your character sells items, they are sold at 10% higher. These prices are negotiated for the price prior to the 10% adjustment. This is done while buying from one specific merchant, shop or store once per session for every sell or purchase transaction while negotiating price with the merchant, shop or store. ",
     "sourcing": "Source: After Seven",
     "sourceBook": "Source: After Seven",
-    "sourceBookTalentName": "Sly Bartering"
+    "sourceBookTalentName": "Sly Bartering",
+    "rankDisplay": "No",
+    "tierDisplay": 1
   },
   {
     "id": "T40",
@@ -477,7 +555,9 @@
     "description": "When first acquired choose 1 skill; Charm, Coercion, Deception, or Negotiation. When making checks with that skill spend triumph to gain additional successes equal to ranks in Smooth Talker.",
     "sourcing": "Sources: ACRB, ECRB, FCRB",
     "sourceBook": "Sources: ACRB, ECRB, FCRB",
-    "sourceBookTalentName": "Smooth Talker"
+    "sourceBookTalentName": "Smooth Talker",
+    "rankDisplay": "Yes",
+    "tierDisplay": 1
   },
   {
     "id": "T41",
@@ -489,7 +569,9 @@
     "description": "When using the alchemy skill with anything relating to Sparklebits, remove one setback die.",
     "sourcing": "Source: After Seven",
     "sourceBook": "Source: After Seven",
-    "sourceBookTalentName": "Sparklebit Scientist"
+    "sourceBookTalentName": "Sparklebit Scientist",
+    "rankDisplay": "No",
+    "tierDisplay": 1
   },
   {
     "id": "T42",
@@ -501,7 +583,9 @@
     "description": "All spirits (ghosts, elementals, etc) are revealed to you the space you can see. You are able to speak to the spirits and understand the spirits clearly. Remove one setback die in social encounters with a spirit. ",
     "sourcing": "Source: After Seven",
     "sourceBook": "Source: After Seven",
-    "sourceBookTalentName": "Spirit Speech"
+    "sourceBookTalentName": "Spirit Speech",
+    "rankDisplay": "No",
+    "tierDisplay": 1
   },
   {
     "id": "T43",
@@ -513,7 +597,9 @@
     "description": "Your character is in accord with magic, being able to feel the magic. Your character ignores the penalties for casting a spell without at least having one free hand, and for wearing heavy armor or using a shield.",
     "sourcing": "Source: Greatfrito's Genesys Magic Talents (Still Casting)",
     "sourceBook": "Source: Greatfrito's Genesys Magic Talents",
-    "sourceBookTalentName": "Still Casting"
+    "sourceBookTalentName": "Still Casting",
+    "rankDisplay": "No",
+    "tierDisplay": 1
   },
   {
     "id": "T44",
@@ -522,10 +608,12 @@
     "activation": "Activation: Passive",
     "ranked": "Ranked: Yes",
     "tags": "Medicine, Heal, Wounds",
-    "description": "When your character makes a Medicine check to heal wounds, the target heals one additional wound per rank of Surgeon.",
+    "description": "See talent pages in the core rule book.",
     "sourcing": "Source: GCRB",
     "sourceBook": "Source: GCRB",
-    "sourceBookTalentName": "Surgeon"
+    "sourceBookTalentName": "Surgeon",
+    "rankDisplay": "Yes",
+    "tierDisplay": 1
   },
   {
     "id": "T45",
@@ -534,10 +622,12 @@
     "activation": "Activation: Passive",
     "ranked": "Ranked: No",
     "tags": "Movement",
-    "description": "Your character does not suffer the penalties for moving through difficult terrain (they move through difficult terrain at normal speed without spending additional maneuvers).",
+    "description": "See talent pages in the core rule book.",
     "sourcing": "Source: GCRB",
     "sourceBook": "Source: GCRB",
-    "sourceBookTalentName": "Swift"
+    "sourceBookTalentName": "Swift",
+    "rankDisplay": "No",
+    "tierDisplay": 1
   },
   {
     "id": "T46",
@@ -546,10 +636,12 @@
     "activation": "Activation: Passive",
     "ranked": "Ranked: Yes",
     "tags": "Wounds",
-    "description": "Each rank of Toughened increases your character’s wound threshold by two.",
+    "description": "See talent pages in the core rule book.",
     "sourcing": "Source: GCRB",
     "sourceBook": "Source: GCRB",
-    "sourceBookTalentName": "Toughened"
+    "sourceBookTalentName": "Toughened",
+    "rankDisplay": "Yes",
+    "tierDisplay": 1
   },
   {
     "id": "T47",
@@ -558,10 +650,12 @@
     "activation": "Activation: Passive",
     "ranked": "Ranked: No",
     "tags": "Search, Find, Track",
-    "description": "Other characters add one failure to any checks made to find or identify your character in a crowd.",
+    "description": "See talent pages in the core rule book.",
     "sourcing": "Source: GCRB",
     "sourceBook": "Source: GCRB",
-    "sourceBookTalentName": "Unremarkable"
+    "sourceBookTalentName": "Unremarkable",
+    "rankDisplay": "No",
+    "tierDisplay": 1
   },
   {
     "id": "T48",
@@ -573,7 +667,9 @@
     "description": "Change every despair to a success, not greater than the rank of this talent during social interactions of using the skills Charm or Coercion.",
     "sourcing": "Source: After Seven",
     "sourceBook": "Source: After Seven",
-    "sourceBookTalentName": "A Charmed Life"
+    "sourceBookTalentName": "A Charmed Life",
+    "rankDisplay": "No",
+    "tierDisplay": 2
   },
   {
     "id": "T49",
@@ -585,7 +681,9 @@
     "description": "Take Action Plan action, make a Hard (3 Difficulty Dice) Knowledge: Systems OR Leadership check to downgrade the ability of all attacks made against a target. The next attack against the target removes the effect.",
     "sourcing": "Source: After Seven (Hunter's Quarry)",
     "sourceBook": "Source: After Seven",
-    "sourceBookTalentName": "Hunter's Quarry"
+    "sourceBookTalentName": "Hunter's Quarry",
+    "rankDisplay": "Yes",
+    "tierDisplay": 2
   },
   {
     "id": "T50",
@@ -597,7 +695,9 @@
     "description": "Remove the automatic threat produced by practicing Alchemy. ",
     "sourcing": "Source: After Seven",
     "sourceBook": "Source: After Seven",
-    "sourceBookTalentName": "Alchemist"
+    "sourceBookTalentName": "Alchemist",
+    "rankDisplay": "No",
+    "tierDisplay": 2
   },
   {
     "id": "T51",
@@ -609,7 +709,9 @@
     "description": "Add 1 damage per rank of Barrage to 1 hit of successful attack while using Ranged (Heavy) or Gunnery skills at long or extreme range.",
     "sourcing": "Sources: ABGR, FIB, EBGR, ECRB",
     "sourceBook": "Sources: ABGR, FIB, EBGR, ECRB",
-    "sourceBookTalentName": "Barrage"
+    "sourceBookTalentName": "Barrage",
+    "rankDisplay": "Yes",
+    "tierDisplay": 2
   },
   {
     "id": "T52",
@@ -618,10 +720,12 @@
     "activation": "Activation: Passive",
     "ranked": "Ranked: No",
     "tags": "Athletics, Ranged (Heavy), Resilience",
-    "description": "Athletics, Ranged (Heavy), and Resilience are now career skills for your character.",
+    "description": "See talent pages in the core rule book.",
     "sourcing": "Source: GCRB",
     "sourceBook": "Source: GCRB",
-    "sourceBookTalentName": "Basic Military Training"
+    "sourceBookTalentName": "Basic Military Training",
+    "rankDisplay": "No",
+    "tierDisplay": 2
   },
   {
     "id": "T53",
@@ -633,7 +737,9 @@
     "description": "Once per round, after making an arcana magic combat check but before resolving its effects, you may suffer two strain to add an advantage to the results. This advantage may only be used to help pay to activate the Blast, Destructive and Impact special qualities, or the Manipulative additional effect. You cannot use this talent if the magic combat check resulted in more than threats than advantages. ",
     "sourcing": "Source: After Seven",
     "sourceBook": "Source: After Seven",
-    "sourceBookTalentName": "Belligerent Arcanist"
+    "sourceBookTalentName": "Belligerent Arcanist",
+    "rankDisplay": "No",
+    "tierDisplay": 2
   },
   {
     "id": "T54",
@@ -642,10 +748,12 @@
     "activation": "Activation: Active (Maneuver)",
     "ranked": "Ranked: No",
     "tags": "Combat",
-    "description": "Once per encounter, your character may use this talent. Until the end of the encounter or until they are incapacitated, your character adds one success and two advantage to all melee combat checks they make. However, opponents adds one success to all combat checks targeting your character. While berserk, your character cannot make ranged combat checks. At the end of the encounter (or when they are incapacitated), your character suffers 6 strain.",
+    "description": "See talent pages in the core rule book.",
     "sourcing": "Source: GCRB",
     "sourceBook": "Source: GCRB",
-    "sourceBookTalentName": "Berserk"
+    "sourceBookTalentName": "Berserk",
+    "rankDisplay": "No",
+    "tierDisplay": 2
   },
   {
     "id": "T55",
@@ -657,7 +765,9 @@
     "description": "When an NPC exceeds his strain threshold, may spend 1 Story Point to convince that NPC to perform a single task of choice instead.",
     "sourcing": "Source: DA",
     "sourceBook": "Source: DA",
-    "sourceBookTalentName": "Blackmail"
+    "sourceBookTalentName": "Blackmail",
+    "rankDisplay": "No",
+    "tierDisplay": 2
   },
   {
     "id": "T56",
@@ -669,7 +779,9 @@
     "description": "Add one boost die per rank of Blooded to all checks to resist or recover from poisons, venoms, or toxins. Reduce duration of ongoing poisons by 1 round per rank of Blooded to a minimum of 1.",
     "sourcing": "Sources: ACRB, ECRB",
     "sourceBook": "Sources: ACRB, ECRB",
-    "sourceBookTalentName": "Blooded"
+    "sourceBookTalentName": "Blooded",
+    "rankDisplay": "Yes",
+    "tierDisplay": 2
   },
   {
     "id": "T57",
@@ -681,7 +793,9 @@
     "description": "Once per round, perform the Body Guard maneuver to guard an engaged character. Suffer a number of strain no greater than ranks of Body Guard, then until the beginning of the next turn upgrade the difficulty of combat checks targeting the character by that number.",
     "sourcing": "Sources: ACRB, FIB, EBGR, ECRB, FBGR, FCRB",
     "sourceBook": "Sources: ACRB, FIB, EBGR, ECRB, FBGR, FCRB",
-    "sourceBookTalentName": "Body Guard"
+    "sourceBookTalentName": "Body Guard",
+    "rankDisplay": "Yes",
+    "tierDisplay": 2
   },
   {
     "id": "T58",
@@ -693,7 +807,9 @@
     "description": "Reduce any wielded weapon's Cumbersome quality and Encumbrance rating by a number equal to ranks in Burly to a minimum of 1.",
     "sourcing": "Sources: FIB, DC",
     "sourceBook": "Sources: FIB, DC",
-    "sourceBookTalentName": "Burly"
+    "sourceBookTalentName": "Burly",
+    "rankDisplay": "Yes",
+    "tierDisplay": 2
   },
   {
     "id": "T59",
@@ -705,7 +821,9 @@
     "description": "Add one boost die per rank of Command when making Leadership checks. Affected targets add one boost die to Discipline checks for next 24 hours.",
     "sourcing": "Sources: ACRB, ECRB, FCRB",
     "sourceBook": "Sources: ACRB, ECRB, FCRB",
-    "sourceBookTalentName": "Command"
+    "sourceBookTalentName": "Command",
+    "rankDisplay": "Yes",
+    "tierDisplay": 2
   },
   {
     "id": "T60",
@@ -717,7 +835,9 @@
     "description": "May decrease difficulty of Discipline checks to avoid fear by 1 per rank of Confidence, to a minimum of Easy (1 Difficulty Die).",
     "sourcing": "Sources: ACRB, ECRB, FCRB",
     "sourceBook": "Sources: ACRB, ECRB, FCRB",
-    "sourceBookTalentName": "Confidence"
+    "sourceBookTalentName": "Confidence",
+    "rankDisplay": "Yes",
+    "tierDisplay": 2
   },
   {
     "id": "T61",
@@ -729,7 +849,9 @@
     "description": "Spend 1 Story Point to recover strain equal to Cunning rating.",
     "sourcing": "Sources: DA, FCRB",
     "sourceBook": "Sources: DA, FCRB",
-    "sourceBookTalentName": "Contingency Plan"
+    "sourceBookTalentName": "Contingency Plan",
+    "rankDisplay": "No",
+    "tierDisplay": 2
   },
   {
     "id": "T62",
@@ -738,10 +860,12 @@
     "activation": "Activation: Active (Maneuver)",
     "ranked": "Ranked: Yes",
     "tags": "Leadership, Combat",
-    "description": "Once per turn, your character may use this talent to have a number of allies engaged with your character equal to your ranks in Leadership add a to all combat checks they make until the end of your character’s next turn. The range of this talent increases by one band per rank of Coordinated Assault beyond the first.",
+    "description": "See talent pages in the core rule book.",
     "sourcing": "Source: GCRB",
     "sourceBook": "Source: GCRB",
-    "sourceBookTalentName": "Coordinated Assault"
+    "sourceBookTalentName": "Coordinated Assault",
+    "rankDisplay": "Yes",
+    "tierDisplay": 2
   },
   {
     "id": "T63",
@@ -750,10 +874,12 @@
     "activation": "Activation: Active (Action)",
     "ranked": "Ranked: No",
     "tags": "Negotiation, Discipline",
-    "description": "Once per session, your character may use this talent to choose one non-nemesis adversary within medium range and make an opposed Negotiation versus Discipline check. If successful, the target becomes staggered until the end of their next turn. At your GM’s discretion, you may spend triumph on this check to have the adversary become an ally until the end of the encounter. However, the duration of this may be shortened or extended depending on whether your GM feels your offer is appealing to the adversary and whether your character follows through on their offer!",
+    "description": "See talent pages in the core rule book.",
     "sourcing": "Source: GCRB",
     "sourceBook": "Source: GCRB",
-    "sourceBookTalentName": "Counteroffer"
+    "sourceBookTalentName": "Counteroffer",
+    "rankDisplay": "No",
+    "tierDisplay": 2
   },
   {
     "id": "T64",
@@ -765,7 +891,9 @@
     "description": "Once per session, may make Deceptive Taunt action. Make opposed Deception check. If successful, one adversary must attack the character during adversary's next turn.",
     "sourcing": "Source: FH",
     "sourceBook": "Source: FH",
-    "sourceBookTalentName": "Deceptive Taunt"
+    "sourceBookTalentName": "Deceptive Taunt",
+    "rankDisplay": "No",
+    "tierDisplay": 2
   },
   {
     "id": "T65",
@@ -774,10 +902,12 @@
     "activation": "Activation: Active (Maneuver)",
     "ranked": "Ranked: Yes",
     "tags": "Combat, Melee",
-    "description": "Once per round, your character may suffer a number of strain no greater than their ranks in Defensive Stance to use this talent. Then, until the end of your character’s next turn, upgrade the difficulty of all melee combat checks targeting your character a number of times equal to the strain suffered.",
+    "description": "See talent pages in the core rule book.",
     "sourcing": "Source: GCRB",
     "sourceBook": "Source: GCRB",
-    "sourceBookTalentName": "Defensive Stance"
+    "sourceBookTalentName": "Defensive Stance",
+    "rankDisplay": "Yes",
+    "tierDisplay": 2
   },
   {
     "id": "T66",
@@ -789,7 +919,9 @@
     "description": "After hitting with combat check, may spend two advantages to disorient target for number of rounds equal to ranks in Disorient.",
     "sourcing": "Sources: ACRB, ECRB",
     "sourceBook": "Sources: ACRB, ECRB",
-    "sourceBookTalentName": "Disorient"
+    "sourceBookTalentName": "Disorient",
+    "rankDisplay": "Yes",
+    "tierDisplay": 2
   },
   {
     "id": "T67",
@@ -801,7 +933,9 @@
     "description": "Make a Distracting Behavior maneuver and suffer strain no greater than ranks in Cunning. Until the beginning of next turn, equal number of NPC's suffer threats on checks. Range increases with additional ranks.",
     "sourcing": "Source: FH",
     "sourceBook": "Source: FH",
-    "sourceBookTalentName": "Distracting Behavior"
+    "sourceBookTalentName": "Distracting Behavior",
+    "rankDisplay": "Yes",
+    "tierDisplay": 2
   },
   {
     "id": "T68",
@@ -810,10 +944,12 @@
     "activation": "Activation: Active (Maneuver)",
     "ranked": "Ranked: No",
     "tags": "Combat",
-    "description": "Your character may use this talent to decrease the difficulty of the next combined combat check (see Two- Weapon Combat, on page 108) they make during the same turn by one.",
+    "description": "See talent pages in the core rule book.",
     "sourcing": "Source: GCRB",
     "sourceBook": "Source: GCRB",
-    "sourceBookTalentName": "Dual Wielder"
+    "sourceBookTalentName": "Dual Wielder",
+    "rankDisplay": "No",
+    "tierDisplay": 2
   },
   {
     "id": "T69",
@@ -825,7 +961,9 @@
     "description": "When making a ranged attack while engaged with an opponent, may suffer 2 strain to reduce the ranged modifier by 1.",
     "sourcing": "Source: ACRB",
     "sourceBook": "Source: ACRB",
-    "sourceBookTalentName": "Dynamic Fire"
+    "sourceBookTalentName": "Dynamic Fire",
+    "rankDisplay": "No",
+    "tierDisplay": 2
   },
   {
     "id": "T70",
@@ -837,7 +975,9 @@
     "description": "Once per round, after making a primal magic combat check but before resolving its effects, you may suffer two strain to add an advantage to the results. This advantage may only be used to help pay to activate the Fire, Ice, or Lightning special qualities. This cannot be used if the magic combat check resulted in more threats than advantages, or does it deal with an element, death spirit or life spirits.",
     "sourcing": "Source: After Seven",
     "sourceBook": "Source: After Seven",
-    "sourceBookTalentName": "Elementalist"
+    "sourceBookTalentName": "Elementalist",
+    "rankDisplay": "No",
+    "tierDisplay": 2
   },
   {
     "id": "T71",
@@ -846,10 +986,12 @@
     "activation": "Activation: Active (Incidental)",
     "ranked": "Ranked: No",
     "tags": "Combat, Ranged (Pistols)",
-    "description": "Once per encounter before making a combat check with a pistol (your GM has the final say on whether a weapon is a pistol or not), your character may use this talent to add the Auto-fire quality to the pistol when resolving the check. If your character does, the weapon runs out of ammo exactly as with an Out of Ammo result (see page 104).",
+    "description": "See talent pages in the core rule book.",
     "sourcing": "Source: GCRB",
     "sourceBook": "Source: GCRB",
-    "sourceBookTalentName": "Fan the Hammer"
+    "sourceBookTalentName": "Fan the Hammer",
+    "rankDisplay": "No",
+    "tierDisplay": 2
   },
   {
     "id": "T72",
@@ -861,7 +1003,9 @@
     "description": "When an adversary becomes engaged with the character, the character may force the adversary to make a fear check, with the difficulty equal to the character's ranks in Fearsome.",
     "sourcing": "Sources: DC, FCRB",
     "sourceBook": "Sources: DC, FCRB",
-    "sourceBookTalentName": "Fearsome"
+    "sourceBookTalentName": "Fearsome",
+    "rankDisplay": "Yes",
+    "tierDisplay": 2
   },
   {
     "id": "T73",
@@ -873,7 +1017,9 @@
     "description": "The character may use Agility instead of Brawn for Brawl and Melee (Light) checks.",
     "sourcing": "Source: GHC",
     "sourceBook": "Source: GHC",
-    "sourceBookTalentName": "Finesse"
+    "sourceBookTalentName": "Finesse",
+    "rankDisplay": "No",
+    "tierDisplay": 2
   },
   {
     "id": "T74",
@@ -885,7 +1031,9 @@
     "description": "Suffer 1 strain when making a Move maneuver to move to any location within short range.",
     "sourcing": "Source: EV",
     "sourceBook": "Source: EV",
-    "sourceBookTalentName": "Freerunning"
+    "sourceBookTalentName": "Freerunning",
+    "rankDisplay": "No",
+    "tierDisplay": 2
   },
   {
     "id": "T75",
@@ -897,7 +1045,9 @@
     "description": "Once per round, the character may perform the Grapple maneuver. Until the beginning of the character's next turn, enemies must spend two maneuvers instead of one maneuver to move from engaged range to short range of him.",
     "sourcing": "Sources: ND, KTP",
     "sourceBook": "Sources: ND, KTP",
-    "sourceBookTalentName": "Grapple"
+    "sourceBookTalentName": "Grapple",
+    "rankDisplay": "No",
+    "tierDisplay": 2
   },
   {
     "id": "T76",
@@ -909,7 +1059,9 @@
     "description": "Once per encounter, after making a healing spell add one boost die to that spell. The next non healing spell the caster uses adds one setback die to that check. This remains active until a non-healing spell is used or the encounter is over.",
     "sourcing": "Source: After Seven",
     "sourceBook": "Source: After Seven",
-    "sourceBookTalentName": "Healer Not a Fighter"
+    "sourceBookTalentName": "Healer Not a Fighter",
+    "rankDisplay": "No",
+    "tierDisplay": 2
   },
   {
     "id": "T77",
@@ -918,10 +1070,12 @@
     "activation": "Activation: Passive",
     "ranked": "Ranked: No",
     "tags": "Perception, Vigilance",
-    "description": "Allies within short range of your character add one boost die to their Perception and Vigilance checks. Allies engaged with your character add two boost dice instead.",
+    "description": "See talent pages in the core rule book.",
     "sourcing": "Source: GCRB",
     "sourceBook": "Source: GCRB",
-    "sourceBookTalentName": "Heightened Awareness"
+    "sourceBookTalentName": "Heightened Awareness",
+    "rankDisplay": "No",
+    "tierDisplay": 2
   },
   {
     "id": "T78",
@@ -930,10 +1084,12 @@
     "activation": "Activation: Active (Action)",
     "ranked": "Ranked: No",
     "tags": "Leadership, Heal, Strain",
-    "description": "Your character may use this talent to make an Average (2 Difficulty Dice) Leadership check. For each success the check generates, one ally within short range heals one strain. For each advantage, one ally benefiting from Inspiring Rhetoric heals one additional strain.",
+    "description": "See talent pages in the core rule book.",
     "sourcing": "Source: GCRB",
     "sourceBook": "Source: GCRB",
-    "sourceBookTalentName": "Inspiring Rhetoric"
+    "sourceBookTalentName": "Inspiring Rhetoric",
+    "rankDisplay": "No",
+    "tierDisplay": 2
   },
   {
     "id": "T79",
@@ -945,7 +1101,9 @@
     "description": "After hitting with a melee attack, may spend a triumph to knock the target prone.",
     "sourcing": "Sources: ABGR, ACRB, EBGR, ECRB",
     "sourceBook": "Sources: ABGR, ACRB, EBGR, ECRB",
-    "sourceBookTalentName": "Knockdown"
+    "sourceBookTalentName": "Knockdown",
+    "rankDisplay": "No",
+    "tierDisplay": 2
   },
   {
     "id": "T80",
@@ -957,7 +1115,9 @@
     "description": "Once per session, may perform the Known Schematic maneuver; make a Hard (3 Difficulty Dice) Knowledge check. Success grants familiarity with a building or ship's design.",
     "sourcing": "Sources: ACRB, ECRB",
     "sourceBook": "Sources: ACRB, ECRB",
-    "sourceBookTalentName": "Known Schematic"
+    "sourceBookTalentName": "Known Schematic",
+    "rankDisplay": "No",
+    "tierDisplay": 2
   },
   {
     "id": "T81",
@@ -969,7 +1129,9 @@
     "description": "When an ally engaged with the character makes a successful Charm, Deception, or Negotiation check, the character adds an advantage per rank in Coercion to the ally's check.",
     "sourcing": "Source: DC",
     "sourceBook": "Source: DC",
-    "sourceBookTalentName": "Loom"
+    "sourceBookTalentName": "Loom",
+    "rankDisplay": "No",
+    "tierDisplay": 2
   },
   {
     "id": "T82",
@@ -978,10 +1140,12 @@
     "activation": "Activation: Active (Incidental)",
     "ranked": "Ranked: No",
     "tags": "Combat, Story Point, Characteristic",
-    "description": "When your character purchases this talent, choose one characteristic. After your character makes a successful combat check, you may spend one Story Point to use this talent to add damage equal to your character’s ranks in that characteristic to one hit of the combat check.",
+    "description": "See talent pages in the core rule book.",
     "sourcing": "Source: GCRB",
     "sourceBook": "Source: GCRB",
-    "sourceBookTalentName": "Lucky Strike"
+    "sourceBookTalentName": "Lucky Strike",
+    "rankDisplay": "No",
+    "tierDisplay": 2
   },
   {
     "id": "T83",
@@ -993,7 +1157,9 @@
     "description": "Replace all Knowledge: Paranormal checks while casting primal spells with Knowledge: Natural checks.",
     "sourcing": "Source: After Seven",
     "sourceBook": "Source: After Seven",
-    "sourceBookTalentName": "Naturalist"
+    "sourceBookTalentName": "Naturalist",
+    "rankDisplay": "No",
+    "tierDisplay": 2
   },
   {
     "id": "T84",
@@ -1005,7 +1171,9 @@
     "description": "Once per round, when making a non-spell attack check you may choose modifiers from an attack spell effect and increase the difficulty of that check by the listed amounts. This combat check counts as both as the based skill check and magic check, and can use the threat and triumph results for either skills. Melee or Brawl skills cannot extend their range.",
     "sourcing": "Source: Greatfrito's Genesys Magic Talents (Imbue Weapon)",
     "sourceBook": "Source: Greatfrito's Genesys Magic Talents",
-    "sourceBookTalentName": "Imbue Weapon"
+    "sourceBookTalentName": "Imbue Weapon",
+    "rankDisplay": "No",
+    "tierDisplay": 2
   },
   {
     "id": "T85",
@@ -1017,7 +1185,9 @@
     "description": "Add one boost die per rank of Physical Training to Athletics and Resilience checks.",
     "sourcing": "Sources: ACRB, DOH",
     "sourceBook": "Sources: ACRB, DOH",
-    "sourceBookTalentName": "Physical Training"
+    "sourceBookTalentName": "Physical Training",
+    "rankDisplay": "Yes",
+    "tierDisplay": 2
   },
   {
     "id": "T86",
@@ -1029,7 +1199,9 @@
     "description": "Your character must have purchased the Quick Draw Talent to benefit from this talent. May use Quick Draw twice per round. This also allows you to reduce the prepare rating by 2 to a minimum of one.",
     "sourcing": "Source: FC",
     "sourceBook": "Source: FC",
-    "sourceBookTalentName": "Quickdraw (Improved)"
+    "sourceBookTalentName": "Quickdraw (Improved)",
+    "rankDisplay": "No",
+    "tierDisplay": 2
   },
   {
     "id": "T87",
@@ -1041,7 +1213,9 @@
     "description": "Perform the Reconstruct the Scene action; make a Hard (3 Difficulty Dice) Perception check to identify the physical characteristics of person present at the scene within 24 hours.",
     "sourcing": "Sources: ND, EV",
     "sourceBook": "Sources: ND, EV",
-    "sourceBookTalentName": "Reconstruct the Scene"
+    "sourceBookTalentName": "Reconstruct the Scene",
+    "rankDisplay": "No",
+    "tierDisplay": 2
   },
   {
     "id": "T88",
@@ -1050,10 +1224,12 @@
     "activation": "Activation: Active (Action)",
     "ranked": "Ranked: No",
     "tags": "Coercion",
-    "description": "Your character may use this talent to make an Average (2 Difficulty Dice) Coercion check. For each success the check generates, one enemy within short range suffers 1 strain. For each advantage, one enemy affected by Scathing Tirade suffers 1 additional strain.",
+    "description": "See talent pages in the core rule book.",
     "sourcing": "Source: GCRB",
     "sourceBook": "Source: GCRB",
-    "sourceBookTalentName": "Scathing Tirade"
+    "sourceBookTalentName": "Scathing Tirade",
+    "rankDisplay": "No",
+    "tierDisplay": 2
   },
   {
     "id": "T89",
@@ -1065,7 +1241,9 @@
     "description": "When using a magical attack with the Blast quality, spend one advantage to exclude one target that would be have been affected by the explosion, up to ranks in Selective Detonation.",
     "sourcing": "Source: After Seven",
     "sourceBook": "Source: After Seven",
-    "sourceBookTalentName": "Selective Blasts"
+    "sourceBookTalentName": "Selective Blasts",
+    "rankDisplay": "Yes",
+    "tierDisplay": 2
   },
   {
     "id": "T90",
@@ -1077,7 +1255,9 @@
     "description": "Add one boost die to all Charm, Coercion, and Deception checks.",
     "sourcing": "Sources: ECRB, FBGR, FCRB",
     "sourceBook": "Sources: ECRB, FBGR, FCRB",
-    "sourceBookTalentName": "Sense Emotions"
+    "sourceBookTalentName": "Sense Emotions",
+    "rankDisplay": "No",
+    "tierDisplay": 2
   },
   {
     "id": "T91",
@@ -1086,10 +1266,12 @@
     "activation": "Activation: Active (Action)",
     "ranked": "Ranked: Yes",
     "tags": "Combat, Ranged",
-    "description": "Once per round, your character may suffer a number of strain no greater than their ranks in Side Step to use this talent. Until the end of your character’s next turn, upgrade the difficulty of all ranged combat checks targeting your character a number of times equal to the strain suffered.",
+    "description": "See talent pages in the core rule book.",
     "sourcing": "Source: GCRB",
     "sourceBook": "Source: GCRB",
-    "sourceBookTalentName": "Side Step"
+    "sourceBookTalentName": "Side Step",
+    "rankDisplay": "Yes",
+    "tierDisplay": 2
   },
   {
     "id": "T92",
@@ -1101,7 +1283,9 @@
     "description": "Treat thrown weapons as if they had 1 greater range.",
     "sourcing": "Sources: ACRB, EBGR, ECRB",
     "sourceBook": "Sources: ACRB, EBGR, ECRB",
-    "sourceBookTalentName": "Strong Arm"
+    "sourceBookTalentName": "Strong Arm",
+    "rankDisplay": "No",
+    "tierDisplay": 2
   },
   {
     "id": "T93",
@@ -1113,7 +1297,9 @@
     "description": "While making Melee checks, may inflict damage as strain instead of wounds. This does not ignore soak.",
     "sourcing": "Sources: ACRB, ECRB",
     "sourceBook": "Sources: ACRB, ECRB",
-    "sourceBookTalentName": "Stunning Blow"
+    "sourceBookTalentName": "Stunning Blow",
+    "rankDisplay": "No",
+    "tierDisplay": 2
   },
   {
     "id": "T94",
@@ -1125,7 +1311,9 @@
     "description": "Replace all Knowledge: Natural checks while spell casting with Knowledge: Paranormal checks.",
     "sourcing": "Source: After Seven",
     "sourceBook": "Source: After Seven",
-    "sourceBookTalentName": "Superstitious"
+    "sourceBookTalentName": "Superstitious",
+    "rankDisplay": "No",
+    "tierDisplay": 2
   },
   {
     "id": "T95",
@@ -1137,7 +1325,9 @@
     "description": "The character and each ally within short range may spend one advantage on their failed combat checks to inflict one strain on the target per rank of Suppressing Fire. Each character can only activate this effect once per round.",
     "sourcing": "Sources: FIB, KTP",
     "sourceBook": "Sources: FIB, KTP",
-    "sourceBookTalentName": "Suppressing Fire"
+    "sourceBookTalentName": "Suppressing Fire",
+    "rankDisplay": "Yes",
+    "tierDisplay": 2
   },
   {
     "id": "T96",
@@ -1149,7 +1339,9 @@
     "description": "May add 1 additional hard point to a number of items equal to ranks in Tinkerer. Each item may only be modified once.",
     "sourcing": "Sources: ACRB, ECRB, KTP",
     "sourceBook": "Sources: ACRB, ECRB, KTP",
-    "sourceBookTalentName": "Tinkerer"
+    "sourceBookTalentName": "Tinkerer",
+    "rankDisplay": "Yes",
+    "tierDisplay": 2
   },
   {
     "id": "T97",
@@ -1161,7 +1353,9 @@
     "description": "May Parry while unarmed. Reduce strain cost to Parry while unarmed by 1 (to a minimum of 1).",
     "sourcing": "Source: ND",
     "sourceBook": "Source: ND",
-    "sourceBookTalentName": "Unarmed Parry"
+    "sourceBookTalentName": "Unarmed Parry",
+    "rankDisplay": "No",
+    "tierDisplay": 2
   },
   {
     "id": "T98",
@@ -1170,10 +1364,12 @@
     "activation": "Activation: Active (Incidental)",
     "ranked": "Ranked: Yes",
     "tags": "Alchemy, Mechanics, Items",
-    "description": "Choose a skill: Mechanics or Alchemy. This works like the Inventor talent, but applies to both Mechanics or Alchemy when trying to brew new potions or items. Use this talent to add a number of setback die to the check equal to ranks of Visionary when crafting new brews/items or repairing items. ",
+    "description": "See talent pages in the core rule book.",
     "sourcing": "Source: GCRB (Inventor)",
     "sourceBook": "Source: GCRB",
-    "sourceBookTalentName": "Inventor"
+    "sourceBookTalentName": "Inventor",
+    "rankDisplay": "Yes",
+    "tierDisplay": 2
   },
   {
     "id": "T99",
@@ -1185,7 +1381,9 @@
     "description": "Choose any 3 Knowledge skills. They permanently become career skills.",
     "sourcing": "Source: LBE",
     "sourceBook": "Source: LBE",
-    "sourceBookTalentName": "Well Read"
+    "sourceBookTalentName": "Well Read",
+    "rankDisplay": "No",
+    "tierDisplay": 2
   },
   {
     "id": "T100",
@@ -1197,7 +1395,9 @@
     "description": "Choose any 2 non-magic skills. They permanently become career skills.",
     "sourcing": "Sources: ACRB, EBGR, ECRB, FBGR, FCRB",
     "sourceBook": "Sources: ACRB, EBGR, ECRB, FBGR, FCRB",
-    "sourceBookTalentName": "Well Rounded"
+    "sourceBookTalentName": "Well Rounded",
+    "rankDisplay": "Yes",
+    "tierDisplay": 2
   },
   {
     "id": "T101",
@@ -1209,7 +1409,9 @@
     "description": "Once per round while benefiting from cover, may make the Ambush maneuver. Add damage equal to Stealth skill to one hit of next successful combat check against a target within short range before the end of the turn.",
     "sourcing": "Source: FIB",
     "sourceBook": "Source: FIB",
-    "sourceBookTalentName": "Ambush"
+    "sourceBookTalentName": "Ambush",
+    "rankDisplay": "No",
+    "tierDisplay": 3
   },
   {
     "id": "T102",
@@ -1218,10 +1420,12 @@
     "activation": "Activation: Passive",
     "ranked": "Ranked: Yes",
     "tags": "Creatures",
-    "description": "Your character creates a bond with a single animal approved by your GM. This animal must be silhouette 0 (no larger than a mid-sized dog). The bond persists as long as your character chooses, although at your GM’s discretion, the bond may also be broken due to abusive treatment or other extenuating circumstances. As long as the bond persists, the animal follows your character, and you dictate the animal’s overall behavior (although, since the animal is only bonded with the character, not dominated, it may still perform inconvenient actions such as scratching furniture, consuming rations, and marking territory). Once per round in structured encounters, your character may spend one maneuver to direct their animal in performing one action and one maneuver during your character’s turn. The animal must be within hearing and visual range of your character (generally medium range) to do this. Otherwise, the animal does not contribute to the encounter. The specifics of its behavior are up to you and your GM. For every additional rank of Animal Companion your character has, increase the allowed silhouette of the companion by one (this may mean your character gets a new companion, or their companion grows in size). This talent can also change in flavor depending on the nature of your game setting. While an animal companion may make sense in many settings, in a futuristic setting it may make more sense for the “animal” to be a robot or drone, for example.",
+    "description": "See talent pages in the core rule book.",
     "sourcing": "Source: GCRB",
     "sourceBook": "Source: GCRB",
-    "sourceBookTalentName": "Animal Companion"
+    "sourceBookTalentName": "Animal Companion",
+    "rankDisplay": "Yes",
+    "tierDisplay": 3
   },
   {
     "id": "T103",
@@ -1233,7 +1437,9 @@
     "description": "When wearing armor, Increase total soak value by 1.",
     "sourcing": "Sources: ACRB, EBGR, ECRB, KTP",
     "sourceBook": "Sources: ACRB, EBGR, ECRB, KTP",
-    "sourceBookTalentName": "Armor Master"
+    "sourceBookTalentName": "Armor Master",
+    "rankDisplay": "No",
+    "tierDisplay": 3
   },
   {
     "id": "T104",
@@ -1245,7 +1451,9 @@
     "description": "After making a Mechanics or Alchemy check, may suffer strain up to ranks in Attention to Detail to convert that many successes to advantages.",
     "sourcing": "Source: SM (Eye for Detail)",
     "sourceBook": "Source: SM",
-    "sourceBookTalentName": "Eye for Detail"
+    "sourceBookTalentName": "Eye for Detail",
+    "rankDisplay": "Yes",
+    "tierDisplay": 3
   },
   {
     "id": "T105",
@@ -1257,7 +1465,9 @@
     "description": "Choose one magical item (implement or enchantment) your character owns when taking this talent. Your character becomes bonded to this implement, and no other person may use it. Your character may attempt to summon it by making a Hard (3 Difficulty Dice) Primal or Divine Skill check.",
     "sourcing": "Source: CCC (Bonded Implement)",
     "sourceBook": "Source: CCC",
-    "sourceBookTalentName": "Bonded Implement"
+    "sourceBookTalentName": "Bonded Implement",
+    "rankDisplay": "No",
+    "tierDisplay": 3
   },
   {
     "id": "T106",
@@ -1269,7 +1479,9 @@
     "description": "Your character, and allies within short range, add automatic advantage to combat checks they make while benefiting from cover.",
     "sourcing": "Sources: FIB, KTP",
     "sourceBook": "Sources: FIB, KTP",
-    "sourceBookTalentName": "Blind Spot"
+    "sourceBookTalentName": "Blind Spot",
+    "rankDisplay": "No",
+    "tierDisplay": 3
   },
   {
     "id": "T107",
@@ -1278,10 +1490,12 @@
     "activation": "Activation: Passive",
     "ranked": "Ranked: Yes",
     "tags": "Heal, Wounds",
-    "description": "When your character uses a bloodoil tonic, the target heals one additional wound per rank of Blood Oil User. The sixth painkiller and beyond each day still has no effect.",
+    "description": "See talent pages in the core rule book.",
     "sourcing": "Source: GCRB (Painkiller Specialization)",
     "sourceBook": "Source: GCRB",
-    "sourceBookTalentName": "Painkiller Specialization"
+    "sourceBookTalentName": "Painkiller Specialization",
+    "rankDisplay": "Yes",
+    "tierDisplay": 3
   },
   {
     "id": "T108",
@@ -1293,7 +1507,9 @@
     "description": "Your character must have purchased the Body Guard talent to benefit from this talent. Once per session, when an ally protected by the Body Guard maneuver suffers a hit, suffer the hit instead.",
     "sourcing": "Sources: LBE, FIB, EBGR, FCRB",
     "sourceBook": "Sources: LBE, FIB, EBGR, FCRB",
-    "sourceBookTalentName": "Body Guard (Improved)"
+    "sourceBookTalentName": "Body Guard (Improved)",
+    "rankDisplay": "No",
+    "tierDisplay": 3
   },
   {
     "id": "T109",
@@ -1305,7 +1521,9 @@
     "description": "Once per round, before you make a magic check, you may perform a Channel Magical Energy maneuver. By performing this maneuver, you gain a boost die on your next magic check this turn while also upgrading the check once per rank of channeling.",
     "sourcing": "Source: Greatfrito's Genesys Magic Talents (Channeling)",
     "sourceBook": "Source: Greatfrito's Genesys Magic Talents",
-    "sourceBookTalentName": "Channeling"
+    "sourceBookTalentName": "Channeling",
+    "rankDisplay": "Yes",
+    "tierDisplay": 3
   },
   {
     "id": "T110",
@@ -1317,7 +1535,9 @@
     "description": "Your character must have purchased the Confidence talent to benefit from this talent. May spend a on a fear check to steady the nerves of allies making the same fear check. If the character does so each ally within short range who makes the fear check adds automatic successes equal to the character's rank in confidence.",
     "sourcing": "Source: LBE",
     "sourceBook": "Source: LBE",
-    "sourceBookTalentName": "Confidence (Improved)"
+    "sourceBookTalentName": "Confidence (Improved)",
+    "rankDisplay": "No",
+    "tierDisplay": 3
   },
   {
     "id": "T111",
@@ -1329,7 +1549,9 @@
     "description": "May suffer a number of strain to downgrade difficulty of Charm or Negotiation checks or upgrade difficulty when target by Charm or Negotiation checks, by an equal number Strain suffered this way cannot exceed ranks in Congenial.",
     "sourcing": "Sources: FH, FC, DOH",
     "sourceBook": "Sources: FH, FC, DOH",
-    "sourceBookTalentName": "Congenial"
+    "sourceBookTalentName": "Congenial",
+    "rankDisplay": "Yes",
+    "tierDisplay": 3
   },
   {
     "id": "T112",
@@ -1341,7 +1563,9 @@
     "description": "May always use Vigilance when making checks to determine initiative.",
     "sourcing": "Source: EV",
     "sourceBook": "Source: EV",
-    "sourceBookTalentName": "Constant Vigilance"
+    "sourceBookTalentName": "Constant Vigilance",
+    "rankDisplay": "No",
+    "tierDisplay": 3
   },
   {
     "id": "T113",
@@ -1353,7 +1577,9 @@
     "description": "Reduce the crit rating of improvised weapons by 2 (to a minimum of 1).",
     "sourcing": "Source: ACRB",
     "sourceBook": "Source: ACRB",
-    "sourceBookTalentName": "Creative Killer"
+    "sourceBookTalentName": "Creative Killer",
+    "rankDisplay": "No",
+    "tierDisplay": 3
   },
   {
     "id": "T114",
@@ -1365,7 +1591,9 @@
     "description": "When a character inflicts a Critical Injury, the target also adds two setback dice to their next action.",
     "sourcing": "Source: GHC",
     "sourceBook": "Source: GHC",
-    "sourceBookTalentName": "Dirty Tricks"
+    "sourceBookTalentName": "Dirty Tricks",
+    "rankDisplay": "No",
+    "tierDisplay": 3
   },
   {
     "id": "T115",
@@ -1377,7 +1605,9 @@
     "description": "May spend triumph or two advantage with a successful Brawl or Melee check to disarm opponent.",
     "sourcing": "Source: FCRB (Sum Djem)",
     "sourceBook": "Source: FCRB",
-    "sourceBookTalentName": "Sum Djem"
+    "sourceBookTalentName": "Sum Djem",
+    "rankDisplay": "No",
+    "tierDisplay": 3
   },
   {
     "id": "T116",
@@ -1389,7 +1619,9 @@
     "description": "Take the Disarming Smile action; succeed at an opposed Charm check against a target within short range to lower all defenses of a target by ranks in Disarming Smile until the end of the encounter.",
     "sourcing": "Source: FC",
     "sourceBook": "Source: FC",
-    "sourceBookTalentName": "Disarming Smile"
+    "sourceBookTalentName": "Disarming Smile",
+    "rankDisplay": "Yes",
+    "tierDisplay": 3
   },
   {
     "id": "T117",
@@ -1401,7 +1633,9 @@
     "description": "When you take the Counterspell maneuver, all opponents within short range upgrade the difficulty of checks to cast spells one additional time (for a total of two times), until the end of your next turn. Only for Arcana and Divine spell casters.",
     "sourcing": "Source: Greatfrito's Genesys Magic Talents",
     "sourceBook": "Source: Greatfrito's Genesys Magic Talents",
-    "sourceBookTalentName": "Disruptive Counterspell"
+    "sourceBookTalentName": "Disruptive Counterspell",
+    "rankDisplay": "No",
+    "tierDisplay": 3
   },
   {
     "id": "T118",
@@ -1410,10 +1644,12 @@
     "activation": "Activation: Active (Incidental, Out of Turn)",
     "ranked": "Ranked: Yes",
     "tags": "Combat",
-    "description": "When your character is targeted by a combat check (ranged or melee), they may suffer a number of strain no greater than their ranks in Dodge to use this talent. Then, upgrade the difficulty of the combat check targeting your character a number of times equal to the strain suffered.",
+    "description": "See talent pages in the core rule book.",
     "sourcing": "Source: GCRB",
     "sourceBook": "Source: GCRB",
-    "sourceBookTalentName": "Dodge"
+    "sourceBookTalentName": "Dodge",
+    "rankDisplay": "Yes",
+    "tierDisplay": 3
   },
   {
     "id": "T119",
@@ -1425,7 +1661,9 @@
     "description": "Suffer 2 strain to perform the Double or Nothing incidental to increase the difficulty of the next check by one. Then, after canceling opposing symbols, double the amount of remaining advantages",
     "sourcing": "Source: FC",
     "sourceBook": "Source: FC",
-    "sourceBookTalentName": "Double or Nothing"
+    "sourceBookTalentName": "Double or Nothing",
+    "rankDisplay": "No",
+    "tierDisplay": 3
   },
   {
     "id": "T120",
@@ -1434,10 +1672,12 @@
     "activation": "Activation: Active (Incidental)",
     "ranked": "Ranked: No",
     "tags": "Combat, Ranged",
-    "description": "Once per encounter before making a ranged combat check, you may use this talent to increase your weapon’s range by one range band (to a maximum of extreme range). This lasts for the duration of the combat check.",
+    "description": "See talent pages in the core rule book.",
     "sourcing": "Source: GCRB",
     "sourceBook": "Source: GCRB",
-    "sourceBookTalentName": "Eagle Eyes"
+    "sourceBookTalentName": "Eagle Eyes",
+    "rankDisplay": "No",
+    "tierDisplay": 3
   },
   {
     "id": "T121",
@@ -1449,7 +1689,9 @@
     "description": "Spend one triumph or three advantages generated on a missed melee or brawl attack to upgrade difficulty of opponent's next attack targeting character by ranks in Feint.",
     "sourcing": "Source: FCRB (Feint)",
     "sourceBook": "Source: FCRB",
-    "sourceBookTalentName": "Feint"
+    "sourceBookTalentName": "Feint",
+    "rankDisplay": "Yes",
+    "tierDisplay": 3
   },
   {
     "id": "T122",
@@ -1461,7 +1703,9 @@
     "description": "Add 1 damage per rank of Feral Strength to one hit of successful attacks made using Brawl or Melee skills.",
     "sourcing": "Sources: ABGR, ACRB, EBGR, ECRB",
     "sourceBook": "Sources: ABGR, ACRB, EBGR, ECRB",
-    "sourceBookTalentName": "Feral Strength"
+    "sourceBookTalentName": "Feral Strength",
+    "rankDisplay": "Yes",
+    "tierDisplay": 3
   },
   {
     "id": "T123",
@@ -1470,10 +1714,12 @@
     "activation": "Activation: Active (Action)",
     "ranked": "Ranked: No",
     "tags": "Leadership, Presence",
-    "description": "Your character may use this talent to make an Average (2 Difficulty Dice) Leadership check. If successful, a number of allies equal to your character’s Presence may immediately suffer 1 strain to perform one maneuver (out of turn). If there are any questions as to which allies take their maneuvers first, your character is the final arbiter.",
+    "description": "See talent pages in the core rule book.",
     "sourcing": "Source: GCRB",
     "sourceBook": "Source: GCRB",
-    "sourceBookTalentName": "Field Commander"
+    "sourceBookTalentName": "Field Commander",
+    "rankDisplay": "No",
+    "tierDisplay": 3
   },
   {
     "id": "T124",
@@ -1482,10 +1728,12 @@
     "activation": "Activation: Active (Incidental, Out of Turn)",
     "ranked": "Ranked: No",
     "tags": "Combat",
-    "description": "When an opponent makes a ranged combat check, you can spend two threat from that check to use this talent to cause their weapon to run out of ammo (see page 104), as long as the weapon can normally run out of ammunition.",
+    "description": "See talent pages in the core rule book.",
     "sourcing": "Source: GCRB",
     "sourceBook": "Source: GCRB",
-    "sourceBookTalentName": "Forgot to Count?"
+    "sourceBookTalentName": "Forgot to Count?",
+    "rankDisplay": "No",
+    "tierDisplay": 3
   },
   {
     "id": "T125",
@@ -1497,7 +1745,9 @@
     "description": "Allies equal to ranks in Leadership in close range gain the benefits of the Gain the Advantage action.",
     "sourcing": "Source: ACRB",
     "sourceBook": "Source: ACRB",
-    "sourceBookTalentName": "Form On Me"
+    "sourceBookTalentName": "Form On Me",
+    "rankDisplay": "No",
+    "tierDisplay": 3
   },
   {
     "id": "T126",
@@ -1509,7 +1759,9 @@
     "description": "Your character must have purchased the Freerunning talent to benefit from this talent. Suffer 4 strain when making a move maneuver to move to any location within medium range.",
     "sourcing": "Source: EV",
     "sourceBook": "Source: EV",
-    "sourceBookTalentName": "Freerunning (Improved)"
+    "sourceBookTalentName": "Freerunning (Improved)",
+    "rankDisplay": "No",
+    "tierDisplay": 3
   },
   {
     "id": "T127",
@@ -1521,7 +1773,9 @@
     "description": "When making a Melee or Brawl check, suffer a number of strain to upgrade the attack an equal number of times. The strain suffered may not exceed ranks in Frenzied Attack.",
     "sourcing": "Sources: ACRB, ECRB",
     "sourceBook": "Sources: ACRB, ECRB",
-    "sourceBookTalentName": "Frenzied Attack"
+    "sourceBookTalentName": "Frenzied Attack",
+    "rankDisplay": "Yes",
+    "tierDisplay": 3
   },
   {
     "id": "T128",
@@ -1530,10 +1784,12 @@
     "activation": "Activation: Active (Incidental)",
     "ranked": "Ranked: Yes",
     "tags": "Ranged, Combat, Blast, Story Point, Item",
-    "description": "When your character makes a ranged combat check with a weapon that has the Blast item quality, you may spend one Story Point to use this talent to trigger the weapon’s Blast quality, instead of spending a (even if the attack misses). In addition, your character treats grenades as having a range of medium.",
+    "description": "See talent pages in the core rule book.",
     "sourcing": "Source: GCRB",
     "sourceBook": "Source: GCRB",
-    "sourceBookTalentName": "Grenadier"
+    "sourceBookTalentName": "Grenadier",
+    "rankDisplay": "Yes",
+    "tierDisplay": 3
   },
   {
     "id": "T129",
@@ -1545,7 +1801,9 @@
     "description": "Whenever the character's animal companion makes a successful combat check against a target, it may forgo inflicting damage to upgrade the difficulty of the target's next check once instead.",
     "sourcing": "Source: SS",
     "sourceBook": "Source: SS",
-    "sourceBookTalentName": "Harass"
+    "sourceBookTalentName": "Harass",
+    "rankDisplay": "No",
+    "tierDisplay": 3
   },
   {
     "id": "T130",
@@ -1557,7 +1815,9 @@
     "description": "Once per encounter, may spend a Story Point to recover 4 strain.",
     "sourcing": "Source: GHC",
     "sourceBook": "Source: GHC",
-    "sourceBookTalentName": "Heroic Recovery"
+    "sourceBookTalentName": "Heroic Recovery",
+    "rankDisplay": "No",
+    "tierDisplay": 3
   },
   {
     "id": "T131",
@@ -1569,7 +1829,9 @@
     "description": "Immediately after being hit by an attack but before suffering damage, spend 1 Story Point to increase soak by ranks in Resilience.",
     "sourcing": "Sources: FIB, DC",
     "sourceBook": "Sources: FIB, DC",
-    "sourceBookTalentName": "Heroic Resilience"
+    "sourceBookTalentName": "Heroic Resilience",
+    "rankDisplay": "Yes",
+    "tierDisplay": 3
   },
   {
     "id": "T132",
@@ -1578,10 +1840,12 @@
     "activation": "Activation: Active (Incidental, Out of Turn)",
     "ranked": "Ranked: No",
     "tags": "Characteristics, Story Point",
-    "description": "When you purchase this talent for your character, choose two characteristics. You may spend a Story Point to use this talent to have your character ignore the effects of all Critical Injuries on any skill checks using those two characteristics until the end of the current encounter. (Your character still suffers the Critical Injuries; they just ignore the effects. See page 114.)",
+    "description": "See talent pages in the core rule book.",
     "sourcing": "Source: GCRB",
     "sourceBook": "Source: GCRB",
-    "sourceBookTalentName": "Heroic Will"
+    "sourceBookTalentName": "Heroic Will",
+    "rankDisplay": "No",
+    "tierDisplay": 3
   },
   {
     "id": "T133",
@@ -1590,10 +1854,12 @@
     "activation": "Activation: Passive",
     "ranked": "Ranked: No",
     "tags": "Leadership, Heal, Strain",
-    "description": "Your character must have purchased the Inspiring Rhetoric talent to benefit from this talent. Allies affected by your character’s Inspiring Rhetoric add one boost die to all skill checks they make for a number of rounds equal to your character’s ranks in Leadership.",
+    "description": "See talent pages in the core rule book.",
     "sourcing": "Source: GCRB",
     "sourceBook": "Source: GCRB",
-    "sourceBookTalentName": "Inspiring Rhetoric (Improved)"
+    "sourceBookTalentName": "Inspiring Rhetoric (Improved)",
+    "rankDisplay": "No",
+    "tierDisplay": 3
   },
   {
     "id": "T134",
@@ -1605,7 +1871,9 @@
     "description": "May suffer a number of strain to downgrade difficulty of Coercion checks, or upgrade difficulty when targeted by Coercion checks, by an equal number. Strain suffered this way cannot exceed ranks in Intimidating.",
     "sourcing": "Sources: ACRB, ECRB, FBGR, FCRB",
     "sourceBook": "Sources: ACRB, ECRB, FBGR, FCRB",
-    "sourceBookTalentName": "Intimidating"
+    "sourceBookTalentName": "Intimidating",
+    "rankDisplay": "Yes",
+    "tierDisplay": 3
   },
   {
     "id": "T135",
@@ -1617,7 +1885,9 @@
     "description": "Remove one setback die per rank of Iron Body from Coordination and Resilience checks. Reduce the critical rating of unarmed attacks by 1 per rank of Iron Body (to a minimum of 1).",
     "sourcing": "Source: ND",
     "sourceBook": "Source: ND",
-    "sourceBookTalentName": "Iron Body"
+    "sourceBookTalentName": "Iron Body",
+    "rankDisplay": "Yes",
+    "tierDisplay": 3
   },
   {
     "id": "T136",
@@ -1626,10 +1896,12 @@
     "activation": "Activation: Active (Action)",
     "ranked": "Ranked: No",
     "tags": "Mechanics, Enchanting, Item",
-    "description": "Once per session, your character may use this talent to make a Mechanics or Alchemy check to attempt to cobble together the functional equivalent of any item using spare parts or salvage to create a potion or device. The difficulty of the check is based on the item’s rarity. Your GM will modify the check based on the circumstances and might decide that some items simply can’t be created with what’s available Your GM may spend despair on the check to indicate the item ends up being dangerous to the user and anyone around them in some way. For instance, a pistol might explode instead of running out of ammo, a breathing mask might make the user light-headed, or a health potion only works temporarily. ",
+    "description": "See talent pages in the core rule book.",
     "sourcing": "Source: GCRB (Mad Inventor)",
     "sourceBook": "Source: GCRB",
-    "sourceBookTalentName": "Mad Inventor"
+    "sourceBookTalentName": "Mad Inventor",
+    "rankDisplay": "No",
+    "tierDisplay": 3
   },
   {
     "id": "T137",
@@ -1638,10 +1910,12 @@
     "activation": "Activation: Active (Incidental)",
     "ranked": "Ranked: No",
     "tags": "Skills",
-    "description": "When your character purchases this talent, choose two skills. Once per session, your character may use this talent to reroll one skill check that uses one of those two skills.",
+    "description": "See talent pages in the core rule book.",
     "sourcing": "Source: GCRB",
     "sourceBook": "Source: GCRB",
-    "sourceBookTalentName": "Natural"
+    "sourceBookTalentName": "Natural",
+    "rankDisplay": "No",
+    "tierDisplay": 3
   },
   {
     "id": "T138",
@@ -1653,7 +1927,9 @@
     "description": "May spend two advantages from a Coercion check or two threats from a foe's Discipline check; that target cannot perform a free maneuver during his next turn.",
     "sourcing": "Source: KTP",
     "sourceBook": "Source: KTP",
-    "sourceBookTalentName": "No Escape"
+    "sourceBookTalentName": "No Escape",
+    "rankDisplay": "No",
+    "tierDisplay": 3
   },
   {
     "id": "T139",
@@ -1665,7 +1941,9 @@
     "description": "May upgrade difficulty of incoming Charm, Coercion, or Deception checks once per rank of Nobody's Fool.",
     "sourcing": "Sources: ACRB, ECRB, FCRB",
     "sourceBook": "Sources: ACRB, ECRB, FCRB",
-    "sourceBookTalentName": "Nobody's Fool"
+    "sourceBookTalentName": "Nobody's Fool",
+    "rankDisplay": "Yes",
+    "tierDisplay": 3
   },
   {
     "id": "T140",
@@ -1674,10 +1952,12 @@
     "activation": "Activation: Active (Incidental, Out of Turn)",
     "ranked": "Ranked: No",
     "tags": "Combat, Melee",
-    "description": "Your character must have purchased the Parry talent to benefit from this talent. When your character suffers a hit from a melee combat check and uses Parry to reduce the damage from that hit, after the attack is resolved, you may spend one despair or three threats from the attacker’s check to use this talent. Then, your character automatically hits the attacker once with a Brawl or Melee weapon your character is wielding. The hit deals the weapon’s base damage, plus any damage from applicable talents or abilities. Your character can’t use this talent if the original attack incapacitates them.",
+    "description": "See talent pages in the core rule book.",
     "sourcing": "Source: GCRB",
     "sourceBook": "Source: GCRB",
-    "sourceBookTalentName": "Parry (Improved)"
+    "sourceBookTalentName": "Parry (Improved)",
+    "rankDisplay": "No",
+    "tierDisplay": 3
   },
   {
     "id": "T141",
@@ -1689,7 +1969,9 @@
     "description": "When you cast a spell that can be sustained through concentration on an ally, you can spend three advantages, a triumph, or one story point to have that spell last until the end of the encounter without your character having to use the concentrate maneuver.",
     "sourcing": "Source: Greatfrito's Genesys Magic Talents",
     "sourceBook": "Source: Greatfrito's Genesys Magic Talents",
-    "sourceBookTalentName": "Persistent Spell"
+    "sourceBookTalentName": "Persistent Spell",
+    "rankDisplay": "No",
+    "tierDisplay": 3
   },
   {
     "id": "T142",
@@ -1701,7 +1983,9 @@
     "description": "Take Pin action; make an Opposed athletics check to immobilize an engaged opponent until the end of the character's next turn. Spend triumph to extend duration one round.",
     "sourcing": "Source: ETU",
     "sourceBook": "Source: ETU",
-    "sourceBookTalentName": "Pin"
+    "sourceBookTalentName": "Pin",
+    "rankDisplay": "No",
+    "tierDisplay": 3
   },
   {
     "id": "T143",
@@ -1713,7 +1997,9 @@
     "description": "Take a Plausible Deniability action makes a Hard (3 Difficulty Dice) Coercion check to convince one bystander equal to your Willpower to depart quietly.",
     "sourcing": "Source: DA (Plausible Deniability (Improved))",
     "sourceBook": "Source: DA",
-    "sourceBookTalentName": "Plausible Deniability (Improved)"
+    "sourceBookTalentName": "Plausible Deniability (Improved)",
+    "rankDisplay": "No",
+    "tierDisplay": 3
   },
   {
     "id": "T144",
@@ -1725,7 +2011,9 @@
     "description": "Add 1 damage per rank of Point Blank to damage of one hit of successful attack while using Ranged (Heavy) or Ranged (Light) skills at short range or engaged.",
     "sourcing": "Sources: ABGR, ACRB, EBGR, ECRB",
     "sourceBook": "Sources: ABGR, ACRB, EBGR, ECRB",
-    "sourceBookTalentName": "Point Blank"
+    "sourceBookTalentName": "Point Blank",
+    "rankDisplay": "Yes",
+    "tierDisplay": 3
   },
   {
     "id": "T145",
@@ -1737,7 +2025,9 @@
     "description": "Increase Blast damage dealt by +1 per rank of Powerful Blast.",
     "sourcing": "Sources: ACRB, DC",
     "sourceBook": "Sources: ACRB, DC",
-    "sourceBookTalentName": "Powerful Blast"
+    "sourceBookTalentName": "Powerful Blast",
+    "rankDisplay": "Yes",
+    "tierDisplay": 3
   },
   {
     "id": "T146",
@@ -1749,7 +2039,9 @@
     "description": "Once per round, may perform Precise Aim maneuver. Suffer a number of strain no greater than ranks in Precise Aim, then reduce target's melee and ranged defense by that number.",
     "sourcing": "Sources: EBGR, ECRB, SS",
     "sourceBook": "Sources: EBGR, ECRB, SS",
-    "sourceBookTalentName": "Precise Aim"
+    "sourceBookTalentName": "Precise Aim",
+    "rankDisplay": "Yes",
+    "tierDisplay": 3
   },
   {
     "id": "T147",
@@ -1761,7 +2053,9 @@
     "description": "May spend 1 Story Point to disengage from engaged enemy as an out-of-turn incidental.",
     "sourcing": "Source: FCRB",
     "sourceBook": "Source: FCRB",
-    "sourceBookTalentName": "Preemptive Avoidance"
+    "sourceBookTalentName": "Preemptive Avoidance",
+    "rankDisplay": "No",
+    "tierDisplay": 3
   },
   {
     "id": "T148",
@@ -1770,10 +2064,12 @@
     "activation": "Activation: Active (Maneuver)",
     "ranked": "Ranked: No",
     "tags": "Combat, Ranged, Bow",
-    "description": "While your character is armed with a bow (or similar weapon, at your GM’s discretion) they may suffer 2 strain to use this talent. During the next ranged combat check your character makes this turn, the bow gains the Linked quality with a value equal to their ranks in the Ranged skill.",
+    "description": "See talent pages in the core rule book.",
     "sourcing": "Source: GCRB",
     "sourceBook": "Source: GCRB",
-    "sourceBookTalentName": "Rapid Archery"
+    "sourceBookTalentName": "Rapid Archery",
+    "rankDisplay": "No",
+    "tierDisplay": 3
   },
   {
     "id": "T149",
@@ -1785,7 +2081,9 @@
     "description": "Your character must have purchased the Reflect Talent to benefit from this talent. Your character may use reflect while wielding a melee weapon deemed appropriate by the GM. When reflecting a hit that generated despair or three threats may hit one target in medium range with the same damage as the initial hit, after original attack resolves.",
     "sourcing": "Sources: FBGR, FCRB",
     "sourceBook": "Sources: FBGR, FCRB",
-    "sourceBookTalentName": "Reflect (Improved)"
+    "sourceBookTalentName": "Reflect (Improved)",
+    "rankDisplay": "No",
+    "tierDisplay": 3
   },
   {
     "id": "T150",
@@ -1797,7 +2095,9 @@
     "description": "May perform the Resourceful Refit action, make an Average (2 Difficulty Dice) Mechanics check to scavenge an old attachment to construct a new one, reducing its price by that of the dismantled attachment.",
     "sourcing": "Source: SM",
     "sourceBook": "Source: SM",
-    "sourceBookTalentName": "Resourceful Refit"
+    "sourceBookTalentName": "Resourceful Refit",
+    "rankDisplay": "No",
+    "tierDisplay": 3
   },
   {
     "id": "T151",
@@ -1806,10 +2106,12 @@
     "activation": "Activation: Passive",
     "ranked": "Ranked: No",
     "tags": "Coercion",
-    "description": "Your character must have purchased the Scathing Tirade talent to benefit from this talent. Enemies affected by your character’s Scathing Tirade add one setback die to all skill checks they make for a number of rounds equal to your character’s ranks in Coercion.",
+    "description": "See talent pages in the core rule book.",
     "sourcing": "Source: GCRB",
     "sourceBook": "Source: GCRB",
-    "sourceBookTalentName": "Scathing Tirade (Improved)"
+    "sourceBookTalentName": "Scathing Tirade (Improved)",
+    "rankDisplay": "No",
+    "tierDisplay": 3
   },
   {
     "id": "T152",
@@ -1821,7 +2123,9 @@
     "description": "Once per session, as a maneuver, may make a Hard (3 Difficulty Dice) Athletics check. On success, other PCs may take their turns immediately.",
     "sourcing": "Source: FIB",
     "sourceBook": "Source: FIB",
-    "sourceBookTalentName": "Seize the Initiative"
+    "sourceBookTalentName": "Seize the Initiative",
+    "rankDisplay": "No",
+    "tierDisplay": 3
   },
   {
     "id": "T153",
@@ -1833,7 +2137,9 @@
     "description": "When making a Streetwise or Survival skill check to navigate, the character may use Intellect instead of Cunning.",
     "sourcing": "Source: SS",
     "sourceBook": "Source: SS",
-    "sourceBookTalentName": "Studious Plotting"
+    "sourceBookTalentName": "Studious Plotting",
+    "rankDisplay": "No",
+    "tierDisplay": 3
   },
   {
     "id": "T154",
@@ -1845,7 +2151,9 @@
     "description": "Your character must have purchased the Stunning Blow talent to benefit from this talent. When dealing strain damage with Melee or Brawl checks, may spend triumph to stagger target for 1 round per t.",
     "sourcing": "Sources: ACRB, ECRB",
     "sourceBook": "Sources: ACRB, ECRB",
-    "sourceBookTalentName": "Stunning Blow (Improved)"
+    "sourceBookTalentName": "Stunning Blow (Improved)",
+    "rankDisplay": "No",
+    "tierDisplay": 3
   },
   {
     "id": "T155",
@@ -1857,7 +2165,9 @@
     "description": "While engaged with one or more adversaries, may suffer 2 strain to move to short range as an incidental.",
     "sourcing": "Source: GHC",
     "sourceBook": "Source: GHC",
-    "sourceBookTalentName": "Tumble"
+    "sourceBookTalentName": "Tumble",
+    "rankDisplay": "No",
+    "tierDisplay": 3
   },
   {
     "id": "T156",
@@ -1869,7 +2179,9 @@
     "description": "When an incoming social check generates two threats or one dispair, may suffer 1 strain as an incidental to inflict strain equal to ranks in Coercion on speaker.",
     "sourcing": "Source: DA",
     "sourceBook": "Source: DA",
-    "sourceBookTalentName": "Twisted Words"
+    "sourceBookTalentName": "Twisted Words",
+    "rankDisplay": "No",
+    "tierDisplay": 3
   },
   {
     "id": "T157",
@@ -1881,7 +2193,9 @@
     "description": "When gambling win 10% more credits per rank of Up the Ante.",
     "sourcing": "Source: FC",
     "sourceBook": "Source: FC",
-    "sourceBookTalentName": "Up the Ante"
+    "sourceBookTalentName": "Up the Ante",
+    "rankDisplay": "Yes",
+    "tierDisplay": 3
   },
   {
     "id": "T158",
@@ -1893,7 +2207,9 @@
     "description": "Once per encounter, perform a Valuable Facts action: make an Average (2 Difficulty Dice) Knowledge: Mortality, Knowledge: Natural, Knowledge: Paranormal or Knowledge: Systems check. If successful, add one triumph to one ally's skill check during the encounter.",
     "sourcing": "Sources: DA, FBGR, FCRB (Valuable Facts)",
     "sourceBook": "Sources: DA, FBGR, FCRB",
-    "sourceBookTalentName": "Valuable Facts"
+    "sourceBookTalentName": "Valuable Facts",
+    "rankDisplay": "No",
+    "tierDisplay": 3
   },
   {
     "id": "T159",
@@ -1905,7 +2221,9 @@
     "description": "Once per session spend a Story Point and your character may add the Deadly quality to a spell without increasing the difficulty.",
     "sourcing": "Source: CCC (Combat Caster)",
     "sourceBook": "Source: CCC",
-    "sourceBookTalentName": "Combat Caster"
+    "sourceBookTalentName": "Combat Caster",
+    "rankDisplay": "No",
+    "tierDisplay": 3
   },
   {
     "id": "T160",
@@ -1917,7 +2235,9 @@
     "description": "Once per session, spend 2 strain to make a Primal or Divine skill check as a maneuver.",
     "sourcing": "Source: Greatfrito's Genesys Magic Talents (Quickened Spell)",
     "sourceBook": "Source: Greatfrito's Genesys Magic Talents",
-    "sourceBookTalentName": "Quickened Spell"
+    "sourceBookTalentName": "Quickened Spell",
+    "rankDisplay": "No",
+    "tierDisplay": 4
   },
   {
     "id": "T161",
@@ -1929,7 +2249,9 @@
     "description": "Your character must have purchased the Armor Master talent to benefit from this talent. When wearing armor with a soak value of 2 or higher, increase defense by 1.",
     "sourcing": "Sources: ACRB, ECRB, KTP",
     "sourceBook": "Sources: ACRB, ECRB, KTP",
-    "sourceBookTalentName": "Armor Master (Improved)"
+    "sourceBookTalentName": "Armor Master (Improved)",
+    "rankDisplay": "No",
+    "tierDisplay": 4
   },
   {
     "id": "T162",
@@ -1941,7 +2263,9 @@
     "description": "Your character must have purchased the Body Guard talent to benefit from this talent. Body Guard maneuver may protect a number of engaged characters up to ranks in Resilience.",
     "sourcing": "Source: FIB",
     "sourceBook": "Source: FIB",
-    "sourceBookTalentName": "Body Guard (Supreme)"
+    "sourceBookTalentName": "Body Guard (Supreme)",
+    "rankDisplay": "No",
+    "tierDisplay": 4
   },
   {
     "id": "T163",
@@ -1950,10 +2274,12 @@
     "activation": "Activation: Active (Action)",
     "ranked": "Ranked: No",
     "tags": "Charm, Deception, Discipline, Combat",
-    "description": "Your character can use this talent to make an opposed Charm or Deception versus Discipline check targeting a single non-nemesis adversary within medium range. If the check succeeds, the target cannot attack your character (or perform hostile actions against your character) until the end of their next turn. You may spend two advantages to increase the length of the effect by one additional turn, and spend triumph to extend the benefits to all of their identified allies within short range. The effect ends immediately if your character or a known ally attacks the target. In addition, your GM may rule that some targets are immune to this ability. An automated sentry turret, for example, has no interest in resolving a conflict through talking, nor would someone consumed by rage and the desire for revenge against your character.",
+    "description": "See talent pages in the core rule book.",
     "sourcing": "Source: GCRB",
     "sourceBook": "Source: GCRB",
-    "sourceBookTalentName": "Can’t We Talk About This?"
+    "sourceBookTalentName": "Can’t We Talk About This?",
+    "rankDisplay": "No",
+    "tierDisplay": 4
   },
   {
     "id": "T164",
@@ -1965,7 +2291,9 @@
     "description": "Once per session, may introduce a \"fact\" into the narrative as if a Story Point had been spent.",
     "sourcing": "Sources: ACRB, KTP",
     "sourceBook": "Sources: ACRB, KTP",
-    "sourceBookTalentName": "Careful Planning"
+    "sourceBookTalentName": "Careful Planning",
+    "rankDisplay": "No",
+    "tierDisplay": 4
   },
   {
     "id": "T165",
@@ -1977,7 +2305,9 @@
     "description": "Take a Center of Being maneuver. Until the beginning of next turn, attacks against the character increase their critical rating by 1 per rank of Center of Being.",
     "sourcing": "Source: FCRB",
     "sourceBook": "Source: FCRB",
-    "sourceBookTalentName": "Center of Being"
+    "sourceBookTalentName": "Center of Being",
+    "rankDisplay": "Yes",
+    "tierDisplay": 4
   },
   {
     "id": "T166",
@@ -1989,7 +2319,9 @@
     "description": "When an engaged ally suffers a hit, may use Parry or Reflect incidental against the hit.",
     "sourcing": "Sources: FBGR, FCRB",
     "sourceBook": "Sources: FBGR, FCRB",
-    "sourceBookTalentName": "Circle of Shelter"
+    "sourceBookTalentName": "Circle of Shelter",
+    "rankDisplay": "No",
+    "tierDisplay": 4
   },
   {
     "id": "T167",
@@ -2001,7 +2333,9 @@
     "description": "Once per session, may take Commanding Presence action; make an opposed Cool vs. Discipline check to force target to leave the encounter.",
     "sourcing": "Source: LBE (Commanding Presence (Improved))",
     "sourceBook": "Source: LBE",
-    "sourceBookTalentName": "Commanding Presence (Improved)"
+    "sourceBookTalentName": "Commanding Presence (Improved)",
+    "rankDisplay": "No",
+    "tierDisplay": 4
   },
   {
     "id": "T168",
@@ -2010,10 +2344,12 @@
     "activation": "Activation: Active (Incidental)",
     "ranked": "Ranked: No",
     "tags": "Critical Injury, Ranged",
-    "description": "After your character inflicts a Critical Injury with a ranged weapon and rolls the result, your character may suffer 2 strain to use this talent. Then, you may select any Critical Injury of the same severity to apply to the target instead.",
+    "description": "See talent pages in the core rule book.",
     "sourcing": "Source: GCRB",
     "sourceBook": "Source: GCRB",
-    "sourceBookTalentName": "Deadeye"
+    "sourceBookTalentName": "Deadeye",
+    "rankDisplay": "No",
+    "tierDisplay": 4
   },
   {
     "id": "T169",
@@ -2025,7 +2361,9 @@
     "description": "When acquired, choose 1 combat skill. Add damage equal to ranks in that skill to one hit of successful attack made using that skill. May not choose the same skill more than once.",
     "sourcing": "Sources: ABGR, ACRB, ECRB",
     "sourceBook": "Sources: ABGR, ACRB, ECRB",
-    "sourceBookTalentName": "Deadly Accuracy"
+    "sourceBookTalentName": "Deadly Accuracy",
+    "rankDisplay": "Yes",
+    "tierDisplay": 4
   },
   {
     "id": "T170",
@@ -2034,10 +2372,12 @@
     "activation": "Activation: Passive",
     "ranked": "Ranked: Yes",
     "tags": "Defense",
-    "description": "Each rank of Defensive increases your character’s melee defense and ranged defense by one.",
+    "description": "See talent pages in the core rule book.",
     "sourcing": "Source: GCRB",
     "sourceBook": "Source: GCRB",
-    "sourceBookTalentName": "Defensive"
+    "sourceBookTalentName": "Defensive",
+    "rankDisplay": "Yes",
+    "tierDisplay": 4
   },
   {
     "id": "T171",
@@ -2049,7 +2389,9 @@
     "description": "Your character must have purchased the Reflect talent to benefit from this talent. After using Reflect, may spend 1 Story Point to perform Move maneuver as out-of-turn incidental to close distance with or engage opponent.",
     "sourcing": "Source: FCRB (Djem So Deflection)",
     "sourceBook": "Source: FCRB",
-    "sourceBookTalentName": "Djem So Deflection"
+    "sourceBookTalentName": "Djem So Deflection",
+    "rankDisplay": "No",
+    "tierDisplay": 4
   },
   {
     "id": "T172",
@@ -2061,7 +2403,9 @@
     "description": "Once per encounter, take the Discredit action, make a Hard (3 Difficulty Dice) Deception check to upgrade the difficulty of one character's social checks once, plus once for every two advantages, until the end of the encounter.",
     "sourcing": "Source: DA",
     "sourceBook": "Source: DA",
-    "sourceBookTalentName": "Discredit"
+    "sourceBookTalentName": "Discredit",
+    "rankDisplay": "No",
+    "tierDisplay": 4
   },
   {
     "id": "T173",
@@ -2073,7 +2417,9 @@
     "description": "Your character must have purchased the Distracting Behavior talent to benefit from this talent. The Distracting Behavior maneuver inflicts two threat on NPC's checks when NPC's target character's allies.",
     "sourcing": "Source: FH",
     "sourceBook": "Source: FH",
-    "sourceBookTalentName": "Distracting Behavior (Improved)"
+    "sourceBookTalentName": "Distracting Behavior (Improved)",
+    "rankDisplay": "No",
+    "tierDisplay": 4
   },
   {
     "id": "T174",
@@ -2085,7 +2431,9 @@
     "description": "Once per session as an action, make a Hard (3 Difficulty Dice) Charm check. On a success, cannot be target of combat checks until the end of the encounter or until making a combat check.",
     "sourcing": "Source: FC",
     "sourceBook": "Source: FC",
-    "sourceBookTalentName": "Don't Shoot!"
+    "sourceBookTalentName": "Don't Shoot!",
+    "rankDisplay": "No",
+    "tierDisplay": 4
   },
   {
     "id": "T175",
@@ -2097,7 +2445,9 @@
     "description": "Your character must have purchased the Double or Nothing talent to benefit from this talent. When performing the Double or Nothing incidental, after canceling opposing symbols, also double the amount of remaining successes.",
     "sourcing": "Source: FC",
     "sourceBook": "Source: FC",
-    "sourceBookTalentName": "Double or Nothing (Improved)"
+    "sourceBookTalentName": "Double or Nothing (Improved)",
+    "rankDisplay": "No",
+    "tierDisplay": 4
   },
   {
     "id": "T176",
@@ -2106,10 +2456,12 @@
     "activation": "Activation: Passive",
     "ranked": "Ranked: Yes",
     "tags": "Soak, Defense",
-    "description": "Each rank of Enduring increases your character’s soak value by one.",
+    "description": "See talent pages in the core rule book.",
     "sourcing": "Source: GCRB",
     "sourceBook": "Source: GCRB",
-    "sourceBookTalentName": "Enduring"
+    "sourceBookTalentName": "Enduring",
+    "rankDisplay": "Yes",
+    "tierDisplay": 4
   },
   {
     "id": "T177",
@@ -2118,10 +2470,12 @@
     "activation": "Activation: Passive",
     "ranked": "Ranked: No",
     "tags": "Leadership, Presence",
-    "description": "Your character must have purchased the Field Commander talent to benefit from this talent. When your character uses the Field Commander talent, your character affects a number of allies equal to twice the character’s Presence. In addition, you may spend triumph to allow one ally to suffer 1 strain to perform an action, instead of a maneuver.",
+    "description": "See talent pages in the core rule book.",
     "sourcing": "Source: GCRB",
     "sourceBook": "Source: GCRB",
-    "sourceBookTalentName": "Field Commander (Improved)"
+    "sourceBookTalentName": "Field Commander (Improved)",
+    "rankDisplay": "No",
+    "tierDisplay": 4
   },
   {
     "id": "T178",
@@ -2133,7 +2487,9 @@
     "description": "Once per session as an incidental, suffer 2 strain to flip one GM Story Point to a Player Story Point.",
     "sourcing": "Source: FC",
     "sourceBook": "Source: FC",
-    "sourceBookTalentName": "Fortune Favors the Bold"
+    "sourceBookTalentName": "Fortune Favors the Bold",
+    "rankDisplay": "No",
+    "tierDisplay": 4
   },
   {
     "id": "T179",
@@ -2142,10 +2498,12 @@
     "activation": "Activation: Active (Action)",
     "ranked": "Ranked: No",
     "tags": "Mechanics, Item",
-    "description": "Once per session, your character may use this talent to make a Hard (3 Difficulty Dice) Mechanics check. If successful, one device involved in the current encounter (subject to your GM’s approval) spontaneously fails. This can be because of your character’s actions, or it can simply be incredibly convenient timing!",
+    "description": "See talent pages in the core rule book.",
     "sourcing": "Source: GCRB",
     "sourceBook": "Source: GCRB",
-    "sourceBookTalentName": "How Convenient!"
+    "sourceBookTalentName": "How Convenient!",
+    "rankDisplay": "No",
+    "tierDisplay": 4
   },
   {
     "id": "T180",
@@ -2157,7 +2515,9 @@
     "description": "Once per session, make an opposed Deception vs Vigilance check with the difficulty downgraded a number of times equal to your ranks in deception to have a target NPC believe specific false intelligence.",
     "sourcing": "Source: DA (In The Know (Improved))",
     "sourceBook": "Source: DA",
-    "sourceBookTalentName": "In The Know (Improved)"
+    "sourceBookTalentName": "In The Know (Improved)",
+    "rankDisplay": "No",
+    "tierDisplay": 4
   },
   {
     "id": "T181",
@@ -2169,7 +2529,9 @@
     "description": "Once per session, may take an Incite Rebellion action; make a Hard (3 Difficulty Dice) Coercion check to cause a number of beings up to ranks in Coercion to become rebellious until the end of the encounter.",
     "sourcing": "Source: ACRB",
     "sourceBook": "Source: ACRB",
-    "sourceBookTalentName": "Incite Rebellion"
+    "sourceBookTalentName": "Incite Rebellion",
+    "rankDisplay": "No",
+    "tierDisplay": 4
   },
   {
     "id": "T182",
@@ -2178,10 +2540,12 @@
     "activation": "Activation: Active (Incidental)",
     "ranked": "Ranked: No",
     "tags": "Leadership, Heal, Strain",
-    "description": "Your character must have purchased the Inspiring Rhetoric talent to benefit from this talent. Your character may choose to suffer 1 strain to use the Inspiring Rhetoric talent as a maneuver, instead of as an action.",
+    "description": "See talent pages in the core rule book.",
     "sourcing": "Source: GCRB",
     "sourceBook": "Source: GCRB",
-    "sourceBookTalentName": "Inspiring Rhetoric (Supreme)"
+    "sourceBookTalentName": "Inspiring Rhetoric (Supreme)",
+    "rankDisplay": "No",
+    "tierDisplay": 4
   },
   {
     "id": "T183",
@@ -2193,7 +2557,9 @@
     "description": "Once per session when an ally would suffer a Critical Injury, may take an It's Not That Bad action; make a Hard (3 Difficulty Dice) Medicine check to stop the ally from gaining the Critical Injury.",
     "sourcing": "Source: ACRB",
     "sourceBook": "Source: ACRB",
-    "sourceBookTalentName": "It's Not that Bad"
+    "sourceBookTalentName": "It's Not that Bad",
+    "rankDisplay": "No",
+    "tierDisplay": 4
   },
   {
     "id": "T184",
@@ -2205,7 +2571,9 @@
     "description": "The character chooses one personal weapon or piece of armor per rank of Jury Rigged. He may increase the damage of the weapon by one; decrease the a cost on its Critical, or any single other effect by one to a minimum of one; or increase armor's ranged or melee defense by one. Alternatively, he can decrease the encumbrance of the item by two to a minimum of one. The bonus only applies so long as the character is using the item. If the item is ever lost or destroyed, the character may apply Jury Rigged to a new personal weapon or piece or armor.",
     "sourcing": "Sources: ACRB, EBGR, ECRB",
     "sourceBook": "Sources: ACRB, EBGR, ECRB",
-    "sourceBookTalentName": "Jury Rigged"
+    "sourceBookTalentName": "Jury Rigged",
+    "rankDisplay": "Yes",
+    "tierDisplay": 4
   },
   {
     "id": "T185",
@@ -2217,7 +2585,9 @@
     "description": "The character may spend one Story Point to recover strain equal to his Willpower rating.",
     "sourcing": "Sources: ND, SS",
     "sourceBook": "Sources: ND, SS",
-    "sourceBookTalentName": "Mind Over Matter"
+    "sourceBookTalentName": "Mind Over Matter",
+    "rankDisplay": "No",
+    "tierDisplay": 4
   },
   {
     "id": "T186",
@@ -2229,7 +2599,9 @@
     "description": "If the character has already acted this round, increase ranged defense by 1 per rank of moving target.",
     "sourcing": "Source: FIB",
     "sourceBook": "Source: FIB",
-    "sourceBookTalentName": "Moving Target"
+    "sourceBookTalentName": "Moving Target",
+    "rankDisplay": "Yes",
+    "tierDisplay": 4
   },
   {
     "id": "T187",
@@ -2241,7 +2613,9 @@
     "description": "Whenever an enemy engaged with the character makes a combat check, after the attack is resolved, the character may spend dispair or three threats to stagger the attacker until the end of the attacker's next turn.",
     "sourcing": "Sources: ND, KTP",
     "sourceBook": "Sources: ND, KTP",
-    "sourceBookTalentName": "Overbalance"
+    "sourceBookTalentName": "Overbalance",
+    "rankDisplay": "No",
+    "tierDisplay": 4
   },
   {
     "id": "T188",
@@ -2253,7 +2627,9 @@
     "description": "Add +1 damage to one hit of successful combat checks against disoriented targets per rank of Prey on the Weak.",
     "sourcing": "Sources: FIB, FCRB",
     "sourceBook": "Sources: FIB, FCRB",
-    "sourceBookTalentName": "Prey on the Weak"
+    "sourceBookTalentName": "Prey on the Weak",
+    "rankDisplay": "Yes",
+    "tierDisplay": 4
   },
   {
     "id": "T189",
@@ -2265,7 +2641,9 @@
     "description": "When this character or an ally in short range takes cover, he increases soak against ranged attacks by 1 per rank of Prime Positions until he leaves that cover.",
     "sourcing": "Sources: FIB, KTP",
     "sourceBook": "Sources: FIB, KTP",
-    "sourceBookTalentName": "Prime Positions"
+    "sourceBookTalentName": "Prime Positions",
+    "rankDisplay": "Yes",
+    "tierDisplay": 4
   },
   {
     "id": "T190",
@@ -2277,7 +2655,9 @@
     "description": "While benefiting from an Aim maneuver, despair from the character's Ranged (Heavy) and Ranged (Light) checks cannot cause attacks to hit allies engaged with the target.",
     "sourcing": "Source: KTP",
     "sourceBook": "Source: KTP",
-    "sourceBookTalentName": "Prophetic Aim"
+    "sourceBookTalentName": "Prophetic Aim",
+    "rankDisplay": "No",
+    "tierDisplay": 4
   },
   {
     "id": "T191",
@@ -2289,7 +2669,9 @@
     "description": "Perform the Rain of Death maneuver to ignore the increased difficulty due to the Auto-fire quality of attacks made this turn.",
     "sourcing": "Sources: FIB, DC",
     "sourceBook": "Sources: FIB, DC",
-    "sourceBookTalentName": "Rain of Death"
+    "sourceBookTalentName": "Rain of Death",
+    "rankDisplay": "No",
+    "tierDisplay": 4
   },
   {
     "id": "T192",
@@ -2301,7 +2683,9 @@
     "description": "Once per session, may take a Street Smarts action; make a Formidable (5 Difficulty Dice) Streetwise or Knowledge: Systems check to learn one vital clue from the GM. Reduce the difficulty once per rank of Raw Smarts.",
     "sourcing": "Sources: ACRB, EBGR, ECRB, FCRB (Street Smarts)",
     "sourceBook": "Sources: ACRB, EBGR, ECRB, FCRB",
-    "sourceBookTalentName": "Street Smarts"
+    "sourceBookTalentName": "Street Smarts",
+    "rankDisplay": "Yes",
+    "tierDisplay": 4
   },
   {
     "id": "T193",
@@ -2313,7 +2697,9 @@
     "description": "Your character must have purchased the Reflect Talent to benefit from this talent. If the user did not make a combat check during previous turn, may suffer 1 strain to use Reflect.",
     "sourcing": "Source: FCRB",
     "sourceBook": "Source: FCRB",
-    "sourceBookTalentName": "Reflect (Supreme)"
+    "sourceBookTalentName": "Reflect (Supreme)",
+    "rankDisplay": "No",
+    "tierDisplay": 4
   },
   {
     "id": "T194",
@@ -2325,7 +2711,9 @@
     "description": "Once per session, when your character is targeted by an attack, you may cast Barrier as an out of turn incidental.",
     "sourcing": "Source: CCC",
     "sourceBook": "Source: CCC",
-    "sourceBookTalentName": "Reflexive Barrier"
+    "sourceBookTalentName": "Reflexive Barrier",
+    "rankDisplay": "No",
+    "tierDisplay": 4
   },
   {
     "id": "T195",
@@ -2334,10 +2722,12 @@
     "activation": "Activation: Active (Incidental)",
     "ranked": "Ranked: No",
     "tags": "Coercion",
-    "description": "Your character must have purchased the Scathing Tirade talent to benefit from this talent. Your character may choose to suffer 1 strain to use the Scathing Tirade talent as a maneuver, instead of as an action.",
+    "description": "See talent pages in the core rule book.",
     "sourcing": "Source: GCRB",
     "sourceBook": "Source: GCRB",
-    "sourceBookTalentName": "Scathing Tirade (Supreme)"
+    "sourceBookTalentName": "Scathing Tirade (Supreme)",
+    "rankDisplay": "No",
+    "tierDisplay": 4
   },
   {
     "id": "T196",
@@ -2349,7 +2739,9 @@
     "description": "Once per encounter choose a number of positive dice equal to ranks in Second Chances and reroll them.",
     "sourcing": "Sources: SOT, FC",
     "sourceBook": "Sources: SOT, FC",
-    "sourceBookTalentName": "Second Chances"
+    "sourceBookTalentName": "Second Chances",
+    "rankDisplay": "Yes",
+    "tierDisplay": 4
   },
   {
     "id": "T197",
@@ -2361,7 +2753,9 @@
     "description": "Decrease the Critical Rating of a weapon by 1 (to a minimum of 1) against targets that have not yet acted this encounter.",
     "sourcing": "Source: FC",
     "sourceBook": "Source: FC",
-    "sourceBookTalentName": "Sorry About the Mess"
+    "sourceBookTalentName": "Sorry About the Mess",
+    "rankDisplay": "No",
+    "tierDisplay": 4
   },
   {
     "id": "T198",
@@ -2373,7 +2767,9 @@
     "description": "Once per session, may take a Street Smarts action; make a Formidable (5 Difficulty Dice) Streetwise or Knowledge check to learn one vital clue from the GM. Reduce the difficulty once per rank of Street Smarts.",
     "sourcing": "Sources: ACRB, EBGR, ECRB, FCRB",
     "sourceBook": "Sources: ACRB, EBGR, ECRB, FCRB",
-    "sourceBookTalentName": "Street Smarts"
+    "sourceBookTalentName": "Street Smarts",
+    "rankDisplay": "Yes",
+    "tierDisplay": 4
   },
   {
     "id": "T199",
@@ -2385,7 +2781,9 @@
     "description": "When assisting an ally with a Charm, Deception, Leadership, or Negotiation check, add automatic advantage per rank of Supporting Evidence.",
     "sourcing": "Source: DA",
     "sourceBook": "Source: DA",
-    "sourceBookTalentName": "Supporting Evidence"
+    "sourceBookTalentName": "Supporting Evidence",
+    "rankDisplay": "Yes",
+    "tierDisplay": 4
   },
   {
     "id": "T200",
@@ -2397,7 +2795,9 @@
     "description": "Your character must have purchased the Armor Master talent to benefit from this talent. Once per round, when the character suffers a Critical Injury, he may suffer 3 strain to take the Armor Master incidental. If he does he reduces the Critical Injury result that he suffers by 10 per point of his soak, to a minimum of 1.",
     "sourcing": "Source: KTP",
     "sourceBook": "Source: KTP",
-    "sourceBookTalentName": "Armor Master (Supreme)"
+    "sourceBookTalentName": "Armor Master (Supreme)",
+    "rankDisplay": "No",
+    "tierDisplay": 5
   },
   {
     "id": "T201",
@@ -2409,7 +2809,9 @@
     "description": "When targeted by combat check from within medium range, may spend a Story Point to upgrade the difficulty of the check a number of times equal to ranks in Coercion.",
     "sourcing": "Source: KTP",
     "sourceBook": "Source: KTP",
-    "sourceBookTalentName": "Baleful Gaze"
+    "sourceBookTalentName": "Baleful Gaze",
+    "rankDisplay": "No",
+    "tierDisplay": 5
   },
   {
     "id": "T202",
@@ -2421,7 +2823,9 @@
     "description": "Your character must have purchased the Center of Being talent to benefit from this talent. Suffer 1 strain to perform Center of Being maneuver as an incidental.",
     "sourcing": "Source: FCRB",
     "sourceBook": "Source: FCRB",
-    "sourceBookTalentName": "Center of Being (Improved)"
+    "sourceBookTalentName": "Center of Being (Improved)",
+    "rankDisplay": "No",
+    "tierDisplay": 5
   },
   {
     "id": "T203",
@@ -2430,10 +2834,12 @@
     "activation": "Activation: Passive",
     "ranked": "Ranked: Yes",
     "tags": "Characteristics",
-    "description": "Each rank of Dedication increases one of your character’s characteristics by one. This talent cannot increase a characteristic above 5. You cannot increase the same characteristic with Dedication twice.",
+    "description": "See talent pages in the core rule book.",
     "sourcing": "Source: GCRB",
     "sourceBook": "Source: GCRB",
-    "sourceBookTalentName": "Dedication"
+    "sourceBookTalentName": "Dedication",
+    "rankDisplay": "Yes",
+    "tierDisplay": 5
   },
   {
     "id": "T204",
@@ -2445,7 +2851,9 @@
     "description": "Once per session, spend triumph on a successful Ranged (Heavy) or Gunnery check to add the Breach 1 quality to the attack, or increase an existing Breach rating by 1.",
     "sourcing": "Sources: FIB, DC",
     "sourceBook": "Sources: FIB, DC",
-    "sourceBookTalentName": "Heavy Hitter"
+    "sourceBookTalentName": "Heavy Hitter",
+    "rankDisplay": "No",
+    "tierDisplay": 5
   },
   {
     "id": "T205",
@@ -2454,10 +2862,12 @@
     "activation": "Activation: Active (Incidental, Out of Turn)",
     "ranked": "Ranked: No",
     "tags": "Story Point, Combat, Social",
-    "description": "Once per encounter, when your character would be incapacitated due to exceeding their wound or strain threshold, you may spend a Story Point to use this talent. Then, your character is not incapacitated until the end of their next turn. If your character reduces their strain or wounds to below their threshold before the end of their next turn, they are not incapacitated.",
+    "description": "See talent pages in the core rule book.",
     "sourcing": "Source: GCRB",
     "sourceBook": "Source: GCRB",
-    "sourceBookTalentName": "Indomitable"
+    "sourceBookTalentName": "Indomitable",
+    "rankDisplay": "No",
+    "tierDisplay": 5
   },
   {
     "id": "T206",
@@ -2469,7 +2879,9 @@
     "description": "Perform an Intense Focus maneuver; suffer 1 strain and upgrade the ability of the next skill check once.",
     "sourcing": "Sources: ABGR, ACRB, ECRB, DOH",
     "sourceBook": "Sources: ABGR, ACRB, ECRB, DOH",
-    "sourceBookTalentName": "Intense Focus"
+    "sourceBookTalentName": "Intense Focus",
+    "rankDisplay": "No",
+    "tierDisplay": 5
   },
   {
     "id": "T207",
@@ -2481,7 +2893,9 @@
     "description": "Once per round as an incidental spend 1 Story Point to ignore despair generated on a social check by the character or any ally in short range.",
     "sourcing": "Source: FC",
     "sourceBook": "Source: FC",
-    "sourceBookTalentName": "Just Kidding!"
+    "sourceBookTalentName": "Just Kidding!",
+    "rankDisplay": "No",
+    "tierDisplay": 5
   },
   {
     "id": "T208",
@@ -2490,10 +2904,12 @@
     "activation": "Activation: Active (Incidental)",
     "ranked": "Ranked: No",
     "tags": "Skills",
-    "description": "When you purchase this talent for your character, choose one skill. Once per round, your character may suffer 2 strain to use this talent to reduce the difficulty of the next check they make using that skill by two, to a minimum of Easy (1 Difficulty Die).",
+    "description": "See talent pages in the core rule book.",
     "sourcing": "Source: GCRB",
     "sourceBook": "Source: GCRB",
-    "sourceBookTalentName": "Master"
+    "sourceBookTalentName": "Master",
+    "rankDisplay": "No",
+    "tierDisplay": 5
   },
   {
     "id": "T209",
@@ -2505,7 +2921,9 @@
     "description": "Decrease the a cost to activate the Blast quality on any attack by 1 to a minimum of 1.",
     "sourcing": "Sources: ACRB, DC",
     "sourceBook": "Sources: ACRB, DC",
-    "sourceBookTalentName": "Master Grenadier"
+    "sourceBookTalentName": "Master Grenadier",
+    "rankDisplay": "No",
+    "tierDisplay": 5
   },
   {
     "id": "T210",
@@ -2517,7 +2935,9 @@
     "description": "When buying or selling goods, may suffer 2 strain to sell for 25% more or buy for 25% less.",
     "sourcing": "Sources: ACRB, ECRB",
     "sourceBook": "Sources: ACRB, ECRB",
-    "sourceBookTalentName": "Master Merchant"
+    "sourceBookTalentName": "Master Merchant",
+    "rankDisplay": "No",
+    "tierDisplay": 5
   },
   {
     "id": "T211",
@@ -2529,7 +2949,9 @@
     "description": "When making a Brawl check against an opponent, instead of dealing damage, may deal equivalent strain plus additional strain equal to ranks of Medicine (this ignores soak).",
     "sourcing": "Source: ECRB",
     "sourceBook": "Source: ECRB",
-    "sourceBookTalentName": "Pressure Point"
+    "sourceBookTalentName": "Pressure Point",
+    "rankDisplay": "No",
+    "tierDisplay": 5
   },
   {
     "id": "T212",
@@ -2541,7 +2963,9 @@
     "description": "When your character fails a spell casting skill check that targets another character or NPC, may spend triumph or three advantages to immediately reroll the attempted spell with a new target.",
     "sourcing": "Source: CCC (Bouncing Spell)",
     "sourceBook": "Source: CCC",
-    "sourceBookTalentName": "Bouncing Spell"
+    "sourceBookTalentName": "Bouncing Spell",
+    "rankDisplay": "No",
+    "tierDisplay": 5
   },
   {
     "id": "T213",
@@ -2550,9 +2974,11 @@
     "activation": "Activation: Active (Action)",
     "ranked": "Ranked: No",
     "tags": "Charm, Coercion, Discipline, Presence",
-    "description": "Once per encounter, your character may use this talent to make an opposed Charm or Coercion versus Discipline check targeting one character within medium range (or within earshot). If successful, the target suffers strain equal to twice your character’s Presence, plus one additional strain per success. Your character heals strain equal to the strain inflicted. If incapacitated due to this talent, the target could flee the scene in shame, collapse in a dejected heap, or throw themself at your character in fury, depending on your GM and the nature of your character’s witty barbs.",
+    "description": "See talent pages in the core rule book.",
     "sourcing": "Source: GCRB",
     "sourceBook": "Source: GCRB",
-    "sourceBookTalentName": "Ruinous Repartee"
+    "sourceBookTalentName": "Ruinous Repartee",
+    "rankDisplay": "No",
+    "tierDisplay": 5
   }
 ]

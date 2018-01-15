@@ -184,7 +184,7 @@
     "hardPoints": 1,
     "value": 600,
     "rarity": 8,
-    "description": "A backpack of holding is a deceptively normal looking pack whose interior is substantially larger than its exterior. How this is possible is a secret known only to the most learned spell casters. It is, obviously, magical. ",
+    "description": "A normal looking backpack, but can hold way more than it should through it being magical.",
     "specialAbilities": [
       "(Passive) A backpack of holding can carry items of up to 12 encumbrance total. (Passive) The backpack is always encumbrance 2, regardless of how much it’s holding."
     ]

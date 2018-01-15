@@ -1,7 +1,6 @@
 <template>
     <div class="p-3 mx-3 text-left bg-light">
         <b-container>
-
             <b-row>
                 <b-col>
                     <h1> <strong> Schools of Magic </strong> </h1>
@@ -17,8 +16,10 @@
 
             <b-row>
                 <b-col>
-                <b-card border-variant="dark"
-                        title="<h1 class='text-dark'><strong>Arcana</strong></h1>"
+                <b-card border-variant="light"
+                        bg-variant="dark"
+                        text-variant="white"
+                        title="<h1><strong>Arcana</strong></h1>"
                         sub-title="Classical Magic">
                     <p>
                         There is an invisible but tangible natural force that swims around in the space-between-space 
@@ -42,8 +43,10 @@
             <p> </p>
             <b-row>
                 <b-col>
-                <b-card border-variant="dark"
-                        title="<h1 class='text-dark'><strong>Divine</strong></h1>"
+                <b-card border-variant="light"
+                        bg-variant="dark"
+                        text-variant="white"
+                        title="<h1><strong>Divine</strong></h1>"
                         sub-title="Earned and Barrowed Magic">
                     <p>
                         Divine magic is rather superstitious and least understood branches of magic in the world. Divine 
@@ -81,8 +84,10 @@
             <p> </p>
             <b-row>
                 <b-col>
-                <b-card border-variant="dark"
-                        title="<h1 class='text-dark'><strong>Primal</strong></h1>"
+                <b-card border-variant="light"
+                        bg-variant="dark"
+                        text-variant="white"
+                        title="<h1><strong>Primal</strong></h1>"
                         sub-title="The Link Between Spirits and the Physical World">
                     <p> 
                         There is the natural world which everything is tangible and is considered real. Then there is the 

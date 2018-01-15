@@ -2,6 +2,7 @@
   {
     "id": "A1",
     "category": "Armor",
+    "subCategory": "Soak Armor",
     "name": "Chainmmail",
     "encumbrance": 3,
     "wornEncumbrance": 0,
@@ -129,6 +130,7 @@
   {
     "id": "A2",
     "category": "Armor",
+    "subCategory": "Defensive Armor",
     "name": "Light Armor / Robes",
     "encumbrance": 1,
     "wornEncumbrance": 0,
@@ -253,6 +255,7 @@
   {
     "id": "A3",
     "category": "Armor",
+    "subCategory": "Soak Armor",
     "name": "Medium Armor",
     "encumbrance": 2,
     "wornEncumbrance": 0,
@@ -377,6 +380,7 @@
   {
     "id": "A4",
     "category": "Armor",
+    "subCategory": "Soak Armor",
     "name": "Bonedust Plate",
     "encumbrance": 3,
     "wornEncumbrance": 0,
@@ -501,6 +505,7 @@
   {
     "id": "A5",
     "category": "Armor",
+    "subCategory": "Soak Armor",
     "name": "Bloodoil Treated Robes",
     "encumbrance": 1,
     "wornEncumbrance": 0,
@@ -628,6 +633,7 @@
   {
     "id": "A6",
     "category": "Armor",
+    "subCategory": "Soak Armor",
     "name": "Sparklebit Plate",
     "encumbrance": 3,
     "wornEncumbrance": 0,
@@ -752,6 +758,7 @@
   {
     "id": "A7",
     "category": "Armor",
+    "subCategory": "Defensive Armor",
     "name": "Living Bark Hide",
     "encumbrance": 2,
     "wornEncumbrance": 0,
@@ -879,6 +886,7 @@
   {
     "id": "A8",
     "category": "Armor",
+    "subCategory": "Soak Armor",
     "name": "Screaming Red Robes",
     "encumbrance": 3,
     "wornEncumbrance": 0,
