@@ -385,11 +385,14 @@
     "encumbrance": 3,
     "wornEncumbrance": 0,
     "hardPoints": 2,
-    "value": 400,
+    "value": 900,
     "rarity": 8,
     "description": "Bonedust Plate is forged  through a tedious process of drying out Bonedustings to not be flammable. Then through a process of ritualistic like alchemy, the Bonedust plates are molded into large flakes of scale-like metal that are woven together with countless thread  into a suit. As a result, it is able to absorb vicious blows with given a good defense against lethal attacks - but is cumbersome to wear.",
     "soak": 2,
     "defense": 1,
+    "specialAbilities": [
+      "(Passive): This is considered Light Weight armor."
+    ],
     "qualities": [
       {
         "name": "accurate",

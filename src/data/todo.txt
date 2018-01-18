@@ -1,33 +1,57 @@
- Do Talents:	
-	Grit
-	Toughened
-	Burly
-	Basic Military Training
-	Well Read
-	Well Rounded
-	Armor Master
-	Armor Master (Improved)
-	Armor Master (Supreme)
-	Improved Improvised Weapons
-	* Alchemy shit *
+Generator
+	Rolls
+		Motivation rolls and such.
+		AS: Random Roll Race / Career / Faction.		
 	
-Abilities when purchasing talents and weapons.
+	Racial Skills minus prevention.
+	
+	Natural Abilities: Unarmed
 
-AS: Random Roll Race / Career / Faction.
+	Add skill sort by rank after purchase.
+	
+	Gear
+		if amount > 1, keep on adding.
 
-AS: Bonus Loot 
+	Reset
+		Skills
+			does not reset career bonus, racial bonus
+		Talents
+		Inventory
 
-+ Skill -> Career.
-+ Other race data
+	Add Notes Section
 
-+ Weapon Builder
- 
-+ Talent / Skill Show Alert
-+ Weapon / Armor / Gear Show Alert
+	Reroll Career
+		Add array of ID and type to remove.
+		[note, refund xp skill / talent ranks built ontop of career]
 
-+ Warning progress bars...
-+ make a function to reset stats, skills, talents, inventory, race, etc.
-+ alt rules carry career and race
-+ skill page limit
-+ alternative rules -> talents
-+ genres -> talents 
+	Modal rework
+
+	Do Talents:			
+		Well Read
+		Well Rounded		
+		Dedication	- 	do: showChararcteristicModal
+
+		Burly (no can do.)
+
+	Equip Function 
+		+ / - Weapon
+		+ / - Armor
+
+	Item Bonus
+		+ Melee Claymore
+		+ Melee Halberd
+		+ Melee J'Tunns Sword
+		+ Melee Longsword
+		+ Melee Pistoned Swordedge
+		+ Melee Shield
+		+ Range Shield
+
+	
+
++ Weapon Workshop
+	Tinkerer
+
+
+
+
+

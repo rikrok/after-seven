@@ -1,14 +1,38 @@
 \<template>
-    <div class="bg-secondary mr-3 ml-3 text-left">    
+    <div class="p-3 mx-3 text-left bg-light">    
+        <h1> <strong> Items </strong> </h1>
+        <p> 
+            There are the allow items of this setting. Some of these have a specific twist created through the 
+            rulebook. However, there are a few of these are straight from the Fantasy, Steampunk and Weird War 
+            setting. Many of the new items were created to give non-magic users just as vibrant style of gameplay.
+        </p>
+        <p> 
+            As of now, there is no other weapons than the weapons hand picked from the core rulebook. There is 
+            an desire to add more, but will do at a later point.
+        </p>
+        <hr>
+        <b-container class="text-left">
+            <b-row>
+                <b-col> <strong> Item Categories </strong> </b-col>
+                <b-col> <strong>  </strong>  </b-col>
+            </b-row>            
+            <b-row>
+                <b-col> 
+                    <b-form-checkbox-group v-model="selected" :options="this.options" class="mb-3"/> 
+                    <b-btn variant="success" @click="filterItems"> Filter Items </b-btn> 
+                </b-col>
+            </b-row>
+        </b-container>
+
+        <hr>        
         <b-card-group>                                  
             <div v-for="(item, index) in this.items" :key="index" class="col-md-3 col-6 my-1 text-left">                                     
                 <b-card                             
                     v-bind:title="item.name"
                     v-bind:header="item.category + ': ' + item.subCategory" 
                     v-bind:sub-title="item.value.toString() + ' Credits'"
-                    header-bg-variant="dark" 
-                    header-text-variant="white"                     
-                    border-variant="dark">
+                    bg-variant="dark" 
+                    text-variant="light">
 
                         <p v-if="item.category === 'Weapon'"> 
                             <strong> {{ item.skill }} </strong> </br>
@@ -35,14 +59,14 @@
                             </b-row>
 
                         </b-container>
-                        <hr> 
+                        <hr v-if="item.qualityText != ''"> 
                         
                         <b-container>
                             <b-row v-if="item.qualityText != ''"> 
                                 <b-col> {{ item.qualityText }} </b-col>
                             </b-row>
                         </b-container>
-                        <hr> 
+                        <hr v-if="item.hasSpecials === true"> 
                         <b-container v-if="item.hasSpecials === true">
                             <b-row v-for="(special, index) in item.specialAbilities" :key="index">
                                 <b-col> {{ special }}</b-col>
@@ -60,34 +84,28 @@
 export default {
     data () {
         return {
-            items: [ {
-                id: "",
-                category: "",
-                subCategory: "",
-                itemType: "",
-                name: "",
-                description:"",
-                hardPoints:0,
-                value: 0,
-                rarity: 0,
-                encumbrance: 0,
-                wornEncumbrance: 0,
-                soak:0,
-                defense:0,
-                damage:0,
-                critical:0,
-                skill: "",
-                range: "",
-                specialAbilities: [{}],
-                qualities: [{}],
-                qualityText: "",                
-                hasSpecials: false,
-                _showDetails: false,
-                quantity: 0,
-                repairNeeded: ""  
-            } ]
+            options: ["Soak Armor", "Defensive Armor", "Brawl Weapons", "Gunnery Weapons", "Melee Weapons", "Ranged (Light) Weapons", "Ranged (Heavy) Weapons", "Alchemy Products", "Adventuring Gear", "Implementations"],
+            selected:["Soak Armor", "Defensive Armor", "Brawl Weapons", "Gunnery Weapons", "Melee Weapons", "Ranged (Light) Weapons", "Ranged (Heavy) Weapons", "Alchemy Products", "Adventuring Gear", "Implementations"],
+            data: [],
+            items: []
         }    
     }, 
+    methods : {
+        filterItems () {
+            var list = [];
+
+            for(var i = 0; i < this.data.length; i++) {
+
+                var x = this.selected.indexOf(this.data[i].subCategory);
+
+                if (x >= 0) {
+                    list.push(this.data[i]);
+                }
+            }
+            
+            this.items = list;
+        }
+    },
     created () {       
 
         this.items.splice(0,1);
@@ -96,13 +114,10 @@ export default {
 
         for(var i = 0; i < data.length; i++) {            
             var d = data[i];
-            d.qualityText = "";                
-            
+            d.qualityText = "";                            
             d.hasSpecials = false;
 
             if (typeof data[i].specialAbilities === "undefined") {                        
-                console.log("undefined");
-                console.log(data[i]);
             } else {
                 d.hasSpecials = true;
             }
@@ -141,8 +156,6 @@ export default {
             } else {
                 d.hasSpecials = true;
             }
-
-            
             
             this.items.push(d);        
         }
@@ -151,7 +164,7 @@ export default {
 
         for(var i = 0; i < data.length; i++) {            
             var d = data[i];
-            d.subCategory = d.category;
+            
             d.hasSpecials = false;            
             d.qualityText = "";
         
@@ -185,6 +198,8 @@ export default {
 
             this.items.push(d);        
         }
+
+        this.data = this.items;
     }    
 }
 </script>

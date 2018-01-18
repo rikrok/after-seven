@@ -14,9 +14,7 @@
     "critical": 4,
     "range": "Engaged",
     "specialAbilities": [
-      "(Passive): To wield a Cumbersome weapon properly, the character needs a Brawn characteristic equal to or greater than the weapon’s Cumbersome rating. For each point of Brawn by which the character is deficient, they must increase the difficulty of all checks made while using the weapon by one. ",
-      "(Passive): A weapon’s Slow-Firing rating dictates the number of rounds that must pass before the weapon can be fired again after attacking. (x1)",
-      "(Passive): A weapon with this quality can only deal strain damage (damage applied to the target’s strain threshold, and thus soaked)"
+      "See Item Qualities descrption in the Genesys Core Rulebook"
     ],
     "qualities": [
       {
@@ -144,10 +142,7 @@
     "critical": 2,
     "range": "Extreme",
     "specialAbilities": [
-      "(Active): Increase difficulty by one level, spend two advantages if the attack hits. Each hit adds base damage plus the number of successes on the check. See page 86 in the rule book for more detail.",
-      "(Passive): To wield a Cumbersome weapon properly, the character needs a Brawn characteristic equal to or greater than the weapon’s Cumbersome rating. For each point of Brawn by which the character is deficient, they must increase the difficulty of all checks made while using the weapon by one. ",
-      "(Passive): To wield an Unwieldy weapon properly, the character needs an Agility characteristic equal to or greater than the weapon’s Unwieldy rating. For each point of Agility by which the character is deficient, they must increase the difficulty of all checks made while using the weapon by one.",
-      "(Passive): When an attack with this weapon results in a Critical Injury or Hit, the character adds ten times the Vicious rating to the Critical roll."
+      "See Item Qualities descrption in the Genesys Core Rulebook"
     ],
     "qualities": [
       {
@@ -275,9 +270,7 @@
     "critical": 3,
     "range": "Long",
     "specialAbilities": [
-      "(Active): Increase difficulty by one level, spend two advantages if the attack hits. Each hit adds base damage plus the number of successes on the check. See page 86 in the rule book for more detail.",
-      "(Passive): To wield a Cumbersome weapon properly, the character needs a Brawn characteristic equal to or greater than the weapon’s Cumbersome rating. For each point of Brawn by which the character is deficient, they must increase the difficulty of all checks made while using the weapon by one. ",
-      "(Passive): Any hits from this weapon ignore a number of points point of soak equal to the weapon’s Pierce rating. If the weapon has more ranks of Pierce than the target’s total soak, it completely ignores the target’s soak.(x2)"
+      "See Item Qualities descrption in the Genesys Core Rulebook"
     ],
     "qualities": [
       {
@@ -405,9 +398,7 @@
     "critical": 2,
     "range": "Medium",
     "specialAbilities": [
-      "(Active): See page 86 in the rule book for more detail.",
-      "(Active): See page 87 in the rule book for more detail.",
-      "(Passive): To wield a Cumbersome weapon properly, the character needs a Brawn characteristic equal to or greater than the weapon’s Cumbersome rating. For each point of Brawn by which the character is deficient, they must increase the difficulty of all checks made while using the weapon by one. "
+      "See Item Qualities descrption in the Genesys Core Rulebook"
     ],
     "qualities": [
       {
@@ -535,7 +526,7 @@
     "critical": 3,
     "range": "Engaged",
     "specialAbilities": [
-      "(Passive): When an attack with this weapon results in a Critical Injury or Hit, the character adds ten times the Vicious rating to the Critical roll."
+      "See Item Qualities descrption in the Genesys Core Rulebook"
     ],
     "qualities": [
       {
@@ -663,9 +654,7 @@
     "critical": 2,
     "range": "Engaged",
     "specialAbilities": [
-      "(Passive): To wield a Cumbersome weapon properly, the character needs a Brawn characteristic equal to or greater than the weapon’s Cumbersome rating. For each point of Brawn by which the character is deficient, they must increase the difficulty of all checks made while using the weapon by one. ",
-      "(Passive): An item with the Defensive quality increases the user’s melee defense by its Defensive rating.",
-      "(Passive): Any hits from this weapon ignore a number of points point of soak equal to the weapon’s Pierce rating. If the weapon has more ranks of Pierce than the target’s total soak, it completely ignores the target’s soak.(x1)"
+      "See Item Qualities descrption in the Genesys Core Rulebook"
     ],
     "qualities": [
       {
@@ -793,7 +782,7 @@
     "critical": 2,
     "range": "Engaged",
     "specialAbilities": [
-      "(Passive): When an attack with this weapon results in a Critical Injury or Hit, the character adds ten times the Vicious rating to the Critical roll."
+      "See Item Qualities descrption in the Genesys Core Rulebook"
     ],
     "qualities": [
       {
@@ -921,9 +910,7 @@
     "critical": 2,
     "range": "Engaged",
     "specialAbilities": [
-      "(Passive): Any hits from this weapon ignore a number of points point of soak equal to the weapon’s Pierce rating. If the weapon has more ranks of Pierce than the target’s total soak, it completely ignores the target’s soak.(x4)",
-      "(Passive): A weapon’s Slow-Firing rating dictates the number of rounds that must pass before the weapon can be fired again after attacking. (x3)",
-      "(Passive): When an attack with this weapon results in a Critical Injury or Hit, the character adds ten times the Vicious rating to the Critical roll."
+      "See Item Qualities descrption in the Genesys Core Rulebook"
     ],
     "qualities": [
       {
@@ -1051,9 +1038,7 @@
     "critical": 3,
     "range": "Engaged",
     "specialAbilities": [
-      "(Passive): To wield a Cumbersome weapon properly, the character needs a Brawn characteristic equal to or greater than the weapon’s Cumbersome rating. For each point of Brawn by which the character is deficient, they must increase the difficulty of all checks made while using the weapon by one. ",
-      "(Passive): Any hits from this weapon ignore a number of points point of soak equal to the weapon’s Pierce rating. If the weapon has more ranks of Pierce than the target’s total soak, it completely ignores the target’s soak.(x2)",
-      "(Passive): When an attack with this weapon results in a Critical Injury or Hit, the character adds ten times the Vicious rating to the Critical roll."
+      "See Item Qualities descrption in the Genesys Core Rulebook"
     ],
     "qualities": [
       {
@@ -1181,8 +1166,7 @@
     "critical": 3,
     "range": "Engaged",
     "specialAbilities": [
-      "(Passive): An item with the Defensive quality increases the user’s melee defense by its Defensive rating.",
-      "(Passive): Any hits from this weapon ignore a number of points point of soak equal to the weapon’s Pierce rating. If the weapon has more ranks of Pierce than the target’s total soak, it completely ignores the target’s soak.(x1)"
+      "See Item Qualities descrption in the Genesys Core Rulebook"
     ],
     "qualities": [
       {
@@ -1310,10 +1294,7 @@
     "critical": 2,
     "range": "Engaged",
     "specialAbilities": [
-      "(Passive): To wield a Cumbersome weapon properly, the character needs a Brawn characteristic equal to or greater than the weapon’s Cumbersome rating. For each point of Brawn by which the character is deficient, they must increase the difficulty of all checks made while using the weapon by one.",
-      "(Passive): An item with the Defensive quality increases the user’s melee defense by its Defensive rating. ",
-      "(Passive): Any hits from this weapon ignore a number of points point of soak equal to the weapon’s Pierce rating. If the weapon has more ranks of Pierce than the target’s total soak, it completely ignores the target’s soak.(x1)",
-      "(Passive): When an attack with this weapon results in a Critical Injury or Hit, the character adds ten times the Vicious rating to the Critical roll."
+      "See Item Qualities descrption in the Genesys Core Rulebook"
     ],
     "qualities": [
       {
@@ -1566,7 +1547,7 @@
     "critical": 4,
     "range": "Engaged",
     "specialAbilities": [
-      "(Passive): For each level of the accurate quality, the attacker adds one boost die to their combat checks while using this weapon. (x1)"
+      "See Item Qualities descrption in the Genesys Core Rulebook"
     ],
     "qualities": [
       {
@@ -1819,7 +1800,7 @@
     "critical": 3,
     "range": "Engaged",
     "specialAbilities": [
-      "(Passive): For each level of the accurate quality, the attacker adds one boost die to their combat checks while using this weapon. (x1)"
+      "See Item Qualities descrption in the Genesys Core Rulebook"
     ],
     "qualities": [
       {
@@ -2072,9 +2053,7 @@
     "critical": 3,
     "range": "Engaged",
     "specialAbilities": [
-      "(Passive): To wield a Cumbersome weapon properly, the character needs a Brawn characteristic equal to or greater than the weapon’s Cumbersome rating. For each point of Brawn by which the character is deficient, they must increase the difficulty of all checks made while using the weapon by one. ",
-      "(Active): One target hit by the attack is disoriented (see page 114) for a number of rounds equal to the weapon’s Disorient rating. A disoriented target adds one setback die to all skill checks they perform. If multiple targets suffer hits from a weapon with Disorient, the quality may be triggered multiple times, affecting a different target each time. ",
-      "(Passive): When an attack with this weapon results in a Critical Injury or Hit, the character adds ten times the Vicious rating to the Critical roll."
+      "See Item Qualities descrption in the Genesys Core Rulebook"
     ],
     "qualities": [
       {
@@ -2202,12 +2181,7 @@
     "critical": 2,
     "range": "Engaged",
     "specialAbilities": [
-      "(Passive): To wield a Cumbersome weapon properly, the character needs a Brawn characteristic equal to or greater than the weapon’s Cumbersome rating. For each point of Brawn by which the character is deficient, they must increase the difficulty of all checks made while using the weapon by one.",
-      "(Passive): An item with the Defensive quality increases the user’s melee defense by its Defensive rating. ",
-      "(Passive): A weapon with the Limited Ammo quality may be used to make a number of attacks equal to its Limited Ammo rating before it must be reloaded with a maneuver. In addition, each shot expends one of a limited number of rounds of ammo",
-      " more ammo must be purchased or obtained before anyone fires the weapon again. ",
-      "(Passive): Items with this quality require time to set up before being used. The user must perform a number of preparation maneuvers equal to the item’s Prepare rating before using the item.",
-      "(Passive): When an attack with this weapon results in a Critical Injury or Hit, the character adds ten times the Vicious rating to the Critical roll."
+      "See Item Qualities descrption in the Genesys Core Rulebook"
     ],
     "qualities": [
       {
@@ -2335,8 +2309,7 @@
     "critical": 2,
     "range": "Engaged",
     "specialAbilities": [
-      "(Passive): Accurate weapons are easier to aim or wield, whether through design or technology. For each level of this quality, the attacker adds one boost die to their combat checks while using this weapon.",
-      "(Passive): When an attack with this weapon results in a Critical Injury or Hit, the character adds ten times the Vicious rating to the Critical roll."
+      "See Item Qualities descrption in the Genesys Core Rulebook"
     ],
     "qualities": [
       {
@@ -2455,8 +2428,8 @@
     "subCategory": "Melee Weapons",
     "name": "Royal Rapier",
     "encumbrance": 3,
-    "hardPoints": 2,
-    "value": 450,
+    "hardPoints": 0,
+    "value": 550,
     "rarity": 4,
     "description": "A very beautiful and ornate sword used by the Kingdom of Quebec. ",
     "skill": "Melee",
@@ -2467,9 +2440,7 @@
       "Duelist Cross Guard"
     ],
     "specialAbilities": [
-      "(Active) When an opponent resolves a melee combat check against the wielder, if the check generated at least one uncanceled threat, the wielder may suffer 1 strain as an out-of-turn incidental to add two threat to the results.",
-      "(Passive): Accurate weapons are easier to aim or wield, whether through design or technology. For each level of this quality, the attacker adds one boost die to their combat checks while using this weapon.",
-      "(Passive): When an attack with this weapon results in a Critical Injury or Hit, the character adds ten times the Vicious rating to the Critical roll."
+      "See Item Qualities descrption in the Genesys Core Rulebook and the Duelist Cross Guard attachment on page 207."
     ],
     "qualities": [
       {
@@ -2597,7 +2568,7 @@
     "critical": 3,
     "range": "Engaged",
     "specialAbilities": [
-      "(Passive) Generate one automatic advantagea on all checks related to its use."
+      "See Item Qualities descrption in the Genesys Core Rulebook"
     ],
     "qualities": [
       {
@@ -2725,9 +2696,7 @@
     "critical": 6,
     "range": "Engaged",
     "specialAbilities": [
-      "(Passive): An item with the Defensive quality increases the user’s melee defense by its Defensive rating.",
-      "(Passive): An item with the Defensive quality increases the user’s melee defense by its Defensive rating.",
-      "(Passive): An item with the Deflection quality increases the user’s ranged defense by its Deflection rating."
+      "See Item Qualities descrption in the Genesys Core Rulebook"
     ],
     "qualities": [
       {
@@ -2843,273 +2812,10 @@
   {
     "id": "W23",
     "category": "Weapon",
-    "subCategory": "Melee Weapons",
-    "name": "Thunderknife (Blade)",
-    "encumbrance": 4,
-    "hardPoints": 2,
-    "value": 1100,
-    "rarity": 6,
-    "description": "An unbalanced and awkward cleaver of sorts that has a barrel for a hilt. It can chop fast and is very heavy.",
-    "skill": "Melee",
-    "damage": 5,
-    "critical": 2,
-    "range": "Engaged",
-    "specialAbilities": [
-      "Can be used as a pistol.",
-      "(Passive): To wield a Cumbersome weapon properly, the character needs a Brawn characteristic equal to or greater than the weapon’s Cumbersome rating. For each point of Brawn by which the character is deficient, they must increase the difficulty of all checks made while using the weapon by one. ",
-      "(Passive): Any hits from this weapon ignore a number of points point of soak equal to the weapon’s Pierce rating. If the weapon has more ranks of Pierce than the target’s total soak, it completely ignores the target’s soak.(x2)",
-      "(Passive): To wield an Unwieldy weapon properly, the character needs an Agility characteristic equal to or greater than the weapon’s Unwieldy rating. For each point of Agility by which the character is deficient, they must increase the difficulty of all checks made while using the weapon by one."
-    ],
-    "qualities": [
-      {
-        "name": "accurate",
-        "value": 0
-      },
-      {
-        "name": "auto-fire",
-        "value": 0
-      },
-      {
-        "name": "blast",
-        "value": 0
-      },
-      {
-        "name": "breach",
-        "value": 0
-      },
-      {
-        "name": "burn",
-        "value": 0
-      },
-      {
-        "name": "concussive",
-        "value": 0
-      },
-      {
-        "name": "cumbersome",
-        "value": 2
-      },
-      {
-        "name": "defensive",
-        "value": 0
-      },
-      {
-        "name": "deflection",
-        "value": 0
-      },
-      {
-        "name": "disorient",
-        "value": 0
-      },
-      {
-        "name": "ensnare",
-        "value": 0
-      },
-      {
-        "name": "guided",
-        "value": 0
-      },
-      {
-        "name": "inaccurate",
-        "value": 0
-      },
-      {
-        "name": "inferior",
-        "value": 0
-      },
-      {
-        "name": "knockdown",
-        "value": 0
-      },
-      {
-        "name": "limited ammo",
-        "value": 0
-      },
-      {
-        "name": "linked",
-        "value": 0
-      },
-      {
-        "name": "pierce",
-        "value": 2
-      },
-      {
-        "name": "prepare",
-        "value": 0
-      },
-      {
-        "name": "reinforced",
-        "value": 0
-      },
-      {
-        "name": "slow-firing",
-        "value": 0
-      },
-      {
-        "name": "stun",
-        "value": 0
-      },
-      {
-        "name": "stun damage",
-        "value": 0
-      },
-      {
-        "name": "superior",
-        "value": 0
-      },
-      {
-        "name": "tractor",
-        "value": 0
-      },
-      {
-        "name": "unwieldy",
-        "value": 2
-      },
-      {
-        "name": "vicious",
-        "value": 0
-      }
-    ]
-  },
-  {
-    "id": "W24",
-    "category": "Weapon",
-    "subCategory": "Melee Weapons",
-    "name": "Thundersword (Blade)",
-    "encumbrance": 7,
-    "hardPoints": 4,
-    "value": 1200,
-    "rarity": 6,
-    "description": "An unbalanced and awkward longsword of sorts that has a barrel for a hilt. It can chop fast and is very heavy.",
-    "skill": "Melee",
-    "damage": 4,
-    "critical": 3,
-    "range": "Engaged",
-    "specialAbilities": [
-      "Can be used as a rifle.",
-      "(Passive): To wield a Cumbersome weapon properly, the character needs a Brawn characteristic equal to or greater than the weapon’s Cumbersome rating. For each point of Brawn by which the character is deficient, they must increase the difficulty of all checks made while using the weapon by one.",
-      "(Passive): An item with the Defensive quality increases the user’s melee defense by its Defensive rating. ",
-      "(Passive): To wield an Unwieldy weapon properly, the character needs an Agility characteristic equal to or greater than the weapon’s Unwieldy rating. For each point of Agility by which the character is deficient, they must increase the difficulty of all checks made while using the weapon by one.",
-      "(Passive): When an attack with this weapon results in a Critical Injury or Hit, the character adds ten times the Vicious rating to the Critical roll."
-    ],
-    "qualities": [
-      {
-        "name": "accurate",
-        "value": 0
-      },
-      {
-        "name": "auto-fire",
-        "value": 0
-      },
-      {
-        "name": "blast",
-        "value": 0
-      },
-      {
-        "name": "breach",
-        "value": 0
-      },
-      {
-        "name": "burn",
-        "value": 0
-      },
-      {
-        "name": "concussive",
-        "value": 0
-      },
-      {
-        "name": "cumbersome",
-        "value": 2
-      },
-      {
-        "name": "defensive",
-        "value": 1
-      },
-      {
-        "name": "deflection",
-        "value": 0
-      },
-      {
-        "name": "disorient",
-        "value": 0
-      },
-      {
-        "name": "ensnare",
-        "value": 0
-      },
-      {
-        "name": "guided",
-        "value": 0
-      },
-      {
-        "name": "inaccurate",
-        "value": 0
-      },
-      {
-        "name": "inferior",
-        "value": 0
-      },
-      {
-        "name": "knockdown",
-        "value": 0
-      },
-      {
-        "name": "limited ammo",
-        "value": 0
-      },
-      {
-        "name": "linked",
-        "value": 0
-      },
-      {
-        "name": "pierce",
-        "value": 0
-      },
-      {
-        "name": "prepare",
-        "value": 0
-      },
-      {
-        "name": "reinforced",
-        "value": 0
-      },
-      {
-        "name": "slow-firing",
-        "value": 0
-      },
-      {
-        "name": "stun",
-        "value": 0
-      },
-      {
-        "name": "stun damage",
-        "value": 0
-      },
-      {
-        "name": "superior",
-        "value": 0
-      },
-      {
-        "name": "tractor",
-        "value": 0
-      },
-      {
-        "name": "unwieldy",
-        "value": 2
-      },
-      {
-        "name": "vicious",
-        "value": 1
-      }
-    ]
-  },
-  {
-    "id": "W25",
-    "category": "Weapon",
     "subCategory": "Ranged (Light) Weapons",
     "name": "Confederate Hand Cannon",
     "encumbrance": 3,
-    "hardPoints": 2,
+    "hardPoints": 0,
     "value": 2850,
     "rarity": 9,
     "description": "A dual barrel thick shotgun that fires out a wide blast of shrapnel with thick pluming smoke after the blast.",
@@ -3121,13 +2827,263 @@
       "Hair Trigger"
     ],
     "specialAbilities": [
-      "Add one boost die when using this weapon.",
-      "(Active): See page 86 in the rule book for more detail.",
-      "(Passive): A weapon with the Limited Ammo quality may be used to make a number of attacks equal to its Limited Ammo rating before it must be reloaded with a maneuver. In addition, each shot expends one of a limited number of rounds of ammo",
-      " more ammo must be purchased or obtained before anyone fires the weapon again. ",
-      "(Passive): Any hits from this weapon ignore a number of points point of soak equal to the weapon’s Pierce rating. If the weapon has more ranks of Pierce than the target’s total soak, it completely ignores the target’s soak.(x1)",
-      "(Passive): To wield an Unwieldy weapon properly, the character needs an Agility characteristic equal to or greater than the weapon’s Unwieldy rating. For each point of Agility by which the character is deficient, they must increase the difficulty of all checks made while using the weapon by one.",
-      "(Passive): When an attack with this weapon results in a Critical Injury or Hit, the character adds ten times the Vicious rating to the Critical roll."
+      "See Item Qualities descrption in the Genesys Core Rulebook and the Hair Trigger attachment on page 207."
+    ],
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 0
+      },
+      {
+        "name": "auto-fire",
+        "value": 0
+      },
+      {
+        "name": "blast",
+        "value": 3
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 0
+      },
+      {
+        "name": "concussive",
+        "value": 0
+      },
+      {
+        "name": "cumbersome",
+        "value": 0
+      },
+      {
+        "name": "defensive",
+        "value": 0
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 0
+      },
+      {
+        "name": "ensnare",
+        "value": 0
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 0
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 0
+      },
+      {
+        "name": "limited ammo",
+        "value": 2
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 1
+      },
+      {
+        "name": "prepare",
+        "value": 0
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 0
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 2
+      },
+      {
+        "name": "vicious",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "id": "W24",
+    "category": "Weapon",
+    "subCategory": "Ranged (Light) Weapons",
+    "name": "Flintlock Pistol",
+    "encumbrance": 3,
+    "hardPoints": 2,
+    "value": 250,
+    "rarity": 3,
+    "description": "Uses a flint striking ignition mechanism.",
+    "skill": "Ranged (Light)",
+    "damage": 6,
+    "critical": 2,
+    "range": "Medium",
+    "specialAbilities": [
+      "See Item Qualities descrption in the Genesys Core Rulebook"
+    ],
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 0
+      },
+      {
+        "name": "auto-fire",
+        "value": 0
+      },
+      {
+        "name": "blast",
+        "value": 0
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 0
+      },
+      {
+        "name": "concussive",
+        "value": 0
+      },
+      {
+        "name": "cumbersome",
+        "value": 0
+      },
+      {
+        "name": "defensive",
+        "value": 0
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 0
+      },
+      {
+        "name": "ensnare",
+        "value": 0
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 0
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 0
+      },
+      {
+        "name": "limited ammo",
+        "value": 4
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 0
+      },
+      {
+        "name": "prepare",
+        "value": 0
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 0
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 0
+      },
+      {
+        "name": "vicious",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "W25",
+    "category": "Weapon",
+    "subCategory": "Ranged (Light) Weapons",
+    "name": "Hand cannon",
+    "encumbrance": 3,
+    "hardPoints": 2,
+    "value": 950,
+    "rarity": 2,
+    "description": "The most mechanically simplistic form of metal barrel firearms. ",
+    "skill": "Ranged (Light)",
+    "damage": 9,
+    "critical": 3,
+    "range": "Short",
+    "specialAbilities": [
+      "See Item Qualities descrption in the Genesys Core Rulebook"
     ],
     "qualities": [
       {
@@ -3244,268 +3200,6 @@
     "id": "W26",
     "category": "Weapon",
     "subCategory": "Ranged (Light) Weapons",
-    "name": "Flintlock Pistol",
-    "encumbrance": 3,
-    "hardPoints": 2,
-    "value": 250,
-    "rarity": 3,
-    "description": "Uses a flint striking ignition mechanism.",
-    "skill": "Ranged (Light)",
-    "damage": 6,
-    "critical": 2,
-    "range": "Medium",
-    "specialAbilities": [
-      "(Passive): A weapon with the Limited Ammo quality may be used to make a number of attacks equal to its Limited Ammo rating before it must be reloaded with a maneuver. In addition, each shot expends one of a limited number of rounds of ammo",
-      " more ammo must be purchased or obtained before anyone fires the weapon again. "
-    ],
-    "qualities": [
-      {
-        "name": "accurate",
-        "value": 0
-      },
-      {
-        "name": "auto-fire",
-        "value": 0
-      },
-      {
-        "name": "blast",
-        "value": 0
-      },
-      {
-        "name": "breach",
-        "value": 0
-      },
-      {
-        "name": "burn",
-        "value": 0
-      },
-      {
-        "name": "concussive",
-        "value": 0
-      },
-      {
-        "name": "cumbersome",
-        "value": 0
-      },
-      {
-        "name": "defensive",
-        "value": 0
-      },
-      {
-        "name": "deflection",
-        "value": 0
-      },
-      {
-        "name": "disorient",
-        "value": 0
-      },
-      {
-        "name": "ensnare",
-        "value": 0
-      },
-      {
-        "name": "guided",
-        "value": 0
-      },
-      {
-        "name": "inaccurate",
-        "value": 0
-      },
-      {
-        "name": "inferior",
-        "value": 0
-      },
-      {
-        "name": "knockdown",
-        "value": 0
-      },
-      {
-        "name": "limited ammo",
-        "value": 4
-      },
-      {
-        "name": "linked",
-        "value": 0
-      },
-      {
-        "name": "pierce",
-        "value": 0
-      },
-      {
-        "name": "prepare",
-        "value": 0
-      },
-      {
-        "name": "reinforced",
-        "value": 0
-      },
-      {
-        "name": "slow-firing",
-        "value": 0
-      },
-      {
-        "name": "stun",
-        "value": 0
-      },
-      {
-        "name": "stun damage",
-        "value": 0
-      },
-      {
-        "name": "superior",
-        "value": 0
-      },
-      {
-        "name": "tractor",
-        "value": 0
-      },
-      {
-        "name": "unwieldy",
-        "value": 0
-      },
-      {
-        "name": "vicious",
-        "value": 0
-      }
-    ]
-  },
-  {
-    "id": "W27",
-    "category": "Weapon",
-    "subCategory": "Ranged (Light) Weapons",
-    "name": "Hand cannon",
-    "encumbrance": 3,
-    "hardPoints": 2,
-    "value": 950,
-    "rarity": 2,
-    "description": "The most mechanically simplistic form of metal barrel firearms. ",
-    "skill": "Ranged (Light)",
-    "damage": 9,
-    "critical": 3,
-    "range": "Short",
-    "specialAbilities": [
-      "(Active): See page 86 in the rule book for more detail.",
-      "(Passive): A weapon with the Limited Ammo quality may be used to make a number of attacks equal to its Limited Ammo rating before it must be reloaded with a maneuver. In addition, each shot expends one of a limited number of rounds of ammo",
-      " more ammo must be purchased or obtained before anyone fires the weapon again. ",
-      "(Passive): Any hits from this weapon ignore a number of points point of soak equal to the weapon’s Pierce rating. If the weapon has more ranks of Pierce than the target’s total soak, it completely ignores the target’s soak.(x1)",
-      "(Passive): To wield an Unwieldy weapon properly, the character needs an Agility characteristic equal to or greater than the weapon’s Unwieldy rating. For each point of Agility by which the character is deficient, they must increase the difficulty of all checks made while using the weapon by one.",
-      "(Passive): When an attack with this weapon results in a Critical Injury or Hit, the character adds ten times the Vicious rating to the Critical roll."
-    ],
-    "qualities": [
-      {
-        "name": "accurate",
-        "value": 0
-      },
-      {
-        "name": "auto-fire",
-        "value": 0
-      },
-      {
-        "name": "blast",
-        "value": 3
-      },
-      {
-        "name": "breach",
-        "value": 0
-      },
-      {
-        "name": "burn",
-        "value": 0
-      },
-      {
-        "name": "concussive",
-        "value": 0
-      },
-      {
-        "name": "cumbersome",
-        "value": 0
-      },
-      {
-        "name": "defensive",
-        "value": 0
-      },
-      {
-        "name": "deflection",
-        "value": 0
-      },
-      {
-        "name": "disorient",
-        "value": 0
-      },
-      {
-        "name": "ensnare",
-        "value": 0
-      },
-      {
-        "name": "guided",
-        "value": 0
-      },
-      {
-        "name": "inaccurate",
-        "value": 0
-      },
-      {
-        "name": "inferior",
-        "value": 0
-      },
-      {
-        "name": "knockdown",
-        "value": 0
-      },
-      {
-        "name": "limited ammo",
-        "value": 2
-      },
-      {
-        "name": "linked",
-        "value": 0
-      },
-      {
-        "name": "pierce",
-        "value": 1
-      },
-      {
-        "name": "prepare",
-        "value": 0
-      },
-      {
-        "name": "reinforced",
-        "value": 0
-      },
-      {
-        "name": "slow-firing",
-        "value": 0
-      },
-      {
-        "name": "stun",
-        "value": 0
-      },
-      {
-        "name": "stun damage",
-        "value": 0
-      },
-      {
-        "name": "superior",
-        "value": 0
-      },
-      {
-        "name": "tractor",
-        "value": 0
-      },
-      {
-        "name": "unwieldy",
-        "value": 2
-      },
-      {
-        "name": "vicious",
-        "value": 1
-      }
-    ]
-  },
-  {
-    "id": "W28",
-    "category": "Weapon",
-    "subCategory": "Ranged (Light) Weapons",
     "name": "Hand Spring Crossbow",
     "encumbrance": 2,
     "hardPoints": 1,
@@ -3517,9 +3211,7 @@
     "critical": 3,
     "range": "Short",
     "specialAbilities": [
-      "(Active): Increase difficulty by one level, spend two advantages if the attack hits. Each hit adds base damage plus the number of successes on the check. See page 86 in the rule book for more detail.",
-      "(Passive): A weapon with the Limited Ammo quality may be used to make a number of attacks equal to its Limited Ammo rating before it must be reloaded with a maneuver. In addition, each shot expends one of a limited number of rounds of ammo",
-      " more ammo must be purchased or obtained before anyone fires the weapon again. "
+      "See Item Qualities descrption in the Genesys Core Rulebook"
     ],
     "qualities": [
       {
@@ -3633,7 +3325,7 @@
     ]
   },
   {
-    "id": "W29",
+    "id": "W27",
     "category": "Weapon",
     "subCategory": "Ranged (Light) Weapons",
     "name": "Manarok Grenade",
@@ -3647,14 +3339,7 @@
     "critical": 2,
     "range": "Short",
     "specialAbilities": [
-      "(Active): See page 86 in the rule book for more detail.",
-      "(Active): See page 87 in the rule book for more detail.",
-      "(Passive): To wield a Cumbersome weapon properly, the character needs a Brawn characteristic equal to or greater than the weapon’s Cumbersome rating. For each point of Brawn by which the character is deficient, they must increase the difficulty of all checks made while using the weapon by one. ",
-      "(Passive): When making an attack with an Inaccurate weapon, add setback dice to the check equal to the Inaccurate rating. (x2)",
-      "(Active): When Knockdown is triggered, one target hit by the attack is knocked prone. Knockdown requires two advantages to trigger, plus one additional advantage per silhouette of the target beyond 1.",
-      "(Passive): A weapon with the Limited Ammo quality may be used to make a number of attacks equal to its Limited Ammo rating before it must be reloaded with a maneuver. In addition, each shot expends one of a limited number of rounds of ammo",
-      " more ammo must be purchased or obtained before anyone fires the weapon again. ",
-      "(Passive): Items with this quality require time to set up before being used. The user must perform a number of preparation maneuvers equal to the item’s Prepare rating before using the item."
+      "See Item Qualities descrption in the Genesys Core Rulebook"
     ],
     "qualities": [
       {
@@ -3768,7 +3453,7 @@
     ]
   },
   {
-    "id": "W30",
+    "id": "W28",
     "category": "Weapon",
     "subCategory": "Ranged (Light) Weapons",
     "name": "Mini Springslugger",
@@ -3893,7 +3578,7 @@
     ]
   },
   {
-    "id": "W31",
+    "id": "W29",
     "category": "Weapon",
     "subCategory": "Ranged (Light) Weapons",
     "name": "Springslug",
@@ -3907,7 +3592,7 @@
     "critical": 4,
     "range": "Long",
     "specialAbilities": [
-      "(Passive): When making an attack with an Inaccurate weapon, add setback dice to the check equal to the Inaccurate rating. (x2)"
+      "See Item Qualities descrption in the Genesys Core Rulebook"
     ],
     "qualities": [
       {
@@ -4021,139 +3706,7 @@
     ]
   },
   {
-    "id": "W32",
-    "category": "Weapon",
-    "subCategory": "Ranged (Light) Weapons",
-    "name": "Thunderknife (Gun)",
-    "encumbrance": 4,
-    "hardPoints": 2,
-    "value": 1100,
-    "rarity": 6,
-    "description": "A thunderous pistol that produces smoke and death when fired.",
-    "skill": "Ranged (Light)",
-    "damage": 5,
-    "critical": 2,
-    "range": "Short",
-    "specialAbilities": [
-      "(Active): See page 86 in the rule book for more detail.",
-      "(Passive): When making an attack with an Inaccurate weapon, add setback dice to the check equal to the Inaccurate rating. (x1)",
-      "(Passive): Any hits from this weapon ignore a number of points point of soak equal to the weapon’s Pierce rating. If the weapon has more ranks of Pierce than the target’s total soak, it completely ignores the target’s soak.(x2)",
-      "(Passive): To wield an Unwieldy weapon properly, the character needs an Agility characteristic equal to or greater than the weapon’s Unwieldy rating. For each point of Agility by which the character is deficient, they must increase the difficulty of all checks made while using the weapon by one.",
-      "(Passive): When an attack with this weapon results in a Critical Injury or Hit, the character adds ten times the Vicious rating to the Critical roll."
-    ],
-    "qualities": [
-      {
-        "name": "accurate",
-        "value": 0
-      },
-      {
-        "name": "auto-fire",
-        "value": 0
-      },
-      {
-        "name": "blast",
-        "value": 2
-      },
-      {
-        "name": "breach",
-        "value": 0
-      },
-      {
-        "name": "burn",
-        "value": 0
-      },
-      {
-        "name": "concussive",
-        "value": 0
-      },
-      {
-        "name": "cumbersome",
-        "value": 0
-      },
-      {
-        "name": "defensive",
-        "value": 0
-      },
-      {
-        "name": "deflection",
-        "value": 0
-      },
-      {
-        "name": "disorient",
-        "value": 0
-      },
-      {
-        "name": "ensnare",
-        "value": 0
-      },
-      {
-        "name": "guided",
-        "value": 0
-      },
-      {
-        "name": "inaccurate",
-        "value": 1
-      },
-      {
-        "name": "inferior",
-        "value": 0
-      },
-      {
-        "name": "knockdown",
-        "value": 0
-      },
-      {
-        "name": "limited ammo",
-        "value": 0
-      },
-      {
-        "name": "linked",
-        "value": 0
-      },
-      {
-        "name": "pierce",
-        "value": 2
-      },
-      {
-        "name": "prepare",
-        "value": 0
-      },
-      {
-        "name": "reinforced",
-        "value": 0
-      },
-      {
-        "name": "slow-firing",
-        "value": 0
-      },
-      {
-        "name": "stun",
-        "value": 0
-      },
-      {
-        "name": "stun damage",
-        "value": 0
-      },
-      {
-        "name": "superior",
-        "value": 0
-      },
-      {
-        "name": "tractor",
-        "value": 0
-      },
-      {
-        "name": "unwieldy",
-        "value": 2
-      },
-      {
-        "name": "vicious",
-        "value": 1
-      }
-    ]
-  },
-  {
-    "id": "W33",
+    "id": "W30",
     "category": "Weapon",
     "subCategory": "Ranged (Heavy) Weapons",
     "name": "Blunderbuss",
@@ -4167,9 +3720,7 @@
     "critical": 4,
     "range": "Medium",
     "specialAbilities": [
-      "(Active): See page 86 in the rule book for more detail.",
-      "(Passive): When making an attack with an Inaccurate weapon, add setback dice to the check equal to the Inaccurate rating. (x1)",
-      "(Passive): Any hits from this weapon ignore a number of points point of soak equal to the weapon’s Pierce rating. If the weapon has more ranks of Pierce than the target’s total soak, it completely ignores the target’s soak.(x1)"
+      "See Item Qualities descrption in the Genesys Core Rulebook"
     ],
     "qualities": [
       {
@@ -4283,7 +3834,7 @@
     ]
   },
   {
-    "id": "W34",
+    "id": "W31",
     "category": "Weapon",
     "subCategory": "Ranged (Heavy) Weapons",
     "name": "Bow",
@@ -4297,7 +3848,7 @@
     "critical": 3,
     "range": "Medium",
     "specialAbilities": [
-      "(Passive): To wield an Unwieldy weapon properly, the character needs an Agility characteristic equal to or greater than the weapon’s Unwieldy rating. For each point of Agility by which the character is deficient, they must increase the difficulty of all checks made while using the weapon by one."
+      "See Item Qualities descrption in the Genesys Core Rulebook"
     ],
     "qualities": [
       {
@@ -4411,7 +3962,7 @@
     ]
   },
   {
-    "id": "W35",
+    "id": "W32",
     "category": "Weapon",
     "subCategory": "Ranged (Heavy) Weapons",
     "name": "Crossbow",
@@ -4425,8 +3976,7 @@
     "critical": 2,
     "range": "Medium",
     "specialAbilities": [
-      "(Passive): Any hits from this weapon ignore a number of points point of soak equal to the weapon’s Pierce rating. If the weapon has more ranks of Pierce than the target’s total soak, it completely ignores the target’s soak.(x2)",
-      "(Passive): Items with this quality require time to set up before being used. The user must perform a number of preparation maneuvers equal to the item’s Prepare rating before using the item."
+      "See Item Qualities descrption in the Genesys Core Rulebook"
     ],
     "qualities": [
       {
@@ -4540,7 +4090,7 @@
     ]
   },
   {
-    "id": "W36",
+    "id": "W33",
     "category": "Weapon",
     "subCategory": "Ranged (Heavy) Weapons",
     "name": "Light Dreadrifle",
@@ -4554,8 +4104,7 @@
     "critical": 3,
     "range": "Long",
     "specialAbilities": [
-      "(Passive): Accurate weapons are easier to aim or wield, whether through design or technology. For each level of this quality, the attacker adds one boost die to their combat checks while using this weapon.",
-      "(Passive): When an attack with this weapon results in a Critical Injury or Hit, the character adds ten times the Vicious rating to the Critical roll."
+      "See Item Qualities descrption in the Genesys Core Rulebook"
     ],
     "qualities": [
       {
@@ -4669,7 +4218,7 @@
     ]
   },
   {
-    "id": "W37",
+    "id": "W34",
     "category": "Weapon",
     "subCategory": "Ranged (Heavy) Weapons",
     "name": "Longbow",
@@ -4683,7 +4232,7 @@
     "critical": 3,
     "range": "Long",
     "specialAbilities": [
-      "(Passive): To wield an Unwieldy weapon properly, the character needs an Agility characteristic equal to or greater than the weapon’s Unwieldy rating. For each point of Agility by which the character is deficient, they must increase the difficulty of all checks made while using the weapon by one."
+      "See Item Qualities descrption in the Genesys Core Rulebook"
     ],
     "qualities": [
       {
@@ -4797,7 +4346,7 @@
     ]
   },
   {
-    "id": "W38",
+    "id": "W35",
     "category": "Weapon",
     "subCategory": "Ranged (Heavy) Weapons",
     "name": "Repeating Springrifle",
@@ -4811,12 +4360,7 @@
     "critical": 4,
     "range": "Medium",
     "specialAbilities": [
-      "(Active): Increase difficulty by one level, spend two advantages if the attack hits. Each hit adds base damage plus the number of successes on the check. See page 86 in the rule book for more detail.",
-      "(Passive): To wield a Cumbersome weapon properly, the character needs a Brawn characteristic equal to or greater than the weapon’s Cumbersome rating. For each point of Brawn by which the character is deficient, they must increase the difficulty of all checks made while using the weapon by one. ",
-      "(Passive): A weapon with the Limited Ammo quality may be used to make a number of attacks equal to its Limited Ammo rating before it must be reloaded with a maneuver. In addition, each shot expends one of a limited number of rounds of ammo",
-      " more ammo must be purchased or obtained before anyone fires the weapon again. ",
-      "(Passive): Items with this quality require time to set up before being used. The user must perform a number of preparation maneuvers equal to the item’s Prepare rating before using the item.",
-      "(Passive): To wield an Unwieldy weapon properly, the character needs an Agility characteristic equal to or greater than the weapon’s Unwieldy rating. For each point of Agility by which the character is deficient, they must increase the difficulty of all checks made while using the weapon by one."
+      "See Item Qualities descrption in the Genesys Core Rulebook"
     ],
     "qualities": [
       {
@@ -4930,12 +4474,12 @@
     ]
   },
   {
-    "id": "W39",
+    "id": "W36",
     "category": "Weapon",
     "subCategory": "Ranged (Heavy) Weapons",
     "name": "Royal Sparkle Rifle",
     "encumbrance": 5,
-    "hardPoints": 3,
+    "hardPoints": 0,
     "value": 2100,
     "rarity": 9,
     "description": "Used by the Kingdom of Quebec officers. It is made for easy access to dispense the Crown’s will. ",
@@ -4948,9 +4492,7 @@
       " Weapon Sling"
     ],
     "specialAbilities": [
-      "Add one success and one threat when user first uses this weapon in the encounter.",
-      "(Active): One target hit by the attack is disoriented (see page 114) for a number of rounds equal to the weapon’s Disorient rating. A disoriented target adds one setback die to all skill checks they perform. If multiple targets suffer hits from a weapon with Disorient, the quality may be triggered multiple times, affecting a different target each time. ",
-      "(Passive): A weapon with this quality can only deal strain damage (damage applied to the target’s strain threshold, and thus soaked)"
+      "See Item Qualities descrption in the Genesys Core Rulebook and the Hair Trigger attachment on page 207 and the Weapon Sling on page 209."
     ],
     "qualities": [
       {
@@ -5044,6 +4586,389 @@
       {
         "name": "stun damage",
         "value": 2
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 0
+      },
+      {
+        "name": "vicious",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "W37",
+    "category": "Weapon",
+    "subCategory": "Ranged (Heavy) Weapons",
+    "name": "Slaver's Rifle",
+    "encumbrance": 6,
+    "hardPoints": 3,
+    "value": 600,
+    "description": "A rifle that shoots out a net to ensnare and trap targets. A small coating of a liquid charged form of Sparklebit is on the net itself, giving a small bolt of electric shock that disorientates the target as well.",
+    "skill": "Ranged (Heavy)",
+    "damage": 1,
+    "critical": 6,
+    "range": "Short",
+    "specialAbilities": [
+      "See Item Qualities descrption in the Genesys Core Rulebook"
+    ],
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 0
+      },
+      {
+        "name": "auto-fire",
+        "value": 0
+      },
+      {
+        "name": "blast",
+        "value": 0
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 0
+      },
+      {
+        "name": "concussive",
+        "value": 0
+      },
+      {
+        "name": "cumbersome",
+        "value": 0
+      },
+      {
+        "name": "defensive",
+        "value": 0
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 4
+      },
+      {
+        "name": "ensnare",
+        "value": 2
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 0
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 0
+      },
+      {
+        "name": "limited ammo",
+        "value": 1
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 0
+      },
+      {
+        "name": "prepare",
+        "value": 0
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 0
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 2
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 0
+      },
+      {
+        "name": "vicious",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "W38",
+    "category": "Weapon",
+    "subCategory": "Ranged (Heavy) Weapons",
+    "name": "Sniper Rifle",
+    "encumbrance": 2,
+    "hardPoints": 1,
+    "value": 1000,
+    "rarity": 5,
+    "description": "Serves to fulfil the tactical need for long range surveillance, antipersonnel and anti-material operations.",
+    "skill": "Ranged (Heavy)",
+    "damage": 8,
+    "critical": 2,
+    "range": "Extreme",
+    "specialAbilities": [
+      "See Item Qualities descrption in the Genesys Core Rulebook"
+    ],
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 2
+      },
+      {
+        "name": "auto-fire",
+        "value": 0
+      },
+      {
+        "name": "blast",
+        "value": 0
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 0
+      },
+      {
+        "name": "concussive",
+        "value": 0
+      },
+      {
+        "name": "cumbersome",
+        "value": 0
+      },
+      {
+        "name": "defensive",
+        "value": 0
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 0
+      },
+      {
+        "name": "ensnare",
+        "value": 0
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 0
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 0
+      },
+      {
+        "name": "limited ammo",
+        "value": 4
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 0
+      },
+      {
+        "name": "prepare",
+        "value": 0
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 0
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 0
+      },
+      {
+        "name": "vicious",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "W39",
+    "category": "Weapon",
+    "subCategory": "Ranged (Heavy) Weapons",
+    "name": "Sparklebit Rifle",
+    "encumbrance": 7,
+    "hardPoints": 4,
+    "value": 700,
+    "rarity": 7,
+    "description": "Designed by alchemists of the Kingdom of Quebec, they use a special kind of ammunition and gunpowder known as Sparklebit. Upon being struck by a sparklebit bullet, small amounts of electricity will jump out of the bullet and into the target.",
+    "skill": "Ranged (Heavy)",
+    "damage": 6,
+    "critical": 4,
+    "range": "Medium",
+    "specialAbilities": [
+      "See Item Qualities descrption in the Genesys Core Rulebook"
+    ],
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 0
+      },
+      {
+        "name": "auto-fire",
+        "value": 0
+      },
+      {
+        "name": "blast",
+        "value": 0
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 0
+      },
+      {
+        "name": "concussive",
+        "value": 0
+      },
+      {
+        "name": "cumbersome",
+        "value": 0
+      },
+      {
+        "name": "defensive",
+        "value": 0
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 2
+      },
+      {
+        "name": "ensnare",
+        "value": 0
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 0
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 0
+      },
+      {
+        "name": "limited ammo",
+        "value": 0
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 0
+      },
+      {
+        "name": "prepare",
+        "value": 0
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 0
+      },
+      {
+        "name": "stun",
+        "value": 2
+      },
+      {
+        "name": "stun damage",
+        "value": 0
       },
       {
         "name": "superior",
@@ -5067,396 +4992,6 @@
     "id": "W40",
     "category": "Weapon",
     "subCategory": "Ranged (Heavy) Weapons",
-    "name": "Slaver's Rifle",
-    "encumbrance": 6,
-    "hardPoints": 3,
-    "value": 600,
-    "description": "A rifle that shoots out a net to ensnare and trap targets. A small coating of a liquid charged form of Sparklebit is on the net itself, giving a small bolt of electric shock that disorientates the target as well.",
-    "skill": "Ranged (Heavy)",
-    "damage": 1,
-    "critical": 6,
-    "range": "Short",
-    "specialAbilities": [
-      "(Active): One target hit by the attack is disoriented (see page 114) for a number of rounds equal to the weapon’s Disorient rating. A disoriented target adds one setback die to all skill checks they perform. If multiple targets suffer hits from a weapon with Disorient, the quality may be triggered multiple times, affecting a different target each time. ",
-      "(Active): See page 87 in the rule book for more detail.",
-      "(Passive): A weapon with the Limited Ammo quality may be used to make a number of attacks equal to its Limited Ammo rating before it must be reloaded with a maneuver. In addition, each shot expends one of a limited number of rounds of ammo",
-      " more ammo must be purchased or obtained before anyone fires the weapon again. ",
-      "(Passive): A weapon with this quality can only deal strain damage (damage applied to the target’s strain threshold, and thus soaked)"
-    ],
-    "qualities": [
-      {
-        "name": "accurate",
-        "value": 0
-      },
-      {
-        "name": "auto-fire",
-        "value": 0
-      },
-      {
-        "name": "blast",
-        "value": 0
-      },
-      {
-        "name": "breach",
-        "value": 0
-      },
-      {
-        "name": "burn",
-        "value": 0
-      },
-      {
-        "name": "concussive",
-        "value": 0
-      },
-      {
-        "name": "cumbersome",
-        "value": 0
-      },
-      {
-        "name": "defensive",
-        "value": 0
-      },
-      {
-        "name": "deflection",
-        "value": 0
-      },
-      {
-        "name": "disorient",
-        "value": 4
-      },
-      {
-        "name": "ensnare",
-        "value": 2
-      },
-      {
-        "name": "guided",
-        "value": 0
-      },
-      {
-        "name": "inaccurate",
-        "value": 0
-      },
-      {
-        "name": "inferior",
-        "value": 0
-      },
-      {
-        "name": "knockdown",
-        "value": 0
-      },
-      {
-        "name": "limited ammo",
-        "value": 1
-      },
-      {
-        "name": "linked",
-        "value": 0
-      },
-      {
-        "name": "pierce",
-        "value": 0
-      },
-      {
-        "name": "prepare",
-        "value": 0
-      },
-      {
-        "name": "reinforced",
-        "value": 0
-      },
-      {
-        "name": "slow-firing",
-        "value": 0
-      },
-      {
-        "name": "stun",
-        "value": 0
-      },
-      {
-        "name": "stun damage",
-        "value": 2
-      },
-      {
-        "name": "superior",
-        "value": 0
-      },
-      {
-        "name": "tractor",
-        "value": 0
-      },
-      {
-        "name": "unwieldy",
-        "value": 0
-      },
-      {
-        "name": "vicious",
-        "value": 0
-      }
-    ]
-  },
-  {
-    "id": "W41",
-    "category": "Weapon",
-    "subCategory": "Ranged (Heavy) Weapons",
-    "name": "Sniper Rifle",
-    "encumbrance": 2,
-    "hardPoints": 1,
-    "value": 1000,
-    "rarity": 5,
-    "description": "Serves to fulfil the tactical need for long range surveillance, antipersonnel and anti-material operations.",
-    "skill": "Ranged (Heavy)",
-    "damage": 8,
-    "critical": 2,
-    "range": "Extreme",
-    "specialAbilities": [
-      "(Passive): Accurate weapons are easier to aim or wield, whether through design or technology. For each level of this quality, the attacker adds one boost die to their combat checks while using this weapon. (x2)",
-      "(Passive): A weapon with the Limited Ammo quality may be used to make a number of attacks equal to its Limited Ammo rating before it must be reloaded with a maneuver. In addition, each shot expends one of a limited number of rounds of ammo",
-      " more ammo must be purchased or obtained before anyone fires the weapon again. "
-    ],
-    "qualities": [
-      {
-        "name": "accurate",
-        "value": 2
-      },
-      {
-        "name": "auto-fire",
-        "value": 0
-      },
-      {
-        "name": "blast",
-        "value": 0
-      },
-      {
-        "name": "breach",
-        "value": 0
-      },
-      {
-        "name": "burn",
-        "value": 0
-      },
-      {
-        "name": "concussive",
-        "value": 0
-      },
-      {
-        "name": "cumbersome",
-        "value": 0
-      },
-      {
-        "name": "defensive",
-        "value": 0
-      },
-      {
-        "name": "deflection",
-        "value": 0
-      },
-      {
-        "name": "disorient",
-        "value": 0
-      },
-      {
-        "name": "ensnare",
-        "value": 0
-      },
-      {
-        "name": "guided",
-        "value": 0
-      },
-      {
-        "name": "inaccurate",
-        "value": 0
-      },
-      {
-        "name": "inferior",
-        "value": 0
-      },
-      {
-        "name": "knockdown",
-        "value": 0
-      },
-      {
-        "name": "limited ammo",
-        "value": 4
-      },
-      {
-        "name": "linked",
-        "value": 0
-      },
-      {
-        "name": "pierce",
-        "value": 0
-      },
-      {
-        "name": "prepare",
-        "value": 0
-      },
-      {
-        "name": "reinforced",
-        "value": 0
-      },
-      {
-        "name": "slow-firing",
-        "value": 0
-      },
-      {
-        "name": "stun",
-        "value": 0
-      },
-      {
-        "name": "stun damage",
-        "value": 0
-      },
-      {
-        "name": "superior",
-        "value": 0
-      },
-      {
-        "name": "tractor",
-        "value": 0
-      },
-      {
-        "name": "unwieldy",
-        "value": 0
-      },
-      {
-        "name": "vicious",
-        "value": 0
-      }
-    ]
-  },
-  {
-    "id": "W42",
-    "category": "Weapon",
-    "subCategory": "Ranged (Heavy) Weapons",
-    "name": "Sparklebit Rifle",
-    "encumbrance": 7,
-    "hardPoints": 4,
-    "value": 700,
-    "rarity": 7,
-    "description": "Designed by alchemists of the Kingdom of Quebec, they use a special kind of ammunition and gunpowder known as Sparklebit. Upon being struck by a sparklebit bullet, small amounts of electricity will jump out of the bullet and into the target.",
-    "skill": "Ranged (Heavy)",
-    "damage": 6,
-    "critical": 4,
-    "range": "Medium",
-    "specialAbilities": [
-      "(Active): One target hit by the attack is disoriented (see page 114) for a number of rounds equal to the weapon’s Disorient rating. A disoriented target adds one setback die to all skill checks they perform. If multiple targets suffer hits from a weapon with Disorient, the quality may be triggered multiple times, affecting a different target each time. ",
-      "(Passive): A weapon with this quality can only deal strain damage (damage applied to the target’s strain threshold, and thus soaked)"
-    ],
-    "qualities": [
-      {
-        "name": "accurate",
-        "value": 0
-      },
-      {
-        "name": "auto-fire",
-        "value": 0
-      },
-      {
-        "name": "blast",
-        "value": 0
-      },
-      {
-        "name": "breach",
-        "value": 0
-      },
-      {
-        "name": "burn",
-        "value": 0
-      },
-      {
-        "name": "concussive",
-        "value": 0
-      },
-      {
-        "name": "cumbersome",
-        "value": 0
-      },
-      {
-        "name": "defensive",
-        "value": 0
-      },
-      {
-        "name": "deflection",
-        "value": 0
-      },
-      {
-        "name": "disorient",
-        "value": 2
-      },
-      {
-        "name": "ensnare",
-        "value": 0
-      },
-      {
-        "name": "guided",
-        "value": 0
-      },
-      {
-        "name": "inaccurate",
-        "value": 0
-      },
-      {
-        "name": "inferior",
-        "value": 0
-      },
-      {
-        "name": "knockdown",
-        "value": 0
-      },
-      {
-        "name": "limited ammo",
-        "value": 0
-      },
-      {
-        "name": "linked",
-        "value": 0
-      },
-      {
-        "name": "pierce",
-        "value": 0
-      },
-      {
-        "name": "prepare",
-        "value": 0
-      },
-      {
-        "name": "reinforced",
-        "value": 0
-      },
-      {
-        "name": "slow-firing",
-        "value": 0
-      },
-      {
-        "name": "stun",
-        "value": 0
-      },
-      {
-        "name": "stun damage",
-        "value": 2
-      },
-      {
-        "name": "superior",
-        "value": 0
-      },
-      {
-        "name": "tractor",
-        "value": 0
-      },
-      {
-        "name": "unwieldy",
-        "value": 0
-      },
-      {
-        "name": "vicious",
-        "value": 0
-      }
-    ]
-  },
-  {
-    "id": "W43",
-    "category": "Weapon",
-    "subCategory": "Ranged (Heavy) Weapons",
     "name": "Standard Rifle",
     "encumbrance": 3,
     "hardPoints": 2,
@@ -5468,7 +5003,7 @@
     "critical": 3,
     "range": "Long",
     "specialAbilities": [
-      "(Passive): Accurate weapons are easier to aim or wield, whether through design or technology. For each level of this quality, the attacker adds one boost die to their combat checks while using this weapon."
+      "See Item Qualities descrption in the Genesys Core Rulebook"
     ],
     "qualities": [
       {
@@ -5574,136 +5109,6 @@
       {
         "name": "unwieldy",
         "value": 0
-      },
-      {
-        "name": "vicious",
-        "value": 0
-      }
-    ]
-  },
-  {
-    "id": "W44",
-    "category": "Weapon",
-    "subCategory": "Ranged (Heavy) Weapons",
-    "name": "Thundersword (Gun)",
-    "encumbrance": 7,
-    "hardPoints": 4,
-    "value": 1200,
-    "rarity": 6,
-    "description": "A thunderous pistol that produces smoke and death when fired.",
-    "skill": "Ranged (Heavy)",
-    "damage": 9,
-    "critical": 2,
-    "range": "Short",
-    "specialAbilities": [
-      "(Active): One target hit by the attack is disoriented (see page 114) for a number of rounds equal to the weapon’s Disorient rating. A disoriented target adds one setback die to all skill checks they perform. If multiple targets suffer hits from a weapon with Disorient, the quality may be triggered multiple times, affecting a different target each time. ",
-      "(Passive): When making an attack with an Inaccurate weapon, add setback dice to the check equal to the Inaccurate rating. (x1)",
-      "(Passive): To wield an Unwieldy weapon properly, the character needs an Agility characteristic equal to or greater than the weapon’s Unwieldy rating. For each point of Agility by which the character is deficient, they must increase the difficulty of all checks made while using the weapon by one."
-    ],
-    "qualities": [
-      {
-        "name": "accurate",
-        "value": 0
-      },
-      {
-        "name": "auto-fire",
-        "value": 0
-      },
-      {
-        "name": "blast",
-        "value": 0
-      },
-      {
-        "name": "breach",
-        "value": 0
-      },
-      {
-        "name": "burn",
-        "value": 0
-      },
-      {
-        "name": "concussive",
-        "value": 0
-      },
-      {
-        "name": "cumbersome",
-        "value": 0
-      },
-      {
-        "name": "defensive",
-        "value": 0
-      },
-      {
-        "name": "deflection",
-        "value": 0
-      },
-      {
-        "name": "disorient",
-        "value": 4
-      },
-      {
-        "name": "ensnare",
-        "value": 0
-      },
-      {
-        "name": "guided",
-        "value": 0
-      },
-      {
-        "name": "inaccurate",
-        "value": 1
-      },
-      {
-        "name": "inferior",
-        "value": 0
-      },
-      {
-        "name": "knockdown",
-        "value": 0
-      },
-      {
-        "name": "limited ammo",
-        "value": 0
-      },
-      {
-        "name": "linked",
-        "value": 0
-      },
-      {
-        "name": "pierce",
-        "value": 0
-      },
-      {
-        "name": "prepare",
-        "value": 0
-      },
-      {
-        "name": "reinforced",
-        "value": 0
-      },
-      {
-        "name": "slow-firing",
-        "value": 0
-      },
-      {
-        "name": "stun",
-        "value": 0
-      },
-      {
-        "name": "stun damage",
-        "value": 0
-      },
-      {
-        "name": "superior",
-        "value": 0
-      },
-      {
-        "name": "tractor",
-        "value": 0
-      },
-      {
-        "name": "unwieldy",
-        "value": 2
       },
       {
         "name": "vicious",

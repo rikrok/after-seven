@@ -1,170 +1,302 @@
 [
   {
-    "itemQualityId": "Q1",
-    "itemQuality": "Accurate",
-    "isPassive": 1,
-    "text": "(Passive): For each level of this quality, the attacker using this weapon adds one boost die to their combat checks."
+    "id": "Q1",
+    "name": "Accurate (Item Quality)",
+    "category": "Weapon",
+    "description": "See page 86 in the Genesys Core Rulebook for details."
   },
   {
-    "itemQualityId": "Q2",
-    "itemQuality": "Auto-Fire",
-    "isPassive": 0,
-    "text": "(Active): See page 86 in the rule book for more detail."
+    "id": "Q2",
+    "name": "Auto-Fire (Item Quality)",
+    "category": "Weapon",
+    "description": "See page 86 in the Genesys Core Rulebook for details."
   },
   {
-    "itemQualityId": "Q3",
-    "itemQuality": "Blast",
-    "isPassive": 0,
-    "text": "(Active): See page 86 in the rule book for more detail."
+    "id": "Q3",
+    "name": "Blast (Item Quality)",
+    "category": "Weapon",
+    "description": "See page 86 in the Genesys Core Rulebook for details."
   },
   {
-    "itemQualityId": "Q4",
-    "itemQuality": "Breach",
-    "isPassive": 1,
-    "text": "(Passive): Hits from weapons with the Breach quality ignore one point of vehicle armor for every rating of Breach (meaning they also ignore 10 soak for every rating of Breach)"
+    "id": "Q4",
+    "name": "Breach (Item Quality)",
+    "category": "Weapon",
+    "description": "See page 87 in the Genesys Core Rulebook for details."
   },
   {
-    "itemQualityId": "Q5",
-    "itemQuality": "Burn",
-    "isPassive": 0,
-    "text": "(Active): See page 87 in the rule book for more detail."
+    "id": "Q5",
+    "name": "Burn (Item Quality)",
+    "category": "Weapon",
+    "description": "See page 87 in the Genesys Core Rulebook for details."
   },
   {
-    "itemQualityId": "Q6",
-    "itemQuality": "Concussive ",
-    "isPassive": 0,
-    "text": "(Active): When Concussive is triggered, one target hit by the attack is staggered (see page 114) for a number of rounds equal to the weapon’s Concussive rating. If multiple targets suffer hits from a weapon with Concussive, the quality may be triggered multiple times, affecting a different target each time."
+    "id": "Q6",
+    "name": "Concussive  (Item Quality)",
+    "category": "Weapon",
+    "description": "See page 87 in the Genesys Core Rulebook for details."
   },
   {
-    "itemQualityId": "Q7",
-    "itemQuality": "Cumbersome",
-    "isPassive": 1,
-    "text": "(Passive): To wield a Cumbersome weapon properly, the character needs a Brawn characteristic equal to or greater than the weapon’s Cumbersome rating. For each point of Brawn by which the character is deficient, they must increase the difficulty of all checks made while using the weapon by one. "
+    "id": "Q7",
+    "name": "Cumbersome (Item Quality)",
+    "category": "Weapon",
+    "description": "See page 87 in the Genesys Core Rulebook for details."
   },
   {
-    "itemQualityId": "Q8",
-    "itemQuality": "Defensive",
-    "isPassive": 1,
-    "text": "(Passive): An item with the Defensive quality increases the user’s melee defense by its Defensive rating. "
+    "id": "Q8",
+    "name": "Defensive (Item Quality)",
+    "category": "Both",
+    "description": "See page 87 in the Genesys Core Rulebook for details."
   },
   {
-    "itemQualityId": "Q9",
-    "itemQuality": "Deflection",
-    "isPassive": 1,
-    "text": "(Passive): An item with the Deflection quality increases the user’s ranged defense by its Deflection rating."
+    "id": "Q9",
+    "name": "Deflection (Item Quality)",
+    "category": "Both",
+    "description": "See page 87 in the Genesys Core Rulebook for details."
   },
   {
-    "itemQualityId": "Q10",
-    "itemQuality": "Disorient ",
-    "isPassive": 0,
-    "text": "(Active): One target hit by the attack is disoriented (see page 114) for a number of rounds equal to the weapon’s Disorient rating. A disoriented target adds one setback die to all skill checks they perform. If multiple targets suffer hits from a weapon with Disorient, the quality may be triggered multiple times, affecting a different target each time. "
+    "id": "Q10",
+    "name": "Disorient  (Item Quality)",
+    "category": "Weapon",
+    "description": "See page 87 in the Genesys Core Rulebook for details."
   },
   {
-    "itemQualityId": "Q11",
-    "itemQuality": "Ensnare ",
-    "isPassive": 0,
-    "text": "(Active): See page 87 in the rule book for more detail."
+    "id": "Q11",
+    "name": "Ensnare  (Item Quality)",
+    "category": "Weapon",
+    "description": "See page 87 in the Genesys Core Rulebook for details."
   },
   {
-    "itemQualityId": "Q12",
-    "itemQuality": "Guided",
-    "isPassive": 0,
-    "text": "(Active): A weapon with the Guided quality can track opponents. The Guided quality can only be triggered if an attack misses. If Guided is triggered, the controlling character may make a combat check at the end of the round as an out-of-turn incidental. The difficulty of this combat check is Average; instead of building the ability of the pool normally, add ability die equal to the weapon’s Guided rating. If the check is successful, the weapon strikes the target, and the attack is resolved normally. Guided requires three advantages to activate, unless otherwise specified in the weapon’s description. The Guided quality can activate on any subsequent combat check it makes, representing the projectile continuing to track the target."
+    "id": "Q12",
+    "name": "Guided (Item Quality)",
+    "category": "Weapon",
+    "description": "See page 87 in the Genesys Core Rulebook for details."
   },
   {
-    "itemQualityId": "Q13",
-    "itemQuality": "Inaccurate",
-    "isPassive": 1,
-    "text": "(Passive): When making an attack with an Inaccurate weapon, add setback dice to the check equal to the Inaccurate rating. "
+    "id": "Q13",
+    "name": "Inaccurate (Item Quality)",
+    "category": "Weapon",
+    "description": "See page 87 in the Genesys Core Rulebook for details."
   },
   {
-    "itemQualityId": "Q14",
-    "itemQuality": "Inferior",
-    "isPassive": 1,
-    "text": "(Passive): Inferior items generate an automatic threat on all check related to its use."
+    "id": "Q14",
+    "name": "Inferior (Item Quality)",
+    "category": "Both",
+    "description": "See page 88 in the Genesys Core Rulebook for details."
   },
   {
-    "itemQualityId": "Q15",
-    "itemQuality": "Knockdown",
-    "isPassive": 0,
-    "text": "(Active): When Knockdown is triggered, one target hit by the attack is knocked prone. Knockdown requires two advantages to trigger, plus one additional advantage per silhouette of the target beyond 1."
+    "id": "Q15",
+    "name": "Knockdown (Item Quality)",
+    "category": "Weapon",
+    "description": "See page 88 in the Genesys Core Rulebook for details."
   },
   {
-    "itemQualityId": "Q16",
-    "itemQuality": "Limited Ammo",
-    "isPassive": 1,
-    "text": "(Passive): A weapon with the Limited Ammo quality may be used to make a number of attacks equal to its Limited Ammo rating before it must be reloaded with a maneuver. In addition, each shot expends one of a limited number of rounds of ammo; more ammo must be purchased or obtained before anyone fires the weapon again. "
+    "id": "Q16",
+    "name": "Limited Ammo (Item Quality)",
+    "category": "Weapon",
+    "description": "See page 88 in the Genesys Core Rulebook for details."
   },
   {
-    "itemQualityId": "Q17",
-    "itemQuality": "Linked",
-    "isPassive": 0,
-    "text": "(Active): When a character fires a linked weapon, on a successful attack, the weapon deals one hit. The wielder may spend two advantages to gain an additional hit, and may do so a number of times equal to the weapon’s Linked rating. Additional hits from the Linked weapon may only be applied against the original target. Each hit deals the weapon’s base damage plus damage equal to the successes scored on the check."
+    "id": "Q17",
+    "name": "Linked (Item Quality)",
+    "category": "Weapon",
+    "description": "See page 88 in the Genesys Core Rulebook for details."
   },
   {
-    "itemQualityId": "Q18",
-    "itemQuality": "Pierce",
-    "isPassive": 1,
-    "text": "(Passive): Any hits from this weapon ignore a number of points point of soak equal to the weapon’s Pierce rating. If the weapon has more ranks of Pierce than the target’s total soak, it completely ignores the target’s soak."
+    "id": "Q18",
+    "name": "Pierce (Item Quality)",
+    "category": "Weapon",
+    "description": "See page 88 in the Genesys Core Rulebook for details."
   },
   {
-    "itemQualityId": "Q19",
-    "itemQuality": "Prepare",
-    "isPassive": 1,
-    "text": "(Passive): Items with this quality require time to set up before being used. The user must perform a number of preparation maneuvers equal to the item’s Prepare rating before using the item."
+    "id": "Q19",
+    "name": "Prepare (Item Quality)",
+    "category": "Weapon",
+    "description": "See page 88 in the Genesys Core Rulebook for details."
   },
   {
-    "itemQualityId": "Q20",
-    "itemQuality": "Reinforced",
-    "isPassive": 1,
-    "text": "(Passive): Weapons or items with the Reinforced quality are immune to the Sunder quality. Armor with the Reinforced quality make the wearer’s soak immune to the Pierce and Breach qualities. "
+    "id": "Q20",
+    "name": "Reinforced (Item Quality)",
+    "category": "Armor",
+    "description": "See page 88 in the Genesys Core Rulebook for details."
   },
   {
-    "itemQualityId": "Q21",
-    "itemQuality": "Slow-Firing",
-    "isPassive": 1,
-    "text": "(Passive): A weapon’s Slow-Firing rating dictates the number of rounds that must pass before the weapon can be fired again after attacking. "
+    "id": "Q21",
+    "name": "Slow-Firing (Item Quality)",
+    "category": "Weapon",
+    "description": "See page 88 in the Genesys Core Rulebook for details."
   },
   {
-    "itemQualityId": "Q22",
-    "itemQuality": "Stun",
-    "isPassive": 0,
-    "text": "(Active): A weapon with Stun can deal strain to the target. When the Stun quality is activated, it inflicts strain equal to the weapon’s Stun rating. Since this is strain, and not strain damage, it is not reduced by the target’s soak. "
+    "id": "Q22",
+    "name": "Stun (Item Quality)",
+    "category": "Weapon",
+    "description": "See page 88 in the Genesys Core Rulebook for details."
   },
   {
-    "itemQualityId": "Q23",
-    "itemQuality": "Stun Damage",
-    "isPassive": 1,
-    "text": "(Passive): A weapon with this quality can only deal strain damage (damage applied to the target’s strain threshold, and thus soaked)"
+    "id": "Q23",
+    "name": "Stun Damage (Item Quality)",
+    "category": "Weapon",
+    "description": "See page 88 in the Genesys Core Rulebook for details."
   },
   {
-    "itemQualityId": "Q24",
-    "itemQuality": "Sunder",
-    "isPassive": 0,
-    "text": "(Active): That item is damaged one step: to minor if undamaged, from minor to moderate, or from moderate to major. If an item already suffering major damage is the target of a successful Sunder, it is destroyed. Sunder requires one advantage to activate, and may be activated even if the attack is unsuccessful. Sunder may be activated multiple times in the same attack, but each activation must be applied to the same item, potentially taking it from undamaged to destroyed in a single attack."
+    "id": "Q24",
+    "name": "Sunder (Item Quality)",
+    "category": "Weapon",
+    "description": "See page 88 in the Genesys Core Rulebook for details."
   },
   {
-    "itemQualityId": "Q25",
-    "itemQuality": "Superior",
-    "isPassive": 1,
-    "text": "(Passive): Generate one automatic advantagea on all checks related to its use."
+    "id": "Q25",
+    "name": "Superior (Item Quality)",
+    "category": "Both",
+    "description": "See page 88 in the Genesys Core Rulebook for details."
   },
   {
-    "itemQualityId": "Q26",
-    "itemQuality": "Tractor",
-    "isPassive": 1,
-    "text": "(Passive): Once the weapon hits its target, the target may not move unless its pilot makes a successful Piloting check with a difficulty equal to the tractor beam’s rating. If the target is an individual character, the character is immobilized while the beam is active."
+    "id": "Q26",
+    "name": "Tractor (Item Quality)",
+    "category": "Weapon",
+    "description": "See page 89 in the Genesys Core Rulebook for details."
   },
   {
-    "itemQualityId": "Q27",
-    "itemQuality": "Unwieldy",
-    "isPassive": 1,
-    "text": "(Passive): To wield an Unwieldy weapon properly, the character needs an Agility characteristic equal to or greater than the weapon’s Unwieldy rating. For each point of Agility by which the character is deficient, they must increase the difficulty of all checks made while using the weapon by one."
+    "id": "Q27",
+    "name": "Unwieldy (Item Quality)",
+    "category": "Weapon",
+    "description": "See page 89 in the Genesys Core Rulebook for details."
   },
   {
-    "itemQualityId": "Q28",
-    "itemQuality": "Vicious",
-    "isPassive": 1,
-    "text": "(Passive): When an attack with this weapon results in a Critical Injury or Hit, the character adds ten times the Vicious rating to the Critical roll."
+    "id": "Q28",
+    "name": "Vicious (Item Quality)",
+    "category": "Weapon",
+    "description": "See page 89 in the Genesys Core Rulebook for details."
+  },
+  {
+    "id": "IA1",
+    "name": "Balanced Hilt (Attachment)",
+    "category": "Weapon",
+    "description": "See page 207 in the Genesys Core Rulebook for details."
+  },
+  {
+    "id": "IA2",
+    "name": "Bipod Mount (Attachment)",
+    "category": "Weapon",
+    "description": "See page 207 in the Genesys Core Rulebook for details."
+  },
+  {
+    "id": "IA3",
+    "name": "Duelist Cross Guard (Attachment)",
+    "category": "Weapon",
+    "description": "See page 207 in the Genesys Core Rulebook for details."
+  },
+  {
+    "id": "IA4",
+    "name": "Extended Barrel (Attachment)",
+    "category": "Weapon",
+    "description": "See page 207 in the Genesys Core Rulebook for details."
+  },
+  {
+    "id": "IA5",
+    "name": "Hair Trigger (Attachment)",
+    "category": "Weapon",
+    "description": "See page 207 in the Genesys Core Rulebook for details."
+  },
+  {
+    "id": "IA6",
+    "name": "Razor Edge (Attachment)",
+    "category": "Weapon",
+    "description": "See page 208 in the Genesys Core Rulebook for details."
+  },
+  {
+    "id": "IA7",
+    "name": "Recurve Limbs (Attachment)",
+    "category": "Weapon",
+    "description": "See page 208 in the Genesys Core Rulebook for details."
+  },
+  {
+    "id": "IA8",
+    "name": "Serrated Edge (Attachment)",
+    "category": "Weapon",
+    "description": "See page 208 in the Genesys Core Rulebook for details."
+  },
+  {
+    "id": "IA9",
+    "name": "Superior Weapon Customization (Attachment)",
+    "category": "Weapon",
+    "description": "See page 208 in the Genesys Core Rulebook for details."
+  },
+  {
+    "id": "IA10",
+    "name": "Telescopic Sight (Attachment)",
+    "category": "Weapon",
+    "description": "See page 208 in the Genesys Core Rulebook for details."
+  },
+  {
+    "id": "IA11",
+    "name": "Tripod Mount (Attachment)",
+    "category": "Weapon",
+    "description": "See page 208 in the Genesys Core Rulebook for details."
+  },
+  {
+    "id": "IA12",
+    "name": "Under-Barrel Flamethrower (Attachment)",
+    "category": "Weapon",
+    "description": "See page 209 in the Genesys Core Rulebook for details."
+  },
+  {
+    "id": "IA13",
+    "name": "Under-Barrel Grenade Launcher (Attachment)",
+    "category": "Weapon",
+    "description": "See page 209 in the Genesys Core Rulebook for details."
+  },
+  {
+    "id": "IA14",
+    "name": "Under-Barrel Shotgun (Attachment)",
+    "category": "Weapon",
+    "description": "See page 209 in the Genesys Core Rulebook for details."
+  },
+  {
+    "id": "IA15",
+    "name": "Weapon Sling (Attachment)",
+    "category": "Weapon",
+    "description": "See page 209 in the Genesys Core Rulebook for details."
+  },
+  {
+    "id": "IA16",
+    "name": "Weighted Head (Attachment)",
+    "category": "Weapon",
+    "description": "See page 209 in the Genesys Core Rulebook for details."
+  },
+  {
+    "id": "IA17",
+    "name": "Deflective Plating (Attachment)",
+    "category": "Armor",
+    "description": "See page 209 in the Genesys Core Rulebook for details."
+  },
+  {
+    "id": "IA18",
+    "name": "Enhanced Lifting Servos (Attachment)",
+    "category": "Armor",
+    "description": "See page 209 in the Genesys Core Rulebook for details."
+  },
+  {
+    "id": "IA19",
+    "name": "Intimidating Visage (Attachment)",
+    "category": "Armor",
+    "description": "See page 209 in the Genesys Core Rulebook for details."
+  },
+  {
+    "id": "IA20",
+    "name": "Rare Metals (Attachment)",
+    "category": "Armor",
+    "description": "See page 209 in the Genesys Core Rulebook for details."
+  },
+  {
+    "id": "IA21",
+    "name": "Reinforced Plating (Attachment)",
+    "category": "Armor",
+    "description": "See page 209 in the Genesys Core Rulebook for details."
+  },
+  {
+    "id": "IA22",
+    "name": "Vacuum Sealed (Attachment)",
+    "category": "Armor",
+    "description": "See page 209 in the Genesys Core Rulebook for details."
   }
 ]

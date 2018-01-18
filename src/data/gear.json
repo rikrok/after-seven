@@ -54,7 +54,7 @@
     "rarity": 1,
     "description": "Bloodoil can help numb and cure pain, one man’s life is another man’s extension to his life. ",
     "specialAbilities": [
-      "(Passive) Bloodoil Tonic has the same effect as the core rulebook’s Painkillers. "
+      "(Passive): Bloodoil Tonic has the same effect as the core rulebook’s Painkillers. "
     ]
   },
   {
@@ -68,7 +68,7 @@
     "rarity": 4,
     "description": "Tastes a bit sweeter than the regular tonic. ",
     "specialAbilities": [
-      "(Passive) You may treat this as a painkiller taken for the third time of the day – regardless if reached maximum number of painkillers for the day (healing three wounds). "
+      "(Passive): You may treat this as a painkiller taken for the third time of the day – regardless if reached maximum number of painkillers for the day (healing three wounds). "
     ]
   },
   {
@@ -115,7 +115,7 @@
     "rarity": 3,
     "description": "A set of beakers, tubing and hot plates to aid and assist in Alchemy.",
     "specialAbilities": [
-      "(Passive) Remove one setback from the die pool when using Alchemy, Enchanting or Transmogrify. "
+      "(Passive): Remove one setback from the die pool when using Alchemy, Enchanting or Transmogrify. This can only be applied once per character per use, it does not stack."
     ]
   },
   {
@@ -129,7 +129,7 @@
     "rarity": 5,
     "description": "Allows the users to open locks, latches that are locked.",
     "specialAbilities": [
-      "(Passive) When making a Skulduggery check to open a lock or latch, your character adds an automatic advantage to the results. "
+      "(Passive): When making a Skulduggery check to open a lock or latch, your character adds an automatic advantage to the results. "
     ]
   },
   {
@@ -143,8 +143,8 @@
     "rarity": 3,
     "description": "Highly fashionable and well made. It can be an impressive suit, dress or set of clothing.",
     "specialAbilities": [
-      "(Passive) When worn, the fine clothing because an encumbrance of 0.",
-      "Remove one setback die when Charm, Deception, Leadership are made while wearing this item."
+      "(Passive): When worn, the fine clothing because an encumbrance of 0.",
+      "(Passive): Remove one setback die when Charm, Deception, Leadership are made while wearing this item."
     ]
   },
   {
@@ -158,7 +158,7 @@
     "rarity": 6,
     "description": "This can be a rock, or some mundane item that a spirit guide speaks to you through. When using this, you can orientate your way through the wilderness by focusing inner thoughts and meditations.",
     "specialAbilities": [
-      "(Passive) Remove one setback die from the dice pool while navigating through wildlife or streets"
+      "(Passive): Remove one setback die from the dice pool while navigating through wildlife or streets"
     ]
   },
   {
@@ -172,7 +172,7 @@
     "rarity": 4,
     "description": "Ideally used when questioned or stopped for inspection.",
     "specialAbilities": [
-      "(Passive) Add one boost die for social engagements with government personal. "
+      "(Passive): Add one boost die for social engagements with government personal. "
     ]
   },
   {
@@ -186,7 +186,8 @@
     "rarity": 8,
     "description": "A normal looking backpack, but can hold way more than it should through it being magical.",
     "specialAbilities": [
-      "(Passive) A backpack of holding can carry items of up to 12 encumbrance total. (Passive) The backpack is always encumbrance 2, regardless of how much it’s holding."
+      "(Passive): A backpack of holding can carry items of up to 12 encumbrance total",
+      "(Passive): The backpack is always encumbrance 2, regardless of how much it’s holding."
     ]
   },
   {
@@ -200,8 +201,7 @@
     "rarity": 5,
     "description": "A collar made up of the four natural elements, woven together by Arcanite Putty that rests against a Primal caster's neck.",
     "specialAbilities": [
-      "(Passive) Used only by Primal Spell Casters",
-      "(Passive)  When the user casts the Conjure spell to summon a creature (living, undead, spirit or magical), adding the Summon Ally effect does not increase its difficulty. The creature remains summoned until the end of the encounter without your character having to use the concentrate maneuver."
+      "(Passive):  When the user casts the Primal Conjure spell to summon a creature (living, undead, spirit or magical), adding the Summon Ally effect does not increase its difficulty. The creature remains summoned until the end of the encounter without your character having to use the concentrate maneuver."
     ]
   },
   {
@@ -215,8 +215,7 @@
     "rarity": 4,
     "description": "Works as Holy Icons, but uses the word “Divine” because there is nothing righteous worshiping a powerful being that wants everyone dead, after their long slumber.",
     "specialAbilities": [
-      "(Passive) Used only by Divine Spell Casters",
-      "(Passive) All damage done by Divine spells are increased by 1."
+      "(Passive): All damage done by Divine spells are increased by 1."
     ]
   },
   {
@@ -230,8 +229,7 @@
     "rarity": 6,
     "description": "Magic amulets help augment the user’s ability to affect more targets with their spells.",
     "specialAbilities": [
-      "(Passive) Used by Any Spell Caster",
-      "(Passive) Attack spells cast by the user increase their base damage by three."
+      "(Passive): Attack spells cast by the user increase their base damage by three."
     ]
   },
   {
@@ -245,8 +243,7 @@
     "rarity": 8,
     "description": "Orbs help spell casters Augur with greater ease",
     "specialAbilities": [
-      "(Passive) Used by Any Spell Caster",
-      "(Passive) When attempting Astral Projection or Real Time do not increase difficulties. "
+      "(Passive): When attempting Astral Projection or Real Time do not increase difficulties. "
     ]
   },
   {
@@ -260,10 +257,7 @@
     "rarity": 9,
     "description": "Magic rings are items of great power and danger.",
     "specialAbilities": [
-      "(Passive) Used by Any Spell Caster",
-      "(Passive) Always upgrade the difficulty of any spells you cast once when using a ring.",
-      "(Passive) Two despairs can't destroy a ring.",
-      "(Passive) Attack spells cast by the user increase their base damage by two."
+      "(Passive): See magical ring on page 219."
     ]
   },
   {
@@ -277,8 +271,7 @@
     "rarity": 4,
     "description": "Magical staffs have long been a staple of magic in a variety of settings. Used by wizards, druids, and shamans, these can look like ornate, rune-encrusted rods of brass and obsidian, simple wooden staffs, or pretty much anything else. Magical staffs almost universally augment the user’s ability to cast spells at range. ",
     "specialAbilities": [
-      "(Passive) Used by Any Spell Caster",
-      "(Passive) Attack spells cast by the user increase their base damage by four."
+      "(Passive): Attack spells cast by the user increase their base damage by four."
     ]
   },
   {
@@ -292,8 +285,18 @@
     "rarity": 6,
     "description": "Usually small sticks about the size and shape of a conductor’s baton, they can be constructed from just about anything and worked with any number of designs. Magic wands help augment the user’s ability to cast spells in a very specific way. ",
     "specialAbilities": [
-      "(Passive) Used only by Arcana",
-      "(Passive) Arcana attack spells cast by the user increase their base damage by three."
+      "(Passive): Arcana attack spells cast by the user increase their base damage by three."
     ]
+  },
+  {
+    "id": "G23",
+    "category": "Gear",
+    "subCategory": "Alchemy Products",
+    "name": "Arcanite",
+    "encumbrance": 1,
+    "hardPoints": 1,
+    "value": 3,
+    "rarity": 1,
+    "description": "A neon green slime and goo that is very flexible and pungent. It is the base for all Alchemy. "
   }
 ]

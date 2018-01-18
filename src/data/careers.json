@@ -277,13 +277,13 @@
     "genre": "Steampunk, Weird War, Modern, Sci-fi, Space Opera, Custom",
     "careerSkills": [
       "Charm",
-      " Coordination",
-      " Deception",
-      " Discipline",
+      "Coordination",
+      "Deception",
+      "Discipline",
       "Leadership",
-      " Melee",
-      " Skulduggery",
-      " Stealth"
+      "Melee",
+      "Skulduggery",
+      "Stealth"
     ],
     "description": "See Genesys Core Rulebook",
     "tags": "Rulebook Career"
@@ -294,13 +294,13 @@
     "genre": "Fantasy, Custom",
     "careerSkills": [
       "Charm",
-      " Coordination",
-      " Deception",
-      " Discipline",
-      " Leadership",
-      " Melee (Light)",
-      " Skulduggery",
-      " Stealth"
+      "Coordination",
+      "Deception",
+      "Discipline",
+      "Leadership",
+      "Melee (Light)",
+      "Skulduggery",
+      "Stealth"
     ],
     "description": "See page 40 in the Genesys Core Rulebook.",
     "tags": "Rulebook Career"
@@ -311,13 +311,13 @@
     "genre": "Fantasy, Custom",
     "careerSkills": [
       "Athletics",
-      " Brawl",
-      " Coordination",
-      " Deception",
-      " Perception",
-      " Ranged",
-      " Stealth",
-      " Survival"
+      "Brawl",
+      "Coordination",
+      "Deception",
+      "Perception",
+      "Ranged",
+      "Stealth",
+      "Survival"
     ],
     "description": "See page 40 in the Genesys Core Rulebook.",
     "tags": "Rulebook Career"
@@ -328,13 +328,13 @@
     "genre": "Steampunk, Weird War, Modern, Sci-fi, Space Opera, Custom",
     "careerSkills": [
       "Athletics",
-      " Brawl",
-      " Coordination",
-      " Deception",
-      " Perception",
-      " Ranged (Heavy)",
-      " Stealth",
-      " Survival"
+      "Brawl",
+      "Coordination",
+      "Deception",
+      "Perception",
+      "Ranged (Heavy)",
+      "Stealth",
+      "Survival"
     ],
     "description": "See page 41 in the Genesys Core Rulebook.",
     "tags": "Rulebook Career"
@@ -345,13 +345,13 @@
     "genre": "Steampunk, Weird War, Modern, Sci-fi, Space Opera, Custom",
     "careerSkills": [
       "Cool",
-      " Discipline",
-      " Knowledge",
-      " Medicine",
-      " Melee",
-      " Resilience",
-      " Survival",
-      " Vigilance"
+      "Discipline",
+      "Knowledge",
+      "Medicine",
+      "Melee",
+      "Resilience",
+      "Survival",
+      "Vigilance"
     ],
     "description": "See page 41 in the Genesys Core Rulebook.",
     "tags": "Rulebook Career"
@@ -362,13 +362,13 @@
     "genre": "Fantasy, Custom",
     "careerSkills": [
       "Cool",
-      " Discipline",
-      " Knowledge",
-      " Medicine",
-      " Melee (Light)",
-      " Resilience",
-      " Survival",
-      " Vigilance"
+      "Discipline",
+      "Knowledge",
+      "Medicine",
+      "Melee (Light)",
+      "Resilience",
+      "Survival",
+      "Vigilance"
     ],
     "description": "See page 41 in the Genesys Core Rulebook.",
     "tags": "Rulebook Career"
@@ -379,13 +379,13 @@
     "genre": "Steampunk, Weird War, Modern, Sci-fi, Space Opera, Custom",
     "careerSkills": [
       "Charm",
-      " Coercion",
-      " Cool",
-      " Discipline",
-      " Leadership",
-      " Melee",
-      " Negotiation",
-      " Perception"
+      "Coercion",
+      "Cool",
+      "Discipline",
+      "Leadership",
+      "Melee",
+      "Negotiation",
+      "Perception"
     ],
     "description": "See page 41 in the Genesys Core Rulebook.",
     "tags": "Rulebook Career"
@@ -396,13 +396,13 @@
     "genre": "Fantasy, Custom",
     "careerSkills": [
       "Charm",
-      " Coercion",
-      " Cool",
-      " Discipline",
-      " Leadership",
-      " Melee (Light)",
-      " Negotiation",
-      " Perception"
+      "Coercion",
+      "Cool",
+      "Discipline",
+      "Leadership",
+      "Melee (Light)",
+      "Negotiation",
+      "Perception"
     ],
     "description": "See page 41 in the Genesys Core Rulebook.",
     "tags": "Rulebook Career"
@@ -413,13 +413,13 @@
     "genre": "Fantasy, Custom",
     "careerSkills": [
       "Charm",
-      " Cool",
-      " Coordination",
-      " Deception",
-      " Ranged",
-      " Skulduggery",
-      " Stealth",
-      " Streetwise"
+      "Cool",
+      "Coordination",
+      "Deception",
+      "Ranged",
+      "Skulduggery",
+      "Stealth",
+      "Streetwise"
     ],
     "description": "See page 41 in the Genesys Core Rulebook.",
     "tags": "Rulebook Career"
@@ -430,13 +430,13 @@
     "genre": "Steampunk, Weird War, Modern, Sci-fi, Space Opera, Custom",
     "careerSkills": [
       "Charm",
-      " Cool",
-      " Coordination",
-      " Deception",
-      " Ranged (Light)",
-      " Skulduggery",
-      " Stealth",
-      " Streetwise"
+      "Cool",
+      "Coordination",
+      "Deception",
+      "Ranged (Light)",
+      "Skulduggery",
+      "Stealth",
+      "Streetwise"
     ],
     "description": "See page 41 in the Genesys Core Rulebook.",
     "tags": "Rulebook Career"
@@ -447,13 +447,13 @@
     "genre": "Fantasy, Steampunk, Weird War, Modern, Sci-fi, Space Opera, Custom",
     "careerSkills": [
       "Charm",
-      " Cool",
-      " Deception",
-      " Knowledge",
-      " Negotiation",
-      " Perception",
-      " Streetwise",
-      " Vigilance"
+      "Cool",
+      "Deception",
+      "Knowledge",
+      "Negotiation",
+      "Perception",
+      "Streetwise",
+      "Vigilance"
     ],
     "description": "See page 41 in the Genesys Core Rulebook.",
     "tags": "Rulebook Career"
@@ -464,13 +464,13 @@
     "genre": "Fantasy, Custom",
     "careerSkills": [
       "Athletics",
-      " Brawl",
-      " Coercion",
-      " Melee (Heavy)",
-      " Perception",
+      "Brawl",
+      "Coercion",
+      "Melee (Heavy)",
+      "Perception",
       "Ranged",
-      " Survival",
-      " Vigilance"
+      "Survival",
+      "Vigilance"
     ],
     "description": "See page 41 in the Genesys Core Rulebook.",
     "tags": "Rulebook Career"
@@ -481,13 +481,13 @@
     "genre": "Steampunk, Weird War, Modern, Sci-fi, Space Opera, Custom",
     "careerSkills": [
       "Athletics",
-      " Gunnery",
-      " Coercion",
-      " Melee",
-      " Perception",
+      "Gunnery",
+      "Coercion",
+      "Melee",
+      "Perception",
       "Ranged (Heavy)",
-      " Survival",
-      " Vigilance"
+      "Survival",
+      "Vigilance"
     ],
     "description": "See page 41 in the Genesys Core Rulebook.",
     "tags": "Rulebook Career"
@@ -498,13 +498,13 @@
     "genre": "Fantasy, Steampunk, Weird War, Modern, Sci-fi, Space Opera, Custom",
     "careerSkills": [
       "Athletics",
-      " Brawl",
-      " Discipline",
-      " Mechanics",
-      " Negotiation",
-      " Perception",
-      " Resilience",
-      " Streetwise"
+      "Brawl",
+      "Discipline",
+      "Mechanics",
+      "Negotiation",
+      "Perception",
+      "Resilience",
+      "Streetwise"
     ],
     "description": "See page 42 in the Genesys Core Rulebook.",
     "tags": "Rulebook Career"
@@ -515,13 +515,13 @@
     "genre": "Sci-fi, Space Opera, Custom",
     "careerSkills": [
       "Computers",
-      " Discipline",
-      " Knowledge",
-      " Mechanics",
-      " Perception",
-      " Piloting",
-      " Streetwise",
-      " Vigilance"
+      "Discipline",
+      "Knowledge",
+      "Mechanics",
+      "Perception",
+      "Piloting",
+      "Streetwise",
+      "Vigilance"
     ],
     "description": "See page 42 in the Genesys Core Rulebook.",
     "tags": "Rulebook Career"
@@ -532,13 +532,13 @@
     "genre": "Steampunk, Weird War, Modern, Science Fiction, Space Opera, Custom",
     "careerSkills": [
       "Cool",
-      " Driving",
-      " Gunnery",
-      " Mechanics",
-      " Perception",
-      " Piloting",
-      " Ranged (Light)",
-      " Vigilance"
+      "Driving",
+      "Gunnery",
+      "Mechanics",
+      "Perception",
+      "Piloting",
+      "Ranged (Light)",
+      "Vigilance"
     ],
     "description": "See page 42 in the Genesys Core Rulebook.",
     "tags": "Rulebook Career"
@@ -549,13 +549,13 @@
     "genre": "Fantasy, Custom",
     "careerSkills": [
       "Athletics",
-      " Discipline",
-      " Leadership",
-      " Melee (Heavy)",
-      " Melee (Light)",
-      " Resilience",
-      " Riding",
-      " Vigilance"
+      "Discipline",
+      "Leadership",
+      "Melee (Heavy)",
+      "Melee (Light)",
+      "Resilience",
+      "Riding",
+      "Vigilance"
     ],
     "description": "See page 42 in the Genesys Core Rulebook.",
     "tags": "Rulebook Career"
@@ -566,13 +566,13 @@
     "genre": "Steampunk, Custom",
     "careerSkills": [
       "Athletics",
-      " Discipline",
-      " Leadership",
-      " Gunnery",
-      " Melee",
-      " Resilience",
-      " Operating",
-      " Vigilance"
+      "Discipline",
+      "Leadership",
+      "Gunnery",
+      "Melee",
+      "Resilience",
+      "Operating",
+      "Vigilance"
     ],
     "description": "See page 42 in the Genesys Core Rulebook.",
     "tags": "Rulebook Career"
@@ -583,13 +583,13 @@
     "genre": "Weird War, Modern, Science Fiction, Space Opera, Custom",
     "careerSkills": [
       "Athletics",
-      " Discipline",
-      " Leadership",
-      " Gunnery",
-      " Melee",
-      " Resilience",
-      " Driving",
-      " Vigilance"
+      "Discipline",
+      "Leadership",
+      "Gunnery",
+      "Melee",
+      "Resilience",
+      "Driving",
+      "Vigilance"
     ],
     "description": "See page 42 in the Genesys Core Rulebook.",
     "tags": "Rulebook Career"
@@ -600,13 +600,13 @@
     "genre": "Steampunk, Weird War, Custom",
     "careerSkills": [
       "Alchemy",
-      " Coercion",
-      " Knowledge",
-      " Mechanics",
-      " Medicine",
-      " Operating",
-      " Skulduggery",
-      " Ranged (Heavy)"
+      "Coercion",
+      "Knowledge",
+      "Mechanics",
+      "Medicine",
+      "Operating",
+      "Skulduggery",
+      "Ranged (Heavy)"
     ],
     "description": "See page 43 in the Genesys Core Rulebook.",
     "tags": "Rulebook Career"
@@ -617,13 +617,13 @@
     "genre": "Steampunk, Weird War, Custom",
     "careerSkills": [
       "Alchemy",
-      " Coercion",
-      " Knowledge",
-      " Mechanics",
-      " Medicine",
-      " Operating",
-      " Skulduggery",
-      " Arcana"
+      "Coercion",
+      "Knowledge",
+      "Mechanics",
+      "Medicine",
+      "Operating",
+      "Skulduggery",
+      "Arcana"
     ],
     "description": "See page 43 in the Genesys Core Rulebook.",
     "tags": "Rulebook Career"
@@ -634,13 +634,13 @@
     "genre": "Steampunk, Weird War, Modern, Sci-fi, Space Opera, Custom",
     "careerSkills": [
       "Charm",
-      " Coercion",
-      " Cool",
-      " Discipline",
-      " Divine",
-      " Medicine",
-      " Melee",
-      " Negotiation"
+      "Coercion",
+      "Cool",
+      "Discipline",
+      "Divine",
+      "Medicine",
+      "Melee",
+      "Negotiation"
     ],
     "description": "See page 43 in the Genesys Core Rulebook.",
     "tags": "Rulebook Career"
@@ -651,13 +651,13 @@
     "genre": "Fantasy, Custom",
     "careerSkills": [
       "Charm",
-      " Coercion",
-      " Cool",
-      " Discipline",
-      " Divine",
-      " Medicine",
-      " Melee (Light)",
-      " Negotiation"
+      "Coercion",
+      "Cool",
+      "Discipline",
+      "Divine",
+      "Medicine",
+      "Melee (Light)",
+      "Negotiation"
     ],
     "description": "See page 43 in the Genesys Core Rulebook.",
     "tags": "Rulebook Career"
@@ -668,13 +668,13 @@
     "genre": "Steampunk, Weird War, Modern, Sci-fi, Space Opera, Custom",
     "careerSkills": [
       "Athletics",
-      " Brawl",
-      " Coordination",
-      " Melee",
-      " Primal",
-      " Resilience",
-      " Survival",
-      " Vigilance"
+      "Brawl",
+      "Coordination",
+      "Melee",
+      "Primal",
+      "Resilience",
+      "Survival",
+      "Vigilance"
     ],
     "description": "See page 43 in the Genesys Core Rulebook.",
     "tags": "Rulebook Career"
@@ -685,13 +685,13 @@
     "genre": "Fantasy, Custom",
     "careerSkills": [
       "Athletics",
-      " Brawl",
-      " Coordination",
-      " Melee (Heavy)",
-      " Primal",
-      " Resilience",
-      " Survival",
-      " Vigilance"
+      "Brawl",
+      "Coordination",
+      "Melee (Heavy)",
+      "Primal",
+      "Resilience",
+      "Survival",
+      "Vigilance"
     ],
     "description": "See page 43 in the Genesys Core Rulebook.",
     "tags": "Rulebook Career"
@@ -702,13 +702,13 @@
     "genre": "Space Opera, Custom",
     "careerSkills": [
       "Astrocartography",
-      " Computers",
-      " Discipline",
-      " Gunnery",
-      "  Leadership",
-      " Mechanics",
-      " Operating",
-      " Perception"
+      "Computers",
+      "Discipline",
+      "Gunnery",
+      " Leadership",
+      "Mechanics",
+      "Operating",
+      "Perception"
     ],
     "description": "See page 43 in the Genesys Core Rulebook.",
     "tags": "Rulebook Career"
@@ -719,13 +719,13 @@
     "genre": "Modern, Sci-fi, Custom",
     "careerSkills": [
       "Computers",
-      " Discipline",
-      " Gunnery",
-      " Knowledge",
-      " Leadership",
-      " Mechanics",
-      " Operating",
-      " Perception"
+      "Discipline",
+      "Gunnery",
+      "Knowledge",
+      "Leadership",
+      "Mechanics",
+      "Operating",
+      "Perception"
     ],
     "description": "See page 43 in the Genesys Core Rulebook.",
     "tags": "Rulebook Career"
@@ -736,13 +736,13 @@
     "genre": "Fantasy, Steampunk, Weird War, Custom",
     "careerSkills": [
       "Cool",
-      " Discipline",
-      " Gunnery",
-      " Knowledge",
-      " Leadership",
-      " Mechanics",
-      " Operating",
-      " Perception"
+      "Discipline",
+      "Gunnery",
+      "Knowledge",
+      "Leadership",
+      "Mechanics",
+      "Operating",
+      "Perception"
     ],
     "description": "See page 43 in the Genesys Core Rulebook.",
     "tags": "Rulebook Career"
@@ -753,13 +753,13 @@
     "genre": "Weird War, Modern, Science Fiction, Space Opera, Custom",
     "careerSkills": [
       "Arcana",
-      " Coercion",
-      " Discipline",
-      " Knowledge",
-      " Leadership",
-      " Skulduggery",
-      " Stealth",
-      " Vigilance"
+      "Coercion",
+      "Discipline",
+      "Knowledge",
+      "Leadership",
+      "Skulduggery",
+      "Stealth",
+      "Vigilance"
     ],
     "description": "See page 43 in the Genesys Core Rulebook.",
     "tags": "Rulebook Career"
@@ -770,13 +770,13 @@
     "genre": "Fantasy, Custom",
     "careerSkills": [
       "Alchemy",
-      " Arcana",
-      " Coercion",
-      " Discipline",
-      " Knowledge",
-      " Leadership",
-      " Skulduggery",
-      " Vigilance"
+      "Arcana",
+      "Coercion",
+      "Discipline",
+      "Knowledge",
+      "Leadership",
+      "Skulduggery",
+      "Vigilance"
     ],
     "description": "See page 43 in the Genesys Core Rulebook.",
     "tags": "Rulebook Career"
@@ -787,13 +787,13 @@
     "genre": "Steampunk, Weird War, Modern, Sci-fi, Space Opera, Custom",
     "careerSkills": [
       "Charm",
-      " Coordination",
-      " Deception",
-      " Discipline",
+      "Coordination",
+      "Deception",
+      "Discipline",
       "Leadership",
-      " Melee",
-      " Skulduggery",
-      " Stealth"
+      "Melee",
+      "Skulduggery",
+      "Stealth"
     ],
     "description": "See Genesys Core Rulebook",
     "tags": "Rulebook Career"
@@ -804,13 +804,13 @@
     "genre": "Fantasy, Custom",
     "careerSkills": [
       "Charm",
-      " Coordination",
-      " Deception",
-      " Discipline",
-      " Leadership",
-      " Melee (Light)",
-      " Skulduggery",
-      " Stealth"
+      "Coordination",
+      "Deception",
+      "Discipline",
+      "Leadership",
+      "Melee (Light)",
+      "Skulduggery",
+      "Stealth"
     ],
     "description": "See page 40 in the Genesys Core Rulebook.",
     "tags": "Rulebook Career"
@@ -821,13 +821,13 @@
     "genre": "Fantasy, Custom",
     "careerSkills": [
       "Athletics",
-      " Brawl",
-      " Coordination",
-      " Deception",
-      " Perception",
-      " Ranged",
-      " Stealth",
-      " Survival"
+      "Brawl",
+      "Coordination",
+      "Deception",
+      "Perception",
+      "Ranged",
+      "Stealth",
+      "Survival"
     ],
     "description": "See page 40 in the Genesys Core Rulebook.",
     "tags": "Rulebook Career"
@@ -838,13 +838,13 @@
     "genre": "Steampunk, Weird War, Modern, Sci-fi, Space Opera, Custom",
     "careerSkills": [
       "Athletics",
-      " Brawl",
-      " Coordination",
-      " Deception",
-      " Perception",
-      " Ranged (Heavy)",
-      " Stealth",
-      " Survival"
+      "Brawl",
+      "Coordination",
+      "Deception",
+      "Perception",
+      "Ranged (Heavy)",
+      "Stealth",
+      "Survival"
     ],
     "description": "See page 41 in the Genesys Core Rulebook.",
     "tags": "Rulebook Career"
@@ -855,13 +855,13 @@
     "genre": "Steampunk, Weird War, Modern, Sci-fi, Space Opera, Custom",
     "careerSkills": [
       "Cool",
-      " Discipline",
-      " Knowledge",
-      " Medicine",
-      " Melee",
-      " Resilience",
-      " Survival",
-      " Vigilance"
+      "Discipline",
+      "Knowledge",
+      "Medicine",
+      "Melee",
+      "Resilience",
+      "Survival",
+      "Vigilance"
     ],
     "description": "See page 41 in the Genesys Core Rulebook.",
     "tags": "Rulebook Career"
@@ -872,13 +872,13 @@
     "genre": "Fantasy, Custom",
     "careerSkills": [
       "Cool",
-      " Discipline",
-      " Knowledge",
-      " Medicine",
-      " Melee (Light)",
-      " Resilience",
-      " Survival",
-      " Vigilance"
+      "Discipline",
+      "Knowledge",
+      "Medicine",
+      "Melee (Light)",
+      "Resilience",
+      "Survival",
+      "Vigilance"
     ],
     "description": "See page 41 in the Genesys Core Rulebook.",
     "tags": "Rulebook Career"
@@ -889,13 +889,13 @@
     "genre": "Steampunk, Weird War, Modern, Sci-fi, Space Opera, Custom",
     "careerSkills": [
       "Charm",
-      " Coercion",
-      " Cool",
-      " Discipline",
-      " Leadership",
-      " Melee",
-      " Negotiation",
-      " Perception"
+      "Coercion",
+      "Cool",
+      "Discipline",
+      "Leadership",
+      "Melee",
+      "Negotiation",
+      "Perception"
     ],
     "description": "See page 41 in the Genesys Core Rulebook.",
     "tags": "Rulebook Career"
@@ -906,13 +906,13 @@
     "genre": "Fantasy, Custom",
     "careerSkills": [
       "Charm",
-      " Coercion",
-      " Cool",
-      " Discipline",
-      " Leadership",
-      " Melee (Light)",
-      " Negotiation",
-      " Perception"
+      "Coercion",
+      "Cool",
+      "Discipline",
+      "Leadership",
+      "Melee (Light)",
+      "Negotiation",
+      "Perception"
     ],
     "description": "See page 41 in the Genesys Core Rulebook.",
     "tags": "Rulebook Career"
@@ -923,13 +923,13 @@
     "genre": "Fantasy, Custom",
     "careerSkills": [
       "Charm",
-      " Cool",
-      " Coordination",
-      " Deception",
-      " Ranged",
-      " Skulduggery",
-      " Stealth",
-      " Streetwise"
+      "Cool",
+      "Coordination",
+      "Deception",
+      "Ranged",
+      "Skulduggery",
+      "Stealth",
+      "Streetwise"
     ],
     "description": "See page 41 in the Genesys Core Rulebook.",
     "tags": "Rulebook Career"
@@ -940,13 +940,13 @@
     "genre": "Steampunk, Weird War, Modern, Sci-fi, Space Opera, Custom",
     "careerSkills": [
       "Charm",
-      " Cool",
-      " Coordination",
-      " Deception",
-      " Ranged (Light)",
-      " Skulduggery",
-      " Stealth",
-      " Streetwise"
+      "Cool",
+      "Coordination",
+      "Deception",
+      "Ranged (Light)",
+      "Skulduggery",
+      "Stealth",
+      "Streetwise"
     ],
     "description": "See page 41 in the Genesys Core Rulebook.",
     "tags": "Rulebook Career"
@@ -957,13 +957,13 @@
     "genre": "Fantasy, Steampunk, Weird War, Modern, Sci-fi, Space Opera, Custom",
     "careerSkills": [
       "Charm",
-      " Cool",
-      " Deception",
-      " Knowledge",
-      " Negotiation",
-      " Perception",
-      " Streetwise",
-      " Vigilance"
+      "Cool",
+      "Deception",
+      "Knowledge",
+      "Negotiation",
+      "Perception",
+      "Streetwise",
+      "Vigilance"
     ],
     "description": "See page 41 in the Genesys Core Rulebook.",
     "tags": "Rulebook Career"
@@ -974,13 +974,13 @@
     "genre": "Fantasy, Custom",
     "careerSkills": [
       "Athletics",
-      " Brawl",
-      " Coercion",
-      " Melee (Heavy)",
-      " Perception",
+      "Brawl",
+      "Coercion",
+      "Melee (Heavy)",
+      "Perception",
       "Ranged",
-      " Survival",
-      " Vigilance"
+      "Survival",
+      "Vigilance"
     ],
     "description": "See page 41 in the Genesys Core Rulebook.",
     "tags": "Rulebook Career"
@@ -991,13 +991,13 @@
     "genre": "Steampunk, Weird War, Modern, Sci-fi, Space Opera, Custom",
     "careerSkills": [
       "Athletics",
-      " Gunnery",
-      " Coercion",
-      " Melee",
-      " Perception",
+      "Gunnery",
+      "Coercion",
+      "Melee",
+      "Perception",
       "Ranged (Heavy)",
-      " Survival",
-      " Vigilance"
+      "Survival",
+      "Vigilance"
     ],
     "description": "See page 41 in the Genesys Core Rulebook.",
     "tags": "Rulebook Career"
@@ -1008,13 +1008,13 @@
     "genre": "Fantasy, Steampunk, Weird War, Modern, Sci-fi, Space Opera, Custom",
     "careerSkills": [
       "Athletics",
-      " Brawl",
-      " Discipline",
-      " Mechanics",
-      " Negotiation",
-      " Perception",
-      " Resilience",
-      " Streetwise"
+      "Brawl",
+      "Discipline",
+      "Mechanics",
+      "Negotiation",
+      "Perception",
+      "Resilience",
+      "Streetwise"
     ],
     "description": "See page 42 in the Genesys Core Rulebook.",
     "tags": "Rulebook Career"
@@ -1025,13 +1025,13 @@
     "genre": "Fantasy, Custom",
     "careerSkills": [
       "Athletics",
-      " Discipline",
-      " Leadership",
-      " Melee (Heavy)",
-      " Melee (Light)",
-      " Resilience",
-      " Riding",
-      " Vigilance"
+      "Discipline",
+      "Leadership",
+      "Melee (Heavy)",
+      "Melee (Light)",
+      "Resilience",
+      "Riding",
+      "Vigilance"
     ],
     "description": "See page 42 in the Genesys Core Rulebook.",
     "tags": "Rulebook Career"
@@ -1042,13 +1042,13 @@
     "genre": "Steampunk, Custom",
     "careerSkills": [
       "Athletics",
-      " Discipline",
-      " Leadership",
-      " Gunnery",
-      " Melee",
-      " Resilience",
-      " Operating",
-      " Vigilance"
+      "Discipline",
+      "Leadership",
+      "Gunnery",
+      "Melee",
+      "Resilience",
+      "Operating",
+      "Vigilance"
     ],
     "description": "See page 42 in the Genesys Core Rulebook.",
     "tags": "Rulebook Career"
@@ -1059,13 +1059,13 @@
     "genre": "Weird War, Modern, Science Fiction, Space Opera, Custom",
     "careerSkills": [
       "Athletics",
-      " Discipline",
-      " Leadership",
-      " Gunnery",
-      " Melee",
-      " Resilience",
-      " Driving",
-      " Vigilance"
+      "Discipline",
+      "Leadership",
+      "Gunnery",
+      "Melee",
+      "Resilience",
+      "Driving",
+      "Vigilance"
     ],
     "description": "See page 42 in the Genesys Core Rulebook.",
     "tags": "Rulebook Career"
@@ -1076,13 +1076,13 @@
     "genre": "Steampunk, Weird War, Custom",
     "careerSkills": [
       "Alchemy",
-      " Coercion",
-      " Knowledge",
-      " Mechanics",
-      " Medicine",
-      " Operating",
-      " Skulduggery",
-      " Ranged (Heavy)"
+      "Coercion",
+      "Knowledge",
+      "Mechanics",
+      "Medicine",
+      "Operating",
+      "Skulduggery",
+      "Ranged (Heavy)"
     ],
     "description": "See page 43 in the Genesys Core Rulebook.",
     "tags": "Rulebook Career"
@@ -1093,13 +1093,13 @@
     "genre": "Sci-fi, Space Opera, Custom",
     "careerSkills": [
       "Computers",
-      " Discipline",
-      " Knowledge",
-      " Mechanics",
-      " Perception",
-      " Piloting",
-      " Streetwise",
-      " Vigilance"
+      "Discipline",
+      "Knowledge",
+      "Mechanics",
+      "Perception",
+      "Piloting",
+      "Streetwise",
+      "Vigilance"
     ],
     "description": "See page 42 in the Genesys Core Rulebook.",
     "tags": "Rulebook Career"
@@ -1110,13 +1110,13 @@
     "genre": "Steampunk, Weird War, Custom",
     "careerSkills": [
       "Alchemy",
-      " Coercion",
-      " Knowledge",
-      " Mechanics",
-      " Medicine",
-      " Operating",
-      " Skulduggery",
-      " Arcana"
+      "Coercion",
+      "Knowledge",
+      "Mechanics",
+      "Medicine",
+      "Operating",
+      "Skulduggery",
+      "Arcana"
     ],
     "description": "See page 43 in the Genesys Core Rulebook.",
     "tags": "Rulebook Career"
@@ -1127,13 +1127,13 @@
     "genre": "Steampunk, Weird War, Modern, Sci-fi, Space Opera, Custom",
     "careerSkills": [
       "Charm",
-      " Coercion",
-      " Cool",
-      " Discipline",
-      " Divine",
-      " Medicine",
-      " Melee",
-      " Negotiation"
+      "Coercion",
+      "Cool",
+      "Discipline",
+      "Divine",
+      "Medicine",
+      "Melee",
+      "Negotiation"
     ],
     "description": "See page 43 in the Genesys Core Rulebook.",
     "tags": "Rulebook Career"
@@ -1144,13 +1144,13 @@
     "genre": "Fantasy, Custom",
     "careerSkills": [
       "Charm",
-      " Coercion",
-      " Cool",
-      " Discipline",
-      " Divine",
-      " Medicine",
-      " Melee (Light)",
-      " Negotiation"
+      "Coercion",
+      "Cool",
+      "Discipline",
+      "Divine",
+      "Medicine",
+      "Melee (Light)",
+      "Negotiation"
     ],
     "description": "See page 43 in the Genesys Core Rulebook.",
     "tags": "Rulebook Career"
@@ -1161,13 +1161,13 @@
     "genre": "Steampunk, Weird War, Modern, Sci-fi, Space Opera, Custom",
     "careerSkills": [
       "Athletics",
-      " Brawl",
-      " Coordination",
-      " Melee",
-      " Primal",
-      " Resilience",
-      " Survival",
-      " Vigilance"
+      "Brawl",
+      "Coordination",
+      "Melee",
+      "Primal",
+      "Resilience",
+      "Survival",
+      "Vigilance"
     ],
     "description": "See page 43 in the Genesys Core Rulebook.",
     "tags": "Rulebook Career"
@@ -1178,13 +1178,13 @@
     "genre": "Fantasy, Custom",
     "careerSkills": [
       "Athletics",
-      " Brawl",
-      " Coordination",
-      " Melee (Heavy)",
-      " Primal",
-      " Resilience",
-      " Survival",
-      " Vigilance"
+      "Brawl",
+      "Coordination",
+      "Melee (Heavy)",
+      "Primal",
+      "Resilience",
+      "Survival",
+      "Vigilance"
     ],
     "description": "See page 43 in the Genesys Core Rulebook.",
     "tags": "Rulebook Career"
@@ -1195,13 +1195,13 @@
     "genre": "Weird War, Modern, Science Fiction, Space Opera, Custom",
     "careerSkills": [
       "Arcana",
-      " Coercion",
-      " Discipline",
-      " Knowledge",
-      " Leadership",
-      " Skulduggery",
-      " Stealth",
-      " Vigilance"
+      "Coercion",
+      "Discipline",
+      "Knowledge",
+      "Leadership",
+      "Skulduggery",
+      "Stealth",
+      "Vigilance"
     ],
     "description": "See page 43 in the Genesys Core Rulebook.",
     "tags": "Rulebook Career"
@@ -1212,13 +1212,13 @@
     "genre": "Fantasy, Custom",
     "careerSkills": [
       "Alchemy",
-      " Arcana",
-      " Coercion",
-      " Discipline",
-      " Knowledge",
-      " Leadership",
-      " Skulduggery",
-      " Vigilance"
+      "Arcana",
+      "Coercion",
+      "Discipline",
+      "Knowledge",
+      "Leadership",
+      "Skulduggery",
+      "Vigilance"
     ],
     "description": "See page 43 in the Genesys Core Rulebook.",
     "tags": "Rulebook Career"
@@ -1229,13 +1229,13 @@
     "genre": "Steampunk, Weird War, Modern, Science Fiction, Space Opera, Custom",
     "careerSkills": [
       "Cool",
-      " Driving",
-      " Gunnery",
-      " Mechanics",
-      " Perception",
-      " Piloting",
-      " Ranged (Light)",
-      " Vigilance"
+      "Driving",
+      "Gunnery",
+      "Mechanics",
+      "Perception",
+      "Piloting",
+      "Ranged (Light)",
+      "Vigilance"
     ],
     "description": "See page 42 in the Genesys Core Rulebook.",
     "tags": "Rulebook Career"
@@ -1246,13 +1246,13 @@
     "genre": "Space Opera, Custom",
     "careerSkills": [
       "Astrocartography",
-      " Computers",
-      " Discipline",
-      " Gunnery",
-      "  Leadership",
-      " Mechanics",
-      " Operating",
-      " Perception"
+      "Computers",
+      "Discipline",
+      "Gunnery",
+      " Leadership",
+      "Mechanics",
+      "Operating",
+      "Perception"
     ],
     "description": "See page 43 in the Genesys Core Rulebook.",
     "tags": "Rulebook Career"
@@ -1263,13 +1263,13 @@
     "genre": "Modern, Sci-fi, Custom",
     "careerSkills": [
       "Computers",
-      " Discipline",
-      " Gunnery",
-      " Knowledge",
-      " Leadership",
-      " Mechanics",
-      " Operating",
-      " Perception"
+      "Discipline",
+      "Gunnery",
+      "Knowledge",
+      "Leadership",
+      "Mechanics",
+      "Operating",
+      "Perception"
     ],
     "description": "See page 43 in the Genesys Core Rulebook.",
     "tags": "Rulebook Career"
@@ -1280,13 +1280,13 @@
     "genre": "Fantasy, Steampunk, Weird War, Custom",
     "careerSkills": [
       "Cool",
-      " Discipline",
-      " Gunnery",
-      " Knowledge",
-      " Leadership",
-      " Mechanics",
-      " Operating",
-      " Perception"
+      "Discipline",
+      "Gunnery",
+      "Knowledge",
+      "Leadership",
+      "Mechanics",
+      "Operating",
+      "Perception"
     ],
     "description": "See page 43 in the Genesys Core Rulebook.",
     "tags": "Rulebook Career"
