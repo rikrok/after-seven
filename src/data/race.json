@@ -75,8 +75,7 @@
       {
         "name": "Natural Mage",
         "description": "(Active): Once per encounter, you may remove one setback die to any spell made as an incidental."
-      },
-      {}
+      }
     ]
   },
   {
@@ -151,9 +150,7 @@
       {
         "name": "Nimble",
         "description": "(Passive): Elf-kind get +1 ranged and melee defense."
-      },
-      {},
-      {}
+      }
     ]
   },
   {
@@ -228,9 +225,7 @@
       {
         "name": "Flexible",
         "description": "(Passive): A human can ignore a setback die when repairing a device, operating a machine, making a makeshift shelter, or using an improvised weapon."
-      },
-      {},
-      {}
+      }
     ]
   },
   {
@@ -305,9 +300,7 @@
       {
         "name": "Brick Wall",
         "description": "(Passive):  Protohumans are hard to socialize with, as they do not understand the simplest of communications at time. They are stubborn, reacting normally only to physical threats or coercion. All non-Protohuman creatures get a setback die for Charm, Deception, Leadership, and Negotiation checks they make on a Protohuman."
-      },
-      {},
-      {}
+      }
     ]
   },
   {
@@ -382,9 +375,7 @@
       {
         "name": "Nimble",
         "description": "See page 142 in the Genesys Core Rulebook"
-      },
-      {},
-      {}
+      }
     ]
   },
   {
@@ -463,8 +454,7 @@
       {
         "name": "Tough as Nails",
         "description": "See page 142 in the Genesys Core Rulebook"
-      },
-      {}
+      }
     ]
   },
   {
@@ -539,9 +529,7 @@
       {
         "name": "Battle Rage",
         "description": "See page 142 in the Genesys Core Rulebook"
-      },
-      {},
-      {}
+      }
     ]
   },
   {
@@ -620,8 +608,7 @@
       {
         "name": "Human Spirit",
         "description": "See page 152 in the Genesys Core Rulebook"
-      },
-      {}
+      }
     ]
   },
   {
@@ -700,8 +687,7 @@
       {
         "name": "Dead Nerves",
         "description": "See page 153 in the Genesys Core Rulebook"
-      },
-      {}
+      }
     ]
   },
   {
@@ -776,9 +762,7 @@
       {
         "name": "Inorganic",
         "description": "See page 174 in the Genesys Core Rulebook"
-      },
-      {},
-      {}
+      }
     ]
   },
   {
@@ -853,9 +837,7 @@
       {
         "name": "A Face in a Crowd",
         "description": "See page 174 in the Genesys Core Rulebook"
-      },
-      {},
-      {}
+      }
     ]
   },
   {
@@ -930,9 +912,7 @@
       {
         "name": "Natural Weapons",
         "description": "See page 182 in the Genesys Core Rulebook"
-      },
-      {},
-      {}
+      }
     ]
   },
   {
@@ -998,7 +978,7 @@
     ],
     "startingXP": 70,
     "racialSkills": [
-      {}
+
     ],
     "racialAbilities": [
       {
@@ -1174,8 +1154,7 @@
       {
         "name": "High Tech Baubles",
         "description": "See page 183 in the Genesys Core Rulebook"
-      },
-      {}
+      }
     ]
   },
   {
@@ -1250,9 +1229,7 @@
       {
         "name": "Ready for Anything",
         "description": "See page 36 in the Genesys Core Rulebook"
-      },
-      {},
-      {}
+      }
     ]
   },
   {
@@ -1327,9 +1304,7 @@
       {
         "name": "Tough as Nails",
         "description": "See page 37 in the Genesys Core Rulebook"
-      },
-      {},
-      {}
+      }
     ]
   },
   {
@@ -1404,9 +1379,7 @@
       {
         "name": "Brilliant!",
         "description": "See page 38 in the Genesys Core Rulebook"
-      },
-      {},
-      {}
+      }
     ]
   },
   {
@@ -1481,9 +1454,7 @@
       {
         "name": "Forceful Personality",
         "description": "See page 39 in the Genesys Core Rulebook"
-      },
-      {},
-      {}
+      }
     ]
   }
 ]

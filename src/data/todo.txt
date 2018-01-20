@@ -2,21 +2,21 @@ Generator
 	Rolls
 		Motivation rolls and such.
 		AS: Random Roll Race / Career / Faction.		
-	
-	Racial Skills minus prevention.
-	
+		
 	Natural Abilities: Unarmed
-
-	Add skill sort by rank after purchase.
 	
+	AS Career Bonus	
+		add to Abilities
+
 	Gear
 		if amount > 1, keep on adding.
 
 	Reset
-		Skills
-			does not reset career bonus, racial bonus
 		Talents
 		Inventory
+
+	Bonus XP 
+		not working as needed.
 
 	Add Notes Section
 
@@ -46,10 +46,31 @@ Generator
 		+ Melee Shield
 		+ Range Shield
 
-	
+	Export JSON
 
-+ Weapon Workshop
-	Tinkerer
+
+New Pages
+	Workshop
+		Weapon Workshop
+			Tinkerer	
+		Armor Workshop		
+		Gear Workshop
+
+DB Features
+	Rate and Import	
+		Weapons
+		Talents
+		Races
+		Skills
+		Armor
+		Gear
+		Careers
+		Spend
+		Effects
+
+	Character save		
+
+	Account
 
 
 

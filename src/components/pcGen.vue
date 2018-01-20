@@ -50,11 +50,11 @@
             <b-row> <b-col> <hr> </b-col> </b-row>
             <b-row v-if="this.selectedGenre === 'After Seven'"> 
                 <b-col>
-                    <b-btn variant="secondary" v-if="this.selectedGenre === 'After Seven'" size="sm">
+                    <b-btn variant="dark" v-if="this.selectedGenre === 'After Seven'" size="sm">
                         Random Roll Race, Career, Faction
                     </b-btn>
                 
-                    <b-btn variant="secondary" v-if="this.selectedGenre === 'After Seven' && this.selectedCareer !=''" size="sm" @click="grantCareerBoost">
+                    <b-btn variant="dark" v-if="this.selectedGenre === 'After Seven' && this.selectedCareer !=''" size="sm" @click="grantCareerBoost" v-bind:disabled="rolledCareer">
                         Roll for Career Bonus 
                     </b-btn>
                 </b-col>                    
@@ -124,7 +124,7 @@
 
             <b-row>
                 <b-col> {{ this.character.xp.total }} </b-col>
-                <b-col> <b-form-input v-model="this.character.xp.bonus" type="number"/> </b-col>
+                <b-col> <b-form-input v-model="bonusXp" type="number"/> </b-col>
                 <b-col> {{ this.character.xp.totalSpent }} </b-col>
                 <b-col> {{ this.character.xp.starting }} </b-col>                               
             </b-row>
@@ -211,8 +211,8 @@
                         </b-row>
 
                         <b-row  class="text-left text-secondary">
-                            <b-col> <strong> Encumbrance </strong> </b-col>
-                            <b-col> {{ this.character.equipment.armor.armorWorn.encumbrance }} </b-col>
+                            <b-col> <strong> Encumbrance (Worn) </strong> </b-col>
+                            <b-col> {{ this.character.equipment.armor.armorWorn.wornEncumbrance }} </b-col>
                         </b-row>   
                         <b-row> <hr> </b-row> 
 
@@ -278,7 +278,7 @@
                         <b-row>
                             <b-col>                                            
                                 <b-btn v-if="skillTableMode === 'on'" v-b-toggle.skillLegend variant="secondary" size="sm"> + Skill Legend </b-btn>
-                                <b-btn v-if="skillTableMode === 'on'" v-on:click="cleanSkills" variant="warning" size="sm"> Reset Skills </b-btn>
+                                <b-btn v-if="skillTableMode === 'on'" v-on:click="cleanSkills(false, false)" variant="warning" size="sm"> Reset Skills </b-btn>
                                 <b-btn v-if="talentTableMode === 'on'" v-b-toggle.talentLimits variant="secondary" size="sm"> + Talent Limits </b-btn>
                                 <b-btn v-if="talentTableMode === 'on'" variant="warning" size="sm"> Reset Talents </b-btn>
                                 <b-collapse id ="skillLegend" >
@@ -307,7 +307,7 @@
                         <b-row> <hr> </b-row>
                         
                         <b-row id="skillAndTalentGrids" >
-                            <b-col v-if="skillTableMode === 'on'" id="skillGrid">
+                            <b-col v-if="skillTableMode === 'on'" id="skillGrid" cols="4"> 
                                 <b-container>
                                     <b-row v-if="skillTableMode === 'on'">
                                         <b-col>
@@ -320,7 +320,7 @@
                                             </b-input-group-button>
                                         </b-col>
                                     </b-row>      
-                                    <b-row v-if="skillTableMode === 'on'">
+                                    <b-row v-if="skillTableMode === 'on'" >
                                         <b-col>
                                             <p> </p>
                                             <b-table                  
@@ -337,8 +337,8 @@
                                                 :current-page="skillsPage">
 
                                                 <template slot="actions" slot-scope="row">                                                   
-                                                    <b-btn size="sm" variant="danger" v-on:click.stop="adjustSkillRank(row.item, -1)"> - </b-btn>
-                                                    <b-btn size="sm" variant="success" v-on:click.stop="adjustSkillRank(row.item, 1)"> + </b-btn>                                
+                                                    <b-btn size="sm" variant="danger" v-on:click.stop="adjustSkillRank(row.item, -1, false)"> - </b-btn>
+                                                    <b-btn size="sm" variant="success" v-on:click.stop="adjustSkillRank(row.item, 1, false)"> + </b-btn>                                
                                                 </template>    
 
                                             </b-table>
@@ -376,18 +376,18 @@
                                                 small
                                                 outlined                                                          
                                                 striped                                                                                               
-                                                class="text-left"                                                   
+                                                class="text-left"                                        
                                                 :filter="talentFilter"
                                                 @filtered="onTalentFilter"
                                                 :items="this.character.talents.items" 
                                                 :fields="this.sheet.talentFields" 
                                                 :per-page="talentsPerPage" 
                                                 :current-page="talentsPage">        
-
+                                                    <template slot="details" slot-scope="row"> {{row.item.tierDisplay}} {{row.item.name}} </template>
                                                     <template slot="actions" slot-scope="row">
-                                                        <b-btn size="sm" @click.stop="showSomeModal(row.item, 'talent')" variant="secondary"> info </b-btn>                                
-                                                        <b-btn size="sm" variant="danger" v-on:click.stop="adjustTalentTiering(row.item, -1)"> - </b-btn>
-                                                        <b-btn size="sm" variant="success" v-on:click.stop="adjustTalentTiering(row.item, 1)"> + </b-btn>                                
+                                                        <b-btn size="sm" @click.stop="showSomeModal(row.item, 'talent')" variant="secondary"> ? </b-btn>                                
+                                                        <b-btn size="sm" variant="danger" v-on:click.stop="adjustTalentTiering(row.item, -1, false)"> - </b-btn>
+                                                        <b-btn size="sm" variant="success" v-on:click.stop="adjustTalentTiering(row.item, 1, false)"> + </b-btn>                                
                                                     </template>    
 
                                             </b-table>
@@ -593,14 +593,8 @@
                         <b-row v-if="weaponShopMode === 'on'">
 
                                 <b-col>
-                                    <b-form-input v-model="weaponFilter" placeholder="Type to Search" />
-                                </b-col>
-
-                                <b-col>
-                                    <b-input-group-button> 
-                                        <b-btn :disabled="!weaponFilter" @click="weaponFilter = ''"> Clear </b-btn>
-                                    </b-input-group-button>
-                                </b-col>                                    
+                                    <b-form-checkbox-group buttons button-variant="dark" v-model="this.sheet.selectedTiers" :options="this.sheet.availableTiers" /> 
+                                </b-col>                                                             
                         </b-row>
                         <b-row id ="weaponGrid"  v-if="weaponShopMode === 'on'">
                             <b-col>
@@ -706,6 +700,13 @@
         </b-modal>        
 
 
+        <p> </p>
+        <hr>
+        <b-table :items="this.character.talents.transactionLog"/>
+
+        <p> </p>
+        <hr>
+        <b-table :items="this.character.skills.transactionLog"/>
 
 
     </div>
@@ -717,7 +718,7 @@ export default {
         return {
             
             rolledCareer: false,
-
+            bonusXp : false,
             altMagicRule : true,
             altAfterSevenRule: true,
             altCustomRule: false,
@@ -795,25 +796,21 @@ export default {
             modalData: [],
             
             characteristicAlert: false,
-            characteristicDismissSecs: 3,
-            characteristicCountdown: 0,
             xpAlert: false,
-            xpDismissSecs: 3,
-            xpCountdown: 0,
             inventoryAlert: false,
-            inventoryDismissSecs: 3,
-            inventoryCountdown: 0,
             
             sortKey: 'tier',
             sortDesc: false,
 
             settingGenres: ["After Seven", "Custom", "Fantasy", "Steampunk", "Weird War", "Modern", "Sci-fi", "Space Opera"],
+            selectedTiers: ["Tier: 1", "Tier: 2", "Tier: 3", "Tier: 4", "Tier: 5" ],
 
             sheet: {       
+                avaiableTiers: ["Tier: 1", "Tier: 2", "Tier: 3", "Tier: 4", "Tier: 5" ],
                 selectableCharacteristics: ["Agility", "Brawl", "Cunning", "Intellect", "Presence", "Willpower"],
                 selectedCharacteristic: "",
                 selectedableSkills: [],
-                selectedSkills: [],
+                selectedSkills: [],                
                 altRuleButtons: [
                     { variant: "info", size: "sm", caption: "After Seven", state: true},
                     { variant: "info", size: "sm", caption: "Custom", state: false},
@@ -832,13 +829,16 @@ export default {
                 skillLegendFields: [{key:"text", label: "Item" }],
                 skillLegend: [
                     { text: "Career Skill", _rowVariant: "primary"},
-                    { text: "Automatic Skill", _rowVariant: "secondary"},
+                    { text: "Automatic Skill", _rowVariant: "dark"},
                     { text: "Racial or Talent Choice", _rowVariant: "warning"},
                     { text: "Racial or Talent Choice Selection", _rowVariant: "info"},
                 ],
                 talentFields: [                                                        
+                    /*
                     { key: "tier", label: "Tier", class: "text-center", sortable: false   }, 
                     { key: "name", label: "Name", class: "text-left", sortable: false  },                  
+                    */
+                    { key: "details", label: "Talent", class:"text-left", sortable: false} ,
                     { key: "ranked", label: "Ranked", class: "text-left", sortable: false },     
                     { key: "ranks", label: "Rank", class: "text-center", sortable: true } ,
                     { key: "actions", label: " ", class: "text-left" },                      
@@ -991,6 +991,9 @@ export default {
         }
     },
     watch: {
+        bonusXp: function (bonus) {
+            this.character.xp.total += this.bonusXp;
+        },
         selectedRace : function (newRace) {         
             this.assignRacialCharacteristics();
             this.assignDerivedCharacteristics();
@@ -1036,17 +1039,17 @@ export default {
     },   
     methods : { 
         getAllIndexesWithAttr (array, attr, value) {
-            var indexes = [-1];
+            var indices = [];
             
             for(var i = 0; i < array.length; i += 1) {
                                 
                 if(array[i][attr] === value) {
                                       
-                    indexes.push(i);
+                    indices.push(i);
                 }
             }
             
-            return indexes;
+            return indices;
         },
         findWithAttr(array, attr, value) {
             
@@ -1161,9 +1164,7 @@ export default {
             this.modalData = [];
 
             var newModalData = [];
-
-            //console.log(rowItem);
-
+            
             switch (rowType){
                 case "armor": 
                     newModalData = {
@@ -1318,13 +1319,11 @@ export default {
                         
         },
         adjustArmorInventory (armor, amount, bonus=false) {
-            
-            console.log(armor);
-
+                        
             if (bonus) {
-                armor.obtainedBy = "bonus";
+                armor.source = "bonus";
             } else if (amount > 0) {
-                armor.obtainedBy = "purchase";
+                armor.source = "purchase";
             }
 
             this.inventoryAlert = false;
@@ -1337,7 +1336,7 @@ export default {
             
             var newMoney = this.character.equipment.money - (armor.value * amount);
 
-            if (!bonus && amount < 0 && armor.obtainedBy != "bonus") {
+            if (!bonus && amount < 0 && armor.source != "bonus") {
                 newMoney = this.character.equipment.money;
             }
 
@@ -1361,21 +1360,18 @@ export default {
 
                     //if there are any abilities, slap them in!
                     var abilityIndexes = this.getAllIndexesWithAttr(this.abilityData, "id", newArmor.id);
-                    //it is always 1, because it starts with a -1. 
-                    if (abilityIndexes.length > 1) {
-                        //start off as one instead of 0, because [0] = -1...
-                        for(var i = 1; i < abilityIndexes.length; i++) {        
-                            
-                            var ability = this.abilityData[abilityIndexes[i]];      
+                   
+                    for(var i = 1; i < abilityIndexes.length; i++) {        
+                        
+                        var ability = this.abilityData[abilityIndexes[i]];      
 
-                            var a = this.findWithAttr(this.character.abilities, "source", ability.source);    
+                        var a = this.findWithAttr(this.character.abilities, "source", ability.source);    
 
-                            if (a <= 0) {
-                                this.character.abilities.push(ability);
-                                this.abilityTableRows = this.character.abilities.length;
-                            }                            
-                        }
-                    }
+                        if (a <= 0) {
+                            this.character.abilities.push(ability);
+                            this.abilityTableRows = this.character.abilities.length;
+                        }                            
+                    }                    
 
                 } else {
                     this.illegalLogic = "You do not have enough money for this!";
@@ -1386,57 +1382,51 @@ export default {
             } else {
                 //removing armor
                 if(armor.quantity === 1 && armor.name === this.character.equipment.armor.armorWorn.name) {
-                    //this is the armor worn...so let's remove it.
-                    //console.log(        "adjustArmorWorn()");
+                    //this is the armor worn...so let's remove it.                    
                     logicCheck = this.adjustArmorWorn();
 
-                    if(logicCheck) {
+                    if (logicCheck) {
+                        
                         var abilityIndexes = this.getAllIndexesWithAttr(this.abilityData, "id", armor.id);
-                        //it is always 1, because it starts with a -1. 
-                        if (abilityIndexes.length > 1) {
-                            //start off as one instead of 0, because [0] = -1...
-                            for(var i = 1; i < abilityIndexes.length; i++) {        
-                                
-                                var ability = this.abilityData[abilityIndexes[i]];       
-                                
-                                var a = this.findWithAttr(this.character.abilities, "source", ability.source);                                                         
+                            
+                        for(var i = 0; i < abilityIndexes.length; i++) {        
+                            
+                            var ability = this.abilityData[abilityIndexes[i]];       
+                            
+                            var a = this.findWithAttr(this.character.abilities, "source", ability.source);                                                         
 
-                                //remove this ability if its the only one.
-                                if (armor.quantity === 1) {
-                                    this.character.abilities.splice(a, 1);  
-                                    this.abilityTableRows = this.character.abilities.length;                                      
-                                }                            
-                            }
+                            //remove this ability if its the only one.
+                            if (armor.quantity === 1) {
+                                this.character.abilities.splice(a, 1);  
+                                this.abilityTableRows = this.character.abilities.length;                                      
+                            }                            
+                            
                         }
                     }
 
-                } else if (armor.quantity > 0) {
-                    
-                    //console.log(        "remove armor from inventory");
+                } else if (armor.quantity > 0) {                                    
                     //find the armor in inventory
                     var armorIndex = this.findWithAttr(this.character.equipment.inventory.items, "UUID", armor.UUID);
                     
                     if (armorIndex >= 0) {
                         //remove armor from inventory 
-                        //console.log(            "(" + armorIndex + ")" + " remove armor from inventory");                        
+                        
                         this.character.equipment.inventory.items.splice(armorIndex, 1);
                         this.inventoryTableRows = this.character.equipment.inventory.items.length;
 
-                        var abilityIndexes = this.getAllIndexesWithAttr(this.abilityData, "id", armor.id);
-                        //it is always 1, because it starts with a -1. 
-                        if (abilityIndexes.length > 1) {
-                            //start off as one instead of 0, because [0] = -1...
-                            for(var x = 1; x < abilityIndexes.length; x++) {        
-                                
-                                var ability = this.abilityData[abilityIndexes[x]];       
-                                
-                                var a = this.findWithAttr(this.character.abilities, "source", ability.source);                                                         
+                        var abilityIndexes = this.getAllIndexesWithAttr(this.abilityData, "id", armor.id);                        
+                            
+                        for(var x = 0; x < abilityIndexes.length; x++) {        
+                            
+                            var ability = this.abilityData[abilityIndexes[x]];       
+                            
+                            var a = this.findWithAttr(this.character.abilities, "source", ability.source);                                                         
 
-                                //remove this ability if its the only one.
-                                if (armor.quantity === 1) {
-                                    this.character.abilities.splice(a, 1);                                        
-                                }                            
-                            }
+                            //remove this ability if its the only one.
+                            if (armor.quantity === 1) {
+                                this.character.abilities.splice(a, 1);                                        
+                            }                            
+                           
                         }
 
                     } else {
@@ -1457,8 +1447,7 @@ export default {
             if(logicCheck) {                                  
                 
                 if (amount < 0 ) {
-                    //armor items are 0, so don't need to subtract further.
-                    //console.log("   armorItem math:" + this.character.equipment.inventory.armorItems + (amount - armorWornAdjustmentNumber))
+                    //armor items are 0, so don't need to subtract further.                    
                     if (this.character.equipment.inventory.armorItems != 0) {
                         this.character.equipment.inventory.armorItems = this.character.equipment.inventory.armorItems + (amount - armorWornAdjustmentNumber); 
                     }                    
@@ -1476,16 +1465,14 @@ export default {
             }    
             
             //encumberance, defense resets.
-            this.assignDerivedCharacteristics();
-            //console.log("Fininish armorItems: " + this.character.equipment.inventory.armorItems);
-            //console.log("   ");       
+            this.assignDerivedCharacteristics();                    
         },
         adjustGearInventory (gear, amount, bonus=false) {
             
             if (bonus) {
-                gear.obtainedBy = "bonus";
+                gear.source = "bonus";
             } else if (amount > 0) {
-                gear.obtainedBy = "purchase";
+                gear.source = "purchase";
             }
 
             this.inventoryAlert = false;
@@ -1509,25 +1496,21 @@ export default {
                     this.inventoryTableRows = this.character.equipment.inventory.items.length;
                     
                     //add abilities.
-                    var abilityIndexes = this.getAllIndexesWithAttr(this.abilityData, "id", g.id);
-                    
-                    console.log(abilityIndexes);
+                    var abilityIndexes = this.getAllIndexesWithAttr(this.abilityData, "id", g.id);                                    
 
-                    if (abilityIndexes.length > 1) {
-                                                
-                        //start off as one instead of 0, because [0] = -1...
-                        for(var x = 1; x < abilityIndexes.length; x++) {        
-                            
-                            var ability = this.abilityData[abilityIndexes[x]];      
+                    //start off as one instead of 0, because [0] = -1...
+                    for(var x = 0; x < abilityIndexes.length; x++) {        
+                        
+                        var ability = this.abilityData[abilityIndexes[x]];      
 
-                            var index = this.findWithAttr(this.character.abilities, "source", ability.source);
-                            
-                            if (index <= 0) {
-                                this.character.abilities.push(ability);
-                                this.abilityTableRows = this.character.abilities.length;
-                            }                            
-                        }
+                        var index = this.findWithAttr(this.character.abilities, "source", ability.source);
+                        
+                        if (index <= 0) {
+                            this.character.abilities.push(ability);
+                            this.abilityTableRows = this.character.abilities.length;
+                        }                            
                     }
+                    
 
                 }
                 //can't afford it.
@@ -1553,23 +1536,20 @@ export default {
                         this.inventoryTableRows = this.character.equipment.inventory.items.length; 
                                             
                         var abilityIndexes = this.getAllIndexesWithAttr(this.abilityData, "id", gear.id);
-                        //it is always 1, because it starts with a -1. 
-                        if (abilityIndexes.length > 1) {
-                            //start off as one instead of 0, because [0] = -1...
-                            for(var z = 1; z < abilityIndexes.length; z++) {        
-                                
-                                var ability = this.abilityData[abilityIndexes[z]];       
-                                
-                                var index = this.findWithAttr(this.character.abilities, "source", ability.source);                                                         
+                        
+                        for(var z = 0; z < abilityIndexes.length; z++) {        
+                            
+                            var ability = this.abilityData[abilityIndexes[z]];       
+                            
+                            var index = this.findWithAttr(this.character.abilities, "source", ability.source);                                                         
 
-                                //remove this ability if its the only one.
-                                if (gear.quantity === 1) {
-                                    this.character.abilities.splice(index, 1);    
-                                    this.abilityTableRows = this.character.abilities.length;                                    
-                                }                            
-                            }
+                            //remove this ability if its the only one.
+                            if (gear.quantity === 1) {
+                                this.character.abilities.splice(index, 1);    
+                                this.abilityTableRows = this.character.abilities.length;                                    
+                            }                            
                         }
-
+                        
                     } else {
                         this.illegalLogic = "How awkward...we couldn't find the item.";
                         this.inventoryAlert = true;
@@ -1599,12 +1579,12 @@ export default {
                 this.assignDerivedCharacteristics();    
             }      
         },
-        adjustWeaponInventory (weapon, amount, bonus=false) {
+        adjustWeaponInventory (weapon, amount, bonus = false) {
             
             if (bonus) {
-                weapon.obtainedBy = "bonus";
+                weapon.source = "bonus";
             } else if (amount > 0) {
-                weapon.obtainedBy = "purchase";
+                weapon.source = "purchase";
             }
 
             this.inventoryAlert = false;
@@ -1613,7 +1593,7 @@ export default {
 
             var newMoney = this.character.equipment.money - (weapon.value * amount);
 
-            if (!bonus && amount < 0 && weapon.obtainedBy != "bonus") {
+            if (!bonus && amount < 0 && weapon.source != "bonus") {
                 newMoney = this.character.equipment.money;
             }
 
@@ -1633,28 +1613,28 @@ export default {
                     //if there are any abilities, slap them in!
                     var abilityIndexes = this.getAllIndexesWithAttr(this.abilityData, "id", w.id);
                     //it is always 1, because it starts with a -1. 
-                    if (abilityIndexes.length > 1) {
+                    
                         //start off as one instead of 0, because [0] = -1...
-                        for(var x = 1; x < abilityIndexes.length; x++) {        
-                            
-                            var ability = this.abilityData[abilityIndexes[x]];      
+                    for(var x = 0; x < abilityIndexes.length; x++) {        
+                        
+                        var ability = this.abilityData[abilityIndexes[x]];      
 
-                            var index = this.findWithAttr(this.character.abilities, "source", ability.source);    
+                        var index = this.findWithAttr(this.character.abilities, "source", ability.source);    
 
-                            if (index <= 0) {
-                                this.character.abilities.push(ability);
-                                this.abilityTableRows = this.character.abilities.length;
-                            }                            
-                        }
-                    }
-                }
-                //can't afford it.
-                else  {
+                        if (index <= 0) {
+                            this.character.abilities.push(ability);
+                            this.abilityTableRows = this.character.abilities.length;
+                        }                            
+                    }                    
+                } else  {
+                    //can't afford it.
                     this.illegalLogic = "You do not have enough money for this!";
                     this.inventoryAlert = true;
                     logicCheck = false;
                     return;
                 }
+                
+                
             //removing item
             } else if (amount < 0) {
                 if (weapon.quantity === 0) {
@@ -1671,22 +1651,19 @@ export default {
                         this.inventoryTableRows = this.character.equipment.inventory.items.length;  
                         
                         var abilityIndexes = this.getAllIndexesWithAttr(this.abilityData, "id", weapon.id);
-                        //it is always 1, because it starts with a -1. 
-                        if (abilityIndexes.length > 1) {
-                            //start off as one instead of 0, because [0] = -1...
-                            for(var z = 1; z < abilityIndexes.length; z++) {        
-                                
-                                var ability = this.abilityData[abilityIndexes[z]];       
-                                
-                                var index = this.findWithAttr(this.character.abilities, "source", ability.source);                                                         
+                                                
+                        for(var z = 0; z < abilityIndexes.length; z++) {        
+                            
+                            var ability = this.abilityData[abilityIndexes[z]];       
+                            
+                            var index = this.findWithAttr(this.character.abilities, "source", ability.source);                                                         
 
-                                //remove this ability if its the only one.
-                                if (weapon.quantity === 1) {
-                                    this.character.abilities.splice(index, 1); 
-                                    this.abilityTableRows = this.character.abilities.length;                                       
-                                }                            
-                            }
-                        }
+                            //remove this ability if its the only one.
+                            if (weapon.quantity === 1) {
+                                this.character.abilities.splice(index, 1); 
+                                this.abilityTableRows = this.character.abilities.length;                                       
+                            }                            
+                        }                        
 
                     } else {
                         this.illegalLogic = "How awkward...we couldn't find the item.";
@@ -1716,184 +1693,274 @@ export default {
                 this.assignDerivedCharacteristics();    
             }            
         },
-        adjustTalentTiering (talent, amount, bonus=false) {
-            //turn off alert.
-            this.xpAlert = false; 
-
-            if (!this.rolledCareer) {
+        adjustTalentTiering (talent, amount, bonus = false) {
+            this.xpAlert = false;
+        
+            if (!this.rolledCareer && this.selectedGenre === 'After Seven') {
                 this.illegalLogic = "Roll up a career bonus first.";
                 this.xpAlert = true;
-                return;
-            }
-
-            var talentOrigin = "";
-
+                return;            
+            }                    
+        
             var index = this.findWithAttr(this.character.talents.items, "id", talent.id);
 
-            var adjustedRank = this.character.talents.items[index].ranks + amount;
+            var talentSource = "purchase"; 
 
-            var xpSpent = 0;     
+            var adjustedRank = talent.ranks + amount;
+            
+            var adjustedTierDisplay = "Tier: " + talent.tier;
+            var adjustedTier = talent.tier;
+            
+            if (adjustedTier >= 5 && talent.ranked === "Yes" && amount > 1) {
+                    adjustedTier = 5; 
+            }
 
-            //will changed if its ranked.
-            var newTier = talent.tier;
+            var talentLimitIndex = adjustedTier - 1;
 
-            var tli = newTier - 1;  
+            var tiersOwned = this.character.talents.limitations[talentLimitIndex].owned + amount;
 
-            //console.log(talent.tier);
-            //console.log("this.character.talents.limitations"); 
-            //console.log(this.character.talents.limitations);
+            if (bonus) talentSource = "bonus";
 
-            var tiersOwned = this.character.talents.limitations[tli].owned + amount;
+            var xpSpent = 0;
 
             if (amount > 0) {
-                if (bonus) {
-                    //note as such, bonus talents do not skill up or down.
-                    talent.origin = "bonus"
-                } else {
-
-                    if (adjustedRank > 1 && talent.ranked === "No") {
-                        this.illegalLogic = "Can not increase talent further.";
-                        this.xpAlert = true;
-                        return;
-
-                    } else if (adjustedRank > 5 && talent.ranked === "No" ) {
-                        this.illegalLogic = "Can not increase talent further.";
-                        this.xpAlert = true;
-                        return;
-
-                    } else if ( talent.tier > 1 && tiersOwned > this.character.talents.limitations[tli].limit ) {
-                        //if its a tier 2, 3, 4, 5 and greater than the tier limit...
-                        this.illegalLogic = "You can not buy into this tier.";
-                        this.xpAlert = true;
-                        return;
+                
+                if (talent.ranked === "Yes" && adjustedRank > 1) {
+                    //better increase the tiersOwned for ranked talent.                
+                    if (adjustedTier >= 5 && talent.ranked === "Yes") {
+                        adjustedTier = 5;
                     } else {
+                        adjustedTier += 1;
+                    }                    
+                    var talentLimitIndex = adjustedTier - 1;
+                    var adjustedTierDisplay = "Tier: " + adjustedTier;                    
+                    tiersOwned = this.character.talents.limitations[talentLimitIndex].owned + amount;
+                }
 
-                        if (talent.ranked === "Yes") {
-                            //tier 1 -> tier 2 for next purchase cost.
-                            newTier = talent.tier + amount;
-                        }      
+                //verify purchase.
+                if (adjustedRank > 1 && talent.ranked === "No") {
+                    this.illegalLogic = "Can not increase talent further, it is a non-ranked talent.";
+                    this.xpAlert = true;
+                    return;
 
-                        xpSpent = (newTier * 5) * amount;
-                    }
-
-                }                 
+                } else if (adjustedTier > 1 && tiersOwned > this.character.talents.limitations[talentLimitIndex].limit) {
+                    this.illegalLogic = "You can not buy into this tier.";
+                    this.xpAlert = true;
+                    return;
+                
+                } else {
+                    //record the price.
+                    if (!bonus) xpSpent = (adjustedTier * 5) * amount;      
+                                  
+                }
                 
                 if(this.spendXP(xpSpent, "Talent")) {
-                    //valid purchase
-                    talent.origin = "purchase"
-                  
-                    var newTierDisplay = "Tier: " + newTier;
-                    
+
                     var log = {
-                        id: talent.id,
+                        id: talent.id, 
+                        name: talent.name, 
                         xp: xpSpent,
-                        ranks: talent.ranks,
-                        origin: talent.origin,
-                        tier: talent.tier,
-                        tierDisplay: talent.tierDisplay
+                        priorRank: talent.ranks,
+                        newRank: adjustedRank,
+                        priorTier: talent.tier,
+                        tier: adjustedTier,
+                        priorTiersOwned: this.character.talents.limitations[talentLimitIndex].owned
                     }
 
                     this.character.talents.transactionLog.push(log);
-                        
-                    this.character.talents.items[index].tierDisplay = newTierDisplay;
-                    this.character.talents.items[index].ranks += amount;
+
+                    this.character.talents.items[index].tierDisplay = adjustedTierDisplay;
+                    this.character.talents.items[index].ranks = adjustedRank;
+                    this.character.talents.items[index].tier = adjustedTier;
                     
-                    if (talent.ranked === "Yes") {
-                        this.character.talents.items[index].tier = newTier;
-                    }
-
-                    this.character.talents.limitations[tli].owned = tiersOwned;
-
-
-                    //if there are any abilities, slap them in!
                     var abilityIndexes = this.getAllIndexesWithAttr(this.abilityData, "id", talent.id);
-                    
-                    //it is always 1, because it starts with a -1.                     
-                    if (abilityIndexes.length > 1) {
-                        //start off as one instead of 0, because [0] = -1...
-                        for(var z = 1; z < abilityIndexes.length; z++) {        
+
+                    for (var z = 0; z < abilityIndexes.length; z++ ) {  
                             
-                            var ability = this.abilityData[abilityIndexes[z]];      
+                        var ability = this.abilityData[abilityIndexes[z]];      
 
-                            var abilityIndex = this.findWithAttr(this.character.abilities, "source", ability.source);    
+                        var abilityIndex = this.findWithAttr(this.character.abilities, "source", ability.source);    
 
-                            if (abilityIndex <= 0) {
-                                this.character.abilities.push(ability);
-                                this.abilityTableRows = this.character.abilities.length;
-                            }                            
-                        }
-                    }                
+                        if (abilityIndex <= 0) {
+                            this.character.abilities.push(ability);
+                            this.abilityTableRows = this.character.abilities.length;
+                        }     
+                    }
 
                     //update accordingly.
                     this.specialTalent(talent, amount);
 
-                    this.setTalentTieringLimits();                    
+                    this.setTalentTieringLimits();
+
+                    return;                                       
+                } else {
+                    this.illegalLogic = "You do not have XP for this.";
+                    this.xpAlert = true;
+                    return;
                 }
 
-            }
-            else {
-                //looking for a refund!
+            } else {
+
                 if (adjustedRank < 0) {
                     return;
-                } else if ( talent.origin === "bonus" ) {
+
+                } else if ( talent.tier === "bonus" ) {
                     this.illegalLogic = "Can not take away a free talent.";
-                    xpAlert = true;
+                    this.xpAlert = true;
                     return;
 
                 } else {
-                    
-                    for(var l = 0; l < this.character.talents.transactionLog.length; l++) {
 
-                        if (this.character.talents.transactionLog[l].id === talent.id) {
+                    for (var t = 0; t < this.character.talents.transactionLog.length; t++) {
+                        
+                        if (this.character.talents.transactionLog[t].id === talent.id) {
 
-                            if (this.character.talents.transactionLog[l].ranks === adjustedRank) {
-                                //this is the refund.
-                                xpSpent = this.character.talents.transactionLog[l].xp * -1;   
-                                this.character.talents.items[index].ranks = this.character.talents.transactionLog[l].ranks;
-                                this.character.talents.items[index].origin = this.character.talents.transactionLog[l].origin;
-                                this.character.talents.items[index].tierDisplay = this.character.talents.transactionLog[l].tierDisplay;
-                                this.character.talents.items[index].tier = this.character.talents.transactionLog[l].tier;                                   
-                                this.character.talents.transactionLog.splice(l,1);
+                            if (this.character.talents.transactionLog[t].priorRank === adjustedRank ) {
+                                //this is the talent we want. 
+                                var priorTier = this.character.talents.transactionLog[t].priorTier;
+                                
+                                //let's look at the talent tier limits, [-1] because of the array order.
+                                var adjustedTiersOwned = this.character.talents.limitations[priorTier-1].owned-1;
+                                
+                                //not [-1], because its an array.                                
+                                var nextTierOwned = this.character.talents.limitations[priorTier].owned;
+                                
+                                if ( adjustedTiersOwned > nextTierOwned ) {                 
+                                    //if we take one away from the log but the next tier has just one in it, then it's not cool, man.
+                                    this.illegalLogic = "You can not take away this talent due to talent tiering.";
+                                    this.xpAlert = true;
+                                    return;
+                                } else {
+
+                                    this.character.talents.items[index].ranks = this.character.talents.transactionLog[t].priorRank;
+                                    this.character.talents.items[index].source = this.character.talents.transactionLog[t].source;
+                                    this.character.talents.items[index].tierDisplay = "Tier: " + priorTier;
+                                    this.character.talents.items[index].tier = this.character.talents.transactionLog[t].priorTier;   
+                                    xpSpent = this.character.talents.transactionLog[t].xp * -1;  
+
+                                    this.character.talents.transactionLog.splice(t,1);  
+
+                                    if (this.spendXP(xpSpent, "talent")) {
+                        
+                                        var abilityIndexes = this.getAllIndexesWithAttr(this.abilityData, "id", talent.id);
+                                                
+                                        //start off as one instead of 0, because [0] = -1...
+                                        for(var j = 0; j < abilityIndexes.length; j++) {        
+                            
+                                            var ability = this.abilityData[abilityIndexes[j]];       
+                                        
+                                            var abilityIndex = this.findWithAttr(this.character.abilities, "source", ability.source);                                                         
+
+                                            //remove this ability if its the only one.
+                                            if (adjustedRank === 0) {
+                                                this.character.abilities.splice(abilityIndex, 1);    
+                                                this.abilityTableRows = this.character.abilities.length;                                    
+                                            }                            
+                                        }
+
+                                        //update accordingly.
+                                        this.specialTalent(talent, amount);
+
+                                        this.setTalentTieringLimits();
+
+                                        return;
+                                    }
+                                                                        
+                                }                                                                                               
                             }
                         }
-                    }
 
-                    if(this.spendXP(xpSpent, "talent")) {
-                        var abilityIndexes = this.getAllIndexesWithAttr(this.abilityData, "id", talent.id);
-                        //it is always 1, because it starts with a -1. 
-                        if (abilityIndexes.length > 1) {
-                            //start off as one instead of 0, because [0] = -1...
-                            for(var j = 1; j < abilityIndexes.length; j++) {        
-                                
-                                var ability = this.abilityData[abilityIndexes[j]];       
-                                
-                                var abilityIndex = this.findWithAttr(this.character.abilities, "source", ability.source);                                                         
+                    }                                       
+                }
 
-                                //remove this ability if its the only one.
-                                if (talent.ranks === 1) {
-                                    this.character.abilities.splice(abilityIndex, 1);    
-                                    this.abilityTableRows = this.character.abilities.length;                                    
-                                }                            
-                            }
-                        }
-
-                        this.setTalentTieringLimits();
-                    }
-                }                   
             }
         },
         setTalentTieringLimits() {
-            for(var i = 1; i < this.character.talents.limitations.length; i++){
-                //skip talent tier 1.
-                this.character.talents.limitations[i].limit = this.character.talents.limitations[i-1].owned-1;
 
-                if(this.character.talents.limitations[i].limit <= 0) {
-                    this.character.talents.limitations[i].limit = 0;
+            this.character.talents.limitations[0].owned = 0;    //Tier: 1 
+            this.character.talents.limitations[1].owned = 0;    //Tier: 2
+            this.character.talents.limitations[2].owned = 0;    //Tier: 3
+            this.character.talents.limitations[3].owned = 0;    //Tier: 4
+            this.character.talents.limitations[4].owned = 0;    //Tier: 5
+
+            for(var i = 0; i < this.character.talents.items.length; i++) {
+                
+                var tier = this.character.talents.items[i].tier;
+                var rawTier = this.character.talents.items[i].originalTier;
+
+                if (this.character.talents.items[i].ranks > 0 ) {
+
+                    switch (tier) {
+                        case 1:
+                            this.character.talents.limitations[0].owned += 1;
+                            break;
+                        case 2:
+                            if (rawTier === 1 ) this.character.talents.limitations[0].owned += 1;                               
+                            this.character.talents.limitations[1].owned += 1;                                         
+                            break;
+                        case 3:
+                            if (rawTier === 1) {
+                                this.character.talents.limitations[0].owned += 1;
+                                this.character.talents.limitations[1].owned += 1;  
+                            }   
+                            if (rawTier === 2) {                                
+                                this.character.talents.limitations[1].owned += 1;  
+                            }                                                                                  
+                            this.character.talents.limitations[2].owned += 1;                      
+                            break;
+                        case 4:                            
+                            if (rawTier === 1) {
+                                this.character.talents.limitations[0].owned += 1;
+                                this.character.talents.limitations[1].owned += 1;  
+                                this.character.talents.limitations[2].owned += 1;                              
+                                this.character.talents.limitations[3].owned += 1;  
+                            }      
+                            if (rawTier === 2) {                                
+                                this.character.talents.limitations[1].owned += 1;  
+                                this.character.talents.limitations[2].owned += 1;  
+                                this.character.talents.limitations[3].owned += 1;  
+                            }      
+                            if (rawTier === 3) {
+                                this.character.talents.limitations[2].owned += 1;                                  
+                            }                                    
+                            this.character.talents.limitations[3].owned += 1;                        
+                            break;
+                        case 5:
+                            if (rawTier === 1) {
+                                this.character.talents.limitations[0].owned += 1;
+                                this.character.talents.limitations[1].owned += 1;  
+                                this.character.talents.limitations[2].owned += 1;  
+                                this.character.talents.limitations[3].owned += 1;  
+                            }                            
+                            if (rawTier === 2) {                                
+                                this.character.talents.limitations[1].owned += 1;  
+                                this.character.talents.limitations[2].owned += 1;  
+                                this.character.talents.limitations[3].owned += 1;  
+                            }                            
+                            if (rawTier === 3) {
+                                this.character.talents.limitations[2].owned += 1;  
+                                this.character.talents.limitations[3].owned += 1;  
+                            }                            
+                            if (rawTier === 4) {
+                                this.character.talents.limitations[3].owned += 1;  
+                            }                                                                                     
+                            this.character.talents.limitations[4].owned += 1;                     
+                            break;
+                    }
+                }
+            }
+
+            for(var z = 1; z < this.character.talents.limitations.length; z++){
+                //skip talent tier 1.
+                this.character.talents.limitations[z].limit = this.character.talents.limitations[z-1].owned-1;
+
+                if(this.character.talents.limitations[z].limit <= 0) {
+                    this.character.talents.limitations[z].limit = 0;
                 }
             }
         },
-        adjustSkillRank(skill, amount, bonus=false) {   
-            
+        adjustSkillRank(skill, amount, bonus=false) {    
+
             //turn off alert.
             this.xpAlert = false;
 
@@ -1959,10 +2026,15 @@ export default {
                     //make and push the log, to help with refunding and resets later.
                     var log = {
                         id: skill.id,
+                        skill: skill.name,
                         xp: xpSpent,
-                        ranks: skill.ranks,
-                        origin: skill.source
+                        previousRank: skill.ranks,
+                        newRank: adjustedRank,
+                        previousSource: skill.source,
+                        source: skillOrigin,
+                        isCareer: skill.isCareer
                     };
+                    
                     this.character.skills.transactionLog.push(log);
 
                     //record changes.
@@ -1970,22 +2042,19 @@ export default {
                     this.character.skills.items[index].source = skillOrigin;
 
                     //if there are any abilities, slap them in!
-                    var abilityIndexes = this.getAllIndexesWithAttr(this.abilityData, "id", this.character.skills.items[index].id);         
-                    //it is always 1, because it starts with a -1.                     
-                    if (abilityIndexes.length > 1) {
-                        //start off as one instead of 0, because [0] = -1...
-                        for(var z = 1; z < abilityIndexes.length; z++) {        
-                            
-                            var ability = this.abilityData[abilityIndexes[z]];      
-                            
-                            var abilityIndex = this.findWithAttr(this.character.abilities, "source", ability.source);
-                            
-                            if (abilityIndex <= 0) {
-                                this.character.abilities.push(ability);
-                                this.abilityTableRows = this.character.abilities.length;
-                            }                            
-                        }
-                    }
+                    var abilityIndexes = this.getAllIndexesWithAttr(this.abilityData, "id", this.character.skills.items[index].id);                                                 
+                    
+                    for(var z = 0; z < abilityIndexes.length; z++) {        
+                        
+                        var ability = this.abilityData[abilityIndexes[z]];      
+                        
+                        var abilityIndex = this.findWithAttr(this.character.abilities, "source", ability.source);
+                        
+                        if (abilityIndex <= 0) {
+                            this.character.abilities.push(ability);
+                            this.abilityTableRows = this.character.abilities.length;
+                        }                            
+                    }                    
                 }
                 else {
                     this.illegalLogic = "Didn't have the XP for this.";
@@ -1995,21 +2064,24 @@ export default {
                              
             //so we're looking for a refund.
             } else {
-                if (adjustedRank < 0) {
+                if (adjustedRank < 0) {                        
                         return;
                 } else {
-
                     if (skill.isRacial || skill.source === "bonus") {
                         this.illegalLogic = "Can't take away from a racial or a bonus skill.";
                         xpAlert = true;
                         return;
 
-                    } else if (skill.isCareer && skill.source != "first four") {
+                    } else if (skill.isCareer === true && skill.source != "first four") {
                         //career skill improvement.
                         xpSpent = skill.ranks * 5 * amount;
 
                     } else if (!skill.isCareer) {
                         xpSpent = ((skill.ranks * 5) + 5) * amount;
+  
+                    } else {
+                        //career skill improvement.
+                        xpSpent = 0;
                     }
 
                     //keep an arary of indexes where the skill was purchased.
@@ -2019,19 +2091,20 @@ export default {
                         //look at the transaction history
                         if (this.character.skills.transactionLog[l].id === skill.id) {
                             //skill matches
-                            if (this.character.skills.transactionLog[l].ranks === skill.ranks) {
+                            if (skill.ranks === this.character.skills.transactionLog[l].newRank ) {
                                 //this is the refund.                            
-                                xpSpent = this.character.skills.transactionLog[l].xp *-1;    
+                                xpSpent = this.character.skills.transactionLog[l].xp * -1;    
+
+                                this.character.skills.items[index].source = this.character.skills.transactionLog[l].previousSource;
+                                                                                                
+                                this.character.skills.items[index].ranks = this.character.skills.transactionLog[l].previousRank;
                                 
-                                this.character.skills.items[index].source = this.character.skills.transactionLog[l].origin;
-                                this.character.skills.items[index].ranks = this.character.skills.transactionLog[l].ranks;
-                                
-                                if (this.character.skills.transactionLog[l].origin === "first four") {
+                                if (this.character.skills.transactionLog[l].source === "first four") {
                                     this.character.skills.firstFour += 1;
                                 }
-
                                 //remove it from the log.
                                 this.character.skills.transactionLog.splice(l,1);
+
                             } else {
                                 //update skill's origin and source accordingly...
                                 logArray.push(l);
@@ -2044,24 +2117,25 @@ export default {
                         //search for any stored abilities.
                         var abilityIndexes = this.getAllIndexesWithAttr(this.abilityData, "id", this.character.skills.items[index].id);
                     
-                        if (abilityIndexes.length > 1) {
-                            //start off as one instead of 0, because [0] = -1...
-                            for(var j = 1; j < abilityIndexes.length; j++) {        
-                            
+                        if(abilityIndexes.length > 0) {
+
+                            for(var j = 0; j < abilityIndexes.length; j++) {        
+                        
                                 var ability = this.abilityData[abilityIndexes[j]];       
-                            
+                        
                                 var abilityIndex = this.findWithAttr(this.character.abilities, "source", ability.source);                                                         
-                       
+                    
                                 //remove this ability if its the only one.
                                 if (skill.ranks === 0) {
                                     this.character.abilities.splice(abilityIndex, 1);    
                                     this.abilityTableRows = this.character.abilities.length;                                    
                                 }                            
                             }
-                        }                                                          
+                                                                                  
+                        }
                     }
                 }
-            }
+            }        
         },
         adjustArmorWorn () {
             
@@ -2097,7 +2171,6 @@ export default {
 
                 } else {
                     //no item was found with the name.
-                    //console.log("               No item was found with the name");
                     var newEcum = 0;
 
                     if (oldWornArmor-3 < 0) {
@@ -2110,12 +2183,11 @@ export default {
                 }                
 
             } else  {                
-                //console.log("           this.character.equipment.armorItems <= 0");
+                
                 this.character.equipment.armor.armorWorn = commonClothing;
             }
 
-            this.assignDerivedCharacteristics(); 
-            //console.log("       armorItems: " + this.character.equipment.inventory.armorItems);
+            this.assignDerivedCharacteristics();            
 
             return true;
         },
@@ -2202,84 +2274,130 @@ export default {
 
         },
         cleanSkills (clearRacial = false, clearBonus = false) {
-
-            console.log("before purge");
-            console.log(this.character.skills.transactionLog);
             //clean out attributes (non-bonus)
             //clean out purchase history 
-            //reset row color
-
-            var skill = [];
-            skill._rowVariant = null;
-            var log = [];
+            //reset row color            
+            //debugger;            
+            
             var xpSpent = 0;
             var shouldRemove = true;
+            var spliceIndices = [];
+            var logs = this.character.skills.transactionLog;
+            var max = this.character.skills.transactionLog.length - 1;
 
-            for (var i = 0; i < this.character.skills.items.length; i ++) {
+            for(var x = max; x >= 0; x--) {
 
-                skill = this.character.skills.items[i];
+                var log = logs[x];
                 
-                //refund xp, work backwards to skill rank 0.
-                var logIndices = this.getAllIndexesWithAttr(this.character.skills.transactionLog, "id", skill.id);  
-                var spliceIndices = [];
-                
-                if (logIndices.length > 1) {        
+                var skillIndex = this.findWithAttr(this.character.skills.items, "id", log.id);
 
-                    //work from the most recent and work your way down son.
-                    for(var l = logIndices.length-1; l > 0; l-- ) {
-                        console.log("var l = " + l);
-                        log = this.character.skills.transactionLog[logIndices[l]];
-                        
-                        if (log.origin === 'bonus' && clearRacial === false) shouldRemove = false;    
-                        if (log.origin === 'racial choice' && clearRacial === false) shouldRemove = false;    
-                        
-                        if ( shouldRemove )  {
-                            //go ahead and reset the racial.
-                            console.log("OMG I'M DOING SOMETHING!!! " + skill.name + " " + skill.ranks);
-                            skill.ranks = log.ranks;
-                            skill.origin = log.origin;
-                            this.character.xp.total += log.xp;
-                            this.character.xp.skillSpending -= log.xp;
-                            this.character.xp.totalSpent -= log.xp;
-                            //cut later.
-                            spliceIndices.push(l);
-                            this.character.skills.items[i] = skill;
-                        }                                                   
+                if (log.source === 'bonus' && clearBonus === false) shouldRemove = false;
+                if (log.source === 'racial choice' && clearRacial === false) shouldRemove = false;
+                
+                if (shouldRemove && skillIndex >= 0) {
+
+                    logs[x].shouldRemove = true;
+
+                    this.character.skills.items[skillIndex].ranks = log.previousRank;
+                    this.character.skills.items[skillIndex].source = log.previousSource;
+
+                    if (log.source === 'first four') {
+                        this.character.skills.firstFour += 1;
                     }
-                }   
 
-                //note how skill has changed from log. 
-                
-                if (skill.source === 'bonus' && clearRacial === false) shouldRemove = false;    
+                    this.character.xp.total += log.xp;
+                    this.character.xp.skillSpending -= log.xp;
+                    this.character.xp.totalSpent -= log.xp;
 
-                if (skill.source === 'racial choice' && clearRacial === false) shouldRemove = false;  
+                    spliceIndices.push(x);
 
-                if (shouldRemove) {
                     //remove abilities
-                    var abilityIndexes = this.getAllIndexesWithAttr(this.abilityData, "id", skill.id);
-
-                    if (abilityIndexes.length > 1) {
-                        //start off as one instead of 0, because [0] = -1...
-                        for(var j = 1; j < abilityIndexes.length; j++) {        
+                    var abilityIndexes = this.getAllIndexesWithAttr(this.abilityData, "id", log.id);
+                                        
+                    if (abilityIndexes.length > 0) {
+                    
+                        for(var j = 0; j < abilityIndexes.length; j++) {        
                     
                             var ability = this.abilityData[abilityIndexes[j]];       
                     
-                            var abilityIndex = this.findWithAttr(this.character.abilities, "source", ability.source);                                                         
-                                            
-                            this.character.abilities.splice(abilityIndex, 1);
-                            this.abilityTableRows = this.character.abilities.length;                            
-                        }
+                            var abilityIndex = this.findWithAttr(this.character.abilities, "source", ability.source);   
+                                                                               
+
+                            if (this.character.skills.items[skillIndex].ranks === 0) {
+                                this.character.abilities.splice(abilityIndex, 1);
+                                this.abilityTableRows = this.character.abilities.length;                            
+                            }
+                        }                    
+
+                    }
+                }
+            }
+
+            for(var z = 0; z < spliceIndices.length; z++) {
+                this.character.skills.transactionLog.splice(spliceIndices[z], 1);
+            }
+
+        },
+        cleanTalents (clearRacial = false, clearBonus = false) {
+            
+            var xpSpent = 0;
+            var shouldRemove = true;
+            var spliceIndices = [];
+            var logs = this.character.talents.transactionLog;
+            var max = this.character.talents.transactionLog.length - 1;
+
+            for(var x = max; x >= 0; x--) {
+
+                var log = logs[x];
+                
+                var skillIndex = this.findWithAttr(this.character.skills.items, "id", log.id);
+
+                if (log.source === 'bonus' && clearBonus === false) shouldRemove = false;
+                if (log.source === 'racial choice' && clearRacial === false) shouldRemove = false;
+                
+                if (shouldRemove && skillIndex >= 0) {
+
+                    logs[x].shouldRemove = true;
+
+                    this.character.skills.items[skillIndex].ranks = log.previousRank;
+                    this.character.skills.items[skillIndex].source = log.previousSource;
+
+                    if (log.source === 'first four') {
+                        this.character.skills.firstFour += 1;
                     }
 
-                }
+                    this.character.xp.total += log.xp;
+                    this.character.xp.skillSpending -= log.xp;
+                    this.character.xp.totalSpent -= log.xp;
 
-                for(var z = 0; z < spliceIndices.length; z++) {
-                    this.character.skills.transactionLog.splice(z, 1);
+                    spliceIndices.push(x);
+
+                    //remove abilities
+                    var abilityIndexes = this.getAllIndexesWithAttr(this.abilityData, "id", log.id);
+                                        
+                    if (abilityIndexes.length > 0) {
+                    
+                        for(var j = 0; j < abilityIndexes.length; j++) {        
+                    
+                            var ability = this.abilityData[abilityIndexes[j]];       
+                    
+                            var abilityIndex = this.findWithAttr(this.character.abilities, "source", ability.source);   
+                                                                               
+
+                            if (this.character.skills.items[skillIndex].ranks === 0) {
+                                this.character.abilities.splice(abilityIndex, 1);
+                                this.abilityTableRows = this.character.abilities.length;                            
+                            }
+                        }                    
+
+                    }
                 }
-                
             }
-            console.log("after purge");
-            console.log(this.character.skills.transactionLog);
+
+            for(var z = 0; z < spliceIndices.length; z++) {
+                this.character.skills.transactionLog.splice(spliceIndices[z], 1);
+            }
+
         },
         assignRacialSkills () {
 
@@ -2288,7 +2406,7 @@ export default {
             //any previous racial data cleared.
             for (var i = 0; i < this.character.skills.items.length; i ++){
                 if(this.character.skills.items[i].isRacial) {
-                    //clears out the Arisen, Human variants
+                    / out the Arisen, Human variants
                     this.character.skills.items[i]._rowVariant = null;
                     this.character.skills.items[i].rank = 0;
                     this.character.skills.items[i].isFreebee = false;
@@ -2392,7 +2510,7 @@ export default {
                         case 4:
                         case 5:
                         case 6:
-                            index = this.findWithAttr(this.character.talents.items, "id", "T305");
+                            index = this.findWithAttr(this.character.talents.items, "id", "T58");
 							talent = this.character.talents.items[index];
                             this.adjustTalentTiering(talent, 1, true);                            
                             break;
@@ -2400,19 +2518,19 @@ export default {
                         case 8:
                         case 9:
                         case 10:
-                            index = this.findWithAttr(this.character.talents.items, "id", "T35");
+                            index = this.findWithAttr(this.character.talents.items, "id", "T6");
 							talent = this.character.talents.items[index];
                             this.adjustTalentTiering(talent, 1, true);                            
                             break;
                         case 11:
                         case 12:
-                            index = this.findWithAttr(this.character.talents.items, "id", "T151");
+                            index = this.findWithAttr(this.character.talents.items, "id", "T23");
 							talent = this.character.talents.items[index];
                             this.adjustTalentTiering(talent, 1, true);                            
                             break;
                         case 13:
                         case 14:
-                            index = this.findWithAttr(this.character.talents.items, "id", "T220");
+                            index = this.findWithAttr(this.character.talents.items, "id", "T39");
 							talent = this.character.talents.items[index];
                             this.adjustTalentTiering(talent, 1, true);                            
                             break;
@@ -2457,13 +2575,13 @@ export default {
                         case 11:
                         case 12:
                         case 13:
-                            index = this.findWithAttr(this.character.talents.items, "id", "T254");
+                            index = this.findWithAttr(this.character.talents.items, "id", "T45");
 							talent = this.character.talents.items[index];
                             this.adjustTalentTiering(talent, 1, true);
                             break;
                         case 14:
                         case 15:
-                            index = this.findWithAttr(this.character.talents.items, "id", "T104");
+                            index = this.findWithAttr(this.character.talents.items, "id", "T14");
 							talent = this.character.talents.items[index];
                             this.adjustTalentTiering(talent, 1, true);
                             break;
@@ -2471,7 +2589,7 @@ export default {
                         case 17:
                         case 18:
                         case 19:
-                            index = this.findWithAttr(this.character.talents.items, "id", "T55");
+                            index = this.findWithAttr(this.character.talents.items, "id", "T10");
 							talent = this.character.talents.items[index];
                             this.adjustTalentTiering(talent, 1, true);
                             break;
@@ -2488,7 +2606,7 @@ export default {
                         case 2: 
                         case 3:
                         case 4:
-                            index = this.findWithAttr(this.character.talents.items, "id", "T254");
+                            index = this.findWithAttr(this.character.talents.items, "id", "T60");
 							talent = this.character.talents.items[index];
                             this.adjustTalentTiering(talent, 1, true);
                             break;
@@ -2496,7 +2614,7 @@ export default {
                         case 6:
                         case 7:
                         case 8:
-                            index = this.findWithAttr(this.character.talents.items, "id", "T254");
+                            index = this.findWithAttr(this.character.talents.items, "id", "T52");
 							talent = this.character.talents.items[index];
                             this.adjustTalentTiering(talent, 1, true);
                             break;
@@ -2504,26 +2622,26 @@ export default {
                         case 10:
                         case 11:
                         case 12:
-                            index = this.findWithAttr(this.character.talents.items, "id", "T309");
+                            index = this.findWithAttr(this.character.talents.items, "id", "T59");
 							talent = this.character.talents.items[index];
                             this.adjustTalentTiering(talent, 1, true);
                             break;
                         case 13:                            
                         case 14:
                         case 15:
-                            index = this.findWithAttr(this.character.talents.items, "id", "T104");
+                            index = this.findWithAttr(this.character.talents.items, "id", "T23");
 							talent = this.character.talents.items[index];
                             this.adjustTalentTiering(talent, 1, true);
                             break;
                         case 16:
                         case 17:
-                            index = this.findWithAttr(this.character.talents.items, "id", "T254");
+                            index = this.findWithAttr(this.character.talents.items, "id", "T2");
 							talent = this.character.talents.items[index];
                             this.adjustTalentTiering(talent, 1, true);
                             break;
                         case 18:
                         case 19:
-                            index = this.findWithAttr(this.character.talents.items, "id", "T55");
+                            index = this.findWithAttr(this.character.talents.items, "id", "T52");
 							talent = this.character.talents.items[index];
                             this.adjustTalentTiering(talent, 1, true);
                             break;
@@ -2547,35 +2665,35 @@ export default {
                             break;
                         case 6:
                         case 7:
-                            index = this.findWithAttr(this.character.talents.items, "id", "T211");
+                            index = this.findWithAttr(this.character.talents.items, "id", "T34");
 							talent = this.character.talents.items[index];
                             this.adjustTalentTiering(talent, 1, true);
                             break;
                         case 8:
                         case 9:
                         case 10:
-                            index = this.findWithAttr(this.character.talents.items, "id", "T105");
+                            index = this.findWithAttr(this.character.talents.items, "id", "T15");
 							talent = this.character.talents.items[index];
                             this.adjustTalentTiering(talent, 1, true);
                             break;
                         case 11:
                         case 12:
                         case 13:  
-                            index = this.findWithAttr(this.character.talents.items, "id", "T87");
+                            index = this.findWithAttr(this.character.talents.items, "id", "T13");
 							talent = this.character.talents.items[index];
                             this.adjustTalentTiering(talent, 1, true);      
                             break;                    
                         case 14:
                         case 15:
                         case 16:
-                            index = this.findWithAttr(this.character.talents.items, "id", "T214");
+                            index = this.findWithAttr(this.character.talents.items, "id", "T36");
 							talent = this.character.talents.items[index];
                             this.adjustTalentTiering(talent, 1, true);
                             break;
                         case 17:
                         case 18:
                         case 19:
-                            index = this.findWithAttr(this.character.talents.items, "id", "T41");
+                            index = this.findWithAttr(this.character.talents.items, "id", "T7");
 							talent = this.character.talents.items[index];
                             this.adjustTalentTiering(talent, 1, true);
                             break;
@@ -2643,7 +2761,9 @@ export default {
                         case 5:
                             index = this.findWithAttr(this.character.equipment.gear.items, "id", "G5");
                             gear = this.character.equipment.gear.items[index];
-                            this.adjustGearInventory(gear, 5, true);
+                            for(var g = 1; g <= 5; g++) {
+                                this.adjustGearInventory(gear, 1, true);
+                            }
                             break;
                         case 6:
                         case 7:
@@ -2658,7 +2778,7 @@ export default {
                             break;
                         case 10:
                         case 11:
-                            index = this.findWithAttr(this.character.talents.items, "id", "T254");
+                            index = this.findWithAttr(this.character.talents.items, "id", "T45");
 							talent = this.character.talents.items[index];
                             this.adjustTalentTiering(talent, 1, true);
                             break;
@@ -2703,20 +2823,22 @@ export default {
                         case 6:
                             index = this.findWithAttr(this.character.equipment.gear.items, "id", "G11");
                             gear = this.character.equipment.gear.items[index];
-                            this.adjustGearInventory(gear, 5, true);
+                            for(var g = 1; g <= 5; g++) {
+                                this.adjustGearInventory(gear, 1, true);
+                            }
                             break;
                         case 7:
                         case 8:
                         case 9:                            
                         case 10:
-                            index = this.findWithAttr(this.character.talents.items, "id", "T206");
+                            index = this.findWithAttr(this.character.talents.items, "id", "T33");
 							talent = this.character.talents.items[index];
                             this.adjustTalentTiering(talent, 1, true);
                             break;
                         case 11:
                         case 12:
                         case 13:   
-                            index = this.findWithAttr(this.character.talents.items, "id", "T257");
+                            index = this.findWithAttr(this.character.talents.items, "id", "T47");
 							talent = this.character.talents.items[index];
                             this.adjustTalentTiering(talent, 1, true); 
                             break;                                
@@ -2724,7 +2846,7 @@ export default {
                         case 15: 
                         case 16:
                         case 17:
-                            index = this.findWithAttr(this.character.talents.items, "id", "T118");
+                            index = this.findWithAttr(this.character.talents.items, "id", "T17");
 							talent = this.character.talents.items[index];
                             this.adjustTalentTiering(talent, 1, true); 
                             break;  
@@ -2766,7 +2888,7 @@ export default {
                         case 11:
                         case 12:
                         case 13:   
-                            index = this.findWithAttr(this.character.talents.items, "id", "T87");
+                            index = this.findWithAttr(this.character.talents.items, "id", "T13");
 							talent = this.character.talents.items[index];
                             this.adjustTalentTiering(talent, 1, true);  
                             break;                               
@@ -2780,7 +2902,7 @@ export default {
                         case 17: 
                         case 18:         
                         case 19:
-                            index = this.findWithAttr(this.character.talents.items, "id", "T333");
+                            index = this.findWithAttr(this.character.talents.items, "id", "T63");
 							talent = this.character.talents.items[index];
                             this.adjustTalentTiering(talent, 1, true);   
                             break;         
@@ -2805,7 +2927,7 @@ export default {
                         case 6:
                         case 7:
                         case 8:
-                            index = this.findWithAttr(this.character.talents.items, "id", "T325");
+                            index = this.findWithAttr(this.character.talents.items, "id", "T61");
 							talent = this.character.talents.items[index];
                             this.adjustTalentTiering(talent, 1, true);  
                             break;
@@ -2813,14 +2935,14 @@ export default {
                         case 10:
                         case 11:
                         case 12:
-                            index = this.findWithAttr(this.character.talents.items, "id", "T262");
+                            index = this.findWithAttr(this.character.talents.items, "id", "T48");
 							talent = this.character.talents.items[index];
                             this.adjustTalentTiering(talent, 1, true);  
                             break;
                         case 13:                                  
                         case 14:
                         case 15:
-                            index = this.findWithAttr(this.character.talents.items, "id", "T151");
+                            index = this.findWithAttr(this.character.talents.items, "id", "T23");
 							talent = this.character.talents.items[index];
                             this.adjustTalentTiering(talent, 1, true);  
                             break; 
@@ -2829,9 +2951,11 @@ export default {
                         case 18:         
                         case 19:
                             this.character.xp.bonus += 5;       
+                            this.character.xp.total += 5;
                             break;
                         case 20:
-                            this.character.xp.bonus += 10;  
+                            this.character.xp.bonus += 10;         
+                            this.character.xp.total += 10;
                             break;
                     }
                     break;
@@ -2850,7 +2974,7 @@ export default {
                         case 7:
                         case 8:
                         case 9:    
-                            index = this.findWithAttr(this.character.talents.items, "id", "T46");
+                            index = this.findWithAttr(this.character.talents.items, "id", "T9");
 							talent = this.character.talents.items[index];
                             this.adjustTalentTiering(talent, 1, true);    
                             break;                    
@@ -2864,19 +2988,19 @@ export default {
                         case 13:                                  
                         case 14:
                         case 15:
-                            index = this.findWithAttr(this.character.talents.items, "id", "T152");
+                            index = this.findWithAttr(this.character.talents.items, "id", "T24");
 							talent = this.character.talents.items[index];
                             this.adjustTalentTiering(talent, 1, true);   
                             break;
                         case 16:
                         case 17: 
-                            index = this.findWithAttr(this.character.talents.items, "id", "T187");
+                            index = this.findWithAttr(this.character.talents.items, "id", "T27");
 							talent = this.character.talents.items[index];
                             this.adjustTalentTiering(talent, 1, true);   
                             break;
                         case 18:         
                         case 19:
-                            index = this.findWithAttr(this.character.talents.items, "id", "T284");
+                            index = this.findWithAttr(this.character.talents.items, "id", "T52");
 							talent = this.character.talents.items[index];
                             this.adjustTalentTiering(talent, 1, true);   
                             break;     
@@ -2895,14 +3019,14 @@ export default {
                         case 4:
                         case 5:
                         case 6:    
-                            index = this.findWithAttr(this.character.talents.items, "id", "T221");
+                            index = this.findWithAttr(this.character.talents.items, "id", "T41");
 							talent = this.character.talents.items[index];
                             this.adjustTalentTiering(talent, 1, true);    
                             break;   
                         case 7:
                         case 8:
                         case 9:        
-                            index = this.findWithAttr(this.character.talents.items, "id", "T333");
+                            index = this.findWithAttr(this.character.talents.items, "id", "T63");
 							talent = this.character.talents.items[index];
                             this.adjustTalentTiering(talent, 1, true);    
                             break;            
@@ -2920,7 +3044,7 @@ export default {
                         case 13:                                  
                         case 14:
                         case 15:
-                            index = this.findWithAttr(this.character.talents.items, "id", "T216");
+                            index = this.findWithAttr(this.character.talents.items, "id", "T37");
 							talent = this.character.talents.items[index];
                             this.adjustTalentTiering(talent, 1, true);   
                             break;
@@ -2932,7 +3056,7 @@ export default {
                             break;
                         case 18:         
                         case 19:
-                            index = this.findWithAttr(this.character.talents.items, "id", "T222");
+                            index = this.findWithAttr(this.character.talents.items, "id", "T40");
 							talent = this.character.talents.items[index];
                             this.adjustTalentTiering(talent, 1, true);   
                             break; 
@@ -2947,13 +3071,13 @@ export default {
                     switch(roll) {
                         case 1:
                         case 2: 
-                            index = this.findWithAttr(this.character.talents.items, "id", "T342");
+                            index = this.findWithAttr(this.character.talents.items, "id", "T64");
 							talent = this.character.talents.items[index];
                             this.adjustTalentTiering(talent, 1, true);    
                             break; 
                         case 3:
                         case 4:
-                            index = this.findWithAttr(this.character.talents.items, "id", "T151");
+                            index = this.findWithAttr(this.character.talents.items, "id", "T23");
 							talent = this.character.talents.items[index];
                             this.adjustTalentTiering(talent, 1, true);    
                             break; 
@@ -2966,6 +3090,7 @@ export default {
                         case 7:
                         case 8: 
                             this.character.xp.bonus += 5;
+                            this.character.xp.total += 5;
                             break;
                         case 9:               
                         case 10:
@@ -2996,6 +3121,7 @@ export default {
                             break;
                         case 20:
                             this.character.xp.bonus += 10;
+                            this.character.xp.total += 5;
                             break;
                     }
                     break;    
@@ -3012,7 +3138,7 @@ export default {
                         case 5:
                         case 6:    
                         case 7:
-                            index = this.findWithAttr(this.character.talents.items, "id", "T41");
+                            index = this.findWithAttr(this.character.talents.items, "id", "T7");
 							talent = this.character.talents.items[index];
                             this.adjustTalentTiering(talent, 1, true);    
                             break; 
@@ -3021,14 +3147,14 @@ export default {
                         case 10:
                         case 11:
                         case 12:
-                            index = this.findWithAttr(this.character.talents.items, "id", "T309");
+                            index = this.findWithAttr(this.character.talents.items, "id", "T59");
 							talent = this.character.talents.items[index];
                             this.adjustTalentTiering(talent, 1, true);    
                             break; 
                         case 13:                                  
                         case 14:
                         case 15:
-                            index = this.findWithAttr(this.character.talents.items, "id", "T315");
+                            index = this.findWithAttr(this.character.talents.items, "id", "T60");
 							talent = this.character.talents.items[index];
                             this.adjustTalentTiering(talent, 1, true);    
                             break; 
@@ -3036,7 +3162,7 @@ export default {
                         case 17: 
                         case 18:         
                         case 19:
-                            index = this.findWithAttr(this.character.talents.items, "id", "T122");
+                            index = this.findWithAttr(this.character.talents.items, "id", "T19");
 							talent = this.character.talents.items[index];
                             this.adjustTalentTiering(talent, 1, true);    
                             break; 
@@ -3059,7 +3185,7 @@ export default {
                         case 4:
                         case 5:
                         case 6: 
-                            index = this.findWithAttr(this.character.talents.items, "id", "T152");
+                            index = this.findWithAttr(this.character.talents.items, "id", "T24");
 							talent = this.character.talents.items[index];
                             this.adjustTalentTiering(talent, 1, true);    
                             break;    
@@ -3077,7 +3203,7 @@ export default {
                         case 10:
                         case 11:
                         case 12:
-                            index = this.findWithAttr(this.character.talents.items, "id", "T256");
+                            index = this.findWithAttr(this.character.talents.items, "id", "T46");
 							talent = this.character.talents.items[index];
                             this.adjustTalentTiering(talent, 1, true);    
                             break; 
@@ -3090,7 +3216,7 @@ export default {
                             break; 
                         case 16:
                         case 17: 
-                            index = this.findWithAttr(this.character.talents.items, "id", "T257");
+                            index = this.findWithAttr(this.character.talents.items, "id", "T47");
 							talent = this.character.talents.items[index];
                             this.adjustTalentTiering(talent, 1, true);    
                             break; 
@@ -3112,25 +3238,25 @@ export default {
                         case 1:
                         case 2:  
                         case 3:
-                            index = this.findWithAttr(this.character.talents.items, "id", "T214");
+                            index = this.findWithAttr(this.character.talents.items, "id", "T36");
 							talent = this.character.talents.items[index];
                             this.adjustTalentTiering(talent, 1, true);    
                             break;  
                         case 4:
                         case 5:
-                            index = this.findWithAttr(this.character.talents.items, "id", "T5");
+                            index = this.findWithAttr(this.character.talents.items, "id", "T2");
 							talent = this.character.talents.items[index];
                             this.adjustTalentTiering(talent, 1, true);    
                             break;  
                         case 6:  
                         case 7:
-                            index = this.findWithAttr(this.character.talents.items, "id", "T192");
+                            index = this.findWithAttr(this.character.talents.items, "id", "T30");
 							talent = this.character.talents.items[index];
                             this.adjustTalentTiering(talent, 1, true);    
                             break;    
                         case 8: 
                         case 9:   
-                            index = this.findWithAttr(this.character.talents.items, "id", "T3");
+                            index = this.findWithAttr(this.character.talents.items, "id", "T1");
 							talent = this.character.talents.items[index];
                             this.adjustTalentTiering(talent, 1, true);    
                             break;              
@@ -3145,7 +3271,7 @@ export default {
                         case 14:
                         case 15:
                         case 16:
-                            index = this.findWithAttr(this.character.talents.items, "id", "T216");
+                            index = this.findWithAttr(this.character.talents.items, "id", "T37");
 							talent = this.character.talents.items[index];
                             this.adjustTalentTiering(talent, 1, true);    
                             break;  
@@ -3187,7 +3313,7 @@ export default {
                         case 6: 
                         case 7:                            
                         case 8: 
-                            index = this.findWithAttr(this.character.talents.items, "id", "T216");
+                            index = this.findWithAttr(this.character.talents.items, "id", "T57");
 							talent = this.character.talents.items[index];
                             this.adjustTalentTiering(talent, 1, true);    
                             break;  
@@ -3199,13 +3325,13 @@ export default {
                             break;  
                         case 11:
                         case 12:
-                            index = this.findWithAttr(this.character.talents.items, "id", "T299");
+                            index = this.findWithAttr(this.character.talents.items, "id", "T64");
 							talent = this.character.talents.items[index];
                             this.adjustTalentTiering(talent, 1, true);    
                             break;  
                         case 13:                              
                         case 14:
-                            index = this.findWithAttr(this.character.talents.items, "id", "T187");
+                            index = this.findWithAttr(this.character.talents.items, "id", "T27");
 							talent = this.character.talents.items[index];
                             this.adjustTalentTiering(talent, 1, true);    
                             break;  
@@ -3213,7 +3339,7 @@ export default {
                         case 16:
                         case 17: 
                         case 18:   
-                            index = this.findWithAttr(this.character.talents.items, "id", "T203");
+                            index = this.findWithAttr(this.character.talents.items, "id", "T32");
 							talent = this.character.talents.items[index];
                             this.adjustTalentTiering(talent, 1, true);    
                             break;        
@@ -3316,6 +3442,7 @@ export default {
                         isRacial: false,                    
                         isFreebee: false,               
                         canBeFreebee: false,
+                        source: "out-of-the-box",
                         abilityId: "",
                         _rowVariant: null           
                     };          
@@ -3352,6 +3479,7 @@ export default {
                             tierDisplay: this.talentData[x].tierDisplay,
                             rankDisplay: this.talentData[x].rankedDisplay,
                             activation: this.talentData[x].activation,
+                            originalTier: this.talentData[x].tier,
                             tier: this.talentData[x].tier,                                                                        
                             ranked: this.talentData[x].isRanked,
                             description: this.talentData[x].alternativeText,
@@ -3359,16 +3487,27 @@ export default {
                             tags: this.talentData[x].tags,     
                                 
                             originalTier: this.talentData[x].originalTier,
-                            origin: " ",                        
+                            source: "out-of-the-box",             
                             ranks: 0
                         };
 
                         talentList.push(t);
+                                        
                     }
                 }
             }
+            
+            var tList = talentList.slice(0);
+            
+            tList.sort(function (a, b) {
+                var xTier = a.tier;
+                var yTier = b.tier;
+                var xName = a.name;
+                var yName = b.name;                
+                return (xTier < yTier) ? -1 : (xTier > yTier) ? 1 : ( (xName < yName) ? -1 : (yName > xName) ? 1 : 0);            
+            })
 
-            this.character.talents.items = talentList;
+            this.character.talents.items = tList;
                             
             this.talentTableRows = this.character.talents.items.length;
 
@@ -3382,20 +3521,17 @@ export default {
 
             ///if there are any abilities, slap them in!
             var abilityIndexes = this.getAllIndexesWithAttr(this.abilityData, "id", raceId);
-            //it is always 1, because it starts with a -1. 
-            if (abilityIndexes.length > 1) {
-                //start off as one instead of 0, because [0] = -1...
-                for(var x = 1; x < abilityIndexes.length; x++) {        
+            
+            for(var x = 0; x < abilityIndexes.length; x++) {        
                     
-                    var ability = this.abilityData[abilityIndexes[x]];      
+                var ability = this.abilityData[abilityIndexes[x]];      
 
-                    var index = this.findWithAttr(this.character.abilities, "source", ability.source);    
+                var index = this.findWithAttr(this.character.abilities, "source", ability.source);    
 
-                    if (index <= 0) {
-                        this.character.abilities.push(ability);
-                        this.abilityTableRows = this.character.abilities.length;
-                    }                            
-                }
+                if (index <= 0) {
+                    this.character.abilities.push(ability);
+                    this.abilityTableRows = this.character.abilities.length;
+                }                                        
             }
         }
     },
@@ -3454,6 +3590,7 @@ export default {
                     isFreebee: false,               
                     canBeFreebee: false, 
                     abilityId: "",
+                    source: "out-of-the-box",
                     _rowVariant: null           
                 };          
                                 
@@ -3485,6 +3622,7 @@ export default {
                         tierDisplay: this.talentData[x].tierDisplay,
                         rankDisplay: this.talentData[x].rankedDisplay,
                         activation: this.talentData[x].activation,
+                        originalTier: this.talentData[x].tier,
                         tier: this.talentData[x].tier,                                                                        
                         ranked: this.talentData[x].isRanked,
                         description: this.talentData[x].alternativeText,
@@ -3492,7 +3630,7 @@ export default {
                         tags: this.talentData[x].tags,
  
                         originalTier: this.talentData[x].originalTier,
-                        origin: " ",             
+                        source: "out-of-the-box",             
                         ranks: 0
                     };
 
@@ -3501,7 +3639,17 @@ export default {
             }
         }
 
-        this.character.talents.items = talentList;
+        var tList = talentList.slice(0);
+        
+        tList.sort(function (a, b) {
+            var xHeader = a.tierDisplay;
+            var yHeader = b.tierDisplay;
+            var xName = a.name;
+            var yName = b.name;                
+            return (xHeader < yHeader) ? -1 : (xHeader > yHeader) ? 1 : ( (xName < yName) ? -1 : (yName > xName) ? 1 : 0);            
+        })
+        
+        this.character.talents.items = tList;
 
         this.talentTableRows = this.character.talents.items.length;
 
@@ -3517,7 +3665,7 @@ export default {
             armor.hasSpecials = true;       
             armor.hasQualities = true;    
             armor.itemType = "armor";
-            armor.obtainedBy = " ";
+            armor.source = " ";
 
             if (typeof this.armorData[i].specialAbilities === "undefined") {                        
             } else {
@@ -3560,7 +3708,7 @@ export default {
             weapon.hasSpecials = false;
             weapon.hasQualities = false;
             weapon.itemType = "weapon";
-            weapon.obtainedBy = " ";
+            weapon.source = " ";
 
             if (typeof this.weaponData[i].specialAbilities === "undefined") {                        
             } else {
@@ -3602,7 +3750,7 @@ export default {
             gear.hasSpecials = false;
             gear.hasQualities = false;
             gear.qualityText = "";
-            gear.obtainedBy = " ";
+            gear.source = " ";
 
             if(this.gearData[i].specialAbilities === "undefined") {
             } else {
@@ -3614,9 +3762,7 @@ export default {
 
         this.character.equipment.gear.items = gearList;   
 
-        this.gearShopTableRows = gearList.length;
-
-        console.log(this.character.talents.items[0]);
+        this.gearShopTableRows = gearList.length;        
 
     }    
 }

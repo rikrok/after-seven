@@ -69,11 +69,11 @@ export default {
             talentGenreData: [],
             alternativeRules: ["After Seven", "Custom", "Hacking", "Magic", "Vehicle"],         
             settingGenres: ["After Seven", "Custom", "Fantasy", "Steampunk", "Weird War", "Modern", "Sci-fi", "Space Opera"],
-            avaiableTiers: ["Tier: 1", "Tier: 2", "Tier: 3", "Tier: 4", "Tier: 5" ],
 
             selectedGenre: "After Seven",
             selectedAlternativeRules: ["After Seven", "Magic"],
-            selectedTiers: ["Tier: 1", "Tier: 2", "Tier: 3", "Tier: 4", "Tier: 5" ]
+            selectedTiers: ["Tier: 1", "Tier: 2", "Tier: 3", "Tier: 4", "Tier: 5" ],
+            avaiableTiers: ["Tier: 1", "Tier: 2", "Tier: 3", "Tier: 4", "Tier: 5" ],
         }    
     },     
     methods: {

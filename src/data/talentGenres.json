@@ -1,3432 +1,3432 @@
 [
   {
-    "id": "T1",
+    "id": "T66",
     "name": "A Charmed Life",
     "genres": "After Seven",
     "alternativeRules": "After Seven"
   },
   {
-    "id": "T2",
+    "id": "T256",
     "name": "Accelerated Spell",
     "genres": "After Seven",
     "alternativeRules": "After Seven"
   },
   {
-    "id": "T3",
+    "id": "T1",
     "name": "Acrane Adept",
     "genres": "After Seven",
     "alternativeRules": "After Seven"
   },
   {
-    "id": "T4",
+    "id": "T67",
     "name": "Action Plan",
     "genres": "After Seven",
     "alternativeRules": "After Seven"
   },
   {
-    "id": "T5",
+    "id": "T2",
     "name": "Aggressive Caster",
     "genres": "After Seven",
     "alternativeRules": "After Seven"
   },
   {
-    "id": "T6",
+    "id": "T68",
     "name": "Alchemist",
     "genres": "After Seven",
     "alternativeRules": "After Seven"
   },
   {
-    "id": "T7",
+    "id": "T3",
     "name": "All-Terrain Driver",
     "genres": "Custom",
     "alternativeRules": "Custom"
   },
   {
-    "id": "T8",
+    "id": "T147",
     "name": "Ambush",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T8",
-    "name": "Ambush",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T9",
-    "name": "Animal Companion",
-    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
-    "alternativeRules": "Default"
-  },
-  {
-    "id": "T9",
-    "name": "Animal Companion",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T9",
-    "name": "Animal Companion",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T10",
-    "name": "Armor Master",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T10",
-    "name": "Armor Master",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T11",
-    "name": "Armor Master (Improved)",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T11",
-    "name": "Armor Master (Improved)",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T12",
-    "name": "Armor Master (Supreme)",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T12",
-    "name": "Armor Master (Supreme)",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T13",
-    "name": "Attention to Detail",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T14",
-    "name": "Bad Cop",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T15",
-    "name": "Bad Press",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T16",
-    "name": "Baleful Gaze",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T16",
-    "name": "Baleful Gaze",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T17",
-    "name": "Barrage",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T17",
-    "name": "Barrage",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T18",
-    "name": "Barrel Roll",
-    "genres": "Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
-    "alternativeRules": "Default"
-  },
-  {
-    "id": "T18",
-    "name": "Barrel Roll",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T19",
-    "name": "Basic Military Training",
-    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
-    "alternativeRules": "Default"
-  },
-  {
-    "id": "T19",
-    "name": "Basic Military Training",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T19",
-    "name": "Basic Military Training",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T20",
-    "name": "Beast Wrangler",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T21",
-    "name": "Belligerent Arcanist",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T22",
-    "name": "Berserk",
-    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
-    "alternativeRules": "Default"
-  },
-  {
-    "id": "T22",
-    "name": "Berserk",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T22",
-    "name": "Berserk",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T23",
-    "name": "Better Luck Next Time",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T24",
-    "name": "Biggest Fan",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T25",
-    "name": "Binding",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T26",
-    "name": "Black Market Contacts",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T27",
-    "name": "Blackmail",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T27",
-    "name": "Blackmail",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T28",
-    "name": "Blind Spot",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T28",
-    "name": "Blind Spot",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T33",
-    "name": "Blooded",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T33",
-    "name": "Blooded",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T34",
-    "name": "Bloodoil Connoisseur",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T35",
-    "name": "Bloodoil Specialist",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T36",
-    "name": "Body Guard",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T36",
-    "name": "Body Guard",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T37",
-    "name": "Body Guard (Improved)",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T37",
-    "name": "Body Guard (Improved)",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T38",
-    "name": "Body Guard (Supreme)",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T38",
-    "name": "Body Guard (Supreme)",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T39",
-    "name": "Bolstered Armor",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T41",
-    "name": "Boneduster",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T42",
-    "name": "Bought Info",
-    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
-    "alternativeRules": "Default"
-  },
-  {
-    "id": "T42",
-    "name": "Bought Info",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T44",
-    "name": "Brilliant Evasion",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T45",
-    "name": "Burly",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T45",
-    "name": "Burly",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T46",
-    "name": "Call 'Em",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T46",
-    "name": "Call 'Em",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T47",
-    "name": "Can’t We Talk About This?",
-    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
-    "alternativeRules": "Default"
-  },
-  {
-    "id": "T47",
-    "name": "Can’t We Talk About This?",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T47",
-    "name": "Can’t We Talk About This?",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T48",
-    "name": "Capital Sendoff",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T49",
-    "name": "Capital Sendoff (Improved)",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T50",
-    "name": "Careful Planning",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T50",
-    "name": "Careful Planning",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T51",
-    "name": "Center of Being",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T51",
-    "name": "Center of Being",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T52",
-    "name": "Center of Being (Improved)",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T52",
-    "name": "Center of Being (Improved)",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T53",
-    "name": "Channel Magical Energy",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T54",
-    "name": "Circle of Shelter",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T54",
-    "name": "Circle of Shelter",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T55",
-    "name": "Clever Retort",
-    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
-    "alternativeRules": "Default"
-  },
-  {
-    "id": "T55",
-    "name": "Clever Retort",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T55",
-    "name": "Clever Retort",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T57",
-    "name": "Command",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T57",
-    "name": "Command",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T58",
-    "name": "Commanding Presence",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T58",
-    "name": "Commanding Presence",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T59",
-    "name": "Confidence",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T59",
-    "name": "Confidence",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T60",
-    "name": "Confidence (Improved)",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T60",
-    "name": "Confidence (Improved)",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T61",
-    "name": "Congenial",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T61",
-    "name": "Congenial",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T62",
-    "name": "Constant Vigilance",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T62",
-    "name": "Constant Vigilance",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T63",
-    "name": "Contingency Plan",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T63",
-    "name": "Contingency Plan",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T64",
-    "name": "Coordinated Assault",
-    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
-    "alternativeRules": "Default"
-  },
-  {
-    "id": "T64",
-    "name": "Coordinated Assault",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T64",
-    "name": "Coordinated Assault",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T65",
-    "name": "Coordination Dodge",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T66",
-    "name": "Counteroffer",
-    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
-    "alternativeRules": "Default"
-  },
-  {
-    "id": "T66",
-    "name": "Counteroffer",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T66",
-    "name": "Counteroffer",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T67",
-    "name": "Creative Killer",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T67",
-    "name": "Creative Killer",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T68",
-    "name": "Crippling Blow",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T69",
-    "name": "Cunning Snare",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T71",
-    "name": "Customized Cooling Unit",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T72",
-    "name": "Cutting Question",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T73",
-    "name": "Daring Aviator",
-    "genres": "Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
-    "alternativeRules": "Default"
-  },
-  {
-    "id": "T73",
-    "name": "Daring Aviator",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T74",
-    "name": "Daring Turn",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T75",
-    "name": "Deadeye",
-    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
-    "alternativeRules": "Default"
-  },
-  {
-    "id": "T75",
-    "name": "Deadeye",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T75",
-    "name": "Deadeye",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T76",
-    "name": "Deadly Accuracy",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T76",
-    "name": "Deadly Accuracy",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T77",
-    "name": "Debilitating Shot",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T78",
-    "name": "Deceptive Taunt",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T78",
-    "name": "Deceptive Taunt",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T79",
-    "name": "Dedication",
-    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
-    "alternativeRules": "Default"
-  },
-  {
-    "id": "T79",
-    "name": "Dedication",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T79",
-    "name": "Dedication",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T80",
-    "name": "Defensive",
-    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
-    "alternativeRules": "Default"
-  },
-  {
-    "id": "T80",
-    "name": "Defensive",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T80",
-    "name": "Defensive",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T81",
-    "name": "Defensive Driving",
-    "genres": "Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
-    "alternativeRules": "Default"
-  },
-  {
-    "id": "T81",
-    "name": "Defensive Driving",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T82",
-    "name": "Defensive Stance",
-    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
-    "alternativeRules": "Default"
-  },
-  {
-    "id": "T82",
-    "name": "Defensive Stance",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T82",
-    "name": "Defensive Stance",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T83",
-    "name": "Defensive Sysops",
-    "genres": "Modern, Sci-Fi, Space Opera",
-    "alternativeRules": "Default"
-  },
-  {
-    "id": "T83",
-    "name": "Defensive Sysops",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T84",
-    "name": "Defensive Sysops (Improved)",
-    "genres": "Modern, Sci-Fi, Space Opera",
-    "alternativeRules": "Default"
-  },
-  {
-    "id": "T84",
-    "name": "Defensive Sysops (Improved)",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T85",
-    "name": "Deflection",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T85",
-    "name": "Deflection",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T86",
-    "name": "Desperate Recovery",
-    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
-    "alternativeRules": "Default"
-  },
-  {
-    "id": "T86",
-    "name": "Desperate Recovery",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T86",
-    "name": "Desperate Recovery",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T87",
-    "name": "Devoted Servant",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T88",
-    "name": "Dirty Tricks",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T88",
-    "name": "Dirty Tricks",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T89",
-    "name": "Disarm",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T89",
-    "name": "Disarm",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T90",
-    "name": "Disarming Smile",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T90",
-    "name": "Disarming Smile",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T91",
-    "name": "Discredit",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T91",
-    "name": "Discredit",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T92",
-    "name": "Disorient",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T92",
-    "name": "Disorient",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T93",
-    "name": "Disruptive Counterspell",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T95",
-    "name": "Distinctive Style",
-    "genres": "Modern, Sci-Fi, Space Opera",
-    "alternativeRules": "Default"
-  },
-  {
-    "id": "T95",
-    "name": "Distinctive Style",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T96",
-    "name": "Distracting Behavior",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T96",
-    "name": "Distracting Behavior",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T97",
-    "name": "Distracting Behavior (Improved)",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T97",
-    "name": "Distracting Behavior (Improved)",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T98",
-    "name": "Dodge",
-    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
-    "alternativeRules": "Default"
-  },
-  {
-    "id": "T98",
-    "name": "Dodge",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T98",
-    "name": "Dodge",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T99",
-    "name": "Don't Shoot!",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T99",
-    "name": "Don't Shoot!",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T100",
-    "name": "Double or Nothing",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T100",
-    "name": "Double or Nothing",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T101",
-    "name": "Double or Nothing (Improved)",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T101",
-    "name": "Double or Nothing (Improved)",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T102",
-    "name": "Double or Nothing (Supreme)",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T103",
-    "name": "Dual Wielder",
-    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
-    "alternativeRules": "Default"
-  },
-  {
-    "id": "T103",
-    "name": "Dual Wielder",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T103",
-    "name": "Dual Wielder",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T104",
-    "name": "Duelist",
-    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
-    "alternativeRules": "Default"
-  },
-  {
-    "id": "T104",
-    "name": "Duelist",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T104",
-    "name": "Duelist",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T105",
-    "name": "Durable",
-    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
-    "alternativeRules": "Default"
-  },
-  {
-    "id": "T105",
-    "name": "Durable",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T105",
-    "name": "Durable",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T106",
-    "name": "Dynamic Fire",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T106",
-    "name": "Dynamic Fire",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T107",
-    "name": "Eagle Eyes",
-    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
-    "alternativeRules": "Default"
-  },
-  {
-    "id": "T107",
-    "name": "Eagle Eyes",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T107",
-    "name": "Eagle Eyes",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T108",
-    "name": "Elementalist",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T109",
-    "name": "Encoded Communique",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T110",
-    "name": "Encouraging Words",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T111",
-    "name": "Enduring",
-    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
-    "alternativeRules": "Default"
-  },
-  {
-    "id": "T111",
-    "name": "Enduring",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T111",
-    "name": "Enduring",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T112",
-    "name": "Extra Ammo",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T113",
-    "name": "Eye for Detail",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T118",
-    "name": "Familiar Enemy",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T119",
-    "name": "Familiar Sky",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T119",
-    "name": "Familiar Sky",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T120",
-    "name": "Fan the Hammer",
-    "genres": "Steampunk, Weird War, Modern",
-    "alternativeRules": "Default"
-  },
-  {
-    "id": "T120",
-    "name": "Fan the Hammer",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T120",
-    "name": "Fan the Hammer",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T121",
-    "name": "Fancy Paint Job",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T122",
-    "name": "Fast Casting",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T124",
-    "name": "Fear the Shadows",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T125",
-    "name": "Fearsome",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T125",
-    "name": "Fearsome",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T126",
-    "name": "Feint",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T127",
-    "name": "Feinting Fighter",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T128",
-    "name": "Feral Strength",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T128",
-    "name": "Feral Strength",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T129",
-    "name": "Field Commander",
-    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
-    "alternativeRules": "Default"
-  },
-  {
-    "id": "T129",
-    "name": "Field Commander",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T129",
-    "name": "Field Commander",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T130",
-    "name": "Field Commander (Improved)",
-    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
-    "alternativeRules": "Default"
-  },
-  {
-    "id": "T130",
-    "name": "Field Commander (Improved)",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T130",
-    "name": "Field Commander (Improved)",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T131",
-    "name": "Fine Tuning",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T132",
-    "name": "Finesse",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T132",
-    "name": "Finesse",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T134",
-    "name": "Fire Control",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T135",
-    "name": "Forager",
-    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
-    "alternativeRules": "Default"
-  },
-  {
-    "id": "T135",
-    "name": "Forager",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T135",
-    "name": "Forager",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T136",
-    "name": "Forgot to Count?",
-    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
-    "alternativeRules": "Default"
-  },
-  {
-    "id": "T136",
-    "name": "Forgot to Count?",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T136",
-    "name": "Forgot to Count?",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T137",
-    "name": "Form On Me",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T137",
-    "name": "Form On Me",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T138",
-    "name": "Fortified Structure",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T139",
-    "name": "Fortune Favors the Bold",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T139",
-    "name": "Fortune Favors the Bold",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T140",
-    "name": "Freerunning",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T140",
-    "name": "Freerunning",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T141",
-    "name": "Freerunning (Improved)",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T141",
-    "name": "Freerunning (Improved)",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T142",
-    "name": "Frenzied Attack",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T142",
-    "name": "Frenzied Attack",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T143",
-    "name": "Full Throttle",
-    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
-    "alternativeRules": "Default"
-  },
-  {
-    "id": "T143",
-    "name": "Full Throttle",
-    "genres": "Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
-    "alternativeRules": "Default"
-  },
-  {
-    "id": "T143",
-    "name": "Full Throttle",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T143",
-    "name": "Full Throttle",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T145",
-    "name": "Full Throttle (Improved)",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T146",
-    "name": "Full Throttle (Supreme)",
     "genres": "Custom",
     "alternativeRules": "Custom"
   },
   {
     "id": "T147",
-    "name": "Good Cop",
+    "name": "Ambush",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T148",
+    "name": "Animal Companion",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "T148",
+    "name": "Animal Companion",
     "genres": "Custom",
     "alternativeRules": "Custom"
   },
   {
     "id": "T148",
-    "name": "Grapple",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T148",
-    "name": "Grapple",
+    "name": "Animal Companion",
     "genres": "After Seven",
     "alternativeRules": "After Seven"
   },
   {
     "id": "T149",
-    "name": "Greased Palms",
+    "name": "Armor Master",
     "genres": "Custom",
     "alternativeRules": "Custom"
   },
   {
-    "id": "T150",
-    "name": "Grenadier",
-    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
-    "alternativeRules": "Default"
-  },
-  {
-    "id": "T150",
-    "name": "Grenadier",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T150",
-    "name": "Grenadier",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T151",
-    "name": "Grit",
-    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
-    "alternativeRules": "Default"
-  },
-  {
-    "id": "T151",
-    "name": "Grit",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T151",
-    "name": "Grit",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T152",
-    "name": "Hamstring Shot",
-    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
-    "alternativeRules": "Default"
-  },
-  {
-    "id": "T152",
-    "name": "Hamstring Shot",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T152",
-    "name": "Hamstring Shot",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T153",
-    "name": "Harass",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T153",
-    "name": "Harass",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T154",
-    "name": "Hard Headed",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T155",
-    "name": "Hard-Boiled",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T156",
-    "name": "Healer Not a Fighter",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T157",
-    "name": "Heavy Hitter",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T157",
-    "name": "Heavy Hitter",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T158",
-    "name": "Heightened Awareness",
-    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
-    "alternativeRules": "Default"
-  },
-  {
-    "id": "T158",
-    "name": "Heightened Awareness",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T158",
-    "name": "Heightened Awareness",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T159",
-    "name": "Heroic Recovery",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T159",
-    "name": "Heroic Recovery",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T160",
-    "name": "Heroic Resilience",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T160",
-    "name": "Heroic Resilience",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T161",
-    "name": "Heroic Will",
-    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
-    "alternativeRules": "Default"
-  },
-  {
-    "id": "T161",
-    "name": "Heroic Will",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T161",
-    "name": "Heroic Will",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T162",
-    "name": "Hidden Storage",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T163",
-    "name": "Hindering Shot",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T164",
-    "name": "Hold Together",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T165",
-    "name": "Holistic Navigation",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T166",
-    "name": "How Convenient!",
-    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
-    "alternativeRules": "Default"
-  },
-  {
-    "id": "T166",
-    "name": "How Convenient!",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T166",
-    "name": "How Convenient!",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T167",
-    "name": "Hunter",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T168",
-    "name": "Hunter's Quarry",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T169",
-    "name": "Hunter's Quarry (Improved)",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T170",
-    "name": "In The Know",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T170",
-    "name": "In The Know",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T171",
-    "name": "Incite Rebellion",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T171",
-    "name": "Incite Rebellion",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T172",
-    "name": "Indomitable",
-    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
-    "alternativeRules": "Default"
-  },
-  {
-    "id": "T172",
-    "name": "Indomitable",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T172",
-    "name": "Indomitable",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T173",
-    "name": "Informant",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T174",
-    "name": "Inspiring Rhetoric",
-    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
-    "alternativeRules": "Default"
-  },
-  {
-    "id": "T174",
-    "name": "Inspiring Rhetoric",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T174",
-    "name": "Inspiring Rhetoric",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T175",
-    "name": "Inspiring Rhetoric (Improved)",
-    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
-    "alternativeRules": "Default"
-  },
-  {
-    "id": "T175",
-    "name": "Inspiring Rhetoric (Improved)",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T175",
-    "name": "Inspiring Rhetoric (Improved)",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T176",
-    "name": "Inspiring Rhetoric (Supreme)",
-    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
-    "alternativeRules": "Default"
-  },
-  {
-    "id": "T176",
-    "name": "Inspiring Rhetoric (Supreme)",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T176",
-    "name": "Inspiring Rhetoric (Supreme)",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T177",
-    "name": "Intense Focus",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T177",
-    "name": "Intense Focus",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T178",
-    "name": "Intense Presence",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T179",
-    "name": "Interjection",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T180",
-    "name": "Intimidating",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T180",
-    "name": "Intimidating",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T181",
-    "name": "Inventor",
-    "genres": "Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
-    "alternativeRules": "Default"
-  },
-  {
-    "id": "T181",
-    "name": "Inventor",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T182",
-    "name": "Iron Body",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T182",
-    "name": "Iron Body",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T183",
-    "name": "It's Not that Bad",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T183",
-    "name": "It's Not that Bad",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T184",
-    "name": "Jump Up",
-    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
-    "alternativeRules": "Default"
-  },
-  {
-    "id": "T184",
-    "name": "Jump Up",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T184",
-    "name": "Jump Up",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T185",
-    "name": "Jury Rigged",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T185",
-    "name": "Jury Rigged",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T186",
-    "name": "Just Kidding!",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T186",
-    "name": "Just Kidding!",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T187",
-    "name": "Knack for It",
-    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
-    "alternativeRules": "Default"
-  },
-  {
-    "id": "T187",
-    "name": "Knack for It",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T187",
-    "name": "Knack for It",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T188",
-    "name": "Knockdown",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T188",
-    "name": "Knockdown",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T189",
-    "name": "Know Somebody",
-    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
-    "alternativeRules": "Default"
-  },
-  {
-    "id": "T189",
-    "name": "Know Somebody",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T190",
-    "name": "Know-It-All",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T191",
-    "name": "Knowledge Specialization",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T192",
-    "name": "Knowledges Specialization",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T193",
-    "name": "Known Schematic",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T193",
-    "name": "Known Schematic",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T193",
-    "name": "Known Schematic",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T194",
-    "name": "Larger Project",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T195",
-    "name": "Let’s Ride",
-    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
-    "alternativeRules": "Default"
-  },
-  {
-    "id": "T195",
-    "name": "Let’s Ride",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T196",
-    "name": "Lethal Blows",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T201",
-    "name": "Loom",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T201",
-    "name": "Loom",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T202",
-    "name": "Lucky Strike",
-    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
-    "alternativeRules": "Default"
-  },
-  {
-    "id": "T202",
-    "name": "Lucky Strike",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T202",
-    "name": "Lucky Strike",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T203",
-    "name": "Machinist",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T204",
-    "name": "Mad Inventor",
-    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
-    "alternativeRules": "Default"
-  },
-  {
-    "id": "T204",
-    "name": "Mad Inventor",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T205",
-    "name": "Madman",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T206",
-    "name": "Many Faced",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T207",
-    "name": "Master",
-    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
-    "alternativeRules": "Default"
-  },
-  {
-    "id": "T207",
-    "name": "Master",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T207",
-    "name": "Master",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T208",
-    "name": "Master Driver/Pilot",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T209",
-    "name": "Master Grenadier",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T209",
-    "name": "Master Grenadier",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T210",
-    "name": "Master Merchant",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T210",
-    "name": "Master Merchant",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T211",
-    "name": "Master of a Crowd",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T213",
-    "name": "Medical Specialist",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T213",
-    "name": "Medical Specialist",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T214",
-    "name": "Medium",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T215",
-    "name": "Menace",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T216",
-    "name": "Menacing",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T217",
-    "name": "Mind Over Matter",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T217",
-    "name": "Mind Over Matter",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T218",
-    "name": "Moving Target",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T218",
-    "name": "Moving Target",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T219",
-    "name": "Museum Worthy",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T220",
-    "name": "Muted Spell Cast",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T221",
-    "name": "Natural",
-    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
-    "alternativeRules": "Default"
-  },
-  {
-    "id": "T221",
-    "name": "Natural",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T221",
-    "name": "Natural",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T222",
-    "name": "Natural Orientation",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T223",
-    "name": "Natural Weapon",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T224",
-    "name": "Naturalist",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T225",
-    "name": "No Escape",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T225",
-    "name": "No Escape",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T226",
-    "name": "Nobody's Fool",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T226",
-    "name": "Nobody's Fool",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T227",
-    "name": "Not Today",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T228",
-    "name": "Occult Warrior",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T229",
-    "name": "Offensive Driving",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T230",
-    "name": "One with Nature",
-    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
-    "alternativeRules": "Default"
-  },
-  {
-    "id": "T230",
-    "name": "One with Nature",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T230",
-    "name": "One with Nature",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T232",
-    "name": "Overbalance",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T232",
-    "name": "Overbalance",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T233",
-    "name": "Overcharge",
-    "genres": "Sci-Fi, Space Opera",
-    "alternativeRules": "Default"
-  },
-  {
-    "id": "T233",
-    "name": "Overcharge",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T234",
-    "name": "Overcharge (Improved)",
-    "genres": "Sci-Fi, Space Opera",
-    "alternativeRules": "Default"
-  },
-  {
-    "id": "T234",
-    "name": "Overcharge (Improved)",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T235",
-    "name": "Overstocked Ammo",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T236",
-    "name": "Overwhelm Defenses",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T238",
-    "name": "Painkiller Specialization",
-    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
-    "alternativeRules": "Default"
-  },
-  {
-    "id": "T238",
-    "name": "Painkiller Specialization",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T239",
-    "name": "Parry",
-    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
-    "alternativeRules": "Default"
-  },
-  {
-    "id": "T239",
-    "name": "Parry",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T239",
-    "name": "Parry",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T240",
-    "name": "Parry (Improved)",
-    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
-    "alternativeRules": "Default"
-  },
-  {
-    "id": "T240",
-    "name": "Parry (Improved)",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T240",
-    "name": "Parry (Improved)",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T241",
-    "name": "Persistent Spell",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T242",
-    "name": "Physical Training",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T242",
-    "name": "Physical Training",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T243",
-    "name": "Physician",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T243",
-    "name": "Physician",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T244",
-    "name": "Pin",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T244",
-    "name": "Pin",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T245",
-    "name": "Plausible Deniability",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T245",
-    "name": "Plausible Deniability",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T246",
-    "name": "Point Blank",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T246",
-    "name": "Point Blank",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T247",
-    "name": "Powerful Blast",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T247",
-    "name": "Powerful Blast",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T247",
-    "name": "Powerful Blast",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T248",
-    "name": "Precise Aim",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T248",
-    "name": "Precise Aim",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T249",
-    "name": "Preemptive Avoidance",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T249",
-    "name": "Preemptive Avoidance",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T251",
-    "name": "Pressure Point",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T251",
-    "name": "Pressure Point",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T252",
-    "name": "Prey on the Weak",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T252",
-    "name": "Prey on the Weak",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T253",
-    "name": "Prime Positions",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T253",
-    "name": "Prime Positions",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T254",
-    "name": "Proper Upbringing",
-    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
-    "alternativeRules": "Default"
-  },
-  {
-    "id": "T254",
-    "name": "Proper Upbringing",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T254",
-    "name": "Proper Upbringing",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T255",
-    "name": "Prophetic Aim",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T255",
-    "name": "Prophetic Aim",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T256",
-    "name": "Quick Draw",
-    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
-    "alternativeRules": "Default"
-  },
-  {
-    "id": "T256",
-    "name": "Quick Draw",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T256",
-    "name": "Quick Draw",
+    "id": "T149",
+    "name": "Armor Master",
     "genres": "After Seven",
     "alternativeRules": "After Seven"
   },
   {
     "id": "T257",
-    "name": "Quick Strike",
-    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
-    "alternativeRules": "Default"
-  },
-  {
-    "id": "T257",
-    "name": "Quick Strike",
+    "name": "Armor Master (Improved)",
     "genres": "Custom",
     "alternativeRules": "Custom"
   },
   {
     "id": "T257",
-    "name": "Quick Strike",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T258",
-    "name": "Quickdraw (Improved)",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T258",
-    "name": "Quickdraw (Improved)",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T260",
-    "name": "Rain of Death",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T260",
-    "name": "Rain of Death",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T261",
-    "name": "Rapid Archery",
-    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
-    "alternativeRules": "Default"
-  },
-  {
-    "id": "T261",
-    "name": "Rapid Archery",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T261",
-    "name": "Rapid Archery",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T262",
-    "name": "Rapid Reaction",
-    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
-    "alternativeRules": "Default"
-  },
-  {
-    "id": "T262",
-    "name": "Rapid Reaction",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T262",
-    "name": "Rapid Reaction",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T263",
-    "name": "Rapid Recovery",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T263",
-    "name": "Rapid Recovery",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T264",
-    "name": "Raw Smarts",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T264",
-    "name": "Raw Smarts",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T265",
-    "name": "Reconstruct the Scene",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T265",
-    "name": "Reconstruct the Scene",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T266",
-    "name": "Redundant Systems",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T267",
-    "name": "Reflect",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T267",
-    "name": "Reflect",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T268",
-    "name": "Reflect (Improved)",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T268",
-    "name": "Reflect (Improved)",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T269",
-    "name": "Reflect (Supreme)",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T269",
-    "name": "Reflect (Supreme)",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T270",
-    "name": "Reflexive Barrier",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T272",
-    "name": "Reinforced Frame",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T273",
-    "name": "Reroute Processors",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T274",
-    "name": "Researcher",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T275",
-    "name": "Resist Disarm",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T276",
-    "name": "Resolve",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T277",
-    "name": "Resourceful Refit",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T277",
-    "name": "Resourceful Refit",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T347",
-    "name": "Retry Spell",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T279",
-    "name": "Ruinous Repartee",
-    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
-    "alternativeRules": "Default"
-  },
-  {
-    "id": "T279",
-    "name": "Ruinous Repartee",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T279",
-    "name": "Ruinous Repartee",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T280",
-    "name": "Scathing Tirade",
-    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
-    "alternativeRules": "Default"
-  },
-  {
-    "id": "T280",
-    "name": "Scathing Tirade",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T280",
-    "name": "Scathing Tirade",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T281",
-    "name": "Scathing Tirade (Improved)",
-    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
-    "alternativeRules": "Default"
-  },
-  {
-    "id": "T281",
-    "name": "Scathing Tirade (Improved)",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T281",
-    "name": "Scathing Tirade (Improved)",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T282",
-    "name": "Scathing Tirade (Supreme)",
-    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
-    "alternativeRules": "Default"
-  },
-  {
-    "id": "T282",
-    "name": "Scathing Tirade (Supreme)",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T282",
-    "name": "Scathing Tirade (Supreme)",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T283",
-    "name": "Second Chances",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T283",
-    "name": "Second Chances",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T284",
-    "name": "Second Wind",
-    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
-    "alternativeRules": "Default"
-  },
-  {
-    "id": "T284",
-    "name": "Second Wind",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T284",
-    "name": "Second Wind",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T285",
-    "name": "Seize the Initiative",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T285",
-    "name": "Seize the Initiative",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T286",
-    "name": "Selective Blasts",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T287",
-    "name": "Selective Detonation",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T288",
-    "name": "Sense Advantage",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T289",
-    "name": "Sense Emotions",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T289",
-    "name": "Sense Emotions",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T291",
-    "name": "Share Pain",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T292",
-    "name": "Shield Slam",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T293",
-    "name": "Shortcut",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T294",
-    "name": "Shortcut (Improved)",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T295",
-    "name": "Showboat",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T296",
-    "name": "Side Step",
-    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
-    "alternativeRules": "Default"
-  },
-  {
-    "id": "T296",
-    "name": "Side Step",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T296",
-    "name": "Side Step",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T297",
-    "name": "Signature Vehicle",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T298",
-    "name": "Skilled Slicer",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T299",
-    "name": "Sly Bartering",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T300",
-    "name": "Smooth Talker",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T300",
-    "name": "Smooth Talker",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T301",
-    "name": "Solid Repairs",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T302",
-    "name": "Soothing Tone",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T303",
-    "name": "Sorry About the Mess",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T303",
-    "name": "Sorry About the Mess",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T304",
-    "name": "Sound Investments",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T305",
-    "name": "Sparklebit Scientist",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T306",
-    "name": "Speaks Binary",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T307",
-    "name": "Speaks Binary (Improved)",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T308",
-    "name": "Speaks Binary (Supreme)",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T309",
-    "name": "Spirit Speech",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T310",
-    "name": "Spitfire",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T311",
-    "name": "Spur",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T312",
-    "name": "Spur (Improved)",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T313",
-    "name": "Spur (Supreme)",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T314",
-    "name": "Stalker",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T315",
-    "name": "Stoic Casting",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T316",
-    "name": "Street Smarts",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T316",
-    "name": "Street Smarts",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T317",
-    "name": "Strong Arm",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T317",
-    "name": "Strong Arm",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T318",
-    "name": "Studious Plotting",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T318",
-    "name": "Studious Plotting",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T319",
-    "name": "Stunning Blow",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T319",
-    "name": "Stunning Blow",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T320",
-    "name": "Stunning Blow (Improved)",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T320",
-    "name": "Stunning Blow (Improved)",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T321",
-    "name": "Superhuman Reflexes",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T322",
-    "name": "Superstitious",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T323",
-    "name": "Supporting Evidence",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T323",
-    "name": "Supporting Evidence",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T324",
-    "name": "Suppressing Fire",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T324",
-    "name": "Suppressing Fire",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T325",
-    "name": "Surgeon",
-    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
-    "alternativeRules": "Default"
-  },
-  {
-    "id": "T325",
-    "name": "Surgeon",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T325",
-    "name": "Surgeon",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T326",
-    "name": "Swift",
-    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
-    "alternativeRules": "Default"
-  },
-  {
-    "id": "T326",
-    "name": "Swift",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T326",
-    "name": "Swift",
+    "name": "Armor Master (Improved)",
     "genres": "After Seven",
     "alternativeRules": "After Seven"
   },
   {
     "id": "T327",
-    "name": "Technical Aptitude",
+    "name": "Armor Master (Supreme)",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T327",
+    "name": "Armor Master (Supreme)",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T150",
+    "name": "Attention to Detail",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T4",
+    "name": "Bad Cop",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T151",
+    "name": "Bad Press",
     "genres": "Custom",
     "alternativeRules": "Custom"
   },
   {
     "id": "T328",
-    "name": "Thorough Assessment",
+    "name": "Baleful Gaze",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T328",
+    "name": "Baleful Gaze",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T69",
+    "name": "Barrage",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T69",
+    "name": "Barrage",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T152",
+    "name": "Barrel Roll",
+    "genres": "Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "T152",
+    "name": "Barrel Roll",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T70",
+    "name": "Basic Military Training",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "T70",
+    "name": "Basic Military Training",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T70",
+    "name": "Basic Military Training",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T71",
+    "name": "Beast Wrangler",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T72",
+    "name": "Belligerent Arcanist",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T73",
+    "name": "Berserk",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "T73",
+    "name": "Berserk",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T73",
+    "name": "Berserk",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T258",
+    "name": "Better Luck Next Time",
     "genres": "Custom",
     "alternativeRules": "Custom"
   },
   {
     "id": "T329",
-    "name": "Time to Go",
+    "name": "Biggest Fan",
     "genres": "Custom",
     "alternativeRules": "Custom"
   },
   {
-    "id": "T330",
-    "name": "Time to Go (Improved)",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T331",
-    "name": "Tinkerer",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T331",
-    "name": "Tinkerer",
+    "id": "T153",
+    "name": "Binding",
     "genres": "After Seven",
     "alternativeRules": "After Seven"
   },
   {
-    "id": "T332",
-    "name": "Touch of Fate",
+    "id": "T5",
+    "name": "Black Market Contacts",
     "genres": "Custom",
     "alternativeRules": "Custom"
   },
   {
-    "id": "T333",
-    "name": "Toughened",
+    "id": "T74",
+    "name": "Blackmail",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T74",
+    "name": "Blackmail",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T154",
+    "name": "Blind Spot",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T154",
+    "name": "Blind Spot",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T75",
+    "name": "Blooded",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T75",
+    "name": "Blooded",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T156",
+    "name": "Bloodoil Connoisseur",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T6",
+    "name": "Bloodoil Specialist",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T76",
+    "name": "Body Guard",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T76",
+    "name": "Body Guard",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T157",
+    "name": "Body Guard (Improved)",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T157",
+    "name": "Body Guard (Improved)",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T260",
+    "name": "Body Guard (Supreme)",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T260",
+    "name": "Body Guard (Supreme)",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T261",
+    "name": "Bolstered Armor",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T7",
+    "name": "Boneduster",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T8",
+    "name": "Bought Info",
     "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
     "alternativeRules": "Default"
   },
   {
+    "id": "T8",
+    "name": "Bought Info",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T262",
+    "name": "Brilliant Evasion",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T77",
+    "name": "Burly",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T77",
+    "name": "Burly",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T9",
+    "name": "Call 'Em",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T9",
+    "name": "Call 'Em",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T263",
+    "name": "Can’t We Talk About This?",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "T263",
+    "name": "Can’t We Talk About This?",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T263",
+    "name": "Can’t We Talk About This?",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T159",
+    "name": "Capital Sendoff",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T264",
+    "name": "Capital Sendoff (Improved)",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T265",
+    "name": "Careful Planning",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T265",
+    "name": "Careful Planning",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T266",
+    "name": "Center of Being",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T266",
+    "name": "Center of Being",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
     "id": "T333",
-    "name": "Toughened",
+    "name": "Center of Being (Improved)",
     "genres": "Custom",
     "alternativeRules": "Custom"
   },
   {
     "id": "T333",
-    "name": "Toughened",
+    "name": "Center of Being (Improved)",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T160",
+    "name": "Channel Magical Energy",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T267",
+    "name": "Circle of Shelter",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T267",
+    "name": "Circle of Shelter",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T10",
+    "name": "Clever Retort",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "T10",
+    "name": "Clever Retort",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T10",
+    "name": "Clever Retort",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T78",
+    "name": "Command",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T78",
+    "name": "Command",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T268",
+    "name": "Commanding Presence",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T268",
+    "name": "Commanding Presence",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T79",
+    "name": "Confidence",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T79",
+    "name": "Confidence",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T162",
+    "name": "Confidence (Improved)",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T162",
+    "name": "Confidence (Improved)",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T163",
+    "name": "Congenial",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T163",
+    "name": "Congenial",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T164",
+    "name": "Constant Vigilance",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T164",
+    "name": "Constant Vigilance",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T80",
+    "name": "Contingency Plan",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T80",
+    "name": "Contingency Plan",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T81",
+    "name": "Coordinated Assault",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "T81",
+    "name": "Coordinated Assault",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T81",
+    "name": "Coordinated Assault",
     "genres": "After Seven",
     "alternativeRules": "After Seven"
   },
   {
     "id": "T334",
-    "name": "Tricky Target",
+    "name": "Coordination Dodge",
     "genres": "Custom",
     "alternativeRules": "Custom"
   },
   {
-    "id": "T335",
-    "name": "Tumble",
+    "id": "T82",
+    "name": "Counteroffer",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "T82",
+    "name": "Counteroffer",
     "genres": "Custom",
     "alternativeRules": "Custom"
   },
   {
-    "id": "T335",
-    "name": "Tumble",
+    "id": "T82",
+    "name": "Counteroffer",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T165",
+    "name": "Creative Killer",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T165",
+    "name": "Creative Killer",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T166",
+    "name": "Crippling Blow",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T167",
+    "name": "Cunning Snare",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T168",
+    "name": "Customized Cooling Unit",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T83",
+    "name": "Cutting Question",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T84",
+    "name": "Daring Aviator",
+    "genres": "Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "T84",
+    "name": "Daring Aviator",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T169",
+    "name": "Daring Turn",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T269",
+    "name": "Deadeye",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "T269",
+    "name": "Deadeye",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T269",
+    "name": "Deadeye",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T270",
+    "name": "Deadly Accuracy",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T270",
+    "name": "Deadly Accuracy",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T85",
+    "name": "Debilitating Shot",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T86",
+    "name": "Deceptive Taunt",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T86",
+    "name": "Deceptive Taunt",
     "genres": "After Seven",
     "alternativeRules": "After Seven"
   },
   {
     "id": "T336",
-    "name": "Tuned Maneuvering Thrusters",
+    "name": "Dedication",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "T336",
+    "name": "Dedication",
     "genres": "Custom",
     "alternativeRules": "Custom"
   },
   {
-    "id": "T337",
-    "name": "Twisted Words",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T337",
-    "name": "Twisted Words",
+    "id": "T336",
+    "name": "Dedication",
     "genres": "After Seven",
     "alternativeRules": "After Seven"
   },
   {
-    "id": "T338",
-    "name": "Unarmed Parry",
+    "id": "T271",
+    "name": "Defensive",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "T271",
+    "name": "Defensive",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T271",
+    "name": "Defensive",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T272",
+    "name": "Defensive Driving",
+    "genres": "Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "T272",
+    "name": "Defensive Driving",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T87",
+    "name": "Defensive Stance",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "T87",
+    "name": "Defensive Stance",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T87",
+    "name": "Defensive Stance",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T11",
+    "name": "Defensive Sysops",
+    "genres": "Modern, Sci-Fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "T11",
+    "name": "Defensive Sysops",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T88",
+    "name": "Defensive Sysops (Improved)",
+    "genres": "Modern, Sci-Fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "T88",
+    "name": "Defensive Sysops (Improved)",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T273",
+    "name": "Deflection",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T273",
+    "name": "Deflection",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T12",
+    "name": "Desperate Recovery",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "T12",
+    "name": "Desperate Recovery",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T12",
+    "name": "Desperate Recovery",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T13",
+    "name": "Devoted Servant",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T170",
+    "name": "Dirty Tricks",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T170",
+    "name": "Dirty Tricks",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T171",
+    "name": "Disarm",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T171",
+    "name": "Disarm",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T172",
+    "name": "Disarming Smile",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T172",
+    "name": "Disarming Smile",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T274",
+    "name": "Discredit",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T274",
+    "name": "Discredit",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T89",
+    "name": "Disorient",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T89",
+    "name": "Disorient",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T173",
+    "name": "Disruptive Counterspell",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T175",
+    "name": "Distinctive Style",
+    "genres": "Modern, Sci-Fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "T175",
+    "name": "Distinctive Style",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T90",
+    "name": "Distracting Behavior",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T90",
+    "name": "Distracting Behavior",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T275",
+    "name": "Distracting Behavior (Improved)",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T275",
+    "name": "Distracting Behavior (Improved)",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T176",
+    "name": "Dodge",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "T176",
+    "name": "Dodge",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T176",
+    "name": "Dodge",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T276",
+    "name": "Don't Shoot!",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T276",
+    "name": "Don't Shoot!",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T177",
+    "name": "Double or Nothing",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T177",
+    "name": "Double or Nothing",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T277",
+    "name": "Double or Nothing (Improved)",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T277",
+    "name": "Double or Nothing (Improved)",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T337",
+    "name": "Double or Nothing (Supreme)",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T91",
+    "name": "Dual Wielder",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "T91",
+    "name": "Dual Wielder",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T91",
+    "name": "Dual Wielder",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T14",
+    "name": "Duelist",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "T14",
+    "name": "Duelist",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T14",
+    "name": "Duelist",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T15",
+    "name": "Durable",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "T15",
+    "name": "Durable",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T15",
+    "name": "Durable",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T92",
+    "name": "Dynamic Fire",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T92",
+    "name": "Dynamic Fire",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T178",
+    "name": "Eagle Eyes",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "T178",
+    "name": "Eagle Eyes",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T178",
+    "name": "Eagle Eyes",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T93",
+    "name": "Elementalist",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T179",
+    "name": "Encoded Communique",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T180",
+    "name": "Encouraging Words",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T278",
+    "name": "Enduring",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "T278",
+    "name": "Enduring",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T278",
+    "name": "Enduring",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T16",
+    "name": "Extra Ammo",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T181",
+    "name": "Eye for Detail",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T17",
+    "name": "Familiar Enemy",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T18",
+    "name": "Familiar Sky",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T18",
+    "name": "Familiar Sky",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T95",
+    "name": "Fan the Hammer",
+    "genres": "Steampunk, Weird War, Modern",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "T95",
+    "name": "Fan the Hammer",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T95",
+    "name": "Fan the Hammer",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T96",
+    "name": "Fancy Paint Job",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T19",
+    "name": "Fast Casting",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T183",
+    "name": "Fear the Shadows",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T97",
+    "name": "Fearsome",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T97",
+    "name": "Fearsome",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T184",
+    "name": "Feint",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T185",
+    "name": "Feinting Fighter",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T186",
+    "name": "Feral Strength",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T186",
+    "name": "Feral Strength",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T187",
+    "name": "Field Commander",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "T187",
+    "name": "Field Commander",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T187",
+    "name": "Field Commander",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T281",
+    "name": "Field Commander (Improved)",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "T281",
+    "name": "Field Commander (Improved)",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T281",
+    "name": "Field Commander (Improved)",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T98",
+    "name": "Fine Tuning",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T99",
+    "name": "Finesse",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T99",
+    "name": "Finesse",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T188",
+    "name": "Fire Control",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T21",
+    "name": "Forager",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "T21",
+    "name": "Forager",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T21",
+    "name": "Forager",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T189",
+    "name": "Forgot to Count?",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "T189",
+    "name": "Forgot to Count?",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T189",
+    "name": "Forgot to Count?",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T190",
+    "name": "Form On Me",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T190",
+    "name": "Form On Me",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T191",
+    "name": "Fortified Structure",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T283",
+    "name": "Fortune Favors the Bold",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T283",
+    "name": "Fortune Favors the Bold",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T100",
+    "name": "Freerunning",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T100",
+    "name": "Freerunning",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T192",
+    "name": "Freerunning (Improved)",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T192",
+    "name": "Freerunning (Improved)",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T193",
+    "name": "Frenzied Attack",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T193",
+    "name": "Frenzied Attack",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T194",
+    "name": "Full Throttle",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "T194",
+    "name": "Full Throttle",
+    "genres": "Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "T194",
+    "name": "Full Throttle",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T194",
+    "name": "Full Throttle",
     "genres": "Custom",
     "alternativeRules": "Custom"
   },
   {
     "id": "T338",
-    "name": "Unarmed Parry",
+    "name": "Full Throttle (Improved)",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T285",
+    "name": "Full Throttle (Supreme)",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T22",
+    "name": "Good Cop",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T101",
+    "name": "Grapple",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T101",
+    "name": "Grapple",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T195",
+    "name": "Greased Palms",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T196",
+    "name": "Grenadier",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "T196",
+    "name": "Grenadier",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T196",
+    "name": "Grenadier",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T23",
+    "name": "Grit",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "T23",
+    "name": "Grit",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T23",
+    "name": "Grit",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T24",
+    "name": "Hamstring Shot",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "T24",
+    "name": "Hamstring Shot",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T24",
+    "name": "Hamstring Shot",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T197",
+    "name": "Harass",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T197",
+    "name": "Harass",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T102",
+    "name": "Hard Headed",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T198",
+    "name": "Hard-Boiled",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T103",
+    "name": "Healer Not a Fighter",
     "genres": "After Seven",
     "alternativeRules": "After Seven"
   },
   {
     "id": "T339",
-    "name": "Uncanny Senses",
+    "name": "Heavy Hitter",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T339",
+    "name": "Heavy Hitter",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T104",
+    "name": "Heightened Awareness",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "T104",
+    "name": "Heightened Awareness",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T104",
+    "name": "Heightened Awareness",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T199",
+    "name": "Heroic Recovery",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T199",
+    "name": "Heroic Recovery",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T200",
+    "name": "Heroic Resilience",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T200",
+    "name": "Heroic Resilience",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T201",
+    "name": "Heroic Will",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "T201",
+    "name": "Heroic Will",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T201",
+    "name": "Heroic Will",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T25",
+    "name": "Hidden Storage",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T202",
+    "name": "Hindering Shot",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T105",
+    "name": "Hold Together",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T286",
+    "name": "Holistic Navigation",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T287",
+    "name": "How Convenient!",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "T287",
+    "name": "How Convenient!",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T287",
+    "name": "How Convenient!",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T106",
+    "name": "Hunter",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T107",
+    "name": "Hunter's Quarry",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T203",
+    "name": "Hunter's Quarry (Improved)",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T288",
+    "name": "In The Know",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T288",
+    "name": "In The Know",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T289",
+    "name": "Incite Rebellion",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T289",
+    "name": "Incite Rebellion",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T340",
+    "name": "Indomitable",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "T340",
+    "name": "Indomitable",
     "genres": "Custom",
     "alternativeRules": "Custom"
   },
   {
     "id": "T340",
-    "name": "Unrelenting Skeptic",
+    "name": "Indomitable",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T204",
+    "name": "Informant",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T108",
+    "name": "Inspiring Rhetoric",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "T108",
+    "name": "Inspiring Rhetoric",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T108",
+    "name": "Inspiring Rhetoric",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T205",
+    "name": "Inspiring Rhetoric (Improved)",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "T205",
+    "name": "Inspiring Rhetoric (Improved)",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T205",
+    "name": "Inspiring Rhetoric (Improved)",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T290",
+    "name": "Inspiring Rhetoric (Supreme)",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "T290",
+    "name": "Inspiring Rhetoric (Supreme)",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T290",
+    "name": "Inspiring Rhetoric (Supreme)",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T341",
+    "name": "Intense Focus",
     "genres": "Custom",
     "alternativeRules": "Custom"
   },
   {
     "id": "T341",
-    "name": "Unrelenting Skeptic (Improved)",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T342",
-    "name": "Unremarkable",
-    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
-    "alternativeRules": "Default"
-  },
-  {
-    "id": "T342",
-    "name": "Unremarkable",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T342",
-    "name": "Unremarkable",
+    "name": "Intense Focus",
     "genres": "After Seven",
     "alternativeRules": "After Seven"
   },
   {
-    "id": "T343",
-    "name": "Unstoppable",
+    "id": "T206",
+    "name": "Intense Presence",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T207",
+    "name": "Interjection",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T208",
+    "name": "Intimidating",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T208",
+    "name": "Intimidating",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T209",
+    "name": "Inventor",
+    "genres": "Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "T209",
+    "name": "Inventor",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T210",
+    "name": "Iron Body",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T210",
+    "name": "Iron Body",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T291",
+    "name": "It's Not that Bad",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T291",
+    "name": "It's Not that Bad",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T26",
+    "name": "Jump Up",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "T26",
+    "name": "Jump Up",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T26",
+    "name": "Jump Up",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T292",
+    "name": "Jury Rigged",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T292",
+    "name": "Jury Rigged",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T342",
+    "name": "Just Kidding!",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T342",
+    "name": "Just Kidding!",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T27",
+    "name": "Knack for It",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "T27",
+    "name": "Knack for It",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T27",
+    "name": "Knack for It",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T109",
+    "name": "Knockdown",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T109",
+    "name": "Knockdown",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T28",
+    "name": "Know Somebody",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "T28",
+    "name": "Know Somebody",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T110",
+    "name": "Know-It-All",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T29",
+    "name": "Knowledge Specialization",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T30",
+    "name": "Knowledges Specialization",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T111",
+    "name": "Known Schematic",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T111",
+    "name": "Known Schematic",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T111",
+    "name": "Known Schematic",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T211",
+    "name": "Larger Project",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T31",
+    "name": "Let’s Ride",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "T31",
+    "name": "Let’s Ride",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T212",
+    "name": "Lethal Blows",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T112",
+    "name": "Loom",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T112",
+    "name": "Loom",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T113",
+    "name": "Lucky Strike",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "T113",
+    "name": "Lucky Strike",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T113",
+    "name": "Lucky Strike",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T32",
+    "name": "Machinist",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T294",
+    "name": "Mad Inventor",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "T294",
+    "name": "Mad Inventor",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T215",
+    "name": "Madman",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T33",
+    "name": "Many Faced",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T344",
+    "name": "Master",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "T344",
+    "name": "Master",
     "genres": "Custom",
     "alternativeRules": "Custom"
   },
   {
     "id": "T344",
-    "name": "Up the Ante",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T344",
-    "name": "Up the Ante",
+    "name": "Master",
     "genres": "After Seven",
     "alternativeRules": "After Seven"
   },
   {
     "id": "T345",
-    "name": "Utility Belt",
+    "name": "Master Driver/Pilot",
     "genres": "Custom",
     "alternativeRules": "Custom"
   },
   {
     "id": "T346",
-    "name": "Valuable Facts",
+    "name": "Master Grenadier",
     "genres": "Custom",
     "alternativeRules": "Custom"
   },
   {
-    "id": "T347",
-    "name": "Valuable Knowledge",
-    "genres": "Custom",
-    "alternativeRules": "Custom"
-  },
-  {
-    "id": "T347",
-    "name": "Valuable Knowledge",
+    "id": "T346",
+    "name": "Master Grenadier",
     "genres": "After Seven",
     "alternativeRules": "After Seven"
   },
   {
+    "id": "T347",
+    "name": "Master Merchant",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T347",
+    "name": "Master Merchant",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T34",
+    "name": "Master of a Crowd",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T35",
+    "name": "Medical Specialist",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T35",
+    "name": "Medical Specialist",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T36",
+    "name": "Medium",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T295",
+    "name": "Menace",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T37",
+    "name": "Menacing",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T296",
+    "name": "Mind Over Matter",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T296",
+    "name": "Mind Over Matter",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T297",
+    "name": "Moving Target",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T297",
+    "name": "Moving Target",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T38",
+    "name": "Museum Worthy",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T39",
+    "name": "Muted Spell Cast",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T217",
+    "name": "Natural",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "T217",
+    "name": "Natural",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T217",
+    "name": "Natural",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T40",
+    "name": "Natural Orientation",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T41",
+    "name": "Natural Weapon",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T114",
+    "name": "Naturalist",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T218",
+    "name": "No Escape",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T218",
+    "name": "No Escape",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T219",
+    "name": "Nobody's Fool",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T219",
+    "name": "Nobody's Fool",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T298",
+    "name": "Not Today",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T115",
+    "name": "Occult Warrior",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T299",
+    "name": "Offensive Driving",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T42",
+    "name": "One with Nature",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "T42",
+    "name": "One with Nature",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T42",
+    "name": "One with Nature",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T300",
+    "name": "Overbalance",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T300",
+    "name": "Overbalance",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T301",
+    "name": "Overcharge",
+    "genres": "Sci-Fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "T301",
+    "name": "Overcharge",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
     "id": "T348",
-    "name": "Vehicle Combat Training",
+    "name": "Overcharge (Improved)",
+    "genres": "Sci-Fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "T348",
+    "name": "Overcharge (Improved)",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T116",
+    "name": "Overstocked Ammo",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T221",
+    "name": "Overwhelm Defenses",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T222",
+    "name": "Painkiller Specialization",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "T222",
+    "name": "Painkiller Specialization",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T43",
+    "name": "Parry",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "T43",
+    "name": "Parry",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T43",
+    "name": "Parry",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T223",
+    "name": "Parry (Improved)",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "T223",
+    "name": "Parry (Improved)",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T223",
+    "name": "Parry (Improved)",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T224",
+    "name": "Persistent Spell",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T118",
+    "name": "Physical Training",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T118",
+    "name": "Physical Training",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T44",
+    "name": "Physician",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T44",
+    "name": "Physician",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T225",
+    "name": "Pin",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T225",
+    "name": "Pin",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T226",
+    "name": "Plausible Deniability",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T226",
+    "name": "Plausible Deniability",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T227",
+    "name": "Point Blank",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T227",
+    "name": "Point Blank",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T228",
+    "name": "Powerful Blast",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T228",
+    "name": "Powerful Blast",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T228",
+    "name": "Powerful Blast",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T229",
+    "name": "Precise Aim",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T229",
+    "name": "Precise Aim",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T230",
+    "name": "Preemptive Avoidance",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T230",
+    "name": "Preemptive Avoidance",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T349",
+    "name": "Pressure Point",
     "genres": "Custom",
     "alternativeRules": "Custom"
   },
   {
     "id": "T349",
-    "name": "Violent Caster",
+    "name": "Pressure Point",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T302",
+    "name": "Prey on the Weak",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T302",
+    "name": "Prey on the Weak",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T303",
+    "name": "Prime Positions",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T303",
+    "name": "Prime Positions",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T45",
+    "name": "Proper Upbringing",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "T45",
+    "name": "Proper Upbringing",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T45",
+    "name": "Proper Upbringing",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T304",
+    "name": "Prophetic Aim",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T304",
+    "name": "Prophetic Aim",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T46",
+    "name": "Quick Draw",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "T46",
+    "name": "Quick Draw",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T46",
+    "name": "Quick Draw",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T47",
+    "name": "Quick Strike",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "T47",
+    "name": "Quick Strike",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T47",
+    "name": "Quick Strike",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T119",
+    "name": "Quickdraw (Improved)",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T119",
+    "name": "Quickdraw (Improved)",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T306",
+    "name": "Rain of Death",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T306",
+    "name": "Rain of Death",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T232",
+    "name": "Rapid Archery",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "T232",
+    "name": "Rapid Archery",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T232",
+    "name": "Rapid Archery",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T48",
+    "name": "Rapid Reaction",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "T48",
+    "name": "Rapid Reaction",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T48",
+    "name": "Rapid Reaction",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T49",
+    "name": "Rapid Recovery",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T49",
+    "name": "Rapid Recovery",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T307",
+    "name": "Raw Smarts",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T307",
+    "name": "Raw Smarts",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T120",
+    "name": "Reconstruct the Scene",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T120",
+    "name": "Reconstruct the Scene",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T50",
+    "name": "Redundant Systems",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T51",
+    "name": "Reflect",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T51",
+    "name": "Reflect",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T233",
+    "name": "Reflect (Improved)",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T233",
+    "name": "Reflect (Improved)",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T308",
+    "name": "Reflect (Supreme)",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T308",
+    "name": "Reflect (Supreme)",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T309",
+    "name": "Reflexive Barrier",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T311",
+    "name": "Reinforced Frame",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T312",
+    "name": "Reroute Processors",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T313",
+    "name": "Researcher",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T121",
+    "name": "Resist Disarm",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T314",
+    "name": "Resolve",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T234",
+    "name": "Resourceful Refit",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T234",
+    "name": "Resourceful Refit",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T350",
+    "name": "Retry Spell",
     "genres": "After Seven",
     "alternativeRules": "After Seven"
   },
   {
     "id": "T351",
-    "name": "Visionary",
+    "name": "Ruinous Repartee",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "T351",
+    "name": "Ruinous Repartee",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T351",
+    "name": "Ruinous Repartee",
     "genres": "After Seven",
     "alternativeRules": "After Seven"
   },
   {
-    "id": "T352",
-    "name": "Well Read",
+    "id": "T122",
+    "name": "Scathing Tirade",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "T122",
+    "name": "Scathing Tirade",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T122",
+    "name": "Scathing Tirade",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T235",
+    "name": "Scathing Tirade (Improved)",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "T235",
+    "name": "Scathing Tirade (Improved)",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T235",
+    "name": "Scathing Tirade (Improved)",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T315",
+    "name": "Scathing Tirade (Supreme)",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "T315",
+    "name": "Scathing Tirade (Supreme)",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T315",
+    "name": "Scathing Tirade (Supreme)",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T316",
+    "name": "Second Chances",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T316",
+    "name": "Second Chances",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T52",
+    "name": "Second Wind",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "T52",
+    "name": "Second Wind",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T52",
+    "name": "Second Wind",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T236",
+    "name": "Seize the Initiative",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T236",
+    "name": "Seize the Initiative",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T123",
+    "name": "Selective Blasts",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T124",
+    "name": "Selective Detonation",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T237",
+    "name": "Sense Advantage",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T125",
+    "name": "Sense Emotions",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T125",
+    "name": "Sense Emotions",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T239",
+    "name": "Share Pain",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T126",
+    "name": "Shield Slam",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T127",
+    "name": "Shortcut",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T240",
+    "name": "Shortcut (Improved)",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T317",
+    "name": "Showboat",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T128",
+    "name": "Side Step",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "T128",
+    "name": "Side Step",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T128",
+    "name": "Side Step",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T53",
+    "name": "Signature Vehicle",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T318",
+    "name": "Skilled Slicer",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T54",
+    "name": "Sly Bartering",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T55",
+    "name": "Smooth Talker",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T55",
+    "name": "Smooth Talker",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T56",
+    "name": "Solid Repairs",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T57",
+    "name": "Soothing Tone",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T319",
+    "name": "Sorry About the Mess",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T319",
+    "name": "Sorry About the Mess",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T241",
+    "name": "Sound Investments",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T58",
+    "name": "Sparklebit Scientist",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T129",
+    "name": "Speaks Binary",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T320",
+    "name": "Speaks Binary (Improved)",
     "genres": "Custom",
     "alternativeRules": "Custom"
   },
   {
     "id": "T352",
-    "name": "Well Read",
-    "genres": "After Seven",
-    "alternativeRules": "After Seven"
-  },
-  {
-    "id": "T353",
-    "name": "Well Rounded",
+    "name": "Speaks Binary (Supreme)",
     "genres": "Custom",
     "alternativeRules": "Custom"
   },
   {
-    "id": "T353",
-    "name": "Well Rounded",
+    "id": "T59",
+    "name": "Spirit Speech",
     "genres": "After Seven",
     "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T321",
+    "name": "Spitfire",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T130",
+    "name": "Spur",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T242",
+    "name": "Spur (Improved)",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T322",
+    "name": "Spur (Supreme)",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T131",
+    "name": "Stalker",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T60",
+    "name": "Stoic Casting",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T323",
+    "name": "Street Smarts",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T323",
+    "name": "Street Smarts",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T132",
+    "name": "Strong Arm",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T132",
+    "name": "Strong Arm",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T243",
+    "name": "Studious Plotting",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T243",
+    "name": "Studious Plotting",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T133",
+    "name": "Stunning Blow",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T133",
+    "name": "Stunning Blow",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T244",
+    "name": "Stunning Blow (Improved)",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T244",
+    "name": "Stunning Blow (Improved)",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T353",
+    "name": "Superhuman Reflexes",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T134",
+    "name": "Superstitious",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T324",
+    "name": "Supporting Evidence",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T324",
+    "name": "Supporting Evidence",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T135",
+    "name": "Suppressing Fire",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T135",
+    "name": "Suppressing Fire",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T61",
+    "name": "Surgeon",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "T61",
+    "name": "Surgeon",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T61",
+    "name": "Surgeon",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T62",
+    "name": "Swift",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "T62",
+    "name": "Swift",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T62",
+    "name": "Swift",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T136",
+    "name": "Technical Aptitude",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
   },
   {
     "id": "T354",
-    "name": "Wheel and Deal",
+    "name": "Thorough Assessment",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T137",
+    "name": "Time to Go",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T245",
+    "name": "Time to Go (Improved)",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T138",
+    "name": "Tinkerer",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T138",
+    "name": "Tinkerer",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T139",
+    "name": "Touch of Fate",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T63",
+    "name": "Toughened",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "T63",
+    "name": "Toughened",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T63",
+    "name": "Toughened",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T246",
+    "name": "Tricky Target",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T247",
+    "name": "Tumble",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T247",
+    "name": "Tumble",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T248",
+    "name": "Tuned Maneuvering Thrusters",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T249",
+    "name": "Twisted Words",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T249",
+    "name": "Twisted Words",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T140",
+    "name": "Unarmed Parry",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T140",
+    "name": "Unarmed Parry",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T141",
+    "name": "Uncanny Senses",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T325",
+    "name": "Unrelenting Skeptic",
     "genres": "Custom",
     "alternativeRules": "Custom"
   },
   {
     "id": "T355",
+    "name": "Unrelenting Skeptic (Improved)",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T64",
+    "name": "Unremarkable",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-Fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "T64",
+    "name": "Unremarkable",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T64",
+    "name": "Unremarkable",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T142",
+    "name": "Unstoppable",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T250",
+    "name": "Up the Ante",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T250",
+    "name": "Up the Ante",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T251",
+    "name": "Utility Belt",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T252",
+    "name": "Valuable Facts",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T253",
+    "name": "Valuable Knowledge",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T253",
+    "name": "Valuable Knowledge",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T143",
+    "name": "Vehicle Combat Training",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T254",
+    "name": "Violent Caster",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T144",
+    "name": "Visionary",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T145",
+    "name": "Well Read",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T145",
+    "name": "Well Read",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T146",
+    "name": "Well Rounded",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T146",
+    "name": "Well Rounded",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "T65",
+    "name": "Wheel and Deal",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "T255",
     "name": "Wraithbane",
     "genres": "Custom",
     "alternativeRules": "Custom"
