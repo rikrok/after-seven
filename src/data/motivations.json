@@ -1,0 +1,204 @@
+[
+  {
+    "type": "desires",
+    "rollValue": 0,
+    "result": "Ambition",
+    "": 9
+  },
+  {
+    "type": "desires",
+    "rollValue": 1,
+    "result": "Belonging",
+    "": -1
+  },
+  {
+    "type": "desires",
+    "rollValue": 2,
+    "result": "Expertise"
+  },
+  {
+    "type": "desires",
+    "rollValue": 3,
+    "result": "Fame"
+  },
+  {
+    "type": "desires",
+    "rollValue": 4,
+    "result": "Justice"
+  },
+  {
+    "type": "desires",
+    "rollValue": 5,
+    "result": "Knowledge"
+  },
+  {
+    "type": "desires",
+    "rollValue": 6,
+    "result": "Love"
+  },
+  {
+    "type": "desires",
+    "rollValue": 7,
+    "result": "Safety"
+  },
+  {
+    "type": "desires",
+    "rollValue": 8,
+    "result": "Vengeance"
+  },
+  {
+    "type": "desires",
+    "rollValue": 9,
+    "result": "Wealth"
+  },
+  {
+    "type": "fears",
+    "rollValue": 0,
+    "result": "Change"
+  },
+  {
+    "type": "fears",
+    "rollValue": 1,
+    "result": "Commitment"
+  },
+  {
+    "type": "fears",
+    "rollValue": 2,
+    "result": "Death"
+  },
+  {
+    "type": "fears",
+    "rollValue": 3,
+    "result": "Expression"
+  },
+  {
+    "type": "fears",
+    "rollValue": 4,
+    "result": "Failure"
+  },
+  {
+    "type": "fears",
+    "rollValue": 5,
+    "result": "Humiliation"
+  },
+  {
+    "type": "fears",
+    "rollValue": 6,
+    "result": "Isolation"
+  },
+  {
+    "type": "fears",
+    "rollValue": 7,
+    "result": "Nemesis"
+  },
+  {
+    "type": "fears",
+    "rollValue": 8,
+    "result": "Obscurity"
+  },
+  {
+    "type": "fears",
+    "rollValue": 9,
+    "result": "Poverty"
+  },
+  {
+    "type": "strengths",
+    "rollValue": 0,
+    "result": "Adaptable"
+  },
+  {
+    "type": "strengths",
+    "rollValue": 1,
+    "result": "Analytical"
+  },
+  {
+    "type": "strengths",
+    "rollValue": 2,
+    "result": "Courageous"
+  },
+  {
+    "type": "strengths",
+    "rollValue": 3,
+    "result": "Curious"
+  },
+  {
+    "type": "strengths",
+    "rollValue": 4,
+    "result": "Idealistic"
+  },
+  {
+    "type": "strengths",
+    "rollValue": 5,
+    "result": "Independent"
+  },
+  {
+    "type": "strengths",
+    "rollValue": 6,
+    "result": "Patient"
+  },
+  {
+    "type": "strengths",
+    "rollValue": 7,
+    "result": "Spiritual"
+  },
+  {
+    "type": "strengths",
+    "rollValue": 8,
+    "result": "Wise"
+  },
+  {
+    "type": "strengths",
+    "rollValue": 9,
+    "result": "Witty"
+  },
+  {
+    "type": "flaws",
+    "rollValue": 0,
+    "result": "Anger"
+  },
+  {
+    "type": "flaws",
+    "rollValue": 1,
+    "result": "Compulsion"
+  },
+  {
+    "type": "flaws",
+    "rollValue": 2,
+    "result": "Deception"
+  },
+  {
+    "type": "flaws",
+    "rollValue": 3,
+    "result": "Greed"
+  },
+  {
+    "type": "flaws",
+    "rollValue": 4,
+    "result": "Laziness"
+  },
+  {
+    "type": "flaws",
+    "rollValue": 5,
+    "result": "Ignorance"
+  },
+  {
+    "type": "flaws",
+    "rollValue": 6,
+    "result": "Intolerance"
+  },
+  {
+    "type": "flaws",
+    "rollValue": 7,
+    "result": "Pride"
+  },
+  {
+    "type": "flaws",
+    "rollValue": 8,
+    "result": "Recklessness"
+  },
+  {
+    "type": "flaws",
+    "rollValue": 9,
+    "result": "Timid"
+  }
+]

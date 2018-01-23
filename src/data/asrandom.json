@@ -1,0 +1,132 @@
+[
+  {
+    "type": "race",
+    "rollValue": 1,
+    "outcomeId": "R1"
+  },
+  {
+    "type": "race",
+    "rollValue": 2,
+    "outcomeId": "R2"
+  },
+  {
+    "type": "race",
+    "rollValue": 3,
+    "outcomeId": "R3"
+  },
+  {
+    "type": "race",
+    "rollValue": 4,
+    "outcomeId": "R4"
+  },
+  {
+    "type": "career",
+    "rollValue": 1,
+    "outcomeId": "C1"
+  },
+  {
+    "type": "career",
+    "rollValue": 2,
+    "outcomeId": "C2"
+  },
+  {
+    "type": "career",
+    "rollValue": 3,
+    "outcomeId": "C3"
+  },
+  {
+    "type": "career",
+    "rollValue": 4,
+    "outcomeId": "C4"
+  },
+  {
+    "type": "career",
+    "rollValue": 5,
+    "outcomeId": "C5"
+  },
+  {
+    "type": "career",
+    "rollValue": 6,
+    "outcomeId": "C6"
+  },
+  {
+    "type": "career",
+    "rollValue": 7,
+    "outcomeId": "C7"
+  },
+  {
+    "type": "career",
+    "rollValue": 8,
+    "outcomeId": "C8"
+  },
+  {
+    "type": "career",
+    "rollValue": 9,
+    "outcomeId": "C9"
+  },
+  {
+    "type": "career",
+    "rollValue": 10,
+    "outcomeId": "C10"
+  },
+  {
+    "type": "career",
+    "rollValue": 11,
+    "outcomeId": "C11"
+  },
+  {
+    "type": "career",
+    "rollValue": 12,
+    "outcomeId": "C12"
+  },
+  {
+    "type": "career",
+    "rollValue": 13,
+    "outcomeId": "C13"
+  },
+  {
+    "type": "career",
+    "rollValue": 14,
+    "outcomeId": "C14"
+  },
+  {
+    "type": "career",
+    "rollValue": 15,
+    "outcomeId": "C15"
+  },
+  {
+    "type": "career",
+    "rollValue": 16,
+    "outcomeId": "C16"
+  },
+  {
+    "type": "faction",
+    "rollValue": 1,
+    "outcomeId": "Confederacy of Canada"
+  },
+  {
+    "type": "faction",
+    "rollValue": 2,
+    "outcomeId": "Holy American Empire"
+  },
+  {
+    "type": "faction",
+    "rollValue": 3,
+    "outcomeId": "Imperium of the North"
+  },
+  {
+    "type": "faction",
+    "rollValue": 4,
+    "outcomeId": "Kingdom of Quebec"
+  },
+  {
+    "type": "faction",
+    "rollValue": 5,
+    "outcomeId": "New American Republic"
+  },
+  {
+    "type": "faction",
+    "rollValue": 6,
+    "outcomeId": "Western Commonwealth"
+  }
+]

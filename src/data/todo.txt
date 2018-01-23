@@ -1,60 +1,61 @@
 Generator
-	Rolls
-		Motivation rolls and such.
-		AS: Random Roll Race / Career / Faction.		
-		
-	Natural Abilities: Unarmed
 	
-	AS Career Bonus	
-		add to Abilities
+	skills: 
+		add freebee
+		add noncareerfreebee 
+		New Legend
+			-		= Purchase
+			^		= Career Purchase
+			*		= Free Racial 
+			^+		= Free Career 
+			^-		= Free Non Career
+			^^		= Career Bonus			
+		add sillouette 
+		
+	On Changes: 
+		Race: 
+			Refund Skills, Refund Talents, Refund Career Bonus, Exit Career. 
+		Career: 
+			Refund Skills, Refund Career Bonus, Exit Career. 
+		ReRoll Career Bonus:
+			Remove skill bonus, talent bonus, item bonus.
+		ReRoll Random 
+			Refund Items, Refund Skills, Refund Talents, Refund Career Bonus, Exit Career. 
 
-	Gear
-		if amount > 1, keep on adding.
-
-	Reset
-		Talents
+	Reset Buttons
+		Race, Career, Faction
+		Career Bonus
 		Inventory
 
-	Bonus XP 
-		not working as needed.
+	
 
-	Add Notes Section
-
-	Reroll Career
-		Add array of ID and type to remove.
-		[note, refund xp skill / talent ranks built ontop of career]
+	Apply all Races skills.
 
 	Modal rework
+		Weapons, Gear, Armor 
+		Inventory
+		Talent
 
 	Do Talents:			
-		Well Read
-		Well Rounded		
-		Dedication	- 	do: showChararcteristicModal
-
-		Burly (no can do.)
-
-	Equip Function 
-		+ / - Weapon
-		+ / - Armor
-
-	Item Bonus
-		+ Melee Claymore
-		+ Melee Halberd
-		+ Melee J'Tunns Sword
-		+ Melee Longsword
-		+ Melee Pistoned Swordedge
-		+ Melee Shield
-		+ Range Shield
+		Well Read		(modal radio)
+		Well Rounded	(modal radio)
+		Dedication	- 	(modal radio)	
+		Refund basic inventory 
 
 	Export JSON
 
-
 New Pages
+	Mob Generator 
+		Creation
+		Printable
+
 	Workshop
 		Weapon Workshop
 			Tinkerer	
 		Armor Workshop		
 		Gear Workshop
+
+	Printable Charactersheet
 
 DB Features
 	Rate and Import	
@@ -72,7 +73,9 @@ DB Features
 
 	Account
 
+	Talent Requirements!
 
+	Weapon attachments! 
 
-
-
+javascript improvemnts
+	add / remove Abilities to talent, races, armor, weapon, gear, skills

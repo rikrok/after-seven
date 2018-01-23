@@ -1,5 +1,6 @@
 [
   {
+    "id": "C1",
     "name": "Arcanist",
     "alternativeRules": "After Seven",
     "genre": "After Seven",
@@ -17,6 +18,7 @@
     "tags": "Wizard, Scholar"
   },
   {
+    "id": "C2",
     "name": "Aristocrat",
     "alternativeRules": "After Seven",
     "genre": "After Seven",
@@ -34,6 +36,7 @@
     "tags": "Face, Manipulator"
   },
   {
+    "id": "C3",
     "name": "Druid",
     "alternativeRules": "After Seven",
     "genre": "After Seven",
@@ -51,6 +54,7 @@
     "tags": "Elementalist, Druid"
   },
   {
+    "id": "C4",
     "name": "Emissary",
     "alternativeRules": "After Seven",
     "genre": "After Seven",
@@ -68,6 +72,7 @@
     "tags": "Cleric, Seer"
   },
   {
+    "id": "C5",
     "name": "Infantry",
     "alternativeRules": "After Seven",
     "genre": "After Seven",
@@ -85,6 +90,7 @@
     "tags": "Fighter, Warrior"
   },
   {
+    "id": "C6",
     "name": "Knight",
     "alternativeRules": "After Seven",
     "genre": "After Seven",
@@ -102,6 +108,7 @@
     "tags": "Warlord, Commander"
   },
   {
+    "id": "C7",
     "name": "Lost One",
     "alternativeRules": "After Seven",
     "genre": "After Seven",
@@ -119,6 +126,7 @@
     "tags": "Ranger, Scrapper"
   },
   {
+    "id": "C8",
     "name": "Magus",
     "alternativeRules": "After Seven",
     "genre": "After Seven",
@@ -136,6 +144,7 @@
     "tags": "Paladin, Templar"
   },
   {
+    "id": "C9",
     "name": "Medic",
     "alternativeRules": "After Seven",
     "genre": "After Seven",
@@ -153,6 +162,7 @@
     "tags": "Healer, Support"
   },
   {
+    "id": "C10",
     "name": "Operator",
     "alternativeRules": "After Seven",
     "genre": "After Seven",
@@ -170,6 +180,7 @@
     "tags": "Rogue, Bandit"
   },
   {
+    "id": "C11",
     "name": "Raider",
     "alternativeRules": "After Seven",
     "genre": "After Seven",
@@ -187,6 +198,7 @@
     "tags": "Brute, Monk"
   },
   {
+    "id": "C12",
     "name": "Refugee",
     "alternativeRules": "After Seven",
     "genre": "After Seven",
@@ -204,6 +216,7 @@
     "tags": "Assassian, Duelist"
   },
   {
+    "id": "C13",
     "name": "Shaman",
     "alternativeRules": "After Seven",
     "genre": "After Seven",
@@ -221,6 +234,7 @@
     "tags": "Necromancer, Enchanter"
   },
   {
+    "id": "C14",
     "name": "Storm Trooper",
     "alternativeRules": "After Seven",
     "genre": "After Seven",
@@ -238,6 +252,7 @@
     "tags": "Inquisitor, Sniper"
   },
   {
+    "id": "C15",
     "name": "Warlock",
     "alternativeRules": "After Seven",
     "genre": "After Seven",
@@ -255,6 +270,7 @@
     "tags": "Mad Scientist, Alchemist"
   },
   {
+    "id": "C16",
     "name": "Worker",
     "alternativeRules": "After Seven",
     "genre": "After Seven",
@@ -272,6 +288,7 @@
     "tags": "Inventor, Tradesman"
   },
   {
+    "id": "C17",
     "name": "Entertainer",
     "alternativeRules": "Custom",
     "genre": "Steampunk, Weird War, Modern, Sci-fi, Space Opera, Custom",
@@ -289,6 +306,7 @@
     "tags": "Rulebook Career"
   },
   {
+    "id": "C18",
     "name": "Entertainer (Fantasy)",
     "alternativeRules": "Custom",
     "genre": "Fantasy, Custom",
@@ -306,6 +324,7 @@
     "tags": "Rulebook Career"
   },
   {
+    "id": "C19",
     "name": "Explorer (Fantasy)",
     "alternativeRules": "Custom",
     "genre": "Fantasy, Custom",
@@ -323,6 +342,7 @@
     "tags": "Rulebook Career"
   },
   {
+    "id": "C20",
     "name": "Explorer",
     "alternativeRules": "Custom",
     "genre": "Steampunk, Weird War, Modern, Sci-fi, Space Opera, Custom",
@@ -340,6 +360,7 @@
     "tags": "Rulebook Career"
   },
   {
+    "id": "C21",
     "name": "Healer",
     "alternativeRules": "Custom",
     "genre": "Steampunk, Weird War, Modern, Sci-fi, Space Opera, Custom",
@@ -357,6 +378,7 @@
     "tags": "Rulebook Career"
   },
   {
+    "id": "C22",
     "name": "Healer (Fantasy)",
     "alternativeRules": "Custom",
     "genre": "Fantasy, Custom",
@@ -374,6 +396,7 @@
     "tags": "Rulebook Career"
   },
   {
+    "id": "C23",
     "name": "Leader",
     "alternativeRules": "Custom",
     "genre": "Steampunk, Weird War, Modern, Sci-fi, Space Opera, Custom",
@@ -391,6 +414,7 @@
     "tags": "Rulebook Career"
   },
   {
+    "id": "C24",
     "name": "Leader (Fantasy)",
     "alternativeRules": "Custom",
     "genre": "Fantasy, Custom",
@@ -408,6 +432,7 @@
     "tags": "Rulebook Career"
   },
   {
+    "id": "C25",
     "name": "Scoundrel (Fantasy)",
     "alternativeRules": "Custom",
     "genre": "Fantasy, Custom",
@@ -425,6 +450,7 @@
     "tags": "Rulebook Career"
   },
   {
+    "id": "C26",
     "name": "Scoundrel",
     "alternativeRules": "Custom",
     "genre": "Steampunk, Weird War, Modern, Sci-fi, Space Opera, Custom",
@@ -442,6 +468,7 @@
     "tags": "Rulebook Career"
   },
   {
+    "id": "C27",
     "name": "Socialite",
     "alternativeRules": "Custom",
     "genre": "Fantasy, Steampunk, Weird War, Modern, Sci-fi, Space Opera, Custom",
@@ -459,6 +486,7 @@
     "tags": "Rulebook Career"
   },
   {
+    "id": "C28",
     "name": "Soldier (Fantasy)",
     "alternativeRules": "Custom",
     "genre": "Fantasy, Custom",
@@ -476,6 +504,7 @@
     "tags": "Rulebook Career"
   },
   {
+    "id": "C29",
     "name": "Soldier",
     "alternativeRules": "Custom",
     "genre": "Steampunk, Weird War, Modern, Sci-fi, Space Opera, Custom",
@@ -493,6 +522,7 @@
     "tags": "Rulebook Career"
   },
   {
+    "id": "C30",
     "name": "Tradesperson",
     "alternativeRules": "Custom",
     "genre": "Fantasy, Steampunk, Weird War, Modern, Sci-fi, Space Opera, Custom",
@@ -510,6 +540,7 @@
     "tags": "Rulebook Career"
   },
   {
+    "id": "C31",
     "name": "Hacker (Future)",
     "alternativeRules": "Custom",
     "genre": "Sci-fi, Space Opera, Custom",
@@ -527,6 +558,7 @@
     "tags": "Rulebook Career"
   },
   {
+    "id": "C32",
     "name": "Fighter Pilot",
     "alternativeRules": "Custom",
     "genre": "Steampunk, Weird War, Modern, Science Fiction, Space Opera, Custom",
@@ -544,6 +576,7 @@
     "tags": "Rulebook Career"
   },
   {
+    "id": "C33",
     "name": "Knight (Fantasy)",
     "alternativeRules": "Custom",
     "genre": "Fantasy, Custom",
@@ -561,6 +594,7 @@
     "tags": "Rulebook Career"
   },
   {
+    "id": "C34",
     "name": "Knight (Steampunk)",
     "alternativeRules": "Custom",
     "genre": "Steampunk, Custom",
@@ -578,6 +612,7 @@
     "tags": "Rulebook Career"
   },
   {
+    "id": "C35",
     "name": "Knight (Modern)",
     "alternativeRules": "Custom",
     "genre": "Weird War, Modern, Science Fiction, Space Opera, Custom",
@@ -595,6 +630,7 @@
     "tags": "Rulebook Career"
   },
   {
+    "id": "C36",
     "name": "Mad Scientist",
     "alternativeRules": "Custom",
     "genre": "Steampunk, Weird War, Custom",
@@ -612,6 +648,7 @@
     "tags": "Rulebook Career"
   },
   {
+    "id": "C37",
     "name": "Mad Scientist (Magical)",
     "alternativeRules": "Custom",
     "genre": "Steampunk, Weird War, Custom",
@@ -629,6 +666,7 @@
     "tags": "Rulebook Career"
   },
   {
+    "id": "C38",
     "name": "Priest",
     "alternativeRules": "Custom",
     "genre": "Steampunk, Weird War, Modern, Sci-fi, Space Opera, Custom",
@@ -646,6 +684,7 @@
     "tags": "Rulebook Career"
   },
   {
+    "id": "C39",
     "name": "Priest (Fantasy)",
     "alternativeRules": "Custom",
     "genre": "Fantasy, Custom",
@@ -663,6 +702,7 @@
     "tags": "Rulebook Career"
   },
   {
+    "id": "C40",
     "name": "Druid",
     "alternativeRules": "Custom",
     "genre": "Steampunk, Weird War, Modern, Sci-fi, Space Opera, Custom",
@@ -680,6 +720,7 @@
     "tags": "Rulebook Career"
   },
   {
+    "id": "C41",
     "name": "Druid (Fantasy)",
     "alternativeRules": "Custom",
     "genre": "Fantasy, Custom",
@@ -697,6 +738,7 @@
     "tags": "Rulebook Career"
   },
   {
+    "id": "C42",
     "name": "Starship Captain",
     "alternativeRules": "Custom",
     "genre": "Space Opera, Custom",
@@ -714,6 +756,7 @@
     "tags": "Rulebook Career"
   },
   {
+    "id": "C43",
     "name": "Starship Captain (Computerized) ",
     "alternativeRules": "Custom",
     "genre": "Modern, Sci-fi, Custom",
@@ -731,6 +774,7 @@
     "tags": "Rulebook Career"
   },
   {
+    "id": "C44",
     "name": "Starship Captain (Pre-Computer)",
     "alternativeRules": "Custom",
     "genre": "Fantasy, Steampunk, Weird War, Custom",
@@ -748,6 +792,7 @@
     "tags": "Rulebook Career"
   },
   {
+    "id": "C45",
     "name": "Wizard",
     "alternativeRules": "Custom",
     "genre": "Weird War, Modern, Science Fiction, Space Opera, Custom",
@@ -765,6 +810,7 @@
     "tags": "Rulebook Career"
   },
   {
+    "id": "C46",
     "name": "Wizard (Fantasy)",
     "alternativeRules": "Custom",
     "genre": "Fantasy, Custom",
@@ -782,6 +828,7 @@
     "tags": "Rulebook Career"
   },
   {
+    "id": "C47",
     "name": "Entertainer",
     "alternativeRules": "Default",
     "genre": "Steampunk, Weird War, Modern, Sci-fi, Space Opera, Custom",
@@ -799,6 +846,7 @@
     "tags": "Rulebook Career"
   },
   {
+    "id": "C48",
     "name": "Entertainer (Fantasy)",
     "alternativeRules": "Default",
     "genre": "Fantasy, Custom",
@@ -816,6 +864,7 @@
     "tags": "Rulebook Career"
   },
   {
+    "id": "C49",
     "name": "Explorer (Fantasy)",
     "alternativeRules": "Default",
     "genre": "Fantasy, Custom",
@@ -833,6 +882,7 @@
     "tags": "Rulebook Career"
   },
   {
+    "id": "C50",
     "name": "Explorer",
     "alternativeRules": "Default",
     "genre": "Steampunk, Weird War, Modern, Sci-fi, Space Opera, Custom",
@@ -850,6 +900,7 @@
     "tags": "Rulebook Career"
   },
   {
+    "id": "C51",
     "name": "Healer",
     "alternativeRules": "Default",
     "genre": "Steampunk, Weird War, Modern, Sci-fi, Space Opera, Custom",
@@ -867,6 +918,7 @@
     "tags": "Rulebook Career"
   },
   {
+    "id": "C52",
     "name": "Healer (Fantasy)",
     "alternativeRules": "Default",
     "genre": "Fantasy, Custom",
@@ -884,6 +936,7 @@
     "tags": "Rulebook Career"
   },
   {
+    "id": "C53",
     "name": "Leader",
     "alternativeRules": "Default",
     "genre": "Steampunk, Weird War, Modern, Sci-fi, Space Opera, Custom",
@@ -901,6 +954,7 @@
     "tags": "Rulebook Career"
   },
   {
+    "id": "C54",
     "name": "Leader (Fantasy)",
     "alternativeRules": "Default",
     "genre": "Fantasy, Custom",
@@ -918,6 +972,7 @@
     "tags": "Rulebook Career"
   },
   {
+    "id": "C55",
     "name": "Scoundrel (Fantasy)",
     "alternativeRules": "Default",
     "genre": "Fantasy, Custom",
@@ -935,6 +990,7 @@
     "tags": "Rulebook Career"
   },
   {
+    "id": "C56",
     "name": "Scoundrel",
     "alternativeRules": "Default",
     "genre": "Steampunk, Weird War, Modern, Sci-fi, Space Opera, Custom",
@@ -952,6 +1008,7 @@
     "tags": "Rulebook Career"
   },
   {
+    "id": "C57",
     "name": "Socialite",
     "alternativeRules": "Default",
     "genre": "Fantasy, Steampunk, Weird War, Modern, Sci-fi, Space Opera, Custom",
@@ -969,6 +1026,7 @@
     "tags": "Rulebook Career"
   },
   {
+    "id": "C58",
     "name": "Soldier (Fantasy)",
     "alternativeRules": "Default",
     "genre": "Fantasy, Custom",
@@ -986,6 +1044,7 @@
     "tags": "Rulebook Career"
   },
   {
+    "id": "C59",
     "name": "Soldier",
     "alternativeRules": "Default",
     "genre": "Steampunk, Weird War, Modern, Sci-fi, Space Opera, Custom",
@@ -1003,6 +1062,7 @@
     "tags": "Rulebook Career"
   },
   {
+    "id": "C60",
     "name": "Tradesperson",
     "alternativeRules": "Default",
     "genre": "Fantasy, Steampunk, Weird War, Modern, Sci-fi, Space Opera, Custom",
@@ -1020,6 +1080,7 @@
     "tags": "Rulebook Career"
   },
   {
+    "id": "C61",
     "name": "Knight (Fantasy)",
     "alternativeRules": "Default",
     "genre": "Fantasy, Custom",
@@ -1037,6 +1098,7 @@
     "tags": "Rulebook Career"
   },
   {
+    "id": "C62",
     "name": "Knight (Steampunk)",
     "alternativeRules": "Default",
     "genre": "Steampunk, Custom",
@@ -1054,6 +1116,7 @@
     "tags": "Rulebook Career"
   },
   {
+    "id": "C63",
     "name": "Knight (Modern)",
     "alternativeRules": "Default",
     "genre": "Weird War, Modern, Science Fiction, Space Opera, Custom",
@@ -1071,6 +1134,7 @@
     "tags": "Rulebook Career"
   },
   {
+    "id": "C64",
     "name": "Mad Scientist",
     "alternativeRules": "Default",
     "genre": "Steampunk, Weird War, Custom",
@@ -1088,6 +1152,7 @@
     "tags": "Rulebook Career"
   },
   {
+    "id": "C65",
     "name": "Hacker (Future)",
     "alternativeRules": "Hacking",
     "genre": "Sci-fi, Space Opera, Custom",
@@ -1105,6 +1170,7 @@
     "tags": "Rulebook Career"
   },
   {
+    "id": "C66",
     "name": "Mad Scientist (Magical)",
     "alternativeRules": "Magic",
     "genre": "Steampunk, Weird War, Custom",
@@ -1122,6 +1188,7 @@
     "tags": "Rulebook Career"
   },
   {
+    "id": "C67",
     "name": "Priest",
     "alternativeRules": "Magic",
     "genre": "Steampunk, Weird War, Modern, Sci-fi, Space Opera, Custom",
@@ -1139,6 +1206,7 @@
     "tags": "Rulebook Career"
   },
   {
+    "id": "C68",
     "name": "Priest (Fantasy)",
     "alternativeRules": "Magic",
     "genre": "Fantasy, Custom",
@@ -1156,6 +1224,7 @@
     "tags": "Rulebook Career"
   },
   {
+    "id": "C69",
     "name": "Druid",
     "alternativeRules": "Magic",
     "genre": "Steampunk, Weird War, Modern, Sci-fi, Space Opera, Custom",
@@ -1173,6 +1242,7 @@
     "tags": "Rulebook Career"
   },
   {
+    "id": "C70",
     "name": "Druid (Fantasy)",
     "alternativeRules": "Magic",
     "genre": "Fantasy, Custom",
@@ -1190,6 +1260,7 @@
     "tags": "Rulebook Career"
   },
   {
+    "id": "C71",
     "name": "Wizard",
     "alternativeRules": "Magic",
     "genre": "Weird War, Modern, Science Fiction, Space Opera, Custom",
@@ -1207,6 +1278,7 @@
     "tags": "Rulebook Career"
   },
   {
+    "id": "C72",
     "name": "Wizard (Fantasy)",
     "alternativeRules": "Magic",
     "genre": "Fantasy, Custom",
@@ -1224,6 +1296,7 @@
     "tags": "Rulebook Career"
   },
   {
+    "id": "C73",
     "name": "Fighter Pilot",
     "alternativeRules": "Custom",
     "genre": "Steampunk, Weird War, Modern, Science Fiction, Space Opera, Custom",
@@ -1241,6 +1314,7 @@
     "tags": "Rulebook Career"
   },
   {
+    "id": "C74",
     "name": "Starship Captain",
     "alternativeRules": "Vehicle",
     "genre": "Space Opera, Custom",
@@ -1258,6 +1332,7 @@
     "tags": "Rulebook Career"
   },
   {
+    "id": "C75",
     "name": "Starship Captain (Computerized) ",
     "alternativeRules": "Vehicle",
     "genre": "Modern, Sci-fi, Custom",
@@ -1275,6 +1350,7 @@
     "tags": "Rulebook Career"
   },
   {
+    "id": "C76",
     "name": "Starship Captain (Pre-Computer)",
     "alternativeRules": "Vehicle",
     "genre": "Fantasy, Steampunk, Weird War, Custom",
