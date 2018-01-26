@@ -15,6 +15,7 @@ import SpellAdjustments from '@/components/spellAdjustments'
 import SpellJam from '@/components/spellJamSpell'
 import Talents from '@/components/talents'
 import Transmogrify from '@/components/transmogrifySpell'
+import Factions from '@/components/factions'
 
 Vue.use(Router)
 
@@ -32,6 +33,7 @@ export default new Router({
         { path: '/spelladjustments', component: SpellAdjustments },
         { path: '/spelljam', component: SpellJam },
         { path: '/talents', component: Talents },
-        { path: '/transmogrify', component: Transmogrify }
+        { path: '/transmogrify', component: Transmogrify },
+        { path: '/factions', component: Factions }
     ]
 })

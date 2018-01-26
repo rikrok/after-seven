@@ -4,13 +4,13 @@ Generator
 		Well Read		(modal radio)	
 		Well Rounded	(modal radio)	
 		Dedication	- 	(modal radio)	
-		Refund basic inventory 			
+		Burley application
+		Do a note about Refund basic inventory, Well Read, Well Rounded, Dedication
 
 	Export JSON
 
 	Catalog -> Item Category radio buttons.
-
-
+	
 New Pages
 	Mob Generator 
 		Creation

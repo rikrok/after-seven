@@ -12,13 +12,13 @@
                        <b-dropdown-item to="/talents"> Talents </b-dropdown-item>       
                 </b-nav-item-dropdown>
 
-                <!--b-nav-item-dropdown id="dropDownFluff" href="#" text="Fluff" right>
-                       <b-dropdown-item> About </b-dropdown-item>
-                       <b-dropdown-item> Avatars </b-dropdown-item>
-                       <b-dropdown-item> Events </b-dropdown-item>
-                       <b-dropdown-item> Factions </b-dropdown-item>
-                       <b-dropdown-item> Where Are They Now..? </b-dropdown-item>                    
-                </b-nav-item-dropdown-->
+                <b-nav-item-dropdown id="dropDownFluff" href="#" text="Fluff" right>
+                       <!--b-dropdown-item> About </b-dropdown-item-->
+                       <!--b-dropdown-item> Avatars </b-dropdown-item-->
+                       <!--b-dropdown-item> Events </b-dropdown-item-->
+                       <b-dropdown-item to="/factions"> Factions </b-dropdown-item>
+                       <!--b-dropdown-item> Where Are They Now..? </b-dropdown-item-->
+                </b-nav-item-dropdown>
 
                 <b-nav-item-dropdown id="dropDownMagic" href="#" text="Alchemy and Magic" right>
                        <b-dropdown-item to="/alchemy"> Alchemy </b-dropdown-item>
