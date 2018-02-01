@@ -2,14 +2,12 @@
   {
     "type": "desires",
     "rollValue": 0,
-    "result": "Ambition",
-    "": 9
+    "result": "Ambition"
   },
   {
     "type": "desires",
     "rollValue": 1,
-    "result": "Belonging",
-    "": -1
+    "result": "Belonging"
   },
   {
     "type": "desires",

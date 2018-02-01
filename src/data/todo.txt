@@ -1,15 +1,24 @@
 Generator
-	
-	Do Talents:			
-		Well Read		(modal radio)	
-		Well Rounded	(modal radio)	
-		Dedication	- 	(modal radio)	
-		Burley application
-		Do a note about Refund basic inventory, Well Read, Well Rounded, Dedication
-
 	Export JSON
+	Import JSON 
+		Character
+		Races
+		Careers
+		Skills
+		Talents
+		Items		
 
 	Catalog -> Item Category radio buttons.
+
+	Test 
+		Burley
+		Zapp
+		Armor Master
+		Armor Master (Improved)
+
+	Backpack + 4 encum
+
+	Cybernetics
 	
 New Pages
 	Mob Generator 

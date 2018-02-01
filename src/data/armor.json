@@ -76,9 +76,8 @@
         "name": "knockdown",
         "value": 0
       },
-      {},
       {
-        "name": "limited ammo ",
+        "name": "limited ammo",
         "value": 0
       },
       {
@@ -107,6 +106,10 @@
       },
       {
         "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "sunder",
         "value": 0
       },
       {
@@ -201,9 +204,8 @@
         "name": "knockdown",
         "value": 0
       },
-      {},
       {
-        "name": "limited ammo ",
+        "name": "limited ammo",
         "value": 0
       },
       {
@@ -232,6 +234,10 @@
       },
       {
         "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "sunder",
         "value": 0
       },
       {
@@ -326,9 +332,8 @@
         "name": "knockdown",
         "value": 0
       },
-      {},
       {
-        "name": "limited ammo ",
+        "name": "limited ammo",
         "value": 0
       },
       {
@@ -357,6 +362,10 @@
       },
       {
         "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "sunder",
         "value": 0
       },
       {
@@ -454,9 +463,8 @@
         "name": "knockdown",
         "value": 0
       },
-      {},
       {
-        "name": "limited ammo ",
+        "name": "limited ammo",
         "value": 0
       },
       {
@@ -485,6 +493,10 @@
       },
       {
         "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "sunder",
         "value": 0
       },
       {
@@ -582,9 +594,8 @@
         "name": "knockdown",
         "value": 0
       },
-      {},
       {
-        "name": "limited ammo ",
+        "name": "limited ammo",
         "value": 0
       },
       {
@@ -613,6 +624,10 @@
       },
       {
         "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "sunder",
         "value": 0
       },
       {
@@ -707,9 +722,8 @@
         "name": "knockdown",
         "value": 0
       },
-      {},
       {
-        "name": "limited ammo ",
+        "name": "limited ammo",
         "value": 0
       },
       {
@@ -738,6 +752,10 @@
       },
       {
         "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "sunder",
         "value": 0
       },
       {
@@ -835,9 +853,8 @@
         "name": "knockdown",
         "value": 0
       },
-      {},
       {
-        "name": "limited ammo ",
+        "name": "limited ammo",
         "value": 0
       },
       {
@@ -866,6 +883,10 @@
       },
       {
         "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "sunder",
         "value": 0
       },
       {
@@ -963,9 +984,8 @@
         "name": "knockdown",
         "value": 0
       },
-      {},
       {
-        "name": "limited ammo ",
+        "name": "limited ammo",
         "value": 0
       },
       {
@@ -994,6 +1014,2469 @@
       },
       {
         "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "sunder",
+        "value": 0
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 0
+      },
+      {
+        "name": "vicious",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "A9",
+    "category": "Armor",
+    "subCategory": "Defensive Armor",
+    "name": "Heavy Jacket",
+    "encumbrance": 1,
+    "wornEncumbrance": 0,
+    "hardPoints": 1,
+    "value": 50,
+    "rarity": 1,
+    "description": "See page 92 in the Genesys Core Rulebook",
+    "soak": 1,
+    "defense": 0,
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 0
+      },
+      {
+        "name": "auto-fire",
+        "value": 0
+      },
+      {
+        "name": "blast",
+        "value": 0
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 0
+      },
+      {
+        "name": "concussive",
+        "value": 0
+      },
+      {
+        "name": "cumbersome",
+        "value": 0
+      },
+      {
+        "name": "defensive",
+        "value": 0
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 0
+      },
+      {
+        "name": "ensnare",
+        "value": 0
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 0
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 0
+      },
+      {
+        "name": "limited ammo",
+        "value": 0
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 0
+      },
+      {
+        "name": "prepare",
+        "value": 0
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 0
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "sunder",
+        "value": 0
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 0
+      },
+      {
+        "name": "vicious",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "A10",
+    "category": "Armor",
+    "subCategory": "Soak Armor",
+    "name": "Chainmal",
+    "encumbrance": 3,
+    "wornEncumbrance": 0,
+    "hardPoints": 2,
+    "value": 550,
+    "rarity": 4,
+    "description": "See page 145 in the Genesys Core Rulebook",
+    "soak": 2,
+    "defense": 0,
+    "specialAbilities": [
+      "See page 145 in the Genesys Core Rulebook"
+    ],
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 0
+      },
+      {
+        "name": "auto-fire",
+        "value": 0
+      },
+      {
+        "name": "blast",
+        "value": 0
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 0
+      },
+      {
+        "name": "concussive",
+        "value": 0
+      },
+      {
+        "name": "cumbersome",
+        "value": 0
+      },
+      {
+        "name": "defensive",
+        "value": 0
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 0
+      },
+      {
+        "name": "ensnare",
+        "value": 0
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 0
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 0
+      },
+      {
+        "name": "limited ammo",
+        "value": 0
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 0
+      },
+      {
+        "name": "prepare",
+        "value": 0
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 0
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "sunder",
+        "value": 0
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 0
+      },
+      {
+        "name": "vicious",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "A11",
+    "category": "Armor",
+    "subCategory": "Defensive Armor",
+    "name": "Heavy Robes",
+    "encumbrance": 1,
+    "wornEncumbrance": 0,
+    "hardPoints": 1,
+    "value": 45,
+    "rarity": 0,
+    "description": "See page 145 in the Genesys Core Rulebook",
+    "soak": 0,
+    "defense": 1,
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 0
+      },
+      {
+        "name": "auto-fire",
+        "value": 0
+      },
+      {
+        "name": "blast",
+        "value": 0
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 0
+      },
+      {
+        "name": "concussive",
+        "value": 0
+      },
+      {
+        "name": "cumbersome",
+        "value": 0
+      },
+      {
+        "name": "defensive",
+        "value": 0
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 0
+      },
+      {
+        "name": "ensnare",
+        "value": 0
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 0
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 0
+      },
+      {
+        "name": "limited ammo",
+        "value": 0
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 0
+      },
+      {
+        "name": "prepare",
+        "value": 0
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 0
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "sunder",
+        "value": 0
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 0
+      },
+      {
+        "name": "vicious",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "A12",
+    "category": "Armor",
+    "subCategory": "Defensive Armor",
+    "name": "Leather",
+    "encumbrance": 2,
+    "wornEncumbrance": 0,
+    "hardPoints": 1,
+    "value": 50,
+    "rarity": 3,
+    "description": "See page 145 in the Genesys Core Rulebook",
+    "soak": 1,
+    "defense": 0,
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 0
+      },
+      {
+        "name": "auto-fire",
+        "value": 0
+      },
+      {
+        "name": "blast",
+        "value": 0
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 0
+      },
+      {
+        "name": "concussive",
+        "value": 0
+      },
+      {
+        "name": "cumbersome",
+        "value": 0
+      },
+      {
+        "name": "defensive",
+        "value": 0
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 0
+      },
+      {
+        "name": "ensnare",
+        "value": 0
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 0
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 0
+      },
+      {
+        "name": "limited ammo",
+        "value": 0
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 0
+      },
+      {
+        "name": "prepare",
+        "value": 0
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 0
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "sunder",
+        "value": 0
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 0
+      },
+      {
+        "name": "vicious",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "A13",
+    "category": "Armor",
+    "subCategory": "Soak Armor",
+    "name": "Magic Plate",
+    "encumbrance": 3,
+    "wornEncumbrance": 0,
+    "hardPoints": 2,
+    "value": 2400,
+    "rarity": 8,
+    "description": "See page 145 in the Genesys Core Rulebook",
+    "soak": 2,
+    "defense": 2,
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 0
+      },
+      {
+        "name": "auto-fire",
+        "value": 0
+      },
+      {
+        "name": "blast",
+        "value": 0
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 0
+      },
+      {
+        "name": "concussive",
+        "value": 0
+      },
+      {
+        "name": "cumbersome",
+        "value": 0
+      },
+      {
+        "name": "defensive",
+        "value": 0
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 0
+      },
+      {
+        "name": "ensnare",
+        "value": 0
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 0
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 0
+      },
+      {
+        "name": "limited ammo",
+        "value": 0
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 0
+      },
+      {
+        "name": "prepare",
+        "value": 0
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 0
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "sunder",
+        "value": 0
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 0
+      },
+      {
+        "name": "vicious",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "A14",
+    "category": "Armor",
+    "subCategory": "Soak Armor",
+    "name": "Plate Armor",
+    "encumbrance": 4,
+    "wornEncumbrance": 1,
+    "hardPoints": 2,
+    "value": 1250,
+    "rarity": 6,
+    "description": "See page 145 in the Genesys Core Rulebook",
+    "soak": 2,
+    "defense": 1,
+    "specialAbilities": [
+      "See page 145 in the Genesys Core Rulebook"
+    ],
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 0
+      },
+      {
+        "name": "auto-fire",
+        "value": 0
+      },
+      {
+        "name": "blast",
+        "value": 0
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 0
+      },
+      {
+        "name": "concussive",
+        "value": 0
+      },
+      {
+        "name": "cumbersome",
+        "value": 0
+      },
+      {
+        "name": "defensive",
+        "value": 0
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 0
+      },
+      {
+        "name": "ensnare",
+        "value": 0
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 0
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 0
+      },
+      {
+        "name": "limited ammo",
+        "value": 0
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 0
+      },
+      {
+        "name": "prepare",
+        "value": 0
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 0
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "sunder",
+        "value": 0
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 0
+      },
+      {
+        "name": "vicious",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "A15",
+    "category": "Armor",
+    "subCategory": "Soak Armor",
+    "name": "Amplimotive Armor",
+    "encumbrance": 3,
+    "wornEncumbrance": 0,
+    "hardPoints": 2,
+    "value": 1250,
+    "rarity": 9,
+    "description": "See page 155 in the Genesys Core Rulebook",
+    "soak": 2,
+    "defense": 1,
+    "specialAbilities": [
+      "See page 155 in the Genesys Core Rulebook"
+    ],
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 0
+      },
+      {
+        "name": "auto-fire",
+        "value": 0
+      },
+      {
+        "name": "blast",
+        "value": 0
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 0
+      },
+      {
+        "name": "concussive",
+        "value": 0
+      },
+      {
+        "name": "cumbersome",
+        "value": 0
+      },
+      {
+        "name": "defensive",
+        "value": 0
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 0
+      },
+      {
+        "name": "ensnare",
+        "value": 0
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 0
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 0
+      },
+      {
+        "name": "limited ammo",
+        "value": 0
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 0
+      },
+      {
+        "name": "prepare",
+        "value": 0
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 0
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "sunder",
+        "value": 0
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 0
+      },
+      {
+        "name": "vicious",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "A16",
+    "category": "Armor",
+    "subCategory": "Defensive Armor",
+    "name": "Cogsuit",
+    "encumbrance": 3,
+    "wornEncumbrance": 0,
+    "hardPoints": 2,
+    "value": 275,
+    "rarity": 3,
+    "description": "See page 155 in the Genesys Core Rulebook",
+    "soak": 1,
+    "defense": 1,
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 0
+      },
+      {
+        "name": "auto-fire",
+        "value": 0
+      },
+      {
+        "name": "blast",
+        "value": 0
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 0
+      },
+      {
+        "name": "concussive",
+        "value": 0
+      },
+      {
+        "name": "cumbersome",
+        "value": 0
+      },
+      {
+        "name": "defensive",
+        "value": 0
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 0
+      },
+      {
+        "name": "ensnare",
+        "value": 0
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 0
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 0
+      },
+      {
+        "name": "limited ammo",
+        "value": 0
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 0
+      },
+      {
+        "name": "prepare",
+        "value": 0
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 0
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "sunder",
+        "value": 0
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 0
+      },
+      {
+        "name": "vicious",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "A17",
+    "category": "Armor",
+    "subCategory": "Defensive Armor",
+    "name": "Insulated Garb",
+    "encumbrance": 3,
+    "wornEncumbrance": 0,
+    "hardPoints": 2,
+    "value": 175,
+    "rarity": 2,
+    "description": "See page 155 in the Genesys Core Rulebook",
+    "soak": 1,
+    "defense": 0,
+    "specialAbilities": [
+      "See page 155 in the Genesys Core Rulebook"
+    ],
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 0
+      },
+      {
+        "name": "auto-fire",
+        "value": 0
+      },
+      {
+        "name": "blast",
+        "value": 0
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 0
+      },
+      {
+        "name": "concussive",
+        "value": 0
+      },
+      {
+        "name": "cumbersome",
+        "value": 0
+      },
+      {
+        "name": "defensive",
+        "value": 0
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 0
+      },
+      {
+        "name": "ensnare",
+        "value": 0
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 0
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 0
+      },
+      {
+        "name": "limited ammo",
+        "value": 0
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 0
+      },
+      {
+        "name": "prepare",
+        "value": 0
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 0
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "sunder",
+        "value": 0
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 0
+      },
+      {
+        "name": "vicious",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "A18",
+    "category": "Armor",
+    "subCategory": "Soak Armor",
+    "name": "Illrium BG-42 Vest",
+    "encumbrance": 4,
+    "wornEncumbrance": 1,
+    "hardPoints": 2,
+    "value": 600,
+    "rarity": 6,
+    "description": "See page 162 in the Genesys Core Rolebook",
+    "soak": 2,
+    "defense": 0,
+    "specialAbilities": [
+      "See page 162 in the Genesys Core Rolebook"
+    ],
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 0
+      },
+      {
+        "name": "auto-fire",
+        "value": 0
+      },
+      {
+        "name": "blast",
+        "value": 0
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 0
+      },
+      {
+        "name": "concussive",
+        "value": 0
+      },
+      {
+        "name": "cumbersome",
+        "value": 0
+      },
+      {
+        "name": "defensive",
+        "value": 0
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 0
+      },
+      {
+        "name": "ensnare",
+        "value": 0
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 0
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 0
+      },
+      {
+        "name": "limited ammo",
+        "value": 0
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 0
+      },
+      {
+        "name": "prepare",
+        "value": 0
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 0
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "sunder",
+        "value": 0
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 0
+      },
+      {
+        "name": "vicious",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "A19",
+    "category": "Armor",
+    "subCategory": "Defensive Armor",
+    "name": "Tesla Coil",
+    "encumbrance": 2,
+    "wornEncumbrance": 0,
+    "hardPoints": 1,
+    "value": 550,
+    "rarity": 8,
+    "description": "See page 162 in the Genesys Core Rolebook",
+    "soak": 0,
+    "defense": 2,
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 0
+      },
+      {
+        "name": "auto-fire",
+        "value": 0
+      },
+      {
+        "name": "blast",
+        "value": 0
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 0
+      },
+      {
+        "name": "concussive",
+        "value": 0
+      },
+      {
+        "name": "cumbersome",
+        "value": 0
+      },
+      {
+        "name": "defensive",
+        "value": 0
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 0
+      },
+      {
+        "name": "ensnare",
+        "value": 0
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 0
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 0
+      },
+      {
+        "name": "limited ammo",
+        "value": 0
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 0
+      },
+      {
+        "name": "prepare",
+        "value": 0
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 0
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "sunder",
+        "value": 0
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 0
+      },
+      {
+        "name": "vicious",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "A20",
+    "category": "Armor",
+    "subCategory": "Soak Armor",
+    "name": "Flak Vest",
+    "encumbrance": 3,
+    "wornEncumbrance": 0,
+    "hardPoints": 2,
+    "value": 475,
+    "rarity": 5,
+    "description": "See page 168 in the Genesys Core Rolebook",
+    "soak": 2,
+    "defense": 0,
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 0
+      },
+      {
+        "name": "auto-fire",
+        "value": 0
+      },
+      {
+        "name": "blast",
+        "value": 0
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 0
+      },
+      {
+        "name": "concussive",
+        "value": 0
+      },
+      {
+        "name": "cumbersome",
+        "value": 0
+      },
+      {
+        "name": "defensive",
+        "value": 0
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 0
+      },
+      {
+        "name": "ensnare",
+        "value": 0
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 0
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 0
+      },
+      {
+        "name": "limited ammo",
+        "value": 0
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 0
+      },
+      {
+        "name": "prepare",
+        "value": 0
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 0
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "sunder",
+        "value": 0
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 0
+      },
+      {
+        "name": "vicious",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "A21",
+    "category": "Armor",
+    "subCategory": "Defensive Armor",
+    "name": "Ghillie Suit",
+    "encumbrance": 1,
+    "wornEncumbrance": 0,
+    "hardPoints": 1,
+    "value": 95,
+    "rarity": 4,
+    "description": "See page 168 in the Genesys Core Rolebook",
+    "soak": 0,
+    "defense": 1,
+    "specialAbilities": [
+      "See page 168 in the Genesys Core Rolebook"
+    ],
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 0
+      },
+      {
+        "name": "auto-fire",
+        "value": 0
+      },
+      {
+        "name": "blast",
+        "value": 0
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 0
+      },
+      {
+        "name": "concussive",
+        "value": 0
+      },
+      {
+        "name": "cumbersome",
+        "value": 0
+      },
+      {
+        "name": "defensive",
+        "value": 0
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 0
+      },
+      {
+        "name": "ensnare",
+        "value": 0
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 0
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 0
+      },
+      {
+        "name": "limited ammo",
+        "value": 0
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 0
+      },
+      {
+        "name": "prepare",
+        "value": 0
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 0
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "sunder",
+        "value": 0
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 0
+      },
+      {
+        "name": "vicious",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "A22",
+    "category": "Armor",
+    "subCategory": "Defensive Armor",
+    "name": "Riot armor",
+    "encumbrance": 5,
+    "wornEncumbrance": 2,
+    "hardPoints": 3,
+    "value": 675,
+    "rarity": 6,
+    "description": "See page 168 in the Genesys Core Rolebook",
+    "soak": 1,
+    "defense": 2,
+    "specialAbilities": [
+      "See page 168 in the Genesys Core Rolebook"
+    ],
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 0
+      },
+      {
+        "name": "auto-fire",
+        "value": 0
+      },
+      {
+        "name": "blast",
+        "value": 0
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 0
+      },
+      {
+        "name": "concussive",
+        "value": 0
+      },
+      {
+        "name": "cumbersome",
+        "value": 0
+      },
+      {
+        "name": "defensive",
+        "value": 0
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 0
+      },
+      {
+        "name": "ensnare",
+        "value": 0
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 0
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 0
+      },
+      {
+        "name": "limited ammo",
+        "value": 0
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 0
+      },
+      {
+        "name": "prepare",
+        "value": 0
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 0
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "sunder",
+        "value": 0
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 0
+      },
+      {
+        "name": "vicious",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "A23",
+    "category": "Armor",
+    "subCategory": "Soak Armor",
+    "name": "Plasteel Carapace",
+    "encumbrance": 4,
+    "wornEncumbrance": 1,
+    "hardPoints": 2,
+    "value": 750,
+    "rarity": 5,
+    "description": "See page 177 in the Genesys Core Rolebook",
+    "soak": 2,
+    "defense": 1,
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 0
+      },
+      {
+        "name": "auto-fire",
+        "value": 0
+      },
+      {
+        "name": "blast",
+        "value": 0
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 0
+      },
+      {
+        "name": "concussive",
+        "value": 0
+      },
+      {
+        "name": "cumbersome",
+        "value": 0
+      },
+      {
+        "name": "defensive",
+        "value": 0
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 0
+      },
+      {
+        "name": "ensnare",
+        "value": 0
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 0
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 0
+      },
+      {
+        "name": "limited ammo",
+        "value": 0
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 0
+      },
+      {
+        "name": "prepare",
+        "value": 0
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 0
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "sunder",
+        "value": 0
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 0
+      },
+      {
+        "name": "vicious",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "A24",
+    "category": "Armor",
+    "subCategory": "Defensive Armor",
+    "name": "Optical Camo Suit",
+    "encumbrance": 2,
+    "wornEncumbrance": 0,
+    "hardPoints": 1,
+    "value": 580,
+    "rarity": 7,
+    "description": "See page 177 in the Genesys Core Rolebook",
+    "soak": 0,
+    "defense": 2,
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 0
+      },
+      {
+        "name": "auto-fire",
+        "value": 0
+      },
+      {
+        "name": "blast",
+        "value": 0
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 0
+      },
+      {
+        "name": "concussive",
+        "value": 0
+      },
+      {
+        "name": "cumbersome",
+        "value": 0
+      },
+      {
+        "name": "defensive",
+        "value": 0
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 0
+      },
+      {
+        "name": "ensnare",
+        "value": 0
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 0
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 0
+      },
+      {
+        "name": "limited ammo",
+        "value": 0
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 0
+      },
+      {
+        "name": "prepare",
+        "value": 0
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 0
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "sunder",
+        "value": 0
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 0
+      },
+      {
+        "name": "vicious",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "A25",
+    "category": "Armor",
+    "subCategory": "Soak Armor",
+    "name": "Elite Shock Armor",
+    "encumbrance": 5,
+    "wornEncumbrance": 2,
+    "hardPoints": 3,
+    "value": 4000,
+    "rarity": 6,
+    "description": "See page 186 in the Genesys Core Rolebook",
+    "soak": 2,
+    "defense": 1,
+    "specialAbilities": [
+      "See page 186 in the Genesys Core Rolebook"
+    ],
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 0
+      },
+      {
+        "name": "auto-fire",
+        "value": 0
+      },
+      {
+        "name": "blast",
+        "value": 0
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 0
+      },
+      {
+        "name": "concussive",
+        "value": 0
+      },
+      {
+        "name": "cumbersome",
+        "value": 0
+      },
+      {
+        "name": "defensive",
+        "value": 0
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 0
+      },
+      {
+        "name": "ensnare",
+        "value": 0
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 0
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 0
+      },
+      {
+        "name": "limited ammo",
+        "value": 0
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 0
+      },
+      {
+        "name": "prepare",
+        "value": 0
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 0
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "sunder",
+        "value": 0
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 0
+      },
+      {
+        "name": "vicious",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "A26",
+    "category": "Armor",
+    "subCategory": "Soak Armor",
+    "name": "Infantry Combat Armor",
+    "encumbrance": 2,
+    "wornEncumbrance": 0,
+    "hardPoints": 3,
+    "value": 700,
+    "rarity": 5,
+    "description": "See page 186 in the Genesys Core Rolebook",
+    "soak": 2,
+    "defense": 0,
+    "specialAbilities": [
+      "See page 186 in the Genesys Core Rolebook"
+    ],
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 0
+      },
+      {
+        "name": "auto-fire",
+        "value": 0
+      },
+      {
+        "name": "blast",
+        "value": 0
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 0
+      },
+      {
+        "name": "concussive",
+        "value": 0
+      },
+      {
+        "name": "cumbersome",
+        "value": 0
+      },
+      {
+        "name": "defensive",
+        "value": 0
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 0
+      },
+      {
+        "name": "ensnare",
+        "value": 0
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 0
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 0
+      },
+      {
+        "name": "limited ammo",
+        "value": 0
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 0
+      },
+      {
+        "name": "prepare",
+        "value": 0
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 0
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "sunder",
+        "value": 0
+      },
+      {
+        "name": "superior",
+        "value": 0
+      },
+      {
+        "name": "tractor",
+        "value": 0
+      },
+      {
+        "name": "unwieldy",
+        "value": 0
+      },
+      {
+        "name": "vicious",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "A27",
+    "category": "Armor",
+    "subCategory": "Defensive Armor",
+    "name": "Personal Force Field",
+    "encumbrance": 1,
+    "wornEncumbrance": 0,
+    "hardPoints": 1,
+    "value": 2000,
+    "rarity": 8,
+    "description": "See page 186 in the Genesys Core Rolebook",
+    "soak": 0,
+    "defense": 3,
+    "qualities": [
+      {
+        "name": "accurate",
+        "value": 0
+      },
+      {
+        "name": "auto-fire",
+        "value": 0
+      },
+      {
+        "name": "blast",
+        "value": 0
+      },
+      {
+        "name": "breach",
+        "value": 0
+      },
+      {
+        "name": "burn",
+        "value": 0
+      },
+      {
+        "name": "concussive",
+        "value": 0
+      },
+      {
+        "name": "cumbersome",
+        "value": 0
+      },
+      {
+        "name": "defensive",
+        "value": 0
+      },
+      {
+        "name": "deflection",
+        "value": 0
+      },
+      {
+        "name": "disorient",
+        "value": 0
+      },
+      {
+        "name": "ensnare",
+        "value": 0
+      },
+      {
+        "name": "guided",
+        "value": 0
+      },
+      {
+        "name": "inaccurate",
+        "value": 0
+      },
+      {
+        "name": "inferior",
+        "value": 0
+      },
+      {
+        "name": "knockdown",
+        "value": 0
+      },
+      {
+        "name": "limited ammo",
+        "value": 0
+      },
+      {
+        "name": "linked",
+        "value": 0
+      },
+      {
+        "name": "pierce",
+        "value": 0
+      },
+      {
+        "name": "prepare",
+        "value": 0
+      },
+      {
+        "name": "reinforced",
+        "value": 0
+      },
+      {
+        "name": "slow-firing",
+        "value": 0
+      },
+      {
+        "name": "stun",
+        "value": 0
+      },
+      {
+        "name": "stun damage",
+        "value": 0
+      },
+      {
+        "name": "sunder",
         "value": 0
       },
       {

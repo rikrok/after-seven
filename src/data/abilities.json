@@ -5,6 +5,51 @@
     "ability": "(Passive): Add one setback die to your dice pool while using the Stealth checks."
   },
   {
+    "id": "A10",
+    "source": "Chainmal Special",
+    "ability": "See page 145 in the Genesys Core Rulebook"
+  },
+  {
+    "id": "A14",
+    "source": "Plate Armor Special",
+    "ability": "See page 145 in the Genesys Core Rulebook"
+  },
+  {
+    "id": "A15",
+    "source": "Amplimotive Armor Special",
+    "ability": "See page 155 in the Genesys Core Rulebook"
+  },
+  {
+    "id": "A17",
+    "source": "Insulated Garb Special",
+    "ability": "See page 155 in the Genesys Core Rulebook"
+  },
+  {
+    "id": "A18",
+    "source": "Illrium BG-42 Vest Special",
+    "ability": "See page 162 in the Genesys Core Rolebook"
+  },
+  {
+    "id": "A21",
+    "source": "Ghillie Suit Special",
+    "ability": "See page 168 in the Genesys Core Rolebook"
+  },
+  {
+    "id": "A22",
+    "source": "Riot armor Special",
+    "ability": "See page 168 in the Genesys Core Rolebook"
+  },
+  {
+    "id": "A25",
+    "source": "Elite Shock Armor Special",
+    "ability": "See page 186 in the Genesys Core Rolebook"
+  },
+  {
+    "id": "A26",
+    "source": "Infantry Combat Armor Special",
+    "ability": "See page 186 in the Genesys Core Rolebook"
+  },
+  {
     "id": "A5",
     "source": "Bloodoil Treated Robes Special",
     "ability": "(Passive): When being tracked or spotted, the tracker adds one boost die to either vigilance or perception check"
@@ -95,14 +140,184 @@
     "ability": "(Passive): Arcana attack spells cast by the user increase their base damage by three."
   },
   {
+    "id": "G24",
+    "source": "Backpack Special ",
+    "ability": "Gain +4 max encumbrance"
+  },
+  {
+    "id": "G25",
+    "source": "Painkiller Special ",
+    "ability": "See page 94 in the Genesys Core Rulebook"
+  },
+  {
+    "id": "G27",
+    "source": "Drudic Circlet Special ",
+    "ability": "See Page 219 in the Genesys CoreRulebook"
+  },
+  {
+    "id": "G28",
+    "source": "Holy Icon Special ",
+    "ability": "See Page 219 in the Genesys CoreRulebook"
+  },
+  {
+    "id": "G29",
+    "source": "Magic Orbs Special ",
+    "ability": "See Page 219 in the Genesys CoreRulebook"
+  },
+  {
+    "id": "G30",
+    "source": "Magic Rings Special ",
+    "ability": "See Page 219 in the Genesys CoreRulebook"
+  },
+  {
+    "id": "G31",
+    "source": "Magic Staffs Special ",
+    "ability": "See Page 219 in the Genesys CoreRulebook"
+  },
+  {
+    "id": "G32",
+    "source": "Magic Wands Special ",
+    "ability": "See Page 219 in the Genesys CoreRulebook"
+  },
+  {
+    "id": "G33",
+    "source": "Backpack of Holding Special ",
+    "ability": "See page 146 in the Genesys Core Rulebook"
+  },
+  {
+    "id": "G34",
+    "source": "Fine Cloak Special ",
+    "ability": "See page 146 in the Genesys Core Rulebook"
+  },
+  {
+    "id": "G35",
+    "source": "Herbs of Healing Special ",
+    "ability": "See page 146 in the Genesys Core Rulebook"
+  },
+  {
+    "id": "G36",
+    "source": "Thieves' Tolls Special ",
+    "ability": "See page 146 in the Genesys Core Rulebook"
+  },
+  {
+    "id": "G37",
+    "source": "Torch Special ",
+    "ability": "See page 146 in the Genesys Core Rulebook"
+  },
+  {
+    "id": "G38",
+    "source": "Winter Clothing Special ",
+    "ability": "See page 146 in the Genesys Core Rulebook"
+  },
+  {
+    "id": "G41",
+    "source": "Aeropack Special ",
+    "ability": "See page 156 in the Genesys Core Rulebook"
+  },
+  {
+    "id": "G42",
+    "source": "Hooded Latern Special ",
+    "ability": "See page 156 in the Genesys Core Rulebook"
+  },
+  {
+    "id": "G43",
+    "source": "Miracle Tunic Special ",
+    "ability": "See page 156 in the Genesys Core Rulebook"
+  },
+  {
+    "id": "G44",
+    "source": "Potion of Paralyzation Special ",
+    "ability": "See page 156 in the Genesys Core Rulebook"
+  },
+  {
+    "id": "G45",
+    "source": "First Aid Kit Special ",
+    "ability": "See page 162 in the Genesys Core Rulebook"
+  },
+  {
+    "id": "G46",
+    "source": "Nighteyes Goggles Special ",
+    "ability": "See page 162 in the Genesys Core Rulebook"
+  },
+  {
+    "id": "G47",
+    "source": "Unholy Tome Special ",
+    "ability": "See page 162 in the Genesys Core Rulebook"
+  },
+  {
+    "id": "G48",
+    "source": "Warding Icon Special ",
+    "ability": "See page 162 in the Genesys Core Rulebook"
+  },
+  {
+    "id": "G49",
+    "source": "Extra Clip Special ",
+    "ability": "See page 168 in the Genesys Core Rulebook"
+  },
+  {
     "id": "G5",
     "source": "Bloodoil Tonic Special",
     "ability": "(Passive): Bloodoil Tonic has the same effect as the core rulebook’s Painkillers. "
   },
   {
+    "id": "G50",
+    "source": "Night Vision Goggles Special ",
+    "ability": "See page 168 in the Genesys Core Rulebook"
+  },
+  {
+    "id": "G51",
+    "source": "Portable Medkit Special ",
+    "ability": "See page 168 in the Genesys Core Rulebook"
+  },
+  {
+    "id": "G52",
+    "source": "Cyber-Rig Special ",
+    "ability": "See page 177 in the Genesys Core Rulebook"
+  },
+  {
+    "id": "G54",
+    "source": "Cybernetic Arm or Leg Special ",
+    "ability": "See page 177 in the Genesys Core Rulebook"
+  },
+  {
+    "id": "G55",
+    "source": "Skulljack Special ",
+    "ability": "See page 177 in the Genesys Core Rulebook"
+  },
+  {
+    "id": "G56",
+    "source": "Cybereyes Special ",
+    "ability": "See page 177 in the Genesys Core Rulebook"
+  },
+  {
+    "id": "G57",
+    "source": "Implant Armor Special ",
+    "ability": "See page 177 in the Genesys Core Rulebook"
+  },
+  {
+    "id": "G58",
+    "source": "Cyberorgan Special ",
+    "ability": "See page 177 in the Genesys Core Rulebook"
+  },
+  {
     "id": "G6",
     "source": "Sweet Bloodoil Tonic Special",
     "ability": "(Passive): You may treat this as a painkiller taken for the third time of the day – regardless if reached maximum number of painkillers for the day (healing three wounds). "
+  },
+  {
+    "id": "G60",
+    "source": "Portable Motion Sensor Special ",
+    "ability": "See page 186 in the Genesys Core Rolebook"
+  },
+  {
+    "id": "G61",
+    "source": "Smart-System Special ",
+    "ability": "See page 187 in the Genesys Core Rolebook"
+  },
+  {
+    "id": "G62",
+    "source": "Space Suit Special ",
+    "ability": "See page 187 in the Genesys Core Rolebook"
   },
   {
     "id": "R1",
@@ -162,11 +377,6 @@
   {
     "id": "R13",
     "source": "Mind Breaker (Racial)",
-    "ability": "(Note): See page 183 in the Genesys Core Rulebook"
-  },
-  {
-    "id": "R14",
-    "source": "Special Ability (Racial)",
     "ability": "(Note): See page 183 in the Genesys Core Rulebook"
   },
   {
@@ -593,41 +803,6 @@
     "id": "S36",
     "source": "Divine Heal: Resurrection (Effect)",
     "ability": "(Magic): You may cast an heal spell with the resurrection effect using the divine skill."
-  },
-  {
-    "id": "S37",
-    "source": "Divine: Attack (Spell)",
-    "ability": "(Magic): You may cast an attack spell using the divine skill."
-  },
-  {
-    "id": "S37",
-    "source": "Divine: Augment (Spell)",
-    "ability": "(Magic): You may cast an augment spell using the divine skill."
-  },
-  {
-    "id": "S37",
-    "source": "Divine: Barrier (Spell)",
-    "ability": "(Magic): You may cast an barrier spell using the divine skill."
-  },
-  {
-    "id": "S37",
-    "source": "Divine: Curse (Spell)",
-    "ability": "(Magic): You may cast an curse spell using the divine skill."
-  },
-  {
-    "id": "S37",
-    "source": "Divine: Augur (Spell)",
-    "ability": "(Magic): You may cast an augur spell using the divine skill."
-  },
-  {
-    "id": "S37",
-    "source": "Divine: Enchanting (Spell)",
-    "ability": "(Magic): You may cast an enchanting spell using the divine skill."
-  },
-  {
-    "id": "S37",
-    "source": "Divine: Spell Jam (Spell)",
-    "ability": "(Magic): You may cast an spell jam spell using the divine skill."
   },
   {
     "id": "S37",
@@ -1098,46 +1273,6 @@
     "id": "S38",
     "source": "Divine Heal: Resurrection (Effect)",
     "ability": "(Magic): You may cast an heal spell with the resurrection effect using the divine skill."
-  },
-  {
-    "id": "S4",
-    "source": "Arcana: Attack (Spell)",
-    "ability": "(Magic): You may cast an attack spell using the arcana skill."
-  },
-  {
-    "id": "S4",
-    "source": "Arcana: Barrier (Spell)",
-    "ability": "(Magic): You may cast an barrier spell using the arcana skill."
-  },
-  {
-    "id": "S4",
-    "source": "Arcana: Conjure (Spell)",
-    "ability": "(Magic): You may cast an conjure spell using the arcana skill."
-  },
-  {
-    "id": "S4",
-    "source": "Arcana: Dispel (Spell)",
-    "ability": "(Magic): You may cast an dispel spell using the arcana skill."
-  },
-  {
-    "id": "S4",
-    "source": "Arcana: Heal (Spell)",
-    "ability": "(Magic): You may cast an heal spell using the arcana skill."
-  },
-  {
-    "id": "S4",
-    "source": "Arcana: Augur (Spell)",
-    "ability": "(Magic): You may cast an augur spell using the arcana skill."
-  },
-  {
-    "id": "S4",
-    "source": "Arcana: Enchanting (Spell)",
-    "ability": "(Magic): You may cast an enchanting spell using the arcana skill."
-  },
-  {
-    "id": "S4",
-    "source": "Arcana: Transmogrify (Spell)",
-    "ability": "(Magic): You may cast an transmogrify spell using the arcana skill."
   },
   {
     "id": "S4",
@@ -2031,46 +2166,6 @@
   },
   {
     "id": "S79",
-    "source": "Primal: Attack (Spell)",
-    "ability": "(Magic): You may cast an attack spell using the primal skill."
-  },
-  {
-    "id": "S79",
-    "source": "Primal: Augment (Spell)",
-    "ability": "(Magic): You may cast an augment spell using the primal skill."
-  },
-  {
-    "id": "S79",
-    "source": "Primal: Conjure (Spell)",
-    "ability": "(Magic): You may cast an conjure spell using the primal skill."
-  },
-  {
-    "id": "S79",
-    "source": "Primal: Curse (Spell)",
-    "ability": "(Magic): You may cast an curse spell using the primal skill."
-  },
-  {
-    "id": "S79",
-    "source": "Primal: Heal (Spell)",
-    "ability": "(Magic): You may cast an heal spell using the primal skill."
-  },
-  {
-    "id": "S79",
-    "source": "Primal: Augur (Spell)",
-    "ability": "(Magic): You may cast an augur spell using the primal skill."
-  },
-  {
-    "id": "S79",
-    "source": "Primal: Enchanting (Spell)",
-    "ability": "(Magic): You may cast an enchanting spell using the primal skill."
-  },
-  {
-    "id": "S79",
-    "source": "Primal: Transmogrify (Spell)",
-    "ability": "(Magic): You may cast an transmogrify spell using the primal skill."
-  },
-  {
-    "id": "S79",
     "source": "Primal: Make Arcanite (Spell)",
     "ability": "(Magic): You may cast an make arcanite spell using the primal skill."
   },
@@ -2470,6 +2565,1781 @@
     "ability": "(Magic): You may cast an heal spell with the resurrection effect using the primal skill."
   },
   {
+    "id": "T1",
+    "source": "Acrane Adept ( Talent ) ",
+    "ability": "Remove one setback die while using non-attack Arcana spells."
+  },
+  {
+    "id": "T10",
+    "source": "Clever Retort ( Talent ) ",
+    "ability": "Please consult the talent section within the Genesys Core Rulebook."
+  },
+  {
+    "id": "T100",
+    "source": "Freerunning ( Talent ) ",
+    "ability": "Suffer 1 strain when making a Move maneuver to move to any location within short range."
+  },
+  {
+    "id": "T101",
+    "source": "Grapple ( Talent ) ",
+    "ability": "Once per round, the character may perform the Grapple maneuver. Until the beginning of the character's next turn, enemies must spend two maneuvers instead of one maneuver to move from engaged range to short range of him."
+  },
+  {
+    "id": "T102",
+    "source": "Hard Headed ( Talent ) ",
+    "ability": "When staggered or disoriented, perform the Hard Headed action; make a Daunting (4 Difficulty Dice) Discipline check to remove status. Difficulty reduced per rank of Hard Headed."
+  },
+  {
+    "id": "T103",
+    "source": "Healer Not a Fighter ( Talent ) ",
+    "ability": "Once per encounter, after making a healing spell add one boost die to that spell. The next non healing spell the caster uses adds one setback die to that check. This remains active until a non-healing spell is used or the encounter is over."
+  },
+  {
+    "id": "T104",
+    "source": "Heightened Awareness ( Talent ) ",
+    "ability": "Please consult the talent section within the Genesys Core Rulebook."
+  },
+  {
+    "id": "T105",
+    "source": "Hold Together ( Talent ) ",
+    "ability": "Spend 1 Story Point to perform a Hold Together incidental immediately after vehicle or starship takes damage to turn it into system strain."
+  },
+  {
+    "id": "T106",
+    "source": "Hunter ( Talent ) ",
+    "ability": "Add one boost die per rank of Hunter to all checks when interacting with beast or animals (including combat checks). Add +10 to Critical Injury results against beasts or animals per rank of Hunter."
+  },
+  {
+    "id": "T107",
+    "source": "Hunter's Quarry ( Talent ) ",
+    "ability": "Take Hunter's Quarry action, make a Hard (3 Difficulty Dice) Survival check to upgrade the ability of all attacks made against a target at long range until the end of the character's next turn."
+  },
+  {
+    "id": "T108",
+    "source": "Inspiring Rhetoric ( Talent ) ",
+    "ability": "Please consult the talent section within the Genesys Core Rulebook."
+  },
+  {
+    "id": "T109",
+    "source": "Knockdown ( Talent ) ",
+    "ability": "After hitting with a melee attack, may spend a triumph to knock the target prone."
+  },
+  {
+    "id": "T11",
+    "source": "Defensive Sysops ( Talent ) ",
+    "ability": "Please consult the talent section within the Genesys Core Rulebook."
+  },
+  {
+    "id": "T110",
+    "source": "Know-It-All ( Talent ) ",
+    "ability": "Once per session, perfectly recall an important fact previously learned as if a Story Point had been spent."
+  },
+  {
+    "id": "T111",
+    "source": "Known Schematic ( Talent ) ",
+    "ability": "Once per session, may perform the Known Schematic maneuver; make a Hard (3 Difficulty Dice) Knowledge check. Success grants familiarity with a building or ship's design."
+  },
+  {
+    "id": "T112",
+    "source": "Loom ( Talent ) ",
+    "ability": "When an ally engaged with the character makes a successful Charm, Deception, or Negotiation check, the character adds an advantage per rank in Coercion to the ally's check."
+  },
+  {
+    "id": "T113",
+    "source": "Lucky Strike ( Talent ) ",
+    "ability": "Please consult the talent section within the Genesys Core Rulebook."
+  },
+  {
+    "id": "T114",
+    "source": "Naturalist ( Talent ) ",
+    "ability": "Replace all Knowledge: Paranormal checks while casting primal spells with Knowledge: Natural checks."
+  },
+  {
+    "id": "T115",
+    "source": "Occult Warrior ( Talent ) ",
+    "ability": "Once per round, when making a non-spell attack check you may choose modifiers from an attack spell effect and increase the difficulty of that check by the listed amounts. This combat check counts as both as the based skill check and magic check, and can use the threat and triumph results for either skills. Melee or Brawl skills cannot extend their range."
+  },
+  {
+    "id": "T116",
+    "source": "Overstocked Ammo ( Talent ) ",
+    "ability": "Your character must have purchased the Signature Vehicle talent to benefit from this talent. Increase the value of the Limited Ammo quality of any weapons mounted on Signature Vehicle by 1 per rank of Overstocked Ammo."
+  },
+  {
+    "id": "T117",
+    "source": "Pact Magic ( Talent ) ",
+    "ability": "You have entered into a Pact with a powerful otherworldly being. When you purchase this Talent, choose one spell type your character can not normally cast. Once per encounter, you may cast this spell using any magic skill you possess. The GM may spend two threats to make your character suffer one wound."
+  },
+  {
+    "id": "T118",
+    "source": "Physical Training ( Talent ) ",
+    "ability": "Add one boost die per rank of Physical Training to Athletics and Resilience checks."
+  },
+  {
+    "id": "T119",
+    "source": "Quickdraw (Improved) ( Talent ) ",
+    "ability": "Your character must have purchased the Quick Draw Talent to benefit from this talent. May use Quick Draw twice per round. This also allows you to reduce the prepare rating by 2 to a minimum of one."
+  },
+  {
+    "id": "T12",
+    "source": "Desperate Recovery ( Talent ) ",
+    "ability": "Please consult the talent section within the Genesys Core Rulebook."
+  },
+  {
+    "id": "T120",
+    "source": "Reconstruct the Scene ( Talent ) ",
+    "ability": "Perform the Reconstruct the Scene action; make a Hard (3 Difficulty Dice) Perception check to identify the physical characteristics of person present at the scene within 24 hours."
+  },
+  {
+    "id": "T121",
+    "source": "Resist Disarm ( Talent ) ",
+    "ability": "Suffer 2 strain to avoid being disarmed or have weapon damaged or destroyed."
+  },
+  {
+    "id": "T122",
+    "source": "Scathing Tirade ( Talent ) ",
+    "ability": "Please consult the talent section within the Genesys Core Rulebook."
+  },
+  {
+    "id": "T123",
+    "source": "Selective Blasts ( Talent ) ",
+    "ability": "When using a magical attack with the Blast quality, spend one advantage to exclude one target that would be have been affected by the explosion, up to ranks in Selective Detonation."
+  },
+  {
+    "id": "T124",
+    "source": "Selective Detonation ( Talent ) ",
+    "ability": "When using a weapon with the Blast quality spend advantage to exclude 1 target that would be affected by the explosion, up to ranks in Selective Detonation."
+  },
+  {
+    "id": "T125",
+    "source": "Sense Emotions ( Talent ) ",
+    "ability": "Add one boost die to all Charm, Coercion, and Deception checks."
+  },
+  {
+    "id": "T126",
+    "source": "Shield Slam ( Talent ) ",
+    "ability": "When attacking a minion or rival with a shield, may spend four advantages or one advantage and one triumph to stagger the target for 1 round."
+  },
+  {
+    "id": "T127",
+    "source": "Shortcut ( Talent ) ",
+    "ability": "During a chase; add one boost die per rank in Shortcut to any checks made to catch or escape an opponent."
+  },
+  {
+    "id": "T128",
+    "source": "Side Step ( Talent ) ",
+    "ability": "Please consult the talent section within the Genesys Core Rulebook."
+  },
+  {
+    "id": "T129",
+    "source": "Speaks Binary ( Talent ) ",
+    "ability": "When directing non-sentient NPC artificial life forms, may grant them one boost die per rank of Speaks Binary on checks."
+  },
+  {
+    "id": "T13",
+    "source": "Devoted Servant ( Talent ) ",
+    "ability": "Make a Hard (3 Difficulty Dice) Divine check; upon success remove the immobilization status from your character."
+  },
+  {
+    "id": "T130",
+    "source": "Spur ( Talent ) ",
+    "ability": "Take a Spur action; make a Hard (3 Difficulty Dice) Survival check to increase a beast's top speed by 1. The beast suffers 2 strain every round it stays spurred."
+  },
+  {
+    "id": "T131",
+    "source": "Stalker ( Talent ) ",
+    "ability": "Add one boost die per rank of Stalker to all Stealth and Coordination checks."
+  },
+  {
+    "id": "T132",
+    "source": "Strong Arm ( Talent ) ",
+    "ability": "Treat thrown weapons as if they had 1 greater range."
+  },
+  {
+    "id": "T133",
+    "source": "Stunning Blow ( Talent ) ",
+    "ability": "While making Melee checks, may inflict damage as strain instead of wounds. This does not ignore soak."
+  },
+  {
+    "id": "T134",
+    "source": "Superstitious ( Talent ) ",
+    "ability": "Replace all Knowledge: Natural checks while spell casting with Knowledge: Paranormal checks."
+  },
+  {
+    "id": "T135",
+    "source": "Suppressing Fire ( Talent ) ",
+    "ability": "The character and each ally within short range may spend one advantage on their failed combat checks to inflict one strain on the target per rank of Suppressing Fire. Each character can only activate this effect once per round."
+  },
+  {
+    "id": "T136",
+    "source": "Technical Aptitude ( Talent ) ",
+    "ability": "When making a Computer skill check may spend two advantages or one triumph to reduce the time spent to complete the task by 50%"
+  },
+  {
+    "id": "T137",
+    "source": "Time to Go ( Talent ) ",
+    "ability": "The character may spend 1 Story Point to perform a Move maneuver as an incidental to attempt to move into cover or out of the blast range of a weapon or explosion."
+  },
+  {
+    "id": "T138",
+    "source": "Tinkerer ( Talent ) ",
+    "ability": "May add 1 additional hard point to a number of items equal to ranks in Tinkerer. Each item may only be modified once."
+  },
+  {
+    "id": "T139",
+    "source": "Touch of Fate ( Talent ) ",
+    "ability": "Once per session, add two boost dice to any 1 check."
+  },
+  {
+    "id": "T14",
+    "source": "Duelist ( Talent ) ",
+    "ability": "Please consult the talent section within the Genesys Core Rulebook."
+  },
+  {
+    "id": "T140",
+    "source": "Unarmed Parry ( Talent ) ",
+    "ability": "May Parry while unarmed. Reduce strain cost to Parry while unarmed by 1 (to a minimum of 1)."
+  },
+  {
+    "id": "T141",
+    "source": "Uncanny Senses ( Talent ) ",
+    "ability": "Add two boost dice per rank of Uncanny Senses to all Perception and Vigilance checks."
+  },
+  {
+    "id": "T142",
+    "source": "Unstoppable ( Talent ) ",
+    "ability": "If a Critical Injury roll is 1 or reduced to 1, do not receive the critical injury."
+  },
+  {
+    "id": "T143",
+    "source": "Vehicle Combat Training ( Talent ) ",
+    "ability": "Gunnery, Driving, and Piloting become career skills."
+  },
+  {
+    "id": "T144",
+    "source": "Visionary ( Talent ) ",
+    "ability": "Please consult the talent section within the Genesys Core Rulebook."
+  },
+  {
+    "id": "T145",
+    "source": "Well Read ( Talent ) ",
+    "ability": "Choose any 3 Knowledge skills. They permanently become career skills."
+  },
+  {
+    "id": "T146",
+    "source": "Well Rounded ( Talent ) ",
+    "ability": "Choose any 2 non-magic skills. They permanently become career skills."
+  },
+  {
+    "id": "T147",
+    "source": "Ambush ( Talent ) ",
+    "ability": "Once per round while benefiting from cover, may make the Ambush maneuver. Add damage equal to Stealth skill to one hit of next successful combat check against a target within short range before the end of the turn."
+  },
+  {
+    "id": "T148",
+    "source": "Animal Companion ( Talent ) ",
+    "ability": "Please consult the talent section within the Genesys Core Rulebook."
+  },
+  {
+    "id": "T149",
+    "source": "Armor Master ( Talent ) ",
+    "ability": "When wearing armor, Increase total soak value by 1."
+  },
+  {
+    "id": "T15",
+    "source": "Durable ( Talent ) ",
+    "ability": "Please consult the talent section within the Genesys Core Rulebook."
+  },
+  {
+    "id": "T150",
+    "source": "Attention to Detail ( Talent ) ",
+    "ability": "After making a Mechanics or Alchemy check, may suffer strain up to ranks in Attention to Detail to convert that many successes to advantages."
+  },
+  {
+    "id": "T151",
+    "source": "Bad Press ( Talent ) ",
+    "ability": "Once per session, choose an organization and make a Hard (3 Difficulty Dice) Deception check. On success, organization members have their strain thresholds reduced by 1, plus 1 per three successes, until the end of the session. When he does this, the player must explain how the PC disseminated the propaganda such that it has affected his targets. The chosen organization must be narrow and cohesive enough to be affected by bad publicity."
+  },
+  {
+    "id": "T152",
+    "source": "Barrel Roll ( Talent ) ",
+    "ability": "Please consult the talent section within the Genesys Core Rulebook."
+  },
+  {
+    "id": "T153",
+    "source": "Binding ( Talent ) ",
+    "ability": "Choose one magical item (implement or enchantment) your character owns when taking this talent. Your character becomes bonded to this implement, and no other person may use it. Your character may attempt to summon it by making a Hard (3 Difficulty Dice) Primal or Divine Skill check."
+  },
+  {
+    "id": "T154",
+    "source": "Blind Spot ( Talent ) ",
+    "ability": "Your character, and allies within short range, add automatic advantage to combat checks they make while benefiting from cover."
+  },
+  {
+    "id": "T155",
+    "source": "Blood Magic ( Talent ) ",
+    "ability": "When casting a spell your character may take two wounds instead of two strain."
+  },
+  {
+    "id": "T156",
+    "source": "Bloodoil Connoisseur ( Talent ) ",
+    "ability": "Please consult the talent section within the Genesys Core Rulebook."
+  },
+  {
+    "id": "T157",
+    "source": "Body Guard (Improved) ( Talent ) ",
+    "ability": "Your character must have purchased the Body Guard talent to benefit from this talent. Once per session, when an ally protected by the Body Guard maneuver suffers a hit, suffer the hit instead."
+  },
+  {
+    "id": "T158",
+    "source": "Bonded Implement ( Talent ) ",
+    "ability": "Choose one magical implement your character owns when taking this talent. Your character becomes bonded to this implement, and no other person may use it. Your character may attempt to summon it by making a Hard (three difficulties) Magic Skill check. If your chosen implement is ever permanently lost or destroyed, you may select a new one of the same value."
+  },
+  {
+    "id": "T159",
+    "source": "Capital Sendoff ( Talent ) ",
+    "ability": "Take a Capital Sendoff action targeting two ships or vehicles at Close range; make a Hard (3 Difficulty Dice) Cool check to cause the targets to suffer a minor collision."
+  },
+  {
+    "id": "T16",
+    "source": "Extra Ammo ( Talent ) ",
+    "ability": "Cannot run out of ammo due to a despair. Items with Limited Ammo quality run out of ammo as normal."
+  },
+  {
+    "id": "T160",
+    "source": "Channel Magical Energy ( Talent ) ",
+    "ability": "Once per round, before you make a magic check, you may perform a Channel Magical Energy maneuver. By performing this maneuver, you gain a boost die on your next magic check this turn while also upgrading the check once per rank of channeling."
+  },
+  {
+    "id": "T161",
+    "source": "Combat Caster ( Talent ) ",
+    "ability": "Once per session your character may add the Deadly quality to a spell without increasing the difficulty."
+  },
+  {
+    "id": "T162",
+    "source": "Confidence (Improved) ( Talent ) ",
+    "ability": "Your character must have purchased the Confidence talent to benefit from this talent. May spend a on a fear check to steady the nerves of allies making the same fear check. If the character does so each ally within short range who makes the fear check adds automatic successes equal to the character's rank in confidence."
+  },
+  {
+    "id": "T163",
+    "source": "Congenial ( Talent ) ",
+    "ability": "May suffer a number of strain to downgrade difficulty of Charm or Negotiation checks or upgrade difficulty when target by Charm or Negotiation checks, by an equal number Strain suffered this way cannot exceed ranks in Congenial."
+  },
+  {
+    "id": "T164",
+    "source": "Constant Vigilance ( Talent ) ",
+    "ability": "May always use Vigilance when making checks to determine initiative."
+  },
+  {
+    "id": "T165",
+    "source": "Creative Killer ( Talent ) ",
+    "ability": "Reduce the crit rating of improvised weapons by 2 (to a minimum of 1)."
+  },
+  {
+    "id": "T166",
+    "source": "Crippling Blow ( Talent ) ",
+    "ability": "Increase the difficulty of next combat check by 1. If check deals damage, target suffers 1 strain whenever he moves for the remainder of the encounter."
+  },
+  {
+    "id": "T167",
+    "source": "Cunning Snare ( Talent ) ",
+    "ability": "Once per encounter as an action, may create a trap. Any other character who moves to engaged range of the trap must make an Opposed Vigilance vs. Survival check to avoid harm and ill effects."
+  },
+  {
+    "id": "T168",
+    "source": "Customized Cooling Unit ( Talent ) ",
+    "ability": "Your character must have purchased the Signature Vehicle talent to benefit from this talent. Increase the system strain threshold of Signature Vehicle by 2 per rank of Customized Cooling Unit."
+  },
+  {
+    "id": "T169",
+    "source": "Daring Turn ( Talent ) ",
+    "ability": "When an opponent has gained the advantage on a starship or vehicle being piloted, may spent 2 strain perform a Daring Turn maneuver to remove the effects."
+  },
+  {
+    "id": "T17",
+    "source": "Familiar Enemy ( Talent ) ",
+    "ability": "Select a specific type of enemy, such as a spell caster from a government or an entire species. When encountering them in combat, remove one setback die once per encounter. Each rank selects another specific type of enemy."
+  },
+  {
+    "id": "T170",
+    "source": "Dirty Tricks ( Talent ) ",
+    "ability": "When a character inflicts a Critical Injury, the target also adds two setback dice to their next action."
+  },
+  {
+    "id": "T171",
+    "source": "Disarm ( Talent ) ",
+    "ability": "May spend triumph or two advantage with a successful Brawl or Melee check to disarm opponent."
+  },
+  {
+    "id": "T172",
+    "source": "Disarming Smile ( Talent ) ",
+    "ability": "Take the Disarming Smile action; succeed at an opposed Charm check against a target within short range to lower all defenses of a target by ranks in Disarming Smile until the end of the encounter."
+  },
+  {
+    "id": "T173",
+    "source": "Disruptive Counterspell ( Talent ) ",
+    "ability": "When you take the Counterspell maneuver, all opponents within short range upgrade the difficulty of checks to cast spells one additional time (for a total of two times), until the end of your next turn. Only for Arcana and Divine spell casters."
+  },
+  {
+    "id": "T174",
+    "source": "Distant Spell ( Talent ) ",
+    "ability": "Once per session, when casting a spell the first range enhancement does not increase the difficulty of the spell."
+  },
+  {
+    "id": "T175",
+    "source": "Distinctive Style ( Talent ) ",
+    "ability": "Please consult the talent section within the Genesys Core Rulebook."
+  },
+  {
+    "id": "T176",
+    "source": "Dodge ( Talent ) ",
+    "ability": "Please consult the talent section within the Genesys Core Rulebook."
+  },
+  {
+    "id": "T177",
+    "source": "Double or Nothing ( Talent ) ",
+    "ability": "Suffer 2 strain to perform the Double or Nothing incidental to increase the difficulty of the next check by one. Then, after canceling opposing symbols, double the amount of remaining advantages"
+  },
+  {
+    "id": "T178",
+    "source": "Eagle Eyes ( Talent ) ",
+    "ability": "Please consult the talent section within the Genesys Core Rulebook."
+  },
+  {
+    "id": "T179",
+    "source": "Encoded Communique ( Talent ) ",
+    "ability": "Upgrade the difficulty of checks to decrypt this character's coded messages without the proper cipher a number of times equal to Computers skill."
+  },
+  {
+    "id": "T18",
+    "source": "Familiar Sky ( Talent ) ",
+    "ability": "Once per session, may perform a Familiar Sky maneuver; make a Hard (3 Difficulty Dice) Knowledge check to reveal the current type of environment and other useful information."
+  },
+  {
+    "id": "T180",
+    "source": "Encouraging Words ( Talent ) ",
+    "ability": "After an engaged ally fails a check, may suffer 1 strain to assist that ally's next check this encounter as an out of turn incidental."
+  },
+  {
+    "id": "T181",
+    "source": "Eye for Detail ( Talent ) ",
+    "ability": "After making a Mechanics or Computers check, may suffer strain up to ranks in Eye for Detail to convert that many successes to advantages."
+  },
+  {
+    "id": "T182",
+    "source": "Familiar (Improved) ( Talent ) ",
+    "ability": "Your character must have purchased the Familiar talent to benefit from this talent. Your character may suffer 2 strain and make an Easy (one difficulty) Magic Skill check; if successful, see and hear using your familiar's senses for one round, and you may suffer 1 strain per round to extend the duration. In addition, when the Familiar uses the Assist maneuver with the Character's magic check, the Assist maneuver provides two boost dice. The familiar must be within the range granted by ranks in the Familiar talent for your character to use the Familiar (Improved) talent."
+  },
+  {
+    "id": "T183",
+    "source": "Fear the Shadows ( Talent ) ",
+    "ability": "Once per session, may make a Hard (3 Difficulty Dice) Deception check to force a single minion group or rival to flee the encounter."
+  },
+  {
+    "id": "T184",
+    "source": "Feint ( Talent ) ",
+    "ability": "Spend one triumph or three advantages generated on a missed melee attack to upgrade difficulty of opponent's next attack targeting character by ranks in Feint."
+  },
+  {
+    "id": "T185",
+    "source": "Feinting Fighter ( Talent ) ",
+    "ability": "Spend one triumph or three advantages generated on a missed melee or brawl attack to upgrade difficulty of opponent's next attack targeting character by ranks in Feint."
+  },
+  {
+    "id": "T186",
+    "source": "Feral Strength ( Talent ) ",
+    "ability": "Add 1 damage per rank of Feral Strength to one hit of successful attacks made using Brawl or Melee skills."
+  },
+  {
+    "id": "T187",
+    "source": "Field Commander ( Talent ) ",
+    "ability": "Please consult the talent section within the Genesys Core Rulebook."
+  },
+  {
+    "id": "T188",
+    "source": "Fire Control ( Talent ) ",
+    "ability": "Take the Fire Control action; all combat checks made from current starship or vehicle count their target's silhouette as one higher than normal until the beginning of next turn."
+  },
+  {
+    "id": "T189",
+    "source": "Forgot to Count? ( Talent ) ",
+    "ability": "Please consult the talent section within the Genesys Core Rulebook."
+  },
+  {
+    "id": "T19",
+    "source": "Fast Casting ( Talent ) ",
+    "ability": "Add one boost die to a spell casting skill check when your character is the first PC to act in the current encounter."
+  },
+  {
+    "id": "T190",
+    "source": "Form On Me ( Talent ) ",
+    "ability": "Allies equal to ranks in Leadership in close range gain the benefits of the Gain the Advantage action."
+  },
+  {
+    "id": "T191",
+    "source": "Fortified Structure ( Talent ) ",
+    "ability": "Your character must have purchased the Signature Vehicle talent to benefit from this talent. Increase the hull trauma threshold of Signature Vehicle by 1 per rank of Fortified Structure."
+  },
+  {
+    "id": "T192",
+    "source": "Freerunning (Improved) ( Talent ) ",
+    "ability": "Your character must have purchased the Freerunning talent to benefit from this talent. Suffer 4 strain when making a move maneuver to move to any location within medium range."
+  },
+  {
+    "id": "T193",
+    "source": "Frenzied Attack ( Talent ) ",
+    "ability": "When making a Melee or Brawl check, suffer a number of strain to upgrade the attack an equal number of times. The strain suffered may not exceed ranks in Frenzied Attack."
+  },
+  {
+    "id": "T194",
+    "source": "Full Throttle ( Talent ) ",
+    "ability": "Take a Full Throttle action; make a Hard (3 Difficulty Dice) Piloting check to increase a vehicle's top speed by 1 for a number of rounds equal to Cunning."
+  },
+  {
+    "id": "T195",
+    "source": "Greased Palms ( Talent ) ",
+    "ability": "Before making a social check, may spend up to 50 credits per rank of Greased Palms to upgrade the ability of the check once for every 50 spent."
+  },
+  {
+    "id": "T196",
+    "source": "Grenadier ( Talent ) ",
+    "ability": "Please consult the talent section within the Genesys Core Rulebook."
+  },
+  {
+    "id": "T197",
+    "source": "Harass ( Talent ) ",
+    "ability": "Whenever the character's animal companion makes a successful combat check against a target, it may forgo inflicting damage to upgrade the difficulty of the target's next check once instead."
+  },
+  {
+    "id": "T198",
+    "source": "Hard-Boiled ( Talent ) ",
+    "ability": "When recovering strain after an encounter, may spend advantages up to ranks in Hard-Boiled to recover 1 wound per advantage spent."
+  },
+  {
+    "id": "T199",
+    "source": "Heroic Recovery ( Talent ) ",
+    "ability": "Once per encounter, may spend a Story Point to recover 4 strain."
+  },
+  {
+    "id": "T2",
+    "source": "Aggressive Caster ( Talent ) ",
+    "ability": "Increase the base damage of your Attack spell by one per rank of this talent, to a maximum of five. This increase to damage does not stack with other effects that increase the base damage of the Attack spell, such as magical implements."
+  },
+  {
+    "id": "T20",
+    "source": "Intuitive Casting ( Talent ) ",
+    "ability": "Add one boost die to a spell casting skill check when your character is the first PC to act in the current encounter."
+  },
+  {
+    "id": "T200",
+    "source": "Heroic Resilience ( Talent ) ",
+    "ability": "Immediately after being hit by an attack but before suffering damage, spend 1 Story Point to increase soak by ranks in Resilience."
+  },
+  {
+    "id": "T201",
+    "source": "Heroic Will ( Talent ) ",
+    "ability": "Please consult the talent section within the Genesys Core Rulebook."
+  },
+  {
+    "id": "T202",
+    "source": "Hindering Shot ( Talent ) ",
+    "ability": "Spend a story point and increase the difficulty of next Gunnery check by 1. If check deals damage, target starship or vehicle suffers system strain equal to speed when it moves for a number of turns equal to ranks in Hindering Shot."
+  },
+  {
+    "id": "T203",
+    "source": "Hunter's Quarry (Improved) ( Talent ) ",
+    "ability": "Your character must have purchased the Hunter's Quarry talent to benefit from this talent. Suffer 2 strain to perform Hunter's Quarry action as a maneuver"
+  },
+  {
+    "id": "T204",
+    "source": "Informant ( Talent ) ",
+    "ability": "Once per session, may reveal a contact who can shed light on a chosen subject."
+  },
+  {
+    "id": "T205",
+    "source": "Inspiring Rhetoric (Improved) ( Talent ) ",
+    "ability": "Please consult the talent section within the Genesys Core Rulebook."
+  },
+  {
+    "id": "T206",
+    "source": "Intense Presence ( Talent ) ",
+    "ability": "Spend 1 Story Point to recover strain equal to Presence rating"
+  },
+  {
+    "id": "T207",
+    "source": "Interjection ( Talent ) ",
+    "ability": "After another character makes a social check, suffer 3 strain to take an interjection incidental make an Average (2 Difficulty Dice) Vigilance check to add success or failures equal to successes, and advantage or threat equal to advantage to the check."
+  },
+  {
+    "id": "T208",
+    "source": "Intimidating ( Talent ) ",
+    "ability": "May suffer a number of strain to downgrade difficulty of Coercion checks, or upgrade difficulty when targeted by Coercion checks, by an equal number. Strain suffered this way cannot exceed ranks in Intimidating."
+  },
+  {
+    "id": "T209",
+    "source": "Inventor ( Talent ) ",
+    "ability": "Please consult the talent section within the Genesys Core Rulebook."
+  },
+  {
+    "id": "T21",
+    "source": "Forager ( Talent ) ",
+    "ability": "Please consult the talent section within the Genesys Core Rulebook."
+  },
+  {
+    "id": "T210",
+    "source": "Iron Body ( Talent ) ",
+    "ability": "Remove one setback die per rank of Iron Body from Coordination and Resilience checks. Reduce the critical rating of unarmed attacks by 1 per rank of Iron Body (to a minimum of 1)."
+  },
+  {
+    "id": "T211",
+    "source": "Larger Project ( Talent ) ",
+    "ability": "Your character must have purchased the Signature Vehicle talent to benefit from this talent. Signature Vehicle can have a silhouette 1 larger per rank of Larger Project"
+  },
+  {
+    "id": "T212",
+    "source": "Lethal Blows ( Talent ) ",
+    "ability": "Add +10 per rank of Lethal Blows to any Critical Injury results inflicted on opponents."
+  },
+  {
+    "id": "T213",
+    "source": "Life or Death ( Talent ) ",
+    "ability": "When your character suffers wounds equal to half of their wound threshold or greater, add one advantage to all combat checks they make."
+  },
+  {
+    "id": "T214",
+    "source": "Lingering Spell ( Talent ) ",
+    "ability": "Spend a Story Point and your character may make concentration maneuver as an incidental."
+  },
+  {
+    "id": "T215",
+    "source": "Madman ( Talent ) ",
+    "ability": "Please consult the talent section within the Genesys Core Rulebook."
+  },
+  {
+    "id": "T216",
+    "source": "Maximize Spell ( Talent ) ",
+    "ability": "Once per session you may spend a Story Point and your character may add one boost to the skill check to cast a spell once per rank in Maximize Spell."
+  },
+  {
+    "id": "T217",
+    "source": "Natural ( Talent ) ",
+    "ability": "Please consult the talent section within the Genesys Core Rulebook."
+  },
+  {
+    "id": "T218",
+    "source": "No Escape ( Talent ) ",
+    "ability": "May spend two advantages from a Coercion check or two threats from a foe's Discipline check; that target cannot perform a free maneuver during his next turn."
+  },
+  {
+    "id": "T219",
+    "source": "Nobody's Fool ( Talent ) ",
+    "ability": "May upgrade difficulty of incoming Charm, Coercion, or Deception checks once per rank of Nobody's Fool."
+  },
+  {
+    "id": "T22",
+    "source": "Good Cop ( Talent ) ",
+    "ability": "May spend two advantages from a Charm or Negotiation check to upgrade ability of a single ally's subsequent Social Interaction check against the target a number of times equal to ranks in Good Cop."
+  },
+  {
+    "id": "T220",
+    "source": "Out of the Box ( Talent ) ",
+    "ability": "Choose one characteristic when purchasing this talent. Once per session, make one skill check using that characteristic rather than the characteristic linked to that skill."
+  },
+  {
+    "id": "T221",
+    "source": "Overwhelm Defenses ( Talent ) ",
+    "ability": "Upon unsuccessful attack with a starship or vehicle weapon, may spend two advantages per rank of Overwhelm Defenses. Reduce the defense in the targeted zone by 1 for every two advantages spent."
+  },
+  {
+    "id": "T222",
+    "source": "Painkiller Specialization ( Talent ) ",
+    "ability": "Please consult the talent section within the Genesys Core Rulebook."
+  },
+  {
+    "id": "T223",
+    "source": "Parry (Improved) ( Talent ) ",
+    "ability": "Please consult the talent section within the Genesys Core Rulebook."
+  },
+  {
+    "id": "T224",
+    "source": "Persistent Spell ( Talent ) ",
+    "ability": "When you cast a spell that can be sustained through concentration on an ally, you can spend three advantages, a triumph, or one story point to have that spell last until the end of the encounter without your character having to use the concentrate maneuver."
+  },
+  {
+    "id": "T225",
+    "source": "Pin ( Talent ) ",
+    "ability": "Take Pin action; make an Opposed athletics check to immobilize an engaged opponent until the end of the character's next turn. Spend triumph to extend duration one round."
+  },
+  {
+    "id": "T226",
+    "source": "Plausible Deniability ( Talent ) ",
+    "ability": "Take a Plausible Deniability action makes a Hard (3 Difficulty Dice) Coercion check to convince one bystander equal to your Willpower to depart quietly."
+  },
+  {
+    "id": "T227",
+    "source": "Point Blank ( Talent ) ",
+    "ability": "Add 1 damage per rank of Point Blank to damage of one hit of successful attack while using Ranged (Heavy) or Ranged (Light) skills at short range or engaged."
+  },
+  {
+    "id": "T228",
+    "source": "Powerful Blast ( Talent ) ",
+    "ability": "Increase Blast damage dealt by +1 per rank of Powerful Blast."
+  },
+  {
+    "id": "T229",
+    "source": "Precise Aim ( Talent ) ",
+    "ability": "Once per round, may perform Precise Aim maneuver. Suffer a number of strain no greater than ranks in Precise Aim, then reduce target's melee and ranged defense by that number."
+  },
+  {
+    "id": "T23",
+    "source": "Grit ( Talent ) ",
+    "ability": "Please consult the talent section within the Genesys Core Rulebook."
+  },
+  {
+    "id": "T230",
+    "source": "Preemptive Avoidance ( Talent ) ",
+    "ability": "May spend 1 Story Point to disengage from engaged enemy as an out-of-turn incidental."
+  },
+  {
+    "id": "T231",
+    "source": "Prepared Spell ( Talent ) ",
+    "ability": "Once per session, your character may make a skill check to cast a spell without suffering strain."
+  },
+  {
+    "id": "T232",
+    "source": "Rapid Archery ( Talent ) ",
+    "ability": "Please consult the talent section within the Genesys Core Rulebook."
+  },
+  {
+    "id": "T233",
+    "source": "Reflect (Improved) ( Talent ) ",
+    "ability": "Your character must have purchased the Reflect Talent to benefit from this talent. Your character may use reflect while wielding a melee weapon deemed appropriate by the GM. When reflecting a hit that generated despair or three threats may hit one target in medium range with the same damage as the initial hit, after original attack resolves."
+  },
+  {
+    "id": "T234",
+    "source": "Resourceful Refit ( Talent ) ",
+    "ability": "May perform the Resourceful Refit action, make an Average (2 Difficulty Dice) Mechanics check to scavenge an old attachment to construct a new one, reducing its price by that of the dismantled attachment."
+  },
+  {
+    "id": "T235",
+    "source": "Scathing Tirade (Improved) ( Talent ) ",
+    "ability": "Please consult the talent section within the Genesys Core Rulebook."
+  },
+  {
+    "id": "T236",
+    "source": "Seize the Initiative ( Talent ) ",
+    "ability": "Once per session, as a maneuver, may make a Hard (3 Difficulty Dice) Athletics check. On success, other PCs may take their turns immediately."
+  },
+  {
+    "id": "T237",
+    "source": "Sense Advantage ( Talent ) ",
+    "ability": "Once per session, may add two setback dice to 1 NPC's skill check."
+  },
+  {
+    "id": "T238",
+    "source": "Shape Spell ( Talent ) ",
+    "ability": "When casting a spell with the blast quality spend 1 a per target the caster wishes to exclude that would be affected by the blast."
+  },
+  {
+    "id": "T239",
+    "source": "Share Pain ( Talent ) ",
+    "ability": "May perform the Share Pain incidental when animal companion suffers wounds. Reduce wounds suffered to half, then character suffers wounds equal to number reduced."
+  },
+  {
+    "id": "T24",
+    "source": "Hamstring Shot ( Talent ) ",
+    "ability": "Please consult the talent section within the Genesys Core Rulebook."
+  },
+  {
+    "id": "T240",
+    "source": "Shortcut (Improved) ( Talent ) ",
+    "ability": "Your character must have purchased the Shortcut talent to benefit from this talent. When engaging in a chase or race, may suffer 2 strain to add successes equal to ranks in Shortcut to the check."
+  },
+  {
+    "id": "T241",
+    "source": "Sound Investments ( Talent ) ",
+    "ability": "At the start of each session, gain 100 money units for each rank of Sound Investments."
+  },
+  {
+    "id": "T242",
+    "source": "Spur (Improved) ( Talent ) ",
+    "ability": "Your character must have purchased the Spur talent to benefit from this talent. Suffer 1 strain to attempt Spur as a maneuver and decrease its difficulty to Average (2 Difficulty Dice)."
+  },
+  {
+    "id": "T243",
+    "source": "Studious Plotting ( Talent ) ",
+    "ability": "When making a Streetwise or Survival skill check to navigate, the character may use Intellect instead of Cunning."
+  },
+  {
+    "id": "T244",
+    "source": "Stunning Blow (Improved) ( Talent ) ",
+    "ability": "Your character must have purchased the Stunning Blow talent to benefit from this talent. When dealing strain damage with Melee or Brawl checks, may spend triumph to stagger target for 1 round per t."
+  },
+  {
+    "id": "T245",
+    "source": "Time to Go (Improved) ( Talent ) ",
+    "ability": "Your character must have purchased the Time to Go talent to benefit from this talent. When activating Time to Go, allow 1 engaged ally to also perform an out of turn Move maneuver as an incidental to attempt to move into cover or out of the blast range of a weapon or explosion."
+  },
+  {
+    "id": "T246",
+    "source": "Tricky Target ( Talent ) ",
+    "ability": "Count vehicle or starship piloted as having a silhouette 1 lower when being attacked."
+  },
+  {
+    "id": "T247",
+    "source": "Tumble ( Talent ) ",
+    "ability": "While engaged with one or more adversaries, may suffer 2 strain to move to short range as an incidental."
+  },
+  {
+    "id": "T248",
+    "source": "Tuned Maneuvering Thrusters ( Talent ) ",
+    "ability": "Your character must have purchased the Signature Vehicle talent to benefit from this talent. Increase the handling of Signature Vehicle by 1 per rank of Tuned Maneuvering Thrusters."
+  },
+  {
+    "id": "T249",
+    "source": "Twisted Words ( Talent ) ",
+    "ability": "When an incoming social check generates two threats or one dispair, may suffer 1 strain as an incidental to inflict strain equal to ranks in Coercion on speaker."
+  },
+  {
+    "id": "T25",
+    "source": "Hidden Storage ( Talent ) ",
+    "ability": "Gain hidden storage in vehicles or equipment that holds items with total encumbrance equal to ranks in Hidden Storage."
+  },
+  {
+    "id": "T250",
+    "source": "Up the Ante ( Talent ) ",
+    "ability": "When gambling win 10% more credits per rank of Up the Ante."
+  },
+  {
+    "id": "T251",
+    "source": "Utility Belt ( Talent ) ",
+    "ability": "Spend 1 Story Point to perform a Utility Belt incidental; produce an undocumented item (maximum 1 encumbrance) or weapon (with Limited Ammo One quality) from a tool belt or a satchel."
+  },
+  {
+    "id": "T252",
+    "source": "Valuable Facts ( Talent ) ",
+    "ability": "Once per encounter, perform a Valuable Facts action: make an Average (2 Difficulty Dice) Knowledge check. If successful, add one triumph to one ally's skill check during the encounter."
+  },
+  {
+    "id": "T253",
+    "source": "Valuable Knowledge ( Talent ) ",
+    "ability": "Once per encounter, perform a Valuable Facts action: make an Average (2 Difficulty Dice) Knowledge: Mortality, Knowledge: Natural, Knowledge: Paranormal or Knowledge: Systems check. If successful, add one triumph to one ally's skill check during the encounter."
+  },
+  {
+    "id": "T254",
+    "source": "Violent Caster ( Talent ) ",
+    "ability": "Once per session spend a Story Point and your character may add the Deadly quality to a spell without increasing the difficulty."
+  },
+  {
+    "id": "T255",
+    "source": "Wraithbane ( Talent ) ",
+    "ability": "Reduce the Critical rating of weapon by 1, to a minimum of 1, when attacking an undead adversary."
+  },
+  {
+    "id": "T256",
+    "source": "Accelerated Spell ( Talent ) ",
+    "ability": "Once per session, spend 2 strain to make a Primal or Divine skill check as a maneuver."
+  },
+  {
+    "id": "T257",
+    "source": "Armor Master (Improved) ( Talent ) ",
+    "ability": "Your character must have purchased the Armor Master talent to benefit from this talent. When wearing armor with a soak value of 2 or higher, increase defense by 1."
+  },
+  {
+    "id": "T258",
+    "source": "Better Luck Next Time ( Talent ) ",
+    "ability": "Take a Better Luck Next Time action; make a Hard (3 Difficulty Dice) Cool check to force a competitor to suffer a major misfortune."
+  },
+  {
+    "id": "T259",
+    "source": "Blood Magic (Improved) ( Talent ) ",
+    "ability": "Your character must have purchased the Blood Magic talent to benefit from this talent. Once per encounter, suffer an additional wound while using Blood Magic and add one additional effect with a Difficulty Mod (plus one difficulty dice) to a spell without increasing the difficulty."
+  },
+  {
+    "id": "T26",
+    "source": "Jump Up ( Talent ) ",
+    "ability": "Please consult the talent section within the Genesys Core Rulebook."
+  },
+  {
+    "id": "T260",
+    "source": "Body Guard (Supreme) ( Talent ) ",
+    "ability": "Your character must have purchased the Body Guard talent to benefit from this talent. Body Guard maneuver may protect a number of engaged characters up to ranks in Resilience."
+  },
+  {
+    "id": "T261",
+    "source": "Bolstered Armor ( Talent ) ",
+    "ability": "Your character must have purchased the Signature Vehicle talent to benefit from this talent. Increase the armor value of Signature Vehicle by 1 per rank of Bolstered Armor."
+  },
+  {
+    "id": "T262",
+    "source": "Brilliant Evasion ( Talent ) ",
+    "ability": "Once per vehicle encounter, your character may take Brilliant Evasion action. Select 1 opponent and make Opposed Driving or Piloting check to stop opponent from attacking character for rounds equal to Agility."
+  },
+  {
+    "id": "T263",
+    "source": "Can’t We Talk About This? ( Talent ) ",
+    "ability": "Please consult the talent section within the Genesys Core Rulebook."
+  },
+  {
+    "id": "T264",
+    "source": "Capital Sendoff (Improved) ( Talent ) ",
+    "ability": "Your character must have purchased the Capital Sendoff talent to benefit from this talent. When performing a Capital Sendoff, the targets suffer a major collision instead."
+  },
+  {
+    "id": "T265",
+    "source": "Careful Planning ( Talent ) ",
+    "ability": "Once per session, may introduce a \"fact\" into the narrative as if a Story Point had been spent."
+  },
+  {
+    "id": "T266",
+    "source": "Center of Being ( Talent ) ",
+    "ability": "Take a Center of Being maneuver. Until the beginning of next turn, attacks against the character increase their critical rating by 1 per rank of Center of Being."
+  },
+  {
+    "id": "T267",
+    "source": "Circle of Shelter ( Talent ) ",
+    "ability": "When an engaged ally suffers a hit, may use Parry or Reflect incidental against the hit."
+  },
+  {
+    "id": "T268",
+    "source": "Commanding Presence ( Talent ) ",
+    "ability": "Once per session, may take Commanding Presence action; make an opposed Cool vs. Discipline check to force target to leave the encounter."
+  },
+  {
+    "id": "T269",
+    "source": "Deadeye ( Talent ) ",
+    "ability": "Please consult the talent section within the Genesys Core Rulebook."
+  },
+  {
+    "id": "T27",
+    "source": "Knack for It ( Talent ) ",
+    "ability": "Please consult the talent section within the Genesys Core Rulebook."
+  },
+  {
+    "id": "T270",
+    "source": "Deadly Accuracy ( Talent ) ",
+    "ability": "When acquired, choose 1 combat skill. Add damage equal to ranks in that skill to one hit of successful attack made using that skill. May not choose the same skill more than once."
+  },
+  {
+    "id": "T271",
+    "source": "Defensive ( Talent ) ",
+    "ability": "Please consult the talent section within the Genesys Core Rulebook."
+  },
+  {
+    "id": "T272",
+    "source": "Defensive Driving ( Talent ) ",
+    "ability": "Please consult the talent section within the Genesys Core Rulebook."
+  },
+  {
+    "id": "T273",
+    "source": "Deflection ( Talent ) ",
+    "ability": "Your character must have purchased the Reflect talent to benefit from this talent. After using Reflect, may spend 1 Story Point to perform Move maneuver as out-of-turn incidental to close distance with or engage opponent."
+  },
+  {
+    "id": "T274",
+    "source": "Discredit ( Talent ) ",
+    "ability": "Once per encounter, take the Discredit action, make a Hard (3 Difficulty Dice) Deception check to upgrade the difficulty of one character's social checks once, plus once for every two advantages, until the end of the encounter."
+  },
+  {
+    "id": "T275",
+    "source": "Distracting Behavior (Improved) ( Talent ) ",
+    "ability": "Your character must have purchased the Distracting Behavior talent to benefit from this talent. The Distracting Behavior maneuver inflicts two threat on NPC's checks when NPC's target character's allies."
+  },
+  {
+    "id": "T276",
+    "source": "Don't Shoot! ( Talent ) ",
+    "ability": "Once per session as an action, make a Hard (3 Difficulty Dice) Charm check. On a success, cannot be target of combat checks until the end of the encounter or until making a combat check."
+  },
+  {
+    "id": "T277",
+    "source": "Double or Nothing (Improved) ( Talent ) ",
+    "ability": "Your character must have purchased the Double or Nothing talent to benefit from this talent. When performing the Double or Nothing incidental, after canceling opposing symbols, also double the amount of remaining successes."
+  },
+  {
+    "id": "T278",
+    "source": "Enduring ( Talent ) ",
+    "ability": "Please consult the talent section within the Genesys Core Rulebook."
+  },
+  {
+    "id": "T279",
+    "source": "Faith Healing ( Talent ) ",
+    "ability": "After making a skill check to cast a Heal spell, may choose to have successes heal strain and a heal wounds."
+  },
+  {
+    "id": "T28",
+    "source": "Know Somebody ( Talent ) ",
+    "ability": "Please consult the talent section within the Genesys Core Rulebook."
+  },
+  {
+    "id": "T280",
+    "source": "Familiar (Supreme) ( Talent ) ",
+    "ability": "Your character must have purchased the Familiar talent to benefit from this talent. You may spend a Story Point and use your Familiar as the point of origin for casting a spell. The familiar must be within the range granted by ranks in the Familiar talent for your character to use the Familiar (Supreme) talent."
+  },
+  {
+    "id": "T281",
+    "source": "Field Commander (Improved) ( Talent ) ",
+    "ability": "Please consult the talent section within the Genesys Core Rulebook."
+  },
+  {
+    "id": "T282",
+    "source": "Finesse (Improved) ( Talent ) ",
+    "ability": "Your character must have purchased the Finesse talent to benefit from this talent. Because you can rapidly strike with surgical precision, use Agility instead of Brawn for determining base damage for Brawl and Melee(Light) attacks."
+  },
+  {
+    "id": "T283",
+    "source": "Fortune Favors the Bold ( Talent ) ",
+    "ability": "Once per session as an incidental, suffer 2 strain to flip one GM Story Point to a Player Story Point."
+  },
+  {
+    "id": "T284",
+    "source": "Full Throttle ( Talent ) ",
+    "ability": "Please consult the talent section within the Genesys Core Rulebook."
+  },
+  {
+    "id": "T285",
+    "source": "Full Throttle (Supreme) ( Talent ) ",
+    "ability": "Your character must have purchased the Full Throttle talent to benefit from this talent. When performing Full Throttle, top speed increases by 2 instead of 1."
+  },
+  {
+    "id": "T286",
+    "source": "Holistic Navigation ( Talent ) ",
+    "ability": "When making an Astrocartography skill check, the character may spend one Story Point to remove one dispair, or to remove threats equal to his ranks in Perception."
+  },
+  {
+    "id": "T287",
+    "source": "How Convenient! ( Talent ) ",
+    "ability": "Please consult the talent section within the Genesys Core Rulebook."
+  },
+  {
+    "id": "T288",
+    "source": "In The Know ( Talent ) ",
+    "ability": "Once per session, make an opposed Deception vs Vigilance check with the difficulty downgraded a number of times equal to your ranks in deception to have a target NPC believe specific false intelligence."
+  },
+  {
+    "id": "T289",
+    "source": "Incite Rebellion ( Talent ) ",
+    "ability": "Once per session, may take an Incite Rebellion action; make a Hard (3 Difficulty Dice) Coercion check to cause a number of beings up to ranks in Coercion to become rebellious until the end of the encounter."
+  },
+  {
+    "id": "T29",
+    "source": "Knowledge Specialization ( Talent ) ",
+    "ability": "When acquired, choose 1 Knowledge skill. When making that skill check, may spend a triumph result to gain additional successes equal to ranks in Knowledge Specialization."
+  },
+  {
+    "id": "T290",
+    "source": "Inspiring Rhetoric (Supreme) ( Talent ) ",
+    "ability": "Please consult the talent section within the Genesys Core Rulebook."
+  },
+  {
+    "id": "T291",
+    "source": "It's Not that Bad ( Talent ) ",
+    "ability": "Once per session when an ally would suffer a Critical Injury, may take an It's Not That Bad action; make a Hard (3 Difficulty Dice) Medicine check to stop the ally from gaining the Critical Injury."
+  },
+  {
+    "id": "T292",
+    "source": "Jury Rigged ( Talent ) ",
+    "ability": "The character chooses one personal weapon or piece of armor per rank of Jury Rigged. He may increase the damage of the weapon by one; decrease the a cost on its Critical, or any single other effect by one to a minimum of one; or increase armor's ranged or melee defense by one. Alternatively, he can decrease the encumbrance of the item by two to a minimum of one. The bonus only applies so long as the character is using the item. If the item is ever lost or destroyed, the character may apply Jury Rigged to a new personal weapon or piece or armor."
+  },
+  {
+    "id": "T293",
+    "source": "Life or Death (Improved) ( Talent ) ",
+    "ability": "Your character must have purchased the Life or Death talent to benefit from this talent. When your character suffers wounds equal to half of their wound threshold or greater, upgrade the ability of all combat checks they make. This replaces the normal effects of Life or Death."
+  },
+  {
+    "id": "T294",
+    "source": "Mad Inventor ( Talent ) ",
+    "ability": "Please consult the talent section within the Genesys Core Rulebook."
+  },
+  {
+    "id": "T295",
+    "source": "Menace ( Talent ) ",
+    "ability": "Enemy within short range of the character's animal companion adds one setback die to next Combat check made against the character."
+  },
+  {
+    "id": "T296",
+    "source": "Mind Over Matter ( Talent ) ",
+    "ability": "The character may spend one Story Point to recover strain equal to his Willpower rating."
+  },
+  {
+    "id": "T297",
+    "source": "Moving Target ( Talent ) ",
+    "ability": "If the character has already acted this round, increase ranged defense by 1 per rank of moving target."
+  },
+  {
+    "id": "T298",
+    "source": "Not Today ( Talent ) ",
+    "ability": "Your character must have purchased the Signature Vehicle talent to benefit from this talent. Once per session, spend a Story Point to save Signature Vehicle from destruction."
+  },
+  {
+    "id": "T299",
+    "source": "Offensive Driving ( Talent ) ",
+    "ability": "As a maneuver, suffer system strain up to vehicle's highest defense to upgrade the difficulty of target's next Piloting check that many times."
+  },
+  {
+    "id": "T3",
+    "source": "All-Terrain Driver ( Talent ) ",
+    "ability": "Do not suffer usual penalties for driving through different terrain when using Driving."
+  },
+  {
+    "id": "T30",
+    "source": "Knowledges Specialization ( Talent ) ",
+    "ability": "When acquired, choose 1 Knowledge skill. When making that skill check, may spend one triumph result to gain additional successes equal to ranks in Knowledge Specialization."
+  },
+  {
+    "id": "T300",
+    "source": "Overbalance ( Talent ) ",
+    "ability": "Whenever an enemy engaged with the character makes a combat check, after the attack is resolved, the character may spend dispair or three threats to stagger the attacker until the end of the attacker's next turn."
+  },
+  {
+    "id": "T301",
+    "source": "Overcharge ( Talent ) ",
+    "ability": "Please consult the talent section within the Genesys Core Rulebook."
+  },
+  {
+    "id": "T302",
+    "source": "Prey on the Weak ( Talent ) ",
+    "ability": "Add +1 damage to one hit of successful combat checks against disoriented targets per rank of Prey on the Weak."
+  },
+  {
+    "id": "T303",
+    "source": "Prime Positions ( Talent ) ",
+    "ability": "When this character or an ally in short range takes cover, he increases soak against ranged attacks by 1 per rank of Prime Positions until he leaves that cover."
+  },
+  {
+    "id": "T304",
+    "source": "Prophetic Aim ( Talent ) ",
+    "ability": "While benefiting from an Aim maneuver, despair from the character's Ranged (Heavy) and Ranged (Light) checks cannot cause attacks to hit allies engaged with the target."
+  },
+  {
+    "id": "T305",
+    "source": "Quickened Spell ( Talent ) ",
+    "ability": "Once per session, spend 2 strain to make a magic skill check as a maneuver."
+  },
+  {
+    "id": "T306",
+    "source": "Rain of Death ( Talent ) ",
+    "ability": "Perform the Rain of Death maneuver to ignore the increased difficulty due to the Auto-fire quality of attacks made this turn."
+  },
+  {
+    "id": "T307",
+    "source": "Raw Smarts ( Talent ) ",
+    "ability": "Once per session, may take a Street Smarts action; make a Formidable (5 Difficulty Dice) Streetwise or Knowledge: Systems check to learn one vital clue from the GM. Reduce the difficulty once per rank of Raw Smarts."
+  },
+  {
+    "id": "T308",
+    "source": "Reflect (Supreme) ( Talent ) ",
+    "ability": "Your character must have purchased the Reflect Talent to benefit from this talent. If the user did not make a combat check during previous turn, may suffer 1 strain to use Reflect."
+  },
+  {
+    "id": "T309",
+    "source": "Reflexive Barrier ( Talent ) ",
+    "ability": "Once per session, when your character is targeted by an attack, you may cast Barrier as an out of turn incidental."
+  },
+  {
+    "id": "T31",
+    "source": "Let’s Ride ( Talent ) ",
+    "ability": "Please consult the talent section within the Genesys Core Rulebook."
+  },
+  {
+    "id": "T310",
+    "source": "Reflexive Barrier ( Talent ) ",
+    "ability": "Once per session, when your character is targeted by an attack, you may cast Barrier as an out of turn incidental."
+  },
+  {
+    "id": "T311",
+    "source": "Reinforced Frame ( Talent ) ",
+    "ability": "Your character must have purchased the Signature Vehicle talent to benefit from this talent. Signature Vehicle gains Massive 1: when making an attack targeting the ship or vehicle, the Critical rating of any weapon used counts as 1 higher."
+  },
+  {
+    "id": "T312",
+    "source": "Reroute Processors ( Talent ) ",
+    "ability": "Once per encounter, may take a Reroute Processors action, make an Average (2 Difficulty Dice) Computers check to reduce one of a droid's characteristics by 1 and increase another of its characteristics by 1."
+  },
+  {
+    "id": "T313",
+    "source": "Researcher ( Talent ) ",
+    "ability": "On a successful Knowledge check, character and allies gain automatic a per rank of Researcher on checks to act on those facts until the end of his next turn."
+  },
+  {
+    "id": "T314",
+    "source": "Resolve ( Talent ) ",
+    "ability": "When a character involuntarily suffers strain, he suffers 1 less strain per rank of Resolve to a minimum of 1."
+  },
+  {
+    "id": "T315",
+    "source": "Scathing Tirade (Supreme) ( Talent ) ",
+    "ability": "Please consult the talent section within the Genesys Core Rulebook."
+  },
+  {
+    "id": "T316",
+    "source": "Second Chances ( Talent ) ",
+    "ability": "Once per encounter choose a number of positive dice equal to ranks in Second Chances and reroll them."
+  },
+  {
+    "id": "T317",
+    "source": "Showboat ( Talent ) ",
+    "ability": "When making a check in a vehicle, may suffer 2 strain to gain triumph on success or despair on failure."
+  },
+  {
+    "id": "T318",
+    "source": "Skilled Slicer ( Talent ) ",
+    "ability": "When making a Computers check may spend a triumph to make further Computers checks within this system as maneuvers."
+  },
+  {
+    "id": "T319",
+    "source": "Sorry About the Mess ( Talent ) ",
+    "ability": "Decrease the Critical Rating of a weapon by 1 (to a minimum of 1) against targets that have not yet acted this encounter."
+  },
+  {
+    "id": "T32",
+    "source": "Machinist ( Talent ) ",
+    "ability": "This replaces the Enchanting portion of the setting with being an adept machinist. Able to modify weapons and items through engineering. Swap out Alchemy with Mechanics when trying to enchant items."
+  },
+  {
+    "id": "T320",
+    "source": "Speaks Binary (Improved) ( Talent ) ",
+    "ability": "Your character must have purchased the Speaks Binary talent to benefit from this talent. When directing non-sentient NPC artificial life forms, those NPCs grant additional one boost die in addition to other benefits."
+  },
+  {
+    "id": "T321",
+    "source": "Spitfire ( Talent ) ",
+    "ability": "After a successful combined check with two Ranged (Light) weapons, additional hits can be allocated to other targets within range of the weapon."
+  },
+  {
+    "id": "T322",
+    "source": "Spur (Supreme) ( Talent ) ",
+    "ability": "Your character must have purchased the Spur talent to benefit from this talent. When activating and maintaining Spur, the beast only suffers 1 strain instead of 2."
+  },
+  {
+    "id": "T323",
+    "source": "Street Smarts ( Talent ) ",
+    "ability": "Once per session, may take a Street Smarts action; make a Formidable (5 Difficulty Dice) Streetwise or Knowledge check to learn one vital clue from the GM. Reduce the difficulty once per rank of Street Smarts."
+  },
+  {
+    "id": "T324",
+    "source": "Supporting Evidence ( Talent ) ",
+    "ability": "When assisting an ally with a Charm, Deception, Leadership, or Negotiation check, add automatic advantage per rank of Supporting Evidence."
+  },
+  {
+    "id": "T325",
+    "source": "Unrelenting Skeptic ( Talent ) ",
+    "ability": "When targeted by a Deception check, the character automatically adds failure to the check equal to ranks in Vigilance."
+  },
+  {
+    "id": "T326",
+    "source": "Vision of the Future ( Talent ) ",
+    "ability": "Once per session, after successfully casting a spell, you may spend two advantages or one triumph to add one additional effect to the cast spell,which would normally have increased the difficulty by 1."
+  },
+  {
+    "id": "T327",
+    "source": "Armor Master (Supreme) ( Talent ) ",
+    "ability": "Your character must have purchased the Armor Master talent to benefit from this talent. Once per round, when the character suffers a Critical Injury, he may suffer 3 strain to take the Armor Master incidental. If he does he reduces the Critical Injury result that he suffers by 10 per point of his soak, to a minimum of 1."
+  },
+  {
+    "id": "T328",
+    "source": "Baleful Gaze ( Talent ) ",
+    "ability": "When targeted by combat check from within medium range, may spend a Story Point to upgrade the difficulty of the check a number of times equal to ranks in Coercion."
+  },
+  {
+    "id": "T329",
+    "source": "Biggest Fan ( Talent ) ",
+    "ability": "Once per session, may take a Biggest Fan action; make a Hard (3 Difficulty Dice) Charm check to turn one NPC into the character's biggest fan. The exact effects of this vary depending on the NPC and the situation. They can include drastically decreasing the difficulty of Social Interaction skill checks the character makes targeting his biggest fan, the fan being willing to perform minor or even significant favors for the character, or the character even becoming a reoccurring ally in the narrative. At the CM’s discretion, this talent may not be able to target certain NPCs whose adversarial nature is vital to the plot, or NPCs who would be unable to appreciate the character’s work"
+  },
+  {
+    "id": "T33",
+    "source": "Many Faced ( Talent ) ",
+    "ability": "While in disguise, ignore one setback die while making Deception checks."
+  },
+  {
+    "id": "T330",
+    "source": "Blood Magic (Supreme) ( Talent ) ",
+    "ability": "Once per session you may spend a Story Point while using Blood Magic and suffer a critical. You may cast a spell of Formidable difficulty at a difficulty of Average."
+  },
+  {
+    "id": "T331",
+    "source": "Blood Magic (Supreme) revised ( Talent ) ",
+    "ability": "Once per session you may spend a Story Point while using Blood Magic and suffer a critical. You may downgrade the difficulty of the next spell skill check you make by three to a minimum of Average (two difficulty dice)."
+  },
+  {
+    "id": "T332",
+    "source": "Bouncing Spell ( Talent ) ",
+    "ability": "When your character fails a spell casting skill check that targets another character or NPC, may spend one triumph or three advantages to immediately reroll the attempted spell with a new target."
+  },
+  {
+    "id": "T333",
+    "source": "Center of Being (Improved) ( Talent ) ",
+    "ability": "Your character must have purchased the Center of Being talent to benefit from this talent. Suffer 1 strain to perform Center of Being maneuver as an incidental."
+  },
+  {
+    "id": "T334",
+    "source": "Coordination Dodge ( Talent ) ",
+    "ability": "When targeted by a combat check, may spend 1 Story Point to add failures equal to ranks in Coordination to check."
+  },
+  {
+    "id": "T335",
+    "source": "Custom Loadout ( Talent ) ",
+    "ability": "Your character must have purchased the Signature Vehicle talent to benefit from this talent. May add one mount for a weapon or piece of equipment (approved by the GM)."
+  },
+  {
+    "id": "T336",
+    "source": "Dedication ( Talent ) ",
+    "ability": "Please consult the talent section within the Genesys Core Rulebook."
+  },
+  {
+    "id": "T337",
+    "source": "Double or Nothing (Supreme) ( Talent ) ",
+    "ability": "Your character must have purchased the Double or Nothing talent to benefit from this talent. When performing the Double or Nothing incidental, also double the number of triumph and despair."
+  },
+  {
+    "id": "T338",
+    "source": "Full Throttle (Improved) ( Talent ) ",
+    "ability": "Your character must have purchased the Full Throttle talent to benefit from this talent. Suffer 1 strain to attempt Full Throttle as a maneuver and decrease its difficulty to Average (2 Difficulty Dice)."
+  },
+  {
+    "id": "T339",
+    "source": "Heavy Hitter ( Talent ) ",
+    "ability": "Once per session, spend triumph on a successful Ranged (Heavy) or Gunnery check to add the Breach 1 quality to the attack, or increase an existing Breach rating by 1."
+  },
+  {
+    "id": "T34",
+    "source": "Master of a Crowd ( Talent ) ",
+    "ability": "Remove one setback die while interacting with a crowd while using Leadership. Each rank corrosponds to the group size table found on page 120. At rank 5, the difficulty is reduced by one."
+  },
+  {
+    "id": "T340",
+    "source": "Indomitable ( Talent ) ",
+    "ability": "Please consult the talent section within the Genesys Core Rulebook."
+  },
+  {
+    "id": "T341",
+    "source": "Intense Focus ( Talent ) ",
+    "ability": "Perform an Intense Focus maneuver; suffer 1 strain and upgrade the ability of the next skill check once."
+  },
+  {
+    "id": "T342",
+    "source": "Just Kidding! ( Talent ) ",
+    "ability": "Once per round as an incidental spend 1 Story Point to ignore despair generated on a social check by the character or any ally in short range."
+  },
+  {
+    "id": "T343",
+    "source": "Life or Death (Supreme) ( Talent ) ",
+    "ability": "Your character must have purchased the Life or Death talent to benefit from this talent. The effects of Life or Death activate when your character takes wounds equal to one quarter of their wound threshold, instead of half."
+  },
+  {
+    "id": "T344",
+    "source": "Master ( Talent ) ",
+    "ability": "Please consult the talent section within the Genesys Core Rulebook."
+  },
+  {
+    "id": "T345",
+    "source": "Master Driver/Pilot ( Talent ) ",
+    "ability": "Once per round when driving, piloting, or operating a vehicle, may suffer 2 strain to perform any action as a maneuver."
+  },
+  {
+    "id": "T346",
+    "source": "Master Grenadier ( Talent ) ",
+    "ability": "Decrease the a cost to activate the Blast quality on any attack by 1 to a minimum of 1."
+  },
+  {
+    "id": "T347",
+    "source": "Master Merchant ( Talent ) ",
+    "ability": "When buying or selling goods, may suffer 2 strain to sell for 25% more or buy for 25% less."
+  },
+  {
+    "id": "T348",
+    "source": "Overcharge (Improved) ( Talent ) ",
+    "ability": "Please consult the talent section within the Genesys Core Rulebook."
+  },
+  {
+    "id": "T349",
+    "source": "Pressure Point ( Talent ) ",
+    "ability": "When making a Brawl check against an opponent, instead of dealing damage, may deal equivalent strain plus additional strain equal to ranks of Medicine (this ignores soak)."
+  },
+  {
+    "id": "T35",
+    "source": "Medical Specialist ( Talent ) ",
+    "ability": "Patients recover 1 additional wound per rank of Medical Specialist when they recover wounds from long term care."
+  },
+  {
+    "id": "T350",
+    "source": "Retry Spell ( Talent ) ",
+    "ability": "When your character fails a spell casting skill check that targets another character or NPC, may spend triumph or three advantages to immediately reroll the attempted spell with a new target."
+  },
+  {
+    "id": "T351",
+    "source": "Ruinous Repartee ( Talent ) ",
+    "ability": "Please consult the talent section within the Genesys Core Rulebook."
+  },
+  {
+    "id": "T352",
+    "source": "Speaks Binary (Supreme) ( Talent ) ",
+    "ability": "Once per encounter, may perform the Speaks Binary maneuver. A number of NPC artificial life forms up to ranks in Speaks Binary may use the character's ranks for 1 skill of character's choice."
+  },
+  {
+    "id": "T353",
+    "source": "Superhuman Reflexes ( Talent ) ",
+    "ability": "Once per session, after generating dispair on a Piloting check cancel the despair and add successes equal to ranks in Cool."
+  },
+  {
+    "id": "T354",
+    "source": "Thorough Assessment ( Talent ) ",
+    "ability": "Once per session, take a Thorough Assessment action: make a Hard (3 Difficulty Dice) Knowledge check to gain one boost die equal to success that can be distributed during the encounter."
+  },
+  {
+    "id": "T355",
+    "source": "Unrelenting Skeptic (Improved) ( Talent ) ",
+    "ability": "Your character must have purchased the Unrelenting Skeptic talent to benefit from this talent. When targeted by a Deception check that fails, may spend 1 Story Point to add despair to results."
+  },
+  {
+    "id": "T36",
+    "source": "Medium ( Talent ) ",
+    "ability": "Select a mundane trinket. An ally in a short range can be telepathically communicated to by the Divine or Arcana spellcaster as an incidental, so long as both characters are in possession of the trinket and the spell caster knows the character is present. Each additional rank “enchants” another mundane item."
+  },
+  {
+    "id": "T37",
+    "source": "Menacing ( Talent ) ",
+    "ability": "While making Leadership or Coercion checks, characters making opposing skill checks add one setback die to their dice pool."
+  },
+  {
+    "id": "T38",
+    "source": "Museum Worthy ( Talent ) ",
+    "ability": "Once per session, take Museum Worthy action, make a Hard (3 Difficulty Dice) Knowledge check to ascertain information regarding a relic, ruin, or piece of history."
+  },
+  {
+    "id": "T39",
+    "source": "Muted Spell Cast ( Talent ) ",
+    "ability": "Your character is in harmony with magic. The character ignores the penalty for casting a spell while gagged, silenced or otherwise unable to speak."
+  },
+  {
+    "id": "T4",
+    "source": "Bad Cop ( Talent ) ",
+    "ability": "May spend two advantages from a Deception or Coercion check to upgrade ability of a single ally's subsequent Social Interaction check against the target a number of times equal to ranks in Bad Cop."
+  },
+  {
+    "id": "T40",
+    "source": "Natural Orientation ( Talent ) ",
+    "ability": "Remove one setback die while disoriented until the start of your next turn"
+  },
+  {
+    "id": "T41",
+    "source": "Natural Weapon ( Talent ) ",
+    "ability": "Reduce critical by while using improvised weapons, while removing the automatic threat generated while using improvised weapons."
+  },
+  {
+    "id": "T42",
+    "source": "One with Nature ( Talent ) ",
+    "ability": "Please consult the talent section within the Genesys Core Rulebook."
+  },
+  {
+    "id": "T43",
+    "source": "Parry ( Talent ) ",
+    "ability": "Please consult the talent section within the Genesys Core Rulebook."
+  },
+  {
+    "id": "T44",
+    "source": "Physician ( Talent ) ",
+    "ability": "When making a Medicine check to help a character heal wounds, the target heals 1 additional strain per rank of Physician."
+  },
+  {
+    "id": "T45",
+    "source": "Proper Upbringing ( Talent ) ",
+    "ability": "Please consult the talent section within the Genesys Core Rulebook."
+  },
+  {
+    "id": "T46",
+    "source": "Quick Draw ( Talent ) ",
+    "ability": "Please consult the talent section within the Genesys Core Rulebook."
+  },
+  {
+    "id": "T47",
+    "source": "Quick Strike ( Talent ) ",
+    "ability": "Please consult the talent section within the Genesys Core Rulebook."
+  },
+  {
+    "id": "T48",
+    "source": "Rapid Reaction ( Talent ) ",
+    "ability": "Please consult the talent section within the Genesys Core Rulebook."
+  },
+  {
+    "id": "T49",
+    "source": "Rapid Recovery ( Talent ) ",
+    "ability": "When healing strain after an encounter, heal 1 additional strain per rank of Rapid Recovery."
+  },
+  {
+    "id": "T5",
+    "source": "Black Market Contacts ( Talent ) ",
+    "ability": "When purchasing illegal goods, may reduce rarity by 1 per rank of Black Market Contacts, increasing cost by 50 percent of base cost per reduction."
+  },
+  {
+    "id": "T50",
+    "source": "Redundant Systems ( Talent ) ",
+    "ability": "Once per session, may take a Redundant Systems action; make an Easy (1 Difficulty Die) Mechanics check to harvest components from a functioning device to repair a broken one without breaking the first device."
+  },
+  {
+    "id": "T51",
+    "source": "Reflect ( Talent ) ",
+    "ability": "When your character suffers a hit from a Ranged combat check, after damage is calculated but before soak is applied, your character may suffer 3 strain to use this talent to reduce the damage of the hit by two plus their ranks in Reflect. This talent can only be used once per hit, and your character needs to be wielding a Shield deemed appropriate by the GM."
+  },
+  {
+    "id": "T52",
+    "source": "Second Wind ( Talent ) ",
+    "ability": "Please consult the talent section within the Genesys Core Rulebook."
+  },
+  {
+    "id": "T53",
+    "source": "Signature Vehicle ( Talent ) ",
+    "ability": "Choose one starship or vehicle with a silhouette of 3 or lower that your character owns. This vehicle is your character's \"Signature Vehicle.\" Upgrade the ability of all Mechanics checks made to work on the vehicle once. If the vehicle ever lost or destroyed, the character may apply Signature Vehicle to a new vehicle that meets the requirements."
+  },
+  {
+    "id": "T54",
+    "source": "Sly Bartering ( Talent ) ",
+    "ability": "Once per session, when your character buys items they have a reduce cost of 10%. When your character sells items, they are sold at 10% higher. These prices are negotiated for the price prior to the 10% adjustment. This is done while buying from one specific merchant, shop or store once per session for every sell or purchase transaction while negotiating price with the merchant, shop or store."
+  },
+  {
+    "id": "T55",
+    "source": "Smooth Talker ( Talent ) ",
+    "ability": "When first acquired choose 1 skill; Charm, Coercion, Deception, or Negotiation. When making checks with that skill spend triumph to gain additional successes equal to ranks in Smooth Talker."
+  },
+  {
+    "id": "T56",
+    "source": "Solid Repairs ( Talent ) ",
+    "ability": "The character repairs +1 hull trauma per rank of Solid Repairs whenever he repairs a starship or vehicle."
+  },
+  {
+    "id": "T57",
+    "source": "Soothing Tone ( Talent ) ",
+    "ability": "Take a Soothing Tone action; make an Average (2 Difficulty Dice) Knowledge check to allow a beast to recover strain equal to s."
+  },
+  {
+    "id": "T58",
+    "source": "Sparklebit Scientist ( Talent ) ",
+    "ability": "When using the alchemy skill with anything relating to Sparklebits, remove one setback die."
+  },
+  {
+    "id": "T59",
+    "source": "Spirit Speech ( Talent ) ",
+    "ability": "All spirits (ghosts, elementals, etc) are revealed to you the space you can see. You are able to speak to the spirits and understand the spirits clearly. Remove one setback die in social encounters with a spirit."
+  },
+  {
+    "id": "T6",
+    "source": "Bloodoil Specialist ( Talent ) ",
+    "ability": "When using the alchemy skill with anything relating to Bloodoil, remove one setback die."
+  },
+  {
+    "id": "T60",
+    "source": "Stoic Casting ( Talent ) ",
+    "ability": "Your character is in accord with magic, being able to feel the magic. Your character ignores the penalties for casting a spell without at least having one free hand, and for wearing heavy armor or using a shield."
+  },
+  {
+    "id": "T61",
+    "source": "Surgeon ( Talent ) ",
+    "ability": "Please consult the talent section within the Genesys Core Rulebook."
+  },
+  {
+    "id": "T62",
+    "source": "Swift ( Talent ) ",
+    "ability": "Please consult the talent section within the Genesys Core Rulebook."
+  },
+  {
+    "id": "T63",
+    "source": "Toughened ( Talent ) ",
+    "ability": "Please consult the talent section within the Genesys Core Rulebook."
+  },
+  {
+    "id": "T64",
+    "source": "Unremarkable ( Talent ) ",
+    "ability": "Please consult the talent section within the Genesys Core Rulebook."
+  },
+  {
+    "id": "T65",
+    "source": "Wheel and Deal ( Talent ) ",
+    "ability": "When selling good legally, gain 10% more credits per rank of Wheel and Deal."
+  },
+  {
+    "id": "T66",
+    "source": "A Charmed Life ( Talent ) ",
+    "ability": "Change every despair to a success, not greater than the rank of this talent during social interactions of using the skills Charm or Coercion."
+  },
+  {
+    "id": "T67",
+    "source": "Action Plan ( Talent ) ",
+    "ability": "Take Action Plan action, make a Hard (3 Difficulty Dice) Knowledge: Systems OR Leadership check to downgrade the ability of all attacks made against a target. The next attack against the target removes the effect."
+  },
+  {
+    "id": "T68",
+    "source": "Alchemist ( Talent ) ",
+    "ability": "Remove the automatic threat produced by practicing Alchemy."
+  },
+  {
+    "id": "T69",
+    "source": "Barrage ( Talent ) ",
+    "ability": "Add 1 damage per rank of Barrage to 1 hit of successful attack while using Ranged (Heavy) or Gunnery skills at long or extreme range."
+  },
+  {
+    "id": "T7",
+    "source": "Boneduster ( Talent ) ",
+    "ability": "When using the alchemy skill with anything relating to Bonedustings, remove one setback die."
+  },
+  {
+    "id": "T70",
+    "source": "Basic Military Training ( Talent ) ",
+    "ability": "Please consult the talent section within the Genesys Core Rulebook."
+  },
+  {
+    "id": "T71",
+    "source": "Beast Wrangler ( Talent ) ",
+    "ability": "Add one boost per rank of Beast Wrangler to checks to tame or wrangle creatures."
+  },
+  {
+    "id": "T72",
+    "source": "Belligerent Arcanist ( Talent ) ",
+    "ability": "Once per round, after making an arcana magic combat check but before resolving its effects, you may suffer two strain to add an advantage to the results. This advantage may only be used to help pay to activate the Blast, Destructive and Impact special qualities, or the Manipulative additional effect. You cannot use this talent if the magic combat check resulted in more than threats than advantages."
+  },
+  {
+    "id": "T73",
+    "source": "Berserk ( Talent ) ",
+    "ability": "Please consult the talent section within the Genesys Core Rulebook."
+  },
+  {
+    "id": "T74",
+    "source": "Blackmail ( Talent ) ",
+    "ability": "When an NPC exceeds his strain threshold, may spend 1 Story Point to convince that NPC to perform a single task of choice instead."
+  },
+  {
+    "id": "T75",
+    "source": "Blooded ( Talent ) ",
+    "ability": "Add one boost die per rank of Blooded to all checks to resist or recover from poisons, venoms, or toxins. Reduce duration of ongoing poisons by 1 round per rank of Blooded to a minimum of 1."
+  },
+  {
+    "id": "T76",
+    "source": "Body Guard ( Talent ) ",
+    "ability": "Once per round, perform the Body Guard maneuver to guard an engaged character. Suffer a number of strain no greater than ranks of Body Guard, then until the beginning of the next turn upgrade the difficulty of combat checks targeting the character by that number."
+  },
+  {
+    "id": "T77",
+    "source": "Burly ( Talent ) ",
+    "ability": "Reduce any wielded weapon's Cumbersome quality and Encumbrance rating by a number equal to ranks in Burly to a minimum of 1."
+  },
+  {
+    "id": "T78",
+    "source": "Command ( Talent ) ",
+    "ability": "Add one boost die per rank of Command when making Leadership checks. Affected targets add one boost die to Discipline checks for next 24 hours."
+  },
+  {
+    "id": "T79",
+    "source": "Confidence ( Talent ) ",
+    "ability": "May decrease difficulty of Discipline checks to avoid fear by 1 per rank of Confidence, to a minimum of Easy (1 Difficulty Die)."
+  },
+  {
+    "id": "T8",
+    "source": "Bought Info ( Talent ) ",
+    "ability": "Please consult the talent section within the Genesys Core Rulebook."
+  },
+  {
+    "id": "T80",
+    "source": "Contingency Plan ( Talent ) ",
+    "ability": "Spend 1 Story Point to recover strain equal to Cunning rating."
+  },
+  {
+    "id": "T81",
+    "source": "Coordinated Assault ( Talent ) ",
+    "ability": "Please consult the talent section within the Genesys Core Rulebook."
+  },
+  {
+    "id": "T82",
+    "source": "Counteroffer ( Talent ) ",
+    "ability": "Please consult the talent section within the Genesys Core Rulebook."
+  },
+  {
+    "id": "T83",
+    "source": "Cutting Question ( Talent ) ",
+    "ability": "Once per encounter, when making a Coercion skill check, the character may use Deception skill instead."
+  },
+  {
+    "id": "T84",
+    "source": "Daring Aviator ( Talent ) ",
+    "ability": "Please consult the talent section within the Genesys Core Rulebook."
+  },
+  {
+    "id": "T85",
+    "source": "Debilitating Shot ( Talent ) ",
+    "ability": "Upon successful attack with a starship or vehicle weapon, may spend two advantages to reduce the maximum speed of the target by 1 until the end of the next round."
+  },
+  {
+    "id": "T86",
+    "source": "Deceptive Taunt ( Talent ) ",
+    "ability": "Once per session, may make Deceptive Taunt action. Make opposed Deception check. If successful, one adversary must attack the character during adversary's next turn."
+  },
+  {
+    "id": "T87",
+    "source": "Defensive Stance ( Talent ) ",
+    "ability": "Please consult the talent section within the Genesys Core Rulebook."
+  },
+  {
+    "id": "T88",
+    "source": "Defensive Sysops (Improved) ( Talent ) ",
+    "ability": "Please consult the talent section within the Genesys Core Rulebook."
+  },
+  {
+    "id": "T89",
+    "source": "Disorient ( Talent ) ",
+    "ability": "After hitting with combat check, may spend two advantages to disorient target for number of rounds equal to ranks in Disorient."
+  },
+  {
+    "id": "T9",
+    "source": "Call 'Em ( Talent ) ",
+    "ability": "Do not add setback dice to combat checks due to the use of the Aim maneuver."
+  },
+  {
+    "id": "T90",
+    "source": "Distracting Behavior ( Talent ) ",
+    "ability": "Make a Distracting Behavior maneuver and suffer strain no greater than ranks in Cunning. Until the beginning of next turn, equal number of NPC's suffer threats on checks. Range increases with additional ranks."
+  },
+  {
+    "id": "T91",
+    "source": "Dual Wielder ( Talent ) ",
+    "ability": "Please consult the talent section within the Genesys Core Rulebook."
+  },
+  {
+    "id": "T92",
+    "source": "Dynamic Fire ( Talent ) ",
+    "ability": "When making a ranged attack while engaged with an opponent, may suffer 2 strain to reduce the ranged modifier by 1."
+  },
+  {
+    "id": "T93",
+    "source": "Elementalist ( Talent ) ",
+    "ability": "Once per round, after making a primal magic combat check but before resolving its effects, you may suffer two strain to add an advantage to the results. This advantage may only be used to help pay to activate the Fire, Ice, or Lightning special qualities. This cannot be used if the magic combat check resulted in more threats than advantages, or does it deal with an element, death spirit or life spirits."
+  },
+  {
+    "id": "T94",
+    "source": "Familiar ( Talent ) ",
+    "ability": "When your character purchases this talent, choose a silhouette 0 creature (approved by your GM). This creature becomes your character's familiar. Your character is bonded to this familiar as long as you choose, though the GM may decide to remove it due to mistreatment or other conditions. You instruct the familiar how to act telepathically. However, the only action a familiar may take is Exchange and Action for a Maneuver. It cannot fight except in self-defense, under the GM's direction. Once per round, your character may use a maneuver to direct the familiar to take specific maneuvers during your character's turn. As long as the familiar is in short range, it may use the Assist maneuver to give one advantage to all magic checks. This range increases with ranks in Familiar."
+  },
+  {
+    "id": "T95",
+    "source": "Fan the Hammer ( Talent ) ",
+    "ability": "Please consult the talent section within the Genesys Core Rulebook."
+  },
+  {
+    "id": "T96",
+    "source": "Fancy Paint Job ( Talent ) ",
+    "ability": "Your character must have purchased the Signature Vehicle talent to benefit from this talent. Upgrade all Charm, Deception, and Negotiation checks made in the presence of Signature Vehicle once."
+  },
+  {
+    "id": "T97",
+    "source": "Fearsome ( Talent ) ",
+    "ability": "When an adversary becomes engaged with the character, the character may force the adversary to make a fear check, with the difficulty equal to the character's ranks in Fearsome."
+  },
+  {
+    "id": "T98",
+    "source": "Fine Tuning ( Talent ) ",
+    "ability": "When reducing the amount of system strain a starship or vehicle suffers, reduce 1 additional strain per rank of Fine Tuning."
+  },
+  {
+    "id": "T99",
+    "source": "Finesse ( Talent ) ",
+    "ability": "The character may use Agility instead of Brawn for Brawl and Melee (Light) checks."
+  },
+  {
     "id": "W1",
     "source": "Double Knuckles ( Burn Item Quality )",
     "ability": "See page 87 in the Genesys Core Rulebook for details."
@@ -2495,6 +4365,46 @@
     "ability": "See page 88 in the Genesys Core Rulebook for details."
   },
   {
+    "id": "W102",
+    "source": "Heavy Machine Gun Special ",
+    "ability": "See Item Qualities descrption in the Genesys Core Rulebook"
+  },
+  {
+    "id": "W103",
+    "source": "TOW Special ",
+    "ability": "See Item Qualities descrption in the Genesys Core Rulebook"
+  },
+  {
+    "id": "W104",
+    "source": "Simple Shotgun Special ",
+    "ability": "Page 166 of the Genesys Core Rulebook and Item Qualities descrption in the Genesys Core Rulebook"
+  },
+  {
+    "id": "W105",
+    "source": "Sawed Off Shotgun Special ",
+    "ability": "Page 166 of the Genesys Core Rulebook and Item Qualities descrption in the Genesys Core Rulebook"
+  },
+  {
+    "id": "W106",
+    "source": "Monoblade Sword Special ",
+    "ability": "See Item Qualities descrption in the Genesys Core Rulebook"
+  },
+  {
+    "id": "W107",
+    "source": "Shudder Blade Special ",
+    "ability": "See Item Qualities descrption in the Genesys Core Rulebook"
+  },
+  {
+    "id": "W108",
+    "source": "Assault Cannon Special ",
+    "ability": "See Item Qualities descrption in the Genesys Core Rulebook"
+  },
+  {
+    "id": "W109",
+    "source": "Grenade Lobber Special ",
+    "ability": "See Item Qualities descrption in the Genesys Core Rulebook"
+  },
+  {
     "id": "W11",
     "source": "J'Tunns Sword ( Cumbersome Item Quality )",
     "ability": "See page 87 in the Genesys Core Rulebook for details."
@@ -2513,6 +4423,51 @@
     "id": "W11",
     "source": "J'Tunns Sword ( Vicious Item Quality )",
     "ability": "See page 89 in the Genesys Core Rulebook for details."
+  },
+  {
+    "id": "W110",
+    "source": "Laser Cannon Special ",
+    "ability": "See Item Qualities descrption in the Genesys Core Rulebook"
+  },
+  {
+    "id": "W111",
+    "source": "Laser Pistol Special ",
+    "ability": "See Item Qualities descrption in the Genesys Core Rulebook"
+  },
+  {
+    "id": "W112",
+    "source": "Laser Rifle Special ",
+    "ability": "See Item Qualities descrption in the Genesys Core Rulebook"
+  },
+  {
+    "id": "W113",
+    "source": "Particle Grenade Special ",
+    "ability": "See Item Qualities descrption in the Genesys Core Rulebook"
+  },
+  {
+    "id": "W114",
+    "source": "Plasma Cannon Special ",
+    "ability": "See Item Qualities descrption in the Genesys Core Rulebook"
+  },
+  {
+    "id": "W115",
+    "source": "Plasma Pistol Special ",
+    "ability": "See Item Qualities descrption in the Genesys Core Rulebook"
+  },
+  {
+    "id": "W116",
+    "source": "Plasma Rifle Special ",
+    "ability": "See Item Qualities descrption in the Genesys Core Rulebook"
+  },
+  {
+    "id": "W117",
+    "source": "Sliver Rocket Launcher Special ",
+    "ability": "See Item Qualities descrption in the Genesys Core Rulebook"
+  },
+  {
+    "id": "W119",
+    "source": "Slug Rifle Special ",
+    "ability": "See Item Qualities descrption in the Genesys Core Rulebook"
   },
   {
     "id": "W13",
@@ -2880,9 +4835,94 @@
     "ability": "See page 86 in the Genesys Core Rulebook for details."
   },
   {
+    "id": "W42",
+    "source": "Revolver Special ",
+    "ability": "See Item Qualities descrption in the Genesys Core Rulebook"
+  },
+  {
+    "id": "W43",
+    "source": "Axe Special ",
+    "ability": "See Item Qualities descrption in the Genesys Core Rulebook"
+  },
+  {
+    "id": "W44",
+    "source": "Greataxe Special ",
+    "ability": "See Item Qualities descrption in the Genesys Core Rulebook"
+  },
+  {
+    "id": "W45",
+    "source": "Greatsword Special ",
+    "ability": "See Item Qualities descrption in the Genesys Core Rulebook"
+  },
+  {
+    "id": "W46",
+    "source": "Halberd Special ",
+    "ability": "See Item Qualities descrption in the Genesys Core Rulebook"
+  },
+  {
+    "id": "W47",
+    "source": "Light Spear Special ",
+    "ability": "See Item Qualities descrption in the Genesys Core Rulebook"
+  },
+  {
+    "id": "W49",
+    "source": "Shield Special ",
+    "ability": "See Item Qualities descrption in the Genesys Core Rulebook"
+  },
+  {
     "id": "W5",
     "source": "Axe ( Vicious Item Quality )",
     "ability": "See page 89 in the Genesys Core Rulebook for details."
+  },
+  {
+    "id": "W50",
+    "source": "Sword Special ",
+    "ability": "See Item Qualities descrption in the Genesys Core Rulebook"
+  },
+  {
+    "id": "W51",
+    "source": "Bow Special ",
+    "ability": "See Item Qualities descrption in the Genesys Core Rulebook"
+  },
+  {
+    "id": "W52",
+    "source": "Crossbow Special ",
+    "ability": "See Item Qualities descrption in the Genesys Core Rulebook"
+  },
+  {
+    "id": "W53",
+    "source": "Longbow Special ",
+    "ability": "See Item Qualities descrption in the Genesys Core Rulebook"
+  },
+  {
+    "id": "W54",
+    "source": "Spring-Fist Special ",
+    "ability": "See Item Qualities descrption in the Genesys Core Rulebook"
+  },
+  {
+    "id": "W55",
+    "source": "Rotorsword Special ",
+    "ability": "See Item Qualities descrption in the Genesys Core Rulebook"
+  },
+  {
+    "id": "W56",
+    "source": "Sword Cane Special ",
+    "ability": "Page 155 of the Genesys Core Rulebook and Item Qualities descrption in the Genesys Core Rulebook"
+  },
+  {
+    "id": "W57",
+    "source": "Auto-Rotary Gun Special ",
+    "ability": "See Item Qualities descrption in the Genesys Core Rulebook"
+  },
+  {
+    "id": "W58",
+    "source": "Clockwork Grenade Special ",
+    "ability": "Page 155 of the Genesys Core Rulebook and Item Qualities descrption in the Genesys Core Rulebook"
+  },
+  {
+    "id": "W59",
+    "source": "Death Ray Special ",
+    "ability": "See Item Qualities descrption in the Genesys Core Rulebook"
   },
   {
     "id": "W6",
@@ -2900,9 +4940,89 @@
     "ability": "See page 88 in the Genesys Core Rulebook for details."
   },
   {
+    "id": "W60",
+    "source": "Hand Cannon Special ",
+    "ability": "See Item Qualities descrption in the Genesys Core Rulebook"
+  },
+  {
+    "id": "W62",
+    "source": "Rotor Pistol Special ",
+    "ability": "See Item Qualities descrption in the Genesys Core Rulebook"
+  },
+  {
+    "id": "W63",
+    "source": "Electric Truncheon Special ",
+    "ability": "See Item Qualities descrption in the Genesys Core Rulebook"
+  },
+  {
+    "id": "W64",
+    "source": "Razor Whip Special ",
+    "ability": "Page 161 of the Genesys Core Rulebook and Item Qualities descrption in the Genesys Core Rulebook"
+  },
+  {
+    "id": "W65",
+    "source": "DEW Pistol Special ",
+    "ability": "See Item Qualities descrption in the Genesys Core Rulebook"
+  },
+  {
+    "id": "W66",
+    "source": "DEW Rifle Special ",
+    "ability": "See Item Qualities descrption in the Genesys Core Rulebook"
+  },
+  {
+    "id": "W67",
+    "source": "Flash Gun Special ",
+    "ability": "See Item Qualities descrption in the Genesys Core Rulebook"
+  },
+  {
+    "id": "W68",
+    "source": "Flash Machine Gun Special ",
+    "ability": "See Item Qualities descrption in the Genesys Core Rulebook"
+  },
+  {
+    "id": "W69",
+    "source": "Meteop Launcher Special ",
+    "ability": "See Item Qualities descrption in the Genesys Core Rulebook"
+  },
+  {
     "id": "W7",
     "source": "Dagger ( Vicious Item Quality )",
     "ability": "See page 89 in the Genesys Core Rulebook for details."
+  },
+  {
+    "id": "W70",
+    "source": "Brass Knuckles Special ",
+    "ability": "See Item Qualities descrption in the Genesys Core Rulebook"
+  },
+  {
+    "id": "W72",
+    "source": "Stun Gun Special ",
+    "ability": "See Item Qualities descrption in the Genesys Core Rulebook"
+  },
+  {
+    "id": "W73",
+    "source": "Assault Rifle Special ",
+    "ability": "See Item Qualities descrption in the Genesys Core Rulebook"
+  },
+  {
+    "id": "W75",
+    "source": "Hunting Rifle Special ",
+    "ability": "See Item Qualities descrption in the Genesys Core Rulebook"
+  },
+  {
+    "id": "W77",
+    "source": "Machine Gun Special ",
+    "ability": "See Item Qualities descrption in the Genesys Core Rulebook"
+  },
+  {
+    "id": "W78",
+    "source": "Portable Missile Launcher Special ",
+    "ability": "See Item Qualities descrption in the Genesys Core Rulebook"
+  },
+  {
+    "id": "W79",
+    "source": "Shotgun Special ",
+    "ability": "Page 166 of the Genesys Core Rulebook and Item Qualities descrption in the Genesys Core Rulebook"
   },
   {
     "id": "W8",
@@ -2920,6 +5040,56 @@
     "ability": "See page 89 in the Genesys Core Rulebook for details."
   },
   {
+    "id": "W80",
+    "source": "Submachine Gun Special ",
+    "ability": "See Item Qualities descrption in the Genesys Core Rulebook"
+  },
+  {
+    "id": "W81",
+    "source": "Sniper Rifle Special ",
+    "ability": "See Item Qualities descrption in the Genesys Core Rulebook"
+  },
+  {
+    "id": "W82",
+    "source": "Monoblade Knife Special ",
+    "ability": "See Item Qualities descrption in the Genesys Core Rulebook"
+  },
+  {
+    "id": "W83",
+    "source": "Stun Baton Special ",
+    "ability": "Page 175 of the Genesys Core Rulebook and Item Qualities descrption in the Genesys Core Rulebook"
+  },
+  {
+    "id": "W84",
+    "source": "Flechette Pistol Special ",
+    "ability": "See Item Qualities descrption in the Genesys Core Rulebook"
+  },
+  {
+    "id": "W85",
+    "source": "Flechette Launcher Special ",
+    "ability": "See Item Qualities descrption in the Genesys Core Rulebook"
+  },
+  {
+    "id": "W86",
+    "source": "Laser Pistol Special ",
+    "ability": "See Item Qualities descrption in the Genesys Core Rulebook"
+  },
+  {
+    "id": "W87",
+    "source": "Laser Rifle Special ",
+    "ability": "See Item Qualities descrption in the Genesys Core Rulebook"
+  },
+  {
+    "id": "W88",
+    "source": "Gauss Rifle Special ",
+    "ability": "Page 175 of the Genesys Core Rulebook and Item Qualities descrption in the Genesys Core Rulebook"
+  },
+  {
+    "id": "W89",
+    "source": "Mico-Missile Launcher Special ",
+    "ability": "See Item Qualities descrption in the Genesys Core Rulebook"
+  },
+  {
     "id": "W9",
     "source": "Greataxe ( Cumbersome Item Quality )",
     "ability": "See page 87 in the Genesys Core Rulebook for details."
@@ -2935,1778 +5105,38 @@
     "ability": "See page 89 in the Genesys Core Rulebook for details."
   },
   {
-    "id": "T1",
-    "source": "Acrane Adept ( Talent ) ",
-    "ability": "Remove one setback die while using non-attack Arcana spells."
+    "id": "W91",
+    "source": "Military Issued Assault Rifle Special ",
+    "ability": "See Item Qualities descrption in the Genesys Core Rulebook"
   },
   {
-    "id": "T2",
-    "source": "Aggressive Caster ( Talent ) ",
-    "ability": "Increase the base damage of your Attack spell by one per rank of this talent, to a maximum of five. This increase to damage does not stack with other effects that increase the base damage of the Attack spell, such as magical implements."
+    "id": "W93",
+    "source": "Varmit Hunting Rifle Special ",
+    "ability": "See Item Qualities descrption in the Genesys Core Rulebook"
   },
   {
-    "id": "T3",
-    "source": "All-Terrain Driver ( Talent ) ",
-    "ability": "Do not suffer usual penalties for driving through different terrain when using Driving."
+    "id": "W94",
+    "source": "Big Game Hunting Rifle Special ",
+    "ability": "See Item Qualities descrption in the Genesys Core Rulebook"
   },
   {
-    "id": "T4",
-    "source": "Bad Cop ( Talent ) ",
-    "ability": "May spend two advantages from a Deception or Coercion check to upgrade ability of a single ally's subsequent Social Interaction check against the target a number of times equal to ranks in Bad Cop."
+    "id": "W95",
+    "source": "Varmit Hunting Rifle Magazined Special ",
+    "ability": "See Item Qualities descrption in the Genesys Core Rulebook"
   },
   {
-    "id": "T5",
-    "source": "Black Market Contacts ( Talent ) ",
-    "ability": "When purchasing illegal goods, may reduce rarity by 1 per rank of Black Market Contacts, increasing cost by 50 percent of base cost per reduction."
+    "id": "W96",
+    "source": "Big Game Hunting Rifle Magazined Special ",
+    "ability": "See Item Qualities descrption in the Genesys Core Rulebook"
   },
   {
-    "id": "T6",
-    "source": "Bloodoil Specialist ( Talent ) ",
-    "ability": "When using the alchemy skill with anything relating to Bloodoil, remove one setback die."
+    "id": "W97",
+    "source": "Hunting Rifle Magazined Special ",
+    "ability": "See Item Qualities descrption in the Genesys Core Rulebook"
   },
   {
-    "id": "T7",
-    "source": "Boneduster ( Talent ) ",
-    "ability": "When using the alchemy skill with anything relating to Bonedustings, remove one setback die."
-  },
-  {
-    "id": "T8",
-    "source": "Bought Info ( Talent ) ",
-    "ability": "Please consult the talent section within the Genesys Core Rulebook."
-  },
-  {
-    "id": "T9",
-    "source": "Call 'Em ( Talent ) ",
-    "ability": "Do not add setback dice to combat checks due to the use of the Aim maneuver."
-  },
-  {
-    "id": "T10",
-    "source": "Clever Retort ( Talent ) ",
-    "ability": "Please consult the talent section within the Genesys Core Rulebook."
-  },
-  {
-    "id": "T11",
-    "source": "Defensive Sysops ( Talent ) ",
-    "ability": "Please consult the talent section within the Genesys Core Rulebook."
-  },
-  {
-    "id": "T12",
-    "source": "Desperate Recovery ( Talent ) ",
-    "ability": "Please consult the talent section within the Genesys Core Rulebook."
-  },
-  {
-    "id": "T13",
-    "source": "Devoted Servant ( Talent ) ",
-    "ability": "Make a Hard (3 Difficulty Dice) Divine check; upon success remove the immobilization status from your character."
-  },
-  {
-    "id": "T14",
-    "source": "Duelist ( Talent ) ",
-    "ability": "Please consult the talent section within the Genesys Core Rulebook."
-  },
-  {
-    "id": "T15",
-    "source": "Durable ( Talent ) ",
-    "ability": "Please consult the talent section within the Genesys Core Rulebook."
-  },
-  {
-    "id": "T16",
-    "source": "Extra Ammo ( Talent ) ",
-    "ability": "Cannot run out of ammo due to a despair. Items with Limited Ammo quality run out of ammo as normal."
-  },
-  {
-    "id": "T17",
-    "source": "Familiar Enemy ( Talent ) ",
-    "ability": "Select a specific type of enemy, such as a spell caster from a government or an entire species. When encountering them in combat, remove one setback die once per encounter. Each rank selects another specific type of enemy."
-  },
-  {
-    "id": "T18",
-    "source": "Familiar Sky ( Talent ) ",
-    "ability": "Once per session, may perform a Familiar Sky maneuver; make a Hard (3 Difficulty Dice) Knowledge check to reveal the current type of environment and other useful information."
-  },
-  {
-    "id": "T19",
-    "source": "Fast Casting ( Talent ) ",
-    "ability": "Add one boost die to a spell casting skill check when your character is the first PC to act in the current encounter."
-  },
-  {
-    "id": "T20",
-    "source": "Intuitive Casting ( Talent ) ",
-    "ability": "Add one boost die to a spell casting skill check when your character is the first PC to act in the current encounter."
-  },
-  {
-    "id": "T21",
-    "source": "Forager ( Talent ) ",
-    "ability": "Please consult the talent section within the Genesys Core Rulebook."
-  },
-  {
-    "id": "T22",
-    "source": "Good Cop ( Talent ) ",
-    "ability": "May spend two advantages from a Charm or Negotiation check to upgrade ability of a single ally's subsequent Social Interaction check against the target a number of times equal to ranks in Good Cop."
-  },
-  {
-    "id": "T23",
-    "source": "Grit ( Talent ) ",
-    "ability": "Please consult the talent section within the Genesys Core Rulebook."
-  },
-  {
-    "id": "T24",
-    "source": "Hamstring Shot ( Talent ) ",
-    "ability": "Please consult the talent section within the Genesys Core Rulebook."
-  },
-  {
-    "id": "T25",
-    "source": "Hidden Storage ( Talent ) ",
-    "ability": "Gain hidden storage in vehicles or equipment that holds items with total encumbrance equal to ranks in Hidden Storage."
-  },
-  {
-    "id": "T26",
-    "source": "Jump Up ( Talent ) ",
-    "ability": "Please consult the talent section within the Genesys Core Rulebook."
-  },
-  {
-    "id": "T27",
-    "source": "Knack for It ( Talent ) ",
-    "ability": "Please consult the talent section within the Genesys Core Rulebook."
-  },
-  {
-    "id": "T28",
-    "source": "Know Somebody ( Talent ) ",
-    "ability": "Please consult the talent section within the Genesys Core Rulebook."
-  },
-  {
-    "id": "T29",
-    "source": "Knowledge Specialization ( Talent ) ",
-    "ability": "When acquired, choose 1 Knowledge skill. When making that skill check, may spend a triumph result to gain additional successes equal to ranks in Knowledge Specialization."
-  },
-  {
-    "id": "T30",
-    "source": "Knowledges Specialization ( Talent ) ",
-    "ability": "When acquired, choose 1 Knowledge skill. When making that skill check, may spend one triumph result to gain additional successes equal to ranks in Knowledge Specialization."
-  },
-  {
-    "id": "T31",
-    "source": "Let’s Ride ( Talent ) ",
-    "ability": "Please consult the talent section within the Genesys Core Rulebook."
-  },
-  {
-    "id": "T32",
-    "source": "Machinist ( Talent ) ",
-    "ability": "This replaces the Enchanting portion of the setting with being an adept machinist. Able to modify weapons and items through engineering. Swap out Alchemy with Mechanics when trying to enchant items."
-  },
-  {
-    "id": "T33",
-    "source": "Many Faced ( Talent ) ",
-    "ability": "While in disguise, ignore one setback die while making Deception checks."
-  },
-  {
-    "id": "T34",
-    "source": "Master of a Crowd ( Talent ) ",
-    "ability": "Remove one setback die while interacting with a crowd while using Leadership. Each rank corrosponds to the group size table found on page 120. At rank 5, the difficulty is reduced by one."
-  },
-  {
-    "id": "T35",
-    "source": "Medical Specialist ( Talent ) ",
-    "ability": "Patients recover 1 additional wound per rank of Medical Specialist when they recover wounds from long term care."
-  },
-  {
-    "id": "T36",
-    "source": "Medium ( Talent ) ",
-    "ability": "Select a mundane trinket. An ally in a short range can be telepathically communicated to by the Divine or Arcana spellcaster as an incidental, so long as both characters are in possession of the trinket and the spell caster knows the character is present. Each additional rank “enchants” another mundane item."
-  },
-  {
-    "id": "T37",
-    "source": "Menacing ( Talent ) ",
-    "ability": "While making Leadership or Coercion checks, characters making opposing skill checks add one setback die to their dice pool."
-  },
-  {
-    "id": "T38",
-    "source": "Museum Worthy ( Talent ) ",
-    "ability": "Once per session, take Museum Worthy action, make a Hard (3 Difficulty Dice) Knowledge check to ascertain information regarding a relic, ruin, or piece of history."
-  },
-  {
-    "id": "T39",
-    "source": "Muted Spell Cast ( Talent ) ",
-    "ability": "Your character is in harmony with magic. The character ignores the penalty for casting a spell while gagged, silenced or otherwise unable to speak."
-  },
-  {
-    "id": "T40",
-    "source": "Natural Orientation ( Talent ) ",
-    "ability": "Remove one setback die while disoriented until the start of your next turn"
-  },
-  {
-    "id": "T41",
-    "source": "Natural Weapon ( Talent ) ",
-    "ability": "Reduce critical by while using improvised weapons, while removing the automatic threat generated while using improvised weapons."
-  },
-  {
-    "id": "T42",
-    "source": "One with Nature ( Talent ) ",
-    "ability": "Please consult the talent section within the Genesys Core Rulebook."
-  },
-  {
-    "id": "T43",
-    "source": "Parry ( Talent ) ",
-    "ability": "Please consult the talent section within the Genesys Core Rulebook."
-  },
-  {
-    "id": "T44",
-    "source": "Physician ( Talent ) ",
-    "ability": "When making a Medicine check to help a character heal wounds, the target heals 1 additional strain per rank of Physician."
-  },
-  {
-    "id": "T45",
-    "source": "Proper Upbringing ( Talent ) ",
-    "ability": "Please consult the talent section within the Genesys Core Rulebook."
-  },
-  {
-    "id": "T46",
-    "source": "Quick Draw ( Talent ) ",
-    "ability": "Please consult the talent section within the Genesys Core Rulebook."
-  },
-  {
-    "id": "T47",
-    "source": "Quick Strike ( Talent ) ",
-    "ability": "Please consult the talent section within the Genesys Core Rulebook."
-  },
-  {
-    "id": "T48",
-    "source": "Rapid Reaction ( Talent ) ",
-    "ability": "Please consult the talent section within the Genesys Core Rulebook."
-  },
-  {
-    "id": "T49",
-    "source": "Rapid Recovery ( Talent ) ",
-    "ability": "When healing strain after an encounter, heal 1 additional strain per rank of Rapid Recovery."
-  },
-  {
-    "id": "T50",
-    "source": "Redundant Systems ( Talent ) ",
-    "ability": "Once per session, may take a Redundant Systems action; make an Easy (1 Difficulty Die) Mechanics check to harvest components from a functioning device to repair a broken one without breaking the first device."
-  },
-  {
-    "id": "T51",
-    "source": "Reflect ( Talent ) ",
-    "ability": "When your character suffers a hit from a Ranged combat check, after damage is calculated but before soak is applied, your character may suffer 3 strain to use this talent to reduce the damage of the hit by two plus their ranks in Reflect. This talent can only be used once per hit, and your character needs to be wielding a Shield deemed appropriate by the GM."
-  },
-  {
-    "id": "T52",
-    "source": "Second Wind ( Talent ) ",
-    "ability": "Please consult the talent section within the Genesys Core Rulebook."
-  },
-  {
-    "id": "T53",
-    "source": "Signature Vehicle ( Talent ) ",
-    "ability": "Choose one starship or vehicle with a silhouette of 3 or lower that your character owns. This vehicle is your character's \"Signature Vehicle.\" Upgrade the ability of all Mechanics checks made to work on the vehicle once. If the vehicle ever lost or destroyed, the character may apply Signature Vehicle to a new vehicle that meets the requirements."
-  },
-  {
-    "id": "T54",
-    "source": "Sly Bartering ( Talent ) ",
-    "ability": "Once per session, when your character buys items they have a reduce cost of 10%. When your character sells items, they are sold at 10% higher. These prices are negotiated for the price prior to the 10% adjustment. This is done while buying from one specific merchant, shop or store once per session for every sell or purchase transaction while negotiating price with the merchant, shop or store."
-  },
-  {
-    "id": "T55",
-    "source": "Smooth Talker ( Talent ) ",
-    "ability": "When first acquired choose 1 skill; Charm, Coercion, Deception, or Negotiation. When making checks with that skill spend triumph to gain additional successes equal to ranks in Smooth Talker."
-  },
-  {
-    "id": "T56",
-    "source": "Solid Repairs ( Talent ) ",
-    "ability": "The character repairs +1 hull trauma per rank of Solid Repairs whenever he repairs a starship or vehicle."
-  },
-  {
-    "id": "T57",
-    "source": "Soothing Tone ( Talent ) ",
-    "ability": "Take a Soothing Tone action; make an Average (2 Difficulty Dice) Knowledge check to allow a beast to recover strain equal to s."
-  },
-  {
-    "id": "T58",
-    "source": "Sparklebit Scientist ( Talent ) ",
-    "ability": "When using the alchemy skill with anything relating to Sparklebits, remove one setback die."
-  },
-  {
-    "id": "T59",
-    "source": "Spirit Speech ( Talent ) ",
-    "ability": "All spirits (ghosts, elementals, etc) are revealed to you the space you can see. You are able to speak to the spirits and understand the spirits clearly. Remove one setback die in social encounters with a spirit."
-  },
-  {
-    "id": "T60",
-    "source": "Stoic Casting ( Talent ) ",
-    "ability": "Your character is in accord with magic, being able to feel the magic. Your character ignores the penalties for casting a spell without at least having one free hand, and for wearing heavy armor or using a shield."
-  },
-  {
-    "id": "T61",
-    "source": "Surgeon ( Talent ) ",
-    "ability": "Please consult the talent section within the Genesys Core Rulebook."
-  },
-  {
-    "id": "T62",
-    "source": "Swift ( Talent ) ",
-    "ability": "Please consult the talent section within the Genesys Core Rulebook."
-  },
-  {
-    "id": "T63",
-    "source": "Toughened ( Talent ) ",
-    "ability": "Please consult the talent section within the Genesys Core Rulebook."
-  },
-  {
-    "id": "T64",
-    "source": "Unremarkable ( Talent ) ",
-    "ability": "Please consult the talent section within the Genesys Core Rulebook."
-  },
-  {
-    "id": "T65",
-    "source": "Wheel and Deal ( Talent ) ",
-    "ability": "When selling good legally, gain 10% more credits per rank of Wheel and Deal."
-  },
-  {
-    "id": "T66",
-    "source": "A Charmed Life ( Talent ) ",
-    "ability": "Change every despair to a success, not greater than the rank of this talent during social interactions of using the skills Charm or Coercion."
-  },
-  {
-    "id": "T67",
-    "source": "Action Plan ( Talent ) ",
-    "ability": "Take Action Plan action, make a Hard (3 Difficulty Dice) Knowledge: Systems OR Leadership check to downgrade the ability of all attacks made against a target. The next attack against the target removes the effect."
-  },
-  {
-    "id": "T68",
-    "source": "Alchemist ( Talent ) ",
-    "ability": "Remove the automatic threat produced by practicing Alchemy."
-  },
-  {
-    "id": "T69",
-    "source": "Barrage ( Talent ) ",
-    "ability": "Add 1 damage per rank of Barrage to 1 hit of successful attack while using Ranged (Heavy) or Gunnery skills at long or extreme range."
-  },
-  {
-    "id": "T70",
-    "source": "Basic Military Training ( Talent ) ",
-    "ability": "Please consult the talent section within the Genesys Core Rulebook."
-  },
-  {
-    "id": "T71",
-    "source": "Beast Wrangler ( Talent ) ",
-    "ability": "Add one boost per rank of Beast Wrangler to checks to tame or wrangle creatures."
-  },
-  {
-    "id": "T72",
-    "source": "Belligerent Arcanist ( Talent ) ",
-    "ability": "Once per round, after making an arcana magic combat check but before resolving its effects, you may suffer two strain to add an advantage to the results. This advantage may only be used to help pay to activate the Blast, Destructive and Impact special qualities, or the Manipulative additional effect. You cannot use this talent if the magic combat check resulted in more than threats than advantages."
-  },
-  {
-    "id": "T73",
-    "source": "Berserk ( Talent ) ",
-    "ability": "Please consult the talent section within the Genesys Core Rulebook."
-  },
-  {
-    "id": "T74",
-    "source": "Blackmail ( Talent ) ",
-    "ability": "When an NPC exceeds his strain threshold, may spend 1 Story Point to convince that NPC to perform a single task of choice instead."
-  },
-  {
-    "id": "T75",
-    "source": "Blooded ( Talent ) ",
-    "ability": "Add one boost die per rank of Blooded to all checks to resist or recover from poisons, venoms, or toxins. Reduce duration of ongoing poisons by 1 round per rank of Blooded to a minimum of 1."
-  },
-  {
-    "id": "T76",
-    "source": "Body Guard ( Talent ) ",
-    "ability": "Once per round, perform the Body Guard maneuver to guard an engaged character. Suffer a number of strain no greater than ranks of Body Guard, then until the beginning of the next turn upgrade the difficulty of combat checks targeting the character by that number."
-  },
-  {
-    "id": "T77",
-    "source": "Burly ( Talent ) ",
-    "ability": "Reduce any wielded weapon's Cumbersome quality and Encumbrance rating by a number equal to ranks in Burly to a minimum of 1."
-  },
-  {
-    "id": "T78",
-    "source": "Command ( Talent ) ",
-    "ability": "Add one boost die per rank of Command when making Leadership checks. Affected targets add one boost die to Discipline checks for next 24 hours."
-  },
-  {
-    "id": "T79",
-    "source": "Confidence ( Talent ) ",
-    "ability": "May decrease difficulty of Discipline checks to avoid fear by 1 per rank of Confidence, to a minimum of Easy (1 Difficulty Die)."
-  },
-  {
-    "id": "T80",
-    "source": "Contingency Plan ( Talent ) ",
-    "ability": "Spend 1 Story Point to recover strain equal to Cunning rating."
-  },
-  {
-    "id": "T81",
-    "source": "Coordinated Assault ( Talent ) ",
-    "ability": "Please consult the talent section within the Genesys Core Rulebook."
-  },
-  {
-    "id": "T82",
-    "source": "Counteroffer ( Talent ) ",
-    "ability": "Please consult the talent section within the Genesys Core Rulebook."
-  },
-  {
-    "id": "T83",
-    "source": "Cutting Question ( Talent ) ",
-    "ability": "Once per encounter, when making a Coercion skill check, the character may use Deception skill instead."
-  },
-  {
-    "id": "T84",
-    "source": "Daring Aviator ( Talent ) ",
-    "ability": "Please consult the talent section within the Genesys Core Rulebook."
-  },
-  {
-    "id": "T85",
-    "source": "Debilitating Shot ( Talent ) ",
-    "ability": "Upon successful attack with a starship or vehicle weapon, may spend two advantages to reduce the maximum speed of the target by 1 until the end of the next round."
-  },
-  {
-    "id": "T86",
-    "source": "Deceptive Taunt ( Talent ) ",
-    "ability": "Once per session, may make Deceptive Taunt action. Make opposed Deception check. If successful, one adversary must attack the character during adversary's next turn."
-  },
-  {
-    "id": "T87",
-    "source": "Defensive Stance ( Talent ) ",
-    "ability": "Please consult the talent section within the Genesys Core Rulebook."
-  },
-  {
-    "id": "T88",
-    "source": "Defensive Sysops (Improved) ( Talent ) ",
-    "ability": "Please consult the talent section within the Genesys Core Rulebook."
-  },
-  {
-    "id": "T89",
-    "source": "Disorient ( Talent ) ",
-    "ability": "After hitting with combat check, may spend two advantages to disorient target for number of rounds equal to ranks in Disorient."
-  },
-  {
-    "id": "T90",
-    "source": "Distracting Behavior ( Talent ) ",
-    "ability": "Make a Distracting Behavior maneuver and suffer strain no greater than ranks in Cunning. Until the beginning of next turn, equal number of NPC's suffer threats on checks. Range increases with additional ranks."
-  },
-  {
-    "id": "T91",
-    "source": "Dual Wielder ( Talent ) ",
-    "ability": "Please consult the talent section within the Genesys Core Rulebook."
-  },
-  {
-    "id": "T92",
-    "source": "Dynamic Fire ( Talent ) ",
-    "ability": "When making a ranged attack while engaged with an opponent, may suffer 2 strain to reduce the ranged modifier by 1."
-  },
-  {
-    "id": "T93",
-    "source": "Elementalist ( Talent ) ",
-    "ability": "Once per round, after making a primal magic combat check but before resolving its effects, you may suffer two strain to add an advantage to the results. This advantage may only be used to help pay to activate the Fire, Ice, or Lightning special qualities. This cannot be used if the magic combat check resulted in more threats than advantages, or does it deal with an element, death spirit or life spirits."
-  },
-  {
-    "id": "T94",
-    "source": "Familiar ( Talent ) ",
-    "ability": "When your character purchases this talent, choose a silhouette 0 creature (approved by your GM). This creature becomes your character's familiar. Your character is bonded to this familiar as long as you choose, though the GM may decide to remove it due to mistreatment or other conditions. You instruct the familiar how to act telepathically. However, the only action a familiar may take is Exchange and Action for a Maneuver. It cannot fight except in self-defense, under the GM's direction. Once per round, your character may use a maneuver to direct the familiar to take specific maneuvers during your character's turn. As long as the familiar is in short range, it may use the Assist maneuver to give one advantage to all magic checks. This range increases with ranks in Familiar."
-  },
-  {
-    "id": "T95",
-    "source": "Fan the Hammer ( Talent ) ",
-    "ability": "Please consult the talent section within the Genesys Core Rulebook."
-  },
-  {
-    "id": "T96",
-    "source": "Fancy Paint Job ( Talent ) ",
-    "ability": "Your character must have purchased the Signature Vehicle talent to benefit from this talent. Upgrade all Charm, Deception, and Negotiation checks made in the presence of Signature Vehicle once."
-  },
-  {
-    "id": "T97",
-    "source": "Fearsome ( Talent ) ",
-    "ability": "When an adversary becomes engaged with the character, the character may force the adversary to make a fear check, with the difficulty equal to the character's ranks in Fearsome."
-  },
-  {
-    "id": "T98",
-    "source": "Fine Tuning ( Talent ) ",
-    "ability": "When reducing the amount of system strain a starship or vehicle suffers, reduce 1 additional strain per rank of Fine Tuning."
-  },
-  {
-    "id": "T99",
-    "source": "Finesse ( Talent ) ",
-    "ability": "The character may use Agility instead of Brawn for Brawl and Melee (Light) checks."
-  },
-  {
-    "id": "T100",
-    "source": "Freerunning ( Talent ) ",
-    "ability": "Suffer 1 strain when making a Move maneuver to move to any location within short range."
-  },
-  {
-    "id": "T101",
-    "source": "Grapple ( Talent ) ",
-    "ability": "Once per round, the character may perform the Grapple maneuver. Until the beginning of the character's next turn, enemies must spend two maneuvers instead of one maneuver to move from engaged range to short range of him."
-  },
-  {
-    "id": "T102",
-    "source": "Hard Headed ( Talent ) ",
-    "ability": "When staggered or disoriented, perform the Hard Headed action; make a Daunting (4 Difficulty Dice) Discipline check to remove status. Difficulty reduced per rank of Hard Headed."
-  },
-  {
-    "id": "T103",
-    "source": "Healer Not a Fighter ( Talent ) ",
-    "ability": "Once per encounter, after making a healing spell add one boost die to that spell. The next non healing spell the caster uses adds one setback die to that check. This remains active until a non-healing spell is used or the encounter is over."
-  },
-  {
-    "id": "T104",
-    "source": "Heightened Awareness ( Talent ) ",
-    "ability": "Please consult the talent section within the Genesys Core Rulebook."
-  },
-  {
-    "id": "T105",
-    "source": "Hold Together ( Talent ) ",
-    "ability": "Spend 1 Story Point to perform a Hold Together incidental immediately after vehicle or starship takes damage to turn it into system strain."
-  },
-  {
-    "id": "T106",
-    "source": "Hunter ( Talent ) ",
-    "ability": "Add one boost die per rank of Hunter to all checks when interacting with beast or animals (including combat checks). Add +10 to Critical Injury results against beasts or animals per rank of Hunter."
-  },
-  {
-    "id": "T107",
-    "source": "Hunter's Quarry ( Talent ) ",
-    "ability": "Take Hunter's Quarry action, make a Hard (3 Difficulty Dice) Survival check to upgrade the ability of all attacks made against a target at long range until the end of the character's next turn."
-  },
-  {
-    "id": "T108",
-    "source": "Inspiring Rhetoric ( Talent ) ",
-    "ability": "Please consult the talent section within the Genesys Core Rulebook."
-  },
-  {
-    "id": "T109",
-    "source": "Knockdown ( Talent ) ",
-    "ability": "After hitting with a melee attack, may spend a triumph to knock the target prone."
-  },
-  {
-    "id": "T110",
-    "source": "Know-It-All ( Talent ) ",
-    "ability": "Once per session, perfectly recall an important fact previously learned as if a Story Point had been spent."
-  },
-  {
-    "id": "T111",
-    "source": "Known Schematic ( Talent ) ",
-    "ability": "Once per session, may perform the Known Schematic maneuver; make a Hard (3 Difficulty Dice) Knowledge check. Success grants familiarity with a building or ship's design."
-  },
-  {
-    "id": "T112",
-    "source": "Loom ( Talent ) ",
-    "ability": "When an ally engaged with the character makes a successful Charm, Deception, or Negotiation check, the character adds an advantage per rank in Coercion to the ally's check."
-  },
-  {
-    "id": "T113",
-    "source": "Lucky Strike ( Talent ) ",
-    "ability": "Please consult the talent section within the Genesys Core Rulebook."
-  },
-  {
-    "id": "T114",
-    "source": "Naturalist ( Talent ) ",
-    "ability": "Replace all Knowledge: Paranormal checks while casting primal spells with Knowledge: Natural checks."
-  },
-  {
-    "id": "T115",
-    "source": "Occult Warrior ( Talent ) ",
-    "ability": "Once per round, when making a non-spell attack check you may choose modifiers from an attack spell effect and increase the difficulty of that check by the listed amounts. This combat check counts as both as the based skill check and magic check, and can use the threat and triumph results for either skills. Melee or Brawl skills cannot extend their range."
-  },
-  {
-    "id": "T116",
-    "source": "Overstocked Ammo ( Talent ) ",
-    "ability": "Your character must have purchased the Signature Vehicle talent to benefit from this talent. Increase the value of the Limited Ammo quality of any weapons mounted on Signature Vehicle by 1 per rank of Overstocked Ammo."
-  },
-  {
-    "id": "T117",
-    "source": "Pact Magic ( Talent ) ",
-    "ability": "You have entered into a Pact with a powerful otherworldly being. When you purchase this Talent, choose one spell type your character can not normally cast. Once per encounter, you may cast this spell using any magic skill you possess. The GM may spend two threats to make your character suffer one wound."
-  },
-  {
-    "id": "T118",
-    "source": "Physical Training ( Talent ) ",
-    "ability": "Add one boost die per rank of Physical Training to Athletics and Resilience checks."
-  },
-  {
-    "id": "T119",
-    "source": "Quickdraw (Improved) ( Talent ) ",
-    "ability": "Your character must have purchased the Quick Draw Talent to benefit from this talent. May use Quick Draw twice per round. This also allows you to reduce the prepare rating by 2 to a minimum of one."
-  },
-  {
-    "id": "T120",
-    "source": "Reconstruct the Scene ( Talent ) ",
-    "ability": "Perform the Reconstruct the Scene action; make a Hard (3 Difficulty Dice) Perception check to identify the physical characteristics of person present at the scene within 24 hours."
-  },
-  {
-    "id": "T121",
-    "source": "Resist Disarm ( Talent ) ",
-    "ability": "Suffer 2 strain to avoid being disarmed or have weapon damaged or destroyed."
-  },
-  {
-    "id": "T122",
-    "source": "Scathing Tirade ( Talent ) ",
-    "ability": "Please consult the talent section within the Genesys Core Rulebook."
-  },
-  {
-    "id": "T123",
-    "source": "Selective Blasts ( Talent ) ",
-    "ability": "When using a magical attack with the Blast quality, spend one advantage to exclude one target that would be have been affected by the explosion, up to ranks in Selective Detonation."
-  },
-  {
-    "id": "T124",
-    "source": "Selective Detonation ( Talent ) ",
-    "ability": "When using a weapon with the Blast quality spend advantage to exclude 1 target that would be affected by the explosion, up to ranks in Selective Detonation."
-  },
-  {
-    "id": "T125",
-    "source": "Sense Emotions ( Talent ) ",
-    "ability": "Add one boost die to all Charm, Coercion, and Deception checks."
-  },
-  {
-    "id": "T126",
-    "source": "Shield Slam ( Talent ) ",
-    "ability": "When attacking a minion or rival with a shield, may spend four advantages or one advantage and one triumph to stagger the target for 1 round."
-  },
-  {
-    "id": "T127",
-    "source": "Shortcut ( Talent ) ",
-    "ability": "During a chase; add one boost die per rank in Shortcut to any checks made to catch or escape an opponent."
-  },
-  {
-    "id": "T128",
-    "source": "Side Step ( Talent ) ",
-    "ability": "Please consult the talent section within the Genesys Core Rulebook."
-  },
-  {
-    "id": "T129",
-    "source": "Speaks Binary ( Talent ) ",
-    "ability": "When directing non-sentient NPC artificial life forms, may grant them one boost die per rank of Speaks Binary on checks."
-  },
-  {
-    "id": "T130",
-    "source": "Spur ( Talent ) ",
-    "ability": "Take a Spur action; make a Hard (3 Difficulty Dice) Survival check to increase a beast's top speed by 1. The beast suffers 2 strain every round it stays spurred."
-  },
-  {
-    "id": "T131",
-    "source": "Stalker ( Talent ) ",
-    "ability": "Add one boost die per rank of Stalker to all Stealth and Coordination checks."
-  },
-  {
-    "id": "T132",
-    "source": "Strong Arm ( Talent ) ",
-    "ability": "Treat thrown weapons as if they had 1 greater range."
-  },
-  {
-    "id": "T133",
-    "source": "Stunning Blow ( Talent ) ",
-    "ability": "While making Melee checks, may inflict damage as strain instead of wounds. This does not ignore soak."
-  },
-  {
-    "id": "T134",
-    "source": "Superstitious ( Talent ) ",
-    "ability": "Replace all Knowledge: Natural checks while spell casting with Knowledge: Paranormal checks."
-  },
-  {
-    "id": "T135",
-    "source": "Suppressing Fire ( Talent ) ",
-    "ability": "The character and each ally within short range may spend one advantage on their failed combat checks to inflict one strain on the target per rank of Suppressing Fire. Each character can only activate this effect once per round."
-  },
-  {
-    "id": "T136",
-    "source": "Technical Aptitude ( Talent ) ",
-    "ability": "When making a Computer skill check may spend two advantages or one triumph to reduce the time spent to complete the task by 50%"
-  },
-  {
-    "id": "T137",
-    "source": "Time to Go ( Talent ) ",
-    "ability": "The character may spend 1 Story Point to perform a Move maneuver as an incidental to attempt to move into cover or out of the blast range of a weapon or explosion."
-  },
-  {
-    "id": "T138",
-    "source": "Tinkerer ( Talent ) ",
-    "ability": "May add 1 additional hard point to a number of items equal to ranks in Tinkerer. Each item may only be modified once."
-  },
-  {
-    "id": "T139",
-    "source": "Touch of Fate ( Talent ) ",
-    "ability": "Once per session, add two boost dice to any 1 check."
-  },
-  {
-    "id": "T140",
-    "source": "Unarmed Parry ( Talent ) ",
-    "ability": "May Parry while unarmed. Reduce strain cost to Parry while unarmed by 1 (to a minimum of 1)."
-  },
-  {
-    "id": "T141",
-    "source": "Uncanny Senses ( Talent ) ",
-    "ability": "Add two boost dice per rank of Uncanny Senses to all Perception and Vigilance checks."
-  },
-  {
-    "id": "T142",
-    "source": "Unstoppable ( Talent ) ",
-    "ability": "If a Critical Injury roll is 1 or reduced to 1, do not receive the critical injury."
-  },
-  {
-    "id": "T143",
-    "source": "Vehicle Combat Training ( Talent ) ",
-    "ability": "Gunnery, Driving, and Piloting become career skills."
-  },
-  {
-    "id": "T144",
-    "source": "Visionary ( Talent ) ",
-    "ability": "Please consult the talent section within the Genesys Core Rulebook."
-  },
-  {
-    "id": "T145",
-    "source": "Well Read ( Talent ) ",
-    "ability": "Choose any 3 Knowledge skills. They permanently become career skills."
-  },
-  {
-    "id": "T146",
-    "source": "Well Rounded ( Talent ) ",
-    "ability": "Choose any 2 non-magic skills. They permanently become career skills."
-  },
-  {
-    "id": "T147",
-    "source": "Ambush ( Talent ) ",
-    "ability": "Once per round while benefiting from cover, may make the Ambush maneuver. Add damage equal to Stealth skill to one hit of next successful combat check against a target within short range before the end of the turn."
-  },
-  {
-    "id": "T148",
-    "source": "Animal Companion ( Talent ) ",
-    "ability": "Please consult the talent section within the Genesys Core Rulebook."
-  },
-  {
-    "id": "T149",
-    "source": "Armor Master ( Talent ) ",
-    "ability": "When wearing armor, Increase total soak value by 1."
-  },
-  {
-    "id": "T150",
-    "source": "Attention to Detail ( Talent ) ",
-    "ability": "After making a Mechanics or Alchemy check, may suffer strain up to ranks in Attention to Detail to convert that many successes to advantages."
-  },
-  {
-    "id": "T151",
-    "source": "Bad Press ( Talent ) ",
-    "ability": "Once per session, choose an organization and make a Hard (3 Difficulty Dice) Deception check. On success, organization members have their strain thresholds reduced by 1, plus 1 per three successes, until the end of the session. When he does this, the player must explain how the PC disseminated the propaganda such that it has affected his targets. The chosen organization must be narrow and cohesive enough to be affected by bad publicity."
-  },
-  {
-    "id": "T152",
-    "source": "Barrel Roll ( Talent ) ",
-    "ability": "Please consult the talent section within the Genesys Core Rulebook."
-  },
-  {
-    "id": "T153",
-    "source": "Binding ( Talent ) ",
-    "ability": "Choose one magical item (implement or enchantment) your character owns when taking this talent. Your character becomes bonded to this implement, and no other person may use it. Your character may attempt to summon it by making a Hard (3 Difficulty Dice) Primal or Divine Skill check."
-  },
-  {
-    "id": "T154",
-    "source": "Blind Spot ( Talent ) ",
-    "ability": "Your character, and allies within short range, add automatic advantage to combat checks they make while benefiting from cover."
-  },
-  {
-    "id": "T155",
-    "source": "Blood Magic ( Talent ) ",
-    "ability": "When casting a spell your character may take two wounds instead of two strain."
-  },
-  {
-    "id": "T156",
-    "source": "Bloodoil Connoisseur ( Talent ) ",
-    "ability": "Please consult the talent section within the Genesys Core Rulebook."
-  },
-  {
-    "id": "T157",
-    "source": "Body Guard (Improved) ( Talent ) ",
-    "ability": "Your character must have purchased the Body Guard talent to benefit from this talent. Once per session, when an ally protected by the Body Guard maneuver suffers a hit, suffer the hit instead."
-  },
-  {
-    "id": "T158",
-    "source": "Bonded Implement ( Talent ) ",
-    "ability": "Choose one magical implement your character owns when taking this talent. Your character becomes bonded to this implement, and no other person may use it. Your character may attempt to summon it by making a Hard (three difficulties) Magic Skill check. If your chosen implement is ever permanently lost or destroyed, you may select a new one of the same value."
-  },
-  {
-    "id": "T159",
-    "source": "Capital Sendoff ( Talent ) ",
-    "ability": "Take a Capital Sendoff action targeting two ships or vehicles at Close range; make a Hard (3 Difficulty Dice) Cool check to cause the targets to suffer a minor collision."
-  },
-  {
-    "id": "T160",
-    "source": "Channel Magical Energy ( Talent ) ",
-    "ability": "Once per round, before you make a magic check, you may perform a Channel Magical Energy maneuver. By performing this maneuver, you gain a boost die on your next magic check this turn while also upgrading the check once per rank of channeling."
-  },
-  {
-    "id": "T161",
-    "source": "Combat Caster ( Talent ) ",
-    "ability": "Once per session your character may add the Deadly quality to a spell without increasing the difficulty."
-  },
-  {
-    "id": "T162",
-    "source": "Confidence (Improved) ( Talent ) ",
-    "ability": "Your character must have purchased the Confidence talent to benefit from this talent. May spend a on a fear check to steady the nerves of allies making the same fear check. If the character does so each ally within short range who makes the fear check adds automatic successes equal to the character's rank in confidence."
-  },
-  {
-    "id": "T163",
-    "source": "Congenial ( Talent ) ",
-    "ability": "May suffer a number of strain to downgrade difficulty of Charm or Negotiation checks or upgrade difficulty when target by Charm or Negotiation checks, by an equal number Strain suffered this way cannot exceed ranks in Congenial."
-  },
-  {
-    "id": "T164",
-    "source": "Constant Vigilance ( Talent ) ",
-    "ability": "May always use Vigilance when making checks to determine initiative."
-  },
-  {
-    "id": "T165",
-    "source": "Creative Killer ( Talent ) ",
-    "ability": "Reduce the crit rating of improvised weapons by 2 (to a minimum of 1)."
-  },
-  {
-    "id": "T166",
-    "source": "Crippling Blow ( Talent ) ",
-    "ability": "Increase the difficulty of next combat check by 1. If check deals damage, target suffers 1 strain whenever he moves for the remainder of the encounter."
-  },
-  {
-    "id": "T167",
-    "source": "Cunning Snare ( Talent ) ",
-    "ability": "Once per encounter as an action, may create a trap. Any other character who moves to engaged range of the trap must make an Opposed Vigilance vs. Survival check to avoid harm and ill effects."
-  },
-  {
-    "id": "T168",
-    "source": "Customized Cooling Unit ( Talent ) ",
-    "ability": "Your character must have purchased the Signature Vehicle talent to benefit from this talent. Increase the system strain threshold of Signature Vehicle by 2 per rank of Customized Cooling Unit."
-  },
-  {
-    "id": "T169",
-    "source": "Daring Turn ( Talent ) ",
-    "ability": "When an opponent has gained the advantage on a starship or vehicle being piloted, may spent 2 strain perform a Daring Turn maneuver to remove the effects."
-  },
-  {
-    "id": "T170",
-    "source": "Dirty Tricks ( Talent ) ",
-    "ability": "When a character inflicts a Critical Injury, the target also adds two setback dice to their next action."
-  },
-  {
-    "id": "T171",
-    "source": "Disarm ( Talent ) ",
-    "ability": "May spend triumph or two advantage with a successful Brawl or Melee check to disarm opponent."
-  },
-  {
-    "id": "T172",
-    "source": "Disarming Smile ( Talent ) ",
-    "ability": "Take the Disarming Smile action; succeed at an opposed Charm check against a target within short range to lower all defenses of a target by ranks in Disarming Smile until the end of the encounter."
-  },
-  {
-    "id": "T173",
-    "source": "Disruptive Counterspell ( Talent ) ",
-    "ability": "When you take the Counterspell maneuver, all opponents within short range upgrade the difficulty of checks to cast spells one additional time (for a total of two times), until the end of your next turn. Only for Arcana and Divine spell casters."
-  },
-  {
-    "id": "T174",
-    "source": "Distant Spell ( Talent ) ",
-    "ability": "Once per session, when casting a spell the first range enhancement does not increase the difficulty of the spell."
-  },
-  {
-    "id": "T175",
-    "source": "Distinctive Style ( Talent ) ",
-    "ability": "Please consult the talent section within the Genesys Core Rulebook."
-  },
-  {
-    "id": "T176",
-    "source": "Dodge ( Talent ) ",
-    "ability": "Please consult the talent section within the Genesys Core Rulebook."
-  },
-  {
-    "id": "T177",
-    "source": "Double or Nothing ( Talent ) ",
-    "ability": "Suffer 2 strain to perform the Double or Nothing incidental to increase the difficulty of the next check by one. Then, after canceling opposing symbols, double the amount of remaining advantages"
-  },
-  {
-    "id": "T178",
-    "source": "Eagle Eyes ( Talent ) ",
-    "ability": "Please consult the talent section within the Genesys Core Rulebook."
-  },
-  {
-    "id": "T179",
-    "source": "Encoded Communique ( Talent ) ",
-    "ability": "Upgrade the difficulty of checks to decrypt this character's coded messages without the proper cipher a number of times equal to Computers skill."
-  },
-  {
-    "id": "T180",
-    "source": "Encouraging Words ( Talent ) ",
-    "ability": "After an engaged ally fails a check, may suffer 1 strain to assist that ally's next check this encounter as an out of turn incidental."
-  },
-  {
-    "id": "T181",
-    "source": "Eye for Detail ( Talent ) ",
-    "ability": "After making a Mechanics or Computers check, may suffer strain up to ranks in Eye for Detail to convert that many successes to advantages."
-  },
-  {
-    "id": "T182",
-    "source": "Familiar (Improved) ( Talent ) ",
-    "ability": "Your character must have purchased the Familiar talent to benefit from this talent. Your character may suffer 2 strain and make an Easy (one difficulty) Magic Skill check; if successful, see and hear using your familiar's senses for one round, and you may suffer 1 strain per round to extend the duration. In addition, when the Familiar uses the Assist maneuver with the Character's magic check, the Assist maneuver provides two boost dice. The familiar must be within the range granted by ranks in the Familiar talent for your character to use the Familiar (Improved) talent."
-  },
-  {
-    "id": "T183",
-    "source": "Fear the Shadows ( Talent ) ",
-    "ability": "Once per session, may make a Hard (3 Difficulty Dice) Deception check to force a single minion group or rival to flee the encounter."
-  },
-  {
-    "id": "T184",
-    "source": "Feint ( Talent ) ",
-    "ability": "Spend one triumph or three advantages generated on a missed melee attack to upgrade difficulty of opponent's next attack targeting character by ranks in Feint."
-  },
-  {
-    "id": "T185",
-    "source": "Feinting Fighter ( Talent ) ",
-    "ability": "Spend one triumph or three advantages generated on a missed melee or brawl attack to upgrade difficulty of opponent's next attack targeting character by ranks in Feint."
-  },
-  {
-    "id": "T186",
-    "source": "Feral Strength ( Talent ) ",
-    "ability": "Add 1 damage per rank of Feral Strength to one hit of successful attacks made using Brawl or Melee skills."
-  },
-  {
-    "id": "T187",
-    "source": "Field Commander ( Talent ) ",
-    "ability": "Please consult the talent section within the Genesys Core Rulebook."
-  },
-  {
-    "id": "T188",
-    "source": "Fire Control ( Talent ) ",
-    "ability": "Take the Fire Control action; all combat checks made from current starship or vehicle count their target's silhouette as one higher than normal until the beginning of next turn."
-  },
-  {
-    "id": "T189",
-    "source": "Forgot to Count? ( Talent ) ",
-    "ability": "Please consult the talent section within the Genesys Core Rulebook."
-  },
-  {
-    "id": "T190",
-    "source": "Form On Me ( Talent ) ",
-    "ability": "Allies equal to ranks in Leadership in close range gain the benefits of the Gain the Advantage action."
-  },
-  {
-    "id": "T191",
-    "source": "Fortified Structure ( Talent ) ",
-    "ability": "Your character must have purchased the Signature Vehicle talent to benefit from this talent. Increase the hull trauma threshold of Signature Vehicle by 1 per rank of Fortified Structure."
-  },
-  {
-    "id": "T192",
-    "source": "Freerunning (Improved) ( Talent ) ",
-    "ability": "Your character must have purchased the Freerunning talent to benefit from this talent. Suffer 4 strain when making a move maneuver to move to any location within medium range."
-  },
-  {
-    "id": "T193",
-    "source": "Frenzied Attack ( Talent ) ",
-    "ability": "When making a Melee or Brawl check, suffer a number of strain to upgrade the attack an equal number of times. The strain suffered may not exceed ranks in Frenzied Attack."
-  },
-  {
-    "id": "T194",
-    "source": "Full Throttle ( Talent ) ",
-    "ability": "Take a Full Throttle action; make a Hard (3 Difficulty Dice) Piloting check to increase a vehicle's top speed by 1 for a number of rounds equal to Cunning."
-  },
-  {
-    "id": "T195",
-    "source": "Greased Palms ( Talent ) ",
-    "ability": "Before making a social check, may spend up to 50 credits per rank of Greased Palms to upgrade the ability of the check once for every 50 spent."
-  },
-  {
-    "id": "T196",
-    "source": "Grenadier ( Talent ) ",
-    "ability": "Please consult the talent section within the Genesys Core Rulebook."
-  },
-  {
-    "id": "T197",
-    "source": "Harass ( Talent ) ",
-    "ability": "Whenever the character's animal companion makes a successful combat check against a target, it may forgo inflicting damage to upgrade the difficulty of the target's next check once instead."
-  },
-  {
-    "id": "T198",
-    "source": "Hard-Boiled ( Talent ) ",
-    "ability": "When recovering strain after an encounter, may spend advantages up to ranks in Hard-Boiled to recover 1 wound per advantage spent."
-  },
-  {
-    "id": "T199",
-    "source": "Heroic Recovery ( Talent ) ",
-    "ability": "Once per encounter, may spend a Story Point to recover 4 strain."
-  },
-  {
-    "id": "T200",
-    "source": "Heroic Resilience ( Talent ) ",
-    "ability": "Immediately after being hit by an attack but before suffering damage, spend 1 Story Point to increase soak by ranks in Resilience."
-  },
-  {
-    "id": "T201",
-    "source": "Heroic Will ( Talent ) ",
-    "ability": "Please consult the talent section within the Genesys Core Rulebook."
-  },
-  {
-    "id": "T202",
-    "source": "Hindering Shot ( Talent ) ",
-    "ability": "Spend a story point and increase the difficulty of next Gunnery check by 1. If check deals damage, target starship or vehicle suffers system strain equal to speed when it moves for a number of turns equal to ranks in Hindering Shot."
-  },
-  {
-    "id": "T203",
-    "source": "Hunter's Quarry (Improved) ( Talent ) ",
-    "ability": "Your character must have purchased the Hunter's Quarry talent to benefit from this talent. Suffer 2 strain to perform Hunter's Quarry action as a maneuver"
-  },
-  {
-    "id": "T204",
-    "source": "Informant ( Talent ) ",
-    "ability": "Once per session, may reveal a contact who can shed light on a chosen subject."
-  },
-  {
-    "id": "T205",
-    "source": "Inspiring Rhetoric (Improved) ( Talent ) ",
-    "ability": "Please consult the talent section within the Genesys Core Rulebook."
-  },
-  {
-    "id": "T206",
-    "source": "Intense Presence ( Talent ) ",
-    "ability": "Spend 1 Story Point to recover strain equal to Presence rating"
-  },
-  {
-    "id": "T207",
-    "source": "Interjection ( Talent ) ",
-    "ability": "After another character makes a social check, suffer 3 strain to take an interjection incidental make an Average (2 Difficulty Dice) Vigilance check to add success or failures equal to successes, and advantage or threat equal to advantage to the check."
-  },
-  {
-    "id": "T208",
-    "source": "Intimidating ( Talent ) ",
-    "ability": "May suffer a number of strain to downgrade difficulty of Coercion checks, or upgrade difficulty when targeted by Coercion checks, by an equal number. Strain suffered this way cannot exceed ranks in Intimidating."
-  },
-  {
-    "id": "T209",
-    "source": "Inventor ( Talent ) ",
-    "ability": "Please consult the talent section within the Genesys Core Rulebook."
-  },
-  {
-    "id": "T210",
-    "source": "Iron Body ( Talent ) ",
-    "ability": "Remove one setback die per rank of Iron Body from Coordination and Resilience checks. Reduce the critical rating of unarmed attacks by 1 per rank of Iron Body (to a minimum of 1)."
-  },
-  {
-    "id": "T211",
-    "source": "Larger Project ( Talent ) ",
-    "ability": "Your character must have purchased the Signature Vehicle talent to benefit from this talent. Signature Vehicle can have a silhouette 1 larger per rank of Larger Project"
-  },
-  {
-    "id": "T212",
-    "source": "Lethal Blows ( Talent ) ",
-    "ability": "Add +10 per rank of Lethal Blows to any Critical Injury results inflicted on opponents."
-  },
-  {
-    "id": "T213",
-    "source": "Life or Death ( Talent ) ",
-    "ability": "When your character suffers wounds equal to half of their wound threshold or greater, add one advantage to all combat checks they make."
-  },
-  {
-    "id": "T214",
-    "source": "Lingering Spell ( Talent ) ",
-    "ability": "Spend a Story Point and your character may make concentration maneuver as an incidental."
-  },
-  {
-    "id": "T215",
-    "source": "Madman ( Talent ) ",
-    "ability": "Please consult the talent section within the Genesys Core Rulebook."
-  },
-  {
-    "id": "T216",
-    "source": "Maximize Spell ( Talent ) ",
-    "ability": "Once per session you may spend a Story Point and your character may add one boost to the skill check to cast a spell once per rank in Maximize Spell."
-  },
-  {
-    "id": "T217",
-    "source": "Natural ( Talent ) ",
-    "ability": "Please consult the talent section within the Genesys Core Rulebook."
-  },
-  {
-    "id": "T218",
-    "source": "No Escape ( Talent ) ",
-    "ability": "May spend two advantages from a Coercion check or two threats from a foe's Discipline check; that target cannot perform a free maneuver during his next turn."
-  },
-  {
-    "id": "T219",
-    "source": "Nobody's Fool ( Talent ) ",
-    "ability": "May upgrade difficulty of incoming Charm, Coercion, or Deception checks once per rank of Nobody's Fool."
-  },
-  {
-    "id": "T220",
-    "source": "Out of the Box ( Talent ) ",
-    "ability": "Choose one characteristic when purchasing this talent. Once per session, make one skill check using that characteristic rather than the characteristic linked to that skill."
-  },
-  {
-    "id": "T221",
-    "source": "Overwhelm Defenses ( Talent ) ",
-    "ability": "Upon unsuccessful attack with a starship or vehicle weapon, may spend two advantages per rank of Overwhelm Defenses. Reduce the defense in the targeted zone by 1 for every two advantages spent."
-  },
-  {
-    "id": "T222",
-    "source": "Painkiller Specialization ( Talent ) ",
-    "ability": "Please consult the talent section within the Genesys Core Rulebook."
-  },
-  {
-    "id": "T223",
-    "source": "Parry (Improved) ( Talent ) ",
-    "ability": "Please consult the talent section within the Genesys Core Rulebook."
-  },
-  {
-    "id": "T224",
-    "source": "Persistent Spell ( Talent ) ",
-    "ability": "When you cast a spell that can be sustained through concentration on an ally, you can spend three advantages, a triumph, or one story point to have that spell last until the end of the encounter without your character having to use the concentrate maneuver."
-  },
-  {
-    "id": "T225",
-    "source": "Pin ( Talent ) ",
-    "ability": "Take Pin action; make an Opposed athletics check to immobilize an engaged opponent until the end of the character's next turn. Spend triumph to extend duration one round."
-  },
-  {
-    "id": "T226",
-    "source": "Plausible Deniability ( Talent ) ",
-    "ability": "Take a Plausible Deniability action makes a Hard (3 Difficulty Dice) Coercion check to convince one bystander equal to your Willpower to depart quietly."
-  },
-  {
-    "id": "T227",
-    "source": "Point Blank ( Talent ) ",
-    "ability": "Add 1 damage per rank of Point Blank to damage of one hit of successful attack while using Ranged (Heavy) or Ranged (Light) skills at short range or engaged."
-  },
-  {
-    "id": "T228",
-    "source": "Powerful Blast ( Talent ) ",
-    "ability": "Increase Blast damage dealt by +1 per rank of Powerful Blast."
-  },
-  {
-    "id": "T229",
-    "source": "Precise Aim ( Talent ) ",
-    "ability": "Once per round, may perform Precise Aim maneuver. Suffer a number of strain no greater than ranks in Precise Aim, then reduce target's melee and ranged defense by that number."
-  },
-  {
-    "id": "T230",
-    "source": "Preemptive Avoidance ( Talent ) ",
-    "ability": "May spend 1 Story Point to disengage from engaged enemy as an out-of-turn incidental."
-  },
-  {
-    "id": "T231",
-    "source": "Prepared Spell ( Talent ) ",
-    "ability": "Once per session, your character may make a skill check to cast a spell without suffering strain."
-  },
-  {
-    "id": "T232",
-    "source": "Rapid Archery ( Talent ) ",
-    "ability": "Please consult the talent section within the Genesys Core Rulebook."
-  },
-  {
-    "id": "T233",
-    "source": "Reflect (Improved) ( Talent ) ",
-    "ability": "Your character must have purchased the Reflect Talent to benefit from this talent. Your character may use reflect while wielding a melee weapon deemed appropriate by the GM. When reflecting a hit that generated despair or three threats may hit one target in medium range with the same damage as the initial hit, after original attack resolves."
-  },
-  {
-    "id": "T234",
-    "source": "Resourceful Refit ( Talent ) ",
-    "ability": "May perform the Resourceful Refit action, make an Average (2 Difficulty Dice) Mechanics check to scavenge an old attachment to construct a new one, reducing its price by that of the dismantled attachment."
-  },
-  {
-    "id": "T235",
-    "source": "Scathing Tirade (Improved) ( Talent ) ",
-    "ability": "Please consult the talent section within the Genesys Core Rulebook."
-  },
-  {
-    "id": "T236",
-    "source": "Seize the Initiative ( Talent ) ",
-    "ability": "Once per session, as a maneuver, may make a Hard (3 Difficulty Dice) Athletics check. On success, other PCs may take their turns immediately."
-  },
-  {
-    "id": "T237",
-    "source": "Sense Advantage ( Talent ) ",
-    "ability": "Once per session, may add two setback dice to 1 NPC's skill check."
-  },
-  {
-    "id": "T238",
-    "source": "Shape Spell ( Talent ) ",
-    "ability": "When casting a spell with the blast quality spend 1 a per target the caster wishes to exclude that would be affected by the blast."
-  },
-  {
-    "id": "T239",
-    "source": "Share Pain ( Talent ) ",
-    "ability": "May perform the Share Pain incidental when animal companion suffers wounds. Reduce wounds suffered to half, then character suffers wounds equal to number reduced."
-  },
-  {
-    "id": "T240",
-    "source": "Shortcut (Improved) ( Talent ) ",
-    "ability": "Your character must have purchased the Shortcut talent to benefit from this talent. When engaging in a chase or race, may suffer 2 strain to add successes equal to ranks in Shortcut to the check."
-  },
-  {
-    "id": "T241",
-    "source": "Sound Investments ( Talent ) ",
-    "ability": "At the start of each session, gain 100 money units for each rank of Sound Investments."
-  },
-  {
-    "id": "T242",
-    "source": "Spur (Improved) ( Talent ) ",
-    "ability": "Your character must have purchased the Spur talent to benefit from this talent. Suffer 1 strain to attempt Spur as a maneuver and decrease its difficulty to Average (2 Difficulty Dice)."
-  },
-  {
-    "id": "T243",
-    "source": "Studious Plotting ( Talent ) ",
-    "ability": "When making a Streetwise or Survival skill check to navigate, the character may use Intellect instead of Cunning."
-  },
-  {
-    "id": "T244",
-    "source": "Stunning Blow (Improved) ( Talent ) ",
-    "ability": "Your character must have purchased the Stunning Blow talent to benefit from this talent. When dealing strain damage with Melee or Brawl checks, may spend triumph to stagger target for 1 round per t."
-  },
-  {
-    "id": "T245",
-    "source": "Time to Go (Improved) ( Talent ) ",
-    "ability": "Your character must have purchased the Time to Go talent to benefit from this talent. When activating Time to Go, allow 1 engaged ally to also perform an out of turn Move maneuver as an incidental to attempt to move into cover or out of the blast range of a weapon or explosion."
-  },
-  {
-    "id": "T246",
-    "source": "Tricky Target ( Talent ) ",
-    "ability": "Count vehicle or starship piloted as having a silhouette 1 lower when being attacked."
-  },
-  {
-    "id": "T247",
-    "source": "Tumble ( Talent ) ",
-    "ability": "While engaged with one or more adversaries, may suffer 2 strain to move to short range as an incidental."
-  },
-  {
-    "id": "T248",
-    "source": "Tuned Maneuvering Thrusters ( Talent ) ",
-    "ability": "Your character must have purchased the Signature Vehicle talent to benefit from this talent. Increase the handling of Signature Vehicle by 1 per rank of Tuned Maneuvering Thrusters."
-  },
-  {
-    "id": "T249",
-    "source": "Twisted Words ( Talent ) ",
-    "ability": "When an incoming social check generates two threats or one dispair, may suffer 1 strain as an incidental to inflict strain equal to ranks in Coercion on speaker."
-  },
-  {
-    "id": "T250",
-    "source": "Up the Ante ( Talent ) ",
-    "ability": "When gambling win 10% more credits per rank of Up the Ante."
-  },
-  {
-    "id": "T251",
-    "source": "Utility Belt ( Talent ) ",
-    "ability": "Spend 1 Story Point to perform a Utility Belt incidental; produce an undocumented item (maximum 1 encumbrance) or weapon (with Limited Ammo One quality) from a tool belt or a satchel."
-  },
-  {
-    "id": "T252",
-    "source": "Valuable Facts ( Talent ) ",
-    "ability": "Once per encounter, perform a Valuable Facts action: make an Average (2 Difficulty Dice) Knowledge check. If successful, add one triumph to one ally's skill check during the encounter."
-  },
-  {
-    "id": "T253",
-    "source": "Valuable Knowledge ( Talent ) ",
-    "ability": "Once per encounter, perform a Valuable Facts action: make an Average (2 Difficulty Dice) Knowledge: Mortality, Knowledge: Natural, Knowledge: Paranormal or Knowledge: Systems check. If successful, add one triumph to one ally's skill check during the encounter."
-  },
-  {
-    "id": "T254",
-    "source": "Violent Caster ( Talent ) ",
-    "ability": "Once per session spend a Story Point and your character may add the Deadly quality to a spell without increasing the difficulty."
-  },
-  {
-    "id": "T255",
-    "source": "Wraithbane ( Talent ) ",
-    "ability": "Reduce the Critical rating of weapon by 1, to a minimum of 1, when attacking an undead adversary."
-  },
-  {
-    "id": "T256",
-    "source": "Accelerated Spell ( Talent ) ",
-    "ability": "Once per session, spend 2 strain to make a Primal or Divine skill check as a maneuver."
-  },
-  {
-    "id": "T257",
-    "source": "Armor Master (Improved) ( Talent ) ",
-    "ability": "Your character must have purchased the Armor Master talent to benefit from this talent. When wearing armor with a soak value of 2 or higher, increase defense by 1."
-  },
-  {
-    "id": "T258",
-    "source": "Better Luck Next Time ( Talent ) ",
-    "ability": "Take a Better Luck Next Time action; make a Hard (3 Difficulty Dice) Cool check to force a competitor to suffer a major misfortune."
-  },
-  {
-    "id": "T259",
-    "source": "Blood Magic (Improved) ( Talent ) ",
-    "ability": "Your character must have purchased the Blood Magic talent to benefit from this talent. Once per encounter, suffer an additional wound while using Blood Magic and add one additional effect with a Difficulty Mod (plus one difficulty dice) to a spell without increasing the difficulty."
-  },
-  {
-    "id": "T260",
-    "source": "Body Guard (Supreme) ( Talent ) ",
-    "ability": "Your character must have purchased the Body Guard talent to benefit from this talent. Body Guard maneuver may protect a number of engaged characters up to ranks in Resilience."
-  },
-  {
-    "id": "T261",
-    "source": "Bolstered Armor ( Talent ) ",
-    "ability": "Your character must have purchased the Signature Vehicle talent to benefit from this talent. Increase the armor value of Signature Vehicle by 1 per rank of Bolstered Armor."
-  },
-  {
-    "id": "T262",
-    "source": "Brilliant Evasion ( Talent ) ",
-    "ability": "Once per vehicle encounter, your character may take Brilliant Evasion action. Select 1 opponent and make Opposed Driving or Piloting check to stop opponent from attacking character for rounds equal to Agility."
-  },
-  {
-    "id": "T263",
-    "source": "Can’t We Talk About This? ( Talent ) ",
-    "ability": "Please consult the talent section within the Genesys Core Rulebook."
-  },
-  {
-    "id": "T264",
-    "source": "Capital Sendoff (Improved) ( Talent ) ",
-    "ability": "Your character must have purchased the Capital Sendoff talent to benefit from this talent. When performing a Capital Sendoff, the targets suffer a major collision instead."
-  },
-  {
-    "id": "T265",
-    "source": "Careful Planning ( Talent ) ",
-    "ability": "Once per session, may introduce a \"fact\" into the narrative as if a Story Point had been spent."
-  },
-  {
-    "id": "T266",
-    "source": "Center of Being ( Talent ) ",
-    "ability": "Take a Center of Being maneuver. Until the beginning of next turn, attacks against the character increase their critical rating by 1 per rank of Center of Being."
-  },
-  {
-    "id": "T267",
-    "source": "Circle of Shelter ( Talent ) ",
-    "ability": "When an engaged ally suffers a hit, may use Parry or Reflect incidental against the hit."
-  },
-  {
-    "id": "T268",
-    "source": "Commanding Presence ( Talent ) ",
-    "ability": "Once per session, may take Commanding Presence action; make an opposed Cool vs. Discipline check to force target to leave the encounter."
-  },
-  {
-    "id": "T269",
-    "source": "Deadeye ( Talent ) ",
-    "ability": "Please consult the talent section within the Genesys Core Rulebook."
-  },
-  {
-    "id": "T270",
-    "source": "Deadly Accuracy ( Talent ) ",
-    "ability": "When acquired, choose 1 combat skill. Add damage equal to ranks in that skill to one hit of successful attack made using that skill. May not choose the same skill more than once."
-  },
-  {
-    "id": "T271",
-    "source": "Defensive ( Talent ) ",
-    "ability": "Please consult the talent section within the Genesys Core Rulebook."
-  },
-  {
-    "id": "T272",
-    "source": "Defensive Driving ( Talent ) ",
-    "ability": "Please consult the talent section within the Genesys Core Rulebook."
-  },
-  {
-    "id": "T273",
-    "source": "Deflection ( Talent ) ",
-    "ability": "Your character must have purchased the Reflect talent to benefit from this talent. After using Reflect, may spend 1 Story Point to perform Move maneuver as out-of-turn incidental to close distance with or engage opponent."
-  },
-  {
-    "id": "T274",
-    "source": "Discredit ( Talent ) ",
-    "ability": "Once per encounter, take the Discredit action, make a Hard (3 Difficulty Dice) Deception check to upgrade the difficulty of one character's social checks once, plus once for every two advantages, until the end of the encounter."
-  },
-  {
-    "id": "T275",
-    "source": "Distracting Behavior (Improved) ( Talent ) ",
-    "ability": "Your character must have purchased the Distracting Behavior talent to benefit from this talent. The Distracting Behavior maneuver inflicts two threat on NPC's checks when NPC's target character's allies."
-  },
-  {
-    "id": "T276",
-    "source": "Don't Shoot! ( Talent ) ",
-    "ability": "Once per session as an action, make a Hard (3 Difficulty Dice) Charm check. On a success, cannot be target of combat checks until the end of the encounter or until making a combat check."
-  },
-  {
-    "id": "T277",
-    "source": "Double or Nothing (Improved) ( Talent ) ",
-    "ability": "Your character must have purchased the Double or Nothing talent to benefit from this talent. When performing the Double or Nothing incidental, after canceling opposing symbols, also double the amount of remaining successes."
-  },
-  {
-    "id": "T278",
-    "source": "Enduring ( Talent ) ",
-    "ability": "Please consult the talent section within the Genesys Core Rulebook."
-  },
-  {
-    "id": "T279",
-    "source": "Faith Healing ( Talent ) ",
-    "ability": "After making a skill check to cast a Heal spell, may choose to have successes heal strain and a heal wounds."
-  },
-  {
-    "id": "T280",
-    "source": "Familiar (Supreme) ( Talent ) ",
-    "ability": "Your character must have purchased the Familiar talent to benefit from this talent. You may spend a Story Point and use your Familiar as the point of origin for casting a spell. The familiar must be within the range granted by ranks in the Familiar talent for your character to use the Familiar (Supreme) talent."
-  },
-  {
-    "id": "T281",
-    "source": "Field Commander (Improved) ( Talent ) ",
-    "ability": "Please consult the talent section within the Genesys Core Rulebook."
-  },
-  {
-    "id": "T282",
-    "source": "Finesse (Improved) ( Talent ) ",
-    "ability": "Your character must have purchased the Finesse talent to benefit from this talent. Because you can rapidly strike with surgical precision, use Agility instead of Brawn for determining base damage for Brawl and Melee(Light) attacks."
-  },
-  {
-    "id": "T283",
-    "source": "Fortune Favors the Bold ( Talent ) ",
-    "ability": "Once per session as an incidental, suffer 2 strain to flip one GM Story Point to a Player Story Point."
-  },
-  {
-    "id": "T284",
-    "source": "Full Throttle ( Talent ) ",
-    "ability": "Please consult the talent section within the Genesys Core Rulebook."
-  },
-  {
-    "id": "T285",
-    "source": "Full Throttle (Supreme) ( Talent ) ",
-    "ability": "Your character must have purchased the Full Throttle talent to benefit from this talent. When performing Full Throttle, top speed increases by 2 instead of 1."
-  },
-  {
-    "id": "T286",
-    "source": "Holistic Navigation ( Talent ) ",
-    "ability": "When making an Astrocartography skill check, the character may spend one Story Point to remove one dispair, or to remove threats equal to his ranks in Perception."
-  },
-  {
-    "id": "T287",
-    "source": "How Convenient! ( Talent ) ",
-    "ability": "Please consult the talent section within the Genesys Core Rulebook."
-  },
-  {
-    "id": "T288",
-    "source": "In The Know ( Talent ) ",
-    "ability": "Once per session, make an opposed Deception vs Vigilance check with the difficulty downgraded a number of times equal to your ranks in deception to have a target NPC believe specific false intelligence."
-  },
-  {
-    "id": "T289",
-    "source": "Incite Rebellion ( Talent ) ",
-    "ability": "Once per session, may take an Incite Rebellion action; make a Hard (3 Difficulty Dice) Coercion check to cause a number of beings up to ranks in Coercion to become rebellious until the end of the encounter."
-  },
-  {
-    "id": "T290",
-    "source": "Inspiring Rhetoric (Supreme) ( Talent ) ",
-    "ability": "Please consult the talent section within the Genesys Core Rulebook."
-  },
-  {
-    "id": "T291",
-    "source": "It's Not that Bad ( Talent ) ",
-    "ability": "Once per session when an ally would suffer a Critical Injury, may take an It's Not That Bad action; make a Hard (3 Difficulty Dice) Medicine check to stop the ally from gaining the Critical Injury."
-  },
-  {
-    "id": "T292",
-    "source": "Jury Rigged ( Talent ) ",
-    "ability": "The character chooses one personal weapon or piece of armor per rank of Jury Rigged. He may increase the damage of the weapon by one; decrease the a cost on its Critical, or any single other effect by one to a minimum of one; or increase armor's ranged or melee defense by one. Alternatively, he can decrease the encumbrance of the item by two to a minimum of one. The bonus only applies so long as the character is using the item. If the item is ever lost or destroyed, the character may apply Jury Rigged to a new personal weapon or piece or armor."
-  },
-  {
-    "id": "T293",
-    "source": "Life or Death (Improved) ( Talent ) ",
-    "ability": "Your character must have purchased the Life or Death talent to benefit from this talent. When your character suffers wounds equal to half of their wound threshold or greater, upgrade the ability of all combat checks they make. This replaces the normal effects of Life or Death."
-  },
-  {
-    "id": "T294",
-    "source": "Mad Inventor ( Talent ) ",
-    "ability": "Please consult the talent section within the Genesys Core Rulebook."
-  },
-  {
-    "id": "T295",
-    "source": "Menace ( Talent ) ",
-    "ability": "Enemy within short range of the character's animal companion adds one setback die to next Combat check made against the character."
-  },
-  {
-    "id": "T296",
-    "source": "Mind Over Matter ( Talent ) ",
-    "ability": "The character may spend one Story Point to recover strain equal to his Willpower rating."
-  },
-  {
-    "id": "T297",
-    "source": "Moving Target ( Talent ) ",
-    "ability": "If the character has already acted this round, increase ranged defense by 1 per rank of moving target."
-  },
-  {
-    "id": "T298",
-    "source": "Not Today ( Talent ) ",
-    "ability": "Your character must have purchased the Signature Vehicle talent to benefit from this talent. Once per session, spend a Story Point to save Signature Vehicle from destruction."
-  },
-  {
-    "id": "T299",
-    "source": "Offensive Driving ( Talent ) ",
-    "ability": "As a maneuver, suffer system strain up to vehicle's highest defense to upgrade the difficulty of target's next Piloting check that many times."
-  },
-  {
-    "id": "T300",
-    "source": "Overbalance ( Talent ) ",
-    "ability": "Whenever an enemy engaged with the character makes a combat check, after the attack is resolved, the character may spend dispair or three threats to stagger the attacker until the end of the attacker's next turn."
-  },
-  {
-    "id": "T301",
-    "source": "Overcharge ( Talent ) ",
-    "ability": "Please consult the talent section within the Genesys Core Rulebook."
-  },
-  {
-    "id": "T302",
-    "source": "Prey on the Weak ( Talent ) ",
-    "ability": "Add +1 damage to one hit of successful combat checks against disoriented targets per rank of Prey on the Weak."
-  },
-  {
-    "id": "T303",
-    "source": "Prime Positions ( Talent ) ",
-    "ability": "When this character or an ally in short range takes cover, he increases soak against ranged attacks by 1 per rank of Prime Positions until he leaves that cover."
-  },
-  {
-    "id": "T304",
-    "source": "Prophetic Aim ( Talent ) ",
-    "ability": "While benefiting from an Aim maneuver, despair from the character's Ranged (Heavy) and Ranged (Light) checks cannot cause attacks to hit allies engaged with the target."
-  },
-  {
-    "id": "T305",
-    "source": "Quickened Spell ( Talent ) ",
-    "ability": "Once per session, spend 2 strain to make a magic skill check as a maneuver."
-  },
-  {
-    "id": "T306",
-    "source": "Rain of Death ( Talent ) ",
-    "ability": "Perform the Rain of Death maneuver to ignore the increased difficulty due to the Auto-fire quality of attacks made this turn."
-  },
-  {
-    "id": "T307",
-    "source": "Raw Smarts ( Talent ) ",
-    "ability": "Once per session, may take a Street Smarts action; make a Formidable (5 Difficulty Dice) Streetwise or Knowledge: Systems check to learn one vital clue from the GM. Reduce the difficulty once per rank of Raw Smarts."
-  },
-  {
-    "id": "T308",
-    "source": "Reflect (Supreme) ( Talent ) ",
-    "ability": "Your character must have purchased the Reflect Talent to benefit from this talent. If the user did not make a combat check during previous turn, may suffer 1 strain to use Reflect."
-  },
-  {
-    "id": "T309",
-    "source": "Reflexive Barrier ( Talent ) ",
-    "ability": "Once per session, when your character is targeted by an attack, you may cast Barrier as an out of turn incidental."
-  },
-  {
-    "id": "T310",
-    "source": "Reflexive Barrier ( Talent ) ",
-    "ability": "Once per session, when your character is targeted by an attack, you may cast Barrier as an out of turn incidental."
-  },
-  {
-    "id": "T311",
-    "source": "Reinforced Frame ( Talent ) ",
-    "ability": "Your character must have purchased the Signature Vehicle talent to benefit from this talent. Signature Vehicle gains Massive 1: when making an attack targeting the ship or vehicle, the Critical rating of any weapon used counts as 1 higher."
-  },
-  {
-    "id": "T312",
-    "source": "Reroute Processors ( Talent ) ",
-    "ability": "Once per encounter, may take a Reroute Processors action, make an Average (2 Difficulty Dice) Computers check to reduce one of a droid's characteristics by 1 and increase another of its characteristics by 1."
-  },
-  {
-    "id": "T313",
-    "source": "Researcher ( Talent ) ",
-    "ability": "On a successful Knowledge check, character and allies gain automatic a per rank of Researcher on checks to act on those facts until the end of his next turn."
-  },
-  {
-    "id": "T314",
-    "source": "Resolve ( Talent ) ",
-    "ability": "When a character involuntarily suffers strain, he suffers 1 less strain per rank of Resolve to a minimum of 1."
-  },
-  {
-    "id": "T315",
-    "source": "Scathing Tirade (Supreme) ( Talent ) ",
-    "ability": "Please consult the talent section within the Genesys Core Rulebook."
-  },
-  {
-    "id": "T316",
-    "source": "Second Chances ( Talent ) ",
-    "ability": "Once per encounter choose a number of positive dice equal to ranks in Second Chances and reroll them."
-  },
-  {
-    "id": "T317",
-    "source": "Showboat ( Talent ) ",
-    "ability": "When making a check in a vehicle, may suffer 2 strain to gain triumph on success or despair on failure."
-  },
-  {
-    "id": "T318",
-    "source": "Skilled Slicer ( Talent ) ",
-    "ability": "When making a Computers check may spend a triumph to make further Computers checks within this system as maneuvers."
-  },
-  {
-    "id": "T319",
-    "source": "Sorry About the Mess ( Talent ) ",
-    "ability": "Decrease the Critical Rating of a weapon by 1 (to a minimum of 1) against targets that have not yet acted this encounter."
-  },
-  {
-    "id": "T320",
-    "source": "Speaks Binary (Improved) ( Talent ) ",
-    "ability": "Your character must have purchased the Speaks Binary talent to benefit from this talent. When directing non-sentient NPC artificial life forms, those NPCs grant additional one boost die in addition to other benefits."
-  },
-  {
-    "id": "T321",
-    "source": "Spitfire ( Talent ) ",
-    "ability": "After a successful combined check with two Ranged (Light) weapons, additional hits can be allocated to other targets within range of the weapon."
-  },
-  {
-    "id": "T322",
-    "source": "Spur (Supreme) ( Talent ) ",
-    "ability": "Your character must have purchased the Spur talent to benefit from this talent. When activating and maintaining Spur, the beast only suffers 1 strain instead of 2."
-  },
-  {
-    "id": "T323",
-    "source": "Street Smarts ( Talent ) ",
-    "ability": "Once per session, may take a Street Smarts action; make a Formidable (5 Difficulty Dice) Streetwise or Knowledge check to learn one vital clue from the GM. Reduce the difficulty once per rank of Street Smarts."
-  },
-  {
-    "id": "T324",
-    "source": "Supporting Evidence ( Talent ) ",
-    "ability": "When assisting an ally with a Charm, Deception, Leadership, or Negotiation check, add automatic advantage per rank of Supporting Evidence."
-  },
-  {
-    "id": "T325",
-    "source": "Unrelenting Skeptic ( Talent ) ",
-    "ability": "When targeted by a Deception check, the character automatically adds failure to the check equal to ranks in Vigilance."
-  },
-  {
-    "id": "T326",
-    "source": "Vision of the Future ( Talent ) ",
-    "ability": "Once per session, after successfully casting a spell, you may spend two advantages or one triumph to add one additional effect to the cast spell,which would normally have increased the difficulty by 1."
-  },
-  {
-    "id": "T327",
-    "source": "Armor Master (Supreme) ( Talent ) ",
-    "ability": "Your character must have purchased the Armor Master talent to benefit from this talent. Once per round, when the character suffers a Critical Injury, he may suffer 3 strain to take the Armor Master incidental. If he does he reduces the Critical Injury result that he suffers by 10 per point of his soak, to a minimum of 1."
-  },
-  {
-    "id": "T328",
-    "source": "Baleful Gaze ( Talent ) ",
-    "ability": "When targeted by combat check from within medium range, may spend a Story Point to upgrade the difficulty of the check a number of times equal to ranks in Coercion."
-  },
-  {
-    "id": "T329",
-    "source": "Biggest Fan ( Talent ) ",
-    "ability": "Once per session, may take a Biggest Fan action; make a Hard (3 Difficulty Dice) Charm check to turn one NPC into the character's biggest fan. The exact effects of this vary depending on the NPC and the situation. They can include drastically decreasing the difficulty of Social Interaction skill checks the character makes targeting his biggest fan, the fan being willing to perform minor or even significant favors for the character, or the character even becoming a reoccurring ally in the narrative. At the CM’s discretion, this talent may not be able to target certain NPCs whose adversarial nature is vital to the plot, or NPCs who would be unable to appreciate the character’s work"
-  },
-  {
-    "id": "T330",
-    "source": "Blood Magic (Supreme) ( Talent ) ",
-    "ability": "Once per session you may spend a Story Point while using Blood Magic and suffer a critical. You may cast a spell of Formidable difficulty at a difficulty of Average."
-  },
-  {
-    "id": "T331",
-    "source": "Blood Magic (Supreme) revised ( Talent ) ",
-    "ability": "Once per session you may spend a Story Point while using Blood Magic and suffer a critical. You may downgrade the difficulty of the next spell skill check you make by three to a minimum of Average (two difficulty dice)."
-  },
-  {
-    "id": "T332",
-    "source": "Bouncing Spell ( Talent ) ",
-    "ability": "When your character fails a spell casting skill check that targets another character or NPC, may spend one triumph or three advantages to immediately reroll the attempted spell with a new target."
-  },
-  {
-    "id": "T333",
-    "source": "Center of Being (Improved) ( Talent ) ",
-    "ability": "Your character must have purchased the Center of Being talent to benefit from this talent. Suffer 1 strain to perform Center of Being maneuver as an incidental."
-  },
-  {
-    "id": "T334",
-    "source": "Coordination Dodge ( Talent ) ",
-    "ability": "When targeted by a combat check, may spend 1 Story Point to add failures equal to ranks in Coordination to check."
-  },
-  {
-    "id": "T335",
-    "source": "Custom Loadout ( Talent ) ",
-    "ability": "Your character must have purchased the Signature Vehicle talent to benefit from this talent. May add one mount for a weapon or piece of equipment (approved by the GM)."
-  },
-  {
-    "id": "T336",
-    "source": "Dedication ( Talent ) ",
-    "ability": "Please consult the talent section within the Genesys Core Rulebook."
-  },
-  {
-    "id": "T337",
-    "source": "Double or Nothing (Supreme) ( Talent ) ",
-    "ability": "Your character must have purchased the Double or Nothing talent to benefit from this talent. When performing the Double or Nothing incidental, also double the number of triumph and despair."
-  },
-  {
-    "id": "T338",
-    "source": "Full Throttle (Improved) ( Talent ) ",
-    "ability": "Your character must have purchased the Full Throttle talent to benefit from this talent. Suffer 1 strain to attempt Full Throttle as a maneuver and decrease its difficulty to Average (2 Difficulty Dice)."
-  },
-  {
-    "id": "T339",
-    "source": "Heavy Hitter ( Talent ) ",
-    "ability": "Once per session, spend triumph on a successful Ranged (Heavy) or Gunnery check to add the Breach 1 quality to the attack, or increase an existing Breach rating by 1."
-  },
-  {
-    "id": "T340",
-    "source": "Indomitable ( Talent ) ",
-    "ability": "Please consult the talent section within the Genesys Core Rulebook."
-  },
-  {
-    "id": "T341",
-    "source": "Intense Focus ( Talent ) ",
-    "ability": "Perform an Intense Focus maneuver; suffer 1 strain and upgrade the ability of the next skill check once."
-  },
-  {
-    "id": "T342",
-    "source": "Just Kidding! ( Talent ) ",
-    "ability": "Once per round as an incidental spend 1 Story Point to ignore despair generated on a social check by the character or any ally in short range."
-  },
-  {
-    "id": "T343",
-    "source": "Life or Death (Supreme) ( Talent ) ",
-    "ability": "Your character must have purchased the Life or Death talent to benefit from this talent. The effects of Life or Death activate when your character takes wounds equal to one quarter of their wound threshold, instead of half."
-  },
-  {
-    "id": "T344",
-    "source": "Master ( Talent ) ",
-    "ability": "Please consult the talent section within the Genesys Core Rulebook."
-  },
-  {
-    "id": "T345",
-    "source": "Master Driver/Pilot ( Talent ) ",
-    "ability": "Once per round when driving, piloting, or operating a vehicle, may suffer 2 strain to perform any action as a maneuver."
-  },
-  {
-    "id": "T346",
-    "source": "Master Grenadier ( Talent ) ",
-    "ability": "Decrease the a cost to activate the Blast quality on any attack by 1 to a minimum of 1."
-  },
-  {
-    "id": "T347",
-    "source": "Master Merchant ( Talent ) ",
-    "ability": "When buying or selling goods, may suffer 2 strain to sell for 25% more or buy for 25% less."
-  },
-  {
-    "id": "T348",
-    "source": "Overcharge (Improved) ( Talent ) ",
-    "ability": "Please consult the talent section within the Genesys Core Rulebook."
-  },
-  {
-    "id": "T349",
-    "source": "Pressure Point ( Talent ) ",
-    "ability": "When making a Brawl check against an opponent, instead of dealing damage, may deal equivalent strain plus additional strain equal to ranks of Medicine (this ignores soak)."
-  },
-  {
-    "id": "T350",
-    "source": "Retry Spell ( Talent ) ",
-    "ability": "When your character fails a spell casting skill check that targets another character or NPC, may spend triumph or three advantages to immediately reroll the attempted spell with a new target."
-  },
-  {
-    "id": "T351",
-    "source": "Ruinous Repartee ( Talent ) ",
-    "ability": "Please consult the talent section within the Genesys Core Rulebook."
-  },
-  {
-    "id": "T352",
-    "source": "Speaks Binary (Supreme) ( Talent ) ",
-    "ability": "Once per encounter, may perform the Speaks Binary maneuver. A number of NPC artificial life forms up to ranks in Speaks Binary may use the character's ranks for 1 skill of character's choice."
-  },
-  {
-    "id": "T353",
-    "source": "Superhuman Reflexes ( Talent ) ",
-    "ability": "Once per session, after generating dispair on a Piloting check cancel the despair and add successes equal to ranks in Cool."
-  },
-  {
-    "id": "T354",
-    "source": "Thorough Assessment ( Talent ) ",
-    "ability": "Once per session, take a Thorough Assessment action: make a Hard (3 Difficulty Dice) Knowledge check to gain one boost die equal to success that can be distributed during the encounter."
-  },
-  {
-    "id": "T355",
-    "source": "Unrelenting Skeptic (Improved) ( Talent ) ",
-    "ability": "Your character must have purchased the Unrelenting Skeptic talent to benefit from this talent. When targeted by a Deception check that fails, may spend 1 Story Point to add despair to results."
+    "id": "W99",
+    "source": "Dirty Light Pistol Special ",
+    "ability": "See Item Qualities descrption in the Genesys Core Rulebook"
   }
 ]

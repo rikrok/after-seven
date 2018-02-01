@@ -1,0 +1,1932 @@
+[
+  {
+    "id": "A1",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "A1",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "A10",
+    "genres": "Fantasy, Steampunk, Weird War",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "A10",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "A11",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "A11",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "A12",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "A12",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "A13",
+    "genres": "Fantasy",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "A13",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "A14",
+    "genres": "Fantasy, Steampunk",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "A14",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "A15",
+    "genres": "Steampunk",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "A15",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "A16",
+    "genres": "Steampunk",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "A16",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "A17",
+    "genres": "Steampunk",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "A17",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "A18",
+    "genres": "Weird War",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "A18",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "A19",
+    "genres": "Weird War",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "A19",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "A2",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "A2",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "A20",
+    "genres": "Weird War, Modern, Sci-fi",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "A20",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "A21",
+    "genres": "Weird War, Modern, Sci-fi",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "A21",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "A22",
+    "genres": "Weird War, Modern, Sci-fi",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "A22",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "A23",
+    "genres": "Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "A23",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "A24",
+    "genres": "Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "A24",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "A25",
+    "genres": "Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "A25",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "A26",
+    "genres": "Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "A26",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "A27",
+    "genres": "Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "A27",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "A3",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "A3",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "A4",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "A4",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "A5",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "A5",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "A6",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "A6",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "A7",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "A7",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "A8",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "A8",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "A9",
+    "genres": "Steampunk, Weird War, Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "A9",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "G1",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "G1",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "G10",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "G10",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "G11",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "G11",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "G12",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "G12",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "G13",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "G13",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "G14",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "G14",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "G15",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "G15",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "G16",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "G16",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "G17",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "G17",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "G18",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "G18",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "G19",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "G19",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "G2",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "G2",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "G20",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "G20",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "G21",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "G21",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "G22",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "G22",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "G23",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "G23",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "G24",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "G24",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "G25",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "G25",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "G26",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "G26",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "G27",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Magic"
+  },
+  {
+    "id": "G27",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "G28",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Magic"
+  },
+  {
+    "id": "G28",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "G29",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Magic"
+  },
+  {
+    "id": "G29",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "G3",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "G3",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "G30",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Magic"
+  },
+  {
+    "id": "G30",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "G31",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Magic"
+  },
+  {
+    "id": "G31",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "G32",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Magic"
+  },
+  {
+    "id": "G32",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "G33",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "G33",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "G34",
+    "genres": "Fantasy",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "G34",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "G35",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-fi",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "G35",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "G36",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-fi",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "G36",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "G37",
+    "genres": "Fantasy, Steampunk, Weird War",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "G37",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "G38",
+    "genres": "Fantasy",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "G38",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "G39",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "G39",
+    "genres": "Steampunk, Weird War, Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "G4",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "G4",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "G40",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "G40",
+    "genres": "Steampunk, Weird War, Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "G41",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "G41",
+    "genres": "Steampunk, Weird War, Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "G42",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "G42",
+    "genres": "Steampunk, Weird War, Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "G43",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "G43",
+    "genres": "Steampunk, Weird War, Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "G44",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "G44",
+    "genres": "Steampunk, Weird War, Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "G45",
+    "genres": "Weird War, Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "G45",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "G46",
+    "genres": "Weird War, Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "G46",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "G47",
+    "genres": "Weird War, Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "G47",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "G48",
+    "genres": "Weird War, Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "G48",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "G49",
+    "genres": "Steampunk, Weird War, Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "G49",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "G5",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "G5",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "G50",
+    "genres": "Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "G50",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "G51",
+    "genres": "Weird War, Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "G51",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "G52",
+    "genres": "Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "G52",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "G53",
+    "genres": "Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "G53",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "G54",
+    "genres": "Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "G54",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "G55",
+    "genres": "Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "G55",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "G56",
+    "genres": "Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "G56",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "G57",
+    "genres": "Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "G57",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "G58",
+    "genres": "Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "G58",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "G59",
+    "genres": "Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "G59",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "G6",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "G6",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "G60",
+    "genres": "Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "G60",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "G61",
+    "genres": "Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "G61",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "G62",
+    "genres": "Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "G62",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "G7",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "G7",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "G8",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "G8",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "G9",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "G9",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W100",
+    "genres": "Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W100",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W101",
+    "genres": "Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W101",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W102",
+    "genres": "Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W102",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W103",
+    "genres": "Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W103",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W104",
+    "genres": "Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W104",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W105",
+    "genres": "Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W105",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W106",
+    "genres": "Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W106",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W107",
+    "genres": "Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W107",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W108",
+    "genres": "Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W108",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W109",
+    "genres": "Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W109",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W110",
+    "genres": "Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W110",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W111",
+    "genres": "Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W111",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W112",
+    "genres": "Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W112",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W113",
+    "genres": "Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W113",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W114",
+    "genres": "Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W114",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W115",
+    "genres": "Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W115",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W116",
+    "genres": "Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W116",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W117",
+    "genres": "Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W117",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W118",
+    "genres": "Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W118",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W119",
+    "genres": "Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W119",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W41",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W41",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W42",
+    "genres": "Steampunk, Weird War, Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W42",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W43",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W43",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W44",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W44",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W45",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W45",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W46",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W46",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W47",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W47",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W48",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W48",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W49",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W49",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W50",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W50",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W51",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W51",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W52",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W52",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W53",
+    "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W53",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W54",
+    "genres": "Steampunk, Weird War, Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W54",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W55",
+    "genres": "Steampunk, Weird War, Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W55",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W56",
+    "genres": "Steampunk, Weird War, Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W56",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W57",
+    "genres": "Steampunk, Weird War, Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W57",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W58",
+    "genres": "Steampunk, Weird War, Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W58",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W59",
+    "genres": "Steampunk, Weird War, Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W59",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W60",
+    "genres": "Steampunk, Weird War, Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W60",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W61",
+    "genres": "Steampunk, Weird War, Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W61",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W62",
+    "genres": "Steampunk, Weird War, Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W62",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W63",
+    "genres": "Weird War, Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W63",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W64",
+    "genres": "Weird War, Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W64",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W65",
+    "genres": "Weird War, Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W65",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W66",
+    "genres": "Weird War, Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W66",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W67",
+    "genres": "Weird War, Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W67",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W68",
+    "genres": "Weird War, Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W68",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W69",
+    "genres": "Weird War, Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W69",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W70",
+    "genres": "Steampunk, Weird War, Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W70",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W71",
+    "genres": "Steampunk, Weird War, Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W71",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W72",
+    "genres": "Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W72",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W73",
+    "genres": "Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W73",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W74",
+    "genres": "Steampunk, Weird War, Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W74",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W75",
+    "genres": "Steampunk, Weird War, Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W75",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W76",
+    "genres": "Steampunk, Weird War, Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W76",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W77",
+    "genres": "Steampunk, Weird War, Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W77",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W78",
+    "genres": "Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W78",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W79",
+    "genres": "Steampunk, Weird War, Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W79",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W80",
+    "genres": "Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W80",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W81",
+    "genres": "Steampunk, Weird War, Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W81",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W82",
+    "genres": "Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W82",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W83",
+    "genres": "Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W83",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W84",
+    "genres": "Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W84",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W85",
+    "genres": "Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W85",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W86",
+    "genres": "Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W86",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W87",
+    "genres": "Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W87",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W88",
+    "genres": "Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W88",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W89",
+    "genres": "Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W89",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W91",
+    "genres": "Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W91",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W92",
+    "genres": "Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W92",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W93",
+    "genres": "Steampunk, Weird War, Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W93",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W94",
+    "genres": "Steampunk, Weird War, Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W94",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W95",
+    "genres": "Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W95",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W96",
+    "genres": "Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W96",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W97",
+    "genres": "Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W97",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W98",
+    "genres": "Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W98",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W99",
+    "genres": "Modern, Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W99",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W1",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "W2",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "W3",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "W4",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "W5",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "W6",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "W7",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "W8",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "W9",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "W10",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "W11",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "W12",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "W13",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "W14",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "W15",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "W16",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "W17",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "W18",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "W19",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "W20",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "W21",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "W22",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "W23",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "W24",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "W25",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "W26",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "W27",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "W28",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "W29",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "W30",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "W31",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "W32",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "W33",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "W34",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "W35",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "W36",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "W37",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "W38",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "W39",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "W40",
+    "genres": "After Seven",
+    "alternativeRules": "After Seven"
+  },
+  {
+    "id": "G63",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "G64",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "G65",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "G66",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "G67",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "G63",
+    "genres": "Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "G64",
+    "genres": "Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "G65",
+    "genres": "Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "G66",
+    "genres": "Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "G67",
+    "genres": "Sci-fi, Space Opera",
+    "alternativeRules": "Default"
+  },
+  {
+    "id": "W120",
+    "genres": "Custom",
+    "alternativeRules": "Custom"
+  },
+  {
+    "id": "W120",
+    "genres": "Weird War, Modern, Sci-fi",
+    "alternativeRules": "Default"
+  }
+]

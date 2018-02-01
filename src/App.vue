@@ -14,10 +14,10 @@
 
                 <b-nav-item-dropdown id="dropDownFluff" href="#" text="Fluff" right>
                        <!--b-dropdown-item> About </b-dropdown-item-->
-                       <!--b-dropdown-item> Avatars </b-dropdown-item-->
+                       <b-dropdown-item to="/avatars"> Avatars </b-dropdown-item>
                        <!--b-dropdown-item> Events </b-dropdown-item-->
                        <b-dropdown-item to="/factions"> Factions </b-dropdown-item>
-                       <!--b-dropdown-item> Where Are They Now..? </b-dropdown-item-->
+                       <b-dropdown-item to="/wherearetheynow"> Where Are They Now..? </b-dropdown-item>
                 </b-nav-item-dropdown>
 
                 <b-nav-item-dropdown id="dropDownMagic" href="#" text="Alchemy and Magic" right>

@@ -298,5 +298,606 @@
     "value": 3,
     "rarity": 1,
     "description": "A neon green slime and goo that is very flexible and pungent. It is the base for all Alchemy. "
+  },
+  {
+    "id": "G24",
+    "category": "Gear",
+    "subCategory": "Adventuring Gear",
+    "name": "Backpack",
+    "encumbrance": 0,
+    "hardPoints": 0,
+    "value": 50,
+    "rarity": 3,
+    "description": "See page 93 in the Genesys Core Rulebook",
+    "specialAbilities": [
+      "Gain +4 max encumbrance"
+    ]
+  },
+  {
+    "id": "G25",
+    "category": "Gear",
+    "subCategory": "Adventuring Gear",
+    "name": "Painkiller",
+    "encumbrance": 0,
+    "hardPoints": 0,
+    "value": 25,
+    "rarity": 2,
+    "description": "See page 93 in the Genesys Core Rulebook",
+    "specialAbilities": [
+      "See page 94 in the Genesys Core Rulebook"
+    ]
+  },
+  {
+    "id": "G26",
+    "category": "Gear",
+    "subCategory": "Adventuring Gear",
+    "name": "Rope",
+    "encumbrance": 1,
+    "hardPoints": 1,
+    "value": 5,
+    "rarity": 1,
+    "description": "See page 93 in the Genesys Core Rulebook"
+  },
+  {
+    "id": "G27",
+    "category": "Gear",
+    "subCategory": "Implementations",
+    "name": "Druidic Circlet",
+    "encumbrance": 0,
+    "hardPoints": 0,
+    "value": 750,
+    "rarity": 5,
+    "description": "See Page 219 in the Genesys Core Rulebook",
+    "specialAbilities": [
+      "See Page 219 in the Genesys Core Rulebook"
+    ]
+  },
+  {
+    "id": "G28",
+    "category": "Gear",
+    "subCategory": "Implementations",
+    "name": "Holy Icon",
+    "encumbrance": 0,
+    "hardPoints": 0,
+    "value": 250,
+    "rarity": 4,
+    "description": "See Page 219 in the Genesys Core Rulebook",
+    "specialAbilities": [
+      "See Page 219 in the Genesys Core Rulebook"
+    ]
+  },
+  {
+    "id": "G29",
+    "category": "Gear",
+    "subCategory": "Implementations",
+    "name": "Magic Orbs",
+    "encumbrance": 1,
+    "hardPoints": 1,
+    "value": 1000,
+    "rarity": 6,
+    "description": "See Page 219 in the Genesys Core Rulebook",
+    "specialAbilities": [
+      "See Page 219 in the Genesys Core Rulebook"
+    ]
+  },
+  {
+    "id": "G30",
+    "category": "Gear",
+    "subCategory": "Implementations",
+    "name": "Magic Rings",
+    "encumbrance": 0,
+    "hardPoints": 0,
+    "value": 10000,
+    "rarity": 8,
+    "description": "See Page 219 in the Genesys Core Rulebook",
+    "specialAbilities": [
+      "See Page 219 in the Genesys Core Rulebook"
+    ]
+  },
+  {
+    "id": "G31",
+    "category": "Gear",
+    "subCategory": "Implementations",
+    "name": "Magic Staffs",
+    "encumbrance": 2,
+    "hardPoints": 1,
+    "value": 400,
+    "rarity": 3,
+    "description": "See Page 219 in the Genesys Core Rulebook",
+    "specialAbilities": [
+      "See Page 219 in the Genesys Core Rulebook"
+    ]
+  },
+  {
+    "id": "G32",
+    "category": "Gear",
+    "subCategory": "Implementations",
+    "name": "Magic Wands",
+    "encumbrance": 1,
+    "hardPoints": 1,
+    "value": 400,
+    "rarity": 5,
+    "description": "See Page 219 in the Genesys Core Rulebook",
+    "specialAbilities": [
+      "See Page 219 in the Genesys Core Rulebook"
+    ]
+  },
+  {
+    "id": "G33",
+    "category": "Gear",
+    "subCategory": "Adventuring Gear",
+    "name": "Backpack of Holding",
+    "encumbrance": 2,
+    "hardPoints": 1,
+    "value": 600,
+    "rarity": 8,
+    "description": "See page 146 in the Genesys Core Rulebook",
+    "specialAbilities": [
+      "See page 146 in the Genesys Core Rulebook"
+    ]
+  },
+  {
+    "id": "G34",
+    "category": "Gear",
+    "subCategory": "Adventuring Gear",
+    "name": "Fine Cloak",
+    "encumbrance": 1,
+    "hardPoints": 1,
+    "value": 90,
+    "rarity": 4,
+    "description": "See page 146 in the Genesys Core Rulebook",
+    "specialAbilities": [
+      "See page 146 in the Genesys Core Rulebook"
+    ]
+  },
+  {
+    "id": "G35",
+    "category": "Gear",
+    "subCategory": "Adventuring Gear",
+    "name": "Herbs of Healing",
+    "encumbrance": 0,
+    "hardPoints": 0,
+    "value": 50,
+    "rarity": 6,
+    "description": "See page 146 in the Genesys Core Rulebook",
+    "specialAbilities": [
+      "See page 146 in the Genesys Core Rulebook"
+    ]
+  },
+  {
+    "id": "G36",
+    "category": "Gear",
+    "subCategory": "Adventuring Gear",
+    "name": "Thieves' Tolls",
+    "encumbrance": 1,
+    "hardPoints": 1,
+    "value": 75,
+    "rarity": 5,
+    "description": "See page 146 in the Genesys Core Rulebook",
+    "specialAbilities": [
+      "See page 146 in the Genesys Core Rulebook"
+    ]
+  },
+  {
+    "id": "G37",
+    "category": "Gear",
+    "subCategory": "Adventuring Gear",
+    "name": "Torch",
+    "encumbrance": 1,
+    "hardPoints": 1,
+    "value": 1,
+    "rarity": 0,
+    "description": "See page 146 in the Genesys Core Rulebook",
+    "specialAbilities": [
+      "See page 146 in the Genesys Core Rulebook"
+    ]
+  },
+  {
+    "id": "G38",
+    "category": "Gear",
+    "subCategory": "Adventuring Gear",
+    "name": "Winter Clothing",
+    "encumbrance": 4,
+    "hardPoints": 2,
+    "value": 100,
+    "rarity": 3,
+    "description": "See page 146 in the Genesys Core Rulebook",
+    "specialAbilities": [
+      "See page 146 in the Genesys Core Rulebook"
+    ]
+  },
+  {
+    "id": "G39",
+    "category": "Gear",
+    "subCategory": "Adventuring Gear",
+    "name": "Air Mask",
+    "encumbrance": 1,
+    "hardPoints": 1,
+    "value": 75,
+    "rarity": 3,
+    "description": "See page 156 in the Genesys Core Rulebook"
+  },
+  {
+    "id": "G40",
+    "category": "Gear",
+    "subCategory": "Adventuring Gear",
+    "name": "Air Mask (with Tank)",
+    "encumbrance": 3,
+    "hardPoints": 2,
+    "value": 150,
+    "rarity": 5,
+    "description": "See page 156 in the Genesys Core Rulebook"
+  },
+  {
+    "id": "G41",
+    "category": "Gear",
+    "subCategory": "Adventuring Gear",
+    "name": "Aeropack",
+    "encumbrance": 5,
+    "hardPoints": 3,
+    "value": 1000,
+    "rarity": 7,
+    "description": "See page 156 in the Genesys Core Rulebook",
+    "specialAbilities": [
+      "See page 156 in the Genesys Core Rulebook"
+    ]
+  },
+  {
+    "id": "G42",
+    "category": "Gear",
+    "subCategory": "Adventuring Gear",
+    "name": "Hooded Lantern",
+    "encumbrance": 1,
+    "hardPoints": 1,
+    "value": 75,
+    "rarity": 4,
+    "description": "See page 156 in the Genesys Core Rulebook",
+    "specialAbilities": [
+      "See page 156 in the Genesys Core Rulebook"
+    ]
+  },
+  {
+    "id": "G43",
+    "category": "Gear",
+    "subCategory": "Adventuring Gear",
+    "name": "Miracle Tunic",
+    "encumbrance": 0,
+    "hardPoints": 0,
+    "value": 200,
+    "rarity": 5,
+    "description": "See page 156 in the Genesys Core Rulebook",
+    "specialAbilities": [
+      "See page 156 in the Genesys Core Rulebook"
+    ]
+  },
+  {
+    "id": "G44",
+    "category": "Gear",
+    "subCategory": "Adventuring Gear",
+    "name": "Potion of Paralyzation",
+    "encumbrance": 0,
+    "hardPoints": 0,
+    "value": 525,
+    "rarity": 6,
+    "description": "See page 156 in the Genesys Core Rulebook",
+    "specialAbilities": [
+      "See page 156 in the Genesys Core Rulebook"
+    ]
+  },
+  {
+    "id": "G45",
+    "category": "Gear",
+    "subCategory": "Adventuring Gear",
+    "name": "First Aid Kit",
+    "encumbrance": 1,
+    "hardPoints": 1,
+    "value": 100,
+    "rarity": 3,
+    "description": "See page 162 in the Genesys Core Rulebook",
+    "specialAbilities": [
+      "See page 162 in the Genesys Core Rulebook"
+    ]
+  },
+  {
+    "id": "G46",
+    "category": "Gear",
+    "subCategory": "Adventuring Gear",
+    "name": "Nighteyes Goggles",
+    "encumbrance": 1,
+    "hardPoints": 1,
+    "value": 800,
+    "rarity": 7,
+    "description": "See page 162 in the Genesys Core Rulebook",
+    "specialAbilities": [
+      "See page 162 in the Genesys Core Rulebook"
+    ]
+  },
+  {
+    "id": "G47",
+    "category": "Gear",
+    "subCategory": "Adventuring Gear",
+    "name": "Unholy Tome",
+    "encumbrance": 1,
+    "hardPoints": 1,
+    "value": 3000,
+    "rarity": 9,
+    "description": "See page 162 in the Genesys Core Rulebook",
+    "specialAbilities": [
+      "See page 162 in the Genesys Core Rulebook"
+    ]
+  },
+  {
+    "id": "G48",
+    "category": "Gear",
+    "subCategory": "Adventuring Gear",
+    "name": "Warding Icon",
+    "encumbrance": 0,
+    "hardPoints": 0,
+    "value": 800,
+    "rarity": 7,
+    "description": "See page 162 in the Genesys Core Rulebook",
+    "specialAbilities": [
+      "See page 162 in the Genesys Core Rulebook"
+    ]
+  },
+  {
+    "id": "G49",
+    "category": "Gear",
+    "subCategory": "Adventuring Gear",
+    "name": "Extra Clip",
+    "encumbrance": 0,
+    "hardPoints": 0,
+    "value": 25,
+    "rarity": 2,
+    "description": "See page 168 in the Genesys Core Rulebook",
+    "specialAbilities": [
+      "See page 168 in the Genesys Core Rulebook"
+    ]
+  },
+  {
+    "id": "G50",
+    "category": "Gear",
+    "subCategory": "Adventuring Gear",
+    "name": "Night Vision Goggles",
+    "encumbrance": 1,
+    "hardPoints": 1,
+    "value": 500,
+    "rarity": 5,
+    "description": "See page 168 in the Genesys Core Rulebook",
+    "specialAbilities": [
+      "See page 168 in the Genesys Core Rulebook"
+    ]
+  },
+  {
+    "id": "G51",
+    "category": "Gear",
+    "subCategory": "Adventuring Gear",
+    "name": "Portable Medkit",
+    "encumbrance": 2,
+    "hardPoints": 1,
+    "value": 200,
+    "rarity": 4,
+    "description": "See page 168 in the Genesys Core Rulebook",
+    "specialAbilities": [
+      "See page 168 in the Genesys Core Rulebook"
+    ]
+  },
+  {
+    "id": "G52",
+    "category": "Gear",
+    "subCategory": "Adventuring Gear",
+    "name": "Cyber-Rig",
+    "encumbrance": 8,
+    "hardPoints": 4,
+    "value": 2000,
+    "rarity": 5,
+    "description": "See page 177 in the Genesys Core Rulebook",
+    "specialAbilities": [
+      "See page 177 in the Genesys Core Rulebook"
+    ]
+  },
+  {
+    "id": "G53",
+    "category": "Gear",
+    "subCategory": "Adventuring Gear",
+    "name": "PAD",
+    "encumbrance": 1,
+    "hardPoints": 1,
+    "value": 200,
+    "rarity": 3,
+    "description": "See page 177 in the Genesys Core Rulebook"
+  },
+  {
+    "id": "G59",
+    "category": "Gear",
+    "subCategory": "Adventuring Gear",
+    "name": "Comm-Bead",
+    "encumbrance": 0,
+    "hardPoints": 0,
+    "value": 25,
+    "rarity": 1,
+    "description": "See page 186 in the Genesys Core Rulebook"
+  },
+  {
+    "id": "G60",
+    "category": "Gear",
+    "subCategory": "Adventuring Gear",
+    "name": "Portable Motion Sensor",
+    "encumbrance": 1,
+    "hardPoints": 1,
+    "value": 120,
+    "rarity": 4,
+    "description": "See page 186 in the Genesys Core Rulebook",
+    "specialAbilities": [
+      "See page 186 in the Genesys Core Rulebook"
+    ]
+  },
+  {
+    "id": "G61",
+    "category": "Gear",
+    "subCategory": "Adventuring Gear",
+    "name": "Smart-System",
+    "encumbrance": 1,
+    "hardPoints": 1,
+    "value": 3000,
+    "rarity": 5,
+    "description": "See page 187 in the Genesys Core Rulebook",
+    "specialAbilities": [
+      "See page 187 in the Genesys Core Rulebook"
+    ]
+  },
+  {
+    "id": "G62",
+    "category": "Gear",
+    "subCategory": "Adventuring Gear",
+    "name": "Space Suit",
+    "encumbrance": 2,
+    "hardPoints": 1,
+    "value": 100,
+    "rarity": 2,
+    "description": "See page 187 in the Genesys Core Rulebook",
+    "specialAbilities": [
+      "See page 187 in the Genesys Core Rulebook"
+    ]
+  },
+  {
+    "id": "G54",
+    "category": "Gear",
+    "subCategory": "Cybernetics",
+    "name": "Cybernetic Arm - Brawn",
+    "encumbrance": 0,
+    "hardPoints": 0,
+    "value": 2000,
+    "rarity": 5,
+    "description": "See page 177 in the Genesys Core Rulebook",
+    "specialAbilities": [
+      "See page 177 in the Genesys Core Rulebook"
+    ]
+  },
+  {
+    "id": "G55",
+    "category": "Gear",
+    "subCategory": "Cybernetics",
+    "name": "Cybernetic Arm - Agility",
+    "encumbrance": 0,
+    "hardPoints": 0,
+    "value": 2000,
+    "rarity": 5,
+    "description": "See page 177 in the Genesys Core Rulebook",
+    "specialAbilities": [
+      "See page 177 in the Genesys Core Rulebook"
+    ]
+  },
+  {
+    "id": "G56",
+    "category": "Gear",
+    "subCategory": "Cybernetics",
+    "name": "Cybernetic Leg - Brawn",
+    "encumbrance": 0,
+    "hardPoints": 0,
+    "value": 2000,
+    "rarity": 5,
+    "description": "See page 177 in the Genesys Core Rulebook",
+    "specialAbilities": [
+      "See page 177 in the Genesys Core Rulebook"
+    ]
+  },
+  {
+    "id": "G57",
+    "category": "Gear",
+    "subCategory": "Cybernetics",
+    "name": "Cybernetic Leg- Agility",
+    "encumbrance": 0,
+    "hardPoints": 0,
+    "value": 2000,
+    "rarity": 5,
+    "description": "See page 177 in the Genesys Core Rulebook",
+    "specialAbilities": [
+      "See page 177 in the Genesys Core Rulebook"
+    ]
+  },
+  {
+    "id": "G58",
+    "category": "Gear",
+    "subCategory": "Cybernetics",
+    "name": "Skulljack",
+    "encumbrance": 0,
+    "hardPoints": 0,
+    "value": 2500,
+    "rarity": 5,
+    "description": "See page 177 in the Genesys Core Rulebook",
+    "specialAbilities": [
+      "See page 177 in the Genesys Core Rulebook"
+    ]
+  },
+  {
+    "id": "G63",
+    "category": "Gear",
+    "subCategory": "Cybernetics",
+    "name": "Cybereyes",
+    "encumbrance": 0,
+    "hardPoints": 0,
+    "value": 800,
+    "rarity": 5,
+    "description": "See page 177 in the Genesys Core Rulebook",
+    "specialAbilities": [
+      "See page 177 in the Genesys Core Rulebook"
+    ]
+  },
+  {
+    "id": "G64",
+    "category": "Gear",
+    "subCategory": "Cybernetics",
+    "name": "Implant Armor",
+    "encumbrance": 0,
+    "hardPoints": 0,
+    "value": 1000,
+    "rarity": 5,
+    "description": "See page 177 in the Genesys Core Rulebook",
+    "specialAbilities": [
+      "See page 177 in the Genesys Core Rulebook"
+    ]
+  },
+  {
+    "id": "G65",
+    "category": "Gear",
+    "subCategory": "Cybernetics",
+    "name": "Cyberorgan - Athletics",
+    "encumbrance": 0,
+    "hardPoints": 0,
+    "value": 750,
+    "rarity": 5,
+    "description": "See page 177 in the Genesys Core Rulebook",
+    "specialAbilities": [
+      "See page 177 in the Genesys Core Rulebook"
+    ]
+  },
+  {
+    "id": "G66",
+    "category": "Gear",
+    "subCategory": "Cybernetics",
+    "name": "Cyberorgan - Resilience",
+    "encumbrance": 0,
+    "hardPoints": 0,
+    "value": 750,
+    "rarity": 5,
+    "description": "See page 177 in the Genesys Core Rulebook",
+    "specialAbilities": [
+      "See page 177 in the Genesys Core Rulebook"
+    ]
+  },
+  {
+    "id": "G67",
+    "category": "Gear",
+    "subCategory": "Cybernetics",
+    "name": "Cyberorgan - Wound Threshold",
+    "encumbrance": 0,
+    "hardPoints": 0,
+    "value": 750,
+    "rarity": 5,
+    "description": "See page 177 in the Genesys Core Rulebook",
+    "specialAbilities": [
+      "See page 177 in the Genesys Core Rulebook"
+    ]
   }
 ]

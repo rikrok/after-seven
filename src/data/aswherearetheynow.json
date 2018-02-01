@@ -1,0 +1,612 @@
+[
+  {
+    "place": "Alaska",
+    "politicalLayer": "USA",
+    "classification": "Geographic Area",
+    "Status": "Partial Dead Lands",
+    "habitability": "Habitable",
+    "claim": "Imperium of the North",
+    "apocalypseTimeline": "The Great Mutations",
+    "text": "Mostly frozen land, but what remains are small tribal clans war for whats left."
+  },
+  {
+    "place": "Appalachian Mountains",
+    "politicalLayer": "USA",
+    "classification": "Geographic Area",
+    "Status": "Dead Lands",
+    "habitability": "Inhabitable",
+    "claim": "Monsters",
+    "apocalypseTimeline": "The Great Blight",
+    "text": "Infinite cave systems stretch beneath the South East stemming from the low Appalachian mountains."
+  },
+  {
+    "place": "Belize",
+    "politicalLayer": "Central America",
+    "classification": "Nation",
+    "Status": "Dead Lands",
+    "habitability": "Inhabitable",
+    "claim": "Monsters",
+    "apocalypseTimeline": "The Great Blight",
+    "text": "Blood swamps populate the region with murderous salamander-people roam the area."
+  },
+  {
+    "place": "Boston",
+    "politicalLayer": "USA",
+    "classification": "City",
+    "Status": "Submerged",
+    "habitability": "Inhabitable",
+    "claim": "The Sea",
+    "apocalypseTimeline": "Angry Sky",
+    "text": "A fiery Tornado consumed the entire city followed by a massive flooding."
+  },
+  {
+    "place": "Calgary",
+    "politicalLayer": "Canada",
+    "classification": "City",
+    "Status": "Massive Fortress",
+    "habitability": "Habitable",
+    "claim": "Canadian Confederacy",
+    "apocalypseTimeline": "The Great Mutations",
+    "text": "One of the few cities to remain fully intact during the seven apocalypses, it is now a series of trenches and barbed wires."
+  },
+  {
+    "place": "Canada",
+    "politicalLayer": "Canada",
+    "classification": "Nation",
+    "Status": "Dissolved",
+    "habitability": "Habitable",
+    "claim": "Various",
+    "apocalypseTimeline": "The Great Mutations",
+    "text": "Canada is split into the Imperium of the North, Western State Commonwealth, the Kingdom of Quebec and the Canadian Confederacy."
+  },
+  {
+    "place": "Central Africa",
+    "politicalLayer": "Other",
+    "classification": "Geographic Area",
+    "Status": "Desert Expansion",
+    "habitability": "Unknown",
+    "claim": "Unknown",
+    "apocalypseTimeline": "Angry Sky",
+    "text": "Since the fall of civilization, the fate of this area is largely unknown. It is only known through oral legends as to its state after the Angry Sky events."
+  },
+  {
+    "place": "Chicago",
+    "politicalLayer": "USA",
+    "classification": "City",
+    "Status": "Dead Lands",
+    "habitability": "Inhabitable",
+    "claim": "Monsters",
+    "apocalypseTimeline": "The Great Blight",
+    "text": "Vicious beasts and primitive creatures stalk the war torn city."
+  },
+  {
+    "place": "Colorado Plateau",
+    "politicalLayer": "USA",
+    "classification": "Geographic Area",
+    "Status": "Dead Lands, War Zone, Holy Sites",
+    "habitability": "Inhabitable",
+    "claim": "Various",
+    "apocalypseTimeline": "Celestial Invasion",
+    "text": "Since the Celestial Invasion, the Western State Commonwealth, Holy American Empire and the New American Republic have been warring for control of this region."
+  },
+  {
+    "place": "Costa Rica",
+    "politicalLayer": "Central America",
+    "classification": "Nation",
+    "Status": "Partially submerged Dead Lands",
+    "habitability": "Inhabitable",
+    "claim": "Undead",
+    "apocalypseTimeline": "Reconquista of Nature",
+    "text": "Skeletons roam the small chain of islands of what is left of Costa Rica."
+  },
+  {
+    "place": "Cuba",
+    "politicalLayer": "Caribbean",
+    "classification": "Nation",
+    "Status": "Ruins",
+    "habitability": "Habitable",
+    "claim": "The Dragon of the Atlantic",
+    "apocalypseTimeline": "Second Dark Age",
+    "text": "The Dragon of the Atlantic sits within Cuba, sleeping. His servants populate the island, bringing him tribute."
+  },
+  {
+    "place": "Dallas - Forth Worth",
+    "politicalLayer": "USA",
+    "classification": "City",
+    "Status": "Fortress city",
+    "habitability": "Habitable",
+    "claim": "New American Republic",
+    "apocalypseTimeline": "The Great Mutations",
+    "text": "A massive walled city decorated by corpses that serves as a slave-hub for the republic."
+  },
+  {
+    "place": "Detroit",
+    "politicalLayer": "USA",
+    "classification": "City",
+    "Status": "Submerged",
+    "habitability": "Inhabitable",
+    "claim": "The Sea",
+    "apocalypseTimeline": "Angry Sky",
+    "text": "A fiery Tornado consumed the entire city followed by a massive flooding."
+  },
+  {
+    "place": "Dominica",
+    "politicalLayer": "Caribbean",
+    "classification": "Nation",
+    "Status": "Dead Lands",
+    "habitability": "Inhabitable",
+    "claim": "Monsters",
+    "apocalypseTimeline": "The Great Blight",
+    "text": "Various sea creatures inhabit this area."
+  },
+  {
+    "place": "Dominican Republic",
+    "politicalLayer": "Caribbean",
+    "classification": "Nation",
+    "Status": "Ruins and Dead Lands",
+    "habitability": "Inhabitable",
+    "claim": "Monsters",
+    "apocalypseTimeline": "The Great Blight",
+    "text": "Strange humanoid creatures have been reported in what is left of the island."
+  },
+  {
+    "place": "El Salvador",
+    "politicalLayer": "Central America",
+    "classification": "Nation",
+    "Status": "Submerged",
+    "habitability": "Inhabitable",
+    "claim": "The Sea",
+    "apocalypseTimeline": "Reconquista of Nature",
+    "text": "Completely submerged and destroyed. "
+  },
+  {
+    "place": "Europe",
+    "politicalLayer": "Other",
+    "classification": "Geographic Area",
+    "Status": "Glaciers and Blizzards",
+    "habitability": "Unknown",
+    "claim": "Unknown",
+    "apocalypseTimeline": "Angry Sky",
+    "text": "Since the fall of civilization, the fate of this area is largely unknown. It is only known through oral legends as to its state after the Angry Sky events."
+  },
+  {
+    "place": "Greenland",
+    "politicalLayer": "Greenland",
+    "classification": "Nation",
+    "Status": "Dissolved",
+    "habitability": "Habitable",
+    "claim": "Various",
+    "apocalypseTimeline": "The Great Mutations",
+    "text": "Most of the Glacier's swelled up and pushed out civilization. What remains are stories of ice giants and the few clans of the Imperium."
+  },
+  {
+    "place": "Guadeloupe",
+    "politicalLayer": "Central American",
+    "classification": "Nation",
+    "Status": "Mostly submerged",
+    "habitability": "Inhabitable",
+    "claim": "Monsters",
+    "apocalypseTimeline": "Reconquista of Nature",
+    "text": "Strange humanoid creatures have been reported in what is left of the land."
+  },
+  {
+    "place": "Guatemala",
+    "politicalLayer": "Central America",
+    "classification": "Nation",
+    "Status": "Submerged",
+    "habitability": "Inhabitable",
+    "claim": "The Sea",
+    "apocalypseTimeline": "Reconquista of Nature",
+    "text": "Completely submerged and destroyed. "
+  },
+  {
+    "place": "Gulf Coast",
+    "politicalLayer": "USA",
+    "classification": "Geographic Area",
+    "Status": "Partially submerged",
+    "habitability": "Habitable",
+    "claim": "New American Republic",
+    "apocalypseTimeline": "Reconquista of Nature",
+    "text": "The Gulf Coast swelled much of the cities along the coast."
+  },
+  {
+    "place": "Haiti ",
+    "politicalLayer": "Caribbean",
+    "classification": "Nation",
+    "Status": "Submerged",
+    "habitability": "Inhabitable",
+    "claim": "The Sea",
+    "apocalypseTimeline": "Reconquista of Nature",
+    "text": "Completely submerged and destroyed. "
+  },
+  {
+    "place": "Hawaii",
+    "politicalLayer": "USA",
+    "classification": "Geographic Area",
+    "Status": "Unknown",
+    "habitability": "Unknown",
+    "claim": "Unknown",
+    "apocalypseTimeline": "Angry Sky",
+    "text": "It is unknown as to the fate of Hawaii."
+  },
+  {
+    "place": "Honduras",
+    "politicalLayer": "Central America",
+    "classification": "Nation",
+    "Status": "Partially submerged Dead Lands",
+    "habitability": "Inhabitable",
+    "claim": "Undead",
+    "apocalypseTimeline": "Reconquista of Nature",
+    "text": "Small pockets of land are occupied by zombies."
+  },
+  {
+    "place": "Houston",
+    "politicalLayer": "USA",
+    "classification": "City",
+    "Status": "Ruins",
+    "habitability": "Habitable",
+    "claim": "New American Republic",
+    "apocalypseTimeline": "Celestial Invasion",
+    "text": "Reconquered during the Celestial Invasion, but was very much decimated during its liberation."
+  },
+  {
+    "place": "Hudson Bay",
+    "politicalLayer": "Canada",
+    "classification": "Geographic Area",
+    "Status": "Swollen",
+    "habitability": "Habitable",
+    "claim": "Imperium of the North",
+    "apocalypseTimeline": "Second Dark Age",
+    "text": "Swollen bay flooded most of Northern Canada, now claimed by the very few who live in the cold swamps."
+  },
+  {
+    "place": "Iceland",
+    "politicalLayer": "Iceland",
+    "classification": "Nation",
+    "Status": "Volcanic Ruins",
+    "habitability": "Inhabitable",
+    "claim": "Volcanos",
+    "apocalypseTimeline": "Angry Sky",
+    "text": "Dormant volcanoes erupted on Iceland, causing the landscape to be covered in molten lava."
+  },
+  {
+    "place": "Los Angeles",
+    "politicalLayer": "USA",
+    "classification": "City",
+    "Status": "Partially submerged walled capital city",
+    "habitability": "Habitable",
+    "claim": "Western State Commonwealth",
+    "apocalypseTimeline": "Angry Sky",
+    "text": "Massive earthquakes shook the city apart, but was rebuilt as a massive fortress."
+  },
+  {
+    "place": "Mexico",
+    "politicalLayer": "Mexico",
+    "classification": "Nation",
+    "Status": "Ruins and Dead Lands",
+    "habitability": "Inhabitable",
+    "claim": "Undead",
+    "apocalypseTimeline": "The Great Blight",
+    "text": "Completely submerged and destroyed. "
+  },
+  {
+    "place": "Mexico City",
+    "politicalLayer": "Mexico",
+    "classification": "City",
+    "Status": "Dead Lands",
+    "habitability": "Inhabitable",
+    "claim": "Undead",
+    "apocalypseTimeline": "The Great Blight",
+    "text": "Ruled by a Vampire known as the Emperor of Mexico."
+  },
+  {
+    "place": "Miami",
+    "politicalLayer": "USA",
+    "classification": "City",
+    "Status": "Submerged",
+    "habitability": "Inhabitable",
+    "claim": "The Sea",
+    "apocalypseTimeline": "Reconquista of Nature",
+    "text": "Florida was mostly Dead Lands inhabited by undead until it was flooded in the Reconquista of Nature."
+  },
+  {
+    "place": "Middle East",
+    "politicalLayer": "Other",
+    "classification": "Geographic Area",
+    "Status": "Destroyed by massive Earthquakes",
+    "habitability": "Unknown",
+    "claim": "Unknown",
+    "apocalypseTimeline": "Angry Sky",
+    "text": "Since the fall of civilization, the fate of this area is largely unknown. It is only known through oral legends as to its state after the Angry Sky events."
+  },
+  {
+    "place": "New England",
+    "politicalLayer": "USA",
+    "classification": "Geographic Area",
+    "Status": "Partially submerged war zone",
+    "habitability": "Habitable",
+    "claim": "Kingdom of Quebec",
+    "apocalypseTimeline": "The Great Mutations",
+    "text": "Mostly occupied by the Kingdom, but the Republic wars for regaining this lost land."
+  },
+  {
+    "place": "New York City",
+    "politicalLayer": "USA",
+    "classification": "City",
+    "Status": "Submerged",
+    "habitability": "Inhabitable",
+    "claim": "The Sea",
+    "apocalypseTimeline": "Angry Sky",
+    "text": "A fiery Tornado consumed the entire city followed by a massive flooding."
+  },
+  {
+    "place": "Nicaragua",
+    "politicalLayer": "Central America",
+    "classification": "Nation",
+    "Status": "Partially submerged Dead Lands",
+    "habitability": "Inhabitable",
+    "claim": "Monsters",
+    "apocalypseTimeline": "Reconquista of Nature",
+    "text": "Small pockets of land are occupied by terrifying beats."
+  },
+  {
+    "place": "North Africa",
+    "politicalLayer": "Other",
+    "classification": "Geographic Area",
+    "Status": "Flooding",
+    "habitability": "Unknown",
+    "claim": "Unknown",
+    "apocalypseTimeline": "Angry Sky",
+    "text": "Since the fall of civilization, the fate of this area is largely unknown. It is only known through oral legends as to its state after the Angry Sky events."
+  },
+  {
+    "place": "North Asia",
+    "politicalLayer": "Other",
+    "classification": "Geographic Area",
+    "Status": "Glaciers and Blizzards",
+    "habitability": "Unknown",
+    "claim": "Unknown",
+    "apocalypseTimeline": "Angry Sky",
+    "text": "Since the fall of civilization, the fate of this area is largely unknown. It is only known through oral legends as to its state after the Angry Sky events."
+  },
+  {
+    "place": "Oceania",
+    "politicalLayer": "Other",
+    "classification": "Geographic Area",
+    "Status": "Giant Dragons",
+    "habitability": "Unknown",
+    "claim": "Unknown",
+    "apocalypseTimeline": "Angry Sky",
+    "text": "Since the fall of civilization, the fate of this area is largely unknown. It is only known through oral legends as to its state after the Angry Sky events."
+  },
+  {
+    "place": "Pacific Coast of Mexico",
+    "politicalLayer": "Mexico",
+    "classification": "Geographic Area",
+    "Status": "Partially submerged",
+    "habitability": "Habitable",
+    "claim": "Various",
+    "apocalypseTimeline": "Reconquista of Nature",
+    "text": "With Baja being mostly submerged, the Western State Commonwealth occupies what remains. Mexico's coastal cities were mostly submerged."
+  },
+  {
+    "place": "Panama",
+    "politicalLayer": "Central America",
+    "classification": "Nation",
+    "Status": "Submerged",
+    "habitability": "Inhabitable",
+    "claim": "The Sea",
+    "apocalypseTimeline": "Reconquista of Nature",
+    "text": "Completely submerged and destroyed. "
+  },
+  {
+    "place": "Philadelphia",
+    "politicalLayer": "USA",
+    "classification": "City",
+    "Status": "Submerged",
+    "habitability": "Inhabitable",
+    "claim": "The Sea",
+    "apocalypseTimeline": "Angry Sky",
+    "text": "A fiery Tornado consumed the entire city followed by a massive flooding."
+  },
+  {
+    "place": "Phoenix",
+    "politicalLayer": "USA",
+    "classification": "City",
+    "Status": "Ruined fortress city",
+    "habitability": "Habitable",
+    "claim": "Western State Commonwealth",
+    "apocalypseTimeline": "Celestial Invasion",
+    "text": "Ruled by a Giant Vulture for many years until liberated during the Celestial Invasion."
+  },
+  {
+    "place": "Puerto Rico",
+    "politicalLayer": "USA",
+    "classification": "Nation",
+    "Status": "Submerged",
+    "habitability": "Inhabitable",
+    "claim": "The Sea",
+    "apocalypseTimeline": "Reconquista of Nature",
+    "text": "Completely submerged and destroyed. "
+  },
+  {
+    "place": "Rocky Mountains",
+    "politicalLayer": "USA",
+    "classification": "Geographic Area",
+    "Status": "Dead Lands",
+    "habitability": "Inhabitable",
+    "claim": "Monsters",
+    "apocalypseTimeline": "The Great Blight",
+    "text": "Beasts of legends roam the plateaus, plains and mountain regions of this area."
+  },
+  {
+    "place": "San Francisco",
+    "politicalLayer": "USA",
+    "classification": "City",
+    "Status": "Partially submerged ruins",
+    "habitability": "Habitable",
+    "claim": "Western State Commonwealth",
+    "apocalypseTimeline": "Angry Sky",
+    "text": "Not much remains in the area as it was flooded and had major Earth Quakes during the Angry Sky events."
+  },
+  {
+    "place": "Seattle",
+    "politicalLayer": "USA",
+    "classification": "City",
+    "Status": "Holy Site",
+    "habitability": "Habitable",
+    "claim": "The Living Tree",
+    "apocalypseTimeline": "Second Dark Age",
+    "text": "A giant tree emerged during the Second Dark Age as an avatar that consumed much of the city. It is now a holy site for Druids."
+  },
+  {
+    "place": "Sierra Nevada",
+    "politicalLayer": "USA",
+    "classification": "Geographic Area",
+    "Status": "Dead Lands",
+    "habitability": "Inhabitable",
+    "claim": "Monsters",
+    "apocalypseTimeline": "The Great Blight",
+    "text": "Dunes, salty winds, and hyper aggressive primitive lizard-men beings stalk these lands."
+  },
+  {
+    "place": "South Africa",
+    "politicalLayer": "Other",
+    "classification": "Geographic Area",
+    "Status": "Dead Lands",
+    "habitability": "Unknown",
+    "claim": "Unknown",
+    "apocalypseTimeline": "Angry Sky",
+    "text": "Since the fall of civilization, the fate of this area is largely unknown. It is only known through oral legends as to its state after the Angry Sky events."
+  },
+  {
+    "place": "South America",
+    "politicalLayer": "Other",
+    "classification": "Geographic Area",
+    "Status": "Dead Lands",
+    "habitability": "Unknown",
+    "claim": "Unknown",
+    "apocalypseTimeline": "Angry Sky",
+    "text": "Since the fall of civilization, the fate of this area is largely unknown. It is only known through oral legends as to its state after the Angry Sky events."
+  },
+  {
+    "place": "South Asia",
+    "politicalLayer": "Other",
+    "classification": "Geographic Area",
+    "Status": "Flooding",
+    "habitability": "Unknown",
+    "claim": "Unknown",
+    "apocalypseTimeline": "Angry Sky",
+    "text": "Since the fall of civilization, the fate of this area is largely unknown. It is only known through oral legends as to its state after the Angry Sky events."
+  },
+  {
+    "place": "South West United States",
+    "politicalLayer": "USA",
+    "classification": "Geographic Area",
+    "Status": "Volcanic Ruins",
+    "habitability": "Habitable",
+    "claim": "Various",
+    "apocalypseTimeline": "The Great Blight",
+    "text": "New Mexican volcanoes erupted, covering much of Colorado, Texas, Oklahoma, and Nebraska in ash."
+  },
+  {
+    "place": "The Great Lakes",
+    "politicalLayer": "USA",
+    "classification": "Geographic Area",
+    "Status": "Swollen",
+    "habitability": "Inhabitable",
+    "claim": "Various",
+    "apocalypseTimeline": "The Great Blight",
+    "text": "The Atlantic now reaches the Great Lakes through the submerged lands of New York, Virginia and other states."
+  },
+  {
+    "place": "The Great Plains",
+    "politicalLayer": "USA",
+    "classification": "Geographic Area",
+    "Status": "Ruins and War Zones",
+    "habitability": "Habitable",
+    "claim": "Holy American Empire",
+    "apocalypseTimeline": "Celestial Invasion",
+    "text": "The Kingdom of Quebec, Holy American Empire and the New American Republic have been warring for control of this region."
+  },
+  {
+    "place": "The Mississippi",
+    "politicalLayer": "USA",
+    "classification": "Geographic Area",
+    "Status": "Dead Lands",
+    "habitability": "Inhabitable",
+    "claim": "Monsters",
+    "apocalypseTimeline": "The Great Blight",
+    "text": "The river is low, but it holds ankle deep magical blood that flows to the Atlantic. Mortals who drink from this are instantly killed."
+  },
+  {
+    "place": "The Pacific Coast",
+    "politicalLayer": "USA",
+    "classification": "Geographic Area",
+    "Status": "Partially submerged",
+    "habitability": "Habitable",
+    "claim": "Various",
+    "apocalypseTimeline": "The Great Blight",
+    "text": "Most of the Pacific coast of North America is ruled by the Western State Commonwealth, but the Alaska / Yukon regions are held by the Imperium."
+  },
+  {
+    "place": "Toronto",
+    "politicalLayer": "Canada",
+    "classification": "City",
+    "Status": "Submerged",
+    "habitability": "Inhabitable",
+    "claim": "The Sea",
+    "apocalypseTimeline": "Angry Sky",
+    "text": "A fiery Tornado consumed the entire city followed by a massive flooding."
+  },
+  {
+    "place": "United States of America",
+    "politicalLayer": "USA",
+    "classification": "Nation",
+    "Status": "Dissolved",
+    "habitability": "Habitable",
+    "claim": "Various",
+    "apocalypseTimeline": "The Great Mutations",
+    "text": "USA is now split into the six governments. "
+  },
+  {
+    "place": "Vancouver",
+    "politicalLayer": "Canada",
+    "classification": "City",
+    "Status": "Walled ruined city",
+    "habitability": "Habitable",
+    "claim": "Western State Commonwealth",
+    "apocalypseTimeline": "The Great Mutations",
+    "text": "First to break away from Canada in The Great Mutations Apocalypse, it has been largely a city state until the Western State Commonwealth conquered recently."
+  },
+  {
+    "place": "Various Caribbean islands",
+    "politicalLayer": "Caribbean",
+    "classification": "Nation",
+    "Status": "Submerged",
+    "habitability": "Inhabitable",
+    "claim": "The Sea",
+    "apocalypseTimeline": "Reconquista of Nature",
+    "text": "Hurricanes and flooding ravaged the Caribbean islands for many decades, destroying what was Humanity was left in the region."
+  },
+  {
+    "place": "Washington DC",
+    "politicalLayer": "USA",
+    "classification": "City",
+    "Status": "Submerged",
+    "habitability": "Inhabitable",
+    "claim": "The Sea",
+    "apocalypseTimeline": "Angry Sky",
+    "text": "A fiery Tornado consumed the entire city followed by a massive flooding."
+  },
+  {
+    "place": "Yucatan Peninsula",
+    "politicalLayer": "Mexico",
+    "classification": "Geographic Area",
+    "Status": "Partially submerged",
+    "habitability": "Habitable",
+    "claim": "Monsters",
+    "apocalypseTimeline": "Reconquista of Nature",
+    "text": "What remains of the area are primitive and alien humanoid monsters or zombies."
+  }
+]
