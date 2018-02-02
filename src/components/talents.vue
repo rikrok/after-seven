@@ -14,15 +14,7 @@
             Also in this talent pool are my own talents as well as Genesys talents. My talents are labeled "After Seven" where as the default talent is "GCRB". 
         </p>
         <hr>
-        <b-container class="text-left">
-            <b-row>
-                <b-col> <strong> Settings </strong> </b-col>
-                <b-col> <strong> Alternative Rules </strong>  </b-col>
-            </b-row>            
-            <b-row>
-                <b-col> <b-form-select v-model="selectedGenre" :options="this.settingGenres" class="mb-3"/> </b-col>
-                <b-col> <b-form-checkbox-group v-model="selectedAlternativeRules" :options="this.alternativeRules" />  </b-col>
-            </b-row>
+        <b-container class="text-left col-12">
             <b-row>
                 <b-col> <strong> Tiers </strong> </b-col>
                 <b-col> <strong>  </strong>  </b-col>
@@ -30,7 +22,7 @@
             <b-row>
                 <b-col> 
                     <b-form-checkbox-group v-model="selectedTiers" :options="this.avaiableTiers" /> 
-                    <b-btn variant="success" @click="filterTalents"> Filter Talents </b-btn> 
+                    <b-btn variant="secondary" @click="filterTalents"> Filter Talents </b-btn> 
                 </b-col>
             </b-row>
         </b-container>
@@ -66,14 +58,14 @@ export default {
         return {
             items: [],
             talentData: [],
-            talentGenreData: [],
-            alternativeRules: ["After Seven", "Custom", "Hacking", "Magic", "Vehicle"],         
-            settingGenres: ["After Seven", "Custom", "Fantasy", "Steampunk", "Weird War", "Modern", "Sci-fi", "Space Opera"],
-
-            selectedGenre: "After Seven",
-            selectedAlternativeRules: ["After Seven", "Magic"],
             selectedTiers: ["Tier: 1", "Tier: 2", "Tier: 3", "Tier: 4", "Tier: 5" ],
-            avaiableTiers: ["Tier: 1", "Tier: 2", "Tier: 3", "Tier: 4", "Tier: 5" ],
+            avaiableTiers: [
+                { value:"Tier: 1", text:"Tier: 1" },
+                { value:"Tier: 2", text:"Tier: 2" },
+                { value:"Tier: 3", text:"Tier: 3" },
+                { value:"Tier: 4", text:"Tier: 4" },
+                { value:"Tier: 5", text:"Tier: 5" },
+            ],
         }    
     },     
     methods: {
@@ -86,39 +78,26 @@ export default {
             return -1;
         },
         filterTalents () {
-            var altRules = this.selectedAlternativeRules;
-            altRules.push("Default"); 
 
             var talentList = [];
             
-            for (var i = 0; i < this.talentGenreData.length; i ++) {            
+            for (var x = 0; x < this.talentData.length; x ++) {            
+                  
+                var a = this.selectedTiers.indexOf(this.talentData[x].tierDisplay);                
 
-                var n = this.talentGenreData[i].genres.search(this.selectedGenre);                      
-                var a = altRules.indexOf(this.talentGenreData[i].alternativeRules);                
+                if (a >= 0) {                                                        
+                    var t = {
+                        name: this.talentData[x].name,
+                        header: this.talentData[x].tierDisplay,
+                        description: this.talentData[x].alteredText,
+                        activation: this.talentData[x].activation,
+                        ranked: this.talentData[x].rankedDisplay,            
+                        tags: this.talentData[x].tags,
+                        footer: this.talentData[x].sourcing,
+                        isShown: true
+                    };
 
-                if (n >= 0 && a >= 0) {
-
-                    var x = this.findWithAttr(this.talentData, "id", this.talentGenreData[i].id);
-                    
-                    if( x >= 0) {
-                                                
-                        var z = this.selectedTiers.indexOf(this.talentData[x].tierDisplay);
-                        
-                        if (z >= 0) {
-                            var t = {
-                                name: this.talentData[x].name,
-                                header: this.talentData[x].tierDisplay,
-                                description: this.talentData[x].alteredText,
-                                activation: this.talentData[x].activation,
-                                ranked: this.talentData[x].rankedDisplay,            
-                                tags: this.talentData[x].tags,
-                                footer: this.talentData[x].sourcing,
-                                isShown: true
-                            };
-
-                            talentList.push(t);
-                        }
-                    }
+                    talentList.push(t);
                 }
             }
             
@@ -136,55 +115,8 @@ export default {
         }
     },
     created () {   
-               
         this.talentData = require('../data/talents.json');
-        this.talentGenreData = require('../data/talentGenres.json');
-
-        var altRules = [];
-        altRules.push("After Seven"); 
-
-        var talentList = [];
-
-        for (var i = 0; i < this.talentGenreData.length; i ++) {            
-
-            var n = this.talentGenreData[i].genres.search("After Seven");                      
-            var a = altRules.indexOf(this.talentGenreData[i].alternativeRules);
-
-
-            if (n >= 0 && a >= 0) {
-
-                var x = this.findWithAttr(this.talentData, "id", this.talentGenreData[i].id);
-
-
-                if( x >= 0) {
-
-                    var t = {
-                        name: this.talentData[x].name,
-                        header: this.talentData[x].tierDisplay,
-                        description: this.talentData[x].alteredText,
-                        activation: this.talentData[x].activation,
-                        ranked: this.talentData[x].rankedDisplay,            
-                        tags: this.talentData[x].tags,
-                        footer: this.talentData[x].sourcing,
-                        isShown: true
-                    };
-
-                    talentList.push(t);
-                }
-            }
-        }
-        
-        var t = talentList.slice(0);
-        
-        t.sort(function (a, b) {
-            var xHeader = a.header;
-            var yHeader = b.header;
-            var xName = a.name;
-            var yName = b.name;            
-            return (xHeader < yHeader) ? -1 : (xHeader > yHeader) ? 1 : ( (xName < yName) ? -1 : (yName > xName) ? 1 : 0);            
-        })
-     
-        this.items = t;        
+        this.filterTalents();
     }    
 }
 </script>

@@ -4,7 +4,7 @@
         <b-container class="p-3">
             <b-row class="text-right">
                 <b-col>
-                    <b-btn variant="success" @click="debugTalents"> Export as JSON </b-btn>
+                    <b-btn variant="success" @click="showExportModal" size="lg"> Export as JSON </b-btn>
                 </b-col>
             </b-row>
         </b-container>
@@ -504,6 +504,36 @@
                 </b-row>
             </b-container>
         </b-modal>
+
+
+        <b-modal centered v-model="exportModel" size="lg" title="Export as a JSON" header-class="bg-dark text-light">
+            <b-container>
+                <b-row>
+                    <b-col>
+                        <p> Please copy and paste the following to a notepad editor, then save it.
+                            </br> <b-link href="http://lmgtfy.com/?q=notepad%2B%2B" target="_new"> Might I suggest Notepad++? </b-link> 
+                        </p>
+                    </b-col>
+                </b-row>
+                <b-row>
+                    <b-col>
+                        <p class="text-left">
+                           <b-form-textarea :max-rows="20" :rows="3" v-model="exportContent"/>
+                        </p> 
+                    </b-col>
+                </b-row>
+            </b-container>
+        </b-modal>
+
+
+        <b-table :items="this.character.stats.characteristics" />
+        <b-table :items="this.character.stats.derivedCharacteristics" />
+        <b-table :items="this.character.equipment.inventory.items" />
+        <b-table :items="this.character.skills.transactionLog" />
+        <b-table :items="this.character.talents.transactionLog" />
+
+
+
     </div>
 </template>
 
@@ -511,7 +541,9 @@
 export default {    
     data () {
         return {
-            
+            exportModel: false,
+            exportContent: "",
+            importContent: "",
             rolledCareer: false,
             bonusXp : 0,
 
@@ -963,6 +995,29 @@ export default {
                 return (c=='x' ? r : (r&0x3|0x8)).toString(16);
             });
             return uuid;
+        },
+        showExportModal: function () {
+            var pc = {
+                name: this.character.name,
+                race: this.selectedRace, 
+                career: this.selectedCareer,                 
+                skills: this.character.skills.items,
+                talents: this.character.talents.items,                 
+                inventory: this.character.equipment.items,
+                money: this.character.equipment.money,
+                abilities: this.character.abilities,
+                desire: this.selectedDesire,
+                fear: this.selectedFear,
+                flaw: this.selectedFlaw,
+                strength: this.selectedStrength,
+                totalXp: this.character.xp.total,
+                spentXp: this.character.xp.totalSpent,
+            }
+
+            this.exportContent = JSON.stringify(pc, null, '\t');
+
+            this.exportModel = true;
+
         },
         showSomeModal : function (rowItem, rowType) {
             

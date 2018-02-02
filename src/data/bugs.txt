@@ -1,0 +1,19 @@
+functions add:
+    import races json
+    import items json
+    import skills json
+    import talents json
+        make them career givers
+        
+bug repot:
+    burly seems to be withdrawing twice.
+    talent names become less than one talent once removed. 
+    cyber is not reducing strain.
+    Amplimotive Armor is not drawing a bonus. 
+    riot armor is not adding the bonus riot shield.
+    recieve error in custom mode when using AS careers, due to bonuses. 
+    character name seems to be broken.
+
+misc notes that aren't bugs just things:
+    some items kind of strange genres, maybe fix, maybe not.
+    mozilla is slow as shit.

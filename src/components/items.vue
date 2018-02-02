@@ -2,24 +2,18 @@
     <div class="p-3 mx-3 text-left bg-light">    
         <h1> <strong> Items </strong> </h1>
         <p> 
-            There are the allow items of this setting. Some of these have a specific twist created through the 
-            rulebook. However, there are a few of these are straight from the Fantasy, Steampunk and Weird War 
-            setting. Many of the new items were created to give non-magic users just as vibrant style of gameplay.
-        </p>
-        <p> 
-            As of now, there is no other weapons than the weapons hand picked from the core rulebook. There is 
-            an desire to add more, but will do at a later point.
+            Most of these are straight out of the Genesys core rulebook. Where the book goes to make suggestions to alter items, these are also included in variations.         
         </p>
         <hr>
-        <b-container class="text-left">
+        <b-container class="text-left col-12">
             <b-row>
                 <b-col> <strong> Item Categories </strong> </b-col>
                 <b-col> <strong>  </strong>  </b-col>
             </b-row>            
             <b-row>
                 <b-col> 
-                    <b-form-checkbox-group v-model="selected" :options="this.options" class="mb-3"/> 
-                    <b-btn variant="success" @click="filterItems"> Filter Items </b-btn> 
+                    <b-form-select multiple :select-size="7" v-model="selected" size="md" :options="this.options" class="mb-3"/> 
+                    <b-btn variant="secondary" @click="filterItems"> Filter Items </b-btn> 
                 </b-col>
             </b-row>
         </b-container>
@@ -30,7 +24,7 @@
                 <b-card                             
                     v-bind:title="item.name"
                     v-bind:header="item.category + ': ' + item.subCategory" 
-                    v-bind:sub-title="item.value.toString() + ' Credits'"
+                    v-bind:sub-title="item.value + ' Credits'"
                     bg-variant="dark" 
                     text-variant="light">
 
@@ -40,7 +34,9 @@
                         </p>
 
                         <p> {{ item.description }} </p>
-                        
+
+                        <p> Recommended Genres: {{ item.recommendedGenres }} </p>
+                        <hr class="bg-light">
                         <b-container>                            
                             <b-row v-if="item.category === 'Armor'">
                                 <b-container>
@@ -84,9 +80,24 @@
 export default {
     data () {
         return {
-            options: ["Soak Armor", "Defensive Armor", "Brawl Weapons", "Gunnery Weapons", "Melee Weapons", "Ranged (Light) Weapons", "Ranged (Heavy) Weapons", "Alchemy Products", "Adventuring Gear", "Implementations"],
-            selected:["Soak Armor", "Defensive Armor", "Brawl Weapons", "Gunnery Weapons", "Melee Weapons", "Ranged (Light) Weapons", "Ranged (Heavy) Weapons", "Alchemy Products", "Adventuring Gear", "Implementations"],
+            options: [
+                { value:"Alchemy Products", text:"Alchemy Products" },
+                { value:"Adventuring Gear", text:"Adventuring Gear" },
+                { value:"Implementations", text:"Implementations" },
+                { value:"Cybernetics", text:"Cybernetics" },
+                { value:"Soak Armor", text:"Soak Armor" },
+                { value:"Defensive Armor", text:"Defensive Armor" },
+                { value:"Brawl Weapons", text:"Brawl Weapons" },
+                { value:"Gunnery Weapons", text:"Gunnery Weapons" },
+                { value:"Melee Weapons", text:"Melee Weapons" },
+                { value:"Ranged (Light) Weapons", text:"Ranged (Light) Weapons" },
+                { value:"Ranged (Heavy) Weapons", text:"Ranged (Heavy) Weapons" },
+                { value:"Melee (Light) Weapons", text:"Melee (Light) Weapons" },
+                { value:"Melee (Heavy) Weapons", text:"Melee (Heavy) Weapons" },
+            ],
+            selected:[],
             data: [],
+            genreData: [],
             items: []
         }    
     }, 
@@ -104,97 +115,126 @@ export default {
             }
             
             this.items = list;
-        }
+        },
+        findWithAttr: function (array, attr, value) {
+
+            var listing = [];
+
+            for(var i = 0; i < array.length; i += 1) {
+                if(array[i][attr] === value) {
+                    listing.push(i);
+                }
+            }
+
+            return listing;        
+        },
     },
     created () {       
+        var iterator = 0;
+        this.genreData = require('../data/itemGenres.json');   
 
-        this.items.splice(0,1);
-        
         var data = require('../data/gear.json');      
 
-        for(var i = 0; i < data.length; i++) {            
+        for(var i = 0; i < data.length; i++) {
             var d = data[i];
-            d.qualityText = "";                            
+            d.qualityText = "";
             d.hasSpecials = false;
+            d.recommendedGenres = "";
 
-            if (typeof data[i].specialAbilities === "undefined") {                        
-            } else {
-                d.hasSpecials = true;
+            if (typeof data[i].specialAbilities != "undefined") d.hasSpecials = true;
+
+            var idxs = this.findWithAttr(this.genreData, "id", data[i].id);
+
+            for (var x = 0; x < idxs.length; x++) {
+                iterator++;
+                d.recommendedGenres += this.genreData[idxs[x]].genres + ', ';
             }
+            
+            if (iterator > 1) d.recommendedGenres = d.recommendedGenres.slice(0, -2);  
 
             this.items.push(d);        
         }        
 
+        iterator = 0;
         data = require('../data/weapons.json');
 
-        for(var i = 0; i < data.length; i++) {            
+        for(var i = 0; i < data.length; i++) {
             var d = data[i];
-            d.hasSpecials = false;
-            
+            d.hasSpecials = false;   
             d.qualityText = "";
+            d.recommendedGenres = "";
             
-            if (typeof data[i].qualities === "undefined") {                        
-            } else {
+            if (typeof data[i].qualities != "undefined") {                        
                 for(var j = 0; j < data[i].qualities.length; j++) {         
                     
-                    if(data[i].qualities[j].value > 0) {                    
-                        if(["auto-fire", "knockdown", "reinforced"].indexOf(data[i].qualities[j].name) >= 0) {
+                    if(data[i].qualities[j].value > 0) {        
+                        if(["auto-fire", "knockdown", "reinforced", "sunder", "stun damage"].indexOf(data[i].qualities[j].name) >= 0) {
                             //Don't give a rating.                    
                             d.qualityText += data[i].qualities[j].name  + ", "
-                        } else {                        
-                            d.qualityText += data[i].qualities[j].name + " " + data[i].qualities[j].value + ", ";         
+                        } else {            
+                            d.qualityText += data[i].qualities[j].name + " " + data[i].qualities[j].value + ", ";
                         }           
                     }
                 }
                                  
-                if (data[i].qualities.length > 0) {       
-                    data[i].qualityText = data[i].qualityText.slice(0, -2);
-                }  
+                if (data[i].qualities.length > 0) data[i].qualityText = data[i].qualityText.slice(0, -2);   
             }
+            
 
-            if (typeof data[i].specialAbilities === "undefined") {                        
-            } else {
-                d.hasSpecials = true;
+            var idxs = this.findWithAttr(this.genreData, "id", data[i].id);
+
+            for (var x = 0; x < idxs.length; x++) {
+                iterator++;
+                d.recommendedGenres += this.genreData[idxs[x]].genres + ', ';
             }
+            
+            if (iterator > 1) d.recommendedGenres = d.recommendedGenres.slice(0, -2);  
+            
+            if (typeof data[i].specialAbilities != "undefined") d.hasSpecials = true;
             
             this.items.push(d);        
         }
         
+        iterator = 0;
         data = require('../data/armor.json');
 
-        for(var i = 0; i < data.length; i++) {            
+        for(var i = 0; i < data.length; i++) {
             var d = data[i];
-            
-            d.hasSpecials = false;            
+            d.recommendedGenres = "";            
+            d.hasSpecials = false;   
             d.qualityText = "";
         
-            if (typeof data[i].qualities === "undefined") {                        
+            if (typeof data[i].qualities === "undefined") {            
             } else {
                 for(var j = 0; j < data[i].qualities.length; j++) {         
                     
-                    if(data[i].qualities[j].value > 0) {                    
-                        if(["auto-fire", "knockdown", "reinforced"].indexOf(data[i].qualities[j].name) >= 0) {
+                    if(data[i].qualities[j].value > 0) {        
+                        if(["auto-fire", "knockdown", "reinforced", "sunder", "stun damage"].indexOf(data[i].qualities[j].name) >= 0) {
                             //Don't give a rating.                    
                             d.qualityText += data[i].qualities[j].name  + ", "
-                        } else {                        
-                            d.qualityText += data[i].qualities[j].name + " " + data[i].qualities[j].value + ", ";         
+                        } else {            
+                            d.qualityText += data[i].qualities[j].name + " " + data[i].qualities[j].value + ", ";
                         }           
                     }
 
-                    if(data[i].qualities.length > 0) {                
-                        d.qualityText = d.qualityText.substring(0, d.qualityText.length - 2);                
-                    }
+                    if(data[i].qualities.length > 0) d.qualityText = d.qualityText.substring(0, d.qualityText.length - 2);
+
                 }   
 
-                if (data[i].qualities.length > 0) {       
-                    data[i].qualityText = data[i].qualityText.slice(0, -2);
-                }  
+                if (data[i].qualities.length > 0) data[i].qualityText = data[i].qualityText.slice(0, -2);
+
             }
 
-            if (typeof data[i].specialAbilities === "undefined") {                        
-            } else {
-                d.hasSpecials = true;
+            if (typeof data[i].specialAbilities != "undefined") d.hasSpecials = true;
+
+            var idxs = this.findWithAttr(this.genreData, "id", data[i].id);
+
+            for (var x = 0; x < idxs.length; x++) {
+                iterator++;
+                d.recommendedGenres += this.genreData[idxs[x]].genres + ', ';
             }
+            
+            if (iterator > 1) d.recommendedGenres = d.recommendedGenres.slice(0, -2);  
 
             this.items.push(d);        
         }

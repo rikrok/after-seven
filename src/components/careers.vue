@@ -1,6 +1,6 @@
 <template>
     <div class="p-3 mx-3 text-left bg-light">
-        <h1> <strong> Careers </strong> </h1>
+        <h1> <strong> After Seven Careers </strong> </h1>
         <p> 
             Your character once served a mighty empire. Perhaps they were a merchant, mechanic, spy, infantry 
             or a minor officer. You were loyal, idealist and naïve. You served your empire well. You carried out 

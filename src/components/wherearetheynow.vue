@@ -12,7 +12,7 @@
             </b-row>            
             <b-row>
                 <b-col> 
-                    <b-form-checkbox-group buttons button-variant="info" size="sm" v-model="selected" :options="this.layers" class="mb-3"/> 
+                    <b-form-checkbox-group size="sm" v-model="selected" :options="this.layers" class="mb-3"/> 
                 </b-col>
             </b-row>
             <b-row> 

@@ -3,7 +3,13 @@
     <b-navbar fixed="top" toggleable="sm" type="dark" variant="dark">
             <b-navbar-brand to="/"> After Seven Character Generator </b-navbar-brand>
             <b-navbar-nav>
-                <b-nav-item to="/pcGen"> Generator </b-nav-item>                
+
+                <b-nav-item-dropdown id="dropGenerators" href="#" text="Generators" right>
+                       <b-dropdown-item to="/pcGen"> Player Character </b-dropdown-item>
+                       <b-dropdown-item to="/racialGen"> Races </b-dropdown-item>
+                       <b-dropdown-item to="/talentGen"> Talents </b-dropdown-item>
+                       <b-dropdown-item to="/itemGen"> Items </b-dropdown-item>
+                </b-nav-item-dropdown>
 
                 <b-nav-item-dropdown id="dropDownCatalogs" href="#" text="Catalogs" right>
                        <b-dropdown-item to="/careers"> Careers </b-dropdown-item>

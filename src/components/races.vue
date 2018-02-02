@@ -11,7 +11,7 @@
                 <b-col> <strong>  </strong>  </b-col>
             </b-row>            
             <b-row>
-                <b-col> <b-form-select v-model="selectedGenre" :options="this.settingGenres" class="mb-3"/> </b-col>
+                <b-col> <b-form-select v-model="selectedGenre" :options="settingGenres" class="mb-3"/> </b-col>
                 <b-col> <b-btn variant="success" @click="filterRaces"> Filter Races </b-btn> </b-col>
             </b-row>
         </b-container>
@@ -19,7 +19,7 @@
         <hr>
         <p> </p>  
         <b-container class="w-75">
-            <b-row v-for="(race, index) in items" :key="index">
+            <b-row v-for="(race, rIndex) in items" :key="rIndex">
                 <b-col>
                     <b-card                        
                         v-bind:header="race.genre"                        
@@ -45,8 +45,8 @@
                         <hr>
                         <h4> <strong> Goodies </strong> </h4>
                         <b-card-group deck>
-                            <b-card bg-variant="dark" text-variant="light" v-for="(ability, index) in race.racialSkills" :key="index" v-bind:title="ability.name"> {{ability.flavor}} </b-card>
-                            <b-card bg-variant="dark" text-variant="light" v-for="(ability, index) in race.racialAbilities" :key="index" v-bind:title="ability.name"> {{ability.description}} </b-card>
+                            <b-card bg-variant="dark" text-variant="light" v-for="(skill, sIndex) in race.racialSkills" :key="sIndex" v-bind:title="skill.name"> {{skill.flavor}} </b-card>
+                            <b-card bg-variant="dark" text-variant="light" v-for="(ability, aIndex) in race.racialAbilities" :key="aIndex" v-bind:title="ability.name"> {{ability.description}} </b-card>
                         </b-card-group>
                         
                         <div slot="footer" class="text-muted"> Starting XP: {{ race.startingXP }} </div>
@@ -63,7 +63,16 @@ export default {
     data () {
         return {
             raceData: [],            
-            settingGenres: ["After Seven", "Custom",  "Fantasy", "Steampunk", "Weird War", "Modern", "Sci-fi", "Space Opera"],            
+            settingGenres: [
+                { value:"After Seven", text:"After Seven" },
+                { value:"Custom", text:"Custom" },
+                { value:"Fantasy", text:"Fantasy" },
+                { value:"Steampunk", text:"Steampunk" },
+                { value:"Weird War", text:"Weird War" },
+                { value:"Modern", text:"Modern" },
+                { value:"Sci-fi", text:"Sci-fi" },
+                { value:"Space Opera", text:"Space Opera" },
+            ],            
             selectedGenre: "After Seven",
             items: []
         }    
@@ -85,20 +94,8 @@ export default {
         }
     },
     created () {       
-        this.raceData = require('../data/race.json');    
-        
-        var list = [];
-
-        for (var i = 0; i < this.raceData.length; i ++){
-        
-            var n = this.raceData[i].genre.search(this.selectedGenre);
-        
-            if (n >= 0) {
-                list.push(this.raceData[i]);
-            }            
-        };       
-
-        this.items = list;       
+        this.raceData = require('../data/race.json');
+        this.filterRaces();
     }
 }
 </script>
