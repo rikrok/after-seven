@@ -26,72 +26,76 @@
 
         <b-container>
             <b-row>
-                <b-col class="col-3">
-                    <b-container id="name and xp">                        
-                        <b-row class="pb-3"> <b-col> <b-btn variant="success" @click="addRace"> Save Race </b-btn> </b-col> </b-row>
-                        <b-row> <b-col> <b-form-input v-model="boxName" size="sm" type="text" placeholder="Name of Race"/> </b-col> </b-row>
-                        <b-row> <b-col> Starting XP: <b-form-input v-model="boxXP" size="sm" type="number" placeholder="Starting XP"/> </b-col> </b-row>                                                     
-                    </b-container>
-                </b-col>
                 <b-col>
-                    <b-container id="characteristics">
-                        <b-row>
-                            <b-col>
-                                <b-table small striped bordered responsive="sm" class="text-left" :items="this.race.characteristics" :fields="statFields">
-                                    <template slot="actions" slot-scope="row">
-                                        <b-btn v-bind:disabled="row.item.value === 0" size="sm" variant="danger" v-on:click.stop="row.item.value -=1 "> - </b-btn>
-                                        <b-btn v-bind:disabled="row.item.value === 5" size="sm" variant="success" v-on:click.stop="row.item.value +=1 "> + </b-btn>  
-                                    </template>
-                                </b-table>
-                            </b-col>
+                    <b-card bg-variant="dark" header-bg-variant="dark" text-variant="white">
 
-                            <b-col>
-                                <b-table small striped bordered responsive="sm" class="text-left" :items="this.race.derivedCharacteristics" :fields="statFields">
-                                    <template slot="actions" slot-scope="row">  
-                                        <b-btn v-bind:disabled="row.item.value === 0" size="sm" variant="danger" v-on:click.stop="row.item.value -=1 "> - </b-btn>
-                                        <b-btn size="sm" variant="success" v-on:click.stop="row.item.value +=1 "> + </b-btn>  
-                                    </template>
-                                </b-table>
-                            </b-col>
-                        </b-row>
-                    </b-container>
+                        <b-input-group>                                    
+                            <b-form-input v-model="boxName" type="text" placeholder="Name"/>                                    
+                            <b-input-group-addon>
+                                <b-btn class="p-1" variant="danger" size="sm" @click="clearRace"> Clear </b-btn>
+                            </b-input-group-addon>
+                            <b-input-group-addon>
+                                <b-btn class="p-1" variant="success" size="sm" @click="addRace"> Save </b-btn>
+                            </b-input-group-addon>                        
+                        </b-input-group> </br>
+                        
+                        <strong> Racial Abilities: {{ race.racialAbilities.length }} </strong>
+                        
+                        <p>                       
+                            <b-form-group label="<small>Skill Freebee Type</small>">
+                                <b-form-radio-group buttons button-variant="dark" v-model="skillOptionSelected" :options="skillOptions"/>
+                            </b-form-group>
+                            <div v-if="skillOptionSelected === 'gain'">  <strong> Skill Selection: </strong> </div>          
+                            <div v-if="skillOptionSelected === 'choice'">  <strong> Skills Selected: {{ skillSelected.length }} </strong> </div> 
+                            <b-form-select v-if="skillOptionSelected === 'gain'" v-model="skillSelected" :options="skillData"/>
+                            <b-form-select v-if="skillOptionSelected === 'choice'" :select-size="12" multiple v-model="skillSelected" :options="skillData"/>
+                        </p>
+                    
+                        <b-input-group>
+                            <b-input-group-addon> Starting XP </b-input-group-addon>
+                            <b-form-input v-model="boxXP" size="sm" type="number"/>                                    
+                        </b-input-group>     
+                    </b-card>         
+                    
+                </b-col>
+
+                <b-col>
+                    <b-table small striped bordered responsive="sm" class="text-left" :items="this.race.characteristics" :fields="statFields" head-variant="dark">
+                        <template slot="actions" slot-scope="row">
+                            <b-btn v-bind:disabled="row.item.value === 0" size="sm" variant="danger" v-on:click.stop="row.item.value -=1 "> - </b-btn>
+                            <b-btn v-bind:disabled="row.item.value === 5" size="sm" variant="success" v-on:click.stop="row.item.value +=1 "> + </b-btn>  
+                        </template>
+                    </b-table>
+                </b-col>
+
+                <b-col>
+                    <b-table small striped bordered responsive="sm" class="text-left" :items="this.race.derivedCharacteristics" :fields="statFields" head-variant="dark">
+                        <template slot="actions" slot-scope="row">  
+                            <b-btn v-bind:disabled="row.item.value === 0" size="sm" variant="danger" v-on:click.stop="row.item.value -=1 "> - </b-btn>
+                            <b-btn size="sm" variant="success" v-on:click.stop="row.item.value +=1 "> + </b-btn>  
+                        </template>
+                    </b-table>
                 </b-col>
             </b-row>
-
         </b-container>
-        <hr>
-        <p> </p>
-        <b-container id="skillChoice">
-            <b-row>
-                <b-col> 
-                    Skill Freebee Type: </br>
-                    <b-form-radio-group buttons button-variant="dark" v-model="skillOptionSelected" stacked :options="skillOptions"/>
-                    <p> <div v-if="skillOptionSelected === 'choice'">  Skills Selected: {{ skillSelected.length }} </div> </p>
-                </b-col>
-             
-                <b-col>             
-                    <b-form-select v-if="skillOptionSelected === 'gain'" v-model="skillSelected" :options="skillData"/>
-                    <b-form-select v-if="skillOptionSelected === 'choice'" :select-size="12" multiple v-model="skillSelected" :options="skillData"/>
-                </b-col>
-            </b-row>
-            
-        </b-container>
-
+        
         <hr>        
         <b-container id="abilities">
             <b-row>
                 <b-col> 
-                    <b-form-input v-model="racialAbilityName" size="sm" type="text" placeholder="Name of Ability"/> </br>
-                    Racial Abilities: {{ race.racialAbilities.length }}</br>
-                    <b-btn variant="success" @click="addAbility"> Add Ability </b-btn> </b-col>
-                <b-col> <b-form-textarea v-model="racialAbilitydescription" placeholder="Enter description of the ability" :rows="4" /> </b-col>
-            </b-row>
-        </b-container>
-        <hr>
-        <b-container>
-            <b-row>
+                    <b-form-group> 
+                        <b-input-group>
+                            <b-form-input type="text" v-model="racialAbilityName" placeholder="Ability Name"/>
+                            <b-input-group-addon>  
+                                <b-btn size="sm" variant="success" @click="addAbility"> Add Ability </b-btn>                                                                                  
+                            </b-input-group-addon>                                        
+                        </b-input-group>
+                        <b-form-textarea :max-rows="8" :rows="3" v-model="racialAbilitydescription" placeholder="Add text about the custom ability"/>
+                    </b-form-group>                   
+                </b-col>
+
                 <b-col>
-                    <b-table small striped bordered responsive="sm" class="text-left" :items="this.race.racialAbilities" :fields="abilityFields">
+                    <b-table small striped bordered responsive="sm" class="text-left" :items="this.race.racialAbilities" :fields="abilityFields" head-variant="dark">
                         <template slot="actions" slot-scope="row">
                             <b-btn size="sm" variant="danger" v-on:click.stop="removeAbility(row.item)"> - </b-btn>
                         </template>
@@ -99,7 +103,7 @@
                 </b-col>
             </b-row>
         </b-container>
-
+        
         <b-modal centered v-model="exportModel" size="lg" title="Export as a JSON" header-class="bg-dark text-light">
             <b-container>
                 <b-row>
@@ -116,7 +120,6 @@
                 </b-row>
             </b-container>
         </b-modal>
-
     </div>
 </template>
 
@@ -143,9 +146,9 @@ export default {
             skillOptions: [ 
                 { value:"gain", text: "Automatic" }, 
                 { value: "choice", text: "Choice" }, 
-                { value: "Free 2 Skills", text: "Free 2 Skills", disabled: true }, 
-                { value: "Free Non Career Skills", text: "Free Non Career Skills", disabled: true },
-                { value: "Free Career Skills", text: "Free Non Career Skills", disabled: true },
+                //{ value: "Free 2 Skills", text: "Free 2 Skills", disabled: true }, 
+                //{ value: "Free Non Career Skills", text: "Free Non Career Skills", disabled: true },
+                //{ value: "Free Career Skills", text: "Free Non Career Skills", disabled: true },
                 { value: "none", text: "None" },                
             ],
             skillOptionSelected: "gain",
@@ -175,9 +178,9 @@ export default {
                     { name: "Wounds Threshold", value: 10 }
                 ],
                 startingXP: 0,
-                racialSkills: { name: '', flavor: '', tag: '' }, //{ name: '', flavor: '', tag: '' }
+                racialSkills: { name: '', flavor: '', tag: '' },
                 racialSkillBonus: [],
-                racialAbilities: [],    //{ name: '', description: '' }
+                racialAbilities: [],
             },
             exportContent: ''
         }
@@ -201,38 +204,113 @@ export default {
         showExportModal: function () {            
             this.exportContent = JSON.stringify(this.raceList, null, '\t');
             this.exportModel = true;
+            return true;
         },
         addAbility: function () {
+            if (this.racialAbilityName === '' || this.racialAbilitydescription === '') return false; 
             var a = { name: this.racialAbilityName, description: this.racialAbilitydescription };
             this.race.racialAbilities.push(a);
             this.racialAbilityName = '';
             this.racialAbilitydescription = '';
+            return true;
         },
         removeAbility: function (ability) {
             var i = this.findWithAttr(this.race.racialAbilities, "name", ability.name); 
             if (i >= 0) this.race.racialAbilities.splice(i, 1);
+            return true;
         },
-        addRace: function (){
+        clearRace: function () {
+            var r = {
+                id: '',
+                genre: 'Custom',
+                name: '',
+                characteristics: [ 
+                    { name: "Agility", value: 2 },
+                    { name: "Brawn", value: 2 },
+                    { name: "Cunning", value: 2 }, 
+                    { name: "Intellect", value: 2 },
+                    { name: "Presence", value: 2 }, 
+                    { name: "Willpower", value: 2 }, 
+                    { name: "Silhouette", value: 1 }
+                ],  
+                derivedCharacteristics: [             
+                    { name: "Current Encumbrance", value: 0 },        
+                    { name: "Encumbrance Capacity", value: 0 },
+                    { name: "Melee Defense", value: 0 },
+                    { name: "Ranged Defense", value: 0},
+                    { name: "Soak", value: 0 },
+                    { name: "Strain Threshold", value: 10 },
+                    { name: "Wounds Threshold", value: 10 }
+                ],
+                startingXP: 0,
+                racialSkills: { name: '', flavor: '', tag: '' },
+                racialSkillBonus: [],
+                racialAbilities: [],
+            }
+            this.boxName = '';
+            this.boxXP = 100;
+            this.race = r;
+            return true;
+        },
+        addRace: function () {
+
+            if (this.boxName === '') return false;
+
+            var r = {
+                id: '',
+                genre: 'Custom',
+                name: '',
+                characteristics: [ 
+                    { name: "Agility", value: 2 },
+                    { name: "Brawn", value: 2 },
+                    { name: "Cunning", value: 2 }, 
+                    { name: "Intellect", value: 2 },
+                    { name: "Presence", value: 2 }, 
+                    { name: "Willpower", value: 2 }, 
+                    { name: "Silhouette", value: 1 }
+                ],  
+                derivedCharacteristics: [             
+                    { name: "Current Encumbrance", value: 0 },        
+                    { name: "Encumbrance Capacity", value: 0 },
+                    { name: "Melee Defense", value: 0 },
+                    { name: "Ranged Defense", value: 0},
+                    { name: "Soak", value: 0 },
+                    { name: "Strain Threshold", value: 10 },
+                    { name: "Wounds Threshold", value: 10 }
+                ],
+                startingXP: 0,
+                racialSkills: { name: '', flavor: '', tag: '' },
+                racialSkillBonus: [],
+                racialAbilities: [],
+            }
+
+            var i = this.findWithAttr(this.raceList, "name", this.boxName);
+
+            r.name = this.boxName;
+            r.startingXP = this.boxXP;
+            r.racialSkills.name = "Custom Skill";
+            r.racialSkills.flavor = "Custom Skill";
+            r.racialSkills.tag = this.skillOptionSelected;
 
             if (this.skillOptionSelected === 'gain') {
-                this.race.racialSkillBonus.push(this.skillSelected);
+                r.racialSkillBonus.push(this.skillSelected);
             } else if (this.skillOptionSelected === 'choice') {
-                this.race.racialSkillBonus = this.skillSelected;
+                r.racialSkillBonus = this.skillSelected;
             }
-            var i = this.findWithAttr(this.raceList, "name", this.boxName);
-            this.race.name = this.boxName;
-            this.race.startingXP = this.boxXP;
-            this.race.racialSkills.name = "Custom Skill";
-            this.race.racialSkills.flavor = "Custom Skill";
-            this.race.racialSkills.tag = this.skillOptionSelected;
+            
+            r.characteristics = this.race.characteristics;
+
+            r.derivedCharacteristics = this.race.derivedCharacteristics;
 
             if (i < 0) {
                 this.idGen();
-                this.raceList.push(this.race);
+                r.id = this.race.id;
+                this.raceList.push(r);
             } else {
                 this.raceList[i] = this.race;
             }
 
+            return true;
         },
     },
     created () {
@@ -246,10 +324,9 @@ export default {
             }
         }
 
-        for(var i = 0; i < skillNames.length; i++) {
-            //var o = [ {value: skillNames[i], text: skillNames[i]} ];            
+        for(var i = 0; i < skillNames.length; i++) {   
             this.skillData.push(skillNames[i]);
-        }                
+        }
     }
 }
 </script>

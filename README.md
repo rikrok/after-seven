@@ -12,21 +12,28 @@ Uses Vue.js, bootstrap, bootstrap-vue and a passion for making a generator.
 - Riot Armor does not give its Riot Shield item properly. 
 - While in custom mode, After Seven careers are throwing errors when selecting them, nothing is happening - but is complaining that things don't exist like they should.
 - Character name seems to be broken.
+- random roll faction screwy a bit.
+- abilities are not being added through weapons, gear, or armor. Most likely have to redo the ability.json file. 
+
+## Checks before Deployment
+- every function returns a true / false.
+- trim dat space.
 
 ## Incoming Features 
 - print page
-- item generator 
-- ~~racial generator~~
-- ~~talent generator~~
+- ~~item generator~~    20180203
+- ~~racial generator~~  20180202
+- ~~talent generator~~  20180202
+- ~~career generator~~  20180203
+- import career json
 - import races json
-- import items json
+- ~~import items json~~ 20180203
 - import talents json
 
 ## Near Future Features
 - hard point install page
 - skill generator
 - import skills json
-
 
 ## Wants
 - bad guy generator

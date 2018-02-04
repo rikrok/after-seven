@@ -9,6 +9,7 @@
                        <b-dropdown-item to="/racialGen"> Races </b-dropdown-item>
                        <b-dropdown-item to="/talentGen"> Talents </b-dropdown-item>
                        <b-dropdown-item to="/itemGen"> Items </b-dropdown-item>
+                       <b-dropdown-item to="/careerGen"> Careers </b-dropdown-item>
                 </b-nav-item-dropdown>
 
                 <b-nav-item-dropdown id="dropDownCatalogs" href="#" text="Catalogs" right>

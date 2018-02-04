@@ -4,7 +4,15 @@
         <b-container class="p-3">
             <b-row class="text-right">
                 <b-col>
-                    <b-btn variant="success" @click="showExportModal" size="lg"> Export as JSON </b-btn>
+                    <b-button-group size="sm">
+                        <b-btn variant="dark" @click="showImportModal" size="sm"> Import Race JSON </b-btn>
+                        <b-btn variant="dark" @click="showImportModal" size="sm"> Import Talent JSON </b-btn>
+                        <b-btn variant="dark" @click="showImportModal('item')" size="sm"> Import Item JSON </b-btn>
+                        <b-btn variant="dark" @click="showImportModal" size="sm"> Import Career JSON </b-btn>
+                        <b-btn variant="success" @click="showExportModal" size="sm">Export as JSON </b-btn>
+                    </b-button-group>
+                </b-col>
+                <b-col>
                 </b-col>
             </b-row>
         </b-container>
@@ -112,8 +120,8 @@
                             <b-col>
                                 <b-table small striped bordered responsive="sm" class="text-left" :items="this.character.stats.characteristics" :fields="this.sheet.characteristicFields">
                                     <template slot="actions" slot-scope="row">  
-                                        <b-btn v-if="row.item.name != 'Silhouette'" size="sm" variant="danger" v-on:click.stop="adjustCharacteristic(row.item, -1)"> - </b-btn>
-                                        <b-btn v-if="row.item.name != 'Silhouette'" size="sm" variant="success" v-on:click.stop="adjustCharacteristic(row.item, 1)"> + </b-btn>  
+                                        <b-btn v-if="row.item.name != 'Silhouette'" v-bind:disabled="row.item.value === 0" size="sm" variant="danger" v-on:click.stop="adjustCharacteristic(row.item, -1)"> - </b-btn>
+                                        <b-btn v-if="row.item.name != 'Silhouette'" v-bind:disabled="row.item.value === 5" size="sm" variant="success" v-on:click.stop="adjustCharacteristic(row.item, 1)"> + </b-btn>  
                                         <b-btn v-if="row.item.name != 'Silhouette' && !row.item.canBeModified && activeCharacteristicChoice" size="sm" variant="warning" v-on:click.stop="modifyCharacteristic(row.item, -1)"> X </b-btn>
                                         <b-btn v-if="row.item.name != 'Silhouette' && row.item.canBeModified && activeCharacteristicChoice" size="sm" variant="primary" v-on:click.stop="modifyCharacteristic(row.item, 1)"> • </b-btn>
                                     </template>
@@ -506,7 +514,7 @@
         </b-modal>
 
 
-        <b-modal centered v-model="exportModel" size="lg" title="Export as a JSON" header-class="bg-dark text-light">
+        <b-modal centered v-model="exportModal" size="lg" title="Export as a JSON" header-class="bg-dark text-light">
             <b-container>
                 <b-row>
                     <b-col>
@@ -525,12 +533,35 @@
             </b-container>
         </b-modal>
 
+        <b-modal centered v-model="importModal" size="lg" title="Import JSON" header-class="bg-dark text-light"> 
+            <b-container>
+                <b-row>
+                    <b-col>
+                        <p> Paste jsons generated from other areas of this site. If you messed with the data a bit, you most likely will break this. Good luck! </p>
+                    </b-col>
+                </b-row>
+                <b-row>
+                    <b-col>
+                        <p class="text-left">
+                           <b-form-textarea :max-rows="20" :rows="3" v-model="importContent"/>
+                        </p> 
+                    </b-col>
+                </b-row>
+                <b-row>
+                    <b-col>
+                        <b-btn variant="success" size="lg" @click="importSwitch"> import data </b-btn>
+                    </b-col>
+                </b-row>
+            </b-container>
+        </b-modal>
+
 
         <b-table :items="this.character.stats.characteristics" />
         <b-table :items="this.character.stats.derivedCharacteristics" />
         <b-table :items="this.character.equipment.inventory.items" />
         <b-table :items="this.character.skills.transactionLog" />
         <b-table :items="this.character.talents.transactionLog" />
+        <b-table :items="this.armorData" />
 
 
 
@@ -541,7 +572,8 @@
 export default {    
     data () {
         return {
-            exportModel: false,
+            importModal: false,
+            exportModal: false,
             exportContent: "",
             importContent: "",
             rolledCareer: false,
@@ -692,17 +724,17 @@ export default {
                     { key: "^R", meaning: "1st rank recieved by a racial ability, is career skill."},
                     { key: "^^", meaning: "1st rank recieved from a career."},
                     { key: "^+", meaning: "1st rank recieved by a career bonus and is a career skill."},
-                    { key: "?", meaning: "Choice from a racial."},                    
+                    { key: "?", meaning: "Choice from a racial."},   
                     { key: "·", meaning: "Augmented through gear."},
                 ],
                 talentFields: [
                     { key: "details", label: "Talent", class:"text-left", sortable: false} ,
                     { key: "ranked", label: "Ranked", class: "text-left", sortable: false },     
                     { key: "ranks", label: "Rank", class: "text-center", sortable: true } ,
-                    { key: "actions", label: " ", class: "text-left" },                      
+                    { key: "actions", label: " ", class: "text-left" },     
                 ],
                 skillFields : [
-                    { key: "name", label: "Name", sortable: true },                   
+                    { key: "name", label: "Name", sortable: true },  
                     { key: "sourceLegend", label: "Key", sortable: false}, 
                     { key: "ranks", label: "Rank", class: "text-center", sortable: true  },    
                     { key: "actions", label: " ", class: "text-center" },   
@@ -711,46 +743,46 @@ export default {
                 selectableProperHand: [],
                 selectableOffHand: [],
                 characteristicFields : [
-                    { key: "name", label: "Name", class: "text-left" },                    
+                    { key: "name", label: "Name", class: "text-left" },   
                     { key: "value", label: "Value", class: "text-center" },   
                     { key: "actions", label: " ", class: "text-center"}
                 ],
                 derivedCharacteristicFields : [
-                    { key: "name", label: "Name", class: "text-left" },                    
-                    { key: "value", label: "Value", class: "text-center" },                    
+                    { key: "name", label: "Name", class: "text-left" },   
+                    { key: "value", label: "Value", class: "text-center" },   
                 ],
                 armorFields : [
                     { key: "name", label: "Name", class: "text-left" },
                     { key: "encumbrance", label: "Encum.", class: "text-center" },
                     { key: "soak", label: "Soak", class: "text-center" },
-                    { key: "defense", label: "Defense", class: "text-center"},                    
+                    { key: "defense", label: "Defense", class: "text-center"},   
                     { key: "value", label: "Value", class: "text-center"},
                     { key: "quantity", label: "Amount", class: "text-center"},
-                    { key: "actions", label: "Actions", class: "text-left"},                              
+                    { key: "actions", label: "Actions", class: "text-left"},             
                 ],
                 weaponFields : [
                     { key: "name", label: "Name", class: "text-left"},
                     { key: "skill", label: "Skill Used", class: "text-left"},
                     { key: "range", label: "Range", class: "text-left"},        
                     { key: "damage", label: "Damage", class: "text-center", sortable: true },            
-                    { key: "value", label: "Value", class: "text-center", sortable: true },                    
+                    { key: "value", label: "Value", class: "text-center", sortable: true },   
                     { key: "quantity", label: "Amount", class: "text-center", sortable: true },
                     { key: "actions", label: "Actions", class: "text-left"},   
                 ],
                 gearFields : [
                     { key: "subCategory", label: "Type", class: "text-left"},   
-                    { key: "name", label: "Name", class: "text-left"},                 
-                    { key: "value", label: "Value", class: "text-center", sortable: true },                    
+                    { key: "name", label: "Name", class: "text-left"},
+                    { key: "value", label: "Value", class: "text-center", sortable: true },   
                     { key: "quantity", label: "Amount", class: "text-center", sortable: true },
                     { key: "actions", label: "Actions", class: "text-left"},   
                 ],
                 abilityFields : [
-                    { key: "source", label: "Name", class: "text-left", sortable: true },                 
-                    { key: "ability", label: "Description", class: "text-left", sortable: true },                    
+                    { key: "source", label: "Name", class: "text-left", sortable: true },
+                    { key: "ability", label: "Description", class: "text-left", sortable: true },   
                 ],
                 inventoryFields : [
                     { key: "subCategory", label: "Class", class: "text-left", sortable: true},   
-                    { key: "name", label: "Name", class: "text-left", sortable: true },                 
+                    { key: "name", label: "Name", class: "text-left", sortable: true },
                     { key: "qualityDisplay", label: "Qualities", class: "text-left", sortable: true },
                     { key: "encumbrance", label: "Encum.", class: "text-center", sortable: true },
                     { key: "actions", label: "Equip", class: "text-left", sortable: false },
@@ -907,7 +939,7 @@ export default {
                     },
                     gear: {
                         items: []
-                    },                 
+                    },
                     money: 55555500,
                     inventory: {
                         items: [],
@@ -1000,9 +1032,9 @@ export default {
             var pc = {
                 name: this.character.name,
                 race: this.selectedRace, 
-                career: this.selectedCareer,                 
+                career: this.selectedCareer,
                 skills: this.character.skills.items,
-                talents: this.character.talents.items,                 
+                talents: this.character.talents.items,
                 inventory: this.character.equipment.items,
                 money: this.character.equipment.money,
                 abilities: this.character.abilities,
@@ -1016,8 +1048,102 @@ export default {
 
             this.exportContent = JSON.stringify(pc, null, '\t');
 
-            this.exportModel = true;
+            this.exportModal = true;
 
+            return true;
+        },
+        showImportModal: function (type) {
+
+            this.importModal = true;
+            
+            this.importType = type; 
+            
+            return true;
+        },
+        importSwitch: function () {
+            switch(this.importType) {
+                case "item":
+                    this.importItem()
+                    break;
+            }
+            return true;
+        },
+        importItem : function () {
+
+            var impt = JSON.parse(this.importContent);
+
+            for(var i = 0; i < impt.length; i++) {
+
+                var itm = {
+                    id: impt[i].id,
+                    name: impt[i].name,
+                    category: impt[i].category,
+                    subCategory: impt[i].subCategory,
+                    description: impt[i].description,
+                    value: impt[i].value,
+                    //core stats
+                    encumbrance: impt[i].coreStats[0].value,
+                    rarity: impt[i].coreStats[1].value,
+                    hardPoints: impt[i].coreStats[2].value,
+                    specialAbilities: []                
+                };
+
+                if (impt[i].category === "Weapon") {
+                    itm.damage = impt[i].weaponStats[0].value,
+                    itm.critical = impt[i].weaponStats[1].value,
+                    itm.hands = impt[i].weaponStats[2].value,
+                    itm.range = impt[i].range,
+                    itm.skill = impt[i].skill,
+                    itm.qualities = impt[i].qualities
+                }
+
+                if (impt[i].category === "Armor") {
+                    itm.soak = impt[i].weaponStats[0].value,
+                    itm.defense = impt[i].weaponStats[1].value,
+                    itm.wornEncumbrance = impt[i].weaponStats[2].value,
+                    itm.qualities = impt[i].qualities
+                }
+
+                //cycle through to add to abilityData as well as specialAbilities. 
+
+                for (var a = 0; a < impt[i].abilities.length; a ++)  {
+                    itm.specialAbilities.push(impt[i].abilities[a].ability);
+                    this.abilityData.push(impt[i].abilities[a]);
+                }                
+
+                if (impt[i].category != "Gear") {
+                    for (var q = 0; q < impt[i].qualities.length; q++) {
+                        if (impt[i].qualities[q].value > 0) {
+                            var s = {
+                                id: impt[i].id,
+                                source: impt[i].name + " Special",
+                                ability: "See Item Qualities descrption in the Genesys Core Rulebook"
+                             }
+                             this.abilityData.push(s);   
+                            break;                         
+                        }
+                    }
+                }
+
+                switch (impt[i].category) {
+                    case "Armor": 
+                        this.armorData.push(itm);
+                        break;
+                    case "Gear": 
+                        this.gearData.push(itm);
+                        break;
+                    case "Weapon": 
+                        this.weaponData.push(itm);
+                        break;
+                }
+
+                var g = {id: itm.id, genres: "Custom", alternativeRules: "Custom"}
+                this.itemGenreData.push(g);
+            }
+
+            this.castItems();
+
+            return true;
         },
         showSomeModal : function (rowItem, rowType) {
             
@@ -1098,10 +1224,10 @@ export default {
                     newModalData = {
                         Name: rowItem.name,
                         Tags: rowItem.tags,      
-                        Description: rowItem.description,                       
-                        Activation: rowItem.activation,                  
+                        Description: rowItem.description,      
+                        Activation: rowItem.activation, 
                         Ranked: rowItem.ranked,
-                        Sourcing: rowItem.sourcing,                         
+                        Sourcing: rowItem.sourcing,        
                     }
 
                     this.modalData = newModalData;
@@ -1990,7 +2116,7 @@ export default {
 
                 var inventoryItem = {
                     uuid: this.getUniqueId(),
-                    id: weapon.id,                    
+                    id: weapon.id,   
                     name: weapon.name,
                     damage: weapon.damage,
                     critical: weapon.critical,
@@ -4835,12 +4961,12 @@ export default {
                     if( x >= 0) {
                         var t = {
                             id: this.talentData[x].id,
-                            name: this.talentData[x].name,                        
+                            name: this.talentData[x].name,       
                             tierDisplay: this.talentData[x].tierDisplay,
                             rankDisplay: this.talentData[x].rankedDisplay,
                             activation: this.talentData[x].activation,
                             originalTier: this.talentData[x].tier,
-                            tier: this.talentData[x].tier,                                          
+                            tier: this.talentData[x].tier,                         
                             ranked: this.talentData[x].isRanked,
                             description: this.talentData[x].alteredText,
                             sourcing: this.talentData[x].sourcing,

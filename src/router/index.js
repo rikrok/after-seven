@@ -6,6 +6,7 @@ import pcGen from '@/components/pcGen'
 import racialGen from '@/components/racialGen'
 import talentGen from '@/components/talentGen'
 import itemGen from '@/components/itemGen'
+import careerGen from '@/components/careerGen'
 
 //fluff
 import Alchemy from '@/components/alchemy'
@@ -47,6 +48,7 @@ export default new Router({
         { path: '/avatars', component: Avatars },
         { path: '/racialGen', component: racialGen },
         { path: '/talentGen', component: talentGen },
-        { path: '/itemGen', component: itemGen }
+        { path: '/itemGen', component: itemGen },
+        { path: '/careerGen', component: careerGen }
     ]
 })
