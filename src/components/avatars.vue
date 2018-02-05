@@ -16,7 +16,7 @@
                         v-bind:sub-title="'Status: ' + item.status"
                         bg-variant="dark" 
                         text-variant="light">
-                            <p> {{ item.text }} </p>   
+                            <p> {{ item.note }} </p>   
                             <p class="text-muted" > 
                                 Size: {{ item.size }} </br>
                                 Allegiance: {{ item.allegiance }} 

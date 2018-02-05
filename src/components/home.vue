@@ -7,38 +7,72 @@
             </template>
 
             <hr class="my-3">
-            <p> This is meant to be for-fun use. All character creation logic and content is owned by Fantasy Flight Games <b-link href="https://www.fantasyflightgames.com/en/products/genesys/products/genesys-core-rulebook/">(BUY THEIR BOOK) </b-link>. </p>    
-            <h4 class="text-primary"> Features </h4>
-            <p class="text-left">
-                After Seven setting introduces the following: 
-                <ul>
-                    <li> Alchemy System </li>
-                    <li> Over 100 new Talents </li>
-                    <li> 4 New Spells (Augur, Enchant, Transmogrify, Spell Jam) </li>            
-                    <li> 4 Races (2 New) </li>
-                    <li> 16 Careers </li>
-                    <li> Spell Effect Adjustments </li>
-                    <li> Several new items </li>                        
-                    <li> 4 New Knowledges </li>
-                </ul>        
-            </p>
-            <small class="text-left text-mute">
-                Note: Many talents were taken from <b-link href="http://lmgtfy.com/?q=genesys+talent+expanded"> "Genesys Talents Expanded" </b-link> </br>                
-                Note 2: Only After Seven rules are programed. All other settings, alternative rules or genres are not yet in the game.    
-            </small>
-            <hr>
-            <h4 class="text-primary"> To Do </h4>
-            <ul>
-                <li> Export as JSON </li>
-                <li> Specific talents that adjust stats (IE, Grit) </li>
-                <li> Add Genre Races </li>
-                <li> Add Genre Items </li>
-                <li> Add Alternative Rule Skills </li>
-                <li> Add Genre Talents </li>           
-            </ul>
+            <p> This is meant to be for-fun use for my players to create characters. </br>
+            All character creation logic and non custom content is owned by Fantasy Flight Games. Please purchase their book if you have not already. </p>    
 
-            <p class="text-muted sm mt-4"> - Christopher W. Lewis (contact me at [contact at bitaugur dot com]) </p>
+            <b-container>
+                <b-row>
+                    <b-col>
+                            <b-card
+                                bg-variant="dark"
+                                text-variant="light"
+                                title= "After Seven Setting Features">
+                                    After Seven setting introduces the following: 
+                                    <ul>
+                                        <li> Alchemy System </li>
+                                        <li> Over 100 new Talents </li>
+                                        <li> 4 New Spells (Augur, Enchant, Transmogrify, Spell Jam) </li>            
+                                        <li> 4 Races (2 New) </li>
+                                        <li> 16 Careers </li>
+                                        <li> Spell Effect Adjustments </li>
+                                        <li> Several new items </li>                        
+                                        <li> 4 New Knowledges </li>
+                                    </ul>    
+                                    <small class="text-left text-mute">
+                                        Note: Many talents were taken from <b-link href="http://lmgtfy.com/?q=genesys+talent+expanded"> "Genesys Talents Expanded" </b-link> </br>                                 
+                                    </small>
+                            </b-card>
+                    </b-col>
+                    <b-col>
+                            <b-card
+                                bg-variant="dark"
+                                text-variant="light"
+                                title= "After Seven Generator Features">
+                                Using the generators will let you
+                                <ul>
+                                    <li> Create your races </li>
+                                    <li> Create your careers </li>
+                                    <li> Create your items </li>            
+                                    <li> Create your talents </li>
+                                    <li> Use a robust library of talents </li>
+                                    <li> Focus on genre specific races, items, skills and talents </li>
+                                </ul>
 
+                                <small class="text-left text-mute">
+                                    Note: Many talents were taken from <b-link href="http://lmgtfy.com/?q=genesys+talent+expanded"> "Genesys Talents Expanded" </b-link> </br>                                 
+                                </small>
+
+                            </b-card>
+                    </b-col>
+                    <b-col>
+                            <b-card
+                                bg-variant="light"
+                                text-variant="dark"
+                                title= "Upcoming Features">
+                                Besides troubleshooting bugs, I would like to add
+                                <ul>
+                                    <li> Skill Generator </li>
+                                    <li> Genre Generator </li>
+                                    <li> Adversary Generator </li>                                    
+                                    <li> More racial customizations </li>
+                                    <li> More talent customizations </li>
+                                    <li> More gear customizations, allowing for cybernetics and implementations </li>
+                                </ul>
+
+                            </b-card>
+                    </b-col>
+                </b-row>
+            </b-container>
         </b-jumbotron>
     </div>
 </template>

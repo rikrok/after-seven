@@ -1366,23 +1366,5 @@
     ],
     "description": "See page 43 in the Genesys Core Rulebook.",
     "tags": "Rulebook Career"
-  },
-  {
-    "id": "C0",
-    "name": "test",
-    "alternativeRules": "After Seven",
-    "genre": "After Seven",
-    "careerSkills": [
-      "Cool",
-      "Discipline",
-      "Gunnery",
-      "Knowledge",
-      "Leadership",
-      "Mechanics",
-      "Operating",
-      "Perception"
-    ],
-    "description": "LOL",
-    "tags": "LOL"
   }
 ]

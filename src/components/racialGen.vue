@@ -63,7 +63,7 @@
                     <b-table small striped bordered responsive="sm" class="text-left" :items="this.race.characteristics" :fields="statFields" head-variant="dark">
                         <template slot="actions" slot-scope="row">
                             <b-btn v-bind:disabled="row.item.value === 0" size="sm" variant="danger" v-on:click.stop="row.item.value -=1 "> - </b-btn>
-                            <b-btn v-bind:disabled="row.item.value === 5" size="sm" variant="success" v-on:click.stop="row.item.value +=1 "> + </b-btn>  
+                            <b-btn v-bind:disabled="row.item.value === 5 && row.item.name != 'Silhouette'" size="sm" variant="success" v-on:click.stop="row.item.value +=1 "> + </b-btn>  
                         </template>
                     </b-table>
                 </b-col>
@@ -174,8 +174,8 @@ export default {
                     { name: "Melee Defense", value: 0 },
                     { name: "Ranged Defense", value: 0},
                     { name: "Soak", value: 0 },
-                    { name: "Strain Threshold", value: 10 },
-                    { name: "Wounds Threshold", value: 10 }
+                    { name: "Starting Strain Threshold", value: 10 },
+                    { name: "Starting Wounds Threshold", value: 10 }
                 ],
                 startingXP: 0,
                 racialSkills: { name: '', flavor: '', tag: '' },
@@ -282,7 +282,7 @@ export default {
                 racialSkills: { name: '', flavor: '', tag: '' },
                 racialSkillBonus: [],
                 racialAbilities: [],
-            }
+            }           
 
             var i = this.findWithAttr(this.raceList, "name", this.boxName);
 
@@ -291,6 +291,7 @@ export default {
             r.racialSkills.name = "Custom Skill";
             r.racialSkills.flavor = "Custom Skill";
             r.racialSkills.tag = this.skillOptionSelected;
+            r.racialAbilities = this.race.racialAbilities;
 
             if (this.skillOptionSelected === 'gain') {
                 r.racialSkillBonus.push(this.skillSelected);

@@ -13,22 +13,17 @@ Uses Vue.js, bootstrap, bootstrap-vue and a passion for making a generator.
 - While in custom mode, After Seven careers are throwing errors when selecting them, nothing is happening - but is complaining that things don't exist like they should.
 - Character name seems to be broken.
 - random roll faction screwy a bit.
-- abilities are not being added through weapons, gear, or armor. Most likely have to redo the ability.json file. 
+- abilities are not being added through weapons, gear, races, or armor. Most likely have to redo the ability.json file.
+- racial freebees aren't imported to show that there is a possible choice.
+- changing settings does not reset talents.
 
 ## Checks before Deployment
 - every function returns a true / false.
 - trim dat space.
+- spell check
 
 ## Incoming Features 
 - print page
-- ~~item generator~~    20180203
-- ~~racial generator~~  20180202
-- ~~talent generator~~  20180202
-- ~~career generator~~  20180203
-- import career json
-- import races json
-- ~~import items json~~ 20180203
-- import talents json
 
 ## Near Future Features
 - hard point install page

@@ -5,10 +5,10 @@
             <b-row class="text-right">
                 <b-col>
                     <b-button-group size="sm">
-                        <b-btn variant="dark" @click="showImportModal" size="sm"> Import Race JSON </b-btn>
-                        <b-btn variant="dark" @click="showImportModal" size="sm"> Import Talent JSON </b-btn>
+                        <b-btn variant="dark" @click="showImportModal('race')" size="sm"> Import Race JSON </b-btn>
+                        <b-btn variant="dark" @click="showImportModal('talent')" size="sm"> Import Talent JSON </b-btn>
                         <b-btn variant="dark" @click="showImportModal('item')" size="sm"> Import Item JSON </b-btn>
-                        <b-btn variant="dark" @click="showImportModal" size="sm"> Import Career JSON </b-btn>
+                        <b-btn variant="dark" @click="showImportModal('career')" size="sm"> Import Career JSON </b-btn>
                         <b-btn variant="success" @click="showExportModal" size="sm">Export as JSON </b-btn>
                     </b-button-group>
                 </b-col>
@@ -533,7 +533,7 @@
             </b-container>
         </b-modal>
 
-        <b-modal centered v-model="importModal" size="lg" title="Import JSON" header-class="bg-dark text-light"> 
+        <b-modal ref="importModalRef" centered v-model="importModal" size="lg" title="Import JSON" header-class="bg-dark text-light"> 
             <b-container>
                 <b-row>
                     <b-col>
@@ -556,12 +556,14 @@
         </b-modal>
 
 
-        <b-table :items="this.character.stats.characteristics" />
+        <!--b-table :items="this.character.stats.characteristics" />
         <b-table :items="this.character.stats.derivedCharacteristics" />
         <b-table :items="this.character.equipment.inventory.items" />
         <b-table :items="this.character.skills.transactionLog" />
         <b-table :items="this.character.talents.transactionLog" />
-        <b-table :items="this.armorData" />
+        <b-table :items="this.armorData" /-->
+
+        <b-table :items="this.raceData"/>
 
 
 
@@ -1063,12 +1065,109 @@ export default {
         importSwitch: function () {
             switch(this.importType) {
                 case "item":
-                    this.importItem()
+                    this.importItem();
+                    break;
+                case "race":
+                    this.importRace();
+                    break;
+                case "talent": 
+                    this.importTalent();
+                    break;
+                case "career": 
+                    this.importCareer();
                     break;
             }
             return true;
         },
-        importItem : function () {
+        importCareer: function () {
+            var impt = JSON.parse(this.importContent);
+
+            this.$refs.importModalRef.hide();
+
+            this.importModal = false;
+
+            for(var i = 0; i < impt.length; i++) {
+                var c = impt[i];
+
+                var cidx = this.findWithAttr(this.careerData, "id", impt[i]); 
+
+                if (cidx < 0) this.careerData.push(c);                
+            }
+
+            this.castSelectableCareers();
+
+            return true;
+        },
+        importTalent: function () {
+            var impt = JSON.parse(this.importContent);
+
+            this.$refs.importModalRef.hide();
+
+            this.importModal = false;
+
+            for(var i = 0; i < impt.length; i++) {
+                var t = impt[i];                
+
+                var tidx = this.findWithAttr(this.character.talents.items, "id", t.id);
+
+                if (tidx < 0) {
+                    this.talentData.push(t);
+                    var a = { id: impt[i].id, source: impt[i].name + " (Talent)", ability: impt[i].alteredText }
+                    this.abilityData.push(a);
+
+                    var g = { id: t.id, name: t.name, genres: 'Custom', alternativeRules: 'Custom' };
+                    this.talentGenreData.push(g);
+                }
+            }
+
+            this.castTalents();
+
+            return true;
+        },
+        importRace : function () { 
+            var impt = JSON.parse(this.importContent);
+
+            this.$refs.importModalRef.hide();
+
+            this.importModal = false;
+
+            for(var i = 0; i < impt.length; i++) {
+
+                var r = {
+                    id: impt[i].id, 
+                    name: impt[i].name,
+                    genre: 'Custom',
+                    characteristics: impt[i].characteristics,
+                    derivedCharacteristics: impt[i].derivedCharacteristics,
+                    startingXP: impt[i].startingXP,
+                    racialSkills: impt[i].racialSkills,
+                    racialSkillBonus: impt[i].racialSkillBonus,
+                    racialAbilities: impt[i].racialAbilities
+                };
+
+                var ridx = this.findWithAttr(this.raceData, "id", r.id);
+                
+                if (ridx < 0) {
+                    for (var ra = 0; ra < r.racialAbilities; ra++) {
+                        var a = { id: r.id, source: r.racialAbilities[ra].name + " (Racial)", ability: r.racialAbilities[ra].description};
+                        this.abilityData.push(a);
+                    }
+
+                    this.raceData.push(r);
+                }
+            }
+
+            this.importContent = '';
+
+            this.castSelectableRaces();
+
+            return true;
+        },
+        importItem : function () {            
+
+            this.$refs.importModalRef.hide();
+
+            var addItemCheck = false;
 
             var impt = JSON.parse(this.importContent);
 
@@ -1098,48 +1197,64 @@ export default {
                 }
 
                 if (impt[i].category === "Armor") {
-                    itm.soak = impt[i].weaponStats[0].value,
-                    itm.defense = impt[i].weaponStats[1].value,
-                    itm.wornEncumbrance = impt[i].weaponStats[2].value,
+                    itm.soak = impt[i].armorStats[0].value,
+                    itm.defense = impt[i].armorStats[1].value,
+                    itm.wornEncumbrance = impt[i].armorStats[2].value,
                     itm.qualities = impt[i].qualities
-                }
-
-                //cycle through to add to abilityData as well as specialAbilities. 
-
-                for (var a = 0; a < impt[i].abilities.length; a ++)  {
-                    itm.specialAbilities.push(impt[i].abilities[a].ability);
-                    this.abilityData.push(impt[i].abilities[a]);
-                }                
-
-                if (impt[i].category != "Gear") {
-                    for (var q = 0; q < impt[i].qualities.length; q++) {
-                        if (impt[i].qualities[q].value > 0) {
-                            var s = {
-                                id: impt[i].id,
-                                source: impt[i].name + " Special",
-                                ability: "See Item Qualities descrption in the Genesys Core Rulebook"
-                             }
-                             this.abilityData.push(s);   
-                            break;                         
-                        }
-                    }
                 }
 
                 switch (impt[i].category) {
                     case "Armor": 
-                        this.armorData.push(itm);
+                        var z = this.findWithAttr(this.armorData, "id", itm.id); 
+                        if (z < 0)  {
+                            this.armorData.push(itm);
+                            addItemCheck = true;
+                        }
                         break;
                     case "Gear": 
-                        this.gearData.push(itm);
+                        var z = this.findWithAttr(this.gearData, "id", itm.id); 
+                        if (z < 0)  {
+                            this.gearData.push(itm);
+                            addItemCheck = true;
+                        }
                         break;
                     case "Weapon": 
-                        this.weaponData.push(itm);
+                        var z = this.findWithAttr(this.weaponData, "id", itm.id);                         
+                        if (z < 0) {
+                            this.weaponData.push(itm);
+                            addItemCheck = true;
+                        }
                         break;
                 }
 
-                var g = {id: itm.id, genres: "Custom", alternativeRules: "Custom"}
-                this.itemGenreData.push(g);
+                if (addItemCheck) {
+                    var g = {id: itm.id, genres: "Custom", alternativeRules: "Custom"}
+                    this.itemGenreData.push(g);                        
+                    
+                    //cycle through to add to abilityData as well as specialAbilities. 
+
+                    for (var a = 0; a < impt[i].abilities.length; a ++)  {
+                        itm.specialAbilities.push(impt[i].abilities[a].ability);
+                        this.abilityData.push(impt[i].abilities[a]);
+                    }                
+
+                    if (impt[i].category != "Gear") {
+                        for (var q = 0; q < impt[i].qualities.length; q++) {
+                            if (impt[i].qualities[q].value > 0) {
+                                var s = {
+                                    id: impt[i].id,
+                                    source: impt[i].name + " Special",
+                                    ability: "See Item Qualities descrption in the Genesys Core Rulebook"
+                                };
+                                this.abilityData.push(s);   
+                                break;                         
+                            }
+                        }
+                    }
+                 }
             }
+
+            this.importContent = '';
 
             this.castItems();
 
@@ -3699,8 +3814,8 @@ export default {
                         
                         this.character.skills.racialChoiceMade = false;
 
-                        for (var x = 0; x < racialSkillBonus.length; x++ ) {
-                            var sidx = this.findWithAttr(this.character.skills.items, "name", racialSkillBonus[x]);
+                        for (var x = 0; x < this.raceData[ri].racialSkillBonus.length; x++ ) {
+                            var sidx = this.findWithAttr(this.character.skills.items, "name", this.raceData[ri].racialSkillBonus[x]);
                             
                             this.character.skills.items[sidx].isRacialChoice = false;
                             this.character.skills.items[sidx].isRacialSelection = true;
@@ -3713,11 +3828,12 @@ export default {
             return true;
         },
         assignRacialCharacteristics: function () {
+
             for(var i = 0; i < this.raceData.length; i++) {
                 
                 if(this.raceData[i].id === this.selectedRace) {
 
-                    for (var c = 0; c <this.character.stats.characteristics.length; c++) {        
+                    for (var c = 0; c < this.character.stats.characteristics.length; c++) {        
                         this.character.stats.characteristics[c].starting = this.raceData[i].characteristics[c].value;
                     }
 

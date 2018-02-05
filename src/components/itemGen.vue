@@ -28,10 +28,11 @@
         <b-container class="pb-4">
             <b-row>
                 <b-col>
-                    <b-card bg-variant="dark" header-bg-variant="dark" text-variant="white" header-border-variant="light" footer-bg-variant="dark" footer-border-variant="light">
-                        <div slot="header">                                                            
+                    <b-card bg-variant="dark" header-bg-variant="dark" text-variant="white" header-border-variant="light" footer-bg-variant="dark" footer-border-variant="light">                        
+                        <p>
+                            <small> Item Category and Subcategory </small>
                             <b-container>
-                                <b-row class="pt-1">
+                                <b-row>
                                     <b-col>
                                         <b-form-radio-group buttons button-variant="dark" v-model="selectedCategory" :options="categoryOptions"/>
                                     </b-col>
@@ -40,7 +41,7 @@
                                     </b-col>
                                 </b-row>
                             </b-container>
-                        </div>
+                        </p>
 
                         <b-input-group>                                    
                             <b-form-input v-model="boxName" type="text" placeholder="Name of Item"/>                                    
@@ -68,7 +69,7 @@
                                 <b-input-group-addon> Value of Item </b-input-group-addon>
                                 <b-form-input v-model="boxValue" size="sm" type="number"/>
                                 <b-input-group-addon>
-                                    <b-btn size="sm" variant="primary" @click="adjustPricing"> Recalculate </b-btn> 
+                                    <b-btn size="sm" variant="success" @click="adjustPricing"> Recalculate </b-btn> 
                                 </b-input-group-addon>
                             </b-input-group>     
                         </div>
@@ -894,11 +895,11 @@ export default {
                 this.selectedCategory = '';
                 this.selectedSubcategory = '';
                 this.selectedRange = '';
+                this.boxName = '';
+                this.description = '';
             }
 
-            this.boxName = '';
             this.boxValue = 0;
-            this.description = '';
             
             this.adjustDerivedStats();
             return true;
