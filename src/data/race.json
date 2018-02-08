@@ -65,13 +65,12 @@
       }
     ],
     "startingXP": 90,
-    "racialSkills": [
+    "racialSkills":
       {
         "name": "I Know Things",
         "flavor": "Pick any one Knowledge (Mortality, Natural, Paranormal, or Systems) and gain one rank of it. They start off with this knowledge prior to spending any points in Character Creation. It can not be increased above Rank 2 during character creation.",
         "tag": "choice"
-      }
-    ],
+      },
     "racialSkillBonus": [
       "Knowledge: Mortality",
       "Knowledge: Natural",
@@ -155,13 +154,12 @@
       }
     ],
     "startingXP": 90,
-    "racialSkills": [
+    "racialSkills": 
       {
         "name": "I See Things",
         "flavor": "An elf begins with one rank in Perception. You still cannot train their Perception above rank 2 during character creation.",
         "tag": "gain"
-      }
-    ],
+      },
     "racialSkillBonus": [
       "Perception"
     ],
@@ -238,17 +236,16 @@
       }
     ],
     "startingXP": 100,
-    "racialSkills": [
+    "racialSkills": 
       {
         "name": "I Use Things",
         "flavor": "Pick one of the following skills Gunnery, Mechanics, Operating. Place one rank in that skill. They obtain this rank before spending experience points, and these skills may not be increased higher than rank 2 during character creation.",
         "tag": "choice"
-      }
-    ],
+      },
     "racialSkillBonus": [
       "Gunnery",
-      " Mechanics",
-      " Operating"
+      "Mechanics",
+      "Operating"
     ],
     "racialAbilities": [
       {
@@ -323,13 +320,12 @@
       }
     ],
     "startingXP": 90,
-    "racialSkills": [
+    "racialSkills":
       {
         "name": "I Hit Things",
         "flavor": "Gain one rank of Brawl. They start off with this knowledge prior to spending any points in Character Creation. It can not be increased above Rank 2 during character creation.",
         "tag": "gain"
-      }
-    ],
+      },
     "racialSkillBonus": [
       "Brawl"
     ],
@@ -406,13 +402,11 @@
       }
     ],
     "startingXP": 90,
-    "racialSkills": [
-      {
+    "racialSkills": {      
         "name": "Skill Gain: Perception",
         "flavor": "See page 142 in the Genesys Core Rulebook",
         "tag": "gain"
-      }
-    ],
+      },
     "racialSkillBonus": [
       "Perception"
     ],
@@ -489,13 +483,12 @@
       }
     ],
     "startingXP": 90,
-    "racialSkills": [
+    "racialSkills":
       {
         "name": "Skill Gain: Resilience",
         "flavor": "See page 142 in the Genesys Core Rulebook",
         "tag": "gain"
-      }
-    ],
+      },
     "racialSkillBonus": [
       "Resilience"
     ],
@@ -576,13 +569,12 @@
       }
     ],
     "startingXP": 100,
-    "racialSkills": [
+    "racialSkills":
       {
         "name": "Skill Gain: Coercion",
         "flavor": "See page 142 in the Genesys Core Rulebook",
         "tag": "gain"
-      }
-    ],
+      },
     "racialSkillBonus": [
       "Coercion"
     ],
@@ -659,13 +651,12 @@
       }
     ],
     "startingXP": 100,
-    "racialSkills": [
+    "racialSkills":
       {
         "name": "Skill Gain: Discipline",
         "flavor": "See page 152 in the Genesys Core Rulebook",
         "tag": "gain"
-      }
-    ],
+      },
     "racialSkillBonus": [
       "Discipline"
     ],
@@ -746,13 +737,12 @@
       }
     ],
     "startingXP": 100,
-    "racialSkills": [
+    "racialSkills": 
       {
         "name": "Skill Gain: Coercion",
         "flavor": "See page 152 in the Genesys Core Rulebook",
         "tag": "gain"
-      }
-    ],
+      },
     "racialSkillBonus": [
       "Coercion"
     ],
@@ -833,13 +823,12 @@
       }
     ],
     "startingXP": 155,
-    "racialSkills": [
+    "racialSkills": 
       {
         "name": "Special Ability",
         "flavor": "See page 174 in the Genesys Core Rulebook",
         "tag": "none"
-      }
-    ],
+      },
     "racialAbilities": [
       {
         "name": "Inorganic",
@@ -913,13 +902,12 @@
       }
     ],
     "startingXP": 80,
-    "racialSkills": [
+    "racialSkills": 
       {
         "name": "Skill Gains",
         "flavor": "See page 174 in the Genesys Core Rulebook",
         "tag": "2 freebees"
-      }
-    ],
+      },    
     "racialAbilities": [
       {
         "name": "A Face in a Crowd",
@@ -993,13 +981,12 @@
       }
     ],
     "startingXP": 70,
-    "racialSkills": [
+    "racialSkills": 
       {
         "name": "Special Ability",
         "flavor": "See page 174 in the Genesys Core Rulebook",
         "tag": "gain"
-      }
-    ],
+      },    
     "racialSkillBonus": [
       "Athletics",
       "Coordination",
@@ -1078,13 +1065,12 @@
       }
     ],
     "startingXP": 70,
-    "racialSkills": [
+    "racialSkills": 
       {
         "name": "No Skill Gained",
         "flavor": "See page 183 in the Genesys Core Rulebook",
         "tag": "none"
-      }
-    ],
+      },
     "racialAbilities": [
       {
         "name": "Mind Reader",
@@ -1166,13 +1152,12 @@
       }
     ],
     "startingXP": 175,
-    "racialSkills": [
+    "racialSkills": 
       {
         "name": "Career Skill Gains",
         "flavor": "See page 183 in the Genesys Core Rulebook",
         "tag": "2 first four"
-      }
-    ],
+      },
     "racialAbilities": [
       {
         "name": "Special Ability",
@@ -1254,13 +1239,12 @@
       }
     ],
     "startingXP": 100,
-    "racialSkills": [
+    "racialSkills": 
       {
         "name": "Skill Gain: Knowledge",
         "flavor": "See page 183 in the Genesys Core Rulebook",
         "tag": "gain"
-      }
-    ],
+      },
     "racialSkillBonus": [
       "Knowledge"
     ],
@@ -1341,13 +1325,12 @@
       }
     ],
     "startingXP": 110,
-    "racialSkills": [
+    "racialSkills":
       {
         "name": "Non Career Skill Gains",
         "flavor": "See page 36 in the Genesys Core Rulebook",
         "tag": "2 non career freebe"
-      }
-    ],
+      },
     "racialAbilities": [
       {
         "name": "Ready for Anything",
@@ -1421,13 +1404,12 @@
       }
     ],
     "startingXP": 100,
-    "racialSkills": [
+    "racialSkills": 
       {
         "name": "Skill Gain: Athletics",
         "flavor": "See page 37 in the Genesys Core Rulebook",
         "tag": "gain"
-      }
-    ],
+      },
     "racialSkillBonus": [
       "Athletics"
     ],
@@ -1504,13 +1486,12 @@
       }
     ],
     "startingXP": 100,
-    "racialSkills": [
+    "racialSkills": 
       {
         "name": "Skill Gain: Knowledge",
         "flavor": "See page 38 in the Genesys Core Rulebook",
         "tag": "gain"
-      }
-    ],
+      },
     "racialSkillBonus": [
       "Knowledge"
     ],
@@ -1587,13 +1568,12 @@
       }
     ],
     "startingXP": 100,
-    "racialSkills": [
+    "racialSkills": 
       {
         "name": "Skill Gain: Cool",
         "flavor": "See page 39 in the Genesys Core Rulebook",
         "tag": "gain"
-      }
-    ],
+      },
     "racialSkillBonus": [
       "Cool"
     ],

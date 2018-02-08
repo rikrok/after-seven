@@ -130,6 +130,7 @@ export default {
             exportModel: false,
             iterator: 0,
             skillData: [],
+            choiceSkillSelection: false,
             boxName: '',
             boxXP: 100,
             statFields: [
@@ -183,6 +184,12 @@ export default {
                 racialAbilities: [],
             },
             exportContent: ''
+        }
+    },
+    watch : {
+        skillOptionSelected : function () {
+            if (this.skillOptionSelected === "gain") this.skillSelected = '';
+            if (this.skillOptionSelected === "choice") this.skillSelected = [];
         }
     },
     methods: {
@@ -255,6 +262,10 @@ export default {
         addRace: function () {
 
             if (this.boxName === '') return false;
+
+            if (this.skillOptionSelected === "gain" && this.skillSelected.length < 1) return false;
+
+            if (this.skillOptionSelected === "choice" && this.skillSelected.length < 1) return false;
 
             var r = {
                 id: '',

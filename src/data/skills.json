@@ -2,763 +2,654 @@
   {
     "id": "S1",
     "skill": "Alchemy",
-    "description": "Alchemy is the practice of binding magic to items or creating magical substances. This includes enchanting objects with special properties. Alchemy is the replacement of industry in this setting.",
     "genres": "After Seven",
     "alternativeRules": "After Seven"
   },
   {
     "id": "S2",
     "skill": "Alchemy",
-    "description": "See page 57 in the Genesys Core Rulebook.",
     "genres": "Fantasy, Steampunk, Weird War",
     "alternativeRules": "Default"
   },
   {
     "id": "S3",
     "skill": "Alchemy",
-    "description": "See page 57 in the Genesys Core Rulebook.",
     "genres": "Custom",
     "alternativeRules": "Custom"
   },
   {
     "id": "S4",
     "skill": "Arcana",
-    "description": "There is an invisible but tangible natural force that swims around in the space-between-space that individuals can tap into. Anything is possible with Arcana magic. It is the practice of interacting with the mysterious and wondrous magical winding streams of Arcana energy. \n",
     "genres": "After Seven",
     "alternativeRules": "After Seven"
   },
   {
     "id": "S5",
     "skill": "Arcana",
-    "description": "See page 70 in the Genesys Core Rulebook.",
     "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-fi, Space Opera",
     "alternativeRules": "Magic"
   },
   {
     "id": "S6",
     "skill": "Arcana",
-    "description": "See page 70 in the Genesys Core Rulebook.",
     "genres": "Custom",
     "alternativeRules": "Custom"
   },
   {
     "id": "S7",
     "skill": "Astrocartography",
-    "description": "See page 57 in the Genesys Core Rulebook.",
     "genres": "Space Opera",
     "alternativeRules": "Default"
   },
   {
     "id": "S8",
     "skill": "Astrocartography",
-    "description": "See page 57 in the Genesys Core Rulebook.",
     "genres": "Custom",
     "alternativeRules": "Custom"
   },
   {
     "id": "S9",
     "skill": "Athletics",
-    "description": "See page 58 in the Genesys Core Rulebook.",
     "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-fi, Space Opera",
     "alternativeRules": "Default"
   },
   {
     "id": "S10",
     "skill": "Athletics",
-    "description": "See page 58 in the Genesys Core Rulebook.",
     "genres": "Custom",
     "alternativeRules": "Custom"
   },
   {
     "id": "S11",
     "skill": "Athletics",
-    "description": "See page 58 in the Genesys Core Rulebook.",
     "genres": "After Seven",
     "alternativeRules": "After Seven"
   },
   {
     "id": "S12",
     "skill": "Brawl",
-    "description": "See page 67 in the Genesys Core Rulebook.",
     "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-fi, Space Opera",
     "alternativeRules": "Default"
   },
   {
     "id": "S13",
     "skill": "Brawl",
-    "description": "See page 67 in the Genesys Core Rulebook.",
     "genres": "Custom",
     "alternativeRules": "Custom"
   },
   {
     "id": "S14",
     "skill": "Brawl",
-    "description": "See page 67 in the Genesys Core Rulebook.",
     "genres": "After Seven",
     "alternativeRules": "After Seven"
   },
   {
     "id": "S15",
     "skill": "Charm",
-    "description": "See page 54 in the Genesys Core Rulebook.",
     "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-fi, Space Opera",
     "alternativeRules": "Default"
   },
   {
     "id": "S16",
     "skill": "Charm",
-    "description": "See page 54 in the Genesys Core Rulebook.",
     "genres": "Custom",
     "alternativeRules": "Custom"
   },
   {
     "id": "S17",
     "skill": "Charm",
-    "description": "See page 54 in the Genesys Core Rulebook.",
     "genres": "After Seven",
     "alternativeRules": "After Seven"
   },
   {
     "id": "S18",
     "skill": "Coercion",
-    "description": "See page 55 in the Genesys Core Rulebook.",
     "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-fi, Space Opera",
     "alternativeRules": "Default"
   },
   {
     "id": "S19",
     "skill": "Coercion",
-    "description": "See page 55 in the Genesys Core Rulebook.",
     "genres": "Custom",
     "alternativeRules": "Custom"
   },
   {
     "id": "S20",
     "skill": "Coercion",
-    "description": "See page 55 in the Genesys Core Rulebook.",
     "genres": "After Seven",
     "alternativeRules": "After Seven"
   },
   {
     "id": "S21",
     "skill": "Computers",
-    "description": "See page 58 in the Genesys Core Rulebook.",
     "genres": "Modern, Sci-fi, Space Opera",
     "alternativeRules": "Default"
   },
   {
     "id": "S22",
     "skill": "Computers",
-    "description": "See page 58 in the Genesys Core Rulebook.",
     "genres": "Custom",
     "alternativeRules": "Custom"
   },
   {
     "id": "S23",
     "skill": "Computers",
-    "description": "See page 58 in the Genesys Core Rulebook.",
     "genres": "Modern, Sci-fi, Space Opera",
     "alternativeRules": "Default"
   },
   {
     "id": "S24",
     "skill": "Cool",
-    "description": "See page 59 in the Genesys Core Rulebook.",
     "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-fi, Space Opera",
     "alternativeRules": "Default"
   },
   {
     "id": "S25",
     "skill": "Cool",
-    "description": "See page 59 in the Genesys Core Rulebook.",
     "genres": "Custom",
     "alternativeRules": "Custom"
   },
   {
     "id": "S26",
     "skill": "Cool",
-    "description": "See page 59 in the Genesys Core Rulebook.",
     "genres": "After Seven",
     "alternativeRules": "After Seven"
   },
   {
     "id": "S27",
     "skill": "Coordination",
-    "description": "See page 59 in the Genesys Core Rulebook.",
     "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-fi, Space Opera",
     "alternativeRules": "Default"
   },
   {
     "id": "S28",
     "skill": "Coordination",
-    "description": "See page 59 in the Genesys Core Rulebook.",
     "genres": "Custom",
     "alternativeRules": "Custom"
   },
   {
     "id": "S29",
     "skill": "Coordination",
-    "description": "See page 59 in the Genesys Core Rulebook.",
     "genres": "After Seven",
     "alternativeRules": "After Seven"
   },
   {
     "id": "S30",
     "skill": "Deception",
-    "description": "See page 56 in the Genesys Core Rulebook.",
     "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-fi, Space Opera",
     "alternativeRules": "Default"
   },
   {
     "id": "S31",
     "skill": "Deception",
-    "description": "See page 56 in the Genesys Core Rulebook.",
     "genres": "Custom",
     "alternativeRules": "Custom"
   },
   {
     "id": "S32",
     "skill": "Deception",
-    "description": "See page 56 in the Genesys Core Rulebook.",
     "genres": "After Seven",
     "alternativeRules": "After Seven"
   },
   {
     "id": "S33",
     "skill": "Discipline",
-    "description": "See page 60 in the Genesys Core Rulebook.",
     "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-fi, Space Opera",
     "alternativeRules": "Default"
   },
   {
     "id": "S34",
     "skill": "Discipline",
-    "description": "See page 60 in the Genesys Core Rulebook.",
     "genres": "Custom",
     "alternativeRules": "Custom"
   },
   {
     "id": "S35",
     "skill": "Discipline",
-    "description": "See page 60 in the Genesys Core Rulebook.",
     "genres": "After Seven",
     "alternativeRules": "After Seven"
   },
   {
     "id": "S36",
     "skill": "Divine",
-    "description": "See page 60 in the Genesys Core Rulebook.",
     "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-fi, Space Opera",
     "alternativeRules": "Magic"
   },
   {
     "id": "S37",
     "skill": "Divine",
-    "description": "Divine magic is rather superstitious and least understood branches of magic in the world. Divine magic is not learned through books, but earned.",
     "genres": "After Seven",
     "alternativeRules": "After Seven"
   },
   {
     "id": "S38",
     "skill": "Divine",
-    "description": "See page 60 in the Genesys Core Rulebook.",
     "genres": "Custom",
     "alternativeRules": "Custom"
   },
   {
     "id": "S39",
     "skill": "Driving",
-    "description": "See page 60 in the Genesys Core Rulebook.",
     "genres": "Steampunk, Weird War, Modern, Sci-fi, Space Opera",
     "alternativeRules": "Default"
   },
   {
     "id": "S40",
     "skill": "Driving",
-    "description": "See page 60 in the Genesys Core Rulebook.",
     "genres": "Custom",
     "alternativeRules": "Custom"
   },
   {
     "id": "S41",
     "skill": "Driving",
-    "description": "See page 60 in the Genesys Core Rulebook.",
     "genres": "After Seven",
     "alternativeRules": "After Seven"
   },
   {
     "id": "S42",
     "skill": "Gunnery",
-    "description": "See page 69 in the Genesys Core Rulebook.",
     "genres": "Steampunk, Weird War, Modern, Sci-fi, Space Opera",
     "alternativeRules": "Default"
   },
   {
     "id": "S43",
     "skill": "Gunnery",
-    "description": "See page 69 in the Genesys Core Rulebook.",
     "genres": "Custom",
     "alternativeRules": "Custom"
   },
   {
     "id": "S44",
     "skill": "Gunnery",
-    "description": "See page 69 in the Genesys Core Rulebook.",
     "genres": "After Seven",
     "alternativeRules": "After Seven"
   },
   {
     "id": "S45",
     "skill": "Knowledge",
-    "description": "See page 66 in the Genesys Core Rulebook.",
     "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-fi, Space Opera",
     "alternativeRules": "Default"
   },
   {
     "id": "S46",
     "skill": "Knowledge",
-    "description": "See page 66 in the Genesys Core Rulebook.",
     "genres": "Custom",
     "alternativeRules": "Custom"
   },
   {
     "id": "S47",
     "skill": "Knowledge: Mortality",
-    "description": "Geography, History, Languages, Literature, Political Science, Philosophy and Theology. All knowledges and things regarding mortals and their society. ",
     "genres": "After Seven",
     "alternativeRules": "After Seven"
   },
   {
     "id": "S48",
     "skill": "Knowledge: Natural",
-    "description": "Sciences, such as Agricultural, Biology, Ecology, Chemistry, Geology, Meteorology, and Physics. ",
     "genres": "After Seven",
     "alternativeRules": "After Seven"
   },
   {
     "id": "S49",
     "skill": "Knowledge: Paranormal",
-    "description": "This centers around the super natural forces of the world, such as the Arcana, Divine and Primal forces. Every mention in the rulebook to Knowledge in relation to Magic, this is the skill that rulebook should be referring to. ",
     "genres": "After Seven",
     "alternativeRules": "After Seven"
   },
   {
     "id": "S50",
     "skill": "Knowledge: Systems",
-    "description": "Knowledge which stems from predictable and repeatable patterns and various man-made applications. Examples include, but not limited to, Construction, Law, Engineering, Mathematics, War, Logistics, and Administrative affairs. ",
     "genres": "After Seven",
     "alternativeRules": "After Seven"
   },
   {
     "id": "S51",
     "skill": "Leadership",
-    "description": "See page 56 in the Genesys Core Rulebook.",
     "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-fi, Space Opera",
     "alternativeRules": "Default"
   },
   {
     "id": "S52",
     "skill": "Leadership",
-    "description": "See page 56 in the Genesys Core Rulebook.",
     "genres": "Custom",
     "alternativeRules": "Custom"
   },
   {
     "id": "S53",
     "skill": "Leadership",
-    "description": "See page 56 in the Genesys Core Rulebook.",
     "genres": "After Seven",
     "alternativeRules": "After Seven"
   },
   {
     "id": "S54",
     "skill": "Mechanics",
-    "description": "See page 60 in the Genesys Core Rulebook.",
     "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-fi, Space Opera",
     "alternativeRules": "Default"
   },
   {
     "id": "S55",
     "skill": "Mechanics",
-    "description": "See page 60 in the Genesys Core Rulebook.",
     "genres": "Custom",
     "alternativeRules": "Custom"
   },
   {
     "id": "S56",
     "skill": "Mechanics",
-    "description": "See page 60 in the Genesys Core Rulebook.",
     "genres": "After Seven",
     "alternativeRules": "After Seven"
   },
   {
     "id": "S57",
     "skill": "Medicine",
-    "description": "See page 61 in the Genesys Core Rulebook.",
     "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-fi, Space Opera",
     "alternativeRules": "Default"
   },
   {
     "id": "S58",
     "skill": "Medicine",
-    "description": "See page 61 in the Genesys Core Rulebook.",
     "genres": "Custom",
     "alternativeRules": "Custom"
   },
   {
     "id": "S59",
     "skill": "Medicine",
-    "description": "See page 61 in the Genesys Core Rulebook.",
     "genres": "After Seven",
     "alternativeRules": "After Seven"
   },
   {
     "id": "S60",
     "skill": "Melee",
-    "description": "See page 67 in the Genesys Core Rulebook.",
     "genres": "Steampunk, Weird War, Modern, Sci-fi, Space Opera",
     "alternativeRules": "Default"
   },
   {
     "id": "S61",
     "skill": "Melee",
-    "description": "See page 67 in the Genesys Core Rulebook.",
     "genres": "Custom",
     "alternativeRules": "Custom"
   },
   {
     "id": "S62",
     "skill": "Melee",
-    "description": "See page 67 in the Genesys Core Rulebook.",
     "genres": "After Seven",
     "alternativeRules": "After Seven"
   },
   {
     "id": "S63",
     "skill": "Melee (Heavy)",
-    "description": "See page 68 in the Genesys Core Rulebook.",
     "genres": "Fantasy",
     "alternativeRules": "Default"
   },
   {
     "id": "S64",
     "skill": "Melee (Heavy)",
-    "description": "See page 68 in the Genesys Core Rulebook.",
     "genres": "Custom",
     "alternativeRules": "Custom"
   },
   {
     "id": "S65",
     "skill": "Melee (Light)",
-    "description": "See page 68 in the Genesys Core Rulebook.",
     "genres": "Fantasy",
     "alternativeRules": "Default"
   },
   {
     "id": "S66",
     "skill": "Melee (Light)",
-    "description": "See page 68 in the Genesys Core Rulebook.",
     "genres": "Custom",
     "alternativeRules": "Custom"
   },
   {
     "id": "S67",
     "skill": "Negotiation",
-    "description": "See page 56 in the Genesys Core Rulebook.",
     "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-fi, Space Opera",
     "alternativeRules": "Default"
   },
   {
     "id": "S68",
     "skill": "Negotiation",
-    "description": "See page 56 in the Genesys Core Rulebook.",
     "genres": "Custom",
     "alternativeRules": "Custom"
   },
   {
     "id": "S69",
     "skill": "Negotiation",
-    "description": "See page 56 in the Genesys Core Rulebook.",
     "genres": "After Seven",
     "alternativeRules": "After Seven"
   },
   {
     "id": "S70",
     "skill": "Operating",
-    "description": "See page 62 in the Genesys Core Rulebook.",
     "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-fi, Space Opera",
     "alternativeRules": "Default"
   },
   {
     "id": "S71",
     "skill": "Operating",
-    "description": "See page 62 in the Genesys Core Rulebook.",
     "genres": "Custom",
     "alternativeRules": "Custom"
   },
   {
     "id": "S72",
     "skill": "Operating",
-    "description": "See page 62 in the Genesys Core Rulebook.",
     "genres": "After Seven",
     "alternativeRules": "After Seven"
   },
   {
     "id": "S73",
     "skill": "Perception",
-    "description": "See page 62 in the Genesys Core Rulebook.",
     "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-fi, Space Opera",
     "alternativeRules": "Default"
   },
   {
     "id": "S74",
     "skill": "Perception",
-    "description": "See page 62 in the Genesys Core Rulebook.",
     "genres": "Custom",
     "alternativeRules": "Custom"
   },
   {
     "id": "S75",
     "skill": "Perception",
-    "description": "See page 62 in the Genesys Core Rulebook.",
     "genres": "After Seven",
     "alternativeRules": "After Seven"
   },
   {
     "id": "S76",
     "skill": "Piloting",
-    "description": "See page 62 in the Genesys Core Rulebook.",
     "genres": "Weird War, Modern, Sci-fi, Space Opera",
     "alternativeRules": "Default"
   },
   {
     "id": "S77",
     "skill": "Piloting",
-    "description": "See page 62 in the Genesys Core Rulebook.",
     "genres": "Custom",
     "alternativeRules": "Custom"
   },
   {
     "id": "S78",
     "skill": "Primal",
-    "description": "See page 70 in the Genesys Core Rulebook.",
     "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-fi, Space Opera",
     "alternativeRules": "Magic"
   },
   {
     "id": "S79",
     "skill": "Primal",
-    "description": "Primal magic is about the link between the natural world and the spirit world. Primal spell casters are able to understand, interject their will, and intercept the linkage between the natural world and spirit world. ",
     "genres": "After Seven",
     "alternativeRules": "After Seven"
   },
   {
     "id": "S80",
     "skill": "Primal",
-    "description": "See page 70 in the Genesys Core Rulebook.",
     "genres": "Custom",
     "alternativeRules": "Custom"
   },
   {
     "id": "S81",
     "skill": "Ranged",
-    "description": "See page 68 in the Genesys Core Rulebook.",
     "genres": "Fantasy",
     "alternativeRules": "Default"
   },
   {
     "id": "S82",
     "skill": "Ranged",
-    "description": "See page 68 in the Genesys Core Rulebook.",
     "genres": "Custom",
     "alternativeRules": "Custom"
   },
   {
     "id": "S83",
     "skill": "Ranged (Heavy)",
-    "description": "See page 69 in the Genesys Core Rulebook.",
     "genres": "Steampunk, Weird War, Modern, Sci-fi, Space Opera",
     "alternativeRules": "Default"
   },
   {
     "id": "S84",
     "skill": "Ranged (Heavy)",
-    "description": "See page 69 in the Genesys Core Rulebook.",
     "genres": "Custom",
     "alternativeRules": "Custom"
   },
   {
     "id": "S85",
     "skill": "Ranged (Heavy)",
-    "description": "See page 69 in the Genesys Core Rulebook.",
     "genres": "After Seven",
     "alternativeRules": "After Seven"
   },
   {
     "id": "S86",
     "skill": "Ranged (Light)",
-    "description": "See page 68 in the Genesys Core Rulebook.",
     "genres": "Steampunk, Weird War, Modern, Sci-fi, Space Opera",
     "alternativeRules": "Default"
   },
   {
     "id": "S87",
     "skill": "Ranged (Light)",
-    "description": "See page 68 in the Genesys Core Rulebook.",
     "genres": "Custom",
     "alternativeRules": "Custom"
   },
   {
     "id": "S88",
     "skill": "Ranged (Light)",
-    "description": "See page 68 in the Genesys Core Rulebook.",
     "genres": "After Seven",
     "alternativeRules": "After Seven"
   },
   {
     "id": "S89",
     "skill": "Resilience",
-    "description": "See page 63 in the Genesys Core Rulebook.",
     "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-fi, Space Opera",
     "alternativeRules": "Default"
   },
   {
     "id": "S90",
     "skill": "Resilience",
-    "description": "See page 63 in the Genesys Core Rulebook.",
     "genres": "Custom",
     "alternativeRules": "Custom"
   },
   {
     "id": "S91",
     "skill": "Resilience",
-    "description": "See page 63 in the Genesys Core Rulebook.",
     "genres": "After Seven",
     "alternativeRules": "After Seven"
   },
   {
     "id": "S92",
     "skill": "Riding",
-    "description": "See page 63 in the Genesys Core Rulebook.",
     "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-fi, Space Opera",
     "alternativeRules": "Default"
   },
   {
     "id": "S93",
     "skill": "Riding",
-    "description": "See page 63 in the Genesys Core Rulebook.",
     "genres": "Custom",
     "alternativeRules": "Custom"
   },
   {
     "id": "S94",
     "skill": "Riding",
-    "description": "See page 63 in the Genesys Core Rulebook.",
     "genres": "After Seven",
     "alternativeRules": "After Seven"
   },
   {
     "id": "S95",
     "skill": "Skulduggery",
-    "description": "See page 64 in the Genesys Core Rulebook.",
     "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-fi, Space Opera",
     "alternativeRules": "Default"
   },
   {
     "id": "S96",
     "skill": "Skulduggery",
-    "description": "See page 64 in the Genesys Core Rulebook.",
     "genres": "Custom",
     "alternativeRules": "Custom"
   },
   {
     "id": "S97",
     "skill": "Skulduggery",
-    "description": "See page 64 in the Genesys Core Rulebook.",
     "genres": "After Seven",
     "alternativeRules": "After Seven"
   },
   {
     "id": "S98",
     "skill": "Stealth",
-    "description": "See page 64 in the Genesys Core Rulebook.",
     "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-fi, Space Opera",
     "alternativeRules": "Default"
   },
   {
     "id": "S99",
     "skill": "Stealth",
-    "description": "See page 64 in the Genesys Core Rulebook.",
     "genres": "Custom",
     "alternativeRules": "Custom"
   },
   {
     "id": "S100",
     "skill": "Stealth",
-    "description": "See page 64 in the Genesys Core Rulebook.",
     "genres": "After Seven",
     "alternativeRules": "After Seven"
   },
   {
     "id": "S101",
     "skill": "Streetwise",
-    "description": "See page 65 in the Genesys Core Rulebook.",
     "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-fi, Space Opera",
     "alternativeRules": "Default"
   },
   {
     "id": "S102",
     "skill": "Streetwise",
-    "description": "See page 65 in the Genesys Core Rulebook.",
     "genres": "Custom",
     "alternativeRules": "Custom"
   },
   {
     "id": "S103",
     "skill": "Streetwise",
-    "description": "See page 65 in the Genesys Core Rulebook.",
     "genres": "After Seven",
     "alternativeRules": "After Seven"
   },
   {
     "id": "S104",
     "skill": "Survival",
-    "description": "See page 65 in the Genesys Core Rulebook.",
     "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-fi, Space Opera",
     "alternativeRules": "Default"
   },
   {
     "id": "S105",
     "skill": "Survival",
-    "description": "See page 65 in the Genesys Core Rulebook.",
     "genres": "Custom",
     "alternativeRules": "Custom"
   },
   {
     "id": "S106",
     "skill": "Survival",
-    "description": "See page 65 in the Genesys Core Rulebook.",
     "genres": "After Seven",
     "alternativeRules": "After Seven"
   },
   {
     "id": "S107",
     "skill": "Vigilance",
-    "description": "See page 65 in the Genesys Core Rulebook.",
     "genres": "Fantasy, Steampunk, Weird War, Modern, Sci-fi, Space Opera",
     "alternativeRules": "Default"
   },
   {
     "id": "S108",
     "skill": "Vigilance",
-    "description": "See page 65 in the Genesys Core Rulebook.",
     "genres": "Custom",
     "alternativeRules": "Custom"
   },
   {
     "id": "S109",
     "skill": "Vigilance",
-    "description": "See page 65 in the Genesys Core Rulebook.",
     "genres": "After Seven",
     "alternativeRules": "After Seven"
   }

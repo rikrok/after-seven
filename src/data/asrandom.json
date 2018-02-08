@@ -101,32 +101,32 @@
   },
   {
     "type": "faction",
-    "rollValue": 1,
+    "rollValue": 0,
     "outcomeId": "Confederacy of Canada"
   },
   {
     "type": "faction",
-    "rollValue": 2,
+    "rollValue": 1,
     "outcomeId": "Holy American Empire"
   },
   {
     "type": "faction",
-    "rollValue": 3,
+    "rollValue": 2,
     "outcomeId": "Imperium of the North"
   },
   {
     "type": "faction",
-    "rollValue": 4,
+    "rollValue": 3,
     "outcomeId": "Kingdom of Quebec"
   },
   {
     "type": "faction",
-    "rollValue": 5,
+    "rollValue": 4,
     "outcomeId": "New American Republic"
   },
   {
     "type": "faction",
-    "rollValue": 6,
-    "outcomeId": "Western Commonwealth"
+    "rollValue": 5,
+    "outcomeId": "Western State Commonwealth"
   }
 ]

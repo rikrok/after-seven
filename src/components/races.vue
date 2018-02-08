@@ -40,15 +40,20 @@
                                     <b-table head-variant="light" responsive="sm" dark small striped bordered :items="race.derivedCharacteristics"/>
                                 </b-col>
                             </b-row>
-                        </b-container>
-                                                
+                        </b-container>                                                
                         <hr>
                         <h4> <strong> Goodies </strong> </h4>
                         <b-card-group deck>
-                            <b-card bg-variant="dark" text-variant="light" v-for="(skill, sIndex) in race.racialSkills" :key="sIndex" v-bind:title="skill.name"> {{skill.flavor}} </b-card>
+                            <b-card bg-variant="dark" text-variant="light" v-bind:title="race.racialSkills.name"> 
+                                {{ race.racialSkills.flavor }}
+                                <p>
+                                    <div v-if="race.racialSkills.tag === 'choice'"> Skill Selection: </br>  
+                                        <div class="pl-2" v-for="(skill, sIndex) in race.racialSkillBonus" :key="sIndex"> {{ skill }} </div>
+                                    </div>
+                                </p>
+                            </b-card>                            
                             <b-card bg-variant="dark" text-variant="light" v-for="(ability, aIndex) in race.racialAbilities" :key="aIndex" v-bind:title="ability.name"> {{ability.description}} </b-card>
-                        </b-card-group>
-                        
+                        </b-card-group>                        
                         <div slot="footer" class="text-muted"> Starting XP: {{ race.startingXP }} </div>
                     </b-card>   
                     <p> </p>                 

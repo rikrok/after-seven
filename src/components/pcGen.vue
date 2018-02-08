@@ -1,503 +1,511 @@
 <template>
-    <div class="col-sm-12 p-3">
-        <h1> Character Generator </h1>
-        <b-container class="p-3">
-            <b-row class="text-right">
-                <b-col>
-                    <b-button-group size="sm">
-                        <b-btn variant="dark" @click="showImportModal('race')" size="sm"> Import Race JSON </b-btn>
-                        <b-btn variant="dark" @click="showImportModal('talent')" size="sm"> Import Talent JSON </b-btn>
-                        <b-btn variant="dark" @click="showImportModal('item')" size="sm"> Import Item JSON </b-btn>
-                        <b-btn variant="dark" @click="showImportModal('career')" size="sm"> Import Career JSON </b-btn>
-                        <b-btn variant="success" @click="showExportModal" size="sm">Export as JSON </b-btn>
-                    </b-button-group>
-                </b-col>
-                <b-col>
-                </b-col>
-            </b-row>
-        </b-container>
-        <hr>
-        <p> </p>
-        <b-check v-model="showHeader"> Show Header? </b-check>
-        
-        <b-container class="p-3 text-left" style="border:1px solid #cecece;" v-if="showHeader">
-            <b-row>    
-                <b-col> <strong>Name</strong> </b-col>
-                <b-col> <strong>Setting</strong> </b-col>
-                <b-col> <strong>Alternative Rules</strong> </b-col>
-            </b-row>
+    <div class="col-sm-12 p-3"> 
+        <b-container>
+            <b-row id="gen"> 
+                <b-col>   
+                    <b-card class = "text-left" bg-variant="light" header-bg-variant="dark" header-text-variant="light">
+                        <div slot="header"> <h1> <strong> Player Character Generator </strong> </h1> </div>
+                        <b-container class="text-center">
+                            <b-row>
+                                <b-col> <b-btn variant="success" @click="showExportModal" size="lg">Export Character as json </b-btn> </b-col>
+                            </b-row>
 
-            <b-row>
-                <b-col>
-                    <b-form-input id="characterName" v-model="this.character.name" placeholder="enter name" type="text"/> 
-                </b-col>
-
-                <b-col> 
-                    <b-form-select v-model="selectedGenre" :options="this.settingGenres" class="mb-3"/>
-                </b-col>
-
-                <b-col> 
-                    <b-form-group>
-                        <b-form-checkbox-group v-model="selectedAlternativeRules" :options="this.sheet.alternativeRules" />
-                    </b-form-group>
+                            <b-row class="pt-1">                                
+                                <b-col>
+                                    <b-button-group>
+                                        <b-btn variant="secondary" @click="showImportModal('race')" size="sm"> Import Race </b-btn> 
+                                        <b-btn variant="secondary" @click="showImportModal('talent')" size="sm"> Import Talent </b-btn>
+                                        <b-btn variant="secondary" @click="showImportModal('item')" size="sm"> Import Item </b-btn>
+                                        <b-btn variant="secondary" @click="showImportModal('career')" size="sm"> Import Career </b-btn>
+                                    </b-button-group>                                        
+                                </b-col>
+                            </b-row>                                
+                        </b-container>
+                    </b-card>
                 </b-col>
             </b-row>
-            <b-row> <b-col> <hr> </b-col> </b-row>
-            <b-row v-if="this.selectedGenre === 'After Seven'"> 
+
+            <b-row id="header" class="pt-4">
                 <b-col>
-                    <b-btn variant="dark" v-if="this.selectedGenre === 'After Seven'" size="sm" @click.stop="randomRollASFluff"> Random Roll Race, Career, Faction </b-btn>
-                
-                    <b-btn variant="dark" v-if="this.selectedGenre === 'After Seven'" size="sm" @click.stop="grantCareerBoost"> Roll for Career Bonus </b-btn>
-                
-                    <div v-if="this.character.bonusGiven != ''"  class="text-muted text-left"> <strong> After Seven Career Bonus: </strong> {{this.character.bonusGiven}} </div>
-                 </b-col>
+                    <b-card bg-variant="light" header-bg-variant="dark" header-text-variant="light">
+                        <div slot="header"> 
+                            <b-container>
+                                <b-row class="text-left">
+                                    <b-col> <h2> <strong> Meta Info </strong> </h2> </b-col> 
+                                    <b-col class="text-right"> <b-check v-model="showHeader"> Show Header? </b-check></b-col>
+                                </b-row>
+                            </b-container>                       
+                        </div>
+                        <b-container class="p-3 text-left" style="border:1px solid #cecece;" v-if="showHeader">
+                            <b-row>
+                                <b-col>
+                                    <b-form-group label="Name">
+                                        <b-form-input id="characterName" v-model="this.boxName" placeholder="enter name" type="text"/> 
+                                    </b-form-group>
+                                </b-col>
+
+                                <b-col> 
+                                    <b-form-group label="Genres">
+                                        <b-form-select v-model="selectedGenre" :options="this.settingGenres" class="mb-3"/>
+                                    </b-form-group>
+                                </b-col>
+
+                                <b-col> 
+                                    <b-form-group label="Alternative Rules"> 
+                                        <b-form-checkbox-group v-model="selectedAlternativeRules" :options="this.sheet.alternativeRules" />
+                                    </b-form-group>
+                                </b-col>
+                            </b-row>
+
+                            <b-row> 
+                                <b-col>
+                                    <h5><strong>Random Roll</strong></h5>
+                                    <b-button-group size="sm">
+                                        <b-btn  v-if="this.selectedGenre === 'After Seven'" variant="outline-secondary" size="sm" @click.stop="randomRollASFluff"> Race / Career / Faction </b-btn>                                                                                
+                                        <b-btn variant="outline-secondary" size="sm" @click.stop="randomRollRaceCareer"> Race / Career </b-btn> 
+                                        <b-btn v-if="this.selectedGenre === 'After Seven'" variant="outline-secondary" size="sm" @click.stop="randomRolLFaction"> Faction </b-btn> 
+                                        <b-btn v-if="this.selectedGenre === 'After Seven'" variant="outline-secondary" size="sm" @click.stop="grantCareerBoost"> Career Bonus </b-btn>
+                                        <b-btn variant="outline-secondary" size="sm" @click.stop="randomRollMotivation"> Motivations </b-btn> 
+                                        
+                                    </b-button-group>
+                                    <div v-if="this.character.bonusGiven != ''"  class="text-muted text-left"> <strong> After Seven Career Bonus: </strong> {{this.character.bonusGiven}} </div>
+                                </b-col>
+                            </b-row>
+                                
+                            <b-row class="pt-4">
+                                <b-col> 
+                                    <b-form-group label="Race">
+                                        <b-form-select v-model="selectedRace" :options="this.sheet.selectableRaces" class="mb-3"/> 
+                                    </b-form-group>
+                                </b-col>
+
+                                <b-col> 
+                                    <b-form-group label="Career"> 
+                                        <b-form-select v-model="selectedCareer" :options="this.sheet.selectableCareers" class="mb-3"/>
+                                    </b-form-group>
+                                </b-col>
+
+                                <b-col v-if="selectedGenre === 'After Seven'">
+                                    <b-form-group label="Faction"> 
+                                        <b-form-select v-model="selectedFaction" :options="this.sheet.possibleFactions" class="mb-3"/>
+                                    </b-form-group>
+                                </b-col>
+
+                            </b-row>
+                            <b-row>
+                                <b-col>
+                                    <b-form-group label="Desire">
+                                        <b-form-select v-model="selectedDesire" :options="this.sheet.selectableDesires" class="mb-3"/>
+                                    </b-form-group>
+                                </b-col>
+                                <b-col>
+                                    <b-form-group label="Fear">
+                                        <b-form-select v-model="selectedFear" :options="this.sheet.selectableFears" class="mb-3"/>
+                                    </b-form-group>
+                                </b-col>
+                                <b-col>
+                                    <b-form-group label="Flaw">
+                                        <b-form-select v-model="selectedFlaw" :options="this.sheet.selectableFlaws" class="mb-3"/>
+                                    </b-form-group>
+                                </b-col>
+                                <b-col>
+                                    <b-form-group label="Strength">
+                                        <b-form-select v-model="selectedStrength" :options="this.sheet.selectableStrengths" class="mb-3"/>
+                                    </b-form-group>
+                                </b-col>
+                            </b-row>
+                        </b-container>  
+                    </b-card>
+
+                </b-col>           
             </b-row>
-            <p > </p>
 
-            <b-row>
-                <b-col> <strong>Race</strong> </b-col>
-                <b-col> <strong>Career</strong> </b-col>
-                <b-col v-if="selectedGenre === 'After Seven'"> <strong>Former Faction</strong> </b-col>
-            </b-row>
-            
-            <b-row> <p> </p> </b-row>
-            <b-row>
-                <b-col> <b-form-select v-model="selectedRace" :options="this.sheet.selectableRaces" class="mb-3"/> </b-col>
-
-                <b-col>  <b-form-select v-model="selectedCareer" :options="this.sheet.selectableCareers" class="mb-3"/> </b-col>
-
-                <b-col v-if="selectedGenre === 'After Seven'"> <b-form-select v-model="selectedFaction" :options="this.sheet.possibleFactions" class="mb-3"/> </b-col>
-
-            </b-row>
-            <b-row> <b-col> <hr> </b-col> </b-row>
-            <b-row>
-                <b-col> <b-btn variant="dark" size="sm" @click.stop="randomRollMotivation"> Random Roll Motivations </b-btn> </b-col>
-            </b-row>
-            <p > </p>
-            <b-row>
-                <b-col> <strong>Desire</strong> </b-col>
-
-                <b-col> <strong>Fear</strong> </b-col>
-
-                <b-col> <strong>Flaw</strong> </b-col>
-
-                <b-col> <strong>Strength</strong> </b-col>
-            </b-row>
-
-            <b-row>
+            <b-row id="stats" class="pt-4">
                 <b-col>
-                    <b-form-select v-model="selectedDesire" :options="this.sheet.selectableDesires" class="mb-3"/>
-                </b-col>
-                <b-col>
-                    <b-form-select v-model="selectedFear" :options="this.sheet.selectableFears" class="mb-3"/>
-                </b-col>
-                <b-col>
-                    <b-form-select v-model="selectedFlaw" :options="this.sheet.selectableFlaws" class="mb-3"/>
-                </b-col>
-                <b-col>
-                    <b-form-select v-model="selectedStrength" :options="this.sheet.selectableStrengths" class="mb-3"/>
-                </b-col>
-            </b-row>
-                
+                    <b-card bg-variant="light" header-bg-variant="dark" header-text-variant="light">
+                        <div slot="header"> 
+                            <b-container>
+                                <b-row class="text-left">
+                                    <b-col> <h2> <strong> Characteristics </strong> </h2> </b-col> 
+                                    <b-col class="text-right"> <b-check v-model="showCharacteristics"> Show Characteristics? </b-check></b-col>
+                                </b-row>
+                                <b-row  v-if="showCharacteristics" class="text-muted text-left small">
+                                    <b-col> <strong> Remaining XP: </strong> {{ this.character.xp.total }} </b-col>
+                                </b-row>
+                            </b-container>                       
+                        </div>
 
-        </b-container>    
-        <hr>
-        <p> </p>
-        <b-check v-model="showCharacteristics"> Show Characteristics? </b-check>
+                        <b-container v-if="showCharacteristics">
+                            <b-row>
+                                <b-col> <b-alert :show="characteristicAlert" dismissible @dismissed="characteristicAlert=false" variant="warning"> {{ this.illegalLogic }} </b-alert> </b-col>  
+                            </b-row>
 
-        <h2 v-if="showCharacteristics"> <strong> Characteristics </strong> </h2>
-        <p>  </p>
-          
-        <b-container class="p-3" v-if="showCharacteristics" style="border:1px solid #cecece;">
-            <b-row>
-                <b-col> <b-alert :show="characteristicAlert" dismissible @dismissed="characteristicAlert=false" variant="warning"> {{ this.illegalLogic }} </b-alert> </b-col>    
-            </b-row>
-
-            <b-row>
-                <b-col>
-                    <b-container> 
-                        <b-row>
-                            <b-col>
-                                <b-table small striped bordered responsive="sm" class="text-left" :items="this.character.stats.characteristics" :fields="this.sheet.characteristicFields">
-                                    <template slot="actions" slot-scope="row">  
-                                        <b-btn v-if="row.item.name != 'Silhouette'" v-bind:disabled="row.item.value === 0" size="sm" variant="danger" v-on:click.stop="adjustCharacteristic(row.item, -1)"> - </b-btn>
-                                        <b-btn v-if="row.item.name != 'Silhouette'" v-bind:disabled="row.item.value === 5" size="sm" variant="success" v-on:click.stop="adjustCharacteristic(row.item, 1)"> + </b-btn>  
-                                        <b-btn v-if="row.item.name != 'Silhouette' && !row.item.canBeModified && activeCharacteristicChoice" size="sm" variant="warning" v-on:click.stop="modifyCharacteristic(row.item, -1)"> X </b-btn>
-                                        <b-btn v-if="row.item.name != 'Silhouette' && row.item.canBeModified && activeCharacteristicChoice" size="sm" variant="primary" v-on:click.stop="modifyCharacteristic(row.item, 1)"> • </b-btn>
-                                    </template>
-                                </b-table>
-                            </b-col>
-                        </b-row>      
-                    </b-container>        
-                </b-col>
-
-                <b-col>
-                    <b-container>  
-                        <b-row>
-                            <b-col>  
-                                <b-table small striped bordered responsive="sm" class="text-left" :items="this.character.stats.derivedCharacteristics" :fields="this.sheet.derivedCharacteristicFields"/> 
-                            </b-col>
-                        </b-row>     
-                    </b-container>   
-                </b-col>
-
-                <b-col>
-                    <b-container class="text-left">   
-                        <b-row class="pb-2"> <b-col> <strong> Experience and $$$ Tracker </strong> </b-col> </b-row>
-                                                
-                        <b-row>
-                            <b-col> <strong>Total XP</strong> </b-col>
-                            <b-col> {{ this.character.xp.total }} </b-col>
-                        </b-row>
-                        
-                        <b-row class="text-muted">
-                            <b-col> Spent XP </b-col>
-                            <b-col> {{ this.character.xp.totalSpent }} </b-col>    
-                        </b-row>
-
-                        <b-row class="text-muted">
-                            <b-col> Starting XP </b-col>
-                            <b-col> {{ this.character.xp.starting }} </br> </b-col>
-                        </b-row>
-
-                        <b-row class="pt-2">
-                            <b-col > Bonus XP </b-col>
-                            <b-col > <b-form-input v-model="bonusXp" type="number" size="sm"/> </b-col>        
-                        </b-row>
-
-                        <b-row class="pt-3">
-                            <b-col > Money </b-col>
-                            <b-col > <b-form-input v-model="character.equipment.money" type="number" size="sm"/> </b-col>        
-                        </b-row>
-
-                    </b-container>   
-                </b-col>
-
-            </b-row>
-        </b-container>
-
-        <p> </p>
-        <h2 v-if="skillTableMode && talentTableMode"> <strong> Skills and Talents </strong> </h2>
-        <h2 v-if="skillTableMode && !talentTableMode"> <strong> Skills </strong> </h2>
-        <h2 v-if="!skillTableMode && talentTableMode"> <strong> Talents </strong> </h2>
-        <b-container class="p-0" style="border:1px solid #cecece;" >
-            <b-row class="col-12">
-                    <b-col>
-                        <b-form-checkbox id="skillCheckBox" v-model="skillTableMode" > Show Skills </b-form-checkbox>
-                    </b-col> 
-                    <b-col>
-                        <b-form-checkbox id="talentCheckBox" v-model="talentTableMode" > Show Talents </b-form-checkbox>
-                    </b-col>
-                </b-row>
-            <b-row>
-                   <b-col> <strong> Free Skills: </strong> {{ this.character.skills.freebees }} </b-col>
-                   <b-col> <strong> Free Non-Career Skills: </strong> {{ this.character.skills.nonCareerFreebees }} </b-col>
-                   <b-col> <strong> Remaining Free Career Skills: </strong> {{ this.character.skills.firstFour }} </b-col>
-                   <b-col> <strong> Remaining XP: </strong> {{ this.character.xp.total }} </b-col>
-            </b-row>        
-            <b-row class="pt-2">
-                <b-col>
-                    <b-container>
-                        <b-row>
-                            <b-col>
-                                <b-btn v-if="skillTableMode" v-on:click="cleanSkills(false, false)" variant="warning" size="sm"> Reset Skills </b-btn>
-                                <b-btn v-if="talentTableMode" v-on:click="cleanTalents(false, false)" variant="warning" size="sm"> Reset Talents </b-btn>
-                                <p> </p>
-                            </b-col>
-                        </b-row>
-                        
-                        <b-row>
-                            <b-col v-if="skillTableMode">
-                                <b-table responsive small striped class="text-left" :items="this.sheet.skillLegend" :fields="this.sheet.skillLegendFields"/>
-                            </b-col>
-                            <b-col v-if="talentTableMode">
-                                <b-table class="text-left" small striped :items="this.character.talents.limitations"/>
-                            </b-col>
-                        </b-row>
-
-                        <b-row>
-                            <b-col>
-                                <b-alert :show="xpAlert" dismissible @dismissed="xpAlert=false" variant="warning"> {{ this.illegalLogic }} </b-alert>    
-                            </b-col> 
-                        </b-row>
-                        <b-row> <hr> </b-row>
-                        
-                        <b-row id="skillAndTalentGrids" >
-                            <b-col v-if="skillTableMode" id="skillGrid" cols="5"> 
-                                <b-container>
-                                    <b-row v-if="skillTableMode">    
-                                        <b-col> <b-form-input v-model="skillFilter" placeholder="Type to Search" /> </b-col>
-
-                                        <b-col>
-                                            <b-input-group-button> 
-                                                <b-btn :disabled="!skillFilter" @click="skillFilter = ''"> Clear </b-btn>
-                                            </b-input-group-button>
-                                        </b-col>
-                                    </b-row>  
-                                    <b-row v-if="skillTableMode" >
-                                        <b-col>
-                                            <p> </p>
-                                            <b-table                  
-                                                responsive="sm" small outlined striped class="text-left" :filter="skillFilter" @filtered="onSkillFilter" :items="this.character.skills.items"
-                                                    :fields="this.sheet.skillFields" :per-page="skillsPerPage" :current-page="skillsPage">
-                                                <template slot="actions" slot-scope="row">      
-                                                    <b-btn v-bind:disabled="talentSkillCareerBonusActive || row.item.ranks < 1" size="sm" variant="danger" v-on:click.stop="removeSkillRank(row.item, -1, false)"> - </b-btn>
-                                                    <b-btn v-bind:disabled="talentSkillCareerBonusActive || row.item.ranks >= 2"  size="sm" variant="success" v-on:click.stop="adjustSkillRank(row.item, 1, false)"> + </b-btn> 
-                                                    <b-btn v-if="talentSkillCareerBonusActive && row.item.talentChoiceSelection && !row.item.isCareer" size="sm" variant="primary" v-on:click.stop="adjustSkillCareer(row.item, 1)"> • </b-btn>
-                                                    <b-btn v-if="talentSkillCareerBonusActive && row.item.talentChoiceSelection && row.item.isCareer" size="sm" variant="primary" v-on:click.stop="adjustSkillCareer(row.item, -1)"> x </b-btn>
-                                                </template>
-                                            </b-table>
-                                        </b-col>
-                                    </b-row>
-
-                                    <b-row v-if="skillTableMode">
-                                        <b-col> <b-pagination size="sm" :total-rows="skillTableRows" :per-page="skillsPerPage" v-model="skillsPage" /> </b-col>
-                                    </b-row>
-
-                                </b-container>
-                            </b-col>
-
-                            <b-col v-if="talentTableMode">
-                                <b-container >
-                                    <b-row v-if="talentTableMode">
-                                        <b-col> <b-form-input v-model="talentFilter" placeholder="Type to Search" /> </b-col>
-
-                                        <b-col>
-                                            <b-input-group-button> 
-                                                <b-btn :disabled="!talentFilter" @click="talentFilter = ''"> Clear </b-btn>
-                                            </b-input-group-button>
-                                        </b-col>
-                                    </b-row> 
-                                    
-                                    <b-row v-if="talentTableMode">
-                                        <b-col>
-                                            <p> </p>
-                                            <b-table responsive="sm" small outlined striped class="text-left" :filter="talentFilter" @filtered="onTalentFilter" 
-                                                :items="this.character.talents.items" :fields="this.sheet.talentFields" :per-page="talentsPerPage" :current-page="talentsPage">    
-                                                    <template slot="details" slot-scope="row"> {{row.item.tierDisplay}} {{row.item.name}} </template>
+                            <b-row>
+                                <b-col>
+                                    <b-container> 
+                                        <b-row>
+                                            <b-col>
+                                                <b-table small striped bordered responsive="sm" class="text-left" :items="this.character.stats.characteristics" :fields="this.sheet.characteristicFields" head-variant="dark">
                                                     <template slot="actions" slot-scope="row">
-                                                        <b-btn size="sm" @click.stop="showSomeModal(row.item, 'talent')" variant="secondary"> ? </b-btn>
-                                                        <b-btn v-bind:disabled="row.item.ranks < 1" size="sm" variant="danger" v-on:click.stop="adjustTalentTiering(row.item, -1, false)"> - </b-btn>
-                                                        <b-btn size="sm" variant="success" v-on:click.stop="adjustTalentTiering(row.item, 1, false)"> + </b-btn>
+                                                        <b-btn v-if="row.item.name != 'Silhouette'" v-bind:disabled="row.item.value === 0" size="sm" variant="danger" v-on:click.stop="adjustCharacteristic(row.item, -1)"> - </b-btn>
+                                                        <b-btn v-if="row.item.name != 'Silhouette'" v-bind:disabled="row.item.value === 5" size="sm" variant="success" v-on:click.stop="adjustCharacteristic(row.item, 1)"> + </b-btn>
+                                                        <b-btn v-if="row.item.name != 'Silhouette' && !row.item.canBeModified && activeCharacteristicChoice" size="sm" variant="warning" v-on:click.stop="modifyCharacteristic(row.item, -1)"> X </b-btn>
+                                                        <b-btn v-if="row.item.name != 'Silhouette' && row.item.canBeModified && activeCharacteristicChoice" size="sm" variant="primary" v-on:click.stop="modifyCharacteristic(row.item, 1)"> • </b-btn>
                                                     </template>
-                                            </b-table>
-                                        </b-col>
-                                    </b-row>
-                                    <b-row v-if="talentTableMode">
-                                        <b-col> <b-pagination size="sm" :total-rows="talentTableRows" :per-page="talentsPerPage" v-model="talentsPage" /> </b-col>
-                                    </b-row>
-                                </b-container>
-                            </b-col>
-                        </b-row>
-                    </b-container>
-                </b-col>
-            </b-row>
-        </b-container>
-                
-        <p> </p>
-        <h2> <strong>  </strong> </h2>
-        <h2 v-if="abilityMode && inventoryMode"> <strong>  Inventory and Abilities </strong> </h2>
-        <h2 v-if="!abilityMode && inventoryMode"> <strong> Inventory </strong> </h2>
-        <h2 v-if="abilityMode && !inventoryMode"> <strong> Abilities </strong> </h2>
-        <b-container class="p-0" style="border:1px solid #cecece;">
-            <b-row> 
-                <b-col> <b-form-checkbox id="inventoryModeCheckBox" v-model="inventoryMode" > Inventory </b-form-checkbox> </b-col> 
-                <b-col> <b-form-checkbox id="abilityModeCheckBox"  v-model="abilityMode" > Abilities </b-form-checkbox> </b-col>
-            </b-row>
-
-            <b-row> <b-col> </b-col> </b-row>
-
-            <b-row v-if="inventoryMode">
-                <b-container>
-                    <b-row>
-                        <b-col>
-                            <b-form-input v-model="inventoryFilter" placeholder="Type to Search" />
-                        </b-col>
-
-                        <b-col>
-                            <b-input-group-button> 
-                                <b-btn :disabled="!inventoryFilter" @click="inventoryFilter = ''"> Clear </b-btn>
-                            </b-input-group-button>
-                        </b-col>
-                    </b-row>  
-
-                    <b-row>
-                        <b-col>
-                            <p> </p>
-                            <b-table responsive="sm" small outlined striped class="text-left" caption-top :filter="inventoryFilter" @filtered="onInventoryFilter" 
-                                :per-page="this.sheet.inventoryPerPage" :current-page="inventoryPage" :items="this.character.equipment.inventory.items" 
-                                :fields="this.sheet.inventoryFields">
-                                    <template slot="table-caption"> Highlighted rows indicate equipped items. </template>
-                                    <template slot="actions" slot-scope="row">
-                                        <b-btn size="sm" @click.stop="showSomeModal(row.item, 'inv')" variant="secondary"> ? </b-btn>
-                                        <b-btn v-show="row.item.category === 'Weapon' || row.item.category === 'Armor' || (row.item.category === 'Gear' && row.item.subCategory === 'Cybernetics')" 
-                                            size="sm" variant="warning" v-on:click.stop="removeFromLoadOut(row.item)"> - </b-btn>
-                                        <b-btn v-show="row.item.category === 'Weapon' || row.item.category === 'Armor' || (row.item.category === 'Gear' && row.item.subCategory === 'Cybernetics')" 
-                                            size="sm" variant="primary" v-on:click.stop="addToLoadout(row.item, row.item.category)"> + </b-btn>
-                                    </template>
-                                    <template slot="remove" slot-scope="row">
-                                        <b-btn size="sm" variant="danger" @click.stop="adjustInventory(row.item)"> x </b-btn>
-                                    </template>   
-                            </b-table>
-                        </b-col>
-                    </b-row>
-                                            
-                    <b-row>
-                        <b-col>
-                            <b-pagination size="sm" :total-rows="inventoryTableRows" :per-page="inventoryPerPage" v-model="inventoryPage" />    
-                        </b-col>
-                    </b-row>
-                </b-container> 
-            </b-row>  
-            <b-row v-if="abilityMode" class="text-left p-3"> <b-col> <h4> Abilities </h4> </b-col> </b-row>
-            <b-row v-if="abilityMode">
-                <b-col> 
-                    <b-container>
-                        <b-row>
-                            <b-col>
-                                <b-form-input v-model="abilityFilter" placeholder="Type to Search" />
-                            </b-col>
-
-                            <b-col>
-                                <b-input-group-button> 
-                                    <b-btn :disabled="!abilityFilter" @click="abilityFilter = ''"> Clear </b-btn>
-                                </b-input-group-button>
-                            </b-col>
-                        </b-row> 
-
-                        <b-row>
-                            <b-col>
-                                <p> </p>
-                                <b-table responsive="sm" small outlined striped class="text-left" :filter="abilityFilter" @filtered="onAbilityFilter" 
-                                    :per-page="abilityPerPage" :current-page="abilityPage" :items="this.character.abilities" :fields="this.sheet.abilityFields"/>
-                            </b-col>   
-                        </b-row>
-
-                        <b-row>
-                            <b-col>
-                                <b-pagination size="sm" :total-rows="abilityTableRows" :per-page="abilityPerPage" v-model="abilityPage" />    
-                            </b-col>
-                        </b-row>
-                    </b-container>
-                </b-col>
-            </b-row>
-        </b-container>
-
-        <p> </p>
-        <b-container style="border:1px solid #cecece;">
-            <b-row> 
-                <b-col>
-                    <b-form-checkbox id="armorShopModeCheckBox" v-model="armorShopMode" > Show Armor Shop </b-form-checkbox>
-                </b-col> 
-                <b-col>
-                    <b-form-checkbox id="weaponShopModeCheckBox" v-model="weaponShopMode" > Show Weapon Shop </b-form-checkbox>
-                </b-col> 
-                <b-col>
-                    <b-form-checkbox id="gearhopModeCheckBox" v-model="gearShopMode" > Show Gear Shop </b-form-checkbox>
-                </b-col> 
-            </b-row>
-            <b-row>
-                <b-col> Current Encumbrance: {{ this.character.stats.derivedCharacteristics[0].value }}  </b-col>
-                <b-col> Encumbrance Capacity: {{ this.character.stats.derivedCharacteristics[1].value }}  </b-col>
-                <b-col> Money: {{ this.character.equipment.money }}  </b-col>
-            </b-row>
-   
-            <b-row>
-                <b-col>
-                    <b-alert :show="inventoryAlert" dismissible @dismissed="inventoryAlert=false" variant="warning"> {{ this.illegalLogic }} </b-alert> 
-                </b-col>
-            </b-row>
-            <hr>
-            <b-row id="inventoryGrid">
-                <b-col>
-                    <b-container>
-                        <b-row v-if="armorShopMode"> <b-col> <h4 class="text-left"><strong> Armor </strong> </h4> </b-col> </b-row>
-                        <b-row id ="armorGrid" v-if="armorShopMode">
-                            <b-col>
-                                <b-table responsive="sm" small outlined striped :items="this.character.equipment.armor.items" :fields="this.sheet.armorFields" >
-                                    <template slot="actions" slot-scope="invRow">
-                                        <b-btn size="sm" variant="secondary" @click.stop="showSomeModal(invRow.item, 'armor')" > ? </b-btn>
-                                        <b-btn id="removeArmor" size="sm" variant="danger" @click.stop="adjustArmorInventory(invRow.item, -1)"> - </b-btn>
-                                        <b-btn id="addArmor" size="sm" variant="success" @click.stop="adjustArmorInventory(invRow.item, 1)"> + </b-btn>
-                                    </template>
-                                </b-table>
-                            </b-col>
-                        </b-row>
-                        <hr v-if="weaponShopMode"> 
-
-                        <b-row v-if="weaponShopMode"> <b-col> <h4 class="text-left"><strong> Weapons </strong> </h4> </b-col> </b-row>    
-                        <b-row v-if="weaponShopMode">
-                        </b-row>
-
-                        <b-row v-if="weaponShopMode">
-                                <b-col>
-                                    <b-form-input v-model="weaponFilter" placeholder="Type to Search" />
+                                                </b-table>
+                                            </b-col>
+                                        </b-row>
+                                    </b-container>
                                 </b-col>
 
                                 <b-col>
-                                    <b-input-group-button> 
-                                    <b-btn :disabled="!weaponFilter" @click="weaponFilter = ''"> Clear </b-btn>
-                                    </b-input-group-button>
-                                </b-col>
-                        </b-row>
-
-                        <b-row id ="weaponGrid"  v-if="weaponShopMode">
-                            <b-col>
-                                <p> </p>
-                                <b-table responsive="sm" small outlined striped :filter="weaponFilter" @filtered="onWeaponFilter" :items="this.character.equipment.weapons.items" 
-                                        :fields="this.sheet.weaponFields" :per-page="weaponShopPerPage"  :current-page="weaponShopPage">
-                                    <template slot="actions" slot-scope="row">
-                                        <b-btn size="sm" @click.stop="showSomeModal(row.item, 'weapon')" variant="secondary"> ? </b-btn>
-                                        <b-btn size="sm" variant="danger" v-on:click.stop="adjustWeaponInventory(row.item, -1)"> - </b-btn>
-                                        <b-btn size="sm" variant="success" v-on:click.stop="adjustWeaponInventory(row.item, 1)"> + </b-btn>
-                                    </template>
-                                </b-table>
-                            </b-col>
-                        </b-row>
-                        <b-row v-if="weaponShopMode">
-                            <b-col>
-                                <b-pagination size="sm" :total-rows="weaponShopTableRows" :per-page="weaponShopPerPage" v-model="weaponShopPage" />
-                            </b-col>
-                        </b-row>
-
-
-                        <hr v-if="gearShopMode"> 
-                        <b-row v-if="gearShopMode"> <b-col> <h4 class="text-left"><strong> Gear </strong> </h4> </b-col> </b-row>
-
-                        <b-row v-if="gearShopMode">
-
-                                <b-col>
-                                    <b-form-input v-model="gearFilter" placeholder="Type to Search" />
+                                    <b-container>
+                                        <b-row>
+                                            <b-col>
+                                                <b-table small striped bordered responsive="sm" class="text-left" :items="this.character.stats.derivedCharacteristics" :fields="this.sheet.derivedCharacteristicFields" head-variant="dark"/> 
+                                            </b-col>
+                                        </b-row>   
+                                    </b-container> 
                                 </b-col>
 
                                 <b-col>
-                                    <b-input-group-button> 
-                                        <b-btn :disabled="!gearFilter" @click="gearFilter = ''"> Clear </b-btn>
-                                    </b-input-group-button>
+                                    <b-container class="text-left"> 
+                                        <b-row class="pb-2"> <b-col> <strong> Experience and $$$ Tracker </strong> </b-col> </b-row>
+                                                                
+                                        <b-row>
+                                            <b-col> <strong>Total XP</strong> </b-col>
+                                            <b-col> {{ this.character.xp.total }} </b-col>
+                                        </b-row>
+                                        
+                                        <b-row class="text-muted">
+                                            <b-col> Spent XP </b-col>
+                                            <b-col> {{ this.character.xp.totalSpent }} </b-col>  
+                                        </b-row>
+
+                                        <b-row class="text-muted">
+                                            <b-col> Starting XP </b-col>
+                                            <b-col> {{ this.character.xp.starting }} </br> </b-col>
+                                        </b-row>
+
+                                        <b-row class="pt-2">
+                                            <b-col > Bonus XP </b-col>
+                                            <b-col > <b-form-input v-model="bonusXp" type="number" size="sm"/> </b-col>
+                                        </b-row>
+
+                                        <b-row class="pt-3">
+                                            <b-col > Money </b-col>
+                                            <b-col > <b-form-input v-model="character.equipment.money" type="number" size="sm"/> </b-col>
+                                        </b-row>
+                                    </b-container>
                                 </b-col>
-                        </b-row>
-
-                        <b-row id ="gearGrid"  v-if="gearShopMode">
-                            <b-col>
-                                <p> </p>
-                                <b-table responsive="sm" small outlined striped :filter="gearFilter" @filtered="onGearFilter" :per-page="gearShopPerPage" 
-                                    :current-page="gearShopPage" :items="this.character.equipment.gear.items" :fields="this.sheet.gearFields">
-                                    <template slot="actions" slot-scope="row">
-                                        <b-btn size="sm" @click.stop="showSomeModal(row.item, 'gear')" variant="secondary"> ? </b-btn>
-                                        <b-btn size="sm" variant="danger" v-on:click.stop="adjustGearInventory(row.item, -1)"> - </b-btn>
-                                        <b-btn size="sm" variant="success" v-on:click.stop="adjustGearInventory(row.item, 1)"> + </b-btn>
-                                    </template>
-                                </b-table>
-                            </b-col>
-                        </b-row>
-
-                        <b-row v-if="gearShopMode">
-                            <b-col> <b-pagination size="sm" :total-rows="gearShopTableRows" :per-page="gearShopPerPage" v-model="gearShopPage" /> </b-col>
-                        </b-row>
-                    </b-container>
+                            </b-row>
+                        </b-container>
+                    </b-card>
                 </b-col>
             </b-row>
 
+            <b-row id="skillsAndTalents" class="pt-4">
+                <b-col>
+                    <b-card bg-variant="light" header-bg-variant="dark" header-text-variant="light">
+                        <div slot="header">
+                            <b-container>
+                                <b-row class="text-left">
+                                    <b-col> <h2> <strong> Skills and Talents </strong> </h2> </b-col>
+                                    <b-col class="text-right"> <b-form-checkbox id="skillCheckBox" v-model="skillTableMode" > Show Skills </b-form-checkbox> </b-col>
+                                    <b-col class="text-right"> <b-form-checkbox id="talentCheckBox" v-model="talentTableMode" > Show Talents </b-form-checkbox> </b-col>
+                                </b-row>
+                                <b-row class="text-muted text-left small">
+                                    <b-col v-if="skillTableMode || talentTableMode"> <strong> Remaining XP: </strong> {{ this.character.xp.total }} </b-col>
+                                    <b-col v-if="skillTableMode"> <strong> Free Skills: </strong> {{ this.character.skills.freebees }} </b-col>
+                                    <b-col v-if="skillTableMode"> <strong> Free Non-Career Skills: </strong> {{ this.character.skills.nonCareerFreebees }} </b-col>
+                                    <b-col v-if="skillTableMode"> <strong> Free Career Skills: </strong> {{ this.character.skills.firstFour }} </b-col>
+                                    <b-col class="text-right">
+                                        <b-btn-group size="sm" >
+                                            <b-btn v-if="skillTableMode" v-on:click="cleanSkills(false, false)" variant="outline-warning" size="sm"> Reset Skills </b-btn>
+                                            <b-btn v-if="talentTableMode" v-on:click="cleanTalents(false, false)" variant="outline-warning" size="sm"> Reset Talents </b-btn>
+                                        </b-btn-group>
+                                    </b-col>
+                                </b-row>
+                            </b-container>
+                        </div>
+
+                        <b-container>
+                            <b-row>
+                                <b-col v-if="skillTableMode">
+                                    <b-table responsive small striped class="text-left" :items="this.sheet.skillLegend" :fields="this.sheet.skillLegendFields" head-variant="dark"/>
+                                </b-col>
+                                <b-col v-if="talentTableMode">
+                                    <b-table class="text-left" small striped :items="this.character.talents.limitations" head-variant="dark"/>
+                                </b-col>
+                            </b-row>
+
+                            <b-row>
+                                <b-col>
+                                    <b-alert :show="xpAlert" dismissible @dismissed="xpAlert=false" variant="warning"> {{ this.illegalLogic }} </b-alert>  
+                                </b-col> 
+                            </b-row>
+
+                            <b-row>
+                                 <b-col v-if="skillTableMode"> 
+                                     <b-input-group>
+                                        <b-form-input v-model="skillFilter" placeholder="Type to Search" /> 
+                                        <b-input-group-addon>
+                                            <b-btn :disabled="!skillFilter" @click="skillFilter = ''"> Clear </b-btn>
+                                        </b-input-group-addon>
+                                    </b-input-group> </br>
+
+                                    <b-table                  
+                                        responsive="sm" small outlined striped class="text-left" :filter="skillFilter" @filtered="onSkillFilter" :items="this.character.skills.items"
+                                            :fields="this.sheet.skillFields" :per-page="skillsPerPage" :current-page="skillsPage" head-variant="dark">
+                                        <template slot="actions" slot-scope="row">
+                                            <b-btn v-bind:disabled="talentSkillCareerBonusActive || row.item.ranks < 1" size="sm" variant="danger" v-on:click.stop="removeSkillRank(row.item, -1, false)"> - </b-btn>
+                                            <b-btn v-bind:disabled="talentSkillCareerBonusActive || row.item.ranks >= 2"  size="sm" variant="success" v-on:click.stop="adjustSkillRank(row.item, 1, false)"> + </b-btn> 
+                                            <b-btn v-if="talentSkillCareerBonusActive && row.item.talentChoiceSelection && !row.item.isCareer" size="sm" variant="primary" v-on:click.stop="adjustSkillCareer(row.item, 1)"> • </b-btn>
+                                            <b-btn v-if="talentSkillCareerBonusActive && row.item.talentChoiceSelection && row.item.isCareer" size="sm" variant="primary" v-on:click.stop="adjustSkillCareer(row.item, -1)"> x </b-btn>
+                                        </template>
+                                    </b-table> </br>
+
+                                    <b-pagination size="sm" :total-rows="skillTableRows" :per-page="skillsPerPage" v-model="skillsPage" />
+
+                                </b-col>
+
+                                <b-col v-if="talentTableMode">
+                                     <b-input-group>
+                                        <b-form-input v-model="talentFilter" placeholder="Type to Search" /> 
+                                        <b-input-group-addon>
+                                            <b-btn :disabled="!talentFilter" @click="talentFilter = ''"> Clear </b-btn>
+                                        </b-input-group-addon>
+                                    </b-input-group> </br>
+
+
+                                    <b-table responsive="sm" small outlined striped class="text-left" :filter="talentFilter" @filtered="onTalentFilter" 
+                                        :items="this.character.talents.items" :fields="this.sheet.talentFields" :per-page="talentsPerPage" :current-page="talentsPage" head-variant="dark">  
+                                            <template slot="details" slot-scope="row"> {{row.item.tierDisplay}} {{row.item.name}} </template>
+                                            <template slot="actions" slot-scope="row">
+                                                <b-btn size="sm" @click.stop="showSomeModal(row.item, 'talent')" variant="secondary"> ? </b-btn>
+                                                <b-btn v-bind:disabled="row.item.ranks < 1" size="sm" variant="danger" v-on:click.stop="adjustTalentTiering(row.item, -1, false)"> - </b-btn>
+                                                <b-btn size="sm" variant="success" v-on:click.stop="adjustTalentTiering(row.item, 1, false)"> + </b-btn>
+                                            </template>
+                                    </b-table> </br>
+
+                                    <b-pagination size="sm" :total-rows="talentTableRows" :per-page="talentsPerPage" v-model="talentsPage" />
+                                </b-col>
+                            </b-row>
+                        </b-container>
+                    </b-card>
+                </b-col>
+
+
+
+            </b-row>
+
+            <b-row id="inventory" class="pt-4">
+                <b-col>
+                    <b-card bg-variant="light" header-bg-variant="dark" header-text-variant="light">
+                        <div slot="header">
+                            <b-container>
+                                <b-row class="text-left">
+                                    <b-col>
+                                        <h2 v-if="inventoryMode"> <strong> Inventory</strong> </h2>
+                                    </b-col>
+                                    <b-col class="text-right"> <b-form-checkbox id="inventoryModeCheckBox" v-model="inventoryMode" > Show Inventory? </b-form-checkbox> </b-col>
+                                </b-row>
+                                <b-row class="text-muted text-left small">
+                                    <b-col v-if="inventoryMode" v-bind:class="[this.character.stats.derivedCharacteristics[0].value > this.character.stats.derivedCharacteristics[1].value ? 'bg-danger text-white text-left' : 'bg-success text-white text-left']">
+                                         Current Encumbrance: {{ this.character.stats.derivedCharacteristics[0].value }} 
+                                    </b-col>
+                                    <b-col v-if="inventoryMode"> <strong> Encumbrance Capacity: </strong> {{ this.character.stats.derivedCharacteristics[1].value }}  </b-col>
+                                    <b-col v-if="inventoryMode"> Money: {{ this.character.equipment.money }} </b-col>
+                                </b-row>
+                            </b-container>
+                        </div>
+
+                        <b-container v-if="inventoryMode">
+                            <b-row>
+                                <b-col> 
+                                     <b-input-group>
+                                        <b-form-input v-model="inventoryFilter" placeholder= "Type to Search" /> 
+                                        <b-input-group-addon>
+                                            <b-btn :disabled="!inventoryFilter" @click="inventoryFilter = ''"> Clear </b-btn>
+                                        </b-input-group-addon>
+                                    </b-input-group> </br>
+
+                                    <b-table responsive="sm" small outlined striped class="text-left" caption-top :filter="inventoryFilter" @filtered="onInventoryFilter" 
+                                        :per-page="this.sheet.inventoryPerPage" :current-page="inventoryPage" :items="this.character.equipment.inventory.items" head-variant="dark"
+                                        :fields="this.sheet.inventoryFields">
+                                            <template slot="table-caption"> Highlighted rows indicate equipped items. </template>
+                                            <template slot="actions" slot-scope="row">
+                                                <b-btn size="sm" @click.stop="showSomeModal(row.item, 'inv')" variant="secondary"> ? </b-btn>
+                                                <b-btn 
+                                                    v-show="row.item.category === 'Weapon' || row.item.category === 'Armor' || (row.item.category === 'Gear' && row.item.subCategory === 'Cybernetics')"
+                                                    v-bind:disabled='!row.item.equipped'
+                                                    v-on:click.stop="removeFromLoadOut(row.item)"
+                                                    size="sm" 
+                                                    variant="warning"> - </b-btn>
+                                                <b-btn 
+                                                    v-show="row.item.category === 'Weapon' || row.item.category === 'Armor' || (row.item.category === 'Gear' && row.item.subCategory === 'Cybernetics')"
+                                                    v-bind:disabled='(row.item.equipped)'
+                                                    v-on:click.stop="addToLoadout(row.item, row.item.category)"
+                                                    size="sm" 
+                                                    variant="primary"> + </b-btn>
+                                            </template>
+                                            <template slot="remove" slot-scope="row">
+                                                <b-btn size="sm" variant="danger" @click.stop="adjustInventory(row.item)"> x </b-btn>
+                                            </template> 
+                                    </b-table> </br>
+
+                                    <b-pagination size="sm" :total-rows="inventoryTableRows" :per-page="inventoryPerPage" v-model="inventoryPage" /> 
+                                </b-col>
+                            </b-row>
+                        </b-container>
+
+                    </b-card>
+                </b-col>
+            </b-row>         
+
+            <b-row id="abilities" class="pt-4">
+                <b-col>
+                    <b-card bg-variant="light" header-bg-variant="dark" header-text-variant="light">
+                        <div slot="header">
+                            <b-container>
+                                <b-row class="text-left">
+                                    <b-col>
+                                        <h2><strong>Abilities</strong> </h2>
+                                    </b-col>
+                                    <b-col class="text-right"> <b-form-checkbox id="abilityModeCheckBox"  v-model="abilityMode" > Show Abilities? </b-form-checkbox> </b-col>
+                                </b-row>
+                            </b-container>
+                        </div>
+
+                        <b-container v-if="abilityMode">>
+                            <b-row>
+                                <b-col> 
+                                     <b-input-group>
+                                        <b-form-input v-model="abilityFilter" placeholder="Type to Search" /> 
+                                        <b-input-group-addon>
+                                            <b-btn :disabled="!abilityFilter" @click="abilityFilter = ''"> Clear </b-btn>
+                                        </b-input-group-addon>
+                                    </b-input-group> </br>
+
+                                    <b-table responsive="sm" small outlined striped class="text-left" :filter="abilityFilter" @filtered="onAbilityFilter" 
+                                        :per-page="abilityPerPage" :current-page="abilityPage" :items="this.character.abilities" 
+                                        :fields="this.sheet.abilityFields" head-variant="dark"/>
+                                    </br>
+
+                                    <b-pagination size="sm" :total-rows="abilityTableRows" :per-page="abilityPerPage" v-model="abilityPage" />
+                                </b-col>
+                            </b-row>
+                        </b-container>
+
+                    </b-card>
+                </b-col>
+            </b-row>
+
+            <b-row id="shop" class="pt-4">
+                <b-col>
+                    <b-card bg-variant="light" header-bg-variant="dark" header-text-variant="light">
+                        <div slot="header">
+                            <b-container>
+                                <b-row class="text-left">
+                                    <b-col>
+                                        <h2><strong>Item Shop</strong> </h2>
+                                    </b-col>
+                                    <b-col class="text-right"> <b-form-checkbox id="armorShopModeCheckBox" v-model="armorShopMode" > Show Armor Shop? </b-form-checkbox> </b-col>
+                                    <b-col class="text-right"> <b-form-checkbox id="weaponShopModeCheckBox" v-model="weaponShopMode" > Show Weapon Shop? </b-form-checkbox> </b-col>
+                                    <b-col class="text-right"> <b-form-checkbox id="gearhopModeCheckBox" v-model="gearShopMode" > Show Gear Shop? </b-form-checkbox> </b-col>
+                                </b-row>
+                                <b-row class="text-muted text-left small">
+                                    <b-col v-if="inventoryMode" v-bind:class="[this.character.stats.derivedCharacteristics[0].value > this.character.stats.derivedCharacteristics[1].value ? 'bg-danger text-white text-left' : 'bg-success text-white text-left']">
+                                            Current Encumbrance: {{ this.character.stats.derivedCharacteristics[0].value }} 
+                                    </b-col>
+                                    <b-col v-if="inventoryMode"> <strong> Encumbrance Capacity: </strong> {{ this.character.stats.derivedCharacteristics[1].value }}  </b-col>
+                                    <b-col v-if="inventoryMode"> Money: {{ this.character.equipment.money }} </b-col>
+                                </b-row>
+                            </b-container>
+                        </div>
+
+                        <b-container>
+                            <b-row>
+                                <b-col>
+                                    <b-alert :show="inventoryAlert" dismissible @dismissed="inventoryAlert=false" variant="warning"> {{ this.illegalLogic }} </b-alert> 
+                                </b-col>
+                            </b-row>
+                            
+                            <b-row v-if="armorShopMode">
+                                <b-col>
+                                    <h4 class="text-left"> Armor </h4>
+                                     <b-input-group>
+                                        <b-form-input v-model="armorFilter" placeholder="Type to Search" /> 
+                                        <b-input-group-addon>
+                                            <b-btn :disabled="!armorFilter" @click="armorFilter = ''"> Clear </b-btn>
+                                        </b-input-group-addon>
+                                    </b-input-group> </br>                                
+                                
+                                    <b-table responsive="sm" small outlined striped :filter="armorFilter" @filtered="onArmorFilter" :items="this.character.equipment.armor.items" :fields="this.sheet.armorFields" 
+                                        head-variant="dark" :per-page="armorPerPage" :current-page="armorShopPage">
+                                        <template slot="actions" slot-scope="invRow">
+                                            <b-btn size="sm" variant="secondary" @click.stop="showSomeModal(invRow.item, 'armor')" > ? </b-btn>
+                                            <b-btn id="removeArmor" size="sm" variant="danger" @click.stop="adjustArmorInventory(invRow.item, -1)"> - </b-btn>
+                                            <b-btn id="addArmor" size="sm" variant="success" @click.stop="adjustArmorInventory(invRow.item, 1)"> + </b-btn>
+                                        </template>
+                                    </b-table>
+
+                                    <b-pagination size="sm" :total-rows="armorTableRows" :per-page="armorPerPage" v-model="armorShopPage" />
+
+                                </b-col>
+                            </b-row>
+                            
+                            <b-row v-if="weaponShopMode" class="pt-3">
+                                <b-col>
+                                    <h4 class="text-left"> Weapons </h4>
+                                     <b-input-group>
+                                        <b-form-input v-model="weaponFilter" placeholder="Type to Search" /> 
+                                        <b-input-group-addon>
+                                            <b-btn :disabled="!weaponFilter" @click="weaponFilter = ''"> Clear </b-btn>
+                                        </b-input-group-addon>
+                                    </b-input-group> </br>
+
+                                    <b-table responsive="sm" small outlined striped :filter="weaponFilter" @filtered="onWeaponFilter" :items="this.character.equipment.weapons.items" 
+                                            :fields="this.sheet.weaponFields" :per-page="weaponShopPerPage"  :current-page="weaponShopPage" head-variant="dark">
+                                        <template slot="actions" slot-scope="row">
+                                            <b-btn size="sm" @click.stop="showSomeModal(row.item, 'weapon')" variant="secondary"> ? </b-btn>
+                                            <b-btn size="sm" variant="danger" v-on:click.stop="adjustWeaponInventory(row.item, -1)"> - </b-btn>
+                                            <b-btn size="sm" variant="success" v-on:click.stop="adjustWeaponInventory(row.item, 1)"> + </b-btn>
+                                        </template>
+                                    </b-table>
+                                    </br>
+
+                                    <b-pagination size="sm" :total-rows="weaponShopTableRows" :per-page="weaponShopPerPage" v-model="weaponShopPage" />
+                                </b-col>
+                            </b-row>
+                            
+                            <b-row v-if="gearShopMode" class="pt-3">
+                                <b-col>
+                                    <h4 class="text-left"> Gear </h4>
+                                     <b-input-group>
+                                        <b-form-input v-model="gearFilter" placeholder="Type to Search" /> 
+                                        <b-input-group-addon>
+                                            <b-btn :disabled="!gearFilter" @click="gearFilter = ''"> Clear </b-btn>
+                                        </b-input-group-addon>
+                                    </b-input-group> </br>
+
+                                    <b-table responsive="sm" small outlined striped :filter="gearFilter" @filtered="onGearFilter" :per-page="gearShopPerPage" 
+                                        :current-page="gearShopPage" :items="this.character.equipment.gear.items" :fields="this.sheet.gearFields" head-variant="dark">
+                                        <template slot="actions" slot-scope="row">
+                                            <b-btn size="sm" @click.stop="showSomeModal(row.item, 'gear')" variant="secondary"> ? </b-btn>
+                                            <b-btn size="sm" variant="danger" v-on:click.stop="adjustGearInventory(row.item, -1)"> - </b-btn>
+                                            <b-btn size="sm" variant="success" v-on:click.stop="adjustGearInventory(row.item, 1)"> + </b-btn>
+                                        </template>
+                                    </b-table>
+
+                                    <b-pagination size="sm" :total-rows="gearShopTableRows" :per-page="gearShopPerPage" v-model="gearShopPage" /> 
+                                </b-col>
+                            </b-row>
+                            
+                        </b-container>
+                    </b-card>
+                </b-col>
+            </b-row>
         </b-container>
 
         <b-modal centered v-model="showModal" size="md" v-bind:title="this.modalData.Name" header-class="bg-dark text-light">
@@ -507,12 +515,11 @@
                         <p class="text-left" v-for="(value, key) in this.modalData" :key="key" v-if="key != 'Abilities' && key != 'Name'">
                             <strong>{{ key }} </strong> </br> {{ value }}  
                         </p> 
-                        <div class = "text-left" v-for="(value, key) in this.modalData.Abilities" :key="key">  {{value}} </div>
+                        <div class = "text-left" v-for="(value, key) in this.modalData.Abilities" :key="key">{{value}} </div>
                     </b-col>
                 </b-row>
             </b-container>
         </b-modal>
-
 
         <b-modal centered v-model="exportModal" size="lg" title="Export as a JSON" header-class="bg-dark text-light">
             <b-container>
@@ -532,8 +539,8 @@
                 </b-row>
             </b-container>
         </b-modal>
-
-        <b-modal ref="importModalRef" centered v-model="importModal" size="lg" title="Import JSON" header-class="bg-dark text-light"> 
+    
+        <b-modal ref="importModalRef" centered v-model="importModal" size="lg" title="Import JSON" header-class="bg-dark text-light">
             <b-container>
                 <b-row>
                     <b-col>
@@ -555,23 +562,11 @@
             </b-container>
         </b-modal>
 
-
-        <!--b-table :items="this.character.stats.characteristics" />
-        <b-table :items="this.character.stats.derivedCharacteristics" />
-        <b-table :items="this.character.equipment.inventory.items" />
-        <b-table :items="this.character.skills.transactionLog" />
-        <b-table :items="this.character.talents.transactionLog" />
-        <b-table :items="this.armorData" /-->
-
-        <b-table :items="this.raceData"/>
-
-
-
     </div>
 </template>
 
 <script>
-export default {    
+export default {
     data () {
         return {
             importModal: false,
@@ -580,6 +575,7 @@ export default {
             importContent: "",
             rolledCareer: false,
             bonusXp : 0,
+            boxName: '',
 
             illegalLogic: '',
 
@@ -600,29 +596,33 @@ export default {
             abilityFilter: '',
             inventoryFilter: '',
             talentFilter: '',
+            armorFilter: '',
 
             talentsPerPage: 10,
             skillsPerPage: 10,
             weaponShopPerPage: 8, 
-            gearShopPerPage: 8,
-            abilityTableRows: 0, 
-            inventoryTableRows: 0,      
-            
-            talentTableRows: 0,            
-            skillTableRows: 0,
-            weaponShopTableRows: 0,   
-            gearShopTableRows: 0,     
+            gearShopPerPage: 8,  
             abilityPerPage: 4, 
-            inventoryPerPage: 4,
+            inventoryPerPage: 4,  
+            armorPerPage: 8,  
             
-            inventoryPage: 1,     
-            abilityPage: 1,     
+            talentTableRows: 0, 
+            skillTableRows: 0,
+            armorTableRows: 0,
+            weaponShopTableRows: 0,
+            gearShopTableRows: 0,
+            abilityTableRows: 0, 
+            inventoryTableRows: 0,  
+            
+            inventoryPage: 1,  
+            abilityPage: 1,  
             talentsPage: 1,
             skillsPage: 1,
-            weaponShopPage: 1,    
-            gearShopPage: 1,     
+            weaponShopPage: 1, 
+            gearShopPage: 1,
+            armorShopPage: 1,
 
-            skillData: [],       
+            skillData: [],    
             raceData: [],
             careerData: [],
             talentData: [],
@@ -633,7 +633,7 @@ export default {
             abilityData: [],
             itemGenreData: [],
                 
-            showModal: false,   
+            showModal: false,
             showChararcteristicModal: false,
             showSkillsModal: false,
 
@@ -648,15 +648,15 @@ export default {
             xpAlert: false,
             inventoryAlert: false,
         
-            sortKey: 'tier',            
-            sortDesc: false,        
+            sortKey: 'tier', 
+            sortDesc: false,
 
-            skillTableMode: true,
-            talentTableMode: true,
-            armorShopMode: true,
-            weaponShopMode: true,
-            gearShopMode: true,
-            abilityMode: true,
+            skillTableMode: false,
+            talentTableMode: false,
+            armorShopMode: false,
+            weaponShopMode: false,
+            gearShopMode: false,
+            abilityMode: false,
             inventoryMode: true,
             showHeader: true,
             showCharacteristics: true, 
@@ -708,17 +708,15 @@ export default {
                 avaiableTiers: ["Tier: 1", "Tier: 2", "Tier: 3", "Tier: 4", "Tier: 5" ],
                 selectableCharacteristics: ["Agility", "Brawl", "Cunning", "Intellect", "Presence", "Willpower"],
                 selectedCharacteristic: "",
-                selectedableSkills: [],
-                selectedSkills: [],             
-                alternativeRules: ["After Seven", "Custom", "Hacking", "Magic", "Vehicle"],         
+                alternativeRules: ["After Seven", "Custom", "Hacking", "Magic", "Vehicle"], 
                 possibleFactions: ["Confederacy of Canada", "Holy American Empire", "Imperium of the North", "Kingdom of Quebec", "New American Republic", "Western State Commonwealth"],
                 selectableDesires: ["Ambition", "Belonging", "Expertise", "Fame", "Justice", "Knowledge", "Love", "Safety", "Vengeance", "Wealth"],
-                selectableFears: ["Change", "Commitment", "Death", "Expression", "Failure", "Humiliation", "Isolation", "Nemesis", "Obscurity", "Poverty"],                
-                selectableFlaws: ["Anger", "Compulsion", "Deception", "Greed", "Laziness", "Ignorance", "Intolerance", "Pride", "Recklessness", "Timid"],        
-                selectableStrengths: ["Adaptable", "Analytical", "Courageous", "Curious", "Idealistic", "Independent", "Patient", "Spiritual", "Wise", "Witty"],                
+                selectableFears: ["Change", "Commitment", "Death", "Expression", "Failure", "Humiliation", "Isolation", "Nemesis", "Obscurity", "Poverty"],     
+                selectableFlaws: ["Anger", "Compulsion", "Deception", "Greed", "Laziness", "Ignorance", "Intolerance", "Pride", "Recklessness", "Timid"],
+                selectableStrengths: ["Adaptable", "Analytical", "Courageous", "Curious", "Idealistic", "Independent", "Patient", "Spiritual", "Wise", "Witty"],     
                 selectableRaces: [], 
                 selectableCareers: [],
-                skillLegendFields: [{key:"key", label: "Symbol" }, {key:"meaning", label:"Meaning"}],
+                skillLegendFields: [ {key:"key", label: "Symbol" }, {key:"meaning", label:"Meaning"} ],
                 skillLegend: [
                     { key: "R", meaning: "1st rank recieved by a racial ability."},
                     { key: "^", meaning: "Is a career skill."},
@@ -726,64 +724,62 @@ export default {
                     { key: "^R", meaning: "1st rank recieved by a racial ability, is career skill."},
                     { key: "^^", meaning: "1st rank recieved from a career."},
                     { key: "^+", meaning: "1st rank recieved by a career bonus and is a career skill."},
-                    { key: "?", meaning: "Choice from a racial."},   
+                    { key: "?", meaning: "Choice from a racial."},
                     { key: "·", meaning: "Augmented through gear."},
                 ],
                 talentFields: [
                     { key: "details", label: "Talent", class:"text-left", sortable: false} ,
-                    { key: "ranked", label: "Ranked", class: "text-left", sortable: false },     
+                    { key: "ranked", label: "Ranked", class: "text-left", sortable: false },  
                     { key: "ranks", label: "Rank", class: "text-center", sortable: true } ,
-                    { key: "actions", label: " ", class: "text-left" },     
+                    { key: "actions", label: " ", class: "text-left" },  
                 ],
                 skillFields : [
                     { key: "name", label: "Name", sortable: true },  
                     { key: "sourceLegend", label: "Key", sortable: false}, 
-                    { key: "ranks", label: "Rank", class: "text-center", sortable: true  },    
-                    { key: "actions", label: " ", class: "text-center" },   
+                    { key: "ranks", label: "Rank", class: "text-center", sortable: true  }, 
+                    { key: "actions", label: " ", class: "text-center" },
                 ],
-                selectableArmor : [],
-                selectableProperHand: [],
-                selectableOffHand: [],
                 characteristicFields : [
-                    { key: "name", label: "Name", class: "text-left" },   
-                    { key: "value", label: "Value", class: "text-center" },   
+                    { key: "name", label: "Name", class: "text-left" },
+                    { key: "value", label: "Value", class: "text-center" },
                     { key: "actions", label: " ", class: "text-center"}
                 ],
                 derivedCharacteristicFields : [
-                    { key: "name", label: "Name", class: "text-left" },   
-                    { key: "value", label: "Value", class: "text-center" },   
+                    { key: "name", label: "Name", class: "text-left" },
+                    { key: "value", label: "Value", class: "text-center" },
                 ],
                 armorFields : [
                     { key: "name", label: "Name", class: "text-left" },
                     { key: "encumbrance", label: "Encum.", class: "text-center" },
                     { key: "soak", label: "Soak", class: "text-center" },
-                    { key: "defense", label: "Defense", class: "text-center"},   
+                    { key: "defense", label: "Defense", class: "text-center"},
                     { key: "value", label: "Value", class: "text-center"},
                     { key: "quantity", label: "Amount", class: "text-center"},
-                    { key: "actions", label: "Actions", class: "text-left"},             
+                    { key: "actions", label: "Actions", class: "text-left"},  
                 ],
                 weaponFields : [
                     { key: "name", label: "Name", class: "text-left"},
-                    { key: "skill", label: "Skill Used", class: "text-left"},
-                    { key: "range", label: "Range", class: "text-left"},        
-                    { key: "damage", label: "Damage", class: "text-center", sortable: true },            
-                    { key: "value", label: "Value", class: "text-center", sortable: true },   
+                    { key: "encumbrance", label: "Encum.", class: "text-left"},
+                    { key: "range", label: "Range", class: "text-left"},
+                    { key: "damage", label: "Damage", class: "text-center", sortable: true }, 
+                    { key: "value", label: "Value", class: "text-center", sortable: true },
                     { key: "quantity", label: "Amount", class: "text-center", sortable: true },
-                    { key: "actions", label: "Actions", class: "text-left"},   
+                    { key: "actions", label: "Actions", class: "text-left"},
                 ],
                 gearFields : [
-                    { key: "subCategory", label: "Type", class: "text-left"},   
+                    { key: "subCategory", label: "Type", class: "text-left"},
                     { key: "name", label: "Name", class: "text-left"},
-                    { key: "value", label: "Value", class: "text-center", sortable: true },   
+                    { key: "encumbrance", label: "Encum.", class: "text-left"},
+                    { key: "value", label: "Value", class: "text-center", sortable: true },
                     { key: "quantity", label: "Amount", class: "text-center", sortable: true },
-                    { key: "actions", label: "Actions", class: "text-left"},   
+                    { key: "actions", label: "Actions", class: "text-left"},
                 ],
                 abilityFields : [
-                    { key: "source", label: "Name", class: "text-left", sortable: true },
-                    { key: "ability", label: "Description", class: "text-left", sortable: true },   
+                    { key: "source", label: "Name", class: "text-left small", sortable: true },
+                    { key: "ability", label: "Description", class: "text-left small", sortable: true },
                 ],
                 inventoryFields : [
-                    { key: "subCategory", label: "Class", class: "text-left", sortable: true},   
+                    { key: "subCategory", label: "Class", class: "text-left", sortable: true},
                     { key: "name", label: "Name", class: "text-left", sortable: true },
                     { key: "qualityDisplay", label: "Qualities", class: "text-left", sortable: true },
                     { key: "encumbrance", label: "Encum.", class: "text-center", sortable: true },
@@ -791,23 +787,23 @@ export default {
                     { key: "remove", label: "Remove Item", class: "text-left", sortable: false }
                 ],
                 debugTranslog : [
-                    { key: "id" },   
-                    { key: "skill" },   
-                    { key: "xp" },   
-                    { key: "previousRank" },   
-                    { key: "newRank" },   
-                    { key: "source" },   
-                    { key: "isBonus" },   
-                    { key: "isCareer" },   
-                    { key: "isRacial" },   
-                    { key: "isFirstFour" },   
-                    { key: "isRacialChoice" },   
-                    { key: "isRacialSeleciton" },   
-                    { key: "talentSource" },   
+                    { key: "id" },
+                    { key: "skill" },
+                    { key: "xp" }, 
+                    { key: "previousRank" },
+                    { key: "newRank" },
+                    { key: "source" },
+                    { key: "isBonus" },
+                    { key: "isCareer" },
+                    { key: "isRacial" },
+                    { key: "isFirstFour" },
+                    { key: "isRacialChoice" },
+                    { key: "isRacialSeleciton" },
+                    { key: "talentSource" },
                     { key: "talentChoiceSelection" }, 
                     { key: "modifyingTalent" }
                 ]
-            },    
+            }, 
             character: {
                 name: '',
                 bonusGiven: '',
@@ -854,7 +850,7 @@ export default {
                         { name: "Silhouette", value: 0, bonus: 0, purchased: 0, cyber: 0, equipment: 0, starting: 0, canBeModified: false }
                     ],  
                     derivedCharacteristics: [             
-                        { name: "Current Encumbrance", value: 0, bonus: 0, purchased: 0, cyber: 0, equipment: 0, starting: 0 },        
+                        { name: "Current Encumbrance", value: 0, bonus: 0, purchased: 0, cyber: 0, equipment: 0, starting: 0 },
                         { name: "Encumbrance Capacity", value: 0, bonus: 0, purchased: 0, cyber: 0, equipment: 0, starting: 0 },
                         { name: "Melee Defense", value: 0, bonus: 0, purchased: 0, cyber: 0, equipment: 0, starting: 0 },
                         { name: "Ranged Defense", value: 0, bonus: 0, purchased: 0, cyber: 0, equipment: 0, starting: 0},
@@ -894,14 +890,14 @@ export default {
                         { id: "T77", qidx: 6, value: 0,category: "weapon", mod: -1, active: false }
                     ],
                     wornItemDerivedCharacteristicModifier: [
-                        { id: "T257", category: "armor", attr: "soak", min: 2, idx: 2, value: 1, active: false },
-                        { id: "T257", category: "armor", attr: "soak", min: 2, idx: 3, value: 1, active: false },
+                        { id: "T257", category: "armor", attr: "soak", min: 2, idx: 2, value: 0, active: false },
+                        { id: "T257", category: "armor", attr: "soak", min: 2, idx: 3, value: 0, active: false },
                     ],
                     wornItemAttributeModifier: [
-                        { id: "T77", attr: "encumbrance", value: 1, category: "weapon", mod: -1, active: false }
+                        { id: "T77", attr: "encumbrance", value: 0, category: "weapon", mod: -1, active: false }
                     ],
                     wornItemDerivedCharacteristic: [
-                        { id: "T149", idx: 4, value: 1, category: "weapon", active: false }
+                        { id: "T149", idx: 4, value: 1, category: "armor", active: false }
                     ],
 					wornSkillModifier: [],
                     transactionLog: [],
@@ -917,21 +913,21 @@ export default {
                 equipment: {
                     specialSkillCheck: [],
 					specialCharacteristic: [
-                        { id: "A19", stat: 1, value: 1, active: false }, 
-                        { id: "A19", stat: 6, value: 1, active: false }, 
+                        { id: "A15", stat: 1, value: 1, active: false }, 
+                        { id: "A15", stat: 6, value: 1, active: false }, 
                         { id: "A25", stat: 1, value: 1, active: false }, 
                     ], 	
 					specialDerivedCharacteristic: [
                         { id: "A25", stat: 2, value: 5, active: false }, 
                     ], 
                     bonusItems: [
-                        { id: "A22", bonusItemId: "W120", bonusType: "weapon" }
+                        { id: "A22", bonusItemId: "W120", bonusType: "Weapon" }
                     ],
                     loadOut: [
                         {uuid: "000"},
                         {uuid: "000"},
                         {uuid: "000"}
-                    ],               
+                    ],    
                     loadOutOrder: 1, 
                     armor: {
                         items: []
@@ -945,9 +941,9 @@ export default {
                     money: 55555500,
                     inventory: {
                         items: [],
-                    }                    
+                    }         
                 },
-            }                
+            }     
         }
     },
     watch: {
@@ -958,8 +954,8 @@ export default {
         selectedRace : function () {
             this.clearOutCharaceristicBonus();
             this.cleanSkills(true, false);
-            this.assignRacialSkills();
             this.assignCareerSkills();
+            this.assignRacialSkills();
             this.addRacialAbilities();
             this.assignRacialCharacteristics();
             this.assignDerivedCharacteristics();
@@ -969,9 +965,9 @@ export default {
         },
         selectedCareer : function() {
             this.cleanSkills(false, false);
-            this.clearoutBonus();
+            if (this.selectedGenre === 'After Seven') this.clearoutBonus();
             this.assignCareerSkills();
-            this.grantCareerBoost();
+            if (this.selectedGenre === 'After Seven') this.grantCareerBoost();
             this.applyCyber();
             this.cleanAllSkillLegends();
             return true;
@@ -996,6 +992,7 @@ export default {
             this.castActiveSkills();
             this.castTalents();
             this.castItems();
+            this.character.abilities = [];
 
             return true;
         }
@@ -1004,15 +1001,24 @@ export default {
         debugTalents : function () {
             this.character.skills.racialChoiceMade = true;
             
-            this.randomRollASFluff();
+            this.selectedRace = 'R4';
+            this.selectedCareer = 'Worker';
             
             this.character.xp.total = 50000;
 
             this.character.equipment.money = 5000000;
             
-            var talents = ["T1","T2","T30","T6","T7","T10","T54","T32","T33","T91","T104","T111","T113","T115","T217",
-                            "T178","T176","T263", "T266", "T67","T74","T357","T73","T149","T153","T176","T165","T147",
-                            "T173","T256","T257","T267","T265","T316",];
+            var talents = [
+                "T1","T13","T17","T32","T33","T34","T36","T37","T40","T41", //tier 1
+                "T103","T114","T123","T134","T66","T67","T68","T72", //tier 2
+                "T149","T150","T160","T162","T164", //tier 3
+                "T253","T256","T257","T254" //tier 4
+
+            ];
+
+            var aidx = this.findWithAttr(this.character.equipment.armor.items, "id", "A4");
+
+            this.adjustArmorInventory(this.character.equipment.armor.items[aidx], 1, false);
 
             for(var t = 0; t < talents.length; t++) {
                 var tid = this.findWithAttr(this.character.talents.items, "id", talents[t]);
@@ -1032,20 +1038,108 @@ export default {
         },
         showExportModal: function () {
             var pc = {
-                name: this.character.name,
+                name: this.boxName,
                 race: this.selectedRace, 
                 career: this.selectedCareer,
-                skills: this.character.skills.items,
-                talents: this.character.talents.items,
-                inventory: this.character.equipment.items,
-                money: this.character.equipment.money,
-                abilities: this.character.abilities,
                 desire: this.selectedDesire,
                 fear: this.selectedFear,
                 flaw: this.selectedFlaw,
                 strength: this.selectedStrength,
                 totalXp: this.character.xp.total,
                 spentXp: this.character.xp.totalSpent,
+                money: this.character.equipment.money,
+                characteristics: [],
+                derivedCharacteristics: [],
+                skills: [],
+                talents: [],
+                gear: [],
+                weapons: [],
+                armor: [],
+            }
+
+            for (var c = 0; c < this.character.stats.characteristics.length; c++) {
+                this.pc.characteristics.push( { name: this.character.stats.characteristics[c].name, value: this.character.stats.characteristics[c].value } );
+            }
+
+            for (var c = 0; c < this.character.stats.derivedCharacteristics.length; c++) {
+                this.pc.characteristics.push( { name: this.character.stats.derivedCharacteristics[c].name, value: this.character.stats.derivedCharacteristics[c].value });
+            }
+
+            for (var s = 0; s < this.character.skills.items; s++) {
+                //can use skills even though not trained.
+                this.pc.skills.push( {name: this.character.skills.items[s].name, ranks: this.character.skills.items[s].ranks })
+            }
+
+            for (var s = 0; s < this.character.talents.items; s++) {
+                if (this.character.talents.items[s].ranks > 1) {
+                    var t = {
+                        name: this.character.talents.items[s].name,
+                        ranks: this.character.talents.items[s].ranks,
+                        rankDisplay: this.character.talents.items[s].rankDisplay,
+                        tierDisplay: this.character.talents.items[s].tierDisplay,
+                        description: this.character.talents.items[s].description
+                    }
+
+                    this.pc.skills.push({t});
+                }     
+            }
+
+            for (var i = 0; i < this.character.equipment.inventory.length; i++) {
+                var itm = this.character.equipment.inventory[i];
+
+                switch (itm.Category) {
+                    case "Armor": 
+                        var idx = this.findWithAttr(this.character.equipment.armor.items, "id", itm.id);
+                        
+                        var inventoryItem = {
+                            id: this.character.equipment.armor.items[idx].id,
+                            name: this.character.equipment.armor.items[idx].name,
+                            category: this.character.equipment.armor.items[idx].category,
+                            subCategory: this.character.equipment.armor.items[idx].subCategory,
+                            value: this.character.equipment.armor.items[idx].value,
+                            encumbrance: this.character.equipment.armor.items[idx].encumbrance,
+                            qualityDisplay: this.character.equipment.armor.items[idx].qualityText,
+                            soak: this.character.equipment.armor.items[idx].soak,
+                            defense: this.character.equipment.armor.items[idx].defense,
+                            wornEncumbrance: this.character.equipment.armor.items[idx].wornEncumbrance,
+                        };
+                        pc.armor.push(inventoryItem);
+                        break;
+
+                    case "Gear":
+                        var idx = this.findWithAttr(this.character.equipment.gear.items, "id", itm.id);
+                        
+                        var inventoryItem = {
+                            id: this.character.equipment.gear.items[idx].id,
+                            name: this.character.equipment.gear.items[idx].name,
+                            category: this.character.equipment.gear.items[idx].category,
+                            subCategory: this.character.equipment.gear.items[idx].subCategory,
+                            qualityDisplay: this.character.gear.items[idx].qualityText,
+                            value: this.character.equipment.gear.items[idx].value,
+                            encumbrance: this.character.equipment.gear.items[idx].encumbrance
+                        };
+                        pc.gear.push(inventoryItem);
+                        break;
+                    case "Weapon":
+                        var idx = this.findWithAttr(this.character.equipment.weapons.items, "id", itm.id);
+                        
+                        var inventoryItem = {
+                            id: this.character.equipment.weapons.items[idx].id,
+                            name: this.character.equipment.weapons.items[idx].name,
+                            category: this.character.equipment.weapons.items[idx].category,
+                            subCategory: this.character.equipment.weapons.items[idx].subCategory,
+                            qualityDisplay: this.character.weapons.armor.items[idx].qualityText,
+                            value: this.character.equipment.weapons.items[idx].value,
+                            encumbrance: this.character.equipment.weapons.items[idx].encumbrance,
+                            damage: this.character.equipment.weapons.items[idx].damage,
+                            critical: this.character.equipment.weapons.items[idx].critical,
+                            skill: this.character.equipment.weapons.items[idx].skill,
+                            range: this.character.equipment.weapons.items[idx].range,
+                        };
+                        pc.weapon.push(inventoryItem);
+                        break;
+                }
+
             }
 
             this.exportContent = JSON.stringify(pc, null, '\t');
@@ -1091,7 +1185,7 @@ export default {
 
                 var cidx = this.findWithAttr(this.careerData, "id", impt[i]); 
 
-                if (cidx < 0) this.careerData.push(c);                
+                if (cidx < 0) this.careerData.push(c);   
             }
 
             this.castSelectableCareers();
@@ -1106,12 +1200,13 @@ export default {
             this.importModal = false;
 
             for(var i = 0; i < impt.length; i++) {
-                var t = impt[i];                
+                var t = impt[i];   
 
                 var tidx = this.findWithAttr(this.character.talents.items, "id", t.id);
 
                 if (tidx < 0) {
                     this.talentData.push(t);
+                    this.talentTableRows = this.talentData.length;
                     var a = { id: impt[i].id, source: impt[i].name + " (Talent)", ability: impt[i].alteredText }
                     this.abilityData.push(a);
 
@@ -1124,7 +1219,7 @@ export default {
 
             return true;
         },
-        importRace : function () { 
+        importRace : function () {
             var impt = JSON.parse(this.importContent);
 
             this.$refs.importModalRef.hide();
@@ -1141,9 +1236,13 @@ export default {
                     derivedCharacteristics: impt[i].derivedCharacteristics,
                     startingXP: impt[i].startingXP,
                     racialSkills: impt[i].racialSkills,
-                    racialSkillBonus: impt[i].racialSkillBonus,
+                    racialSkillBonus: [],
                     racialAbilities: impt[i].racialAbilities
                 };
+
+                if (impt[i].racialSkills.tag === "gain") r.racialSkillBonus.push(impt[i].racialSkillBonus);
+
+                if (impt[i].racialSkills.tag === "choice") r.racialSkillBonus = impt[i].racialSkillBonus;
 
                 var ridx = this.findWithAttr(this.raceData, "id", r.id);
                 
@@ -1163,7 +1262,7 @@ export default {
 
             return true;
         },
-        importItem : function () {            
+        importItem : function () {  
 
             this.$refs.importModalRef.hide();
 
@@ -1219,7 +1318,7 @@ export default {
                         }
                         break;
                     case "Weapon": 
-                        var z = this.findWithAttr(this.weaponData, "id", itm.id);                         
+                        var z = this.findWithAttr(this.weaponData, "id", itm.id);     
                         if (z < 0) {
                             this.weaponData.push(itm);
                             addItemCheck = true;
@@ -1229,14 +1328,14 @@ export default {
 
                 if (addItemCheck) {
                     var g = {id: itm.id, genres: "Custom", alternativeRules: "Custom"}
-                    this.itemGenreData.push(g);                        
+                    this.itemGenreData.push(g);    
                     
                     //cycle through to add to abilityData as well as specialAbilities. 
 
                     for (var a = 0; a < impt[i].abilities.length; a ++)  {
                         itm.specialAbilities.push(impt[i].abilities[a].ability);
                         this.abilityData.push(impt[i].abilities[a]);
-                    }                
+                    }     
 
                     if (impt[i].category != "Gear") {
                         for (var q = 0; q < impt[i].qualities.length; q++) {
@@ -1247,11 +1346,11 @@ export default {
                                     ability: "See Item Qualities descrption in the Genesys Core Rulebook"
                                 };
                                 this.abilityData.push(s);   
-                                break;                         
+                                break;     
                             }
                         }
                     }
-                 }
+                }
             }
 
             this.importContent = '';
@@ -1283,7 +1382,7 @@ export default {
                     if (rowItem.qualityText != "") newModalData.Qualities = rowItem.qualityText
 
                     if (typeof rowItem.specialAbilities === "undefined") {
-                    } else {      
+                    } else {  
                         newModalData.Abilities = rowItem.specialAbilities;
                     }     
 
@@ -1294,16 +1393,16 @@ export default {
                 case "gear": 
                     newModalData = {
                         Name: rowItem.name,
-                        Description: rowItem.description,     
+                        Description: rowItem.description,  
                         Encumbrance: rowItem.encumbrance,
                         Rarity: rowItem.rarity,
                         Vale: rowItem.value
-                    }                
+                    }     
 
                     if (rowItem.qualityText != "") newModalData.Qualities = rowItem.qualityText
 
                     if (typeof rowItem.specialAbilities === "undefined") { 
-                    } else {      
+                    } else {  
                         newModalData.Abilities = rowItem.specialAbilities;
                     }     
 
@@ -1327,9 +1426,9 @@ export default {
                     if (rowItem.qualityText != "") newModalData.Qualities = rowItem.qualityText
 
                     if (typeof rowItem.specialAbilities === "undefined") {
-                    } else {      
+                    } else {  
                         newModalData.Abilities = rowItem.specialAbilities;
-                    }                    
+                    }         
 
                     this.modalData = newModalData;
 
@@ -1338,11 +1437,11 @@ export default {
                 case "talent": 
                     newModalData = {
                         Name: rowItem.name,
-                        Tags: rowItem.tags,      
-                        Description: rowItem.description,      
+                        Tags: rowItem.tags,   
+                        Description: rowItem.description,   
                         Activation: rowItem.activation, 
                         Ranked: rowItem.ranked,
-                        Sourcing: rowItem.sourcing,        
+                        Sourcing: rowItem.sourcing,
                     }
 
                     this.modalData = newModalData;
@@ -1353,28 +1452,28 @@ export default {
                     newModalData = {
                         Name: rowItem.name,
                         Value: rowItem.value,
-                        Rarity: rowItem.rarity,   
+                        Rarity: rowItem.rarity,
                         Repairs: rowItem.repairNeeded                
                     }
 
-                    if (rowItem.category === "Weapon") {                           
+                    if (rowItem.category === "Weapon") {   
                         newModalData.Skill = rowItem.skill;
                         newModalData.Range = rowItem.range;
                         newModalData.Damage = rowItem.damage;
                         newModalData.Critical = rowItem.critical;
                     }
 
-                    if (rowItem.category === "Armor") {    
+                    if (rowItem.category === "Armor") {
                         newModalData.Soak = rowItem.soak;
                         newModalData.Defense = rowItem.defense; 
                     }
 
                     if (rowItem.qualityDisplay != "") newModalData.Qualities = rowItem.qualityDisplay
 
-                    if (typeof rowItem.specialAbilities === "undefined") {        
-                    } else {      
+                    if (typeof rowItem.specialAbilities === "undefined") {
+                    } else {  
                         newModalData.Abilities = rowItem.specialAbilities;     
-                    }                    
+                    }         
 
                     this.modalData = newModalData;
 
@@ -1410,7 +1509,9 @@ export default {
         applyCyber: function () {
             for (var c = 0; c < this.character.equipment.inventory.items.length; c++) {
                 if (this.character.equipment.inventory.items[c].subCategory === "Cybernetics") {
-                    if (this.character.equipment.inventory.items[c].isInstalled) this.adjustGearAugments(this.character.equipment.inventory.items[i], 1);
+                    if (this.character.equipment.inventory.items[c].isInstalled) {
+                        this.adjustGearAugments(this.character.equipment.inventory.items[i], 1);
+                    }
                 }
             }
             return true;
@@ -1448,6 +1549,8 @@ export default {
                     }
                     
                     this.character.cyber.arms += amount;
+                    //always remove a strain threshold. 
+                    this.character.stats.derivedCharacteristics[5].cyber += (amount *-1);
                     break;
 
                 case "G55":
@@ -1462,6 +1565,8 @@ export default {
                         this.character.stats.characteristics[0].cyber -= 1;
                     }
                     
+                    //always remove a strain threshold. 
+                    this.character.stats.derivedCharacteristics[5].cyber += (amount *-1);
                     this.character.cyber.arms += amount;
                     break;
 
@@ -1477,6 +1582,8 @@ export default {
                         this.character.stats.characteristics[1].cyber -= 1;
                     }
                     
+                    //always remove a strain threshold. 
+                    this.character.stats.derivedCharacteristics[5].cyber += (amount *-1);
                     this.character.cyber.arms += amount;
                     break;
 
@@ -1492,6 +1599,8 @@ export default {
                         this.character.stats.characteristics[0].cyber -= 1;
                     }
                     
+                    //always remove a strain threshold. 
+                    this.character.stats.derivedCharacteristics[5].cyber += (amount *-1);
                     this.character.cyber.legs += amount;
                     break; 
 
@@ -1505,7 +1614,8 @@ export default {
                         this.character.cyber.intellectBonus = 0;
                         this.character.stats.characteristics[3].cyber -= 1;
                     }
-                    
+                    //always remove a strain threshold. 
+                    this.character.stats.derivedCharacteristics[5].cyber += (amount *-1);       
                     this.character.cyber.skullJack += amount;
                     break;
 
@@ -1526,6 +1636,8 @@ export default {
                         this.character.cyber.vigilanceBonus -= 1;
                     }
 
+                    //always remove a strain threshold. 
+                    this.character.stats.derivedCharacteristics[5].cyber += (amount *-1);
                     this.character.cyber.eyes += amount;
                     break;
 
@@ -1538,7 +1650,9 @@ export default {
                         this.character.cyber.soakBonus = 0;
                         this.character.stats.derivedCharacteristics[4].cyber -= 1;
                     }
-                                        
+                                 
+                    //always remove a strain threshold. 
+                    this.character.stats.derivedCharacteristics[5].cyber += (amount *-1);       
                     this.character.cyber.implantArmor += amount;
                     break;    
                 
@@ -1550,7 +1664,9 @@ export default {
                         idx1 = this.findWithAttr(this.character.skills.items, "name", "Athletics");
                         this.character.cyber.athleticsBonus -= 1;
                     }
-                                        
+                                
+                    //always remove a strain threshold. 
+                    this.character.stats.derivedCharacteristics[5].cyber += (amount *-1);        
                     this.character.cyber.cyberorgans += amount;
                     break;    
                 
@@ -1562,7 +1678,9 @@ export default {
                         idx1 = this.findWithAttr(this.character.skills.items, "name", "Resilience");
                         this.character.cyber.resilienceBonus -= 1;
                     }
-                                        
+                             
+                    //always remove a strain threshold. 
+                    this.character.stats.derivedCharacteristics[5].cyber += (amount *-1);           
                     this.character.cyber.cyberorgans += amount;
                     break;    
                                 
@@ -1575,7 +1693,9 @@ export default {
                         this.character.cyber.woundThresholdBonus = 0;
                         this.character.stats.derivedCharacteristics[6].cyber -= 2;
                     }
-                                        
+                             
+                    //always remove a strain threshold. 
+                    this.character.stats.derivedCharacteristics[5].cyber += (amount *-1);           
                     this.character.cyber.eyes += amount;
                     break;   
             }
@@ -1592,7 +1712,7 @@ export default {
 
             if (amount > 0) {
                 this.addItemAbility(gear, gear.category);
-                if (idx1 >= 0) this.adjustSkillRank(skill1, amount, true, true);                
+                if (idx1 >= 0) this.adjustSkillRank(skill1, amount, true, true);   
                 if (idx1 >= 0) this.cleanSkillLegend(skill1, idx1);
                 if (idx2 >= 0) this.adjustSkillRank(skill2, amount, true, true);
                 if (idx2 >= 0) this.cleanSkillLegend(skill2, idx2);
@@ -1614,11 +1734,12 @@ export default {
             var idx = -1;
 
             for (var b = 0; b < bonusIdx.length; b++) {
-                switch (bonusIdx[b].bonusType) {
+                switch (this.character.equipment.bonusItems[bonusIdx[b]].bonusType) {
                     case "Weapon":
-                        idx = this.findWithAttr(this.character.equipment.weapons.items, "id", bonusIdx[b].bonusItemId)
+                        idx = this.findWithAttr(this.character.equipment.weapons.items, "id", this.character.equipment.bonusItems[bonusIdx[b]].bonusItemId)
                         
                         var weapon = this.character.equipment.weapons.items[idx];
+                        this.character.equipment.weapons.items[idx].quantity += 1;
 
                         var inventoryItem = {
                             uuid: this.getUniqueId(),
@@ -1637,7 +1758,8 @@ export default {
                             wornEncumbrance: weapon.encumbrance,
                             rarity: weapon.rarity,
                             qualities: weapon.qualities,
-                            source: adjustedSource,
+                            source: "riot armor",
+                            equipped: false,
                             isMainHand: false,
                             isOffHand: false,
                             isWorn: false,
@@ -1645,12 +1767,14 @@ export default {
                         };
 
                         this.character.equipment.inventory.items.push(inventoryItem);
+
                         break;
 
                     case "Armor":
                         idx = this.findWithAttr(this.character.equipment.armor.items, "id", bonusIdx[b].bonusItemId)
                         
                         var armor = this.character.equipment.armor.items[idx];
+                        this.character.equipment.armor.items[idx].quantity += 1;
 
                         var inventoryItem = {
                             uuid: this.getUniqueId(),
@@ -1668,6 +1792,7 @@ export default {
                             rarity: armor.rarity,
                             qualities: armor.qualities,
                             source : adjustedSource,
+                            equipped: false,
                             isMainHand: false,
                             isOffHand: false,
                             isWorn: false,
@@ -1681,6 +1806,7 @@ export default {
                         idx = this.findWithAttr(this.character.equipment.gear.items, "id", bonusIdx[b].bonusItemId)
                         
                         var gear = this.character.equipment.gear.items[idx];
+                        this.character.equipment.gear.items[idx].quantity += 1;
 
                         var inventoryItem = {
                             uuid: this.getUniqueId(),
@@ -1698,6 +1824,7 @@ export default {
                             rarity: armor.rarity,
                             qualities: armor.qualities,
                             source : adjustedSource,
+                            equipped: false,
                             isMainHand: false,
                             isOffHand: false,
                             isWorn: false,
@@ -1706,27 +1833,145 @@ export default {
                         
                         this.character.equipment.inventory.items.push(inventoryItem);
                         break;
-                }                
+                }     
+            }
+            return true;
+        },
+        generateQualityDisplay: function (itm) {
+            
+            var qualityDisplay = '';
+
+            if (typeof itm.qualities != "undefined") {
+                for (var j = 0; j < itm.qualities.length; j++) {
+                    if (itm.qualities[j].value > 0) {
+                        if (["auto-fire", "knockdown", "inferior", "stun", "superior", "sunder"].indexOf(itm.qualities[j].name) >= 0) {
+                            qualityDisplay += itm.qualities[j].name + ', ';       
+                        } else {
+                            qualityDisplay += itm.qualities[j].name + ' ' + itm.qualities[j].value + ', ';
+                        }
+                    }
+                }
+            } else {
+                return qualityDisplay;
             }
 
-        },      
+            qualityDisplay = qualityDisplay.slice(0, -2);
+
+            return qualityDisplay;
+        },
+        applywornItemQualityModifier: function (item, amount) {
+
+            //turn on various talents.
+            var i = this.findWithAttr(this.character.equipment.inventory.items, "uuid", item.uuid);
+            var itm = this.character.equipment.inventory.items[i];
+
+            for (var t = 0; t < this.character.talents.wornItemQualityModifier.length; t++) {
+                var w = this.character.talents.wornItemQualityModifier[t];
+                //this is to apply specific bonuses to items already worn (if any) right away.
+                if (w.active && itm.equipped) {  
+                    this.character.equipment.inventory.items[i].qualities[w.qidx].value += ((w.value * w.mod) * amount);
+                    //not passing itm because the value changed.
+                    this.character.equipment.inventory.items[i].qualityDisplay = this.generateQualityDisplay(this.character.equipment.inventory.items[i]);       
+                }
+            }            
+            
+            return true;
+        },
+        applywornItemDerivedCharacteristicModifier: function (item, amount) {
+
+            //turn on various talents.
+            var i = this.findWithAttr(this.character.equipment.inventory.items, "uuid", item.uuid);
+            var itm = this.character.equipment.inventory.items[i];
+
+            //turn on various talents if they meet a condition
+            for (var t = 0; t < this.character.talents.wornItemDerivedCharacteristicModifier.length; t++) {
+                var w = this.character.talents.wornItemDerivedCharacteristicModifier[t];
+                if (w.active && itm.equipped) {
+                    if (itm[w.attr] >= w.min) this.character.stats.derivedCharacteristics[w.idx].equipment += (w.value * amount);
+                }
+            }
+            
+            return true;
+        },
+        applywornItemAttributeModifier: function (item, amount) {
+
+            //turn on various talents.
+            var i = this.findWithAttr(this.character.equipment.inventory.items, "uuid", item.uuid);
+            var itm = this.character.equipment.inventory.items[i];
+
+            for (var t = 0; t < this.character.talents.wornItemAttributeModifier.length; t++) {
+                var w = this.character.talents.wornItemAttributeModifier[t];     
+                if (w.active && itm.equipped) {
+                    this.character.equipment.inventory.items[i][w.attr] += ((w.value * w.mod) * amount);
+                }
+            }
+            
+            return true;
+
+        },
+        applywornItemDerivedCharacteristic: function (item, amount) {
+
+            //turn on various talents.
+            var i = this.findWithAttr(this.character.equipment.inventory.items, "uuid", item.uuid);
+            var itm = this.character.equipment.inventory.items[i];
+
+            for (var t = 0; t < this.character.talents.wornItemDerivedCharacteristic.length; t++) {
+                var w = this.character.talents.wornItemDerivedCharacteristic[t];
+                if (itm.equipped) this.character.stats.derivedCharacteristics[w.idx].equipment += (w.value * amount);
+            }
+            
+            return true;
+
+        },
+        applyEquippedBonuses: function (item, amount) {
+
+            var i = this.findWithAttr(this.character.equipment.inventory.items, "uuid", item.uuid);
+            var itm = this.character.equipment.inventory.items[i];
+
+            //remove to a special characteristic
+            for (var sc = 0; sc < this.character.equipment.specialCharacteristic.length; sc++) {
+                
+                if (this.character.equipment.specialCharacteristic[sc].id === itm.id && itm.equipped) {
+                    this.character.stats.characteristics[this.character.equipment.specialCharacteristic[sc].stat].equipment += this.character.equipment.specialCharacteristic[sc].value;
+                }
+            }
+            return true;
+        },
+        applyEquipmentBonus: function (item, amount) {
+
+            this.applyEquippedBonuses(item, amount);
+
+            this.applywornItemQualityModifier(item, amount);
+
+            this.applywornItemDerivedCharacteristicModifier(item, amount);
+
+            this.applywornItemAttributeModifier(item, amount);
+
+            this.applywornItemDerivedCharacteristic(item, amount);
+
+            return true;
+        },
         adjustInventory: function (inv) {
             //this automatically unequips items to
             var index = this.findWithAttr(this.character.equipment.inventory.items, "uuid", inv.uuid);
             var itemIndex = -1;
             
             if (index > 0) {
-                this.character.equipment.inventory.items[index].isMainHand = false;
+
+                this.applyEquipmentBonus(inv, -1);               
+
+                this.character.equipment.inventory.items[index].equipped = false;
+                this.character.equipment.inventory.items[index].isMainHand = false;                
                 this.character.equipment.inventory.items[index].isOffHand = false;
                 this.character.equipment.inventory.items[index].isWorn = false;
                 this.character.equipment.inventory.items[index]._rowVariant = null;
-            }
 
-            for(var i = 0; i < this.character.equipment.loadOut.length; i++) {
-                if (this.character.equipment.loadOut[i] === inv.uuid) this.character.equipment.loadOut[i].uuid = "000";
+                for(var i = 0; i < this.character.equipment.loadOut.length; i++) {  
+                    if (this.character.equipment.loadOut[i] === inv.uuid) this.character.equipment.loadOut[i].uuid = "000";
+                }
+                
+                this.removeItemAbility(inv, inv.category);
             }
-
-            this.removeItemAbility(inv, inv.category);
 
             switch (inv.category) {
                 case "Armor":
@@ -1743,10 +1988,12 @@ export default {
                     itemIndex = this.findWithAttr(this.character.equipment.gear.items, "id", inv.id);
                     this.character.equipment.gear.items[itemIndex].quantity -= 1;
                     this.character.equipment.money += this.character.equipment.gear.items[itemIndex].value;
+                    this.adjustGearAugments(this.character.equipment.gear.items[itemIndex], -1);
                     break;
-            }
-            
+            }        
+
             this.character.equipment.inventory.items.splice(index,1);
+            this.assignDerivedCharacteristics();   
             return true;
         },
         addItemAbility: function (item, category) {
@@ -1787,11 +2034,11 @@ export default {
                 for(var x = 0; x < abilityIndices.length; x++) {
 
                     var ability = this.abilityData[abilityIndices[x]];
-
+                    
                     var abilityIndex = this.findWithAttr(this.character.abilities, "source", ability.source);    
-
+                    
                     //only add it once                    
-                    if (abilityIndex <= 0 && quantity === 1) {
+                    if (abilityIndex < 0 && quantity === 1) {
                         this.character.abilities.push(ability);
                         this.abilityTableRows = this.character.abilities.length;
                     }     
@@ -1803,32 +2050,33 @@ export default {
         removeItemAbility: function (item, category) {
              var index = 0;
              var quantity = 0;
+             var removalFlag = false;
              var toSplice = [];
 
             switch (category) {
                 case "Skill":
                     index = this.findWithAttr(this.character.skills.items, "id", item.id);
-                    quantity = this.character.skills.items[index].ranks;
+                    removalFlag = this.character.skills.items[index].ranks < 1 ? true : false;
                     break;
                 case "Talent":
                     index = this.findWithAttr(this.character.talents.items, "id", item.id);
-                    quantity = this.character.talents.items[index].ranks;
+                    removalFlag = this.character.talents.items[index].ranks < 1 ? true : false;
                     break;
                 case "Weapon":
                     index = this.findWithAttr(this.character.equipment.weapons.items, "id", item.id);
-                    quantity = this.character.equipment.weapons.items[index].quantity;
+                    if (!item.isMainHand && !item.isOffHand) removalFlag = true;
                     break;
                 case "Armor":
                     index = this.findWithAttr(this.character.equipment.armor.items, "id", item.id);
-                    quantity = this.character.equipment.armor.items[index].quantity;
+                    if (item.isWorn === false) removalFlag = true;
                     break;
                 case "Gear":
                     index = this.findWithAttr(this.character.equipment.gear.items, "id", item.id);
-                    quantity  = this.character.equipment.gear.items[index].quantity;
+                    removalFlag = this.character.equipment.gear.items[index].quantity < 1 ? true : false;       
                     break;
                 case "Race":
                     //always delete.
-                    quantity = 1;
+                    removalFlag = true;
                     break;
             }
 
@@ -1841,29 +2089,30 @@ export default {
                 var abilityIndex = this.findWithAttr(this.character.abilities, "source", ability.source);
 
                 //remove this ability if its the only one.
-                if (quantity === 0) {
+                if (removalFlag) {
                     toSplice.push(abilityIndex);
                 }
             }
 
             for (var ai = 0; ai < toSplice.length; ai++) {
-                this.character.abilities.splice(ai);
+                this.character.abilities.splice(toSplice[ai]);
                 this.abilityTableRows = this.character.abilities.length;
             }
 
             return true;
-        },        
+        },
         addToLoadout: function (inv, category) {
             //this automatically unequips items too.
             this.inventoryAlert = false;
-
+            
             if (inv.isWorn === true && category === "Armor") return false;
 
             if (category === "Gear" && inv.subCategory != "Cybernetics") return false;
                              
             var index = this.findWithAttr(this.character.equipment.inventory.items, "uuid", inv.uuid);
             
-            if (category === "Gear" && inv.subCategory === "Cybernetics") {
+            if (category === "Gear" && inv.subCategory === "Cybernetics") {                
+                this.character.equipment.inventory.items[index].equipped = true;
                 this.adjustCyber(inv, 1);
                 return true;
             }
@@ -1875,23 +2124,24 @@ export default {
                     var targetIndex = this.findWithAttr(this.character.equipment.inventory.items, "uuid", this.character.equipment.loadOut[0].uuid);
                     
                     if (targetIndex >= 0) {
-                        this.character.equipment.inventory.items[targetIndex].isWorn = false;
-                        this.character.equipment.inventory.items[targetIndex]._rowVariant = null;
-                        this.removeFromLoadOut(this.character.equipment.inventory.items[targetIndex]);        
+                        this.removeFromLoadOut(this.character.equipment.inventory.items[targetIndex]);
                     }   
 
                 }
-                    this.character.equipment.loadOut[0].uuid = inv.uuid;
-                    this.character.equipment.inventory.items[index].isWorn = true;
-                    this.character.equipment.inventory.items[index]._rowVariant = "warning";
-                    this.addItemAbility(inv, "Armor");
-                    //add bonus defense and soak (aid = armor id)
-                    var aid = this.findWithAttr(this.character.equipment.armor.items, "id", inv.id);
-                    
-                    this.character.stats.derivedCharacteristics[4].equipment += this.character.equipment.armor.items[aid].soak;
-                    //melee and ranged defense.
-                    this.character.stats.derivedCharacteristics[3].equipment += this.character.equipment.armor.items[aid].defense;
-                    this.character.stats.derivedCharacteristics[2].equipment += this.character.equipment.armor.items[aid].defense;
+
+                this.character.equipment.loadOut[0].uuid = inv.uuid;
+                this.character.equipment.inventory.items[index].isWorn = true;
+                this.character.equipment.inventory.items[index].equipped = true;
+                this.character.equipment.inventory.items[index]._rowVariant = "warning";
+                this.addItemAbility(inv, "Armor");
+                //add bonus defense and soak (aid = armor id)
+                var aid = this.findWithAttr(this.character.equipment.armor.items, "id", inv.id);
+               
+                this.character.stats.derivedCharacteristics[4].equipment += this.character.equipment.armor.items[aid].soak;
+                //melee and ranged defense.
+                this.character.stats.derivedCharacteristics[3].equipment += this.character.equipment.armor.items[aid].defense;
+                this.character.stats.derivedCharacteristics[2].equipment += this.character.equipment.armor.items[aid].defense;
+                this.applyEquipmentBonus(this.character.equipment.inventory.items[index], 1);
 
             } else {
 
@@ -1899,15 +2149,11 @@ export default {
                     //remove the main hand / off hand with the entry.
                     if (this.character.equipment.loadOut[1].uuid != "000") {
                         var targetIndex = this.findWithAttr(this.character.equipment.inventory.items, "uuid", this.character.equipment.loadOut[1].uuid);
-                        this.character.equipment.inventory.items[targetIndex].isMainHand = false;
-                        this.character.equipment.inventory.items[targetIndex]._rowVariant = null;
                         this.removeFromLoadOut(this.character.equipment.inventory.items[targetIndex]);
                     }
                     
                     if (this.character.equipment.loadOut[2].uuid != "000") {
-                        var targetIndex = this.findWithAttr(this.character.equipment.inventory.items, "uuid", this.character.equipment.loadOut[2].uuid);
-                        this.character.equipment.inventory.items[targetIndex].isOffHand = false;         
-                        this.character.equipment.inventory.items[targetIndex]._rowVariant = null;           
+                        var targetIndex = this.findWithAttr(this.character.equipment.inventory.items, "uuid", this.character.equipment.loadOut[2].uuid);    
                         this.removeFromLoadOut(this.character.equipment.inventory.items[targetIndex]);
                     }
                                        
@@ -1915,22 +2161,23 @@ export default {
                     this.character.equipment.loadOut[2].uuid = inv.uuid;
                     this.character.equipment.inventory.items[index].isOffHand = true;
                     this.character.equipment.inventory.items[index].isMainHand = true;
+                    this.character.equipment.inventory.items[index].equipped = true;
                     this.character.equipment.inventory.items[index]._rowVariant = "primary";
+                    this.applyEquipmentBonus(this.character.equipment.inventory.items[index], 1);
                     this.addItemAbility(inv, "Weapon");
 
                 } else if (this.character.equipment.loadOut[1].uuid === this.character.equipment.loadOut[2].uuid && this.character.equipment.loadOut[1].uuid != "000")  {
                     //so this replacing a 2 hander, defaulting to main hand.
                     var targetIndex = this.findWithAttr(this.character.equipment.inventory.items, "uuid", this.character.equipment.loadOut[1].uuid);
-                    this.character.equipment.inventory.items[targetIndex].isWorn = false;
-                    this.character.equipment.inventory.items[targetIndex]._rowVariant = null;
                     this.removeFromLoadOut(this.character.equipment.inventory.items[targetIndex]);
 
                     this.character.equipment.loadOut[1].uuid = inv.uuid;
                     this.character.equipment.loadOut[2].uuid = "000";
                     this.character.equipment.inventory.items[index].isMainHand = true;
+                    this.character.equipment.inventory.items[index].equipped = true;
                     this.character.equipment.inventory.items[index]._rowVariant = "primary";
-
                     this.character.equipment.loadOutOrder = 2;
+                    this.applyEquipmentBonus(this.character.equipment.inventory.items[index], 1);
 
                 } else if (this.character.equipment.loadOut[1].uuid != this.character.equipment.loadOut[2].uuid)  {
                     //replaces main hand / off hand - depending on clicking order.   
@@ -1938,13 +2185,12 @@ export default {
                     //changes off hand to main hand, main hand to off hand.
                     var currentHand = this.character.equipment.loadOutOrder;
                     var changeHand = this.character.equipment.loadOutOrder === 1 ? 2 : 1;
+                    var didRemove = false;
 
                     if (this.character.equipment.loadOut[currentHand].uuid != "000") {
                         var targetIndex = this.findWithAttr(this.character.equipment.inventory.items, "uuid", this.character.equipment.loadOut[currentHand].uuid);
-                        this.character.equipment.inventory.items[targetIndex].isOffHand = false;
-                        this.character.equipment.inventory.items[targetIndex].isMainHand = false;
-                        this.character.equipment.inventory.items[targetIndex]._rowVariant = null;
-                        this.removeFromLoadOut(this.character.equipment.inventory.items[targetIndex]);
+                        didRemove = true;
+                        this.removeFromLoadOut(this.character.equipment.inventory.items[targetIndex]);          
                     }
 
                     if (this.character.equipment.loadOut[changeHand].uuid != "000") {
@@ -1957,27 +2203,34 @@ export default {
                     //resort order, 2 is off hand. 1 is main hand.     
                     if (this.character.equipment.loadOutOrder === 2) {
                         this.character.equipment.inventory.items[index].isOffHand = true;
+                        this.character.equipment.inventory.items[index].equipped = true;
                         this.character.equipment.inventory.items[index]._rowVariant = "info";
                         this.character.equipment.loadOutOrder = 1;
-                        this.character.equipment.loadOut[2].uuid = inv.uuid;   
+                        this.character.equipment.loadOut[2].uuid = inv.uuid;  
                     } else  {
                         this.character.equipment.inventory.items[index].isMainHand = true;
+                        this.character.equipment.inventory.items[index].equipped = true;
                         this.character.equipment.inventory.items[index]._rowVariant = "primary";
                         this.character.equipment.loadOutOrder = 2;
                         this.character.equipment.loadOut[1].uuid = inv.uuid;
                     }
 
+                    // if something was removed, and then replaced, let's go ahead and apply equipment Bonus to the item.
+                    
+                    if (didRemove) this.applyEquipmentBonus(this.character.equipment.inventory.items[index], 1);                
+
                 } else if (this.character.equipment.loadOut[1].uuid === "000" && this.character.equipment.loadOut[2].uuid === "000")  {
                     this.character.equipment.loadOut[1].uuid = inv.uuid;    
                     this.character.equipment.inventory.items[index].isMainHand = true;
+                    this.character.equipment.inventory.items[index].equipped = true;
                     this.character.equipment.inventory.items[index]._rowVariant = "primary";
                     this.character.equipment.loadOutOrder = 2;
-
+                    this.applyEquipmentBonus(this.character.equipment.inventory.items[index], 1);
                 }
             
-                this.addItemAbility(inv, "Weapon");
-            }              
-
+                this.addItemAbility(inv, "Weapon");   
+            }
+            
             //defensive
             if(this.character.equipment.inventory.items[index].qualities[7].value > 0) {
                 this.character.stats.derivedCharacteristics[2].equipment += this.character.equipment.inventory.items[index].qualities[7].value;
@@ -1988,28 +2241,21 @@ export default {
                 this.character.stats.derivedCharacteristics[3].equipment += this.character.equipment.inventory.items[index].qualities[8].value;
             }
 
-            this.applyEquipmentBonus(inv, 1);
-            this.assignDerivedCharacteristics();    
-
+            this.assignDerivedCharacteristics();
             return true;    
         },
         removeFromLoadOut: function (inv, category) {
             //this automatically unequips items too.
             this.inventoryAlert = false;  
-            
             var index = this.findWithAttr(this.character.equipment.inventory.items, "uuid", inv.uuid);
-
+            
             if (index >= 0 ) {
                 
-                var actuallyLoaded = this.character.equipment.inventory.items[index].isMainHand; 
+                if (this.character.equipment.inventory.items[index].equipped) {
+                    //first because of it looks at mainhand etc
+                    this.applyEquipmentBonus(this.character.equipment.inventory.items[index], -1);
 
-                if (!actuallyLoaded) actuallyLoaded = this.character.equipment.inventory.items[index].isOffHand;
-
-                if (!actuallyLoaded) actuallyLoaded = this.character.equipment.inventory.items[index].isWorn;
-
-                if (!actuallyLoaded) actuallyLoaded = this.character.equipment.inventory.items[index].isInstalled;
-
-                if (actuallyLoaded) {
+                    this.character.equipment.inventory.items[index].equipped = false;
                     this.character.equipment.inventory.items[index].isMainHand = false;
                     this.character.equipment.inventory.items[index].isOffHand = false;
                     this.character.equipment.inventory.items[index].isWorn = false;
@@ -2017,39 +2263,32 @@ export default {
                     this.character.equipment.inventory.items[index]._rowVariant = null;
 
                     if (inv.category != "Gear") {
-                        
                         //defensive
                         if (this.character.equipment.inventory.items[index].qualities[7].value) {
                             this.character.stats.derivedCharacteristics[2].equipment -= this.character.equipment.inventory.items[index].qualities[7].value;
-                        }
-            
+                        } 
                         //deflective
                         if (this.character.equipment.inventory.items[index].qualities[8].value > 0) {
                             this.character.stats.derivedCharacteristics[2].equipment -= this.character.equipment.inventory.items[index].qualities[8].value;
                         }
+                        
+                        if (inv.category === "Armor") {
+                            //add bonus defense and soak (aid = armor id)
+                            var aid = this.findWithAttr(this.character.equipment.armor.items, "id", inv.id);                            
+                            this.character.stats.derivedCharacteristics[4].equipment -= this.character.equipment.armor.items[aid].soak;
+                            this.character.stats.derivedCharacteristics[2].equipment -= this.character.equipment.armor.items[aid].defense;
+                            this.character.stats.derivedCharacteristics[3].equipment -= this.character.equipment.armor.items[aid].defense;
+                        }
 
-                        this.applyEquipmentBonus(inv, -1);
-
-                    } else if (inv.category === "Gear") {
-                        this.adjustGearAugments(inv, -1);
-
-                    } else if (inv.category === "Armor") {
-                        //add bonus defense and soak (aid = armor id)
-                        var aid = this.findWithAttr(this.character.equipment.armor.items, "id", inv.id);
-                        this.character.stats.derivedCharacteristics[4] -= this.character.equipment.armor.items[aid].soak;
-                        this.character.stats.derivedCharacteristics[2] -= this.character.equipment.armor.items[aid].defense;
-                        this.character.stats.derivedCharacteristics[3] -= this.character.equipment.armor.items[aid].defense;  
-
-                        this.applyEquipmentBonus(inv, -1);
+                    } else {
+                        this.adjustGearAugments(inv, -1);                    
                     }
-
                 }
 
                 for(var i = 0; i < this.character.equipment.loadOut.length; i++) {
                     if (this.character.equipment.loadOut[i] === inv.uuid) this.character.equipment.loadOut[i].uuid = "000";
-                }
+                }  
 
-                this.removeItemAbility(inv, inv.category);
                 this.assignDerivedCharacteristics();
             }
             
@@ -2059,7 +2298,7 @@ export default {
 
             this.inventoryAlert = false;
 
-            if (amount > 0) this.grantFreeItem(armor);
+            if (amount > 0) this.grantFreeItem(armor.id);
 
             var adjustedQuantity = armor.quantity + amount;
 
@@ -2099,6 +2338,7 @@ export default {
                     rarity: armor.rarity,
                     qualities: armor.qualities,
                     source : adjustedSource,
+                    equipped: false,
                     isMainHand: false,
                     isOffHand: false,
                     isWorn: false,
@@ -2113,14 +2353,14 @@ export default {
                 //find possible items carried around.
                 var inventoryIndices = this.getAllIndexesWithAttr(this.character.equipment.inventory.items, "id", armor.id);
 
-                if (inventoryIndices >= 0) {        
+                if (inventoryIndices >= 0) {
                     //find first inventory item and remove it.                    
                     this.removeFromLoadOut(armor);
                     this.removeItemAbility(armor, "armor");
                     this.character.equipment.inventory.items.splice(inventoryIndices[0], 1);
                     this.inventoryTableRows = this.character.equipment.inventory.items.length;
-                }              
-            }           
+                }   
+            }
                 
             //refund money and adjust quantity.
             this.character.equipment.money = bonus ? this.character.equipment.money : adjustedMoney;
@@ -2132,7 +2372,7 @@ export default {
 
             this.inventoryAlert = false;
             
-            if (amount > 0) this.grantFreeItem(gear);
+            if (amount > 0) this.grantFreeItem(gear.id);
 
             var adjustedQuantity = gear.quantity + amount;
 
@@ -2172,6 +2412,7 @@ export default {
                     rarity: gear.rarity,
                     qualities: gear.qualities,
                     source: adjustedSource,
+                    equipped: false,
                     isMainHand: false,
                     isOffHand: false,
                     isWorn: false,
@@ -2181,20 +2422,22 @@ export default {
                 //Adjust inventory.
                 this.character.equipment.inventory.items.push(inventoryItem);
                 this.inventoryTableRows = this.character.equipment.inventory.items.length;
-            
+                            
             } else if (amount === -1) {
                 //find possible items carried around.
                 var inventoryIndices = this.getAllIndexesWithAttr(this.character.equipment.inventory.items, "id", gear.id);
 
-                if (inventoryIndices >= 0) {        
+                if (inventoryIndices >= 0) {
                     //find first inventory item and remove it.                    
                     this.removeFromLoadOut(gear);
                     this.removeItemAbility(gear, "gear");
                     this.character.equipment.inventory.items.splice(inventoryIndices[0], 1);
-                    this.inventoryTableRows = this.character.equipment.inventory.items.length;
-                }              
-            }           
-                
+                    this.inventoryTableRows = this.character.equipment.inventory.items.length;       
+                }
+            }
+            
+            this.adjustGearAugments(gear, amount);
+
             //refund money and adjust quantity.
             this.character.equipment.money = bonus ? this.character.equipment.money : adjustedMoney;
             this.character.equipment.gear.items[gearIndex].quantity = adjustedQuantity;   
@@ -2205,7 +2448,7 @@ export default {
 
             this.inventoryAlert = false;
 
-            if (amount > 0) this.grantFreeItem(weapon);
+            if (amount > 0) this.grantFreeItem(weapon.id);
 
             var adjustedQuantity = weapon.quantity + amount;
 
@@ -2231,7 +2474,7 @@ export default {
 
                 var inventoryItem = {
                     uuid: this.getUniqueId(),
-                    id: weapon.id,   
+                    id: weapon.id,
                     name: weapon.name,
                     damage: weapon.damage,
                     critical: weapon.critical,
@@ -2247,6 +2490,7 @@ export default {
                     rarity: weapon.rarity,
                     qualities: weapon.qualities,
                     source: adjustedSource,
+                    equipped: false,
                     isMainHand: false,
                     isOffHand: false,
                     isWorn: false,
@@ -2261,14 +2505,14 @@ export default {
                 //find possible items carried around.
                 var inventoryIndices = this.getAllIndexesWithAttr(this.character.equipment.inventory.items, "id", weapon.id);
 
-                if (inventoryIndices >= 0) {        
+                if (inventoryIndices >= 0) {
                     //find first inventory item and remove it.                    
                     this.removeFromLoadOut(weapon);
                     this.removeItemAbility(weapon, "weapon");
                     this.character.equipment.inventory.items.splice(inventoryIndices[0], 1);
                     this.inventoryTableRows = this.character.equipment.inventory.items.length;
-                }              
-            }           
+                }   
+            }
                 
             //refund money and adjust quantity.
             this.character.equipment.money = bonus ? this.character.equipment.money : adjustedMoney;
@@ -2315,7 +2559,7 @@ export default {
                         adjustedTier = 5;
                     } else {
                         adjustedTier += 1;
-                    }                    
+                    }         
                     var talentLimitIndex = adjustedTier - 1;
                     var adjustedTierDisplay = "Tier: " + adjustedTier;
                     tiersOwned = this.character.talents.limitations[talentLimitIndex].owned + amount;
@@ -2329,7 +2573,6 @@ export default {
 
                 } else if (adjustedTier > 1 && tiersOwned > this.character.talents.limitations[talentLimitIndex].limit) {
                     this.illegalLogic = "You can not buy into this tier.";
-                    console.log(talent.name, talent.id, talent.tier);
                     this.xpAlert = true;
                     return false;
                 
@@ -2372,7 +2615,7 @@ export default {
                         }     
                     }
 
-                    this.addItemAbility(talent, "talent");
+                    this.addItemAbility(talent, "Talent");
 
                     //update accordingly.
                     this.specialTalent(talent, amount);
@@ -2433,7 +2676,7 @@ export default {
 
                                     this.character.talents.transactionLog.splice(t,1);  
 
-                                    if (this.spendXP(xpSpent, "talent")) {                                            
+                                    if (this.spendXP(xpSpent, "talent")) {    
                                         this.removeItemAbility(talent, "talent");
                                         //update accordingly.
                                         this.specialTalent(talent, amount);
@@ -2442,11 +2685,11 @@ export default {
 
                                         this.assignDerivedCharacteristics();
                                         return true;
-                                    }                                
-                                }             
+                                    }    
+                                }  
                             }
                         }
-                    }                                       
+                    }
                 }
             }
             return true;
@@ -2491,14 +2734,14 @@ export default {
                                 this.character.talents.limitations[2].owned += 1;      
                                 this.character.talents.limitations[3].owned += 1;  
                             }      
-                            if (rawTier === 2) {                
+                            if (rawTier === 2) {
                                 this.character.talents.limitations[1].owned += 1;  
                                 this.character.talents.limitations[2].owned += 1;  
                                 this.character.talents.limitations[3].owned += 1;  
                             }      
                             if (rawTier === 3) {
                                 this.character.talents.limitations[2].owned += 1;
-                            }                                    
+                            }        
                             this.character.talents.limitations[3].owned += 1;
                             break;
                         case 5:
@@ -2507,16 +2750,16 @@ export default {
                                 this.character.talents.limitations[1].owned += 1;  
                                 this.character.talents.limitations[2].owned += 1;  
                                 this.character.talents.limitations[3].owned += 1;  
-                            }                            
-                            if (rawTier === 2) {                
+                            }
+                            if (rawTier === 2) {
                                 this.character.talents.limitations[1].owned += 1;  
                                 this.character.talents.limitations[2].owned += 1;  
                                 this.character.talents.limitations[3].owned += 1;  
-                            }                            
+                            }
                             if (rawTier === 3) {
                                 this.character.talents.limitations[2].owned += 1;  
                                 this.character.talents.limitations[3].owned += 1;  
-                            }                            
+                            }
                             if (rawTier === 4) {
                                 this.character.talents.limitations[3].owned += 1;  
                             }   
@@ -2572,7 +2815,7 @@ export default {
                 idx = [];
                 //get all skills that weren't corrupted.
                 for (var i = 0; i < this.character.skills.transactionLog.length; i++) {
-                    if (this.character.skills.transactionLog[i].id === skillIds[s]) {         
+                    if (this.character.skills.transactionLog[i].id === skillIds[s]) { 
                         idx.push(i);
                     }
                 }
@@ -2626,7 +2869,7 @@ export default {
             this.character.xp.totalSpent -= xpRefund;
 
             return true;
-        },        
+        },
         cleanTalents: function (clearRacial = false, clearBonus = false) {
             
             var xpSpent = 0;
@@ -2685,7 +2928,7 @@ export default {
 
             this.setTalentTieringLimits();
             return true;
-        },        
+        },
         addTalentSkillTransaction: function (skill) {
             
             var log = {
@@ -2713,6 +2956,27 @@ export default {
             return true;
 
         },
+        applyEquipmentTalentBonus: function (category, amount) {
+            
+            for (var i = 0; i < this.character.equipment.inventory.items.length; i++) {
+                switch (category) {
+                    case "applywornItemQualityModifier":  
+                        this.applywornItemQualityModifier(this.character.equipment.inventory.items[i], amount);
+                        break;
+                    case "applywornItemDerivedCharacteristicModifier":
+                        this.applywornItemDerivedCharacteristicModifier(this.character.equipment.inventory.items[i], amount);  
+                        break;     
+                    case "applywornItemAttributeModifier":
+                        this.applywornItemAttributeModifier(this.character.equipment.inventory.items[i], amount);  
+                        break;     
+                    case "applywornItemDerivedCharacteristic":
+                        this.applywornItemDerivedCharacteristic(this.character.equipment.inventory.items[i], amount);  
+                        break;       
+                }
+            }
+
+            return true;
+        },
         specialTalent: function (talent, amount) {
             //if talents requrire a selection of skills to become a careers, the indexof return loop handles this.
             var indexOfReturn = this.sheet.talentSkillCareerTalents.map(function (e) { return e.id }).indexOf(talent.id);
@@ -2727,7 +2991,6 @@ export default {
                     var tName = talent.name;
                     this.sheet.talentSkillCareerBonus.push(tName);
                 }
-
 
                 if (amount > 0) {
                     //turn on
@@ -2781,7 +3044,7 @@ export default {
                                 this.character.skills.items[s].talentChoiceSelection = true;
                                 this.character.skills.items[s].modifyingTalent = talent.name;
 
-                            }                            
+                            }
                         }
                         this.activeTalentCareerPoints = limit;
                     } else {
@@ -2835,81 +3098,88 @@ export default {
                 if (this.character.talents.specialCharacteristicTrigger[f].id === talent.id) this.triggerTalentCharacteristics(talent, amount);
             }
 
-            //adjust qualities.
+            //adjust qualities to a worn item.
             for (var zz = 0; zz < this.character.talents.wornItemQualityModifier.length; zz++) {
-                var w = this.character.talents.wornItemQualityModifier[zz];
                 //don't turn on bonuses right away, this is only if its equipped, worn or whatever.
-                if (w.id === talent.id) {    
-                    if (w.active && amount > 0) {
-                        //ranked talents increase values.
-                        this.character.talents.wornItemQualityModifier[zz].value += amount;
-                    
-                    } else if (!w.active && amount > 0) {
-                        //increase to one and turn on.
-                        this.character.talents.wornItemQualityModifier[zz].value += amount;
+                if (this.character.talents.wornItemQualityModifier[zz].id === talent.id) {
+                    if (amount > 0) {
+                        //if its an incremental ranked talent, reset it then add the new bonuses. Note that talent.rank wasn't updated from adjustTalentTiering
+                        
+                        if (talent.ranks > 0) this.applyEquipmentTalentBonus('applywornItemQualityModifier', -1);
+
                         this.character.talents.wornItemQualityModifier[zz].active = true;
-
-                    } else if (amount < 1) {
                         this.character.talents.wornItemQualityModifier[zz].value += amount;
+                        this.applyEquipmentTalentBonus('applywornItemQualityModifier', amount);
+
+                    } else if (amount < 1 && this.character.talents.wornItemQualityModifier[zz].value < 2)  {
+                        //needs to be active to detract bonus before marking it as inactive and 0.
+                        this.applyEquipmentTalentBonus('applywornItemQualityModifier', amount);
                         this.character.talents.wornItemQualityModifier[zz].active = false;
+                        this.character.talents.wornItemQualityModifier[zz].value += amount;
+                        
+                    } else {
+                        this.character.talents.wornItemQualityModifier[zz].value += amount;
+                        this.applyEquipmentTalentBonus('applywornItemQualityModifier', amount);
                     }
-
-                    this.applyImmediateTalentEquipmentBonus(talent, amount);
                 }
             }
 
             //adjust derived stat modifiers.
-            for (var b = 0; b < this.character.talents.wornItemDerivedCharacteristic.length; b++) {
-                var w = this.character.talents.wornItemDerivedCharacteristic[b];
+            for (var b = 0; b < this.character.talents.wornItemDerivedCharacteristicModifier.length; b++) {
                 //don't turn on bonuses right away, this is only if its equipped, worn or whatever.
-                if (w.id === talent.id) {    
-                    if (w.active && amount > 0) {
+                if (this.character.talents.wornItemDerivedCharacteristicModifier[b].id === talent.id) {
+                    if (amount > 0) {
+                        //if its an incremental ranked talent, reset it then add the new bonuses. Note that talent.rank wasn't updated from adjustTalentTiering
+                        if (talent.ranks > 0) this.applyEquipmentTalentBonus('applywornItemDerivedCharacteristicModifier', -1);
+
                         //ranked talents increase values.
-                        this.character.talents.wornItemDerivedCharacteristic[b].value += amount;
-                    
-                    } else if (!w.active && amount > 0) {
+                        this.character.talents.wornItemDerivedCharacteristicModifier[b].active = true;
+                        this.character.talents.wornItemDerivedCharacteristicModifier[b].value += amount;
+                        this.applyEquipmentTalentBonus('applywornItemDerivedCharacteristicModifier', amount);
+
+                    } else if (amount < 1 && this.character.talents.wornItemDerivedCharacteristicModifier[b].value < 2) {
                         //increase to one and turn on.
-                        this.character.talents.wornItemDerivedCharacteristic[b].value += amount;
-                        this.character.talents.wornItemDerivedCharacteristic[b].active = true;
-
-                    } else if (amount < 1) {
-                        this.character.talents.wornItemDerivedCharacteristic[b].value += amount;
-                        this.character.talents.wornItemDerivedCharacteristic[b].active = false;
+                        this.applyEquipmentTalentBonus('applywornItemDerivedCharacteristicModifier', amount);
+                        this.character.talents.wornItemDerivedCharacteristicModifier[b].active = false;
+                        this.character.talents.wornItemDerivedCharacteristicModifier[b].value += amount;
+                        
+                    } else {                        
+                        this.character.talents.wornItemDerivedCharacteristicModifier[b].value += amount;
+                        this.applyEquipmentTalentBonus('applywornItemDerivedCharacteristicModifier', amount);
                     }
-
-                    this.applyImmediateTalentEquipmentBonus(talent, amount);
                 }
             }
 
             //adjust derived stat modifiers.
-            for (var a = 0; a < this.character.talents.wornItemAttributeModifier.length; a++) {
-                var w = this.character.talents.wornItemAttributeModifier[a];
+            for (var a = 0; a < this.character.talents.wornItemAttributeModifier.length; a++) {                
                 //don't turn on bonuses right away, this is only if its equipped, worn or whatever.
-                if (w.id === talent.id) {    
-                    if (w.active && amount > 0) {
-                        //ranked talents increase values.
-                        this.character.talents.wornItemAttributeModifier[a].value += amount;
-                    
-                    } else if (!w.active && amount > 0) {
-                        //increase to one and turn on.
-                        this.character.talents.wornItemAttributeModifier[a].value += amount;
+                if (this.character.talents.wornItemAttributeModifier[a].id === talent.id) {
+                    if (amount > 0) {
+                        //if its an incremental ranked talent, reset it then add the new bonuses. Note that talent.rank wasn't updated from adjustTalentTiering
+                        if (talent.ranks > 0) this.applyEquipmentTalentBonus('applywornItemAttributeModifier', -1);
+
                         this.character.talents.wornItemAttributeModifier[a].active = true;
-
-                    } else if (amount < 1) {
                         this.character.talents.wornItemAttributeModifier[a].value += amount;
-                        this.character.talents.wornItemAttributeModifier[a].active = false;
-                    }
+                        this.applyEquipmentTalentBonus('applywornItemAttributeModifier', amount);
 
-                    this.applyImmediateTalentEquipmentBonus(talent, amount);
+                    } else if (amount < 1 && this.character.talents.wornItemAttributeModifier[a].value < 2) {
+                        //increase to one and turn on.
+                        this.applyEquipmentTalentBonus('applywornItemAttributeModifier', amount);
+                        this.character.talents.wornItemAttributeModifier[a].active = false;
+                        this.character.talents.wornItemAttributeModifier[a].value += amount;
+
+                    } else {
+                        this.character.talents.wornItemAttributeModifier[a].value += amount;
+                        this.applyEquipmentTalentBonus('applywornItemAttributeModifier', amount);
+                    }                   
                 }
             }
 
             //grant immediate bonuses..
-            for (var y = 0; y < this.character.talents.wornItemDerivedCharacteristicModifier.length; y++) {
-                var w = this.character.talents.wornItemDerivedCharacteristicModifier[y];
+            for (var y = 0; y < this.character.talents.wornItemDerivedCharacteristic.length; y++) {
                 //don't turn on bonuses right away, this is only if its equipped, worn or whatever.
-                if (w.id === talent.id) {
-                    this.character.stats.derivedCharacteristics[w.idx].bonus += (amount * w.value);
+                if (this.character.talents.wornItemDerivedCharacteristic[y].id === talent.id) {                    
+                    this.applyEquipmentTalentBonus('applywornItemDerivedCharacteristic', amount);
                 }
             }
 
@@ -2918,7 +3188,7 @@ export default {
                 var w = this.character.talents.specialDerivedCharacteristic[z];
                 //don't turn on bonuses right away, this is only if its equipped, worn or whatever.
                 if (w.id === talent.id) {
-                    this.character.stats.derivedCharacteristics[w.idx].bonus += (amount * w.value);
+                    this.character.stats.derivedCharacteristics[w.idx].bonus += (w.value * amount);
                 }
             }
 
@@ -2949,9 +3219,9 @@ export default {
                 return false;
             }
 
-            if (bonus) {    
+            if (bonus) {
                 //seeing how race needs to be picked first, you can have an instance where a racial is already a bonus, if so, refund 5xp.                
-                if (adjustedRank > 1 && skill.source === "racial") {                    
+                if (adjustedRank > 1 && skill.source === "racial") {
                     this.illegalLogic = "Hey so you already have " + skill.name + " as a racial, here's 5 xp.";
                     this.xpAlert = true;
                     this.bonusXp += 5;
@@ -3016,7 +3286,7 @@ export default {
                     //usual cost.                    
                     xpSpent = adjustedRank * 5;
 
-                } else {    
+                } else {
                     xpSpent = (adjustedRank * 5) + 5; 
                 }
             }
@@ -3092,17 +3362,13 @@ export default {
                 return false;
             }
             
-            if (skill.gearAugmented && fromLoadout) {
-                skill.gearAugmented = false;
-            }
-            
             if (skill.gearAugmented && !fromLoadout) {
                 this.illegalLogic = "Take off your gear before you take away from this skill.";
                 this.xpAlert = true;
                 return false;
             }
 
-            if (skill.isRacial) {
+            if (skill.isRacial && adjustedRank === 0) {
                 this.illegalLogic = "Can't take away from a default racial skill.";
                 this.xpAlert = true;
                 return false;
@@ -3154,11 +3420,15 @@ export default {
                         this.character.skills.items[s].modifyingTalent = this.character.skills.transactionLog[l].modifyingTalent;
                         this.character.skills.items[s].gearAugmented = this.character.skills.transactionLog[l].gearAugmented;
 
+                        //if its skill 0, turn it off.
                         if (adjustedRank < 1 && this.character.skills.items[s].gearAugmented) this.character.skills.items[s].gearAugmented = false;
+
+                        //this came from gear, so let's turn it off. 
+                        if (skill.gearAugmented && fromLoadout) this.character.skills.items[s].gearAugmented = false;
 
                         if (adjustedRank < 1 ) this.character.skills.items[s].isFirstFour = false;
 
-                        if (skill.isRacialChoice) {            
+                        if (skill.isRacialChoice) {
                             skill.isRacialChoice = false;
                             skill.isRacialSelection = true;
                             skill.source = "racial possibility";
@@ -3179,7 +3449,7 @@ export default {
 
                         logArray.push(l);
                     } 
-                }             
+                }  
             }
 
             if(this.spendXP(xpSpent, "skill")) {
@@ -3193,7 +3463,7 @@ export default {
 
                 //if there are actions assoicated with the skill, get em out of here.
                 this.removeItemAbility(skill, "skill");
-            }           
+            }
 
             return true;     
         },
@@ -3259,7 +3529,7 @@ export default {
                                 this.character.abilities.splice(abilityIndex, 1);
                                 this.abilityTableRows = this.character.abilities.length;
                             }
-                        }                    
+                        }         
 
                     }
 
@@ -3291,7 +3561,7 @@ export default {
                 { Output: "^", isBonus: false, isCareer: true, isRacial: false, isFirstFour: false, isRacialChoice: false, isRacialSelection: true, racialChoiceMade: true, GT: 0 },
 
                 { Output: "", isBonus: false, isCareer: false, isRacial: false, isFirstFour: false, isRacialChoice: false, isRacialSelection: false, racialChoiceMade: true, GT: 0 },
-                { Output: "", isBonus: false, isCareer: false, isRacial: false, isFirstFour: false, isRacialChoice: false, isRacialSelection: true, racialChoiceMade: false, GT: 0 },
+                { Output: "", isBonus: false, isCareer: false, isRacial: false, isFirstFour: false, isRacialChoice: false, isRacialSelection: true, racialChoiceMade: true, GT: 0 },
                 { Output: "", isBonus: false, isCareer: false, isRacial: false, isFirstFour: false, isRacialChoice: false, isRacialSelection: false, racialChoiceMade: true, GT: 0 },
                 
                 { Output: "", isBonus: false, isCareer: false, isRacial: false, isFirstFour: false, isRacialChoice: false, isRacialSelection: true, racialChoiceMade: true, GT: 0 },
@@ -3326,13 +3596,14 @@ export default {
                         break;
                     }
             }
-        },    
+        }, 
         cleanAllSkillLegends : function () {
             for(var s = 0; s < this.character.skills.items.length; s++) {
                 this.cleanSkillLegend(this.character.skills.items[s], s);
             }
+            return true;
         },
-        adjustcSkillCareer: function (skill, amount) {
+        adjustSkillCareer: function (skill, amount) {
             
             var index = this.findWithAttr(this.character.skills.items, "id", skill.id);
             var excludePool = false;
@@ -3361,7 +3632,7 @@ export default {
                     //see if it is an exclusionary pool.
                     } else if (!this.sheet.talentSkillCareerOptions[o].shouldInclue && this.sheet.talentSkillCareerOptions[o].skillName != skill.name) {
                         break;
-                    }                    
+                    }         
                 }
             }
                                     
@@ -3401,7 +3672,7 @@ export default {
             this.cleanSkillLegend(this.character.skills.items[index], index);
 
             return true;
-        },    
+        }, 
         assignCareerSkills: function () {
         
             for(var i = 0; i < this.careerData.length; i++) {
@@ -3421,14 +3692,14 @@ export default {
                 }
             }    
 
-
             return true;        
         },
         clearOutCharaceristicBonus: function () {
             for (var c = 0; c < this.character.stats.characteristics.length; c++) {
                 this.character.stats.characteristics[c].purchased = 0;
-            }            
-        },        
+            }
+            return true;
+        },
         adjustCharacteristic: function (characteristic, amount, bonus=false) {
             
             this.characteristicAlert = false;
@@ -3496,7 +3767,7 @@ export default {
             
             //clear talent
             var t = this.findWithAttr(this.character.talents.transactionLog, "source", "bonus");
-            if (t >= 0 ) {                
+            if (t >= 0 ) {
                 var id = this.character.talents.transactionLog[t].id;
                 var tIndex = this.findWithAttr(this.character.talents.items, "id", id);
                 
@@ -3522,18 +3793,17 @@ export default {
                     if (inv.category === "Gear") {
                         
                         var gIndex = this.findWithAttr(this.character.equipment.gear.items, "id", inv.id);
-                        var quantiyAdjusted = this.character.equipment.gear.items[gIndex].quantity - 1;                        
+                        var quantiyAdjusted = this.character.equipment.gear.items[gIndex].quantity - 1;    
                         this.character.equipment.gear.items[gIndex].quantity = quantiyAdjusted < 0 ? 0 : quantiyAdjusted;
                     }
                     
-                    if (inv.category === "Weapon") {                        
+                    if (inv.category === "Weapon") {
                         var wIndex = this.findWithAttr(this.character.equipment.weapons.items, "id", inv.id);
                         var quantiyAdjusted = this.character.equipment.weapons.items[wIndex].quantity - 1;
                         this.character.equipment.weapons.items[wIndex].quantity = quantiyAdjusted < 0 ? 0 : quantiyAdjusted; 
                     }
                                         
-                    if (inv.category === "Armor") {
-                        console.log(inv.id);
+                    if (inv.category === "Armor") {                        
                         var aIndex = this.findWithAttr(this.character.equipment.armor.items, "id", inv.id);
                         var quantiyAdjusted = this.character.equipment.armor.items[aIndex].quantity - 1;
                         this.character.equipment.armor.items[aIndex].quantity = quantiyAdjusted < 0 ? 0 : quantiyAdjusted; 
@@ -3566,12 +3836,23 @@ export default {
 
             return true;
         },
+        randomRollRaceCareer: function () {
+            var r = 1 + Math.floor(Math.random() * (this.sheet.selectableRaces.length - 1));
+            var c = 1 + Math.floor(Math.random() * (this.sheet.selectableCareers.length - 1));
+            this.selectedRace = this.sheet.selectableRaces[r].value;
+            this.selectedCareer = this.sheet.selectableCareers[c];
+            return true;
+        },
+        randomRollFaction : function () {
+            var f = 1 + Math.floor(Math.random() * (this.sheet.possibleFactions.length - 1));
+            this.selectedFaction = this.sheet.possibleFactions[f];
+        },
         randomRollASFluff : function () {
             var asFluffData = require('../data/asrandom.json');
 
             var raceRand = 1 + Math.floor(Math.random() * 4);
             var careerRand = 1 + Math.floor(Math.random() * 16);
-            var factionRand = Math.floor(Math.random() * 6); 
+            var factionRand = 1 + Math.floor(Math.random() * 6); 
                         
             for(var a7 = 0; a7 < asFluffData.length; a7++) {
 
@@ -3587,8 +3868,7 @@ export default {
                     this.selectedCareer = this.careerData[ci].name;
                 } 
 
-                if (asFluffData[a7].type === "faction" && asFluffData[a7].rollValue === factionRand){
-                    console.log("factionRand=" + factionRand);
+                if (asFluffData[a7].type === "faction" && asFluffData[a7].rollValue === factionRand) {
                     this.selectedFaction = asFluffData[a7].outcomeId;
                 } 
             }
@@ -3672,7 +3952,7 @@ export default {
                 for (var x = 0; x < this.character.talents.specialCharacteristic.length; x++) {
                     var s = this.character.talents.specialCharacteristic[x]    
                     //by the time it reaches here, the rank has already decreased or increased.                    
-                    if (s.id === talent.id && s.rank === talent.ranks + 1 && s.rank > 0) {                        
+                    if (s.id === talent.id && s.rank === talent.ranks + 1 && s.rank > 0) {
                         this.character.talents.specialCharacteristic[x].rank = 0;
                         this.character.talents.specialCharacteristic[x].active = talent.ranks > 0 ? true : false;
                         this.character.stats.characteristics[this.character.talents.specialCharacteristic[x].idx].bonus += (this.character.talents.specialCharacteristic[x].value * amount);
@@ -3759,6 +4039,7 @@ export default {
             return true;
         },
         assignRacialSkills: function () {
+
             this.character.skills.racialChoiceMade = true;
 
             if (this.selectedRace === '') return false;
@@ -3781,9 +4062,9 @@ export default {
                 case "R11":
                     this.character.skills.freebees = 2;
                     break;
-                default: 
-                    if (this.raceData[ri].racialSkills.tag === "gain") {
-                        var sidx = this.findWithAttr(this.character.skills.items, "name", racialSkillBonus[0]);
+                default:
+                    if (this.raceData[ri].racialSkills.tag === "gain") {  
+                        var sidx = this.findWithAttr(this.character.skills.items, "name", this.raceData[ri].racialSkillBonus[0].toString());    
                         var skill = this.character.skills.items[sidx];
                         this.character.skills.items[sidx].ranks = 1; 
                         this.character.skills.items[sidx].isRacial = true;     
@@ -3815,9 +4096,9 @@ export default {
                         this.character.skills.racialChoiceMade = false;
 
                         for (var x = 0; x < this.raceData[ri].racialSkillBonus.length; x++ ) {
+                            
                             var sidx = this.findWithAttr(this.character.skills.items, "name", this.raceData[ri].racialSkillBonus[x]);
                             
-                            this.character.skills.items[sidx].isRacialChoice = false;
                             this.character.skills.items[sidx].isRacialSelection = true;
                             this.character.skills.items[sidx].source = "racial possibility";
                         }
@@ -3833,7 +4114,7 @@ export default {
                 
                 if(this.raceData[i].id === this.selectedRace) {
 
-                    for (var c = 0; c < this.character.stats.characteristics.length; c++) {        
+                    for (var c = 0; c < this.character.stats.characteristics.length; c++) {
                         this.character.stats.characteristics[c].starting = this.raceData[i].characteristics[c].value;
                     }
 
@@ -4872,7 +5153,7 @@ export default {
                     }
 
                     this.sheet.selectableRaces.push(r);
-                }            
+                } 
             };
 
             this.sheet.selectableRaces = this.sheet.selectableRaces.sort();
@@ -4920,7 +5201,7 @@ export default {
                     var s = {
                         id: this.skillData[i].id,
                         name: this.skillData[i].skill,
-                        ranks: 0,    
+                        ranks: 0, 
                         description: this.skillData[i].description,
                         abilityId: "",
                         source: "out-of-the-box",
@@ -4938,7 +5219,7 @@ export default {
                     };          
                                     
                     skillList.push(s);
-                }                
+                }     
             }
             
             this.character.skills.items = skillList;
@@ -4976,25 +5257,8 @@ export default {
                         if (typeof this.armorData[aidx].specialAbilities != "undefined") {
                             armor.hasSpecials = true;
                         }
-                        
-                        if (typeof this.armorData[aidx].qualities != "undefined") {
-                            for(var j = 0; j < this.armorData[aidx].qualities.length; j++) {
-                                armor.hasQualities = true;
-
-                                if  (this.armorData[aidx].qualities[j].value > 0) {
-                                    if (["auto-fire", "knockdown", "reinforced", "sunder", "stun damage"].indexOf(this.armorData[aidx].qualities[j].name) >= 0) {
-                                        //Don't give a rating.
-                                        armor.qualityText += this.armorData[aidx].qualities[j].name  + ", "
-                                    } else {        
-                                        armor.qualityText += this.armorData[aidx].qualities[j].name + " " + this.armorData[aidx].qualities[j].value + ", ";
-                                    }
-                                }
-                            }
-                        }
-                        
-                        if (this.armorData[aidx].qualities.length > 0) {
-                            armor.qualityText = armor.qualityText.slice(0, -2);
-                        }
+                                                                    
+                        armor.qualityText = this.generateQualityDisplay(armor);
 
                         armorList.push(armor);
                     }
@@ -5010,25 +5274,8 @@ export default {
                         if (typeof this.weaponData[widx].specialAbilities != "undefined") {
                             weapon.hasSpecials = true;
                         }
-                        
-                        if (typeof this.weaponData[widx].qualities != "undefined") {
-                            for(var j = 0; j < this.weaponData[widx].qualities.length; j++) {
-                                weapon.hasQualities = true;
 
-                                if  (this.weaponData[widx].qualities[j].value > 0) {
-                                    if (["auto-fire", "knockdown", "reinforced", "sunder", "stun damage"].indexOf(this.weaponData[widx].qualities[j].name) >= 0) {
-                                        //Don't give a rating.
-                                        weapon.qualityText += this.weaponData[widx].qualities[j].name  + ", "
-                                    } else {        
-                                        weapon.qualityText += this.weaponData[widx].qualities[j].name + " " + this.weaponData[widx].qualities[j].value + ", ";
-                                    }
-                                }
-                            }
-                        }
-                        
-                        if (this.weaponData[widx].qualities.length > 0) {
-                            weapon.qualityText = weapon.qualityText.slice(0, -2);
-                        }
+                        weapon.qualityText = this.generateQualityDisplay(weapon);
 
                         weaponsList.push(weapon);
                     }
@@ -5050,6 +5297,7 @@ export default {
             }
 
             this.character.equipment.armor.items = armorList;
+            this.armorTableRows = this.character.equipment.armor.items.length;
             
             this.character.equipment.weapons.items = weaponsList;
             this.weaponShopTableRows = this.character.equipment.weapons.items.length;
@@ -5077,20 +5325,20 @@ export default {
                     if( x >= 0) {
                         var t = {
                             id: this.talentData[x].id,
-                            name: this.talentData[x].name,       
+                            name: this.talentData[x].name,    
                             tierDisplay: this.talentData[x].tierDisplay,
                             rankDisplay: this.talentData[x].rankedDisplay,
                             activation: this.talentData[x].activation,
                             originalTier: this.talentData[x].tier,
-                            tier: this.talentData[x].tier,                         
+                            tier: this.talentData[x].tier,              
                             ranked: this.talentData[x].isRanked,
                             description: this.talentData[x].alteredText,
                             sourcing: this.talentData[x].sourcing,
                             tags: this.talentData[x].tags, 
-                            sourceLegend: " ",    
+                            sourceLegend: " ", 
                                 
                             originalTier: this.talentData[x].originalTier,
-                            source: "out-of-the-box",             
+                            source: "out-of-the-box",  
                             ranks: 0
                         };
 
@@ -5134,114 +5382,10 @@ export default {
                 }
             }
             return true;
-        },
-        applyEquipmentBonus: function (item, amount) {
-
-            //turn on various talents.
-            var i = this.findWithAttr(this.character.equipment.inventory.items, "id", item.id);
-
-            for (var t = 0; t < this.character.talents.wornItemQualityModifier.length; t++) {
-                var w = this.character.talents.wornItemQualityModifier[t];
-                //this is to apply specific bonuses to items already worn (if any) right away.
-                if (w.active) this.character.equipment.inventory.items[i].qualities[w.qidx].value += (w.value * w.mod) * amount;
-            }
-
-            //turn on various talents if they meet a condition
-            for (var t = 0; t < this.character.talents.wornItemDerivedCharacteristicModifier.length; t++) {
-                var w = this.character.talents.wornItemDerivedCharacteristicModifier[t];     
-                if (w.active) {
-                    if (item[w.attr] >= w.min) this.character.stats.derivedCharacteristics[w.idx].equipment += (w.value * amount);
-                }
-            }
-
-            //turn on various talents.
-            for (var t = 0; t < this.character.talents.wornItemAttributeModifier.length; t++) {
-                var w = this.character.talents.wornItemAttributeModifier[t];     
-                if (w.active) this.character.equipment.inventory.items[i][w.attr] += (w.value * w.mod) * amount;
-            }
-
-            //turn on various talents.
-            for (var t = 0; t < this.character.talents.wornItemDerivedCharacteristic.length; t++) {
-                var w = this.character.talents.wornItemDerivedCharacteristic[t];
-                if (w.active) this.character.stats.derivedCharacteristics[w.idx].equipment += (w.value * amount);
-            }
-
-            return true;
-        },
-        applyImmediateTalentEquipmentBonus: function (talent, amount) {
-
-            //turn on various talents.
-            for (var t = 0; t < this.character.talents.wornItemQualityModifier.length; t++) {
-                var w = this.character.talents.wornItemQualityModifier[t];
-                //this is to apply specific bonuses to items already worn (if any) right away.
-                if ( (w.active && amount > 0) || (!w.active && amount < 1 && talent.id === w.id) ) {
-                    
-                    for (var i = 0; i < this.character.equipment.inventory.items.length; i++) {
-                        var itm = this.character.equipment.inventory.items[i];
-
-                        if ( (itm.category === "Weapon" && (itm.isMainHand || itm.isOffHand)) 
-                        || ( itm.category ==="Armor" && itm.isWorn) ) {
-                            //modify the quality. mod of -1, amount of -1 is a 1, so add back a value if needed.
-                            this.character.equipment.inventory.items[i].qualities[w.qidx].value += (w.value * w.mod) * amount;
-                        }
-                    }
-                }
-            }
-
-            //turn on various talents if they meet a condition
-            for (var t = 0; t < this.character.talents.wornItemDerivedCharacteristicModifier.length; t++) {
-                var w = this.character.talents.wornItemDerivedCharacteristicModifier[t];
-                //this is to apply specific bonuses to items already worn (if any) right away.
-                if ( (w.active && amount > 0) || (!w.active && amount < 1 && talent.id === w.id) ) {
-                    
-                    for (var i = 0; i < this.character.equipment.inventory.items.length; i++) {
-                        var itm = this.character.equipment.inventory.items[i];
-
-                        if ( (itm.category === "Weapon" && (itm.isMainHand || itm.isOffHand)) 
-                        || ( itm.category ==="Armor" && itm.isWorn) && itm.category === w.category) {
-                            if (itm[w.attr] >= w.min) this.character.stats.derivedCharacteristics[w.idx].equipment += (w.value * amount);    
-                        }
-                    }
-                }
-            }
-
-            //turn on various talents.
-            for (var t = 0; t < this.character.talents.wornItemAttributeModifier.length; t++) {
-                var w = this.character.talents.wornItemAttributeModifier[t];
-                //this is to apply specific bonuses to items already worn (if any) right away.
-                if ( (w.active && amount > 0) || (!w.active && amount < 1 && talent.id === w.id) ) {
-                    
-                    for (var i = 0; i < this.character.equipment.inventory.items.length; i++) {
-                        var itm = this.character.equipment.inventory.items[i];
-
-                        if ( (itm.category === "Weapon" && (itm.isMainHand || itm.isOffHand)) 
-                        || ( itm.category ==="Armor" && itm.isWorn) && itm.category === w.category) {   
-                            //modify the quality. mod of -1, amount of -1 is a 1, so add back a value if needed.
-                            this.character.equipment.inventory.items[i][w.attr] += (w.value * w.mod) * amount;
-                        }
-                    }
-                }
-            }
-
-            //turn on various talents.
-            for (var t = 0; t < this.character.talents.wornItemDerivedCharacteristic.length; t++) {
-                var w = this.character.talents.wornItemDerivedCharacteristic[t];
-                //this is to apply specific bonuses to items already worn (if any) right away.
-                if ( (w.active && amount > 0) || (!w.active && amount < 1 && talent.id === w.id) ) {
-                    
-                    for (var i = 0; i < this.character.equipment.inventory.items.length; i++) {
-                        var itm = this.character.equipment.inventory.items[i];
-
-                        if ( (itm.category === "Weapon" && (itm.isMainHand || itm.isOffHand)) 
-                        || ( itm.category ==="Armor" && itm.isWorn) && itm.category === w.category) {   
-                            //modify the quality. mod of -1, amount of -1 is a 1, so add back a value if needed.
-                            this.character.stats.derivedCharacteristics[w.idx].equipment += (w.value * amount); 
-                        }
-                    }
-                }
-            }
-
-            return true;
+        },     
+        onArmorFilter (filteredItems) {
+            this.armorTableRows = filteredItems.length;
+            this.armorShopPage = 1; 
         },
         onTalentFilter (filteredItems) {
             this.talentTableRows = filteredItems.length;
@@ -5282,6 +5426,7 @@ export default {
         this.weaponData = require('../data/weapons.json');
         this.gearData = require('../data/gear.json');     
         this.itemGenreData = require('../data/itemGenres.json');
+        this.abilityData = require('../data/abilities.json');
 
         //add default
         var altRules = this.selectedAlternativeRules;

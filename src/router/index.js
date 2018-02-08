@@ -29,6 +29,8 @@ import Talents from '@/components/talents'
 import Transmogrify from '@/components/transmogrifySpell'
 import Wherearetheynow from '@/components/wherearetheynow'
 
+import Amazon from '@/components/amazon'
+
 
 Vue.use(Router)
 
@@ -62,6 +64,8 @@ export default new Router({
         { path: '/fluff/factions', component: Factions },
         { path: '/fluff/protagonists', component: Protagonists },
         { path: '/fluff/wherearetheynow', component: Wherearetheynow },
+
+        { path: '/support/Amazon', component: Amazon }
 
     ]
 })
