@@ -4,7 +4,15 @@
             <b-row id="gen"> 
                 <b-col>   
                     <b-card class = "text-left" bg-variant="light" header-bg-variant="dark" header-text-variant="light">
-                        <div slot="header"> <h1> <strong> Player Character Generator </strong> </h1> </div>
+                        <div slot="header">                             
+                            <b-container>
+                                <b-row class="text-left">
+                                    <b-col> <h2> <strong> Player Character Generator </strong> </h2> </b-col> 
+                                    <!--b-col class="text-right"> <b-check v-model="isCharacterCreation"> Character Creation </b-check></b-col-->
+                                </b-row>
+                            </b-container>
+                        </div>
+
                         <b-container class="text-center">
                             <b-row>
                                 <b-col> <b-btn variant="success" @click="showExportModal" size="lg">Export Character as json </b-btn> </b-col>
@@ -21,6 +29,11 @@
                                 </b-col>
                             </b-row>                                
                         </b-container>
+                        
+                        <div slot="footer">                                                        
+                                Found a bug? Want a feature? <b-link href="https://docs.google.com/forms/d/e/1FAIpQLSddb8NUEBrb1d9iboiG4__y_Q62gFF3OrAtc5PjeysOilpe_g/viewform?usp=sf_link"> Report it </b-link>                             
+                        </div>
+
                     </b-card>
                 </b-col>
             </b-row>
@@ -651,6 +664,7 @@ export default {
             sortKey: 'tier', 
             sortDesc: false,
 
+            isCharacterCreation: true,
             skillTableMode: true,
             talentTableMode: true,
             armorShopMode: true,
@@ -938,9 +952,9 @@ export default {
                     gear: {
                         items: []
                     },
-                    money: 55555500,
+                    money: 500,
                     inventory: {
-                        items: [],
+                        items: []
                     }         
                 },
             }     
